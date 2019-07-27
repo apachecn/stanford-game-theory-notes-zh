@@ -8,7 +8,7 @@
 >
 > [斯坦福博弈论课程视频coursera版 **Game Theory-2** ](https://www.coursera.org/learn/game-theory-2)
 >
-> [斯坦福博弈论课程视频bilibili版 **Game Theory I ** 待上传 ]()
+> [斯坦福博弈论课程视频bilibili版 **Game Theory-I**待上传 ]()
 >
 > [斯坦福博弈论课程视频bilibili版 **Game Theory-2**待上传 ]()
 >
@@ -81,7 +81,7 @@ Computer Science 计算机科学
 
 ### 其他
 
-*   认领翻译和项目进度-地址: <https://github.com/apachecn/stanford-game_theory-notes-zh/issues/1>
+*   认领翻译和项目进度-地址: <https://github.com/viviwong/stanford-game_theory-notes-zh/issues/1>
 *   在我们的 [apachecn/stanford-game_theory-notes-zh](https://github.com/apachecn/stanford-game_theory-notes-zh) github 上提 issue.
 *   发邮件到 Email: `861787932@qq.com`.
 *   在我们的 [组织学习交流群](https://www.ibooker.org.cn/organization/) 中联系群主/管理员即可.
