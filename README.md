@@ -8,7 +8,7 @@
 >
 > [斯坦福博弈论课程视频coursera版 **Game Theory-2** ](https://www.coursera.org/learn/game-theory-2)
 >
-> [斯坦福博弈论课程视频bilibili版 **Game Theory I **待上传 ]()
+> [斯坦福博弈论课程视频bilibili版 **Game Theory I ** 待上传 ]()
 >
 > [斯坦福博弈论课程视频bilibili版 **Game Theory-2**待上传 ]()
 >
@@ -33,7 +33,7 @@
 
 ### 课程信息
 
-斯坦福 **Game Theory** 为斯坦福博弈论课程，课程分两部分，**Game Theory I: An Introduction** 博弈论介绍，一共7周课程20个小时，[斯坦福博弈论1课程信息](http://www.game-theory-class.org/game-theory-I.html)；**Game Theory II: Advanced Applications** 博弈论高级应用，一共四次课程15个小时，[斯坦福博弈论2课程信息](http://www.game-theory-class.org/game-theory-II.html)，[coursera](https://www.coursera.org/learn/game-theory-1)中的最新课程为2016年8月10号录制
+斯坦福 **Game Theory** 为斯坦福博弈论课程，课程分两部分，**Game Theory I: An Introduction** 博弈论介绍，一共八周课程20个小时，[斯坦福博弈论1课程信息](http://www.game-theory-class.org/game-theory-I.html)；**Game Theory II: Advanced Applications** 博弈论高级应用，一共五次课程15个小时，[斯坦福博弈论2课程信息](http://www.game-theory-class.org/game-theory-II.html)，[coursera](https://www.coursera.org/learn/game-theory-1)中的最新课程为2016年8月10号录制
 
 ### 讲师
 
@@ -50,6 +50,7 @@ Economics 经济学
 ![](<https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-instructor-photos.s3.amazonaws.com/00/cd8ba07b28c43a775f7b04ea0ce2ba/Kevin-Leyton-Brown14-square-150.jpg?auto=format%2Ccompress&dpr=2&w=200&h=200>)
 
 [**Kevin Leyton-Brown**](http://cs.ubc.ca/~kevinlb)
+
 University of British Columbia 英属哥伦比亚大学
 
 Professor 教授
@@ -59,6 +60,7 @@ Computer Science 计算机科学
 ![](https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-instructor-photos.s3.amazonaws.com/25/002de5447b361051438576f26cf14f/Yoav-cropped-1.jpg?auto=format%2Ccompress&dpr=2&w=200&h=200)
 
 [**Yoav Shoham**](http://robotics.stanford.edu/~shoham/)
+
 Stanford University 斯坦福大学
 
 Professor 教授
