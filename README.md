@@ -81,8 +81,8 @@ Computer Science 计算机科学
 
 ### 其他
 
-*   认领翻译和项目进度-地址: <https://github.com/viviwong/stanford-game_theory-notes-zh/issues/1>
-*   在我们的 [apachecn/stanford-game_theory-notes-zh](https://github.com/apachecn/stanford-game_theory-notes-zh) github 上提 issue.
+*   认领翻译和项目进度-地址: https://github.com/apachecn/stanford-game-theory-notes-zh/issues/1
+*   在我们的 [apachecn/stanford-game-theory-notes-zh](https://github.com/apachecn/stanford-game-theory-notes-zh) github 上提 issue.
 *   发邮件到 Email: `861787932@qq.com`.
 *   在我们的 [组织学习交流群](https://www.ibooker.org.cn/organization/) 中联系群主/管理员即可.
 
