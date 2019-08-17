@@ -10,7 +10,10 @@
 >
 > [斯坦福博弈论课程视频bilibili版 **Game Theory-I**待上传 ]()
 >
-> [斯坦福博弈论课程视频bilibili版 **Game Theory-2**待上传 ]()
+> [斯坦福博弈论课程视频bilibili版 **Game Theory-2** ](https://www.bilibili.com/video/av63545278)
+>
+> * 由于不可知的原因 [GT02-1-01](https://www.bilibili.com/video/av63543124/)在这个链接看
+> * GT02-2-01需要fq观看,点击youtube和coursera地址观看 
 >
 > 协议：[CC BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/)
 >
