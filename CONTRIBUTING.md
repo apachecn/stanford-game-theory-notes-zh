@@ -15,7 +15,6 @@
 ## 章节列表
 
 +   博弈论 I
-    +   Introductory Video
     +   1-1 Game Theory Intro - TCP Backoff
     +   1-2 Self-Interested Agents and Utility Theory
     +   1-3 Defining Games
@@ -50,7 +49,6 @@
     +   4-9 Mixed and Behavioral Strategies
     +   4-10 Incomplete Information in the Extensive Form: Beyond Subgame Perfection
 +   博弈论 II
-    +   An Introduction to the Course
     +   1.1 Social Choice: Taste
     +   1.2 Social Choice: Voting Scheme
     +   1.3 Paradoxical Outcomes
