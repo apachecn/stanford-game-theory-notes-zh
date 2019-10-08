@@ -1,0 +1,810 @@
+﻿1
+00:00:00,030 --> 00:00:02,259
+so this video is going to describe an
+所以这段视频将描述一个
+
+2
+00:00:02,459 --> 00:00:04,209
+important property that some games have
+一些游戏具有的重要属性
+
+3
+00:00:04,410 --> 00:00:09,310
+which is called dominant strategies to
+这称为主导策略
+
+4
+00:00:09,509 --> 00:00:12,460
+begin with I'm going to start using this
+首先，我将开始使用这个
+
+5
+00:00:12,660 --> 00:00:14,050
+word strategy that we haven't defined
+我们尚未定义的单词策略
+
+6
+00:00:14,250 --> 00:00:15,970
+yet and indeed you're not going to get a
+但是，实际上您不会得到
+
+7
+00:00:16,170 --> 00:00:19,179
+definition for a little while so to
+定义了一段时间
+
+8
+00:00:19,379 --> 00:00:21,909
+begin with when I use the word strategy
+从我使用策略一词开始
+
+9
+00:00:22,109 --> 00:00:24,579
+I want you to understand this just to
+我想让你理解这只是为了
+
+10
+00:00:24,778 --> 00:00:27,699
+mean choosing some action this name in
+意思是选择这个名称的动作
+
+11
+00:00:27,899 --> 00:00:29,228
+the end is going to be what we call a
+最终将是我们所说的
+
+12
+00:00:29,428 --> 00:00:31,478
+pure strategy and it's going to turn out
+纯粹的策略，结果将是
+
+13
+00:00:31,678 --> 00:00:32,919
+that there's another kind of strategy
+还有另一种策略
+
+14
+00:00:33,119 --> 00:00:34,419
+that I haven't told you about yet and
+我还没告诉过你
+
+15
+00:00:34,619 --> 00:00:36,549
+everything in this lecture is also going
+这堂课的一切也在进行
+
+16
+00:00:36,750 --> 00:00:38,108
+to apply to that kind of strategy but
+适用于这种策略，但
+
+17
+00:00:38,308 --> 00:00:39,788
+it's not going to matter for you right
+对你来说没关系
+
+18
+00:00:39,988 --> 00:00:43,149
+now so let's just understand strategy to
+现在，让我们只了解策略
+
+19
+00:00:43,350 --> 00:00:49,628
+mean choice of action so let's let Si
+意味着选择行动，让我们让Si 
+
+20
+00:00:49,829 --> 00:00:52,928
+and si prime be two different strategies
+和si prime是两种不同的策略
+
+21
+00:00:53,128 --> 00:00:57,029
+that player I could take and let's let
+我可以接受的球员，让我们
+
+22
+00:00:57,229 --> 00:01:01,029
+capital S - I be the set of all of the
+大写S-我是所有
+
+23
+00:01:01,229 --> 00:01:03,009
+other things that everybody else could
+其他人可以做的其他事情
+
+24
+00:01:03,210 --> 00:01:07,599
+do I'm going to define two different
+我要定义两个不同的
+
+25
+00:01:07,799 --> 00:01:10,349
+definitions of what it means to say that
+说那意味着什么的定义
+
+26
+00:01:10,549 --> 00:01:17,409
+si strip dominates s prime I so first we
+ si strip主导s素数，所以首先
+
+27
+00:01:17,609 --> 00:01:19,259
+have the notion of strict dominance and
+有严格的统治地位的概念， 
+
+28
+00:01:19,459 --> 00:01:24,039
+here I'm going to say that si strictly
+在这里我要严格地说
+
+29
+00:01:24,239 --> 00:01:27,278
+dominates s prime I if it's the case
+如果是的话，我会控制素数I 
+
+30
+00:01:27,478 --> 00:01:30,819
+that for every other strategy profile of
+对于其他所有战略概况
+
+31
+00:01:31,019 --> 00:01:32,829
+the other agents in other words for
+换句话说，其他代理商
+
+32
+00:01:33,030 --> 00:01:34,869
+every other thing that they could do for
+他们可以做的所有其他事情
+
+33
+00:01:35,069 --> 00:01:36,609
+every other joint set of actions that
+其他所有联合行动
+
+34
+00:01:36,810 --> 00:01:39,730
+they could take the utility that player
+他们可以利用那个球员
+
+35
+00:01:39,930 --> 00:01:45,849
+I gets when he plays si is more than the
+当他玩si大于
+
+36
+00:01:46,049 --> 00:01:48,159
+utility that I gets when he plays s
+他玩s时得到的实用程序
+
+37
+00:01:48,359 --> 00:01:53,829
+prime I so in other words it might
+素我，换句话说，它可能
+
+38
+00:01:54,030 --> 00:01:55,840
+matter to player i what everybody else
+对玩家而言很重要
+
+39
+00:01:56,040 --> 00:01:58,659
+does that might affect his utility but
+会不会影响他的效用，但是
+
+40
+00:01:58,859 --> 00:02:01,359
+it will always be the case that he's
+永远都是这样的
+
+41
+00:02:01,560 --> 00:02:04,778
+happier when he plays si then he is when
+当他玩si时会更快乐
+
+42
+00:02:04,978 --> 00:02:07,119
+he plays s prime i and in fact he's
+他打出了我的黄金杆，事实上他是
+
+43
+00:02:07,319 --> 00:02:08,740
+strictly happier because we have a
+绝对快乐，因为我们有一个
+
+44
+00:02:08,939 --> 00:02:10,899
+strict inequality here so he's going to
+严格的不平等，所以他要
+
+45
+00:02:11,098 --> 00:02:13,840
+get strictly more utility by playing
+通过玩获得严格的更多效用
+
+46
+00:02:14,039 --> 00:02:18,099
+as I than by playing s-prime I that
+因为我比起玩S-prime我
+
+47
+00:02:18,299 --> 00:02:21,730
+means that si strictly dominates s-prime
+表示si严格控制s-prime 
+
+48
+00:02:21,930 --> 00:02:25,300
+I now we have another notion of
+我现在有另一个概念
+
+49
+00:02:25,500 --> 00:02:27,368
+dominance which I call very weak
+我称自己为弱者
+
+50
+00:02:27,568 --> 00:02:29,739
+dominance it's almost the same
+主导地位几乎是一样的
+
+51
+00:02:29,938 --> 00:02:31,989
+definition as you will have noticed the
+您将注意到的定义
+
+52
+00:02:32,188 --> 00:02:33,730
+only difference here is that I have a
+唯一的区别是我有一个
+
+53
+00:02:33,930 --> 00:02:35,500
+weak inequality instead of a strict
+弱的不平等而不是严格的
+
+54
+00:02:35,699 --> 00:02:37,959
+inequality and so what this is saying is
+不平等，这就是说
+
+55
+00:02:38,158 --> 00:02:40,780
+no matter what everybody else does I'm
+不管我是谁
+
+56
+00:02:40,979 --> 00:02:44,230
+always at least as happy playing si as I
+至少和我一样开心
+
+57
+00:02:44,430 --> 00:02:48,069
+am playing s Prime and when that's true
+在玩Prime，那是真的
+
+58
+00:02:48,269 --> 00:02:51,730
+I say that si very weakly dominates as
+我说si非常弱
+
+59
+00:02:51,930 --> 00:02:55,300
+Prime I now you might wonder why I have
+总理我现在你可能想知道为什么我有
+
+60
+00:02:55,500 --> 00:02:58,149
+this name very weak that's because this
+这个名字很弱是因为
+
+61
+00:02:58,348 --> 00:03:00,789
+condition even allows for equality so
+条件甚至允许平等，所以
+
+62
+00:03:00,989 --> 00:03:03,520
+even if it's the case that si and s
+即使是si和s 
+
+63
+00:03:03,719 --> 00:03:05,739
+prime I are always exactly the same as
+素数我总是和
+
+64
+00:03:05,938 --> 00:03:08,080
+each other I'm still allowed to say that
+彼此，我仍然可以这样说
+
+65
+00:03:08,280 --> 00:03:11,618
+si si Prime and that sounds like a
+ si si Prime，听起来像是
+
+66
+00:03:11,818 --> 00:03:13,480
+strong thing to say about equality so we
+关于平等有很强的话要说，所以我们
+
+67
+00:03:13,680 --> 00:03:15,099
+soften it by saying it's very weak
+通过说它很弱来软化它
+
+68
+00:03:15,299 --> 00:03:18,368
+dominance now in fact there are also
+其实现在也有优势
+
+69
+00:03:18,568 --> 00:03:20,110
+some other kinds of dominance that kind
+其他的那种统治
+
+70
+00:03:20,310 --> 00:03:22,319
+of live in between these two that are
+在这两个之间的生活
+
+71
+00:03:22,519 --> 00:03:25,270
+not quite as strong as strict dominance
+不如严格的统治强
+
+72
+00:03:25,469 --> 00:03:26,860
+and not quite as weak as very weak
+而不是非常虚弱
+
+73
+00:03:27,060 --> 00:03:28,719
+dominance but they're not important for
+支配地位，但对于
+
+74
+00:03:28,919 --> 00:03:32,329
+us right now so I won't mention them
+我们现在，所以我不会提及他们
+
+75
+00:03:33,169 --> 00:03:36,789
+well what is so important about
+那么什么是重要的
+
+76
+00:03:36,989 --> 00:03:40,319
+dominance intuitively when a strategy
+策略时直观地占据优势
+
+77
+00:03:40,519 --> 00:03:42,730
+when one strategy dominates another
+当一种策略主导另一种
+
+78
+00:03:42,930 --> 00:03:45,219
+strategy then I don't really have to
+策略，那么我真的不必
+
+79
+00:03:45,419 --> 00:03:46,629
+think about what the other agents are
+考虑一下其他代理商
+
+80
+00:03:46,829 --> 00:03:48,700
+going to do in order to decide that I
+去做决定我
+
+81
+00:03:48,900 --> 00:03:51,899
+prefer to play si than to play si prime
+喜欢玩si而不是si prime 
+
+82
+00:03:52,098 --> 00:03:55,300
+because I know that my utility is never
+因为我知道我的工具永远不会
+
+83
+00:03:55,500 --> 00:03:58,569
+worse by playing si so regardless of the
+玩si更糟，所以无论
+
+84
+00:03:58,769 --> 00:04:00,640
+kind of dominance it's sort of a good
+占主导地位，这是一个很好的
+
+85
+00:04:00,840 --> 00:04:04,450
+idea for me just to play si now this can
+现在我玩这个的想法对我来说可以
+
+86
+00:04:04,650 --> 00:04:06,909
+get even stronger if one strategy
+如果一种策略变得更强大
+
+87
+00:04:07,109 --> 00:04:10,118
+dominates all of the other strategies in
+支配着所有其他策略
+
+88
+00:04:10,318 --> 00:04:14,700
+that case then this one strategy si is
+那么，这种策略si就是
+
+89
+00:04:14,900 --> 00:04:17,439
+kind of better than everything else and
+比其他的都要好
+
+90
+00:04:17,639 --> 00:04:19,959
+in that case I can say not just that it
+在那种情况下，我不仅可以说
+
+91
+00:04:20,158 --> 00:04:21,908
+dominates something but I can say that
+占主导地位，但我可以说
+
+92
+00:04:22,108 --> 00:04:24,490
+its dominant that it's just kind of the
+它的优势在于
+
+93
+00:04:24,689 --> 00:04:27,639
+best thing to do and if I have
+最好的事情，如果我有
+
+94
+00:04:27,839 --> 00:04:30,879
+dominant-strategy then basically I don't
+主导策略然后我基本上不
+
+95
+00:04:31,079 --> 00:04:32,170
+have to worry about what the other
+不得不担心其他
+
+96
+00:04:32,370 --> 00:04:33,819
+agents are doing in the game at all I
+代理商在游戏中所做的一切
+
+97
+00:04:34,019 --> 00:04:36,100
+can just play my dominant strategy and
+可以发挥我的主导策略
+
+98
+00:04:36,300 --> 00:04:37,660
+that's going to be the best thing for me
+对我来说那将是最好的
+
+99
+00:04:37,860 --> 00:04:42,579
+to do now formalizing that notion that
+现在要做一个正式的概念
+
+100
+00:04:42,779 --> 00:04:45,189
+this is just the best thing to do I can
+这只是我能做的最好的事情
+
+101
+00:04:45,389 --> 00:04:47,079
+notice I can claim to you and it's not
+请注意，我可以向您索赔，但事实并非如此
+
+102
+00:04:47,279 --> 00:04:49,449
+hard to see that it's true that a
+很难看出这是真的
+
+103
+00:04:49,649 --> 00:04:51,819
+strategy profile in which everybody is
+每个人都在其中的战略概况
+
+104
+00:04:52,019 --> 00:04:54,490
+playing a dominant strategy has to be a
+发挥主导策略必须是
+
+105
+00:04:54,689 --> 00:04:57,430
+Nash equilibrium so if everyone is
+纳什均衡，所以如果每个人都
+
+106
+00:04:57,629 --> 00:04:59,620
+playing a dominant strategy then we've
+扮演主导策略，那么我们已经
+
+107
+00:04:59,819 --> 00:05:01,389
+just got a Nash equilibrium because none
+刚得到纳什均衡，因为没有
+
+108
+00:05:01,589 --> 00:05:02,800
+of us wants to change what we're doing
+我们当中的人想要改变我们正在做的事情
+
+109
+00:05:03,000 --> 00:05:04,990
+we already know from the fact that the
+我们已经从事实知道
+
+110
+00:05:05,189 --> 00:05:06,189
+strategy is dominant that there's
+策略占主导地位
+
+111
+00:05:06,389 --> 00:05:09,639
+nothing better for me to do furthermore
+没有什么比我更好的了
+
+112
+00:05:09,839 --> 00:05:11,949
+if we all have a strictly dominant
+如果我们都有严格的统治地位
+
+113
+00:05:12,149 --> 00:05:13,900
+strategies then this equilibrium has got
+策略，那么这个均衡就可以了
+
+114
+00:05:14,100 --> 00:05:17,560
+to be unique because there can't be two
+独一无二，因为不可能有两个
+
+115
+00:05:17,759 --> 00:05:19,180
+equilibria in strictly dominant
+严格占主导地位的均衡
+
+116
+00:05:19,379 --> 00:05:21,100
+strategies because that would mean we
+策略，因为那意味着我们
+
+117
+00:05:21,300 --> 00:05:22,990
+prefer these strategies to each other
+彼此更喜欢这些策略
+
+118
+00:05:23,189 --> 00:05:27,430
+strictly and that just can't happen so
+严格地说，那样就不可能发生
+
+119
+00:05:27,629 --> 00:05:29,050
+lastly I want to think about the
+最后我想想一下
+
+120
+00:05:29,250 --> 00:05:31,600
+prisoner's dilemma game and I want to
+囚徒困境游戏，我想
+
+121
+00:05:31,800 --> 00:05:33,490
+argue to you that the players have a
+跟你争辩说球员有一个
+
+122
+00:05:33,689 --> 00:05:38,230
+dominant strategy in this game so I want
+这个游戏的主导策略，所以我想要
+
+123
+00:05:38,430 --> 00:05:40,150
+to claim to you that player one has the
+声称您拥有一个玩家
+
+124
+00:05:40,350 --> 00:05:43,000
+dominant strategy of playing D and I'm
+发挥D的主导策略，而我
+
+125
+00:05:43,199 --> 00:05:45,370
+going to do this by a case analysis so
+通过案例分析来做到这一点
+
+126
+00:05:45,569 --> 00:05:47,050
+let's begin by considering the case
+让我们从考虑情况开始
+
+127
+00:05:47,250 --> 00:05:50,800
+where player 2 plays see if player 2
+玩家2在哪里玩，看看玩家2是否
+
+128
+00:05:51,000 --> 00:05:53,800
+plays C then player 1 is really thinking
+玩C，那么玩家1真的在想
+
+129
+00:05:54,000 --> 00:05:58,028
+about this column of the matrix he knows
+关于他知道的矩阵的这一列
+
+130
+00:05:58,228 --> 00:06:00,338
+he's in this column and that means he
+他在此专栏中，这意味着他
+
+131
+00:06:00,538 --> 00:06:01,990
+faces a choice between getting a payoff
+在获得回报之间面临选择
+
+132
+00:06:02,189 --> 00:06:06,149
+of minus 1 and getting a payoff of 0 and
+减去1并得到0的收益
+
+133
+00:06:06,348 --> 00:06:10,210
+0 is bigger than minus 1 and so player 1
+ 0比负1大，因此玩家1 
+
+134
+00:06:10,410 --> 00:06:12,430
+would prefer to get 0 which means that
+宁愿得到0，这意味着
+
+135
+00:06:12,629 --> 00:06:17,250
+his best response to C is to play D on
+他对C的最佳反应是在D上打D 
+
+136
+00:06:17,449 --> 00:06:20,439
+the other hand let's consider the case
+另一方面让我们考虑一下情况
+
+137
+00:06:20,639 --> 00:06:24,100
+where player 2 is playing D in this case
+在这种情况下，玩家2在玩D 
+
+138
+00:06:24,300 --> 00:06:26,139
+player 1 finds himself in this green
+玩家1发现自己处于绿色状态
+
+139
+00:06:26,339 --> 00:06:29,020
+column and that's kind of too bad for
+专栏，对于
+
+140
+00:06:29,220 --> 00:06:30,338
+him because now he faces a choice
+他，因为现在他面临选择
+
+141
+00:06:30,538 --> 00:06:32,680
+between the payoff of minus 4 and a
+在负4的收益和a之间
+
+142
+00:06:32,879 --> 00:06:35,620
+payoff of minus 3 and both of these
+减去-3的回报
+
+143
+00:06:35,819 --> 00:06:37,209
+numbers are smaller than the numbers
+数字小于数字
+
+144
+00:06:37,408 --> 00:06:39,759
+that he had a choice about before so he
+他以前可以选择
+
+145
+00:06:39,959 --> 00:06:40,680
+likes the blue color
+喜欢蓝色
+
+146
+00:06:40,879 --> 00:06:42,050
+better than he likes the green column
+比他喜欢绿色的专栏要好
+
+147
+00:06:42,250 --> 00:06:45,060
+but if he is in the green column he
+但是如果他在绿色栏中， 
+
+148
+00:06:45,259 --> 00:06:47,939
+still prefers to get -3 than to get -4
+仍然比得到-4更喜欢得到-3 
+
+149
+00:06:48,139 --> 00:06:51,199
+and that means in this case he again
+这意味着在这种情况下，他再次
+
+150
+00:06:51,399 --> 00:06:54,990
+prefers to play D so we can see that
+喜欢玩D，所以我们可以看到
+
+151
+00:06:55,189 --> 00:06:57,600
+regardless of what player 2 does player
+不管玩家2做什么
+
+152
+00:06:57,800 --> 00:07:01,439
+1 best response by playing D and in both
+同时播放D和D均可获得最佳响应
+
+153
+00:07:01,639 --> 00:07:05,790
+cases his preference was strict and that
+情况下他的偏爱很严格，那
+
+154
+00:07:05,990 --> 00:07:08,069
+means he has a strictly dominant
+表示他有严格的统治地位
+
+155
+00:07:08,269 --> 00:07:12,920
+strategy in this case and so D is a
+这种情况下的策略，所以D是一个
+
+156
+00:07:13,120 --> 00:07:15,990
+dominant strategy here I'll leave it to
+主导策略，我将其留给
+
+157
+00:07:16,189 --> 00:07:17,610
+you to see that the same thing is true
+你看到同样的事情是真的
+
+158
+00:07:17,810 --> 00:07:21,540
+if I argue that player 2 has a dominant
+如果我认为玩家2具有主导地位
+
+159
+00:07:21,740 --> 00:07:23,610
+strategy of playing D and I do a case
+我玩D游戏的策略
+
+160
+00:07:23,810 --> 00:07:26,370
+analysis about what player 1 can do but
+关于玩家1可以做什么的分析
+
+161
+00:07:26,569 --> 00:07:27,629
+the game is symmetric so the same
+游戏是对称的，所以相同
+
+162
+00:07:27,829 --> 00:07:32,829
+argument goes through there as well
+争论也在那里
+

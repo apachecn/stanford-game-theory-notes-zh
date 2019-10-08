@@ -1,0 +1,820 @@
+﻿1
+00:00:00,030 --> 00:00:01,509
+in this video we're going to think about
+在这个视频中，我们将考虑
+
+2
+00:00:01,709 --> 00:00:03,719
+how to bid in a second price auction
+如何竞标第二次价格
+
+3
+00:00:03,919 --> 00:00:06,158
+remember that a second price auction is
+请记住，第二次价格拍卖是
+
+4
+00:00:06,359 --> 00:00:08,710
+one in which a single good is being sold
+出售一种商品的商品
+
+5
+00:00:08,910 --> 00:00:11,290
+all of the bidders submit their bids in
+所有投标人都在
+
+6
+00:00:11,490 --> 00:00:13,839
+sealed envelopes the auctioneer looks at
+拍卖师看的密封信封
+
+7
+00:00:14,039 --> 00:00:15,909
+all of the bids Awards the good to the
+所有的标书都对
+
+8
+00:00:16,109 --> 00:00:18,519
+person who bid highest and makes them
+出价最高并达到最高的人
+
+9
+00:00:18,719 --> 00:00:21,129
+pay the second highest amount and what
+支付第二高的金额以及什么
+
+10
+00:00:21,329 --> 00:00:23,019
+we want to think about here is how you
+我们想在这里想你
+
+11
+00:00:23,219 --> 00:00:24,970
+should actually bid what makes sense to
+实际上应该出价对
+
+12
+00:00:25,170 --> 00:00:28,720
+do in a second-price auction the main
+在第二价格拍卖中
+
+13
+00:00:28,920 --> 00:00:32,108
+claim of this lecture today is that
+今天这堂课的主张是
+
+14
+00:00:32,308 --> 00:00:34,448
+truth-telling is a dominant strategy in
+讲真话是占主导地位的策略
+
+15
+00:00:34,649 --> 00:00:36,820
+a second price auction so in other words
+换句话说，就是第二次拍卖
+
+16
+00:00:37,020 --> 00:00:39,009
+no matter how the other bidders are
+不管其他竞标者如何
+
+17
+00:00:39,210 --> 00:00:41,198
+going to behave the right thing for you
+会为你做正确的事
+
+18
+00:00:41,399 --> 00:00:43,599
+to do in a second price auction is to
+在第二次价格拍卖中要做的是
+
+19
+00:00:43,799 --> 00:00:45,579
+bid the amount that the good is actually
+出价商品的实际价值
+
+20
+00:00:45,780 --> 00:00:49,178
+worth to you now in fact you should know
+现在对您有价值，实际上您应该知道
+
+21
+00:00:49,378 --> 00:00:51,849
+this already and the reason is that a
+这已经是，原因是
+
+22
+00:00:52,049 --> 00:00:53,768
+second price auction is a special case
+二次拍卖是特例
+
+23
+00:00:53,969 --> 00:00:56,858
+of the VCG mechanism remember that in
+的VCG机制请记住
+
+24
+00:00:57,058 --> 00:01:00,128
+VCG every bidder is paid the amount of
+每位竞标者获得的VCG金额为
+
+25
+00:01:00,329 --> 00:01:01,838
+utility that all of the other bidders
+所有其他竞标者的效用
+
+26
+00:01:02,039 --> 00:01:04,709
+get in the world where they exist and
+进入他们存在的世界， 
+
+27
+00:01:04,909 --> 00:01:07,390
+then is charged the amount of utility
+然后要收取水电费
+
+28
+00:01:07,590 --> 00:01:09,429
+that all of the other bidders get in the
+所有其他竞标者都参与了
+
+29
+00:01:09,629 --> 00:01:12,039
+world where they don't exist in the case
+在这种情况下不存在的世界
+
+30
+00:01:12,239 --> 00:01:13,599
+of a second price auction where there's
+在第二次价格拍卖中
+
+31
+00:01:13,799 --> 00:01:16,599
+only one good no other bidders get any
+只有一种商品没有其他竞标者
+
+32
+00:01:16,799 --> 00:01:20,918
+utility in the case where I win and one
+我赢了一个的情况下的效用
+
+33
+00:01:21,118 --> 00:01:22,418
+other bidder gets utility in the case
+其他投标人在这种情况下获得效用
+
+34
+00:01:22,618 --> 00:01:24,459
+where I lose that's the person who would
+我失去的是那个会
+
+35
+00:01:24,659 --> 00:01:27,159
+have won if I hadn't participated so I
+如果我没有参加的话就赢了，所以我
+
+36
+00:01:27,359 --> 00:01:30,009
+should be paid zero and I should have to
+应该被支付零，我应该
+
+37
+00:01:30,209 --> 00:01:31,929
+pay the second highest price and that's
+支付第二高的价格，那就是
+
+38
+00:01:32,129 --> 00:01:33,429
+exactly what the second price auction
+究竟是第二次价格拍卖
+
+39
+00:01:33,629 --> 00:01:36,579
+does so in a sense that's all you need
+从某种意义上讲，这就是您所需要的
+
+40
+00:01:36,780 --> 00:01:38,980
+to know from this lecture but I'd like
+从这次演讲中知道，但是我想
+
+41
+00:01:39,180 --> 00:01:40,959
+to show you a simpler more direct proof
+向您展示更简单直接的证明
+
+42
+00:01:41,159 --> 00:01:43,869
+that doesn't rely on VCG because the the
+这不依赖VCG，因为
+
+43
+00:01:44,069 --> 00:01:44,409
+VCG
+ VCG 
+
+44
+00:01:44,609 --> 00:01:47,069
+truthfulness proof is a bit abstract
+真实性证明有点抽象
+
+45
+00:01:47,269 --> 00:01:49,569
+here I can give a very intuitive proof
+在这里我可以给出一个非常直观的证明
+
+46
+00:01:49,769 --> 00:01:52,238
+that that I think it's an elegant way of
+我认为这是一种优雅的方式
+
+47
+00:01:52,438 --> 00:01:54,668
+seeing why truthfulness is the right
+明白为什么诚实是正确的
+
+48
+00:01:54,868 --> 00:01:58,238
+thing to do at a second price auction so
+要做第二次拍卖的事情
+
+49
+00:01:58,438 --> 00:02:00,329
+the proof is going to work as follows
+证明将如下工作
+
+50
+00:02:00,530 --> 00:02:02,378
+we're going to assume that the other
+我们将假设另一个
+
+51
+00:02:02,578 --> 00:02:06,159
+bidders bid arbitrarily that's important
+投标人任意投标很重要
+
+52
+00:02:06,359 --> 00:02:08,140
+because we want to show that it's a
+因为我们想证明它是一个
+
+53
+00:02:08,340 --> 00:02:10,419
+dominant strategy to bid truthfully so I
+诚实出价的主导策略，所以我
+
+54
+00:02:10,618 --> 00:02:12,320
+can't make any assumption how
+不能做任何假设
+
+55
+00:02:12,520 --> 00:02:15,290
+the other bidders will behave and I want
+其他竞标者会表现得很好，我想要
+
+56
+00:02:15,490 --> 00:02:17,750
+to show that no matter what the right
+表示无论什么权利
+
+57
+00:02:17,949 --> 00:02:20,390
+thing for a bidder I to do is to respond
+我要投标人要做的是回应
+
+58
+00:02:20,590 --> 00:02:22,760
+by bidding truthfully and I'm going to
+通过如实竞标，我将
+
+59
+00:02:22,960 --> 00:02:25,700
+consider two cases the case where if
+考虑两种情况
+
+60
+00:02:25,900 --> 00:02:28,430
+bidder I bid honestly he would win the
+投标人我诚实地说，他会赢得
+
+61
+00:02:28,629 --> 00:02:30,980
+auction and the case where if bidding
+拍卖和竞价的情况
+
+62
+00:02:31,180 --> 00:02:38,090
+honestly he would lose the auction so
+老实说他会输掉拍卖，所以
+
+63
+00:02:38,289 --> 00:02:40,250
+let's start by thinking about the case
+让我们先考虑一下情况
+
+64
+00:02:40,449 --> 00:02:42,620
+where bidding honestly bitter eye wins
+说实话，苦涩的眼睛胜出
+
+65
+00:02:42,819 --> 00:02:47,240
+the auction in this case we can sort of
+在这种情况下的拍卖，我们可以
+
+66
+00:02:47,439 --> 00:02:48,800
+look at this picture here so here we
+在这里看这张照片所以在这里我们
+
+67
+00:02:49,000 --> 00:02:51,890
+have eyes true value at this level here
+在此水平上具有眼睛的真实价值
+
+68
+00:02:52,090 --> 00:02:55,850
+and and then here we have the amount
+然后我们有数量
+
+69
+00:02:56,050 --> 00:02:58,040
+that I bid now we're saying that I bids
+我现在出价我是说我出价
+
+70
+00:02:58,240 --> 00:03:01,430
+truthfully I initially and so that means
+老实说我一开始就是这样
+
+71
+00:03:01,629 --> 00:03:03,730
+that his bid is at this amount here and
+他的出价是这个价位， 
+
+72
+00:03:03,930 --> 00:03:06,800
+of course in a second-price auction the
+当然，在第二价拍卖中
+
+73
+00:03:07,000 --> 00:03:08,870
+amount that I actually pays is not his
+我实际支付的金额不是他的
+
+74
+00:03:09,069 --> 00:03:11,090
+bid but it's the amount of the second
+出价，但这是第二个的金额
+
+75
+00:03:11,289 --> 00:03:14,000
+highest price which we'd shown here all
+我们在这里显示的最高价格
+
+76
+00:03:14,199 --> 00:03:17,240
+right so let's let's do a kind of case
+好的，让我们来做一个案例
+
+77
+00:03:17,439 --> 00:03:19,040
+analysis and think about what would have
+分析并考虑会发生什么
+
+78
+00:03:19,240 --> 00:03:22,760
+happened if I had been differently if I
+如果我与众不同，就会发生
+
+79
+00:03:22,960 --> 00:03:25,760
+were to bid higher then he would still
+出价更高，那么他仍然会
+
+80
+00:03:25,960 --> 00:03:27,800
+win and he would still pay the same
+赢了，他仍然会付出相同的代价
+
+81
+00:03:28,000 --> 00:03:31,040
+amount so nothing would change if he
+金额，所以如果他
+
+82
+00:03:31,240 --> 00:03:34,070
+were to bid lower just a bit lower
+叫低一点
+
+83
+00:03:34,270 --> 00:03:35,630
+again nothing would change as long as
+只要什么都不会改变
+
+84
+00:03:35,830 --> 00:03:37,130
+he's still higher than the next highest
+他仍然比第二高
+
+85
+00:03:37,330 --> 00:03:41,060
+bidder but if he bid sufficiently lower
+投标人，但如果他的投标价足够低
+
+86
+00:03:41,259 --> 00:03:43,219
+then he would stop being the highest
+然后他将不再是最高
+
+87
+00:03:43,419 --> 00:03:46,430
+bidder and he would lose the auction and
+投标人，他将输掉拍卖， 
+
+88
+00:03:46,629 --> 00:03:49,370
+instead the next highest bidder would
+相反，第二高的出价者会
+
+89
+00:03:49,569 --> 00:03:53,660
+win so what we can see here is that in
+赢了，所以我们在这里可以看到的是
+
+90
+00:03:53,860 --> 00:03:55,340
+the case where I has the highest
+我最高的情况
+
+91
+00:03:55,539 --> 00:03:58,820
+valuation and he changes his bid four
+估价，他更改了出价四
+
+92
+00:03:59,020 --> 00:04:00,920
+things can happen three of them it
+事情可能会发生三个
+
+93
+00:04:01,120 --> 00:04:02,360
+doesn't make any difference to him and
+对他没有任何影响
+
+94
+00:04:02,560 --> 00:04:05,240
+in one case something changes and what's
+在一种情况下，某些事情发生了变化，这是什么
+
+95
+00:04:05,439 --> 00:04:06,680
+important here is in the case where
+重要的是
+
+96
+00:04:06,879 --> 00:04:08,689
+something changes things get worse for
+事情改变了，事情变得更糟
+
+97
+00:04:08,889 --> 00:04:11,000
+bidder I because he used to be getting
+投标人我，因为他曾经
+
+98
+00:04:11,199 --> 00:04:13,490
+positive utility right there was this
+积极的效用就在那里
+
+99
+00:04:13,689 --> 00:04:15,620
+utility difference here between how much
+这里的效用差多少
+
+100
+00:04:15,819 --> 00:04:17,329
+he valued the good how much utility he
+他珍惜好多少
+
+101
+00:04:17,529 --> 00:04:19,310
+gets for consuming the good and how much
+消费商品以及获取多少
+
+102
+00:04:19,509 --> 00:04:21,800
+he has to pay so he was getting positive
+他必须付款，所以他变得积极起来
+
+103
+00:04:22,000 --> 00:04:23,689
+utility here and he
+实用在这里，他
+
+104
+00:04:23,889 --> 00:04:25,759
+when he loses he's getting zero utility
+当他输了时，他的效用为零
+
+105
+00:04:25,959 --> 00:04:27,819
+because he doesn't get the good and
+因为他没有得到好处
+
+106
+00:04:28,019 --> 00:04:30,350
+bitter I would prefer to be in this
+苦我宁愿在这个
+
+107
+00:04:30,550 --> 00:04:32,149
+situation with positive utility than
+效用大于
+
+108
+00:04:32,348 --> 00:04:34,459
+this situation with zero utility and so
+效用为零的情况等等
+
+109
+00:04:34,658 --> 00:04:36,410
+it's the wrong thing for him in the case
+这件事对他来说是错的
+
+110
+00:04:36,610 --> 00:04:38,569
+where he has the highest valuation to
+他的估值最高
+
+111
+00:04:38,769 --> 00:04:42,769
+bid any way other than truthfully what
+除了真实地出价以外，还可以出价
+
+112
+00:04:42,968 --> 00:04:44,809
+about the case where he wouldn't be the
+关于他不会成为的情况
+
+113
+00:04:45,009 --> 00:04:48,230
+winner if he were to bid honestly well
+如果他要诚实地出价，那就是赢家
+
+114
+00:04:48,430 --> 00:04:50,480
+in this case if he bids lower he would
+在这种情况下，如果他降低出价，他会
+
+115
+00:04:50,680 --> 00:04:54,139
+still lose and pay nothing if he bids a
+如果他竞标
+
+116
+00:04:54,339 --> 00:04:56,629
+bit higher he'll again still lose and
+再高一点，他仍然会输
+
+117
+00:04:56,829 --> 00:04:59,149
+pay nothing and if he bids high enough
+不付钱，如果他出价足够高
+
+118
+00:04:59,348 --> 00:05:02,509
+he'll eventually win but in this case if
+他最终会赢，但在这种情况下， 
+
+119
+00:05:02,709 --> 00:05:06,579
+he wins he's going to pay this amount
+他赢了，他要付这笔钱
+
+120
+00:05:06,778 --> 00:05:08,778
+which we know is higher than his
+我们知道比他高
+
+121
+00:05:08,978 --> 00:05:12,379
+valuation and so he by bidding
+估价，所以他通过竞标
+
+122
+00:05:12,579 --> 00:05:14,420
+untruthfully in the case where he isn't
+如果他不在，那是不诚实的
+
+123
+00:05:14,620 --> 00:05:16,579
+the highest bidder he's either going to
+他要去的最高出价者
+
+124
+00:05:16,778 --> 00:05:18,528
+pay too much pay more than the good is
+付出太多而不是付出更多
+
+125
+00:05:18,728 --> 00:05:22,309
+worth to him or he's going to not affect
+对他来说值得，否则他不会影响
+
+126
+00:05:22,509 --> 00:05:25,489
+the outcome and so again we can see that
+结果，所以我们可以再次看到
+
+127
+00:05:25,689 --> 00:05:28,100
+there's no way that bidder I can gain by
+我无法通过任何方式获得竞标者
+
+128
+00:05:28,300 --> 00:05:30,679
+changing his bid and and that's the
+改变他的出价，那就是
+
+129
+00:05:30,879 --> 00:05:32,300
+whole proof notice that we didn't have
+整个证明，我们没有
+
+130
+00:05:32,500 --> 00:05:33,739
+to assume anything about the
+承担有关
+
+131
+00:05:33,939 --> 00:05:35,480
+relationship between other people's bids
+他人出价之间的关系
+
+132
+00:05:35,680 --> 00:05:37,968
+and their own valuations and because of
+和他们自己的估值，并且由于
+
+133
+00:05:38,168 --> 00:05:39,410
+that we've shown that it's a dominant
+我们已经证明它是主导
+
+134
+00:05:39,610 --> 00:05:41,899
+strategy for bidder I to disclose
+投标人我披露的策略
+
+135
+00:05:42,098 --> 00:05:43,489
+truthfully to the auctioneer what his
+真实地告诉拍卖师他的
+
+136
+00:05:43,689 --> 00:05:47,689
+valuation is now I'd like to end by just
+估值现在我只想结束
+
+137
+00:05:47,889 --> 00:05:49,429
+making a remark about English and
+发表关于英语和
+
+138
+00:05:49,629 --> 00:05:52,309
+Japanese auctions these are much more
+日本拍卖会更多
+
+139
+00:05:52,509 --> 00:05:55,790
+complicated auctions in that they define
+他们定义了复杂的拍卖
+
+140
+00:05:55,990 --> 00:05:58,278
+extensive forum games rather than normal
+广泛的论坛游戏，而不是正常的
+
+141
+00:05:58,478 --> 00:06:00,588
+forum games so bidders are able to
+论坛游戏，使投标者能够
+
+142
+00:06:00,788 --> 00:06:01,968
+observe something about how other
+观察其他事情
+
+143
+00:06:02,168 --> 00:06:03,920
+bidders have behaved in the auction they
+竞标者在拍卖中表现得很好
+
+144
+00:06:04,120 --> 00:06:05,209
+can condition their bids on this
+可以对此出价
+
+145
+00:06:05,408 --> 00:06:07,218
+information in the case of English
+关于英文的信息
+
+146
+00:06:07,418 --> 00:06:09,410
+auctions bidders have a rich set of
+拍卖竞标者有丰富的
+
+147
+00:06:09,610 --> 00:06:11,749
+strategic options at every stage they
+他们在每个阶段的战略选择
+
+148
+00:06:11,949 --> 00:06:13,579
+can decide not just whether to drop out
+不仅可以决定是否辍学
+
+149
+00:06:13,778 --> 00:06:15,649
+or stay in but they can decide to place
+或留下来，但他们可以决定放置
+
+150
+00:06:15,848 --> 00:06:18,110
+what's called a jump in to to make a
+所谓的跳进去做一个
+
+151
+00:06:18,310 --> 00:06:20,179
+unit to bid from kind of two dollars to
+单位竞标价格从两美元到
+
+152
+00:06:20,379 --> 00:06:21,939
+go all the way to ten dollars but
+一路走到十美元，但
+
+153
+00:06:22,139 --> 00:06:25,189
+intuitively in the case of independent
+在独立的情况下直观地
+
+154
+00:06:25,389 --> 00:06:26,929
+private values this revealed information
+私人珍视此信息
+
+155
+00:06:27,129 --> 00:06:29,899
+doesn't make any difference so we can
+没有任何区别，所以我们可以
+
+156
+00:06:30,098 --> 00:06:31,278
+show that in the independent private
+表明在独立私人
+
+157
+00:06:31,478 --> 00:06:33,769
+values model it's a dominant strategy
+价值观模型是一种主导策略
+
+158
+00:06:33,968 --> 00:06:36,019
+for bidders to bid up to and not beyond
+投标人可以出价至不超过
+
+159
+00:06:36,218 --> 00:06:36,780
+their valuation
+他们的估值
+
+160
+00:06:36,980 --> 00:06:38,850
+in both Japanese and English junctions
+在日语和英语交汇处
+
+161
+00:06:39,050 --> 00:06:41,790
+and so in a sense Japanese English and
+从某种意义上讲，日语，英语和
+
+162
+00:06:41,990 --> 00:06:43,680
+second price auctions are all kind of
+第二价格拍卖都是
+
+163
+00:06:43,879 --> 00:06:45,300
+the same in the case of independent
+独立的情况相同
+
+164
+00:06:45,500 --> 00:06:50,500
+private values
+私人价值观
+

@@ -1,0 +1,1430 @@
+﻿1
+00:00:00,030 --> 00:00:01,749
+in this video we're going to look at how
+在本视频中，我们将探讨
+
+2
+00:00:01,949 --> 00:00:03,728
+to compute the mixed Nash equilibria of
+计算的混合纳什均衡
+
+3
+00:00:03,928 --> 00:00:07,059
+a normal form game and in particular
+普通形式的游戏，尤其是
+
+4
+00:00:07,259 --> 00:00:08,439
+we're going to go through the example of
+我们将通过以下示例
+
+5
+00:00:08,638 --> 00:00:12,040
+battle of the sexes so what you've seen
+两性之战，所以你所看到的
+
+6
+00:00:12,240 --> 00:00:14,500
+so far about equilibria kind of suggests
+到目前为止关于均衡的建议
+
+7
+00:00:14,699 --> 00:00:16,390
+that it's really easy to come up with an
+拿出一个
+
+8
+00:00:16,589 --> 00:00:19,210
+equilibrium but in fact as games get big
+平衡，但实际上随着游戏变大
+
+9
+00:00:19,410 --> 00:00:21,699
+and general sometimes it can be pretty
+一般情况下，有时会很漂亮
+
+10
+00:00:21,899 --> 00:00:23,530
+tricky to find the equilibria have a
+很难找到平衡点
+
+11
+00:00:23,730 --> 00:00:25,690
+game and Nash's theorem is kind of a
+博弈，纳什定理有点像
+
+12
+00:00:25,890 --> 00:00:27,789
+funny theorem because it tells us that
+有趣的定理，因为它告诉我们
+
+13
+00:00:27,989 --> 00:00:30,129
+something exists but it doesn't tell us
+有东西存在，但没有告诉我们
+
+14
+00:00:30,329 --> 00:00:31,809
+how to find it it just tells us that it
+如何找到它只是告诉我们
+
+15
+00:00:32,009 --> 00:00:33,489
+has to be there it's a non constructive
+必须在那里，这是非建设性的
+
+16
+00:00:33,689 --> 00:00:36,279
+argument so what I'm going to tell you
+论据，所以我要告诉你
+
+17
+00:00:36,479 --> 00:00:38,589
+today is sort of a starting point to
+今天是一个起点
+
+18
+00:00:38,789 --> 00:00:40,599
+finding an equilibrium which is enough
+找到足够的平衡
+
+19
+00:00:40,799 --> 00:00:45,309
+that it works in small games and in fact
+它适用于小型游戏，实际上
+
+20
+00:00:45,509 --> 00:00:46,479
+you can turn this into a general
+你可以把它变成一般
+
+21
+00:00:46,679 --> 00:00:48,338
+algorithm but not necessarily the most
+算法，但不一定是最
+
+22
+00:00:48,539 --> 00:00:50,349
+efficient or insightful way of finding
+有效或有见地的发现方式
+
+23
+00:00:50,549 --> 00:00:53,349
+equilibria so what I want to tell you
+均衡，所以我想告诉你
+
+24
+00:00:53,549 --> 00:00:55,329
+today is that it's easy to compute a
+今天是很容易计算
+
+25
+00:00:55,530 --> 00:00:57,369
+Nash equilibrium if you can guess what
+纳什均衡，如果你能猜出什么
+
+26
+00:00:57,570 --> 00:00:59,649
+the support of the equilibrium is so
+平衡的支持是如此
+
+27
+00:00:59,850 --> 00:01:03,909
+recall what a support is support is the
+回想一下，支持就是支持
+
+28
+00:01:04,109 --> 00:01:06,879
+set of pure strategies that receive
+一套可以接受的纯策略
+
+29
+00:01:07,079 --> 00:01:09,340
+positive probability under the mixed
+混合下的正概率
+
+30
+00:01:09,540 --> 00:01:12,929
+strategy of the play of the players so a
+玩家的游戏策略
+
+31
+00:01:13,129 --> 00:01:16,569
+an equilibrium support is a set of
+均衡支撑是一组
+
+32
+00:01:16,769 --> 00:01:18,250
+actions that occur with positive
+积极行动
+
+33
+00:01:18,450 --> 00:01:19,808
+probability for example that might be
+例如，可能是
+
+34
+00:01:20,009 --> 00:01:24,459
+the support of an equilibrium so for
+平衡的支持
+
+35
+00:01:24,659 --> 00:01:26,980
+battle of the sexes let's guess that the
+两性之战，让我们猜测
+
+36
+00:01:27,180 --> 00:01:31,959
+subs let's guess that the support of the
+潜艇让我们猜测
+
+37
+00:01:32,159 --> 00:01:35,439
+equilibrium is all of the actions so
+平衡是所有行动，所以
+
+38
+00:01:35,640 --> 00:01:37,539
+let's look and intuitively that if
+让我们直观地看一下
+
+39
+00:01:37,739 --> 00:01:38,439
+there's going to be a mixed strategy
+会有一个混合策略
+
+40
+00:01:38,640 --> 00:01:41,049
+equilibrium of this game that looks like
+这个游戏的平衡看起来像
+
+41
+00:01:41,250 --> 00:01:43,058
+what it should be so let's guess that
+应该是什么，让我们猜测
+
+42
+00:01:43,259 --> 00:01:44,289
+that's the support and then try to
+那是支持，然后尝试
+
+43
+00:01:44,489 --> 00:01:45,698
+reason about what the Eagle Librium
+关于鹰库的原因
+
+44
+00:01:45,899 --> 00:01:50,259
+would have to be given that support so
+必须给予支持，所以
+
+45
+00:01:50,459 --> 00:01:51,849
+let's just introduce some notation to
+让我们来介绍一些符号
+
+46
+00:01:52,049 --> 00:01:55,179
+make this work let's let player to play
+做好这项工作，让玩家玩
+
+47
+00:01:55,379 --> 00:01:58,448
+B with probability P and F with
+ B的概率为P，F的概率为
+
+48
+00:01:58,649 --> 00:02:03,159
+probability one minus P now if player
+如果玩家现在的概率是1减去P 
+
+49
+00:02:03,359 --> 00:02:05,049
+one is going to best respond to this
+一个人将对此做出最好的回应
+
+50
+00:02:05,250 --> 00:02:08,830
+mixed strategy whatever it is and be
+混合策略无论是现在还是将来
+
+51
+00:02:09,030 --> 00:02:10,980
+playing a mixed strategy in response
+采取混合策略以应对
+
+52
+00:02:11,180 --> 00:02:14,140
+then we can reason
+那么我们可以推理
+
+53
+00:02:14,340 --> 00:02:17,110
+that player too must have set P and 1
+该玩家也必须设置P和1 
+
+54
+00:02:17,310 --> 00:02:20,160
+minus P in a way that makes player 1
+减P，使玩家1 
+
+55
+00:02:20,360 --> 00:02:22,990
+indifferent between his own actions B
+对自己的行为漠不关心B 
+
+56
+00:02:23,189 --> 00:02:26,380
+and F so this is an important point in
+和F，所以这是
+
+57
+00:02:26,580 --> 00:02:28,118
+reasoning about how mixed strategies
+关于混合策略的推理
+
+58
+00:02:28,318 --> 00:02:31,868
+work so I encourage you to stop the
+工作，所以我鼓励您停止
+
+59
+00:02:32,068 --> 00:02:33,490
+video at this point and just think about
+视频，然后考虑一下
+
+60
+00:02:33,689 --> 00:02:35,860
+why that would be true before I tell you
+为什么在我告诉你之前那是真的
+
+61
+00:02:36,060 --> 00:02:40,599
+the answer so the reason why player 1
+答案是玩家1的原因
+
+62
+00:02:40,799 --> 00:02:42,910
+needs to be in I don't have the answer
+需要在我没有答案
+
+63
+00:02:43,110 --> 00:02:44,530
+on the slide I'll just tell you the
+在幻灯片上，我只会告诉您
+
+64
+00:02:44,729 --> 00:02:46,330
+reason why player 1 needs to be
+玩家1需要成为的原因
+
+65
+00:02:46,530 --> 00:02:49,240
+indifferent is that he's playing himself
+淡漠的是他在玩自己
+
+66
+00:02:49,439 --> 00:02:51,550
+a mixed strategy which means some of the
+混合策略，这意味着
+
+67
+00:02:51,750 --> 00:02:54,310
+time he's playing B and some of the time
+他玩B的时间，有时
+
+68
+00:02:54,509 --> 00:02:55,780
+he's playing off right because these are
+他打得很好，因为这些是
+
+69
+00:02:55,979 --> 00:02:57,250
+both in the support they both get played
+都在他们俩的支持下
+
+70
+00:02:57,449 --> 00:03:00,340
+with nonzero probability and if this is
+非零概率，如果这是
+
+71
+00:03:00,539 --> 00:03:02,618
+an equilibrium then this is the best
+一个平衡，那么这是最好的
+
+72
+00:03:02,818 --> 00:03:04,960
+response that player 1 is playing well
+玩家1玩得很好的回应
+
+73
+00:03:05,159 --> 00:03:08,259
+if player 1 can play B some of the time
+如果玩家1有时可以玩B 
+
+74
+00:03:08,459 --> 00:03:10,840
+and F some of the time and be playing a
+和F有时会玩
+
+75
+00:03:11,039 --> 00:03:11,679
+best response
+最佳回应
+
+76
+00:03:11,878 --> 00:03:14,200
+he must be indifferent between playing B
+他玩B一定很冷漠
+
+77
+00:03:14,400 --> 00:03:17,289
+and F if he's not indifferent if let's
+和F，如果我们对他不感兴趣， 
+
+78
+00:03:17,489 --> 00:03:21,280
+say B is better then he could get even
+说B更好，那么他甚至可以得到
+
+79
+00:03:21,479 --> 00:03:24,360
+more utility by reducing the amount of
+通过减少用量来提高效用
+
+80
+00:03:24,560 --> 00:03:27,368
+probability he puts on F and increasing
+他放F并增加的概率
+
+81
+00:03:27,568 --> 00:03:28,868
+the amount of probability he puts on B
+他放在B上的概率
+
+82
+00:03:29,068 --> 00:03:30,670
+and in fact he could get the most
+实际上，他可以得到最大的收益
+
+83
+00:03:30,870 --> 00:03:33,640
+utility by putting absolutely no utility
+通过完全不使用实用程序
+
+84
+00:03:33,840 --> 00:03:36,969
+on F and just all of the utility on B so
+在F上，而在B上只是所有效用
+
+85
+00:03:37,169 --> 00:03:39,159
+the only way that he would actually want
+他真正想要的唯一方法
+
+86
+00:03:39,359 --> 00:03:42,700
+to play a mixed strategy is if it's just
+玩混合策略只是
+
+87
+00:03:42,900 --> 00:03:46,840
+the same for him to play B and F so that
+他玩B和F也一样
+
+88
+00:03:47,039 --> 00:03:49,719
+means that we can reason that player 2
+表示我们可以推断出玩家2 
+
+89
+00:03:49,919 --> 00:03:53,259
+has set his probabilities P and 1 minus
+设置了他的概率P和1减
+
+90
+00:03:53,459 --> 00:03:55,629
+P in such a way that makes player 1
+ P使得玩家1 
+
+91
+00:03:55,829 --> 00:03:58,240
+indifferent and the reason why we've
+淡漠以及我们之所以
+
+92
+00:03:58,439 --> 00:04:00,009
+bothered to think about this is we can
+懒得想这是我们可以
+
+93
+00:04:00,209 --> 00:04:02,409
+actually write that down in math so we
+实际上把它写下来，所以我们
+
+94
+00:04:02,609 --> 00:04:05,230
+can say the utility for player 1 of
+可以说该播放器1的实用程序
+
+95
+00:04:05,430 --> 00:04:08,530
+playing B and here I'm kind of abusing
+玩B，我有点儿滥用
+
+96
+00:04:08,729 --> 00:04:09,909
+notation you should really understand
+你应该真正理解的符号
+
+97
+00:04:10,109 --> 00:04:11,860
+this to mean the utility for player 1 is
+这意味着播放器1的实用程序是
+
+98
+00:04:12,060 --> 00:04:15,430
+playing B given that player 1 plays P 1
+给定玩家1玩P 1，则玩B 
+
+99
+00:04:15,629 --> 00:04:19,870
+minus P is equal to the utility of
+负P等于效用
+
+100
+00:04:20,069 --> 00:04:23,199
+player 1 for playing F again given the
+给定F的玩家1再次玩F 
+
+101
+00:04:23,399 --> 00:04:27,189
+player 2 plays P 1 minus P
+玩家2玩P 1减P 
+
+102
+00:04:27,389 --> 00:04:31,579
+so then we can we can simply expand this
+这样我们就可以简单地扩展它
+
+103
+00:04:31,779 --> 00:04:33,860
+out um taking into account the actual
+嗯，考虑到实际
+
+104
+00:04:34,060 --> 00:04:35,809
+payoffs of the game and learn something
+游戏的收益并学到一些东西
+
+105
+00:04:36,009 --> 00:04:39,079
+useful so we can say if it's the case
+很有用，所以我们可以说是这样
+
+106
+00:04:39,278 --> 00:04:41,028
+given the same probabilities P and 1
+给定相同的概率P和1 
+
+107
+00:04:41,228 --> 00:04:43,218
+minus P the player 1 is indifferent
+负P表示玩家1无动于衷
+
+108
+00:04:43,418 --> 00:04:47,149
+between playing B and playing F then
+在玩B和玩F之间
+
+109
+00:04:47,348 --> 00:04:50,749
+that means well when he plays B then he
+这意味着当他演奏B时，他
+
+110
+00:04:50,949 --> 00:04:54,199
+gets 2 with probability P and he gets 0
+以概率P获得2，而他获得0 
+
+111
+00:04:54,399 --> 00:04:56,689
+with probability 1 minus B so that's
+概率为1减去B，所以
+
+112
+00:04:56,889 --> 00:04:59,809
+what we have written down here and when
+我们在这里写下的内容以及时间
+
+113
+00:05:00,009 --> 00:05:03,170
+he plays F he gets 0 with probability P
+他打F他以P出现0 
+
+114
+00:05:03,370 --> 00:05:06,309
+and 1 with probability 1 minus P and
+和1的概率为1减去P，而
+
+115
+00:05:06,509 --> 00:05:08,420
+that's what we have written down here
+这就是我们在这里写下的
+
+116
+00:05:08,620 --> 00:05:11,600
+and now we just have a simple equation
+现在我们有一个简单的方程式
+
+117
+00:05:11,800 --> 00:05:14,540
+in one variable so if we rearrange it we
+在一个变量中，所以如果我们重新排列它
+
+118
+00:05:14,740 --> 00:05:16,579
+end up concluding that the only way that
+最终得出结论， 
+
+119
+00:05:16,778 --> 00:05:18,769
+player 1 can be indifferent between play
+玩家1可能在游戏之间无动于衷
+
+120
+00:05:18,968 --> 00:05:21,649
+and being at B and F is if P is equal to
+而在B和F处是P是否等于
+
+121
+00:05:21,848 --> 00:05:28,399
+1/3 in the same way we can reason that
+以相同的方式我们可以推断出1/3 
+
+122
+00:05:28,598 --> 00:05:31,699
+if player 2 was randomizing which we had
+如果玩家2正在随机化
+
+123
+00:05:31,899 --> 00:05:34,100
+just assumed that he was then player 1
+只是假设他是当时的玩家1 
+
+124
+00:05:34,300 --> 00:05:39,739
+must make him indifferent and why is
+必须让他冷漠，为什么
+
+125
+00:05:39,939 --> 00:05:41,629
+player 1 willing to randomize because
+玩家1愿意随机分组，因为
+
+126
+00:05:41,829 --> 00:05:43,160
+he's simultaneously being made
+他同时被制造
+
+127
+00:05:43,360 --> 00:05:48,079
+indifferent by player 2 so so now let's
+对玩家2漠不关心，所以现在让我们
+
+128
+00:05:48,278 --> 00:05:50,509
+say that player 1 plays B with
+说玩家1玩B 
+
+129
+00:05:50,709 --> 00:05:53,929
+probability Q and plays f with
+概率Q和f 
+
+130
+00:05:54,129 --> 00:05:58,369
+probability 1 minus Q so now we can just
+概率1减去Q，所以我们现在可以
+
+131
+00:05:58,569 --> 00:06:00,199
+do the same thing as before where again
+再做一次和以前一样的事情
+
+132
+00:06:00,399 --> 00:06:02,509
+you should understand this to me in Q 1
+你应该在第一季对我理解
+
+133
+00:06:02,709 --> 00:06:07,879
+minus Q and likewise here and we can say
+减去Q，同样在这里，我们可以说
+
+134
+00:06:08,079 --> 00:06:09,649
+we can just expand it out in the same
+我们可以将其扩展到同一个
+
+135
+00:06:09,848 --> 00:06:13,689
+way so if player 2 plays B then he gets
+这样，如果玩家2玩B，那么他得到
+
+136
+00:06:13,889 --> 00:06:18,230
+1 with probability Q and he gets 0 with
+ Q的概率为1，而他的概率为0 
+
+137
+00:06:18,430 --> 00:06:21,619
+probability 1 minus Q and if he plays F
+概率1减去Q，如果他玩F 
+
+138
+00:06:21,819 --> 00:06:25,819
+he gets 0 with probability Q and 2 with
+他的概率Q为0，而概率为2 
+
+139
+00:06:26,019 --> 00:06:28,579
+probability 1 minus Q we now again have
+ 1现在减去Q的概率
+
+140
+00:06:28,778 --> 00:06:31,459
+an equation in one variable and we can
+一个变量中的方程，我们可以
+
+141
+00:06:31,658 --> 00:06:33,468
+rearrange it and find that Q is equal to
+重新排列它，发现Q等于
+
+142
+00:06:33,668 --> 00:06:36,920
+1/3 and the important thing to notice
+ 1/3和需要注意的重要事项
+
+143
+00:06:37,120 --> 00:06:40,069
+that happened here is that
+这里发生的是
+
+144
+00:06:40,269 --> 00:06:41,960
+player one and player two were both
+玩家一和玩家二
+
+145
+00:06:42,160 --> 00:06:44,360
+willing to randomize so we ended up
+愿意随机化，所以我们最终
+
+146
+00:06:44,560 --> 00:06:47,120
+getting out numbers here that made sense
+在这里找出有意义的数字
+
+147
+00:06:47,319 --> 00:06:48,889
+we ended up getting P's and Q's that
+我们最终得到了P和Q 
+
+148
+00:06:49,089 --> 00:06:50,810
+were probabilities they were between
+是它们之间的概率
+
+149
+00:06:51,009 --> 00:06:53,090
+zero and one and that means it's
+零和一，这意味着
+
+150
+00:06:53,290 --> 00:06:54,680
+actually possible to set them in such a
+实际上可以将它们设置为
+
+151
+00:06:54,879 --> 00:06:56,090
+way that player one and player two
+玩家一和玩家二的方式
+
+152
+00:06:56,290 --> 00:06:58,220
+actually would be indifferent if the
+实际上，如果
+
+153
+00:06:58,420 --> 00:06:59,420
+payoffs were different we might have
+我们可能会有不同的回报
+
+154
+00:06:59,620 --> 00:07:02,389
+gotten something out here like 13 and if
+在这里得到了一些东西，例如13 
+
+155
+00:07:02,589 --> 00:07:04,790
+Q is 13 it means that B would have to
+ Q是13，这意味着B必须
+
+156
+00:07:04,990 --> 00:07:06,650
+happen 13 times more often than a 4
+发生次数是4次的13倍
+
+157
+00:07:06,850 --> 00:07:08,509
+player 1 to be indifferent and because
+玩家1漠不关心，因为
+
+158
+00:07:08,709 --> 00:07:09,949
+that's not a probability what that would
+那不是那种可能性
+
+159
+00:07:10,149 --> 00:07:12,620
+really be telling us is there's no way
+真的是在告诉我们没有办法
+
+160
+00:07:12,819 --> 00:07:15,020
+of making the other player indifferent
+使其他玩家变得冷漠
+
+161
+00:07:15,220 --> 00:07:17,030
+and that would tell us there can't be an
+那会告诉我们不可能有一个
+
+162
+00:07:17,230 --> 00:07:19,759
+equilibrium with the support but what we
+平衡与支持，但我们
+
+163
+00:07:19,959 --> 00:07:21,530
+got out was interprete Balazs a
+下车是解释巴拉兹
+
+164
+00:07:21,730 --> 00:07:23,629
+probability and that means there is an
+概率，这意味着有一个
+
+165
+00:07:23,829 --> 00:07:25,280
+equilibrium with this support because
+在此支撑下保持平衡，因为
+
+166
+00:07:25,480 --> 00:07:28,069
+what we've seen is if player 1 plays
+我们所看到的是如果玩家1玩
+
+167
+00:07:28,269 --> 00:07:31,009
+this way and player 2 plays this way
+这样玩家2就会这样玩
+
+168
+00:07:31,209 --> 00:07:32,750
+then they each make each other in
+然后他们彼此交往
+
+169
+00:07:32,949 --> 00:07:34,699
+different and if they both make each
+不同，如果他们都使每个
+
+170
+00:07:34,899 --> 00:07:35,870
+other in different then they're both
+其他都不同，那么他们都是
+
+171
+00:07:36,069 --> 00:07:37,579
+willing to play these mixed strategies
+愿意玩这些混合策略
+
+172
+00:07:37,779 --> 00:07:42,439
+and so in the end this mixed strategy
+最终，这种混合策略
+
+173
+00:07:42,639 --> 00:07:46,370
+profile is a Nash equilibrium and so
+轮廓是纳什均衡，所以
+
+174
+00:07:46,569 --> 00:07:48,620
+what we've done then is to compute a
+然后，我们要做的是计算一个
+
+175
+00:07:48,819 --> 00:07:49,490
+Nash equilibrium
+纳什均衡
+
+176
+00:07:49,689 --> 00:07:51,740
+after having guessed to support which is
+在猜测支持之后
+
+177
+00:07:51,939 --> 00:07:53,780
+what we set out to do so the last thing
+我们打算这样做的最后一件事
+
+178
+00:07:53,980 --> 00:07:55,819
+I want to think about here is what does
+我想想这是做什么的
+
+179
+00:07:56,019 --> 00:07:58,069
+it mean to play a mixed strategy turns
+意思是打混合策略
+
+180
+00:07:58,269 --> 00:07:58,939
+out there are different interpretations
+外面有不同的解释
+
+181
+00:07:59,139 --> 00:08:01,280
+and and now that you can really see kind
+而且现在您可以真正看到
+
+182
+00:08:01,480 --> 00:08:02,540
+of the mechanics of what's going on
+发生的事情的机理
+
+183
+00:08:02,740 --> 00:08:04,699
+inside a mixed strategy you sort of
+在混合策略中
+
+184
+00:08:04,899 --> 00:08:06,500
+better ready to understand some of these
+更好地了解其中一些
+
+185
+00:08:06,699 --> 00:08:08,780
+different interpretations so the first
+不同的解释，所以第一个
+
+186
+00:08:08,980 --> 00:08:11,689
+and kind of most natural is is kind of
+最自然的是
+
+187
+00:08:11,889 --> 00:08:13,759
+the one that is going on in the matching
+匹配中正在进行的
+
+188
+00:08:13,959 --> 00:08:15,949
+pennies example and that is that you
+便士的例子，那就是你
+
+189
+00:08:16,149 --> 00:08:18,650
+randomize to confuse your opponent so in
+随机混淆对手
+
+190
+00:08:18,850 --> 00:08:21,770
+matching pennies we each want opposite
+我们每个人都想相反的便士
+
+191
+00:08:21,970 --> 00:08:23,449
+things and the only way we can be in
+事物和我们进入的唯一方式
+
+192
+00:08:23,649 --> 00:08:25,310
+equilibrium with each other is if you
+彼此之间的平衡是
+
+193
+00:08:25,509 --> 00:08:26,810
+have some kind of uncertainty about what
+对什么有某种不确定性
+
+194
+00:08:27,009 --> 00:08:28,550
+I'm going to do if you know for sure
+如果您确定，我将做
+
+195
+00:08:28,750 --> 00:08:31,730
+that I'm playing heads you just know for
+我只是在玩脑袋
+
+196
+00:08:31,930 --> 00:08:32,870
+sure what you're going to do and it's
+确定你要做什么，这是
+
+197
+00:08:33,070 --> 00:08:34,069
+something that I don't like and so
+我不喜欢的东西
+
+198
+00:08:34,269 --> 00:08:37,039
+there's no pure strategy in this game so
+这个游戏没有纯粹的策略，所以
+
+199
+00:08:37,240 --> 00:08:38,539
+the only way that we can be in
+我们可以进入的唯一方式
+
+200
+00:08:38,740 --> 00:08:40,069
+equilibrium is if we're both a bit
+平衡就是如果我们都
+
+201
+00:08:40,269 --> 00:08:42,799
+confused about each other but that
+彼此混淆，但那
+
+202
+00:08:43,000 --> 00:08:44,539
+doesn't really describe what just
+并没有真正描述什么
+
+203
+00:08:44,740 --> 00:08:46,399
+happened in the matching penny I sort of
+发生在类似的便士
+
+204
+00:08:46,600 --> 00:08:47,839
+the battle of the sexes example that we
+性别之战的例子，我们
+
+205
+00:08:48,039 --> 00:08:50,659
+just played here the other player and I
+我刚在这里玩过
+
+206
+00:08:50,860 --> 00:08:52,729
+kind of want to coordinate the situation
+想要协调局势
+
+207
+00:08:52,929 --> 00:08:53,429
+where
+哪里
+
+208
+00:08:53,629 --> 00:08:55,529
+we both end up in different places or
+我们俩都在不同的地方
+
+209
+00:08:55,730 --> 00:08:56,909
+one of us goes to the football game and
+我们其中之一去看足球比赛， 
+
+210
+00:08:57,110 --> 00:08:58,439
+the other one of us goes to the ballet
+我们另一个人去芭蕾舞
+
+211
+00:08:58,639 --> 00:09:00,750
+is kind of an unhappy thing for both of
+对于两个人来说都是一件不快乐的事
+
+212
+00:09:00,950 --> 00:09:01,049
+us
+我们
+
+213
+00:09:01,250 --> 00:09:03,359
+what we both prefer is that we're both
+我们俩都喜欢的是
+
+214
+00:09:03,559 --> 00:09:06,979
+in the same place and the only kind of
+在同一个地方，唯一的一种
+
+215
+00:09:07,179 --> 00:09:09,149
+strategic element of the game comes from
+游戏的战略元素来自
+
+216
+00:09:09,350 --> 00:09:10,409
+the fact that we have different
+我们有不同的事实
+
+217
+00:09:10,610 --> 00:09:12,269
+preferences about our most preferred
+关于我们最喜欢的偏好
+
+218
+00:09:12,470 --> 00:09:15,629
+activity so in the mixed strategy
+活动，因此在混合策略中
+
+219
+00:09:15,830 --> 00:09:18,750
+equilibrium here it's kind of an unhappy
+平衡在这里有点不开心
+
+220
+00:09:18,950 --> 00:09:20,849
+thing because of course when we play
+因为我们玩的时候当然
+
+221
+00:09:21,049 --> 00:09:22,319
+this two-thirds one-third equilibrium
+这三分之二三分之一的均衡
+
+222
+00:09:22,519 --> 00:09:23,759
+that we just looked at in battle of the
+我们只是在战斗中
+
+223
+00:09:23,960 --> 00:09:25,979
+sexes where we have two one zero zero
+我们有两个一零零的性别
+
+224
+00:09:26,179 --> 00:09:29,579
+one two if we're mixing there's some
+一两个如果我们要混合的话
+
+225
+00:09:29,779 --> 00:09:31,169
+possibility that we're actually going to
+我们实际上要去的可能性
+
+226
+00:09:31,370 --> 00:09:35,729
+end up in these uncoordinated outcomes
+最终导致这些不协调的结果
+
+227
+00:09:35,929 --> 00:09:37,740
+that neither of us likes that's just
+我们俩都不喜欢那只是
+
+228
+00:09:37,940 --> 00:09:39,120
+sort of an unhappy thing about the fact
+对事实有点不高兴
+
+229
+00:09:39,320 --> 00:09:40,169
+that we're playing a full support
+我们正在全力支持
+
+230
+00:09:40,370 --> 00:09:45,209
+equilibrium but and so it can't be that
+平衡，但事实并非如此
+
+231
+00:09:45,409 --> 00:09:46,439
+we're randomizing to deliberately
+我们正在随机地故意
+
+232
+00:09:46,639 --> 00:09:48,509
+confuse each other instead we should
+彼此混淆，我们应该
+
+233
+00:09:48,710 --> 00:09:50,309
+really understand this randomization as
+真正理解这种随机化为
+
+234
+00:09:50,509 --> 00:09:52,889
+reflecting uncertainty so if I'm
+反映不确定性，所以如果我
+
+235
+00:09:53,090 --> 00:09:54,329
+uncertain about the other person's
+对对方的不确定
+
+236
+00:09:54,529 --> 00:09:56,669
+action then and then I best respond
+然后再行动最好
+
+237
+00:09:56,870 --> 00:09:59,069
+given that uncertainty and I do that in
+鉴于不确定性，我这样做
+
+238
+00:09:59,269 --> 00:10:02,129
+a way that leaves you kind of uncertain
+一种让您不确定的方式
+
+239
+00:10:02,330 --> 00:10:03,599
+in a particular way we can also find
+在某种程度上，我们还可以找到
+
+240
+00:10:03,799 --> 00:10:06,299
+ourselves in balance that's really the
+我们自己处于平衡状态
+
+241
+00:10:06,500 --> 00:10:08,099
+way that I understand the stability of
+我了解稳定性的方式
+
+242
+00:10:08,299 --> 00:10:09,719
+the equilibrium and battle of the sexes
+两性的平衡与斗争
+
+243
+00:10:09,919 --> 00:10:11,399
+that if we make each other uncertain in
+如果我们彼此不确定
+
+244
+00:10:11,600 --> 00:10:13,769
+a precise way we can find ourselves in
+我们可以找到自己的精确方法
+
+245
+00:10:13,970 --> 00:10:16,199
+balance even though we would really like
+平衡，即使我们真的很想
+
+246
+00:10:16,399 --> 00:10:18,509
+it better if we were just to end up in
+如果我们只是最终进入
+
+247
+00:10:18,710 --> 00:10:22,709
+one of these pure equilibria there are
+这些纯粹的平衡之一是
+
+248
+00:10:22,909 --> 00:10:24,089
+two other interpretations that I'll
+我将另外两种解释
+
+249
+00:10:24,289 --> 00:10:27,269
+mention here just to be complete we can
+提及这里只是为了完整，我们可以
+
+250
+00:10:27,470 --> 00:10:29,549
+also think of mixed strategies as a
+也将混合策略视为
+
+251
+00:10:29,750 --> 00:10:31,349
+concise description of what would happen
+简明扼要的描述
+
+252
+00:10:31,549 --> 00:10:33,599
+if really nobody randomizes but we just
+如果真的没有人随机化，但我们只是
+
+253
+00:10:33,799 --> 00:10:35,969
+play the game repeatedly so you can
+反复玩游戏，这样您就可以
+
+254
+00:10:36,169 --> 00:10:37,500
+think of a mixed strategy as the count
+将混合策略视为计数
+
+255
+00:10:37,700 --> 00:10:39,000
+of the pure strategies that would occur
+将会发生的纯策略
+
+256
+00:10:39,200 --> 00:10:41,699
+in the limit and you can see how that
+在极限，你可以看到
+
+257
+00:10:41,899 --> 00:10:43,169
+might also describe what happens in the
+可能还会描述发生在
+
+258
+00:10:43,370 --> 00:10:46,469
+battle of the sexes game where if we
+两性游戏之战，如果我们
+
+259
+00:10:46,669 --> 00:10:47,759
+just sort of bouncing back and forth
+只是来回弹跳
+
+260
+00:10:47,960 --> 00:10:49,519
+between the different strategies
+不同策略之间
+
+261
+00:10:49,720 --> 00:10:52,109
+weighting ourselves in that two-thirds
+在三分之二的体重
+
+262
+00:10:52,309 --> 00:10:54,209
+one-third kind of way we would be in
+我们将要经历的三分之一
+
+263
+00:10:54,409 --> 00:10:55,769
+equilibrium and sometimes we would miss
+平衡，有时我们会错过
+
+264
+00:10:55,970 --> 00:10:58,919
+coordinate the last interpretation is
+协调最后的解释是
+
+265
+00:10:59,120 --> 00:11:00,209
+that mixed strategies describe a
+混合策略描述了
+
+266
+00:11:00,409 --> 00:11:03,059
+population dynamics so if it's the case
+人口动态，如果是这样
+
+267
+00:11:03,259 --> 00:11:06,149
+that we have whole populations of player
+我们拥有全部玩家
+
+268
+00:11:06,350 --> 00:11:07,049
+ones and
+一个和
+
+269
+00:11:07,250 --> 00:11:09,719
+populations of player twos and we sample
+玩家人数的总数，我们进行抽样
+
+270
+00:11:09,919 --> 00:11:12,000
+players from the population each of them
+人口众多的球员
+
+271
+00:11:12,200 --> 00:11:14,219
+has a deterministic strategy the mixed
+有确定性的策略
+
+272
+00:11:14,419 --> 00:11:15,750
+strategy can be an interpretation of
+策略可以解释为
+
+273
+00:11:15,950 --> 00:11:18,539
+those population proportions so if it's
+这些人口比例，如果
+
+274
+00:11:18,740 --> 00:11:20,429
+the case that the one population has
+一个人有的情况
+
+275
+00:11:20,629 --> 00:11:23,250
+two-thirds B's and one-third FS the
+ B的三分之二和FS的三分之一
+
+276
+00:11:23,450 --> 00:11:25,469
+other population has one-third B's and
+其他人口有三分之一的B 
+
+277
+00:11:25,669 --> 00:11:27,689
+two-thirds F's if we were sampling those
+如果我们采样三分之二的F 
+
+278
+00:11:27,889 --> 00:11:29,399
+populations those populations would be
+这些人口将是
+
+279
+00:11:29,600 --> 00:11:31,559
+in equilibrium relative to each other so
+相对于彼此处于平衡状态
+
+280
+00:11:31,759 --> 00:11:33,449
+that's another story we can tell that
+这是另一个故事，我们可以说
+
+281
+00:11:33,649 --> 00:11:35,339
+explains what equilibrium might mean
+解释平衡可能意味着什么
+
+282
+00:11:35,539 --> 00:11:36,929
+what it means to be playing a pure
+演奏纯粹的音乐意味着什么
+
+283
+00:11:37,129 --> 00:11:38,819
+strategy a sort of mixed strategy and to
+策略是一种混合策略， 
+
+284
+00:11:39,019 --> 00:11:41,279
+be in equilibrium there and that
+在那儿处于平衡状态
+
+285
+00:11:41,480 --> 00:11:43,049
+concludes our discussion of how to
+结束了我们关于如何
+
+286
+00:11:43,250 --> 00:11:48,250
+compute mixed strategy equilibrium
+计算混合策略均衡
+

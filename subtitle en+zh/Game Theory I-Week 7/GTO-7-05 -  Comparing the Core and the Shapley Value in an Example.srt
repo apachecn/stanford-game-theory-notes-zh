@@ -1,0 +1,1185 @@
+﻿1
+00:00:00,299 --> 00:00:03,099
+I have folks it's met again and what
+我有乡亲又遇见了什么
+
+2
+00:00:03,299 --> 00:00:05,889
+we're gonna do now is actually sort of
+我们现在要做的实际上是
+
+3
+00:00:06,089 --> 00:00:08,710
+wrap up our discussion of coalitional
+结束我们对联盟的讨论
+
+4
+00:00:08,910 --> 00:00:12,040
+games and allocating value among the set
+游戏和在集合中分配价值
+
+5
+00:00:12,240 --> 00:00:13,390
+of individuals and we're going to do so
+的个人，我们将这样做
+
+6
+00:00:13,589 --> 00:00:16,240
+by looking at a particular example which
+通过看一个特定的例子
+
+7
+00:00:16,440 --> 00:00:18,609
+we can do some comparison say of the
+我们可以做一些比较的说法
+
+8
+00:00:18,809 --> 00:00:20,499
+core and the Shapley value and and see
+核心和Shapley的价值和看
+
+9
+00:00:20,699 --> 00:00:23,769
+exactly what's going on so let's let's
+到底发生了什么，所以让我们
+
+10
+00:00:23,969 --> 00:00:27,039
+look at a very interesting one so think
+看一个很有趣的东西，所以想
+
+11
+00:00:27,239 --> 00:00:28,870
+about the yeren UN Security Council so
+关于耶伦联合国安理会
+
+12
+00:00:29,070 --> 00:00:30,519
+the United Nations has a Security
+联合国有一个安全
+
+13
+00:00:30,719 --> 00:00:32,820
+Council which makes a whole series of
+理事会使整个系列
+
+14
+00:00:33,020 --> 00:00:35,529
+passes often resolutions among doing
+在做事时经常通过决议
+
+15
+00:00:35,729 --> 00:00:39,279
+other things which can can be very
+其他事情可能会非常
+
+16
+00:00:39,479 --> 00:00:42,299
+important in international politics and
+在国际政治中很重要
+
+17
+00:00:42,500 --> 00:00:45,279
+in particular there are 15 members of
+特别是有15个成员
+
+18
+00:00:45,479 --> 00:00:48,428
+the UN Security Council at present how
+目前联合国安理会如何
+
+19
+00:00:48,628 --> 00:00:50,018
+does this work
+这项工作吗
+
+20
+00:00:50,219 --> 00:00:52,538
+there's five permanent members of the
+有五个常任理事国
+
+21
+00:00:52,738 --> 00:00:56,108
+council so those are China France Russia
+理事会，所以这些是中国法国俄罗斯
+
+22
+00:00:56,308 --> 00:00:59,919
+the UK and the US and so the the they're
+英国和美国，所以他们是
+
+23
+00:01:00,119 --> 00:01:04,209
+always in the Security Council there are
+安全理事会中总是有
+
+24
+00:01:04,409 --> 00:01:07,269
+10 temporary members so beyond these
+ 10个临时成员
+
+25
+00:01:07,469 --> 00:01:09,488
+five there are other members that rotate
+五有其他成员旋转
+
+26
+00:01:09,688 --> 00:01:13,750
+in and out of the Security Council but
+进出安全理事会，但
+
+27
+00:01:13,950 --> 00:01:16,750
+are chosen in general from the UN and
+通常是从联合国和
+
+28
+00:01:16,950 --> 00:01:20,439
+the ones were a very important aspect of
+这是一个非常重要的方面
+
+29
+00:01:20,640 --> 00:01:22,619
+this is that the five permanent members
+这是五个常任理事国
+
+30
+00:01:22,819 --> 00:01:26,649
+can veto resolutions okay so basically
+可以否决决议，所以基本上
+
+31
+00:01:26,849 --> 00:01:28,390
+if you want to pass something within the
+如果您想在
+
+32
+00:01:28,590 --> 00:01:30,759
+Security Council the five permanent
+安理会五个常任理事国
+
+33
+00:01:30,959 --> 00:01:33,450
+members actually have to agree to it
+成员实际上必须同意它
+
+34
+00:01:33,650 --> 00:01:36,849
+there's some subtleties in this it can
+它可以有一些微妙之处
+
+35
+00:01:37,049 --> 00:01:40,269
+be that they can abstain but ignoring
+因为他们可以弃权，却无视
+
+36
+00:01:40,469 --> 00:01:43,359
+abstention that you basically have to
+弃权，你基本上必须
+
+37
+00:01:43,560 --> 00:01:44,769
+have them on board if any one of them
+如果他们中有任何人，请把它们放在船上
+
+38
+00:01:44,969 --> 00:01:47,079
+says no to something it won't pass in
+对不会通过的内容说不
+
+39
+00:01:47,280 --> 00:01:50,259
+the Security Council but the 10 the 10
+安理会，但10到10 
+
+40
+00:01:50,459 --> 00:01:53,349
+other members do not have vetoes okay so
+其他成员没有否决权，所以
+
+41
+00:01:53,549 --> 00:01:54,789
+if we start thinking about a cooperative
+如果我们开始考虑合作社
+
+42
+00:01:54,989 --> 00:01:57,399
+game to capture this and the Security
+游戏来捕捉这一点和安全
+
+43
+00:01:57,599 --> 00:01:58,628
+Council can use different rules for
+理事会可以使用不同的规则
+
+44
+00:01:58,828 --> 00:02:00,429
+voting sometimes they use majority rule
+有时他们使用多数制投票
+
+45
+00:02:00,629 --> 00:02:02,409
+sometimes a two-thirds rule and so forth
+有时是三分之二的规则，依此类推
+
+46
+00:02:02,609 --> 00:02:03,939
+but we'll look at a situation where
+但我们会考虑一种情况
+
+47
+00:02:04,140 --> 00:02:06,819
+they're using majority rule so if we
+他们使用多数统治，所以如果我们
+
+48
+00:02:07,019 --> 00:02:08,439
+want to represent that as a cooperative
+想代表合作社
+
+49
+00:02:08,639 --> 00:02:11,100
+game in order to come to a resolution
+游戏以解决问题
+
+50
+00:02:11,300 --> 00:02:14,510
+what's going to have to be true
+什么将是真实的
+
+51
+00:02:14,710 --> 00:02:16,219
+so if we think about the you know
+所以如果我们考虑一下
+
+52
+00:02:16,419 --> 00:02:18,530
+labeling say China France Russia UK and
+标签说中国法国俄罗斯英国和
+
+53
+00:02:18,729 --> 00:02:23,390
+us as as individuals or players 1 2 3 4
+我们作为个人还是参与者1 2 3 4 
+
+54
+00:02:23,590 --> 00:02:27,590
+5 then what's true about the value of
+ 5那么，什么是真正的价值
+
+55
+00:02:27,789 --> 00:02:30,020
+the coalition so a value of a coalition
+联盟是联盟的价值
+
+56
+00:02:30,219 --> 00:02:32,420
+a coalition can pass legislation or pass
+联盟可以通过立法或通过
+
+57
+00:02:32,620 --> 00:02:35,270
+a resolution in this case and get a
+在这种情况下的解决方案，并获得
+
+58
+00:02:35,469 --> 00:02:38,090
+value of 1 so let's say 1 is success you
+值1，所以说1是成功的你
+
+59
+00:02:38,289 --> 00:02:41,390
+you pass a resolution you can do that if
+您通过了一项决议，如果
+
+60
+00:02:41,590 --> 00:02:44,870
+all five are on board so you need the
+所有五个都在船上，所以您需要
+
+61
+00:02:45,069 --> 00:02:47,420
+five permanent members plus you need a
+五个常任理事国加上您需要一个
+
+62
+00:02:47,620 --> 00:02:49,340
+majority so you need at least half of
+多数，因此您至少需要一半
+
+63
+00:02:49,539 --> 00:02:52,939
+the 15 so you need at least eight
+ 15，所以您至少需要八个
+
+64
+00:02:53,139 --> 00:02:55,580
+members in total to vote yes to
+共有成员投票赞成
+
+65
+00:02:55,780 --> 00:02:57,950
+overwhelm the other seven that might be
+压倒了其他七个可能
+
+66
+00:02:58,150 --> 00:03:00,500
+voting no but all five of this these
+投票否，但所有这五个都投票
+
+67
+00:03:00,699 --> 00:03:02,719
+have to be present and if you have a
+必须在场，如果你有一个
+
+68
+00:03:02,919 --> 00:03:04,640
+coalition that wants to pass the
+想要通过的联盟
+
+69
+00:03:04,840 --> 00:03:06,560
+resolution that does not include some of
+分辨率不包括
+
+70
+00:03:06,759 --> 00:03:08,150
+these members or falls short of the
+这些成员或达不到
+
+71
+00:03:08,349 --> 00:03:10,850
+eight then you get zero okay so this is
+八，那么你得到零好吧，这是
+
+72
+00:03:11,050 --> 00:03:12,500
+a cooperative game it's a very
+合作游戏，这是一个非常
+
+73
+00:03:12,699 --> 00:03:15,259
+particular one and we can analyze then
+特定的，然后我们可以分析
+
+74
+00:03:15,459 --> 00:03:18,620
+what are the core of allocations for
+分配的核心是什么
+
+75
+00:03:18,819 --> 00:03:20,420
+this what's the Shapley value and so
+这是Shapley的值，所以
+
+76
+00:03:20,620 --> 00:03:23,270
+forth so in order to do that let's start
+为了做到这一点，让我们开始
+
+77
+00:03:23,469 --> 00:03:25,310
+with a simple three player game that has
+一个简单的三人游戏， 
+
+78
+00:03:25,509 --> 00:03:27,680
+a similar structure okay and what's the
+类似的结构还可以，这是什么
+
+79
+00:03:27,879 --> 00:03:29,660
+structure of this this is sort of a
+这个的结构有点像
+
+80
+00:03:29,860 --> 00:03:31,400
+simplified version of the UN Security
+联合国安全简化版
+
+81
+00:03:31,599 --> 00:03:34,069
+Council say one permanent member with a
+理事会说一名常任理事国
+
+82
+00:03:34,269 --> 00:03:36,620
+veto and two temporary members and we
+否决权和两名临时成员，我们
+
+83
+00:03:36,819 --> 00:03:38,630
+still operate by majority rule
+仍按多数规则运作
+
+84
+00:03:38,830 --> 00:03:41,810
+so what's true is the value of a
+所以真正的价值是
+
+85
+00:03:42,009 --> 00:03:46,250
+coalition is one if you've got one as a
+如果您有一个联盟，那么联盟就是一个
+
+86
+00:03:46,449 --> 00:03:50,000
+member and you've got at least two
+成员，您至少有两个
+
+87
+00:03:50,199 --> 00:03:51,410
+members on board so if at least two
+成员，所以如果至少有两个
+
+88
+00:03:51,610 --> 00:03:54,230
+agree and one person won't player 1 is
+同意，一个人不会成为玩家1 
+
+89
+00:03:54,430 --> 00:03:56,120
+one of them you get it you can pass
+其中之一，您可以通过
+
+90
+00:03:56,319 --> 00:03:58,700
+something otherwise you can't okay so
+否则你就不能这样
+
+91
+00:03:58,900 --> 00:04:00,500
+that's a simplified version but it has
+这是一个简化的版本，但它具有
+
+92
+00:04:00,699 --> 00:04:02,270
+the same kind of structure as the UN
+与联合国的结构相同
+
+93
+00:04:02,469 --> 00:04:05,030
+Security Council so what happens let's
+安全理事会，那么发生什么事，让我们
+
+94
+00:04:05,229 --> 00:04:07,430
+start with the core and try to analyze
+从核心开始，并尝试分析
+
+95
+00:04:07,629 --> 00:04:09,890
+this so we've got our game that V is 1
+这就是V等于1的游戏
+
+96
+00:04:10,090 --> 00:04:11,750
+if if you've got one in there and at
+如果你在那里有一个
+
+97
+00:04:11,949 --> 00:04:15,259
+least two members otherwise you get 0 so
+至少两个成员，否则您将获得0，所以
+
+98
+00:04:15,459 --> 00:04:16,960
+now what does the core has to satisfy
+现在核心需要满足什么
+
+99
+00:04:17,160 --> 00:04:19,430
+remember the core has to be allocating
+记住核心必须是分配
+
+100
+00:04:19,629 --> 00:04:21,699
+each coalition a total that's at least
+每个联盟的总数至少为
+
+101
+00:04:21,899 --> 00:04:25,009
+what it gets so that means that if you
+它得到什么，这意味着如果你
+
+102
+00:04:25,209 --> 00:04:27,770
+put what 1 & 2 to get
+把什么1和2得到
+
+103
+00:04:27,970 --> 00:04:30,588
+they can generate a value of one so they
+他们可以产生一个值，所以他们
+
+104
+00:04:30,788 --> 00:04:32,899
+have to be getting at least one one in
+必须至少有一个
+
+105
+00:04:33,098 --> 00:04:34,429
+three together have to be getting a list
+三个在一起必须得到一个清单
+
+106
+00:04:34,629 --> 00:04:37,160
+one one two and three together have to
+一一二和三在一起
+
+107
+00:04:37,360 --> 00:04:38,629
+be getting one right so we're dividing
+得到正确的，所以我们正在分裂
+
+108
+00:04:38,829 --> 00:04:40,579
+up the total value among the three
+三者之和
+
+109
+00:04:40,779 --> 00:04:42,980
+members and it has to be that that
+成员，必须是
+
+110
+00:04:43,180 --> 00:04:45,230
+everybody gets at least zero since you
+每个人至少得到零，因为你
+
+111
+00:04:45,430 --> 00:04:49,189
+could generate zero but you can't be
+可以产生零，但你不能
+
+112
+00:04:49,389 --> 00:04:53,540
+forced in this case to participate okay
+在这种情况下被迫参加
+
+113
+00:04:53,740 --> 00:04:55,519
+so now when we think about what the core
+所以现在当我们考虑核心
+
+114
+00:04:55,718 --> 00:05:01,369
+is going to do when we want to look at
+当我们想看的时候要做
+
+115
+00:05:01,569 --> 00:05:05,569
+this the the fact that one and two have
+这是事实，一个和两个有
+
+116
+00:05:05,769 --> 00:05:08,540
+to be getting at least one and the total
+得到至少一个和总数
+
+117
+00:05:08,740 --> 00:05:12,218
+of all three have to be equal to one and
+所有三个中的一个必须等​​于1并且
+
+118
+00:05:12,418 --> 00:05:14,480
+nobody can get a negative value that
+没有人能得到一个负值
+
+119
+00:05:14,680 --> 00:05:22,389
+these together imply that X of three
+这些都暗示着X等于三
+
+120
+00:05:22,589 --> 00:05:27,110
+sorry X sub 3 has to be equal to zero
+对不起X sub 3必须等于零
+
+121
+00:05:27,310 --> 00:05:31,249
+right so there's no way to be giving one
+对，所以没有办法给予
+
+122
+00:05:31,449 --> 00:05:33,949
+into at least one and all three a total
+分成至少一个和全部三个
+
+123
+00:05:34,149 --> 00:05:38,179
+of one and except by giving three zero
+ 1的和，除以3为零
+
+124
+00:05:38,379 --> 00:05:42,110
+okay so then we can do the same thing
+好吧，那么我们可以做同样的事情
+
+125
+00:05:42,310 --> 00:05:45,050
+here that means that X 2 is equal to
+这意味着X 2等于
+
+126
+00:05:45,250 --> 00:05:49,369
+zero if we've got X 2 equals zero and X
+如果我们有X 2等于零并且X则为零
+
+127
+00:05:49,569 --> 00:05:51,800
+3 equal to zero that's going to imply
+ 3等于零意味着
+
+128
+00:05:52,000 --> 00:05:54,468
+that X 1 has to be one so in this case
+ X 1必须是1 
+
+129
+00:05:54,668 --> 00:05:56,838
+the fact that 1 is a vital player an
+ 1是至关重要的参与者
+
+130
+00:05:57,038 --> 00:05:58,218
+essential player
+基本球员
+
+131
+00:05:58,418 --> 00:06:01,610
+this means that the core actually gives
+这意味着核心实际上
+
+132
+00:06:01,810 --> 00:06:04,429
+one the full value here now if you do
+如果您这样做的话，现在就在这里获得全部价值
+
+133
+00:06:04,629 --> 00:06:09,199
+the core for the the Security Council
+安全理事会的核心
+
+134
+00:06:09,399 --> 00:06:12,110
+there with a full 15 members you can
+那里有15名成员，您可以
+
+135
+00:06:12,310 --> 00:06:13,699
+work through that what are you going to
+通过工作，你要去做什么
+
+136
+00:06:13,899 --> 00:06:17,509
+get you're going to get that essentially
+得到你将基本上得到
+
+137
+00:06:17,709 --> 00:06:20,929
+the division of the full value is going
+全部价值的划分正在进行
+
+138
+00:06:21,129 --> 00:06:23,360
+to end up going completely to the five
+最终完全进入五个
+
+139
+00:06:23,560 --> 00:06:25,309
+permanent members so you're going to get
+常任理事国，所以您将获得
+
+140
+00:06:25,509 --> 00:06:27,528
+the five permanent members X 1 through X
+ X 1至X的五个常任理事国
+
+141
+00:06:27,728 --> 00:06:29,869
+5 getting a value of 1 and then
+ 5取值为1，然后
+
+142
+00:06:30,069 --> 00:06:31,399
+everybody else getting a value of zero
+其他人都得到零值
+
+143
+00:06:31,598 --> 00:06:33,019
+but you could have many different ways
+但是你可以有很多不同的方式
+
+144
+00:06:33,218 --> 00:06:36,319
+of allocating that amount in between
+在这之间分配的金额
+
+145
+00:06:36,519 --> 00:06:39,360
+those members and still be in the core
+这些成员，仍然是核心
+
+146
+00:06:39,560 --> 00:06:42,240
+okay so simple idea of what the core is
+好吧，核心概念很简单
+
+147
+00:06:42,439 --> 00:06:42,960
+in this game
+在这个游戏中
+
+148
+00:06:43,160 --> 00:06:44,550
+okay now let's stick with the same game
+好吧，让我们继续玩同样的游戏
+
+149
+00:06:44,750 --> 00:06:47,520
+and do the Shapley value so if we're
+并做Shapley值，所以如果我们
+
+150
+00:06:47,720 --> 00:06:48,900
+looking at the Shapley value for this
+看这个的夏普利价值
+
+151
+00:06:49,100 --> 00:06:50,759
+game what are we going to end up with
+游戏，我们最终会得到什么
+
+152
+00:06:50,959 --> 00:06:56,040
+well we can do our calculations from
+好吧，我们可以从
+
+153
+00:06:56,240 --> 00:06:58,860
+from the the Shapley value we know that
+从Shapley值我们知道
+
+154
+00:06:59,060 --> 00:07:00,480
+the value of I is a given according to
+ I的值是根据
+
+155
+00:07:00,680 --> 00:07:02,520
+this formula and in this in particular
+这个公式，尤其是这个
+
+156
+00:07:02,720 --> 00:07:04,590
+you know we can sort of just build this
+你知道我们可以建立这个
+
+157
+00:07:04,790 --> 00:07:07,379
+up we could build it up by first putting
+我们可以先放起来
+
+158
+00:07:07,579 --> 00:07:16,278
+in 1 then 1 2 then 1 2 3 1 1 3 1 2 3 2
+合1然后1 2然后1 2 3 1 1 3 1 2 3 2 
+
+159
+00:07:16,478 --> 00:07:22,879
+first then 1 3 first or 2 first then
+首先然后1 3首先或2首先然后
+
+160
+00:07:23,079 --> 00:07:26,079
+oops
+哎呀
+
+161
+00:07:28,209 --> 00:07:37,740
+then then 3 3 and 1 3 then 2 etc and in
+然后3 3和1 3然后2等
+
+162
+00:07:37,939 --> 00:07:41,550
+this case when one comes in these two
+这两种情况中的一种
+
+163
+00:07:41,750 --> 00:07:46,020
+they add nothing and in every other case
+他们什么也没添加
+
+164
+00:07:46,220 --> 00:07:49,199
+no matter where one comes in the 1 comes
+无论一进一出
+
+165
+00:07:49,399 --> 00:07:50,370
+in when there's at least one other
+当至少有一个
+
+166
+00:07:50,569 --> 00:07:53,069
+player there in this in all these other
+其他所有玩家
+
+167
+00:07:53,269 --> 00:07:55,528
+cases they're adding a value of 1 so
+情况下，它们的值是1，所以
+
+168
+00:07:55,728 --> 00:07:57,000
+this is going to tell us that the value
+这将告诉我们价值
+
+169
+00:07:57,199 --> 00:08:02,009
+2 1 should be equal to 2/3 because 2/3
+ 2 1应该等于2/3，因为2/3 
+
+170
+00:08:02,209 --> 00:08:03,540
+of the time they're adding a value of 1
+他们添加值1的时间
+
+171
+00:08:03,740 --> 00:08:04,889
+and 1/3 of the time they're adding a
+他们有1/3的时间在添加
+
+172
+00:08:05,089 --> 00:08:07,560
+value of 0 ok if you go through these
+如果您经过这些，则值为0好的
+
+173
+00:08:07,759 --> 00:08:09,028
+kinds of calculations you can you know
+您可以知道各种计算
+
+174
+00:08:09,228 --> 00:08:12,180
+you've got this weighted by 2/6 this
+您已经将此加权为2/6 
+
+175
+00:08:12,379 --> 00:08:14,610
+weighted by 1/6 despite weighted by 1/6
+加权为1/6，尽管加权为1/6 
+
+176
+00:08:14,810 --> 00:08:17,460
+and so forth so what you're going to end
+等等，你要结束什么
+
+177
+00:08:17,660 --> 00:08:22,588
+up with this here 2/3 then 2 is going to
+在这里2/3然后2将
+
+178
+00:08:22,788 --> 00:08:25,770
+get 1/6 3 is going to get 1/6 and so
+得到1/6 3将得到1/6等等
+
+179
+00:08:25,970 --> 00:08:27,870
+forth and so what we end up with is
+等等，所以我们最终得到的是
+
+180
+00:08:28,069 --> 00:08:32,399
+Shapley value of 2/3 for one one six for
+每1的六分之一的Shapley值
+
+181
+00:08:32,599 --> 00:08:34,588
+each of the other players so the core
+其他每个玩家都是核心
+
+182
+00:08:34,788 --> 00:08:36,838
+and the Shapley value in this case are
+和在这种情况下的Shapley值是
+
+183
+00:08:37,038 --> 00:08:38,338
+both unique and they're giving us
+既独特又给我们
+
+184
+00:08:38,538 --> 00:08:40,949
+different predictions one the core is
+不同的预测之一是
+
+185
+00:08:41,149 --> 00:08:43,008
+saying everything should go to person 1
+说一切都应该归人1 
+
+186
+00:08:43,208 --> 00:08:45,389
+the Shapley value says well 2 & 3
+ Shapley值表示2和3 
+
+187
+00:08:45,589 --> 00:08:47,639
+actually do generate some value and we
+实际上确实产生了一些价值，我们
+
+188
+00:08:47,839 --> 00:08:49,469
+should be giving them some of the fruits
+应该给他们一些水果
+
+189
+00:08:49,669 --> 00:08:50,819
+of their production
+他们的生产
+
+190
+00:08:51,019 --> 00:08:53,490
+and in this case one is more important
+在这种情况下，一个更重要
+
+191
+00:08:53,690 --> 00:08:56,519
+so they get more but two and three are
+所以他们得到更多，但是两个和三个是
+
+192
+00:08:56,720 --> 00:08:59,639
+still valuable members in this society
+在这个社会中仍然是有价值的成员
+
+193
+00:08:59,840 --> 00:09:01,709
+and the shap we value reflects that but
+我们重视的形状反映了这一点，但
+
+194
+00:09:01,909 --> 00:09:03,779
+these are very different logics you
+这些是非常不同的逻辑
+
+195
+00:09:03,980 --> 00:09:05,250
+might think of the core in a situation
+可能会想到情况中的核心
+
+196
+00:09:05,450 --> 00:09:07,799
+where people might secede and one could
+人们可能会分离而一个人可能会分离
+
+197
+00:09:08,000 --> 00:09:09,719
+walk away and say you know without me
+走开，说你知道没有我
+
+198
+00:09:09,919 --> 00:09:11,099
+you get nothing
+你什么也没得到
+
+199
+00:09:11,299 --> 00:09:13,829
+whereas the Shapley value is doing
+而Shapley值正在做
+
+200
+00:09:14,029 --> 00:09:15,089
+calculations based on marginal
+基于边际的计算
+
+201
+00:09:15,289 --> 00:09:18,599
+contributions okay in terms of
+就以下方面而言，捐款还可以
+
+202
+00:09:18,799 --> 00:09:21,000
+cooperative games then what have we done
+合作游戏然后我们做了什么
+
+203
+00:09:21,200 --> 00:09:23,459
+we've looked at modeling fairly
+我们已经公平地考虑了建模
+
+204
+00:09:23,659 --> 00:09:25,169
+complicated multilateral bargaining
+复杂的多边谈判
+
+205
+00:09:25,370 --> 00:09:27,599
+settings you know something like the UN
+您知道诸如联合国之类的设置
+
+206
+00:09:27,799 --> 00:09:29,129
+Security Council something like that uh
+安全理事会这样的事情
+
+207
+00:09:29,330 --> 00:09:33,719
+and we you know the idea of part of the
+我们知道一部分的想法
+
+208
+00:09:33,919 --> 00:09:35,459
+idea behind cooperative game theory is
+合作博弈理论背后的思想是
+
+209
+00:09:35,659 --> 00:09:38,699
+that you know we could do everything as
+你知道我们可以做的一切
+
+210
+00:09:38,899 --> 00:09:40,349
+a non cooperative game we could have
+我们可以拥有的非合作游戏
+
+211
+00:09:40,549 --> 00:09:42,599
+written down a normal form game for
+写下用于
+
+212
+00:09:42,799 --> 00:09:43,949
+bargaining or we could have written down
+讨价还价，否则我们可能会写下来
+
+213
+00:09:44,149 --> 00:09:46,500
+a giant extensive form for how the
+巨大的广泛形式
+
+214
+00:09:46,700 --> 00:09:49,919
+Security Council and who can bring in a
+安全理事会，谁可以带来一个
+
+215
+00:09:50,120 --> 00:09:51,629
+resolution and then who has to vote yes
+决议，然后谁必须投票赞成
+
+216
+00:09:51,830 --> 00:09:54,029
+and how it all works and then calculate
+以及它如何运作，然后计算
+
+217
+00:09:54,230 --> 00:09:55,529
+what a Nash equilibrium of that game is
+那场比赛的纳什均衡是什么
+
+218
+00:09:55,730 --> 00:09:57,359
+or sub game perfect equilibrium and then
+或子博弈完美平衡，然后
+
+219
+00:09:57,559 --> 00:09:59,009
+try and figure out what the payoffs are
+尝试找出收益是什么
+
+220
+00:09:59,210 --> 00:10:00,959
+and the idea of a cooperative game
+和合作游戏的想法
+
+221
+00:10:01,159 --> 00:10:03,509
+theory is sometimes you want to model
+理论有时是您要建模的
+
+222
+00:10:03,710 --> 00:10:05,159
+things in a more compact way and
+事情以更紧凑的方式
+
+223
+00:10:05,360 --> 00:10:07,139
+actually trying to model an extensive
+实际上试图建立一个广泛的模型
+
+224
+00:10:07,340 --> 00:10:09,240
+form for that bargaining process would
+讨价还价表格
+
+225
+00:10:09,440 --> 00:10:13,259
+be overwhelming and this is a different
+势不可挡，这是不同的
+
+226
+00:10:13,460 --> 00:10:16,229
+way of approaching things which takes an
+处理事物的方式
+
+227
+00:10:16,429 --> 00:10:18,120
+X u Matic approach a very simple
+ X u Matic的方法非常简单
+
+228
+00:10:18,320 --> 00:10:21,649
+approach and ends up you know generating
+方法并最终导致您知道生成
+
+229
+00:10:21,850 --> 00:10:23,879
+predictions and there's a number of
+预测，并且有很多
+
+230
+00:10:24,080 --> 00:10:25,079
+different solutions that people have
+人们有不同的解决方案
+
+231
+00:10:25,279 --> 00:10:28,709
+used so you know that you can do core
+用过，所以你知道你可以做核心
+
+232
+00:10:28,909 --> 00:10:31,799
+based ideas Shapley value there's other
+ Shapley重视其他想法
+
+233
+00:10:32,000 --> 00:10:33,750
+solutions as well so there's a fairly
+解决方案，所以有一个相当
+
+234
+00:10:33,950 --> 00:10:35,279
+rich literature on cooperative game
+关于合作博弈的丰富文献
+
+235
+00:10:35,480 --> 00:10:37,289
+theory that's based on on different
+基于不同的理论
+
+236
+00:10:37,490 --> 00:10:40,919
+approaches to characterizing what fare
+表征票价的方法
+
+237
+00:10:41,120 --> 00:10:46,120
+kinds of values are
+各种价值是
+

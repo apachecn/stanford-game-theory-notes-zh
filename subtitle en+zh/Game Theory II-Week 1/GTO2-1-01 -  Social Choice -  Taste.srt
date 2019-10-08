@@ -1,0 +1,405 @@
+﻿1
+00:00:00,060 --> 00:00:01,958
+welcome to our advanced course on game
+欢迎来到我们的游戏高级课程
+
+2
+00:00:02,158 --> 00:00:04,509
+theory this course covers the topics of
+理论上，本课程涵盖以下主题
+
+3
+00:00:04,710 --> 00:00:07,000
+social choice mechanism design and
+社会选择机制设计与
+
+4
+00:00:07,200 --> 00:00:09,939
+auctions and essentially it asks the
+拍卖，本质上它要求
+
+5
+00:00:10,138 --> 00:00:12,700
+question if I know that agents are going
+问我是否知道代理商要去
+
+6
+00:00:12,900 --> 00:00:15,130
+to behave game theoretically how can I
+从理论上表现游戏我该如何
+
+7
+00:00:15,330 --> 00:00:17,829
+design interactions for them that lead
+为他们设计互动
+
+8
+00:00:18,028 --> 00:00:21,339
+to good social outcomes the first topic
+获得良好的社会成果的第一个主题
+
+9
+00:00:21,539 --> 00:00:22,629
+we're going to think about is called
+我们要考虑的称为
+
+10
+00:00:22,829 --> 00:00:25,600
+social choice and here leaving aside the
+社会选择，这里抛开
+
+11
+00:00:25,800 --> 00:00:28,239
+question of strategic behavior we asked
+我们问的战略行为问题
+
+12
+00:00:28,439 --> 00:00:29,769
+about how to aggregate different
+关于如何汇总不同
+
+13
+00:00:29,969 --> 00:00:31,510
+people's preferences together in a
+人们的喜好在一起
+
+14
+00:00:31,710 --> 00:00:35,409
+sensible way I'm Kevin Layton Brown I'm
+我是明智的方式，我是Kevin Layton Brown，我是
+
+15
+00:00:35,609 --> 00:00:36,839
+from the University of British Columbia
+来自不列颠哥伦比亚大学
+
+16
+00:00:37,039 --> 00:00:39,038
+my co instructors who you'll meet in
+我将与您见面的共同指导者
+
+17
+00:00:39,238 --> 00:00:41,378
+subsequent videos are Matt Jackson and
+随后的视频是Matt Jackson和
+
+18
+00:00:41,579 --> 00:00:44,159
+Yoav shoham from Stanford University
+斯坦福大学的Yoav Shoham 
+
+19
+00:00:44,359 --> 00:00:49,000
+let's get started so social choice is
+让我们开始吧，所以社会选择是
+
+20
+00:00:49,200 --> 00:00:51,809
+essentially the problem of voting and
+本质上是投票和
+
+21
+00:00:52,009 --> 00:00:54,128
+the first thing that you might think is
+您可能会想到的第一件事是
+
+22
+00:00:54,329 --> 00:00:55,989
+that voting seems like an incredibly
+投票似乎令人难以置信
+
+23
+00:00:56,189 --> 00:00:58,570
+simple thing to study how hard can it be
+研究它有多难的简单事情
+
+24
+00:00:58,770 --> 00:01:01,239
+to study something that after all
+毕竟学习一些东西
+
+25
+00:01:01,439 --> 00:01:03,969
+involves just filling in one of the
+涉及只是填写其中之一
+
+26
+00:01:04,170 --> 00:01:07,569
+boxes out of some small set of different
+一小盒不同的盒子
+
+27
+00:01:07,769 --> 00:01:11,709
+candidates well I want to argue that
+候选人很好我想说
+
+28
+00:01:11,909 --> 00:01:14,079
+that voting actually is tricky enough
+投票实际上很棘手
+
+29
+00:01:14,280 --> 00:01:16,209
+that we want to have a mathematical
+我们想要数学
+
+30
+00:01:16,409 --> 00:01:20,469
+theory of it here's an example in the
+理论，这是一个例子
+
+31
+00:01:20,670 --> 00:01:23,319
+year 2000 the US presidential election
+ 2000年美国总统大选
+
+32
+00:01:23,519 --> 00:01:27,609
+came down to who won Florida and it was
+归结于谁赢得了佛罗里达，那是
+
+33
+00:01:27,810 --> 00:01:30,459
+incredibly close after complicated
+复杂之后难以置信的关闭
+
+34
+00:01:30,659 --> 00:01:32,019
+recounts and an appeal to the Supreme
+重述并向最高​​法院上诉
+
+35
+00:01:32,219 --> 00:01:34,299
+Court George Bush turned out to be the
+乔治·布什法院原来是
+
+36
+00:01:34,500 --> 00:01:36,840
+winner by 537 votes
+ 537票冠军
+
+37
+00:01:37,040 --> 00:01:40,659
+however Ralph Nader a third party
+但是拉尔夫·纳德（Ralph Nader）是第三方
+
+38
+00:01:40,859 --> 00:01:42,250
+candidate with a pretty limited amount
+数量有限的候选人
+
+39
+00:01:42,450 --> 00:01:45,808
+of support got 97 thousand votes in
+的支持者中有9.7万票
+
+40
+00:01:46,009 --> 00:01:48,429
+surveys that were taken after the
+在
+
+41
+00:01:48,629 --> 00:01:51,519
+election it turned out that about twice
+选举结果表明，大约两次
+
+42
+00:01:51,719 --> 00:01:54,668
+as many Nader voters would have chosen
+正如许多纳德选民所选择的
+
+43
+00:01:54,868 --> 00:01:57,399
+Al Gore instead of George Bush if Nader
+如果纳德（Alder），则用戈尔（Al Gore）代替乔治·布什（George Bush） 
+
+44
+00:01:57,599 --> 00:01:59,219
+hadn't been a candidate in the election
+还没参加选举
+
+45
+00:01:59,420 --> 00:02:01,390
+now leaving the site whatever
+现在无论离开网站
+
+46
+00:02:01,590 --> 00:02:03,099
+preferences we might have about who
+我们可能对谁有偏好
+
+47
+00:02:03,299 --> 00:02:04,299
+should be President of the United States
+应该是美国总统
+
+48
+00:02:04,500 --> 00:02:07,569
+this seems like a bad outcome because it
+这似乎是一个不好的结果，因为它
+
+49
+00:02:07,769 --> 00:02:11,020
+seems like more people overall preferred
+似乎总体上有更多人偏爱
+
+50
+00:02:11,219 --> 00:02:11,868
+Gore
+戈尔
+
+51
+00:02:12,068 --> 00:02:14,599
+bush in Florida and nevertheless Bush
+布什在佛罗里达州，但布什
+
+52
+00:02:14,799 --> 00:02:16,700
+was the winner so it seems like we
+是赢家，所以好像我们
+
+53
+00:02:16,900 --> 00:02:18,049
+didn't do a very good job in this
+在这方面做得不好
+
+54
+00:02:18,248 --> 00:02:19,640
+election about taking everybody's
+选择每个人的选举
+
+55
+00:02:19,840 --> 00:02:21,409
+preferences into account and selecting
+偏好设置并选择
+
+56
+00:02:21,609 --> 00:02:23,200
+the right winner
+正确的赢家
+
+57
+00:02:23,400 --> 00:02:26,450
+indeed recently there have been popular
+确实最近有流行
+
+58
+00:02:26,650 --> 00:02:28,969
+movements around the world demanding new
+要求新的世界运动
+
+59
+00:02:29,169 --> 00:02:32,269
+voting systems here I'm showing protests
+我在这里投票制度示威
+
+60
+00:02:32,468 --> 00:02:35,840
+in London and in Ottawa by British and
+在伦敦和渥太华由英国人和
+
+61
+00:02:36,039 --> 00:02:37,399
+Canadian citizens who think that they
+认为自己的加拿大公民
+
+62
+00:02:37,598 --> 00:02:39,319
+should have new voting systems that do a
+应该有新的投票系统
+
+63
+00:02:39,519 --> 00:02:41,360
+better job of taking their whole
+做好全部工作
+
+64
+00:02:41,560 --> 00:02:45,110
+preferences into account in this week of
+本周的偏好设置
+
+65
+00:02:45,310 --> 00:02:47,090
+the course we're going to ask whether
+当然，我们要问是否
+
+66
+00:02:47,289 --> 00:02:49,039
+it's really true that there are other
+确实有其他
+
+67
+00:02:49,239 --> 00:02:51,800
+voting systems that are better and what
+更好的投票系统以及什么
+
+68
+00:02:52,000 --> 00:02:53,689
+better actually means so we're gonna
+更好的是意味着我们要
+
+69
+00:02:53,889 --> 00:02:55,340
+start by looking at different voting
+首先看不同的投票
+
+70
+00:02:55,539 --> 00:02:58,789
+schemes seeing how they work we're gonna
+计划，看看他们如何工作，我们要
+
+71
+00:02:58,989 --> 00:03:00,920
+see that each of these voting schemes is
+看到每个投票方案是
+
+72
+00:03:01,120 --> 00:03:03,200
+sometimes able to give rise to kind of
+有时能够引起
+
+73
+00:03:03,400 --> 00:03:05,840
+paradoxical outcomes where it seems like
+看起来很矛盾的结果
+
+74
+00:03:06,039 --> 00:03:07,759
+something wrong can sometimes happen and
+有时可能会发生错误， 
+
+75
+00:03:07,959 --> 00:03:10,640
+we're gonna culminate in a famous proof
+我们将以著名的证明达到高潮
+
+76
+00:03:10,840 --> 00:03:13,069
+that shows that in a really formal
+这表明在一个真正正式的
+
+77
+00:03:13,269 --> 00:03:15,200
+mathematical sense it just isn't
+从数学意义上讲不是
+
+78
+00:03:15,400 --> 00:03:16,879
+possible to avoid these kinds of
+可能避免这种情况
+
+79
+00:03:17,079 --> 00:03:20,149
+failures so thanks for joining our
+失败，所以感谢您加入我们
+
+80
+00:03:20,348 --> 00:03:22,670
+course and look forward to having you
+当然，期待有你
+
+81
+00:03:22,870 --> 00:03:27,870
+for the videos to come
+让视频来
+

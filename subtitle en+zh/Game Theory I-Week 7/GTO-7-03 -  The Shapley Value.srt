@@ -1,0 +1,1925 @@
+﻿1
+00:00:01,879 --> 00:00:05,530
+hi folks this is Matt again I am going
+大家好，我又是马特
+
+2
+00:00:05,730 --> 00:00:06,669
+to tell you a little bit about the
+告诉你一些有关
+
+3
+00:00:06,870 --> 00:00:08,770
+Shapley value now which is one of the
+现在的Shapley值是
+
+4
+00:00:08,970 --> 00:00:11,229
+most prominent ways of dividing up the
+最主要的划分方式
+
+5
+00:00:11,429 --> 00:00:13,569
+value of a society the productive value
+社会价值生产价值
+
+6
+00:00:13,769 --> 00:00:16,449
+of some set of individuals among its
+在其中的一些个人
+
+7
+00:00:16,649 --> 00:00:20,560
+members and you know the the basic idea
+成员，你知道基本的想法
+
+8
+00:00:20,760 --> 00:00:22,690
+in coalition or cooperative games in
+在联盟或合作游戏中
+
+9
+00:00:22,890 --> 00:00:27,640
+terms of trying to figure out allocating
+试图弄清楚分配的条款
+
+10
+00:00:27,839 --> 00:00:30,190
+values is having some notion of what the
+价值观对什么
+
+11
+00:00:30,390 --> 00:00:32,018
+right way to do things is and we might
+正确的做法是，我们可能
+
+12
+00:00:32,219 --> 00:00:34,509
+say even in quotes say what's the fair
+说甚至引号说什么公平
+
+13
+00:00:34,710 --> 00:00:36,969
+way of a coalition to divide up its its
+联盟划分其方式的方式
+
+14
+00:00:37,170 --> 00:00:39,820
+payoff it's obviously going to depend on
+收益显然取决于
+
+15
+00:00:40,020 --> 00:00:42,628
+the way that we define fairness and the
+我们定义公平的方式以及
+
+16
+00:00:42,829 --> 00:00:45,369
+literature has basically then taken ways
+文学基本上已经采取了方式
+
+17
+00:00:45,570 --> 00:00:48,459
+taking axioms as the primary way of
+以公理为主要方式
+
+18
+00:00:48,659 --> 00:00:52,989
+expressing the properties of what the
+表达什么的属性
+
+19
+00:00:53,189 --> 00:00:56,498
+desired properties are of rules for
+所需的属性是规则
+
+20
+00:00:56,698 --> 00:00:58,599
+dividing up things so so what we're
+划分事物，所以我们
+
+21
+00:00:58,799 --> 00:00:59,829
+going to do is then have some set of
+然后要做的是
+
+22
+00:01:00,030 --> 00:01:01,358
+axioms or properties that we want to
+我们想要的公理或属性
+
+23
+00:01:01,558 --> 00:01:04,329
+satisfy and then see what that gives us
+满意，然后看看这给了我们
+
+24
+00:01:04,530 --> 00:01:07,480
+the Shapley value is based on lloyd
+ Shapley值基于劳埃德
+
+25
+00:01:07,680 --> 00:01:09,759
+Shapley's idea that members should
+ Shapley的想法，成员应该
+
+26
+00:01:09,959 --> 00:01:11,829
+basically be receiving things which are
+基本上是收到东西
+
+27
+00:01:12,030 --> 00:01:13,119
+proportional to their marginal
+与他们的边际成比例
+
+28
+00:01:13,319 --> 00:01:15,369
+contributions okay so so basically you
+捐款还可以，所以基本上你
+
+29
+00:01:15,569 --> 00:01:17,500
+look at what what is a person add when
+看一个人什么时候加什么
+
+30
+00:01:17,700 --> 00:01:20,140
+we add them to a group and they should
+我们将它们添加到组中，他们应该
+
+31
+00:01:20,340 --> 00:01:22,058
+be getting something that reflects their
+得到一些反映他们的东西
+
+32
+00:01:22,259 --> 00:01:24,488
+added value to the society okay so
+为社会增值，好吧
+
+33
+00:01:24,688 --> 00:01:27,609
+what's the tricky part about this let's
+这是什么棘手的部分，让我们
+
+34
+00:01:27,810 --> 00:01:29,019
+just take a quick example and that'll
+举个简单的例子， 
+
+35
+00:01:29,219 --> 00:01:30,399
+give us an idea of why we have to be
+让我们知道为什么我们必须
+
+36
+00:01:30,599 --> 00:01:32,049
+careful in doing this so let's suppose
+这样做要小心，让我们假设
+
+37
+00:01:32,250 --> 00:01:34,689
+that everybody in together in a society
+在一个社会中每个人在一起
+
+38
+00:01:34,890 --> 00:01:36,969
+can generate one but that if we're
+可以产生一个，但是如果我们
+
+39
+00:01:37,170 --> 00:01:39,429
+missing any member of society we get
+缺少我们得到的社会成员
+
+40
+00:01:39,629 --> 00:01:41,918
+zero so this is say of a committee and
+零，这就是说一个委员会， 
+
+41
+00:01:42,118 --> 00:01:44,019
+the committee all has to be present in
+委员会所有人都必须出席
+
+42
+00:01:44,219 --> 00:01:46,840
+order for it to do anything so if it's
+命令它做任何事情，如果它是
+
+43
+00:01:47,040 --> 00:01:48,640
+missing any of its members it can't just
+缺少任何成员都不能
+
+44
+00:01:48,840 --> 00:01:51,519
+make it decided to decide on anything so
+使它决定要做出任何决定
+
+45
+00:01:51,719 --> 00:01:54,308
+in this situation what do we so we've
+在这种情况下，我们该怎么做
+
+46
+00:01:54,509 --> 00:01:56,948
+got you know V of n is equal to 1 V of s
+知道n的V等于s的1 V 
+
+47
+00:01:57,149 --> 00:02:00,099
+is 0 if we're looking at any s that's
+如果我们正在查看的是，则为0 
+
+48
+00:02:00,299 --> 00:02:04,168
+smaller than n so in this situation
+小于n所以在这种情况下
+
+49
+00:02:04,368 --> 00:02:06,668
+what's true then the marginal
+什么才是真正的边际
+
+50
+00:02:06,868 --> 00:02:08,439
+contribution if we take any individual
+如果我们承担任何个人的贡献
+
+51
+00:02:08,639 --> 00:02:10,439
+out of this group
+在这个群体之外
+
+52
+00:02:10,639 --> 00:02:12,670
+they're marginal contribution is one
+他们的边际贡献是一
+
+53
+00:02:12,870 --> 00:02:14,950
+right so everybody is essential for
+对，所以每个人都是必不可少的
+
+54
+00:02:15,150 --> 00:02:17,080
+generating this one so everybody's
+产生这个，所以每个人的
+
+55
+00:02:17,280 --> 00:02:21,189
+marginal contribution to the the society
+对社会的边际贡献
+
+56
+00:02:21,389 --> 00:02:23,350
+without them is one and in this
+没有他们是一个，在这个
+
+57
+00:02:23,550 --> 00:02:25,600
+situation we can't pay everybody what
+情况我们不能付大家什么
+
+58
+00:02:25,800 --> 00:02:27,189
+they're responsible for in terms of
+他们负责
+
+59
+00:02:27,389 --> 00:02:29,980
+leading ultimately to the to the grand
+最终通往盛大
+
+60
+00:02:30,180 --> 00:02:32,200
+coalition so we're going to have to
+联盟，所以我们将不得不
+
+61
+00:02:32,400 --> 00:02:34,680
+think about some way of weighting
+考虑某种加权方式
+
+62
+00:02:34,879 --> 00:02:39,490
+contributions in order to come up with a
+为了拿出一个
+
+63
+00:02:39,689 --> 00:02:41,590
+reasonable thing and obviously for this
+合理的事情，显然
+
+64
+00:02:41,789 --> 00:02:43,150
+particular rule it would be reasonable
+特定规则是合理的
+
+65
+00:02:43,349 --> 00:02:46,000
+to add up things by 1 over n so
+把n加1 
+
+66
+00:02:46,199 --> 00:02:47,230
+everybody gets one end of the
+每个人都结束了
+
+67
+00:02:47,430 --> 00:02:50,020
+contribution but in rules we're in
+贡献，但是按照规则
+
+68
+00:02:50,219 --> 00:02:51,460
+situations where there's might be some
+可能会有一些情况
+
+69
+00:02:51,659 --> 00:02:53,500
+asymmetric asymmetries in terms of who
+关于谁的不对称不对称
+
+70
+00:02:53,699 --> 00:02:55,750
+contributes which value we're going to
+贡献我们将要获得的价值
+
+71
+00:02:55,949 --> 00:02:57,189
+have to think fairly carefully about how
+必须相当仔细地考虑如何
+
+72
+00:02:57,389 --> 00:02:59,650
+this should be weighted okay so
+应该加权好吧
+
+73
+00:02:59,849 --> 00:03:01,330
+Shapley's axioms are going to give us a
+ Shapley的公理将给我们一个
+
+74
+00:03:01,530 --> 00:03:02,950
+handle on this so let's take a look at
+处理这个，让我们看一下
+
+75
+00:03:03,150 --> 00:03:07,330
+those so the first idea is a very simple
+这些，所以第一个想法很简单
+
+76
+00:03:07,530 --> 00:03:09,219
+one and one which pretty much any rule
+一个和一个几乎任何规则
+
+77
+00:03:09,419 --> 00:03:11,230
+that you would would think of in these
+您会在这些中想到的
+
+78
+00:03:11,430 --> 00:03:14,230
+settings is going to satisfy so if we
+设置将满足，所以如果我们
+
+79
+00:03:14,430 --> 00:03:15,370
+think of two different members of
+想起两个不同的成员
+
+80
+00:03:15,569 --> 00:03:18,969
+society say I and J if they contribute
+社会说我和J如果他们贡献
+
+81
+00:03:19,169 --> 00:03:21,520
+the same thing to every possible
+一切皆有可能
+
+82
+00:03:21,719 --> 00:03:22,810
+coalition in which they could be a
+他们可能成为一个联盟
+
+83
+00:03:23,009 --> 00:03:23,860
+member they're completely
+成员，他们是完全
+
+84
+00:03:24,060 --> 00:03:26,259
+interchangeable so that if we're looking
+可互换，以便我们在寻找
+
+85
+00:03:26,459 --> 00:03:28,960
+at some coalition that has neither I nor
+在一些既没有我也没有联盟的联盟中
+
+86
+00:03:29,159 --> 00:03:31,539
+J in it if we had I to that coalition we
+如果我们让我加入那个联盟， 
+
+87
+00:03:31,739 --> 00:03:33,280
+get exactly the same value as we get
+得到与我们得到的完全相同的值
+
+88
+00:03:33,479 --> 00:03:34,870
+when we add J to that coalition if
+当我们将J添加到该联盟时，如果
+
+89
+00:03:35,069 --> 00:03:37,900
+they're interchangeable then they should
+他们是可互换的，那么他们应该
+
+90
+00:03:38,099 --> 00:03:40,330
+be getting out the same allocation of
+摆脱相同的分配
+
+91
+00:03:40,530 --> 00:03:42,490
+value so if SCI is the way that we're
+价值，因此，如果SCI是我们的方式
+
+92
+00:03:42,689 --> 00:03:44,219
+dividing up the value from some
+将价值从一些中除掉
+
+93
+00:03:44,419 --> 00:03:46,450
+coalitional game then we should be
+联盟游戏，那么我们应该
+
+94
+00:03:46,650 --> 00:03:48,849
+giving the same thing to I as J when
+当我给我和J相同的东西时
+
+95
+00:03:49,049 --> 00:03:50,590
+they're completely interchangeable okay
+他们是完全可以互换的
+
+96
+00:03:50,789 --> 00:03:53,460
+this is a fairly uncontroversial axiom
+这是一个毫无争议的公理
+
+97
+00:03:53,659 --> 00:03:56,950
+it really captures a basic notion of
+它确实捕捉了一个基本概念
+
+98
+00:03:57,150 --> 00:03:58,270
+fairness that if this you know if
+公平地说，如果你知道
+
+99
+00:03:58,469 --> 00:03:59,830
+individuals are completely equivalent
+个人是完全等同的
+
+100
+00:04:00,030 --> 00:04:03,189
+they should get equivalent payments okay
+他们应该获得等额付款
+
+101
+00:04:03,389 --> 00:04:07,000
+next axiom dummy players so I'm sure
+下一位公理虚拟玩家，所以我敢肯定
+
+102
+00:04:07,199 --> 00:04:10,259
+that that everyone has had some
+每个人都有一些
+
+103
+00:04:10,459 --> 00:04:13,090
+experiences with people like this what's
+这样的人的经验是什么
+
+104
+00:04:13,289 --> 00:04:13,780
+the idea
+这个主意
+
+105
+00:04:13,979 --> 00:04:16,150
+there's a situation where you you add a
+在某些情况下，您添加了
+
+106
+00:04:16,350 --> 00:04:18,968
+person I to a coalition and they they
+我一个联盟的人，他们他们
+
+107
+00:04:19,168 --> 00:04:21,430
+add absolutely nothing so no matter what
+绝对不添加任何东西
+
+108
+00:04:21,629 --> 00:04:23,920
+as we look at if we add AI
+当我们查看是否添加AI时
+
+109
+00:04:24,120 --> 00:04:26,829
+to particular us we get the same value
+特别是我们，我们获得了相同的价值
+
+110
+00:04:27,029 --> 00:04:29,740
+as this situation with without that
+没有这种情况
+
+111
+00:04:29,939 --> 00:04:33,999
+individual so basically the person is
+个人，所以基本上这个人是
+
+112
+00:04:34,199 --> 00:04:37,420
+completely worthless no matter what
+无论如何，一文不值
+
+113
+00:04:37,620 --> 00:04:40,270
+coalition we're looking at so the idea
+我们正在寻找联盟，所以这个主意
+
+114
+00:04:40,470 --> 00:04:43,600
+is then the axiom is if an individual is
+那么公理是如果一个人是
+
+115
+00:04:43,800 --> 00:04:46,259
+a dummy player then we give them nothing
+一个假人然后我们什么都不给
+
+116
+00:04:46,459 --> 00:04:49,480
+now you know this is on one hand it's a
+现在你知道这是一方面
+
+117
+00:04:49,680 --> 00:04:51,579
+fairly reasonable axiom if somebody's
+如果有人的话，这是相当合理的公理
+
+118
+00:04:51,779 --> 00:04:52,870
+contributed absolutely nothing there's
+绝对没有贡献
+
+119
+00:04:53,069 --> 00:04:54,790
+no reason they should get anything on
+没有理由他们应该得到任何东西
+
+120
+00:04:54,990 --> 00:04:57,160
+the other hand this depends very much on
+另一方面，这在很大程度上取决于
+
+121
+00:04:57,360 --> 00:04:59,199
+the perspective you're taking so if
+您所采用的视角，如果
+
+122
+00:04:59,399 --> 00:05:00,939
+we're thinking about a society it could
+我们正在考虑一个可以
+
+123
+00:05:01,139 --> 00:05:02,468
+be that that eye contributes nothing
+那只眼睛什么也没做
+
+124
+00:05:02,668 --> 00:05:04,600
+because of reasons beyond eyes control
+由于无法控制的原因
+
+125
+00:05:04,800 --> 00:05:06,819
+so something happened they had an
+所以发生了一些事
+
+126
+00:05:07,019 --> 00:05:09,790
+accident or um for some particular
+意外或嗯
+
+127
+00:05:09,990 --> 00:05:13,439
+reason they are unable to function
+他们无法运作的原因
+
+128
+00:05:13,639 --> 00:05:15,610
+Society might still want to allocate
+社会可能仍想分配
+
+129
+00:05:15,810 --> 00:05:17,889
+something to those individuals so it
+给那些人一些东西
+
+130
+00:05:18,089 --> 00:05:19,150
+really depends on what the time
+真的取决于什么时间
+
+131
+00:05:19,350 --> 00:05:20,620
+perspective is whether we're thinking
+视角是我们是否在思考
+
+132
+00:05:20,819 --> 00:05:23,199
+about social insurance and so forth but
+关于社会保险等等
+
+133
+00:05:23,399 --> 00:05:25,060
+but nonetheless it's a fairly intuitive
+但是还是很直观的
+
+134
+00:05:25,259 --> 00:05:26,290
+axiom and is going to be a fairly
+公理，将是一个相当
+
+135
+00:05:26,490 --> 00:05:30,180
+powerful one in and what it delivers
+强大的功能之一及其提供的功能
+
+136
+00:05:30,379 --> 00:05:34,838
+next one is additive 'ti this one is one
+下一个是添加剂'ti这是一个
+
+137
+00:05:35,038 --> 00:05:36,430
+which you might think of more about the
+您可能会想到更多关于
+
+138
+00:05:36,629 --> 00:05:38,740
+process of allocating value so let's
+分配价值的过程，所以让我们
+
+139
+00:05:38,939 --> 00:05:40,629
+suppose that we can think about looking
+假设我们可以考虑寻找
+
+140
+00:05:40,829 --> 00:05:42,100
+at a cooperative game or coalitional
+在合作游戏或联盟中
+
+141
+00:05:42,300 --> 00:05:45,490
+game and we can it's one that separates
+游戏，我们可以分开
+
+142
+00:05:45,689 --> 00:05:47,829
+very nicely into two different parts so
+非常好地分为两个不同的部分
+
+143
+00:05:48,029 --> 00:05:51,778
+we can think of it as as you've got one
+我们可以将其视为您拥有的
+
+144
+00:05:51,978 --> 00:05:53,680
+cooperative game you've got another one
+合作游戏，你还有另一个
+
+145
+00:05:53,879 --> 00:05:55,689
+and then we think of what do you get
+然后我们想到您会得到什么
+
+146
+00:05:55,889 --> 00:05:56,949
+when you sum these two things together
+当您将这两件事加在一起时
+
+147
+00:05:57,149 --> 00:05:59,290
+and the idea is that if we're looking at
+想法是，如果我们正在研究
+
+148
+00:05:59,490 --> 00:06:02,230
+two different cooperative games and then
+两个不同的合作游戏，然后
+
+149
+00:06:02,430 --> 00:06:03,819
+we think about what would happen if you
+我们考虑如果您
+
+150
+00:06:04,019 --> 00:06:05,800
+were trying to allocate something when
+试图分配一些东西的时候
+
+151
+00:06:06,000 --> 00:06:07,718
+you sum them up you should get the same
+你总结他们，你应该得到相同的
+
+152
+00:06:07,918 --> 00:06:10,749
+thing from allocating one allocating
+分配一个东西
+
+153
+00:06:10,949 --> 00:06:12,550
+according to the second and then adding
+根据第二，然后添加
+
+154
+00:06:12,750 --> 00:06:15,249
+those two things up okay so the idea
+这两件事都好，所以这个主意
+
+155
+00:06:15,449 --> 00:06:16,480
+here is if we're looking at a
+如果我们正在看一个
+
+156
+00:06:16,680 --> 00:06:18,100
+cooperative game where the value for
+合作游戏的价值所在
+
+157
+00:06:18,300 --> 00:06:20,110
+veni Coalition is just what it gets
+ veni联盟就是它所得到的
+
+158
+00:06:20,310 --> 00:06:21,670
+under the first game Plus what it gets
+在第一个游戏下加上它会得到什么
+
+159
+00:06:21,870 --> 00:06:23,230
+under the second game then the way that
+在第二局下， 
+
+160
+00:06:23,430 --> 00:06:25,180
+we allocate values should be how we
+我们分配价值应该是我们
+
+161
+00:06:25,379 --> 00:06:26,980
+allocated things under the first game
+在第一局比赛中分配了东西
+
+162
+00:06:27,180 --> 00:06:28,899
+plus how we allocated things under the
+加上我们如何根据
+
+163
+00:06:29,098 --> 00:06:33,228
+second game so you know this is a
+第二场比赛，所以你知道这是一个
+
+164
+00:06:33,500 --> 00:06:36,040
+fairly obvious in terms of what it means
+在含义上相当明显
+
+165
+00:06:36,240 --> 00:06:38,410
+mathematically in terms of how you
+在数学上就你如何
+
+166
+00:06:38,610 --> 00:06:40,509
+interpret this and what the story is for
+解释这以及故事的目的
+
+167
+00:06:40,709 --> 00:06:42,550
+why you might desire to have to satisfy
+为什么您可能想要满足
+
+168
+00:06:42,750 --> 00:06:44,579
+an axiom like this that's a little
+这样的公理有点
+
+169
+00:06:44,779 --> 00:06:46,990
+harder you could think of this as a
+很难将其视为
+
+170
+00:06:47,189 --> 00:06:48,819
+story for saying you know maybe society
+说你可能知道社会的故事
+
+171
+00:06:49,019 --> 00:06:52,840
+one day produces according to v1 and the
+一天根据v1产生
+
+172
+00:06:53,040 --> 00:06:55,150
+next day according to v2 and if what it
+第二天根据v2，如果有的话
+
+173
+00:06:55,350 --> 00:06:56,530
+produces the second day doesn't depend
+产生第二天不依赖
+
+174
+00:06:56,730 --> 00:06:58,810
+on want to produce the first day then we
+想要生产第一天，然后我们
+
+175
+00:06:59,009 --> 00:07:01,600
+should we should be able to allocate the
+我们是否应该能够分配
+
+176
+00:07:01,800 --> 00:07:04,090
+the fruits of the production in the
+生产中的成果
+
+177
+00:07:04,290 --> 00:07:06,730
+first day and then allocate again on the
+第一天，然后在
+
+178
+00:07:06,930 --> 00:07:09,340
+second day and and those things since
+第二天，以及那些事情以来
+
+179
+00:07:09,540 --> 00:07:11,020
+they don't interact at all we should be
+他们根本不互动，我们应该
+
+180
+00:07:11,220 --> 00:07:13,120
+able to do that separately and what an
+能够分别做到这一点， 
+
+181
+00:07:13,319 --> 00:07:14,710
+individual gets is just the sum of those
+个人得到的只是那些的总和
+
+182
+00:07:14,910 --> 00:07:17,020
+two things so you can you know think of
+两件事让你知道
+
+183
+00:07:17,220 --> 00:07:19,840
+a fairly logical story for this kind of
+对于这种情况，一个合理的故事
+
+184
+00:07:20,040 --> 00:07:22,270
+axiom okay so what do we get from these
+公理好吧，我们从这些中学到什么
+
+185
+00:07:22,470 --> 00:07:25,660
+three axioms the Shapley value and let's
+ Shapley值的三个公理，让我们
+
+186
+00:07:25,860 --> 00:07:27,460
+have a look at exactly how you define
+看看您如何定义
+
+187
+00:07:27,660 --> 00:07:29,980
+the Shapley value so the value the
+ Shapley值，所以值
+
+188
+00:07:30,180 --> 00:07:33,218
+Shapley value is going to be marginal
+ Shapley的价值将是微不足道的
+
+189
+00:07:33,418 --> 00:07:36,100
+calculations what is an individual I add
+计算我添加的个人是什么
+
+190
+00:07:36,300 --> 00:07:38,829
+two coalition's that don't have I when
+当我没有两个联盟
+
+191
+00:07:39,029 --> 00:07:41,770
+we add so we've got a coalition with I
+我们加上，所以我们与我结盟
+
+192
+00:07:41,970 --> 00:07:44,530
+in it coalition without I we we then
+在没有我的联盟中我们
+
+193
+00:07:44,730 --> 00:07:48,310
+take a peek at how much that generates
+看看产生了多少
+
+194
+00:07:48,509 --> 00:07:50,199
+and then what we're going to be doing is
+然后我们要做的是
+
+195
+00:07:50,399 --> 00:07:52,689
+waiting that by different possible ways
+以不同的方式等待
+
+196
+00:07:52,889 --> 00:07:54,129
+in which we could have come up with this
+我们本来可以想到的
+
+197
+00:07:54,329 --> 00:07:56,468
+marginal calculation and then dividing
+边际计算然后除
+
+198
+00:07:56,668 --> 00:07:59,980
+through by all the possible ways that we
+通过所有可能的方式
+
+199
+00:08:00,180 --> 00:08:02,590
+could have done this okay so we'll make
+可以做到这一点，所以我们将
+
+200
+00:08:02,790 --> 00:08:04,718
+sure we average over all these things so
+确保我们对所有这些事情取平均
+
+201
+00:08:04,918 --> 00:08:06,160
+that everything sums up to the full
+一切都总结为全部
+
+202
+00:08:06,360 --> 00:08:08,560
+value okay that's the the Shapley value
+值就是Shapley值
+
+203
+00:08:08,759 --> 00:08:10,270
+we're going to dissect this in more
+我们将在更多内容中对此进行剖析
+
+204
+00:08:10,470 --> 00:08:11,189
+detail in a moment
+稍后详细
+
+205
+00:08:11,389 --> 00:08:14,050
+and what's the theorem the theorem is
+定理是什么定理是
+
+206
+00:08:14,250 --> 00:08:15,699
+that if we look at a coalitional game or
+如果我们看一个联盟游戏或
+
+207
+00:08:15,899 --> 00:08:19,110
+a cooperative game there's a unique way
+合作游戏有一种独特的方式
+
+208
+00:08:19,310 --> 00:08:22,090
+that divides the full payoff of the
+划分了全部收益
+
+209
+00:08:22,290 --> 00:08:23,829
+grand coalition so if we're making sure
+大联盟，所以如果我们确定
+
+210
+00:08:24,029 --> 00:08:25,509
+we're dividing everything up that
+我们正在把一切都分开
+
+211
+00:08:25,709 --> 00:08:28,600
+satisfies symmetry dummy and additive
+满足对称假人和加性
+
+212
+00:08:28,800 --> 00:08:30,370
+'ti so if you put those three axioms
+所以如果你把这三个公理
+
+213
+00:08:30,569 --> 00:08:32,049
+together there's only one way to do it
+在一起只有一种方法
+
+214
+00:08:32,250 --> 00:08:34,509
+and that way is the Shapley value so
+那就是Shapley的价值，所以
+
+215
+00:08:34,710 --> 00:08:37,149
+there's a unique wave which does satisfy
+有一个独特的波浪确实满足
+
+216
+00:08:37,349 --> 00:08:41,079
+these and it's the Shapley value so
+这些就是Shapley的价值，所以
+
+217
+00:08:41,279 --> 00:08:43,370
+that's a pretty powerful theorem
+这是一个非常强大的定理
+
+218
+00:08:43,570 --> 00:08:46,389
+there's a fairly elegant proof to this
+有一个相当优雅的证明
+
+219
+00:08:46,590 --> 00:08:53,569
+it's a fairly intuitive we're not going
+这是非常直观的，我们不会
+
+220
+00:08:53,769 --> 00:08:55,309
+to go through that in detail but we'll
+详细介绍一下，但我们会
+
+221
+00:08:55,509 --> 00:08:57,229
+go through some explanations of this you
+通过一些解释你
+
+222
+00:08:57,429 --> 00:08:59,959
+can find the proof fairly easily in a
+可以很容易地在
+
+223
+00:09:00,159 --> 00:09:01,819
+number of different places there's
+那里不同地方的数量
+
+224
+00:09:02,019 --> 00:09:05,829
+actually a nice book by Osborn and
+实际上是奥斯本写的一本好书， 
+
+225
+00:09:06,029 --> 00:09:10,699
+Rubinstein for instance which is free
+例如鲁宾斯坦是免费的
+
+226
+00:09:10,899 --> 00:09:12,769
+online which has a proof of this but
+在线有一个证明，但
+
+227
+00:09:12,970 --> 00:09:14,179
+there's a number of places where you can
+有很多地方可以
+
+228
+00:09:14,379 --> 00:09:18,649
+find this ok let's have a peek at the
+找到这个好吧，让我们来看看
+
+229
+00:09:18,850 --> 00:09:20,750
+actual value in terms of what how this
+实际价值如何
+
+230
+00:09:20,950 --> 00:09:22,159
+breaks down and then we'll look at some
+分解，然后我们来看一些
+
+231
+00:09:22,360 --> 00:09:26,959
+examples so what individual is giving is
+例子，所以个人给的是
+
+232
+00:09:27,159 --> 00:09:29,089
+according to this formula looks a little
+根据这个公式看起来有点
+
+233
+00:09:29,289 --> 00:09:31,099
+daunting but the intuitions are fairly
+令人生畏，但直觉相当
+
+234
+00:09:31,299 --> 00:09:33,620
+simple so let's think we're thinking of
+很简单，让我们认为我们正在考虑
+
+235
+00:09:33,820 --> 00:09:35,179
+marginal contributions how are they
+边际贡献如何
+
+236
+00:09:35,379 --> 00:09:38,449
+coming about so what we're going to do
+即将到来，所以我们要做的是
+
+237
+00:09:38,649 --> 00:09:39,769
+is we're going to think of all the
+是我们要考虑所有的
+
+238
+00:09:39,970 --> 00:09:41,000
+different possible ways we could build
+我们可能建立的不同方式
+
+239
+00:09:41,200 --> 00:09:44,089
+society up so for instance we could be
+社会发展起来，例如我们可以
+
+240
+00:09:44,289 --> 00:09:45,919
+building society up by first adding
+通过首先加入来建立社会
+
+241
+00:09:46,120 --> 00:09:50,719
+person 1 then adding person se 3 then
+人1然后添加人se 3然后
+
+242
+00:09:50,919 --> 00:09:53,240
+adding person two right so we could that
+再加上两个人，这样我们就可以
+
+243
+00:09:53,440 --> 00:09:54,439
+that would be one order in which we
+那将是我们的一个顺序
+
+244
+00:09:54,639 --> 00:09:57,439
+could build a society up we could also
+可以建立一个社会，我们也可以
+
+245
+00:09:57,639 --> 00:09:59,299
+have built it up by first adding person
+通过首先添加人来建立它
+
+246
+00:09:59,500 --> 00:10:04,250
+2 then adding person 3 then any person 1
+ 2然后加人3然后再加人1 
+
+247
+00:10:04,450 --> 00:10:05,539
+right so there's a whole series of
+对，所以有一系列的
+
+248
+00:10:05,740 --> 00:10:06,589
+different ways if we had a three person
+如果我们有三个人的话
+
+249
+00:10:06,789 --> 00:10:08,479
+society that we could go about building
+我们可以建设的社会
+
+250
+00:10:08,679 --> 00:10:11,120
+these things up and in each according to
+这些东西，并根据
+
+251
+00:10:11,320 --> 00:10:13,189
+each one of these orders will have
+这些订单中的每一个都会有
+
+252
+00:10:13,389 --> 00:10:15,799
+different different marginal
+不同的不同的边际
+
+253
+00:10:16,000 --> 00:10:17,329
+contributions along the way so here
+一路走来，所以这里
+
+254
+00:10:17,529 --> 00:10:19,250
+first person one contributes something
+第一人称视角
+
+255
+00:10:19,450 --> 00:10:21,500
+then person three adds their production
+然后第三个人添加他们的作品
+
+256
+00:10:21,700 --> 00:10:23,569
+then person two adds their production
+然后第二个人添加他们的作品
+
+257
+00:10:23,769 --> 00:10:26,329
+and so forth so we end up with these
+等等，所以我们最终得到了这些
+
+258
+00:10:26,529 --> 00:10:29,719
+these different contributions and that's
+这些不同的贡献，那就是
+
+259
+00:10:29,919 --> 00:10:32,659
+what this is going to capture so what
+这将要捕获什么
+
+260
+00:10:32,860 --> 00:10:33,740
+we're doing is we're looking at these
+我们正在做的是我们正在看这些
+
+261
+00:10:33,940 --> 00:10:36,019
+different sequences and the first part
+不同的顺序和第一部分
+
+262
+00:10:36,220 --> 00:10:39,559
+we're doing is calculating as we went
+我们正在做的是计算
+
+263
+00:10:39,759 --> 00:10:42,169
+along the sequence what did I add when
+按照顺序我在什么时候添加了什么
+
+264
+00:10:42,370 --> 00:10:46,399
+they were added next we weight this by
+接下来添加它们，我们将其加权
+
+265
+00:10:46,600 --> 00:10:48,169
+the different possible ways that we
+我们可能采取的不同方式
+
+266
+00:10:48,370 --> 00:10:51,019
+could have built up the coalition's
+本来可以建立联盟的
+
+267
+00:10:51,220 --> 00:10:56,389
+before I was added then we also weight
+在添加我之前，我们也要称重
+
+268
+00:10:56,590 --> 00:10:57,169
+this by
+这个由
+
+269
+00:10:57,370 --> 00:10:59,959
+the different orders different ways we
+不同的订单，不同的方式
+
+270
+00:11:00,159 --> 00:11:01,639
+could add the individuals who haven't
+可以添加没有的人
+
+271
+00:11:01,839 --> 00:11:04,069
+been added yet after I has been added
+被添加后，我被添加了
+
+272
+00:11:04,269 --> 00:11:07,339
+right so there's a a number of
+对，所以有一些
+
+273
+00:11:07,539 --> 00:11:09,859
+individuals - the number that are
+个人-人数
+
+274
+00:11:10,059 --> 00:11:14,359
+already in s - I so that's the number of
+已经在s-我就是
+
+275
+00:11:14,559 --> 00:11:16,750
+ways the people that are still left
+留下来的人的方式
+
+276
+00:11:16,950 --> 00:11:19,309
+effect take that - the factorial gives
+效果取-阶乘给出
+
+277
+00:11:19,509 --> 00:11:20,659
+us how many different orders we can
+我们可以有多少不同的订单
+
+278
+00:11:20,860 --> 00:11:23,209
+still add people in so we waited by that
+仍然增加了人，所以我们等待
+
+279
+00:11:23,409 --> 00:11:26,259
+and then we're summing over all possible
+然后我们总结所有可能的
+
+280
+00:11:26,460 --> 00:11:29,299
+combination of coalition's that are
+联盟的组合是
+
+281
+00:11:29,500 --> 00:11:31,819
+there before I and then we're dividing
+在我之前，然后我们分开
+
+282
+00:11:32,019 --> 00:11:34,609
+through by the total number of different
+通过总数不同
+
+283
+00:11:34,809 --> 00:11:37,279
+orderings we could have over people in a
+我们可能会超过一个人的订单
+
+284
+00:11:37,480 --> 00:11:40,870
+society okay so that's the Shapley value
+社会还可以，这就是Shapley的价值
+
+285
+00:11:41,070 --> 00:11:44,809
+and in terms of understanding this again
+并再次理解这一点
+
+286
+00:11:45,009 --> 00:11:46,519
+what we could think of in terms of the
+我们可以想到的
+
+287
+00:11:46,720 --> 00:11:49,549
+the ways we divide up a society we can
+我们分裂社会的方式
+
+288
+00:11:49,750 --> 00:11:51,289
+think of you know adding person 1 first
+想起你知道先加人1 
+
+289
+00:11:51,490 --> 00:11:55,639
+then 1 2 1 2 3 we could have added 1
+那么1 2 1 2 3我们可以加1 
+
+290
+00:11:55,839 --> 00:12:00,409
+first then 3 1 2 3 we could have added 2
+首先，然后3 1 2 3我们可以添加2 
+
+291
+00:12:00,610 --> 00:12:10,359
+first then 1 then 3 - first then 3 3
+首先然后1然后3-首先然后3 3 
+
+292
+00:12:10,559 --> 00:12:20,089
+first then 1 3 first then 2 to 3 and so
+首先然后1 3首先然后2到3等等
+
+293
+00:12:20,289 --> 00:12:21,859
+forth so we could have done this in a
+来吧，所以我们可以在一个
+
+294
+00:12:22,059 --> 00:12:23,359
+whole series of different orders so
+整个系列的顺序不同
+
+295
+00:12:23,559 --> 00:12:25,309
+there's six of these right six different
+这些正确的六个中有六个
+
+296
+00:12:25,509 --> 00:12:27,409
+orders and so for instance if we want to
+订单等，例如，如果我们想
+
+297
+00:12:27,610 --> 00:12:29,599
+figure out what person 1 adds when we
+弄清楚人1在我们加入什么
+
+298
+00:12:29,799 --> 00:12:31,929
+add them in the first case this is V 1
+在第一种情况下将其添加为V 1 
+
+299
+00:12:32,129 --> 00:12:36,258
+second case this is V 1 third case what
+第二种情况是V 1第三种情况是什么
+
+300
+00:12:36,458 --> 00:12:38,289
+are they adding they're adding V 1 2
+他们正在添加V 1 2 
+
+301
+00:12:38,490 --> 00:12:41,349
+minus V of 2 that was already there
+减去2的V 
+
+302
+00:12:41,549 --> 00:12:45,578
+third case they're getting V of 1 2 3
+第三种情况他们得到1 2 3的V 
+
+303
+00:12:45,778 --> 00:12:50,479
+minus V of 2 3 that's the fourth case
+减去2的V就是第四种情况
+
+304
+00:12:50,679 --> 00:12:54,949
+the fifth case we're getting V of 1 3
+第五种情况我们得到1 3的V 
+
+305
+00:12:55,149 --> 00:12:59,750
+minus V of 3 and so forth right so we've
+减去3的V，以此类推，所以我们已经
+
+306
+00:12:59,950 --> 00:13:05,240
+got here V of 1 2 3 minus V of 2 3 okay
+到这里1 2 3的V减去2 3的V好
+
+307
+00:13:05,440 --> 00:13:07,008
+that's the Shapley value so each one of
+那就是Shapley的价值，所以每个
+
+308
+00:13:07,208 --> 00:13:08,769
+these things is getting weighted by 1/6
+这些东西的权重是1/6 
+
+309
+00:13:08,970 --> 00:13:10,519
+here this
+在这里
+
+310
+00:13:10,720 --> 00:13:12,828
+turns out then to to get a total weight
+事实证明然后得到总重量
+
+311
+00:13:13,028 --> 00:13:16,459
+of one-third again here we're going to
+三分之一再次在这里，我们要
+
+312
+00:13:16,659 --> 00:13:19,308
+get a weight of 1/3 and then these two
+得到1/3的权重，然后这两个
+
+313
+00:13:19,509 --> 00:13:21,979
+are each getting a weight of one six two
+每个人的体重都是一六二
+
+314
+00:13:22,179 --> 00:13:24,378
+each right so that gives us the total
+每个权利，这样就给了我们总数
+
+315
+00:13:24,578 --> 00:13:25,789
+value of the Shapley value and that
+ Shapley值的值，以及
+
+316
+00:13:25,990 --> 00:13:27,289
+tells us what person one should be
+告诉我们应该是谁
+
+317
+00:13:27,490 --> 00:13:30,078
+getting and this is setting you know
+得到，这是你知道的设置
+
+318
+00:13:30,278 --> 00:13:32,178
+let's take a look at a simple simpler
+让我们看一个简单的
+
+319
+00:13:32,379 --> 00:13:33,979
+example just with two individuals and
+例如两个人
+
+320
+00:13:34,179 --> 00:13:35,089
+try and figure out exactly what the
+尝试找出到底是什么
+
+321
+00:13:35,289 --> 00:13:37,459
+Shapley value gets so these are two
+ Shapley值得到，所以这是两个
+
+322
+00:13:37,659 --> 00:13:39,859
+people they form a partnership so person
+他们建立伙伴关系的人
+
+323
+00:13:40,059 --> 00:13:42,428
+1 alone was generating production of one
+一个人就产生了一个
+
+324
+00:13:42,629 --> 00:13:44,928
+person two was generating a production
+第二个人正在生产
+
+325
+00:13:45,129 --> 00:13:47,058
+of two they say wow let's get together
+他们说两分之三，哇，让我们聚在一起
+
+326
+00:13:47,259 --> 00:13:48,678
+and form a partnership we can do better
+建立伙伴关系，我们可以做得更好
+
+327
+00:13:48,879 --> 00:13:51,678
+than we can separately they generate a
+比我们可以分别产生的
+
+328
+00:13:51,879 --> 00:13:55,578
+total value of four so this is a nicely
+总价值为四，所以这是一个不错的选择
+
+329
+00:13:55,778 --> 00:13:56,839
+super additive we're getting a higher
+超级添加剂，我们越来越高
+
+330
+00:13:57,039 --> 00:13:58,659
+value when we've got the two together
+当我们将两者结合在一起时的价值
+
+331
+00:13:58,860 --> 00:14:01,519
+and now with a sort of at the end they
+现在在某种程度上，他们
+
+332
+00:14:01,720 --> 00:14:02,628
+try and say okay well how should we
+试着说好吧，我们应该如何
+
+333
+00:14:02,828 --> 00:14:05,988
+divide the four among among them well in
+将其中的四个很好地划分
+
+334
+00:14:06,188 --> 00:14:08,479
+this case we could have added one first
+在这种情况下，我们可以先添加一个
+
+335
+00:14:08,679 --> 00:14:11,539
+and then one come up with one two
+然后一个拿出一两个
+
+336
+00:14:11,740 --> 00:14:14,089
+the other possibility is we get to first
+另一种可能性是我们首先
+
+337
+00:14:14,289 --> 00:14:16,878
+and then one two right so there's only
+然后一二对，所以只有
+
+338
+00:14:17,078 --> 00:14:18,019
+two different ways we could have built
+我们本可以建立两种不同的方式
+
+339
+00:14:18,220 --> 00:14:21,979
+society up so person one in the first if
+如果第一人称社会
+
+340
+00:14:22,179 --> 00:14:23,058
+we're trying to figure out what to give
+我们正在努力弄清楚该给什么
+
+341
+00:14:23,259 --> 00:14:25,099
+person one out of this here they would
+从这里一个人，他们会
+
+342
+00:14:25,299 --> 00:14:30,349
+get v1 right which is one here they
+得到正确的v1，这里是他们
+
+343
+00:14:30,549 --> 00:14:35,479
+would get a V 1 2 minus V of 2 the
+将得到V 1 2减去V 2 
+
+344
+00:14:35,679 --> 00:14:36,889
+marginal contribution they added if
+他们添加的边际贡献如果
+
+345
+00:14:37,089 --> 00:14:38,118
+they're at it second this is the
+他们在第二，这是
+
+346
+00:14:38,318 --> 00:14:39,438
+marginal contribution if they were at it
+如果他们在边际贡献
+
+347
+00:14:39,639 --> 00:14:40,519
+first
+第一
+
+348
+00:14:40,720 --> 00:14:45,279
+what's this value this value is two and
+这个值是多少，这个值是二， 
+
+349
+00:14:45,480 --> 00:14:48,139
+each one of these gets a weight
+这些中的每一个都具有重量
+
+350
+00:14:48,339 --> 00:14:50,928
+ultimately of one-half because we've got
+最终只有一半，因为我们有
+
+351
+00:14:51,129 --> 00:14:52,488
+two of these things so we're adding a
+其中两件事，所以我们要添加一个
+
+352
+00:14:52,688 --> 00:14:55,519
+half of one a half of 2 we get 1 point 5
+一分之二的一半我们得到1分5 
+
+353
+00:14:55,720 --> 00:14:59,358
+is equal to fee of 1 you can go through
+等于您可以通过的手续费1 
+
+354
+00:14:59,558 --> 00:15:01,519
+you can check that 2 point 5 then is
+您可以检查2点5就是
+
+355
+00:15:01,720 --> 00:15:04,068
+going to be equal to fee of 2 so here
+等于2的费用，所以这里
+
+356
+00:15:04,269 --> 00:15:05,688
+what do we end up with the Shapley value
+我们最终会得到Shapley值
+
+357
+00:15:05,889 --> 00:15:07,549
+gives us that if these are the
+给我们，如果这些是
+
+358
+00:15:07,750 --> 00:15:09,878
+contributions that people are making
+人们所做的贡献
+
+359
+00:15:10,078 --> 00:15:12,919
+you're going to end up with 1.5 as the
+您最终将得到1.5作为
+
+360
+00:15:13,120 --> 00:15:16,068
+right amount to give to person 1 and 2.5
+给人1和2.5的正确金额
+
+361
+00:15:16,269 --> 00:15:19,279
+to give to person - okay so they're each
+给人-好吧，他们每个人
+
+362
+00:15:19,480 --> 00:15:21,858
+in this case getting some value that
+在这种情况下，获得一些价值
+
+363
+00:15:22,058 --> 00:15:23,490
+depends on the
+取决于
+
+364
+00:15:23,690 --> 00:15:25,740
+so it's it's taking into account what
+所以这是考虑到了什么
+
+365
+00:15:25,940 --> 00:15:28,589
+these values are in trying to divide the
+这些价值是在试图划分
+
+366
+00:15:28,789 --> 00:15:30,299
+four so they don't just say okay let's
+四，所以他们不只是说好，让我们
+
+367
+00:15:30,500 --> 00:15:33,240
+just split the four or 5050 they're
+只需将四个或5050分开
+
+368
+00:15:33,440 --> 00:15:34,620
+doing a different calculation than that
+做不同的计算
+
+369
+00:15:34,820 --> 00:15:38,039
+and comes out at one point five and two
+并在五点和二点出来
+
+370
+00:15:38,240 --> 00:15:41,219
+point five in this case okay so what
+在这种情况下要点五点好
+
+371
+00:15:41,419 --> 00:15:43,109
+about the Shapley value it allocates the
+关于Shapley值，它分配
+
+372
+00:15:43,309 --> 00:15:45,089
+value of a group according to marginal
+边际价值
+
+373
+00:15:45,289 --> 00:15:48,389
+calculations it's captured by some very
+计算它被一些非常捕获
+
+374
+00:15:48,590 --> 00:15:52,259
+simple logic and and axioms and what you
+简单的逻辑和公理以及您
+
+375
+00:15:52,460 --> 00:15:53,699
+could do is you can think of other
+可以做的就是你可以想到其他
+
+376
+00:15:53,899 --> 00:15:55,679
+axioms you can think of other ways other
+公理，您可以想到其他方式
+
+377
+00:15:55,879 --> 00:15:58,049
+fairness ideas or other kinds of things
+公平观念或其他类型的事物
+
+378
+00:15:58,250 --> 00:16:00,240
+that you desire your your rule to
+你希望自己的规则
+
+379
+00:16:00,440 --> 00:16:02,339
+satisfy and that's going to come up and
+满足，这将会出现， 
+
+380
+00:16:02,539 --> 00:16:03,870
+make different kinds of predictions and
+做出不同的预测
+
+381
+00:16:04,070 --> 00:16:06,000
+we'll take a look at the core next which
+接下来我们看一下核心
+
+382
+00:16:06,200 --> 00:16:08,429
+is another it uses a different kind of
+是另一种使用不同种类的
+
+383
+00:16:08,629 --> 00:16:11,729
+logic than the Shapley value for making
+比Shapley值更具逻辑性
+
+384
+00:16:11,929 --> 00:16:13,620
+predictions about how a society should
+关于社会应该如何的预测
+
+385
+00:16:13,820 --> 00:16:18,820
+divide up as values
+分成价值
+

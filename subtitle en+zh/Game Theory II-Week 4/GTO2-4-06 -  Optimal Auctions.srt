@@ -1,0 +1,2545 @@
+﻿1
+00:00:00,060 --> 00:00:03,399
+hey folks so let's talk now about
+大家好，让我们现在谈谈
+
+2
+00:00:03,600 --> 00:00:06,040
+optimal auctions and what we mean by
+最佳拍卖以及我们的意思
+
+3
+00:00:06,240 --> 00:00:08,800
+optimal auctions basically and up until
+最佳拍卖基本上直到
+
+4
+00:00:09,000 --> 00:00:11,169
+this point in the course usually when
+在课程中的这一点通常是
+
+5
+00:00:11,369 --> 00:00:12,460
+we've been analyzing auctions we've
+我们一直在分析拍卖
+
+6
+00:00:12,660 --> 00:00:14,439
+taken auctions as given and analyzed
+按既定进行拍卖并进行分析
+
+7
+00:00:14,638 --> 00:00:16,289
+them or we've talked a little bit about
+他们，或者我们谈论了一些
+
+8
+00:00:16,489 --> 00:00:19,089
+optimal efficient auctions in terms of
+在以下方面进行最佳有效拍卖
+
+9
+00:00:19,289 --> 00:00:21,039
+victory claros mechanisms and so forth
+胜利宣言机制等
+
+10
+00:00:21,239 --> 00:00:24,190
+and here the idea is that we'll think
+这里的想法是我们会认为
+
+11
+00:00:24,390 --> 00:00:26,980
+about a seller designing an auction and
+关于设计拍卖的卖方，以及
+
+12
+00:00:27,179 --> 00:00:29,289
+the seller might have incentives not
+卖方可能没有激励
+
+13
+00:00:29,489 --> 00:00:31,568
+necessarily to always do the efficient
+必须始终做到高效
+
+14
+00:00:31,768 --> 00:00:33,549
+thing but instead to maximize the price
+东西，而是最大化价格
+
+15
+00:00:33,750 --> 00:00:35,829
+that they get the expected price so
+他们得到了预期的价格，所以
+
+16
+00:00:36,030 --> 00:00:37,979
+they're interested in maximizing
+他们有兴趣最大化
+
+17
+00:00:38,179 --> 00:00:43,299
+expected revenue and what does that mean
+预期收入，这意味着什么
+
+18
+00:00:43,500 --> 00:00:45,878
+in terms of possible losses and
+就可能的损失而言
+
+19
+00:00:46,079 --> 00:00:48,489
+efficiency it may mean that that
+效率可能意味着
+
+20
+00:00:48,689 --> 00:00:50,529
+sometimes the seller doesn't sell the
+有时卖方不出售
+
+21
+00:00:50,729 --> 00:00:53,829
+good so they may risk failing to sell it
+好，这样他们可能会冒无法出售的风险
+
+22
+00:00:54,030 --> 00:00:57,038
+they might also even sell to a buyer
+他们甚至可能卖给买家
+
+23
+00:00:57,238 --> 00:00:59,349
+that doesn't necessarily have the
+不一定有
+
+24
+00:00:59,549 --> 00:01:02,498
+highest bid and that could happen in
+最高出价，这可能会在
+
+25
+00:01:02,698 --> 00:01:03,939
+settings where there's some asymmetries
+不对称的设置
+
+26
+00:01:04,140 --> 00:01:05,890
+among buyers and you want to use one
+买家之间，您想使用一个
+
+27
+00:01:06,090 --> 00:01:08,049
+buyer the threat of selling to one buyer
+买家威胁要卖给一位买家
+
+28
+00:01:08,250 --> 00:01:10,480
+to make sure that you increase the bids
+确保您提高出价
+
+29
+00:01:10,680 --> 00:01:11,799
+by the other buyer and we'll see a
+由其他买家提供，我们将看到一个
+
+30
+00:01:12,000 --> 00:01:13,869
+little bit of that in a bit so here
+一点点，所以这里
+
+31
+00:01:14,069 --> 00:01:16,390
+we're going to think now about optimal
+我们现在要考虑最佳
+
+32
+00:01:16,590 --> 00:01:19,599
+auctions in this narrow sense of trying
+在这种狭sense的尝试中进行拍卖
+
+33
+00:01:19,799 --> 00:01:21,219
+to design an auction which is going to
+设计一个拍卖会
+
+34
+00:01:21,420 --> 00:01:25,209
+maximize the sellers revenue so what
+最大化卖方收入
+
+35
+00:01:25,409 --> 00:01:27,369
+what kind of setting are we going to
+我们要去什么样的环境
+
+36
+00:01:27,569 --> 00:01:29,259
+look at will keep things relatively
+看会保持相对
+
+37
+00:01:29,459 --> 00:01:31,689
+simple in terms of the structure so one
+就结构而言很简单
+
+38
+00:01:31,890 --> 00:01:32,769
+good to be sold
+好卖
+
+39
+00:01:32,969 --> 00:01:36,519
+private valuation so each buyer has some
+私人估价，因此每个买家都有一些
+
+40
+00:01:36,719 --> 00:01:38,439
+value for the good they're each risk
+物有所值，每个风险
+
+41
+00:01:38,640 --> 00:01:41,230
+neutral the bidders valuation is going
+中立投标人的估价
+
+42
+00:01:41,430 --> 00:01:42,939
+to be drawn from a nice distribution
+从良好的分布中得出
+
+43
+00:01:43,140 --> 00:01:46,359
+that CDF is a cumulative distribution
+ CDF是累积分布
+
+44
+00:01:46,560 --> 00:01:49,808
+function so we have a cumulative
+功能，所以我们有一个累积
+
+45
+00:01:50,009 --> 00:01:53,278
+distribution function f I with a PDF
+ PDF的分布函数f I 
+
+46
+00:01:53,478 --> 00:01:55,750
+density function of F I which is going
+ FI的密度函数
+
+47
+00:01:55,950 --> 00:01:58,649
+to be continuous and bounded below so
+是连续的并在下面限制
+
+48
+00:01:58,849 --> 00:02:01,778
+nicely define continuous distributions
+很好地定义连续分布
+
+49
+00:02:01,978 --> 00:02:04,000
+over value so a uniform distribution or
+值过高，因此分布均匀或
+
+50
+00:02:04,200 --> 00:02:06,340
+a series of other distributions that
+一系列其他分布
+
+51
+00:02:06,540 --> 00:02:11,590
+will keep things nicely shaped we're
+会保持形状良好，我们
+
+52
+00:02:11,789 --> 00:02:13,510
+going to allow for asymmetries
+将允许不对称
+
+53
+00:02:13,710 --> 00:02:15,700
+among the individual so now we're going
+在个人之间，所以现在我们要
+
+54
+00:02:15,900 --> 00:02:18,430
+to allow one bidder to have one
+让一个投标人有一个
+
+55
+00:02:18,629 --> 00:02:20,140
+distribution and another bidder to have
+分配和另一个投标人
+
+56
+00:02:20,340 --> 00:02:22,210
+a different distribution so it could be
+不同的分布，所以它可能是
+
+57
+00:02:22,409 --> 00:02:24,520
+that I think of some bidders as having
+我认为有些投标人有
+
+58
+00:02:24,719 --> 00:02:27,130
+deep pockets and high values and other
+财大气粗，物超所值
+
+59
+00:02:27,330 --> 00:02:29,830
+bidders as as being more thrifty and not
+投标人认为更节俭而不是
+
+60
+00:02:30,030 --> 00:02:33,280
+having as high a value for an object so
+具有很高的价值
+
+61
+00:02:33,479 --> 00:02:34,320
+we're going to have different
+我们将有不同
+
+62
+00:02:34,520 --> 00:02:37,810
+distributions and the important thing is
+分布，重要的是
+
+63
+00:02:38,009 --> 00:02:40,030
+that the risk-neutral seller here is
+这里的风险中立卖方是
+
+64
+00:02:40,229 --> 00:02:42,640
+going to know the distributions and has
+会知道分布并有
+
+65
+00:02:42,840 --> 00:02:45,219
+no value for the object so zero value
+该对象无值，因此零值
+
+66
+00:02:45,419 --> 00:02:47,590
+for the object knows the distributions
+因为对象知道分布
+
+67
+00:02:47,789 --> 00:02:50,140
+but doesn't know the actual values so it
+但不知道实际值，所以
+
+68
+00:02:50,340 --> 00:02:52,480
+has an idea of of what range the the
+对什么范围
+
+69
+00:02:52,680 --> 00:02:53,740
+values are and what the relative
+值是和相对的
+
+70
+00:02:53,939 --> 00:02:55,420
+probabilities of different values are
+不同值的概率是
+
+71
+00:02:55,620 --> 00:02:58,210
+but does not know the precise values
+但不知道精确值
+
+72
+00:02:58,409 --> 00:03:01,570
+okay so the optimal auction here we're
+好的，所以我们在这里进行最佳拍卖
+
+73
+00:03:01,770 --> 00:03:03,400
+going to be looking at an auction that
+要去看拍卖
+
+74
+00:03:03,599 --> 00:03:05,620
+maximizes the sellers expected revenue
+最大化卖方预期收入
+
+75
+00:03:05,819 --> 00:03:09,640
+subject to some form of individual
+服从某种形式的个人
+
+76
+00:03:09,840 --> 00:03:12,100
+rationality in this particular case is
+在这种情况下的合理性是
+
+77
+00:03:12,300 --> 00:03:13,990
+not going to matter so much which type
+哪种类型无关紧要
+
+78
+00:03:14,189 --> 00:03:16,150
+of individual rationality we impose we
+我们强加于个人理性
+
+79
+00:03:16,349 --> 00:03:17,770
+can think of it as ex-post or interim
+可以将其视为事后或临时
+
+80
+00:03:17,969 --> 00:03:19,570
+you can always move things around in
+你总是可以在里面移动东西
+
+81
+00:03:19,770 --> 00:03:21,189
+terms of expected payments given all the
+鉴于所有
+
+82
+00:03:21,389 --> 00:03:22,780
+risk neutrality and the transferability
+风险中性和可转移性
+
+83
+00:03:22,979 --> 00:03:25,450
+here so we want Bayesian a set of
+在这里，我们想要贝叶斯一套
+
+84
+00:03:25,650 --> 00:03:27,850
+compatibility and make sure that the
+兼容性，并确保
+
+85
+00:03:28,050 --> 00:03:31,360
+buyers don't want to walk away from the
+买家不想离开
+
+86
+00:03:31,560 --> 00:03:32,800
+auction okay we're going to think about
+拍卖行，我们要考虑一下
+
+87
+00:03:33,000 --> 00:03:35,050
+optimal auctions okay
+最佳拍卖行
+
+88
+00:03:35,250 --> 00:03:36,700
+so what I'm gonna do is start with a
+所以我要做的是从
+
+89
+00:03:36,900 --> 00:03:40,390
+simple example and based on an example
+一个简单的例子，并基于一个例子
+
+90
+00:03:40,590 --> 00:03:41,950
+we'll get some intuitions out for why
+我们会得到一些直觉，为什么
+
+91
+00:03:42,150 --> 00:03:43,960
+things are working and then we'll do a
+一切正常，然后我们将
+
+92
+00:03:44,159 --> 00:03:46,810
+general statement of a theorem and so
+定理的一般性陈述等
+
+93
+00:03:47,009 --> 00:03:48,870
+here well let's start with two bidders
+好吧，让我们从两个竞标者开始
+
+94
+00:03:49,069 --> 00:03:51,520
+each has a value uniformly distributed
+每个都有一个均匀分布的值
+
+95
+00:03:51,719 --> 00:03:55,120
+on 0 1 and let's think of changing the
+在0 1上，让我们考虑更改
+
+96
+00:03:55,319 --> 00:03:57,760
+auction in a very simple format what
+以非常简单的格式拍卖
+
+97
+00:03:57,960 --> 00:03:59,290
+we're gonna do is stick in a reserve
+我们要做的就是保留储备金
+
+98
+00:03:59,490 --> 00:04:02,380
+price okay and this is quite common in
+价格还可以，这在
+
+99
+00:04:02,580 --> 00:04:04,210
+auction so often when people are selling
+人们出售时经常拍卖
+
+100
+00:04:04,409 --> 00:04:06,850
+things off there'll be a minimum bid a
+事情将有一个最低出价
+
+101
+00:04:07,050 --> 00:04:10,390
+reserve price and you're not allowed to
+底价，你不能
+
+102
+00:04:10,590 --> 00:04:12,850
+enter into the bidding unless you exceed
+参加竞标，除非您超过
+
+103
+00:04:13,050 --> 00:04:16,990
+that threshold and so we're going to set
+该阈值，所以我们要设置
+
+104
+00:04:17,189 --> 00:04:18,430
+a reverse reserve price and here we're
+反向底价，我们在这里
+
+105
+00:04:18,629 --> 00:04:20,170
+gonna have a second price auction to
+将要进行第二次价格拍卖
+
+106
+00:04:20,370 --> 00:04:21,759
+make life simple keep with the dominant
+使生活简单，保持优势
+
+107
+00:04:21,959 --> 00:04:23,259
+strategies but just stick in a reserve
+策略，但只是保留
+
+108
+00:04:23,459 --> 00:04:26,020
+price okay so let's think about how this
+价格还可以，所以让我们考虑一下
+
+109
+00:04:26,220 --> 00:04:27,989
+works
+作品
+
+110
+00:04:28,189 --> 00:04:30,999
+once we've put in a reserve price then
+一旦我们设定了底价
+
+111
+00:04:31,199 --> 00:04:33,929
+if both people end up bidding below that
+如果两个人最终都低于该价格
+
+112
+00:04:34,129 --> 00:04:37,119
+we're not gonna get anything so we and
+我们不会得到任何东西，所以我们和
+
+113
+00:04:37,319 --> 00:04:39,399
+here's the risk now if we didn't have a
+如果我们没有一个
+
+114
+00:04:39,598 --> 00:04:40,899
+reserve price we would always sell the
+底价我们将永远卖出
+
+115
+00:04:41,098 --> 00:04:42,879
+object now there's a possibility of no
+对象，现在有没有可能性
+
+116
+00:04:43,079 --> 00:04:46,279
+sale so we're not going to get anything
+销售，所以我们不会得到任何东西
+
+117
+00:04:46,459 --> 00:04:49,300
+if one bidder bids above the reserve and
+如果一个投标人的出价超出了储备金，并且
+
+118
+00:04:49,500 --> 00:04:51,879
+one below it then the reserve price is
+一个低于它的底价是
+
+119
+00:04:52,079 --> 00:04:53,439
+going to kick in that's going to be the
+要踢的将是
+
+120
+00:04:53,639 --> 00:04:56,019
+second highest price the second highest
+第二高的价格第二高的价格
+
+121
+00:04:56,218 --> 00:04:57,579
+bid we'll think of the reserve price as
+出价，我们将底价视为
+
+122
+00:04:57,779 --> 00:04:59,949
+if it was a bid and the second highest
+如果是出价并且是第二高的
+
+123
+00:05:00,149 --> 00:05:02,649
+bid is now the reserve price and so
+现在的出价是底价，因此
+
+124
+00:05:02,848 --> 00:05:05,528
+we'll sell at that reserve if somebody
+如果有人，我们将以该储备金出售
+
+125
+00:05:05,728 --> 00:05:07,088
+bids above it and the other below so
+出价高于它，另一个低于
+
+126
+00:05:07,288 --> 00:05:08,920
+again second price auction that's going
+再次进行第二次价格拍卖
+
+127
+00:05:09,120 --> 00:05:12,218
+to be the second highest and if both of
+是第二高的，如果两者
+
+128
+00:05:12,418 --> 00:05:13,838
+them been above it if both bidders
+如果两个竞标者都在上面
+
+129
+00:05:14,038 --> 00:05:16,389
+happen a bit above it then it'll just be
+发生在它上面一点，那将是
+
+130
+00:05:16,589 --> 00:05:18,699
+the second highest bid that will be the
+第二高的出价将是
+
+131
+00:05:18,899 --> 00:05:21,329
+price okay so that's the setting and
+价格还可以，所以这是设置
+
+132
+00:05:21,528 --> 00:05:23,889
+which reserve price is going to maximize
+哪个底价将最大化
+
+133
+00:05:24,089 --> 00:05:26,019
+the expected revenue so let's take a
+预期收入，所以让我们
+
+134
+00:05:26,218 --> 00:05:28,540
+look at that so first thing to note it's
+看着那个，首先要注意的是
+
+135
+00:05:28,740 --> 00:05:30,610
+still a dominant strategy to bid your
+仍然是竞标您的主要策略
+
+136
+00:05:30,810 --> 00:05:33,160
+true value and in fact you could think
+真正的价值，实际上你会想到
+
+137
+00:05:33,360 --> 00:05:35,079
+of the reserve price is just like a
+底价的
+
+138
+00:05:35,278 --> 00:05:37,689
+third bidder in this case and so from
+在这种情况下，第三竞标者
+
+139
+00:05:37,889 --> 00:05:40,329
+any bidders perspective you still want
+您仍然想要的任何竞标者观点
+
+140
+00:05:40,528 --> 00:05:41,649
+to be bidding your true value if it's a
+竞标您的真实价值，如果它是
+
+141
+00:05:41,848 --> 00:05:43,480
+second price auction where you think of
+您想到的第二次价格拍卖
+
+142
+00:05:43,680 --> 00:05:45,278
+this reserve prices if it's just a fixed
+如果只是固定价格
+
+143
+00:05:45,478 --> 00:05:46,899
+bid out there you just happen to know
+竞标在那里，你只是知道
+
+144
+00:05:47,098 --> 00:05:48,278
+what one of the bids are it's still a
+到底是哪一个出价
+
+145
+00:05:48,478 --> 00:05:50,050
+dominant strategy to bid your true value
+发挥您的真实价值的主导策略
+
+146
+00:05:50,250 --> 00:05:51,939
+so that makes our life easy in terms of
+这样就使我们的生活更轻松
+
+147
+00:05:52,139 --> 00:05:56,379
+the analysis so if both sale if both
+分析，如果两者都出售
+
+148
+00:05:56,579 --> 00:05:59,110
+bids are below our that's going to
+出价低于我们的出价
+
+149
+00:05:59,310 --> 00:06:01,028
+happen now with probability R squared
+现在发生，概率R平方
+
+150
+00:06:01,228 --> 00:06:03,968
+because people are bidding truthfully so
+因为人们真实地竞标
+
+151
+00:06:04,168 --> 00:06:07,170
+the chance that they're both below R
+他们都低于R的机会
+
+152
+00:06:07,370 --> 00:06:10,480
+with a uniform distribution independent
+具有独立的均匀分布
+
+153
+00:06:10,680 --> 00:06:12,069
+draws of uniform distribution
+均匀分布图
+
+154
+00:06:12,269 --> 00:06:14,199
+probability that any one of them is
+其中任何一个是
+
+155
+00:06:14,399 --> 00:06:16,179
+below is our so the probability that
+下面是我们的概率
+
+156
+00:06:16,379 --> 00:06:17,980
+both of them are below is R squared in
+它们都在下面R平方中
+
+157
+00:06:18,180 --> 00:06:21,790
+that case the revenue 0 the chance that
+这种情况下，收益为0的机会
+
+158
+00:06:21,990 --> 00:06:23,980
+one's above and one below well the
+一个人在上面，一个人在下面
+
+159
+00:06:24,180 --> 00:06:25,959
+chance of one's above is 1 minus R the
+一个人以上的机会是1减去R 
+
+160
+00:06:26,158 --> 00:06:28,149
+other ones below is R and it can happen
+下面的其他是R，并且可能发生
+
+161
+00:06:28,348 --> 00:06:29,829
+in two different ways in terms of which
+以两种不同的方式
+
+162
+00:06:30,028 --> 00:06:31,769
+bidder is above and which bidders below
+投标者在上方，投标人在下方
+
+163
+00:06:31,968 --> 00:06:35,050
+in that case the second highest price is
+在这种情况下，第二高的价格是
+
+164
+00:06:35,250 --> 00:06:38,319
+the reserve price that's the revenue and
+底价即收益， 
+
+165
+00:06:38,519 --> 00:06:40,199
+then
+然后
+
+166
+00:06:40,399 --> 00:06:41,600
+in a case where they're both above
+如果它们都在上面
+
+167
+00:06:41,800 --> 00:06:44,040
+that's going to happen with probability
+这将有可能发生
+
+168
+00:06:44,240 --> 00:06:46,860
+one minus R squared and in that case
+ 1减去R的平方
+
+169
+00:06:47,060 --> 00:06:48,180
+then we're going to get the expected
+然后我们将获得预期的
+
+170
+00:06:48,379 --> 00:06:51,629
+minimum of the two values conditional on
+两个条件中的最小值
+
+171
+00:06:51,829 --> 00:06:54,120
+both of the values being above R and if
+两个值都高于R，并且如果
+
+172
+00:06:54,319 --> 00:06:55,710
+you just work out the integral of what's
+你只要算出什么是不可或缺的
+
+173
+00:06:55,910 --> 00:06:58,560
+the expected minimum of two uniformly
+预期的最小值2 
+
+174
+00:06:58,759 --> 00:07:01,170
+distributed random variables conditional
+分布随机变量条件
+
+175
+00:07:01,370 --> 00:07:04,259
+on those variables going between our two
+关于我们两个之间的变量
+
+176
+00:07:04,459 --> 00:07:07,710
+one right so now they fall both within
+一种权利，所以现在它们都属于
+
+177
+00:07:07,910 --> 00:07:10,139
+our two one figure out what the expected
+我们两个弄清楚了期望
+
+178
+00:07:10,339 --> 00:07:12,210
+minimum of that is I'll save you the
+最少的是我会救你
+
+179
+00:07:12,410 --> 00:07:17,370
+algebra it's 1 plus 2 R over 2 over 3 ok
+代数是1加2 R超过2超过3可以
+
+180
+00:07:17,569 --> 00:07:22,110
+so when we look at these then we do the
+因此，当我们查看这些内容时，我们会
+
+181
+00:07:22,310 --> 00:07:25,410
+overall expected revenue what do we get
+总体预期收入我们能得到什么
+
+182
+00:07:25,610 --> 00:07:28,170
+we've got this probability that we're
+我们有这种可能性
+
+183
+00:07:28,370 --> 00:07:30,449
+going to get a revenue of R so multiply
+要获得R的收入，所以相乘
+
+184
+00:07:30,649 --> 00:07:34,290
+those out we get to R squared 1 minus R
+那些我们得到R平方1减去R 
+
+185
+00:07:34,490 --> 00:07:36,900
+here and then we've got this probability
+在这里，然后我们有这个可能性
+
+186
+00:07:37,100 --> 00:07:40,110
+of that both people are above and then
+这两个人都在之上，然后
+
+187
+00:07:40,310 --> 00:07:42,689
+we have this expected revenue so we end
+我们有这个预期的收入，所以我们结束
+
+188
+00:07:42,889 --> 00:07:44,550
+up with an overall expected revenue of
+总预期收入为
+
+189
+00:07:44,750 --> 00:07:47,189
+this expression because if they're both
+这个表达是因为如果他们俩
+
+190
+00:07:47,389 --> 00:07:48,990
+below we don't get anything so that's
+下面我们什么都没得到，那是
+
+191
+00:07:49,189 --> 00:07:50,579
+the overall expression that's the
+整体表达是
+
+192
+00:07:50,779 --> 00:07:53,278
+expected revenue if we collect terms
+如果我们收集条款，预计收入
+
+193
+00:07:53,478 --> 00:07:56,550
+here in terms of ours you can simplify
+就我们而言，您可以简化
+
+194
+00:07:56,750 --> 00:07:58,980
+this so the expected revenue here is
+因此，这里的预期收入是
+
+195
+00:07:59,180 --> 00:08:03,870
+given by this expression 1 plus 3 R
+由该表达式给出1加3 R 
+
+196
+00:08:04,069 --> 00:08:07,290
+squared minus 4 hours cubed over 3 so
+减去3的平方减去4小时
+
+197
+00:08:07,490 --> 00:08:09,718
+now we have an expression for revenue
+现在我们有一个收入表达
+
+198
+00:08:09,918 --> 00:08:12,660
+just maximize that with respect to R so
+只是相对于R最大化
+
+199
+00:08:12,860 --> 00:08:13,949
+let's take the derivative with respect
+让我们尊重派生
+
+200
+00:08:14,149 --> 00:08:17,579
+to R and set that equal to 0
+到R并将其设置为等于0 
+
+201
+00:08:17,779 --> 00:08:20,100
+what do you get 0 equals 2 R minus 4 R
+您得到的0等于2 R减去4 R 
+
+202
+00:08:20,300 --> 00:08:23,100
+squared solving that R is equal to 1/2
+ R等于1/2的平方解
+
+203
+00:08:23,300 --> 00:08:26,160
+so what does that tell us if you're
+那么这告诉我们您是否
+
+204
+00:08:26,360 --> 00:08:29,670
+facing two bidders in a second-price
+面对两个竞标者的第二价格
+
+205
+00:08:29,870 --> 00:08:32,939
+auction uniform values between 0 & 1
+拍卖统一价值（介于0和1之间） 
+
+206
+00:08:33,139 --> 00:08:35,399
+you set a reserve price of 1/2 that's
+您将底价定为1/2，即
+
+207
+00:08:35,599 --> 00:08:37,250
+going to maximize the expected revenue
+将使预期收益最大化
+
+208
+00:08:37,450 --> 00:08:39,019
+okay
+好的
+
+209
+00:08:39,219 --> 00:08:42,149
+you can do calculations so suppose let's
+您可以进行计算，所以假设
+
+210
+00:08:42,349 --> 00:08:44,758
+do our calculation when we set the
+当我们设置
+
+211
+00:08:44,958 --> 00:08:47,339
+reserve price of 1/2 what do we earn in
+底价的1/2我们能赚到什么
+
+212
+00:08:47,539 --> 00:08:49,229
+terms of revenue well you can stick your
+收入方面，你可以坚持你的
+
+213
+00:08:49,429 --> 00:08:52,620
+1/2 in here do the calculation you end
+ 1/2在这里做你结束的计算
+
+214
+00:08:52,820 --> 00:08:54,089
+up with 5 twelfths
+十二分之五
+
+215
+00:08:54,289 --> 00:08:57,539
+if you set a reserve price of zero then
+如果您将底价设置为零，则
+
+216
+00:08:57,740 --> 00:08:59,909
+the expected revenue you get zeros for
+预期收益为零
+
+217
+00:09:00,110 --> 00:09:03,328
+the R's you get one-third here so you
+ R是你的三分之一，所以你
+
+218
+00:09:03,528 --> 00:09:05,549
+end up with a lower this is just for 12
+最终以较低的价格仅售12 
+
+219
+00:09:05,750 --> 00:09:07,769
+right so we end up with a higher
+对，所以我们最终得到了更高的
+
+220
+00:09:07,970 --> 00:09:10,618
+expected revenue when we set the reserve
+设定准备金时的预期收入
+
+221
+00:09:10,818 --> 00:09:12,990
+price at 1/2 so increasing that reserve
+价格为1/2，因此增加了储备金
+
+222
+00:09:13,190 --> 00:09:15,929
+price increases the expected revenue for
+价格提高了预期的收入
+
+223
+00:09:16,129 --> 00:09:19,318
+the seller now you don't want to you
+卖方现在你不想你
+
+224
+00:09:19,519 --> 00:09:21,748
+know the the 1/2 was nicely chosen if we
+知道1/2是很好的选择，如果我们
+
+225
+00:09:21,948 --> 00:09:23,789
+set it too high then you have no chance
+设置得太高，那么你就没有机会
+
+226
+00:09:23,990 --> 00:09:26,068
+that you're going to end up with a sale
+你最终将要出售
+
+227
+00:09:26,269 --> 00:09:30,269
+and then your profits actually go down
+然后您的利润实际上下降了
+
+228
+00:09:30,470 --> 00:09:32,128
+so it's hitting a sweet spot in terms of
+所以它在以下方面达到了最佳效果
+
+229
+00:09:32,328 --> 00:09:33,419
+what the reserve price was so the
+底价是多少
+
+230
+00:09:33,620 --> 00:09:36,628
+trade-offs here you lose sales when both
+权衡取舍时，您都失去了销售
+
+231
+00:09:36,828 --> 00:09:39,118
+bids were below 1/2 by setting this
+将此设置为低于1/2的出价
+
+232
+00:09:39,318 --> 00:09:41,368
+reserve price but that was a low revenue
+底价，但这是低收入
+
+233
+00:09:41,568 --> 00:09:42,808
+in any case and it only has a
+无论如何，它只有一个
+
+234
+00:09:43,009 --> 00:09:45,808
+probability of 1/4 of happening you
+发生你的1/4的概率
+
+235
+00:09:46,009 --> 00:09:47,938
+increase the the price when one of the
+增加价格时，其中之一
+
+236
+00:09:48,139 --> 00:09:49,828
+bidder was low and the other one was
+竞标者很低，另一个是
+
+237
+00:09:50,028 --> 00:09:51,479
+high and it actually happens with the
+高，实际上发生在
+
+238
+00:09:51,679 --> 00:09:54,289
+probability of 1/2 and so in this case
+在这种情况下为1/2的概率
+
+239
+00:09:54,490 --> 00:09:57,990
+increasing that reserve price led to
+增加底价导致
+
+240
+00:09:58,190 --> 00:09:59,549
+higher revenue because the increase you
+更高的收入，因为增加了您
+
+241
+00:09:59,750 --> 00:10:01,979
+got from here more than offset the
+从这里得到的不只是抵消了
+
+242
+00:10:02,179 --> 00:10:05,549
+decrease you got by losing sales when
+通过减少销售而减少
+
+243
+00:10:05,750 --> 00:10:11,099
+both bids happen to be low ok so you can
+两种出价都较低，可以
+
+244
+00:10:11,299 --> 00:10:13,019
+think of adding this reserve prices as
+考虑将这个底价添加为
+
+245
+00:10:13,220 --> 00:10:15,179
+if you're adding a third bidder it's
+如果您要添加第三位竞标者， 
+
+246
+00:10:15,379 --> 00:10:17,368
+sort of increasing the competition in
+在某种程度上增加了竞争
+
+247
+00:10:17,568 --> 00:10:18,899
+the auction and even though that players
+拍卖，即使那个球员
+
+248
+00:10:19,100 --> 00:10:20,818
+know exactly where that reserve is it's
+确切知道那是哪里的储备金
+
+249
+00:10:21,019 --> 00:10:23,309
+it's raising the overall revenue in the
+它正在提高整体收入
+
+250
+00:10:23,509 --> 00:10:28,248
+second price auction so this is
+第二次价格拍卖，所以这是
+
+251
+00:10:28,448 --> 00:10:30,929
+something that that has been looked at
+已经看过的东西
+
+252
+00:10:31,129 --> 00:10:32,938
+more generally and so in terms of the
+更一般地说， 
+
+253
+00:10:33,139 --> 00:10:36,508
+overall design of optimal auctions what
+最佳拍卖的总体设计是什么
+
+254
+00:10:36,708 --> 00:10:38,698
+do they look like well there's a concept
+他们看起来很好吗，有一个概念
+
+255
+00:10:38,899 --> 00:10:41,368
+which is important in defining these and
+在定义这些方面很重要，并且
+
+256
+00:10:41,568 --> 00:10:43,919
+it's what's known as a bidders virtual
+这就是所谓的虚拟投标人
+
+257
+00:10:44,120 --> 00:10:48,779
+valuation and if you have a true value
+估值，如果您具有真实价值
+
+258
+00:10:48,980 --> 00:10:54,738
+of VI of your virtual valuation is VI
+您的虚拟估值中的VI为VI 
+
+259
+00:10:54,938 --> 00:10:59,849
+adjusted subtracting off a you think of
+调整后减去您想到的
+
+260
+00:11:00,049 --> 00:11:01,948
+sort of shading down your value what is
+有点掩盖您的价值是什么
+
+261
+00:11:02,149 --> 00:11:04,409
+it shaded down by what's shaded down by
+它被什么阴影了
+
+262
+00:11:04,610 --> 00:11:07,139
+something which depends
+取决于
+
+263
+00:11:07,340 --> 00:11:10,759
+how how many values were above what you
+在您之上有多少个值
+
+264
+00:11:10,960 --> 00:11:13,019
+what's the probability of having values
+有值的概率是多少
+
+265
+00:11:13,220 --> 00:11:15,059
+above the value that you're expressing
+高于您要表达的价值
+
+266
+00:11:15,259 --> 00:11:19,279
+and then adjusted on the denominator by
+然后在分母上调整
+
+267
+00:11:19,480 --> 00:11:22,529
+the the relative frequency with which
+相对频率
+
+268
+00:11:22,730 --> 00:11:24,299
+you have the valuation that you're
+您拥有自己的估值
+
+269
+00:11:24,500 --> 00:11:27,599
+looking at now exactly understanding the
+看现在完全了解
+
+270
+00:11:27,799 --> 00:11:30,659
+virtual valuation is a fairly difficult
+虚拟估值是相当困难的
+
+271
+00:11:30,860 --> 00:11:33,209
+task it's a fairly deep concept and it
+任务是一个很深的概念
+
+272
+00:11:33,409 --> 00:11:35,849
+has to do with keeping track of exactly
+与跟踪准确有关
+
+273
+00:11:36,049 --> 00:11:37,199
+what the incentive constraints for
+激励约束是什么
+
+274
+00:11:37,399 --> 00:11:40,319
+different values are and and how rapidly
+不同的价值，以及发展的速度
+
+275
+00:11:40,519 --> 00:11:43,079
+you're losing or gaining value as you're
+你正在失去或获得价值
+
+276
+00:11:43,279 --> 00:11:47,899
+moving values up so in terms of how many
+提升价值的多少
+
+277
+00:11:48,100 --> 00:11:50,129
+what's the relative probability of
+的相对概率是多少
+
+278
+00:11:50,330 --> 00:11:52,769
+different types at or above a given
+给定或以上的不同类型
+
+279
+00:11:52,970 --> 00:11:55,559
+level what we're gonna do is assume that
+假设我们要做的是
+
+280
+00:11:55,759 --> 00:11:59,309
+this thing is increasing in VI okay if
+这个东西在VI中增加了，如果
+
+281
+00:11:59,509 --> 00:12:01,079
+it's not increasing in VI then the
+ VI并没有增加，然后
+
+282
+00:12:01,279 --> 00:12:02,159
+statements of the theorems we're going
+我们要定理的陈述
+
+283
+00:12:02,360 --> 00:12:03,029
+to make it are going to be more
+使它变得更多
+
+284
+00:12:03,230 --> 00:12:05,279
+complicated so this object will assume
+复杂，因此此对象将假定
+
+285
+00:12:05,480 --> 00:12:07,709
+to be increasing in VI if you check out
+如果您签出，将增加VI 
+
+286
+00:12:07,909 --> 00:12:10,049
+this virtual valuation in the case of a
+如果是
+
+287
+00:12:10,250 --> 00:12:11,519
+uniform distribution it turns out to be
+均匀分布证明是
+
+288
+00:12:11,720 --> 00:12:15,620
+2 VI minus 1 so indeed increasing in VI
+ 2 VI减1因此VI的确增加
+
+289
+00:12:15,820 --> 00:12:20,219
+and the way in which will set reserve
+以及设定储备金的方式
+
+290
+00:12:20,419 --> 00:12:27,059
+prices is to pick the reserve price to
+价格是选择底价
+
+291
+00:12:27,259 --> 00:12:30,750
+be the level of VI at which the virtual
+是虚拟的VI级别
+
+292
+00:12:30,950 --> 00:12:33,089
+valuation would be exactly equal to zero
+估值将完全等于零
+
+293
+00:12:33,289 --> 00:12:38,490
+okay so if you find the value of VI at
+好吧，如果您发现VI的值是
+
+294
+00:12:38,690 --> 00:12:40,139
+which this is exactly equal to zero
+这正好等于零
+
+295
+00:12:40,340 --> 00:12:42,719
+we'll set we'll call that the bitter
+我们将其称为苦味
+
+296
+00:12:42,919 --> 00:12:45,389
+specific reserve price and in particular
+具体底价，尤其是
+
+297
+00:12:45,590 --> 00:12:49,289
+if you plug back in the uniform
+如果你插上制服
+
+298
+00:12:49,490 --> 00:12:52,319
+distribution for this now you're getting
+现在的分布
+
+299
+00:12:52,519 --> 00:12:55,469
+to VI minus 1 the value of which that
+至VI减去1，其中
+
+300
+00:12:55,669 --> 00:12:58,259
+happens is happens to be 1/2 right so
+恰好是1/2对，所以
+
+301
+00:12:58,460 --> 00:12:59,569
+you would set the reserve price
+你会设定底价
+
+302
+00:12:59,769 --> 00:13:03,509
+individual reserve price at 1/2 okay so
+个人底价为1/2还可以
+
+303
+00:13:03,710 --> 00:13:07,019
+Roger Myerson proved theorem which
+罗杰·迈尔森（Roger Myerson）证明了定理
+
+304
+00:13:07,220 --> 00:13:09,979
+characterized optimal auctions in 1981
+ 1981年进行了最佳拍卖
+
+305
+00:13:10,179 --> 00:13:12,149
+actually that was part of the work that
+实际上那是工作的一部分
+
+306
+00:13:12,350 --> 00:13:13,469
+earned him the Nobel Prize
+为他赢得了诺贝尔奖
+
+307
+00:13:13,669 --> 00:13:15,990
+along with revelation principle and some
+以及启示原理和一些
+
+308
+00:13:16,190 --> 00:13:20,459
+of the other things we've seen this is a
+我们已经看到的其他事情是
+
+309
+00:13:20,659 --> 00:13:22,679
+has been a fairly influential theorem
+一直是一个很有影响力的定理
+
+310
+00:13:22,879 --> 00:13:24,599
+and so let's have a look at what it says
+因此，让我们看看它说了什么
+
+311
+00:13:24,799 --> 00:13:29,459
+it's a it's a a bit of a mouthful but if
+这是一个有点嘴，但如果
+
+312
+00:13:29,659 --> 00:13:31,198
+we look at the optimal single good
+我们来看最优的单品
+
+313
+00:13:31,399 --> 00:13:33,359
+auction in terms of a direct mechanism
+拍卖的直接机制
+
+314
+00:13:33,559 --> 00:13:36,299
+what's the structure the structure is
+结构是什么结构
+
+315
+00:13:36,500 --> 00:13:38,549
+you're going to sell the good to the
+你将把商品卖给
+
+316
+00:13:38,750 --> 00:13:42,929
+person who has the highest virtual
+虚拟度最高的人
+
+317
+00:13:43,129 --> 00:13:45,139
+valuation based on what they announced
+根据他们宣布的估值
+
+318
+00:13:45,339 --> 00:13:49,679
+okay so look at the different
+好吧，所以看看不同的
+
+319
+00:13:49,879 --> 00:13:51,628
+individuals and instead of looking at
+个人，而不是看着
+
+320
+00:13:51,828 --> 00:13:53,490
+who has the actual highest direct bid
+实际最高直接出价的人
+
+321
+00:13:53,690 --> 00:13:55,049
+we're going to use their virtual
+我们将使用他们的虚拟
+
+322
+00:13:55,250 --> 00:13:56,609
+valuations instead of the direct
+估值，而不是直接估值
+
+323
+00:13:56,809 --> 00:13:58,558
+valuations okay so we're gonna make
+估值还可以，所以我们要
+
+324
+00:13:58,759 --> 00:14:00,149
+adjustments based on these virtual
+根据这些虚拟调整
+
+325
+00:14:00,350 --> 00:14:03,808
+valuations and we'll sell it to that
+估值，我们将其出售给
+
+326
+00:14:04,009 --> 00:14:06,389
+person as long as their value is bigger
+人，只要他们的价值更大
+
+327
+00:14:06,589 --> 00:14:10,139
+than their reserve price if not then we
+比他们的底价高
+
+328
+00:14:10,339 --> 00:14:11,729
+won't sell it to anybody if not if this
+如果没有的话，不会卖给任何人
+
+329
+00:14:11,929 --> 00:14:13,889
+isn't satisfying if the good is sold
+如果商品被出售，我不满意
+
+330
+00:14:14,089 --> 00:14:15,868
+then the winning person is going to be
+那么获胜者将是
+
+331
+00:14:16,068 --> 00:14:19,618
+charged the smallest valuation that that
+收取的最低估值
+
+332
+00:14:19,818 --> 00:14:21,328
+person could have declared and still
+一个人可能已经宣布并且仍然
+
+333
+00:14:21,528 --> 00:14:23,849
+been winner so we look at the smallest
+是赢家，所以我们看最小的
+
+334
+00:14:24,049 --> 00:14:28,469
+valuation that has them still being
+估值仍然存在
+
+335
+00:14:28,669 --> 00:14:31,919
+above their reserve price and still
+高于底价，仍然
+
+336
+00:14:32,120 --> 00:14:35,188
+being the winner and think of that as
+成为赢家，并认为这是
+
+337
+00:14:35,389 --> 00:14:37,109
+sort of the the benchmark of the
+有点像基准
+
+338
+00:14:37,309 --> 00:14:38,669
+equivalent of either the second highest
+相当于第二高的
+
+339
+00:14:38,870 --> 00:14:42,359
+price or the reserve price that's going
+价格或要走的底价
+
+340
+00:14:42,559 --> 00:14:46,378
+to be the value that they have to pay
+成为他们必须付出的价值
+
+341
+00:14:46,578 --> 00:14:51,839
+okay so we have an auction where now
+好吧，现在我们有一个拍卖行
+
+342
+00:14:52,039 --> 00:14:54,948
+what we do is we people put in values
+我们要做的就是我们将价值观放在人身上
+
+343
+00:14:55,149 --> 00:14:57,029
+declare their values for the good but
+宣扬其价值，但
+
+344
+00:14:57,230 --> 00:14:59,159
+now we adjust them via these virtual
+现在我们通过这些虚拟的
+
+345
+00:14:59,360 --> 00:15:02,959
+evaluations and have reserve prices and
+评估并具有底价和
+
+346
+00:15:03,159 --> 00:15:05,508
+choose the person who has the highest
+选择最高的人
+
+347
+00:15:05,708 --> 00:15:07,919
+virtual valuation subject to that being
+虚拟估值受制于
+
+348
+00:15:08,120 --> 00:15:10,019
+above the reserve price and charge them
+高于底价并收取费用
+
+349
+00:15:10,220 --> 00:15:14,399
+the price that they could have gotten in
+他们本来可以得到的价格
+
+350
+00:15:14,600 --> 00:15:17,219
+terms of the lowest valuation they could
+他们可以接受的最低估值条款
+
+351
+00:15:17,419 --> 00:15:19,198
+have announced and still been the winner
+已经宣布并仍然是赢家
+
+352
+00:15:19,399 --> 00:15:23,628
+of this auction okay a corollary of this
+这次拍卖的结果是这样的
+
+353
+00:15:23,828 --> 00:15:26,008
+where you can begin to simplify all of
+在这里您可以简化所有
+
+354
+00:15:26,208 --> 00:15:28,438
+this if we're looking at a symmetric
+如果我们正在看一个对称的
+
+355
+00:15:28,639 --> 00:15:30,568
+setting where everybody has exactly the
+设定每个人都有的地方
+
+356
+00:15:30,769 --> 00:15:33,379
+same distributions like we did earlier
+像我们之前所做的一样的分布
+
+357
+00:15:33,580 --> 00:15:37,250
+in the two bitter case in the second
+在第二种痛苦的情况下
+
+358
+00:15:37,450 --> 00:15:39,828
+price auction case what do we end up
+价格拍卖案我们最终会发生什么
+
+359
+00:15:40,028 --> 00:15:42,198
+with it indeed it turns out that the
+事实证明， 
+
+360
+00:15:42,399 --> 00:15:44,539
+optimal auction is a second price
+最佳拍卖是第二价格
+
+361
+00:15:44,740 --> 00:15:46,909
+auction with the reserve price of our
+以我们的底价拍卖
+
+362
+00:15:47,110 --> 00:15:49,459
+star where that reserve price satisfies
+底价满足的明星
+
+363
+00:15:49,659 --> 00:15:51,469
+this equation and in the case of a
+这个方程式，如果是
+
+364
+00:15:51,669 --> 00:15:53,628
+uniform distribution the reserve price
+统一分配底价
+
+365
+00:15:53,828 --> 00:15:55,490
+is going to be 1/2 so it would actually
+将是1/2，所以实际上
+
+366
+00:15:55,690 --> 00:15:59,029
+say that the optimal second auction in
+说在
+
+367
+00:15:59,230 --> 00:16:01,219
+the case of a symmetric setting would be
+对称设置的情况是
+
+368
+00:16:01,419 --> 00:16:05,929
+set your if uniform 0 1 set your reserve
+设置您是否统一0 1设置您的储备金
+
+369
+00:16:06,129 --> 00:16:08,659
+price to 1/2 and then have a situation
+价格降到1/2然后有情况
+
+370
+00:16:08,860 --> 00:16:10,459
+where you do a second price auction
+在哪里进行第二次价格拍卖
+
+371
+00:16:10,659 --> 00:16:13,128
+above that ok so the nice thing about
+好的，那么关于
+
+372
+00:16:13,328 --> 00:16:14,959
+this is it says in symmetric settings
+这是说对称设置
+
+373
+00:16:15,159 --> 00:16:17,299
+things simplify dramatically and you're
+事情大大简化，你
+
+374
+00:16:17,500 --> 00:16:19,008
+running basically second price auctions
+基本上进行第二次价格拍卖
+
+375
+00:16:19,208 --> 00:16:21,049
+with reserve prices and the reserve
+底价和底价
+
+376
+00:16:21,250 --> 00:16:22,490
+price is going to depend on this
+价格将取决于此
+
+377
+00:16:22,690 --> 00:16:24,799
+distribution what's really going on now
+分发现在到底发生了什么
+
+378
+00:16:25,000 --> 00:16:26,299
+you can understand a little more about
+您可以了解更多有关
+
+379
+00:16:26,500 --> 00:16:28,849
+what this virtual valuation is doing in
+这种虚拟估值在做什么
+
+380
+00:16:29,049 --> 00:16:31,099
+terms of adjusting things it's adjusting
+调整事物的条件
+
+381
+00:16:31,299 --> 00:16:34,490
+things too to capture relatively how
+东西也无法捕捉
+
+382
+00:16:34,690 --> 00:16:37,250
+much of the distribution is is is that
+大部分的分布是
+
+383
+00:16:37,450 --> 00:16:39,529
+high values compared to lower values and
+高值与低值相比
+
+384
+00:16:39,730 --> 00:16:42,258
+the reserve price is being pushed up to
+底价被推高到
+
+385
+00:16:42,458 --> 00:16:44,359
+a point where you want to push it so
+您想要推动它的地方
+
+386
+00:16:44,559 --> 00:16:46,609
+that you're making sure that you're not
+确保您没有
+
+387
+00:16:46,809 --> 00:16:49,039
+going so high that you're losing the
+太高了，你就失去了
+
+388
+00:16:49,240 --> 00:16:52,069
+bids of that you're going above the bids
+您的出价高于出价
+
+389
+00:16:52,269 --> 00:16:54,019
+and not going to sell the item but you
+并不会出售该物品，但你
+
+390
+00:16:54,220 --> 00:16:55,849
+want to move it up high enough to have
+想要将其向上移动到足以
+
+391
+00:16:56,049 --> 00:16:58,099
+some competition and that trade-off is
+一些竞争，而这种权衡是
+
+392
+00:16:58,299 --> 00:17:01,639
+is being captured by exactly this
+正是被这个捕获了
+
+393
+00:17:01,839 --> 00:17:04,759
+expression okay so the optimal auction
+表达好，所以是最佳拍卖
+
+394
+00:17:04,959 --> 00:17:07,279
+has some features that we would have
+有一些我们会拥有的功能
+
+395
+00:17:07,480 --> 00:17:09,799
+seen as in a victory Clark growth
+被视为克拉克的胜利
+
+396
+00:17:10,000 --> 00:17:13,069
+mechanism and what's a little bit
+机制和一点点
+
+397
+00:17:13,269 --> 00:17:19,128
+different here is that we have two
+不同的是我们有两个
+
+398
+00:17:19,328 --> 00:17:23,149
+things going on one is that the actual
+一件事是，实际
+
+399
+00:17:23,349 --> 00:17:25,159
+valuations are being adjusted by these
+这些正在调整估值
+
+400
+00:17:25,359 --> 00:17:28,519
+virtual evaluation functions and also
+虚拟评估功能以及
+
+401
+00:17:28,720 --> 00:17:30,619
+it's not looking like a victory Clark
+看起来不像是胜利克拉克
+
+402
+00:17:30,819 --> 00:17:31,909
+goals mechanism in the sense that the
+在某种意义上说，目标机制
+
+403
+00:17:32,109 --> 00:17:34,069
+outcome isn't always efficient sometimes
+结果有时并不总是有效的
+
+404
+00:17:34,269 --> 00:17:36,200
+we do not sell the good in these kinds
+我们不出售这类商品
+
+405
+00:17:36,400 --> 00:17:39,740
+of auctions and you know how should
+拍卖，你知道应该如何
+
+406
+00:17:39,940 --> 00:17:41,899
+bidders really bid in this so the good
+竞标者真的在竞标，所以很好
+
+407
+00:17:42,099 --> 00:17:44,358
+news is that we still have a second
+消息是我们还有第二个
+
+408
+00:17:44,558 --> 00:17:46,399
+price auction kind of format held in
+价格拍卖的格式
+
+409
+00:17:46,599 --> 00:17:50,539
+this virtual evaluation space so the the
+这个虚拟评估空间
+
+410
+00:17:50,740 --> 00:17:54,529
+transformations mean that that it looks
+转换意味着它看起来
+
+411
+00:17:54,730 --> 00:17:55,669
+slightly different in terms of what the
+在什么方面略有不同
+
+412
+00:17:55,869 --> 00:17:56,809
+payments are going to be and when
+付款将在何时
+
+413
+00:17:57,009 --> 00:17:58,399
+somebody ends up winning something
+有人最终赢得了一些东西
+
+414
+00:17:58,599 --> 00:18:00,950
+but the proof that second price auction
+但是第二次拍卖的证据
+
+415
+00:18:01,150 --> 00:18:02,690
+is dominant strategy instead of
+是主导策略，而不是
+
+416
+00:18:02,890 --> 00:18:05,539
+compatible or truthful still works out
+兼容或真实仍然可行
+
+417
+00:18:05,740 --> 00:18:06,740
+here so you still get these nice
+在这里，所以你仍然得到这些好
+
+418
+00:18:06,940 --> 00:18:09,589
+properties in terms of the incentives of
+财产的激励
+
+419
+00:18:09,789 --> 00:18:12,529
+the auction but it's different in terms
+拍卖，但在条款上有所不同
+
+420
+00:18:12,730 --> 00:18:15,200
+of what the specifics are in terms of
+具体是什么
+
+421
+00:18:15,400 --> 00:18:16,879
+the payment rule and we're not always
+付款规则，我们并不总是
+
+422
+00:18:17,079 --> 00:18:18,619
+doing efficient things in this world so
+在这个世界上做有效率的事情
+
+423
+00:18:18,819 --> 00:18:20,389
+here again we see that trade-off that
+在这里，我们再次看到
+
+424
+00:18:20,589 --> 00:18:22,789
+we've seen before in the Myers and
+我们之前在Myers和
+
+425
+00:18:22,990 --> 00:18:25,430
+Satterthwaite theorem here when we're
+我们在这里的Satterthwaite定理
+
+426
+00:18:25,630 --> 00:18:28,190
+trying in this case to get incentive
+在这种情况下试图获得激励
+
+427
+00:18:28,390 --> 00:18:30,919
+compatibility and maximize things for
+兼容性和最大化的东西
+
+428
+00:18:31,119 --> 00:18:32,539
+the seller so the sellers trying to
+卖方，所以卖方试图
+
+429
+00:18:32,740 --> 00:18:35,029
+figure out how they can get the most out
+弄清楚他们如何充分利用
+
+430
+00:18:35,230 --> 00:18:36,649
+of this auction we end up with some
+在这次拍卖中，我们最终得到了一些
+
+431
+00:18:36,849 --> 00:18:39,079
+inefficient trade so the sellers going
+交易效率低下，所以卖方去
+
+432
+00:18:39,279 --> 00:18:40,700
+to actually have to commit to doing this
+实际上必须致力于这样做
+
+433
+00:18:40,900 --> 00:18:42,469
+right so you have to commit to abiding
+对，所以您必须承诺遵守
+
+434
+00:18:42,669 --> 00:18:44,509
+by the reserve price and if everybody's
+根据底价，如果每个人都
+
+435
+00:18:44,710 --> 00:18:46,099
+bid comes in afterwards not saying oh
+出价后来才说不出来哦
+
+436
+00:18:46,299 --> 00:18:47,990
+well sorry I didn't really mean that I'm
+很抱歉，我不是真的不是说我
+
+437
+00:18:48,190 --> 00:18:49,639
+going to revise my reserve price and
+要修改我的底价， 
+
+438
+00:18:49,839 --> 00:18:52,608
+drop it down so this mechanism works if
+放下它，这样，如果
+
+439
+00:18:52,808 --> 00:18:55,099
+the the seller can commit to not selling
+卖方可以承诺不出售
+
+440
+00:18:55,299 --> 00:18:57,349
+the object if the bids end up below the
+如果出价最终低于
+
+441
+00:18:57,549 --> 00:19:00,919
+reserve price okay why does this work
+保留价格好为什么这样做
+
+442
+00:19:01,119 --> 00:19:02,569
+what's going on here
+这里发生了什么
+
+443
+00:19:02,769 --> 00:19:04,250
+well reserve prices again are like
+好储备价格再次像
+
+444
+00:19:04,450 --> 00:19:05,750
+competitors they increase the payments
+竞争对手，他们增加付款
+
+445
+00:19:05,950 --> 00:19:07,819
+of the winning bidders the virtual
+中标者的虚拟
+
+446
+00:19:08,019 --> 00:19:10,159
+evaluations why are they playing a role
+评价他们为什么发挥作用
+
+447
+00:19:10,359 --> 00:19:12,319
+here in terms of deciding who's a winner
+在决定谁是赢家方面
+
+448
+00:19:12,519 --> 00:19:14,299
+well if you have strong asymmetries in
+如果您在
+
+449
+00:19:14,500 --> 00:19:16,639
+this auction if you didn't do anything
+如果您什么也没做，本次拍卖
+
+450
+00:19:16,839 --> 00:19:19,039
+and you were the seller it could be that
+而你是卖方，可能是
+
+451
+00:19:19,240 --> 00:19:20,960
+they're really weak bidder basically
+他们基本上是弱者
+
+452
+00:19:21,160 --> 00:19:22,729
+isn't really competing with the strong
+并没有真正与强者竞争
+
+453
+00:19:22,929 --> 00:19:23,089
+bidder
+投标人
+
+454
+00:19:23,289 --> 00:19:25,369
+so by and changing things relative to
+因此，通过改变相对于
+
+455
+00:19:25,569 --> 00:19:28,879
+these virtual evaluations that can make
+这些虚拟的评估可以使
+
+456
+00:19:29,079 --> 00:19:30,680
+weak bidders be more competitive with
+弱小的投标人更具竞争力
+
+457
+00:19:30,880 --> 00:19:34,129
+with strong bidders now that has a plus
+现在有强力竞标者
+
+458
+00:19:34,329 --> 00:19:35,990
+and a minus to it one is that sometimes
+缺点是有时
+
+459
+00:19:36,190 --> 00:19:37,669
+you end up selling it for a lower price
+你最终以较低的价格出售
+
+460
+00:19:37,869 --> 00:19:39,139
+than you would otherwise to the lower
+比你要低的多
+
+461
+00:19:39,339 --> 00:19:41,599
+bidder but other times it actually
+投标人，但实际上有时
+
+462
+00:19:41,799 --> 00:19:44,379
+inflates it means that the the higher
+膨胀意味着越高
+
+463
+00:19:44,579 --> 00:19:46,700
+bidder has to end up paying a higher
+投标人不得不最终支付更高的价格
+
+464
+00:19:46,900 --> 00:19:49,690
+price and it effectively increases the
+价格，有效地增加了
+
+465
+00:19:49,890 --> 00:19:52,009
+competition there and in some sense
+在某种意义上说那里的竞争
+
+466
+00:19:52,210 --> 00:19:55,519
+makes the bidding more aggressive okay
+使出价更具侵略性
+
+467
+00:19:55,720 --> 00:19:57,799
+so that's been a quick look at optimal
+因此快速了解了最佳
+
+468
+00:19:58,000 --> 00:19:59,539
+auctions the proofs of
+拍卖的证据
+
+469
+00:19:59,740 --> 00:20:02,000
+these results are actually quite
+这些结果实际上是相当
+
+470
+00:20:02,200 --> 00:20:04,490
+involved and involves some calculus of
+涉及并涉及到一些演算
+
+471
+00:20:04,690 --> 00:20:07,608
+variations and some delicate arguments
+变化和一些微妙的论点
+
+472
+00:20:07,808 --> 00:20:09,680
+they are worth looking into if you
+他们值得研究，如果你
+
+473
+00:20:09,880 --> 00:20:12,079
+really enjoy this stuff dig into
+非常喜欢这东西挖
+
+474
+00:20:12,279 --> 00:20:14,389
+meyerson's paper and a whole series of
+迈耶森的论文以及一系列
+
+475
+00:20:14,589 --> 00:20:16,700
+ones that have followed up on that there
+在那里跟进的
+
+476
+00:20:16,900 --> 00:20:18,500
+they're interesting papers and the
+他们是有趣的论文， 
+
+477
+00:20:18,700 --> 00:20:20,450
+techniques behind them have become used
+他们背后的技术已被使用
+
+478
+00:20:20,650 --> 00:20:23,049
+in other kinds of mechanism design
+在其他类型的机制设计中
+
+479
+00:20:23,250 --> 00:20:26,629
+arguments more generally but what we
+争论更普遍，但是我们
+
+480
+00:20:26,829 --> 00:20:28,460
+want to take away from this is is a
+想要摆脱的是一个
+
+481
+00:20:28,660 --> 00:20:32,169
+couple of things one is that there are
+几件事之一是，有
+
+482
+00:20:32,369 --> 00:20:34,789
+that the problems are well-defined and
+问题是明确定义的， 
+
+483
+00:20:34,990 --> 00:20:36,259
+they're well-defined solutions to
+他们是明确定义的解决方案
+
+484
+00:20:36,460 --> 00:20:38,329
+solving four mechanisms that satisfy
+解决四个满足的机制
+
+485
+00:20:38,529 --> 00:20:40,220
+certain properties the ones we've been
+某些属性，我们去过的
+
+486
+00:20:40,420 --> 00:20:42,108
+more interested in and probably are more
+更感兴趣，也许更多
+
+487
+00:20:42,308 --> 00:20:43,789
+interested in from a societal point of
+从社会的角度对
+
+488
+00:20:43,990 --> 00:20:45,710
+view is how do we maximize overall
+观点是我们如何整体上最大化
+
+489
+00:20:45,910 --> 00:20:49,190
+efficiency total utilities but sometimes
+总效用，但有时
+
+490
+00:20:49,390 --> 00:20:50,389
+we're also interested in understanding
+我们也有兴趣了解
+
+491
+00:20:50,589 --> 00:20:53,149
+how sellers might act in a market or you
+卖方如何在市场或您中行事
+
+492
+00:20:53,349 --> 00:20:55,069
+know they might want to maximize revenue
+知道他们可能想最大化收益
+
+493
+00:20:55,269 --> 00:20:57,229
+not do the efficient thing how are they
+没有做有效率的事情，他们怎么样
+
+494
+00:20:57,429 --> 00:20:58,309
+going to act what kinds of mechanisms
+要采取什么样的机制
+
+495
+00:20:58,509 --> 00:21:00,470
+are they going to choose and so
+他们会选择，所以
+
+496
+00:21:00,670 --> 00:21:01,909
+mechanism design you can put down
+可以放下的机制设计
+
+497
+00:21:02,109 --> 00:21:03,829
+whatever objective you want in terms of
+您想要的任何目标
+
+498
+00:21:04,029 --> 00:21:05,720
+what you're trying to maximize is it
+您想要最大化的是
+
+499
+00:21:05,920 --> 00:21:08,089
+overall societal welfare is it revenue
+整体社会福利是收入吗
+
+500
+00:21:08,289 --> 00:21:11,930
+it could be some combination and in
+可能是一些组合
+
+501
+00:21:12,130 --> 00:21:13,579
+those kinds of situations once you're
+那种情况一旦你
+
+502
+00:21:13,779 --> 00:21:15,259
+going to do that then you put in
+然后去做
+
+503
+00:21:15,460 --> 00:21:16,909
+incentive compatibility constraints
+激励相容性约束
+
+504
+00:21:17,109 --> 00:21:19,399
+that's actually part of what goes into
+这实际上是其中一部分
+
+505
+00:21:19,599 --> 00:21:21,559
+the proof of meyerson's theorem put
+迈耶森定理的证明
+
+506
+00:21:21,759 --> 00:21:25,759
+those things in and maximize subject to
+那些东西并最大化地受
+
+507
+00:21:25,960 --> 00:21:27,349
+those constraints and see what falls out
+这些约束条件，看看会发生什么
+
+508
+00:21:27,549 --> 00:21:29,509
+and that can give you a very general
+那可以给你非常笼统的
+
+509
+00:21:29,710 --> 00:21:34,710
+recipe for for optimal mechanism design
+优化机械设计的配方
+

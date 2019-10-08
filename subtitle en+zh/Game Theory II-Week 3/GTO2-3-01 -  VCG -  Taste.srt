@@ -1,0 +1,1360 @@
+﻿1
+00:00:00,000 --> 00:00:01,389
+this week we're going to tell you about
+这周我们要告诉你
+
+2
+00:00:01,589 --> 00:00:02,978
+one of the great success stories of
+伟大的成功故事之一
+
+3
+00:00:03,178 --> 00:00:05,139
+mechanism design the victory Clark
+机制设计胜利克拉克
+
+4
+00:00:05,339 --> 00:00:07,780
+groves mechanism and in this video I'm
+格罗夫机制，在这个视频中，我是
+
+5
+00:00:07,980 --> 00:00:10,569
+going to give you a high-level taste of
+给你高层次的品味
+
+6
+00:00:10,769 --> 00:00:12,550
+what this mechanism does and why it's
+该机制的作用以及原因
+
+7
+00:00:12,750 --> 00:00:16,600
+important so what is the Vickery Clark
+重要的是什么，维克·克拉克是什么
+
+8
+00:00:16,800 --> 00:00:20,230
+groves mechanism for essentially it
+格罗夫机制实质上
+
+9
+00:00:20,429 --> 00:00:21,850
+solves a problem that we encounter in
+解决了我们遇到的一个问题
+
+10
+00:00:22,050 --> 00:00:24,789
+mechanism design pretty often where I as
+我经常在哪里设计机构
+
+11
+00:00:24,989 --> 00:00:26,800
+the designer and interested in
+设计师感兴趣
+
+12
+00:00:27,000 --> 00:00:29,769
+implementing an efficient outcome what
+实施有效的结果是什么
+
+13
+00:00:29,969 --> 00:00:31,659
+that means is I've got a set of
+那意味着我有一套
+
+14
+00:00:31,859 --> 00:00:34,119
+self-interested agents each of whom has
+每个人都有的利己代理
+
+15
+00:00:34,320 --> 00:00:36,038
+private information about how much they
+关于他们多少的私人信息
+
+16
+00:00:36,238 --> 00:00:37,839
+value each of the different things that
+珍惜每一个不同的事物
+
+17
+00:00:38,039 --> 00:00:40,320
+could happen in the world and what I'm
+可能发生在世界上，我是什么
+
+18
+00:00:40,520 --> 00:00:43,209
+desiring to do is always to pick the
+渴望做的总是选择
+
+19
+00:00:43,409 --> 00:00:46,599
+thing that maximizes the sum of the ways
+使方式总和最大化的事物
+
+20
+00:00:46,799 --> 00:00:47,919
+that the agents actually feel about
+代理商真正感觉到的
+
+21
+00:00:48,119 --> 00:00:49,659
+these different things which of course
+这些不同的东西，当然
+
+22
+00:00:49,859 --> 00:00:51,070
+is something that I as the designer
+是我作为设计师的东西
+
+23
+00:00:51,270 --> 00:00:53,529
+don't know so what I need is for the
+不知道，所以我需要的是
+
+24
+00:00:53,729 --> 00:00:55,149
+agents to tell me how much they value
+代理商告诉我他们有多重视
+
+25
+00:00:55,350 --> 00:00:57,820
+different things and I want them to pick
+不同的东西，我希望他们选择
+
+26
+00:00:58,020 --> 00:00:59,349
+the thing that maximizes the sum of
+最大化总和的东西
+
+27
+00:00:59,549 --> 00:01:01,809
+their values this would all be fine
+他们的价值观，这一切都很好
+
+28
+00:01:02,009 --> 00:01:03,518
+except that of course the agents could
+当然代理商可以
+
+29
+00:01:03,719 --> 00:01:04,719
+lie to me about how much they value
+对我撒谎他们有多重视
+
+30
+00:01:04,920 --> 00:01:07,329
+different things so what I want to do in
+不同的事情，所以我想做什么
+
+31
+00:01:07,530 --> 00:01:09,609
+a transferable utility setting here is
+这里的可转移实用程序设置是
+
+32
+00:01:09,810 --> 00:01:13,028
+to impose a set of payments that make it
+施加一系列的付款
+
+33
+00:01:13,228 --> 00:01:14,649
+the right thing for the agents to tell
+代理商告诉的正确的事情
+
+34
+00:01:14,849 --> 00:01:16,509
+me the truth so that I can then solve
+给我真相，以便我可以解决
+
+35
+00:01:16,709 --> 00:01:18,129
+the pretty simple problem of maximizing
+最大化这个非常简单的问题
+
+36
+00:01:18,329 --> 00:01:19,539
+the sum of how they feel about the
+他们对
+
+37
+00:01:19,739 --> 00:01:21,939
+different things the trick is to set up
+设置技巧的不同之处
+
+38
+00:01:22,140 --> 00:01:23,980
+these payments in the right way so that
+这些付款方式正确，以便
+
+39
+00:01:24,180 --> 00:01:25,778
+the agents really will want to tell me
+代理商真的会想告诉我
+
+40
+00:01:25,978 --> 00:01:26,488
+the truth
+真相
+
+41
+00:01:26,688 --> 00:01:29,829
+the great success of the VCG mechanism
+ VCG机制的巨大成功
+
+42
+00:01:30,030 --> 00:01:32,409
+is that telling the truth for the agents
+是为代理商讲真话
+
+43
+00:01:32,609 --> 00:01:34,628
+is a dominant strategy so it's a really
+是一项占主导地位的策略
+
+44
+00:01:34,828 --> 00:01:37,028
+strong kind of implementation the agents
+代理商执行力强
+
+45
+00:01:37,228 --> 00:01:38,349
+really will want to tell me the truth
+真的会想告诉我真相
+
+46
+00:01:38,549 --> 00:01:40,090
+and they don't even have to think about
+他们甚至不必考虑
+
+47
+00:01:40,290 --> 00:01:41,799
+what the other agents will do it's
+其他代理商会做什么
+
+48
+00:01:42,000 --> 00:01:43,689
+simply the right thing for every agent
+对于每个代理商来说都是正确的事情
+
+49
+00:01:43,890 --> 00:01:45,429
+to tell me the truth about their own
+告诉我关于自己的真相
+
+50
+00:01:45,629 --> 00:01:47,799
+valuation and then if I run the BCG
+评估，然后如果我运行BCG 
+
+51
+00:01:48,000 --> 00:01:49,869
+mechanism the payments will be such that
+机制的付款将使得
+
+52
+00:01:50,069 --> 00:01:51,189
+the agents will feel like they've done
+代理商会觉得自己已经完成了
+
+53
+00:01:51,390 --> 00:01:52,539
+the right thing by just telling me the
+告诉我正确的事情
+
+54
+00:01:52,739 --> 00:01:55,238
+truth I'm going to show you a number of
+真相，我将向您展示一些
+
+55
+00:01:55,438 --> 00:01:56,469
+different examples that gives you a
+不同的例子给你
+
+56
+00:01:56,670 --> 00:01:58,359
+sense of what this means in practice and
+在实践中理解这意味着什么
+
+57
+00:01:58,560 --> 00:02:03,488
+why it's exciting let's start with with
+为什么令人兴奋，让我们开始
+
+58
+00:02:03,688 --> 00:02:05,890
+the simplest example where I'm going to
+我要去的最简单的例子
+
+59
+00:02:06,090 --> 00:02:07,868
+allocate a single thing among a set of
+在一组中分配一个东西
+
+60
+00:02:08,068 --> 00:02:10,660
+agents so imagine a government that
+特工们想像一个政府
+
+61
+00:02:10,860 --> 00:02:12,850
+wants to privatize a public utility like
+想要私有化像
+
+62
+00:02:13,050 --> 00:02:13,950
+a power play
+权力游戏
+
+63
+00:02:14,150 --> 00:02:17,259
+now when a government wants to privatize
+现在，当一个政府想要私有化时
+
+64
+00:02:17,459 --> 00:02:19,569
+something it's not usually because it
+有些事情通常不是因为
+
+65
+00:02:19,769 --> 00:02:21,159
+just wants to collect a bunch of money
+只想收一大笔钱
+
+66
+00:02:21,359 --> 00:02:23,500
+but instead it's that the government
+而是政府
+
+67
+00:02:23,699 --> 00:02:26,019
+thinks that this public utility could be
+认为该公用事业可能是
+
+68
+00:02:26,218 --> 00:02:29,409
+more efficiently operated by somebody in
+有人更有效地操作
+
+69
+00:02:29,609 --> 00:02:30,519
+the private sector than by the
+私营部门比
+
+70
+00:02:30,718 --> 00:02:33,879
+government if this is the case the
+如果是这样，政府
+
+71
+00:02:34,079 --> 00:02:35,618
+government typically wants to figure out
+政府通常想弄清楚
+
+72
+00:02:35,818 --> 00:02:37,709
+which among a set of potential buyers
+在一组潜在买家中
+
+73
+00:02:37,908 --> 00:02:41,769
+values the utility the most because
+最重视该实用程序，因为
+
+74
+00:02:41,968 --> 00:02:43,360
+that's the buyer that would then most
+那就是当时的买家
+
+75
+00:02:43,560 --> 00:02:45,009
+efficiently operate the utility
+有效地运行该实用程序
+
+76
+00:02:45,209 --> 00:02:47,950
+afterwards so you could sort of think
+之后，您可以考虑一下
+
+77
+00:02:48,150 --> 00:02:49,599
+the government could go to each of these
+政府可以去做每一个
+
+78
+00:02:49,799 --> 00:02:51,879
+potential buyers and ask them how much
+潜在买家并询问他们多少
+
+79
+00:02:52,079 --> 00:02:54,189
+do you value the power plant and it
+您是否重视电厂及其
+
+80
+00:02:54,389 --> 00:02:55,810
+could then just give the power plant to
+然后可以将发电厂交给
+
+81
+00:02:56,009 --> 00:02:58,420
+the utility that values at the most the
+最重视
+
+82
+00:02:58,620 --> 00:03:00,519
+problem of course is that if it just did
+当然，问题在于，如果这样做
+
+83
+00:03:00,718 --> 00:03:03,489
+this the buyers would lie they would all
+买家会撒谎，他们都会
+
+84
+00:03:03,688 --> 00:03:05,739
+claim very very high values in the hopes
+在希望中要求很高的价值
+
+85
+00:03:05,938 --> 00:03:07,959
+of being the highest and the government
+最高和政府
+
+86
+00:03:08,158 --> 00:03:09,519
+would probably not end up giving the
+可能最终不会给
+
+87
+00:03:09,718 --> 00:03:11,709
+power plant to the right company so
+发电厂给合适的公司
+
+88
+00:03:11,908 --> 00:03:13,509
+instead the government has to sell the
+相反，政府必须出售
+
+89
+00:03:13,709 --> 00:03:14,980
+power plant even if it doesn't care
+发电厂，即使它不在乎
+
+90
+00:03:15,180 --> 00:03:17,529
+about collecting the money the question
+关于收钱的问题
+
+91
+00:03:17,729 --> 00:03:19,899
+then is what rules should it use for
+那应该用什么规则
+
+92
+00:03:20,098 --> 00:03:22,149
+imposing payments on the different
+将付款强加给其他人
+
+93
+00:03:22,348 --> 00:03:26,259
+potential buyers and if we were to use
+潜在的买家，如果我们要使用
+
+94
+00:03:26,459 --> 00:03:28,868
+the VCG mechanism here this would give
+这里的VCG机制
+
+95
+00:03:29,068 --> 00:03:30,999
+us a way of imposing payments on the
+向我们收取费用的一种方式
+
+96
+00:03:31,199 --> 00:03:34,090
+different buyers so that we would ensure
+不同的买家，以便我们确保
+
+97
+00:03:34,289 --> 00:03:35,770
+that each of the buyers would simply
+每个购买者只会
+
+98
+00:03:35,969 --> 00:03:37,810
+tell the government the truth about how
+告诉政府真相
+
+99
+00:03:38,009 --> 00:03:40,379
+much the power plant is worth to them
+电厂对他们来说值得
+
+100
+00:03:40,579 --> 00:03:43,058
+this is a simple example because here
+这是一个简单的示例，因为这里
+
+101
+00:03:43,258 --> 00:03:45,700
+the outcome space is just giving the
+结果空间只是给
+
+102
+00:03:45,900 --> 00:03:48,249
+power plant to each of the potential
+发电厂的每一个潜力
+
+103
+00:03:48,449 --> 00:03:50,550
+buyers and we're just allocating a
+买家，我们只是分配一个
+
+104
+00:03:50,750 --> 00:03:53,709
+single good essentially the the power
+单品本质上就是力量
+
+105
+00:03:53,908 --> 00:03:57,249
+plant here but VCG also works in other
+在这里种植，但VCG也可以在其他地方使用
+
+106
+00:03:57,449 --> 00:03:58,779
+settings that look pretty different from
+看起来与
+
+107
+00:03:58,979 --> 00:04:01,349
+this let me give you an example of that
+这让我举一个例子
+
+108
+00:04:01,549 --> 00:04:04,209
+let's imagine here the the simplest
+让我们想象一下最简单的
+
+109
+00:04:04,408 --> 00:04:05,860
+possible outcome space there are just
+可能的结果空间只有
+
+110
+00:04:06,060 --> 00:04:08,649
+two things that could happen I have a
+我可能有两件事
+
+111
+00:04:08,848 --> 00:04:10,539
+set of businesses on two sides of a
+一组业务的两个侧面
+
+112
+00:04:10,739 --> 00:04:13,689
+river and the two outcomes are that a
+河和两个结果是
+
+113
+00:04:13,889 --> 00:04:15,999
+bridge could be built or could not be
+桥梁可以建造还是不能建造
+
+114
+00:04:16,199 --> 00:04:19,569
+built and what I want to do here is to
+内置的，我想在这里做的是
+
+115
+00:04:19,769 --> 00:04:23,500
+build the bridge if the sum of values
+如果价值总和建立桥梁
+
+116
+00:04:23,699 --> 00:04:25,180
+that the agents have for the bridge
+代理商为桥梁准备的
+
+117
+00:04:25,379 --> 00:04:26,710
+exceeds the cost of it
+超过它的成本
+
+118
+00:04:26,910 --> 00:04:28,600
+construction and not build the bridge
+建造而不是建造桥梁
+
+119
+00:04:28,800 --> 00:04:33,069
+otherwise and again what what I want to
+否则，我想要什么
+
+120
+00:04:33,269 --> 00:04:34,750
+do here is collect information from all
+这里要做的是从所有人那里收集信息
+
+121
+00:04:34,949 --> 00:04:36,520
+the businesses that that has them tell
+让他们知道的企业
+
+122
+00:04:36,720 --> 00:04:38,620
+me how much it's worth to them to have
+我对他们来说有多少价值
+
+123
+00:04:38,819 --> 00:04:40,780
+the bridge be constructed and it may
+建造桥梁，它可能
+
+124
+00:04:40,980 --> 00:04:42,579
+well be that they have a negative value
+很有可能它们具有负值
+
+125
+00:04:42,779 --> 00:04:45,129
+for the bridge being constructed because
+对于正在建造的桥梁，因为
+
+126
+00:04:45,329 --> 00:04:46,420
+maybe they're better off in the world
+也许他们在这个世界上更好
+
+127
+00:04:46,620 --> 00:04:48,370
+where there's no bridge so I want to
+没有桥所以我想
+
+128
+00:04:48,569 --> 00:04:49,629
+look at all of this aggregate
+看看所有这些汇总
+
+129
+00:04:49,829 --> 00:04:52,389
+information and I want them to to figure
+信息，我希望他们去思考
+
+130
+00:04:52,589 --> 00:04:53,949
+out payments where I might compensate
+我可以补偿的付款
+
+131
+00:04:54,149 --> 00:04:55,540
+some businesses that are hurt by the
+一些受到
+
+132
+00:04:55,740 --> 00:04:56,439
+construction of the bridge
+桥梁的建设
+
+133
+00:04:56,639 --> 00:04:58,750
+I might charge some businesses that are
+我可能会收费一些
+
+134
+00:04:58,949 --> 00:05:01,300
+benefited by the cost of the bridge and
+受益于桥梁的成本和
+
+135
+00:05:01,500 --> 00:05:02,770
+eventually collect enough money that I
+最终收集到足够的钱，我
+
+136
+00:05:02,970 --> 00:05:04,060
+can actually pay the construction
+可以实际支付建设费用
+
+137
+00:05:04,259 --> 00:05:06,699
+workers who of course have a negative
+当然有负面的工人
+
+138
+00:05:06,899 --> 00:05:08,170
+value for the bridge being constructed
+正在建造的桥梁的价值
+
+139
+00:05:08,370 --> 00:05:11,500
+because they have to do work and overall
+因为他们必须做工作和整体
+
+140
+00:05:11,699 --> 00:05:13,420
+decide whether the bridge in fact should
+决定实际上是否应该桥梁
+
+141
+00:05:13,620 --> 00:05:16,300
+be built or not so again the VCG
+是否再次建造
+
+142
+00:05:16,500 --> 00:05:17,949
+mechanism would just do the right thing
+机制只会做正确的事
+
+143
+00:05:18,149 --> 00:05:19,960
+here would come up with payments that
+这里会拿出付款
+
+144
+00:05:20,160 --> 00:05:22,240
+work out in the right way as we'll see
+以正确的方式进行锻炼，我们将看到
+
+145
+00:05:22,439 --> 00:05:23,860
+when we do this example a bit more
+当我们做这个例子多一点
+
+146
+00:05:24,060 --> 00:05:27,670
+formally later here's a third example
+正式之后，这是第三个例子
+
+147
+00:05:27,870 --> 00:05:29,680
+which is again pretty different from the
+再次与
+
+148
+00:05:29,879 --> 00:05:31,990
+first two it's a little bit more like
+前两个有点像
+
+149
+00:05:32,189 --> 00:05:33,939
+the bridge example I need to make kind
+我需要亲切的桥梁例子
+
+150
+00:05:34,139 --> 00:05:36,069
+of a social choice here rather than
+在这里是一种社会选择，而不是
+
+151
+00:05:36,269 --> 00:05:37,810
+allocating one thing among different
+在不同事物之间分配一件事
+
+152
+00:05:38,009 --> 00:05:40,810
+people here the problem is scheduling
+人们在这里问题是日程安排
+
+153
+00:05:41,009 --> 00:05:43,718
+meetings so imagine that you're in a
+开会，想象一下您正在
+
+154
+00:05:43,918 --> 00:05:45,370
+problem which I really face in my life
+我一生中真正面对的问题
+
+155
+00:05:45,569 --> 00:05:47,800
+all the time where it's necessary to
+一直在需要
+
+156
+00:05:48,000 --> 00:05:49,689
+schedule meetings between people who
+安排人与人之间的会议
+
+157
+00:05:49,889 --> 00:05:51,400
+have different values for different
+具有不同的价值
+
+158
+00:05:51,600 --> 00:05:53,650
+times in their calendar and who may not
+他们日历中的时间，谁可能没有
+
+159
+00:05:53,850 --> 00:05:55,030
+tell you the truth about whether they're
+告诉你他们是否是事实
+
+160
+00:05:55,230 --> 00:05:57,759
+available or not so for example they may
+可用与否，例如，他们可能
+
+161
+00:05:57,959 --> 00:05:59,770
+lie to you and tell you I'm busy first
+骗你，告诉你我先忙
+
+162
+00:05:59,970 --> 00:06:01,270
+thing in the morning just because they
+早上的事情只是因为他们
+
+163
+00:06:01,470 --> 00:06:02,439
+don't actually want to come in first
+其实不想先进入
+
+164
+00:06:02,639 --> 00:06:04,420
+thing in the morning and in principle
+原则上在早上
+
+165
+00:06:04,620 --> 00:06:06,189
+it's fine that they they have a bad
+他们有坏事很好
+
+166
+00:06:06,389 --> 00:06:08,230
+value for that time but it may be that
+当时的价值，但可能是
+
+167
+00:06:08,430 --> 00:06:09,790
+turns out to be the only time that
+原来是唯一一次
+
+168
+00:06:09,990 --> 00:06:11,710
+everybody else is available so it may be
+其他人都有空，所以可能
+
+169
+00:06:11,910 --> 00:06:13,569
+better to be able to reward that person
+更好地能够奖励那个人
+
+170
+00:06:13,769 --> 00:06:15,040
+strongly for coming in first thing in
+强烈要求进入第一件事
+
+171
+00:06:15,240 --> 00:06:16,718
+the morning rather than not being able
+早上而不是不能
+
+172
+00:06:16,918 --> 00:06:20,439
+to have the meeting at all so here what
+完全开会，在这里呢
+
+173
+00:06:20,639 --> 00:06:23,110
+I want to do again now I have to do this
+我想现在再做一次
+
+174
+00:06:23,310 --> 00:06:24,939
+in a setting where payments are possible
+在可以付款的环境中
+
+175
+00:06:25,139 --> 00:06:26,620
+so I have to imagine either that I
+所以我必须想像我
+
+176
+00:06:26,819 --> 00:06:28,509
+really am going to pay people bonuses
+真的要给人花红
+
+177
+00:06:28,709 --> 00:06:30,340
+for coming to their meetings or I have
+参加他们的会议，或者我有
+
+178
+00:06:30,540 --> 00:06:31,540
+to imagine that I have some kind of
+想像一下我有某种
+
+179
+00:06:31,740 --> 00:06:33,460
+artificial currency which is still
+仍然是人造货币
+
+180
+00:06:33,660 --> 00:06:35,110
+scarce which is used for meeting
+用于会议的稀缺
+
+181
+00:06:35,310 --> 00:06:36,968
+scheduling and people care about so
+日程安排和人们在乎
+
+182
+00:06:37,168 --> 00:06:39,610
+maybe you know in my case where somebody
+也许你知道我的情况
+
+183
+00:06:39,810 --> 00:06:40,180
+has to come
+必须来
+
+184
+00:06:40,379 --> 00:06:41,800
+in a really undesirable time for them
+对他们来说真是一个不可取的时间
+
+185
+00:06:42,000 --> 00:06:44,110
+they accumulate a lot of credit that
+他们积累了很多信誉， 
+
+186
+00:06:44,310 --> 00:06:45,460
+they can use for something else that
+他们可以用其他的东西
+
+187
+00:06:45,660 --> 00:06:48,610
+they value but again the way the VCG
+他们很重视，但还是VCG的方式
+
+188
+00:06:48,810 --> 00:06:50,470
+mechanism would work here is it would
+机制会在这里工作是
+
+189
+00:06:50,670 --> 00:06:52,270
+give everyone a dominant strategy for
+给每个人一个主导策略
+
+190
+00:06:52,470 --> 00:06:54,670
+telling me all of the the values they
+告诉我他们所有的价值观
+
+191
+00:06:54,870 --> 00:06:55,990
+have for the different times that which
+在不同的时间有
+
+192
+00:06:56,189 --> 00:06:58,780
+meetings might happen and it will then
+会议可能会发生，然后
+
+193
+00:06:58,980 --> 00:07:01,000
+come up with payments that make
+拿出付款
+
+194
+00:07:01,199 --> 00:07:02,710
+everybody happy about having told me
+每个人都高兴地告诉我
+
+195
+00:07:02,910 --> 00:07:04,930
+this and allow me to implement the
+这并允许我实施
+
+196
+00:07:05,129 --> 00:07:06,670
+social welfare maximizing meeting
+社会福利最大化会议
+
+197
+00:07:06,870 --> 00:07:10,780
+schedule so let's look at one more
+安排时间，让我们再来看一个
+
+198
+00:07:10,980 --> 00:07:13,090
+example which indeed will work through
+确实可以通过的例子
+
+199
+00:07:13,290 --> 00:07:15,340
+numerically in later videos in a
+在后面的视频中以数字方式
+
+200
+00:07:15,540 --> 00:07:18,430
+stylized form this is the problem of
+程式化的形式，这是问题
+
+201
+00:07:18,629 --> 00:07:21,040
+buying a path in a network and the
+购买网络中的路径，然后
+
+202
+00:07:21,240 --> 00:07:23,379
+network I want to think about here is a
+我想考虑的网络是一个
+
+203
+00:07:23,579 --> 00:07:25,870
+railroad network from the American
+美国铁路网
+
+204
+00:07:26,069 --> 00:07:30,639
+Midwest in 1881 so each of these red
+ 1881年在中西部，所以每个这些红色
+
+205
+00:07:30,839 --> 00:07:33,370
+lines here corresponds to a rail link
+此处的线对应于铁路链接
+
+206
+00:07:33,569 --> 00:07:37,540
+that existed in this area in 1881 and I
+在1881年我就在这个地区存在
+
+207
+00:07:37,740 --> 00:07:39,970
+don't know if this is actually true but
+不知道这是否是真的，但是
+
+208
+00:07:40,170 --> 00:07:42,280
+I want to claim that each of these red
+我想宣称这些红色
+
+209
+00:07:42,480 --> 00:07:45,160
+lines corresponds to a privately owned
+行对应于私有
+
+210
+00:07:45,360 --> 00:07:47,920
+railroad that is owned by a different
+拥有不同铁路的铁路
+
+211
+00:07:48,120 --> 00:07:49,930
+railroad operator certainly is the case
+铁路运营商当然是这样
+
+212
+00:07:50,129 --> 00:07:52,180
+that in the early days of railroads in
+在铁路的早期
+
+213
+00:07:52,379 --> 00:07:53,500
+the United States there were lots of
+美国有很多
+
+214
+00:07:53,699 --> 00:07:55,870
+different privately owned railroads so I
+不同的私有铁路，所以我
+
+215
+00:07:56,069 --> 00:07:57,220
+want to imagine that each of these
+想想象每个
+
+216
+00:07:57,420 --> 00:08:00,370
+railroad links has its own private cost
+铁路有自己的私人成本
+
+217
+00:08:00,569 --> 00:08:01,960
+for what it would cost to ship something
+运送东西的成本
+
+218
+00:08:02,160 --> 00:08:06,639
+along the link over here is the Hocking
+沿链接是霍金
+
+219
+00:08:06,839 --> 00:08:09,100
+Valley coal field which was an area of
+山谷煤田是
+
+220
+00:08:09,300 --> 00:08:11,590
+coal production and of course over here
+煤炭生产，当然在这里
+
+221
+00:08:11,790 --> 00:08:15,220
+is the city of Chicago and the problem
+是芝加哥市和问题所在
+
+222
+00:08:15,420 --> 00:08:17,139
+that I'm interested in is the problem of
+我感兴趣的是
+
+223
+00:08:17,339 --> 00:08:18,730
+shipping something shipping a bunch of
+运送一些东西
+
+224
+00:08:18,930 --> 00:08:21,160
+coal from the Hocking Valley coal field
+霍金谷煤田的煤
+
+225
+00:08:21,360 --> 00:08:24,639
+to Chicago so I as they the coal company
+到芝加哥，所以我作为他们的煤炭公司
+
+226
+00:08:24,839 --> 00:08:26,889
+need to buy a sequence of links in the
+需要购买一系列的链接
+
+227
+00:08:27,089 --> 00:08:29,350
+network that would get me all the way
+网络让我一路走好
+
+228
+00:08:29,550 --> 00:08:34,990
+from the coal field to Chicago now if I
+现在从煤田到芝加哥
+
+229
+00:08:35,190 --> 00:08:36,939
+was to use the VCG mechanism I could
+我可以使用VCG机制
+
+230
+00:08:37,139 --> 00:08:39,429
+solve this problem by asking each of the
+通过询问每个
+
+231
+00:08:39,629 --> 00:08:42,039
+coal companies what their utility is for
+煤炭公司的效用是什么
+
+232
+00:08:42,240 --> 00:08:45,669
+being selected to ship coal and for each
+被选择运送煤炭，每个
+
+233
+00:08:45,870 --> 00:08:46,809
+of them this would be a negative number
+其中这将是一个负数
+
+234
+00:08:47,009 --> 00:08:49,029
+because it actually costs them something
+因为这实际上使他们付出了一些代价
+
+235
+00:08:49,230 --> 00:08:50,799
+to do the shipping so each of them would
+做运输，所以他们每个人都会
+
+236
+00:08:51,000 --> 00:08:52,578
+tell me a negative
+告诉我负面
+
+237
+00:08:52,778 --> 00:08:54,558
+they would have a dominant strategy to
+他们将拥有主导策略
+
+238
+00:08:54,759 --> 00:08:55,909
+tell me the truth about what their real
+告诉我他们真实的真相
+
+239
+00:08:56,110 --> 00:08:58,368
+cost is I can then look at these numbers
+成本是我可以查看这些数字
+
+240
+00:08:58,568 --> 00:09:00,529
+and the social welfare maximizing
+社会福利最大化
+
+241
+00:09:00,730 --> 00:09:04,128
+outcome here is the shortest path in the
+结果是这是最短的路径
+
+242
+00:09:04,328 --> 00:09:07,219
+network it's the the set of pads that
+网络是一组垫
+
+243
+00:09:07,419 --> 00:09:09,769
+together get me from the Hawking Valley
+一起带我离开霍金谷
+
+244
+00:09:09,970 --> 00:09:12,108
+coal field to Chicago and imposes the
+煤田到芝加哥，并强加
+
+245
+00:09:12,308 --> 00:09:14,469
+least negative cost on all of the agents
+所有代理商的最低负成本
+
+246
+00:09:14,669 --> 00:09:17,209
+now why would they be willing to be
+现在为什么他们愿意成为
+
+247
+00:09:17,409 --> 00:09:19,459
+chosen if they're getting given if
+选择他们是否得到如果
+
+248
+00:09:19,659 --> 00:09:20,959
+they're in a situation that may
+他们处在一种可能
+
+249
+00:09:21,159 --> 00:09:23,448
+negatively value well to make this a
+消极地重视，使其成为一个
+
+250
+00:09:23,649 --> 00:09:25,818
+dominant strategy VCG in this case is
+在这种情况下，主导策略VCG为
+
+251
+00:09:26,019 --> 00:09:27,558
+going to end up paying all of the agents
+最终要付给所有代理商
+
+252
+00:09:27,759 --> 00:09:30,168
+rather than I imposing payments on them
+而不是我强加给他们
+
+253
+00:09:30,369 --> 00:09:31,818
+as it did for example in the
+就像在
+
+254
+00:09:32,019 --> 00:09:35,118
+privatization example so in this example
+私有化示例，因此在此示例中
+
+255
+00:09:35,318 --> 00:09:37,428
+it's going to figure out a way to pay
+它将找出一种付款方式
+
+256
+00:09:37,629 --> 00:09:39,228
+the agents that makes them willing to
+使他们愿意的代理商
+
+257
+00:09:39,428 --> 00:09:41,389
+have told me the truth and ends up
+告诉我真相并结束了
+
+258
+00:09:41,589 --> 00:09:46,399
+buying the shortest path so overall what
+购买最短路径总的来说是什么
+
+259
+00:09:46,600 --> 00:09:49,368
+if we see in here the VCG mechanism is
+如果我们在这里看到VCG机制是
+
+260
+00:09:49,568 --> 00:09:51,288
+an amazing way of solving all of these
+解决所有这些问题的惊人方法
+
+261
+00:09:51,489 --> 00:09:53,089
+apparently very different problems and
+明显不同的问题， 
+
+262
+00:09:53,289 --> 00:09:57,378
+indeed lots more and it again to remind
+确实还有更多，再次提醒
+
+263
+00:09:57,578 --> 00:09:59,568
+you the property that it has is that it
+你拥有的财产是
+
+264
+00:09:59,769 --> 00:10:01,818
+chooses the efficient or social welfare
+选择有效或社会福利
+
+265
+00:10:02,019 --> 00:10:04,608
+maximizing outcome in a transferable
+最大化可转让成果
+
+266
+00:10:04,808 --> 00:10:06,978
+utility setting in a way that gives
+实用程序设置可以使
+
+267
+00:10:07,178 --> 00:10:09,168
+agents dominant strategies to tell the
+代理商主导策略告诉
+
+268
+00:10:09,369 --> 00:10:11,988
+truth we'll spend the rest of this week
+真相，我们将在本周余下的时间里度过
+
+269
+00:10:12,188 --> 00:10:14,478
+telling you in more formal detail how
+更正式地告诉您
+
+270
+00:10:14,678 --> 00:10:16,998
+the BCG mechanism is defined how it
+ BCG机制的定义方式
+
+271
+00:10:17,198 --> 00:10:18,558
+works and what its strengths and
+作品及其优势
+
+272
+00:10:18,759 --> 00:10:23,759
+weaknesses are
+弱点是
+

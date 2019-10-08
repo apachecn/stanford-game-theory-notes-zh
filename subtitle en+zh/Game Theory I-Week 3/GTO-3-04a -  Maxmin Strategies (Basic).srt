@@ -1,0 +1,2215 @@
+﻿1
+00:00:00,000 --> 00:00:02,948
+hi folks its Matt again so we've been
+嗨，大家好，马特，所以我们一直
+
+2
+00:00:03,149 --> 00:00:04,569
+looking at Nash equilibrium and
+看纳什均衡和
+
+3
+00:00:04,769 --> 00:00:06,759
+understanding play and in settings where
+了解比赛以及在哪些地方进行比赛
+
+4
+00:00:06,960 --> 00:00:08,979
+we make those kinds of predictions and
+我们做出这样的预测， 
+
+5
+00:00:09,179 --> 00:00:10,510
+we've also been looking a little bit at
+我们也一直在关注
+
+6
+00:00:10,710 --> 00:00:12,809
+dominance relationships and and now
+主导关系和现在
+
+7
+00:00:13,009 --> 00:00:16,419
+let's talk about strictly dominated
+让我们谈谈严格控制
+
+8
+00:00:16,618 --> 00:00:18,519
+strategies and iterative removal of
+策略和迭代删除
+
+9
+00:00:18,719 --> 00:00:20,260
+those which is another way to analyze a
+那些是分析
+
+10
+00:00:20,460 --> 00:00:22,810
+game so you know when you when you're
+游戏，让您知道何时何地
+
+11
+00:00:23,010 --> 00:00:24,129
+talking about game theory there's many
+谈论博弈论，有很多
+
+12
+00:00:24,329 --> 00:00:25,960
+different ways that people can think
+人们可以思考的不同方式
+
+13
+00:00:26,160 --> 00:00:30,850
+about analyzing games in terms of
+关于分析游戏
+
+14
+00:00:31,050 --> 00:00:32,858
+stability in terms of predicting what
+预测什么方面的稳定性
+
+15
+00:00:33,058 --> 00:00:35,320
+people are going to do what logic can be
+人们将尽其所能
+
+16
+00:00:35,520 --> 00:00:40,029
+applied and this is another important
+应用，这是另一个重要的
+
+17
+00:00:40,229 --> 00:00:41,739
+way of looking at games and they give us
+看游戏的方式，它们给了我们
+
+18
+00:00:41,939 --> 00:00:45,820
+some insights so the idea of when we
+一些见解，这样的想法，当我们
+
+19
+00:00:46,020 --> 00:00:47,919
+start thinking about rationality in game
+开始考虑游戏的合理性
+
+20
+00:00:48,119 --> 00:00:49,659
+theory that the basic premise here has
+这里的基本前提具有的理论
+
+21
+00:00:49,859 --> 00:00:51,878
+been that players maximize their payoff
+玩家获得最大回报
+
+22
+00:00:52,079 --> 00:00:53,858
+so they're basically trying to maximize
+所以他们基本上是试图最大化
+
+23
+00:00:54,058 --> 00:00:55,689
+their payoffs and again it doesn't
+他们的回报，但事实并非如此
+
+24
+00:00:55,890 --> 00:00:56,559
+necessarily mean that they're just
+一定意味着他们只是
+
+25
+00:00:56,759 --> 00:00:58,390
+greedy payoffs could be that they you
+贪婪的回报可能是他们你
+
+26
+00:00:58,590 --> 00:01:01,509
+know they are altruistic public-minded
+知道他们是无私的公众意识
+
+27
+00:01:01,710 --> 00:01:04,388
+etc but the the premise here is that
+等等，但前提是
+
+28
+00:01:04,588 --> 00:01:06,399
+there's something some objective
+有一些目标
+
+29
+00:01:06,599 --> 00:01:09,219
+function that people have and they tend
+人们拥有的功能，他们倾向于
+
+30
+00:01:09,420 --> 00:01:10,810
+to do things that will give them higher
+做一些能让他们更高的事情
+
+31
+00:01:11,010 --> 00:01:12,250
+payoffs rather than lay out lower
+回报而不是低调
+
+32
+00:01:12,450 --> 00:01:16,988
+payoffs okay so in terms of iteration on
+收益还可以，所以就迭代而言
+
+33
+00:01:17,188 --> 00:01:18,340
+this logic what we're going to be
+这种逻辑，我们将成为
+
+34
+00:01:18,540 --> 00:01:20,079
+thinking about is what if all players
+如果所有玩家都在想
+
+35
+00:01:20,280 --> 00:01:21,789
+know that other players maximize their
+知道其他玩家会最大化他们的
+
+36
+00:01:21,989 --> 00:01:23,619
+payoffs and we have an idea of what the
+回报，我们对
+
+37
+00:01:23,819 --> 00:01:25,299
+structure of the game is then what does
+游戏的结构是什么
+
+38
+00:01:25,500 --> 00:01:27,549
+that mean for the game can can we make
+这意味着我们可以制作游戏
+
+39
+00:01:27,750 --> 00:01:29,289
+deduce something about what should be
+推论应该做些什么
+
+40
+00:01:29,489 --> 00:01:31,269
+played in the game and what if all
+玩游戏，如果有的话
+
+41
+00:01:31,469 --> 00:01:33,308
+players know that all players know that
+玩家知道所有玩家都知道
+
+42
+00:01:33,509 --> 00:01:36,390
+that players are rational in this sense
+在这种意义上，玩家是理性的
+
+43
+00:01:36,590 --> 00:01:39,219
+so you can you know take this what if I
+所以你知道吗，如果我
+
+44
+00:01:39,420 --> 00:01:40,929
+know that you know that I know and and
+知道你知道我知道，并且
+
+45
+00:01:41,129 --> 00:01:42,609
+and so forth you can take this ad
+依此类推，您可以投放此广告
+
+46
+00:01:42,810 --> 00:01:46,149
+absurdum but it's an important concept
+荒谬，但这是一个重要的概念
+
+47
+00:01:46,349 --> 00:01:49,090
+and understanding what it yields gives
+并了解它产生了什么
+
+48
+00:01:49,290 --> 00:01:51,099
+us some insight into games and gives us
+我们对游戏有所了解，并为我们提供了
+
+49
+00:01:51,299 --> 00:01:54,069
+some predictability now you know going
+一些可预测性，现在您知道要去
+
+50
+00:01:54,269 --> 00:01:55,750
+through very very high levels of this
+通过非常高的水平
+
+51
+00:01:55,950 --> 00:01:58,090
+are questionable but nonetheless the
+值得怀疑，但是
+
+52
+00:01:58,290 --> 00:02:00,640
+logic here and the predictions that are
+这里的逻辑和预测
+
+53
+00:02:00,840 --> 00:02:02,859
+made will give us some understanding of
+作出将使我们对
+
+54
+00:02:03,060 --> 00:02:05,799
+games that we can use in analyzing
+我们可以用来分析的游戏
+
+55
+00:02:06,000 --> 00:02:07,928
+equilibrium and doing other things with
+平衡和做其他事情
+
+56
+00:02:08,128 --> 00:02:12,200
+it so you know we can take this logic
+所以你知道我们可以采用这种逻辑
+
+57
+00:02:12,400 --> 00:02:15,170
+fully two of to its full logic
+完整逻辑中的两个
+
+58
+00:02:15,370 --> 00:02:18,770
+conclusion okay so in terms of strictly
+结论好吧，所以严格来讲
+
+59
+00:02:18,969 --> 00:02:20,209
+dominated strategies that means a
+主导策略，这意味着
+
+60
+00:02:20,408 --> 00:02:23,118
+strategy which which is all there's some
+这就是全部的策略
+
+61
+00:02:23,318 --> 00:02:24,649
+other strategy which always does better
+总是做得更好的其他策略
+
+62
+00:02:24,848 --> 00:02:27,230
+than it it can never be a best reply so
+比它永远不可能是最好的答复，所以
+
+63
+00:02:27,430 --> 00:02:31,069
+so we'll make that clear in a second so
+所以我们一会儿讲清楚
+
+64
+00:02:31,269 --> 00:02:33,289
+basically that means that that if this
+基本上，这意味着如果这
+
+65
+00:02:33,489 --> 00:02:35,480
+is a strategy that that never does well
+是永远做不到的策略
+
+66
+00:02:35,680 --> 00:02:37,459
+there's something which does always
+有些事情总是
+
+67
+00:02:37,658 --> 00:02:38,480
+better than this
+比这更好
+
+68
+00:02:38,680 --> 00:02:40,670
+against any strategy of the other
+反对对方的任何策略
+
+69
+00:02:40,870 --> 00:02:43,670
+players then basically it's never going
+玩家然后基本上永远不会
+
+70
+00:02:43,870 --> 00:02:45,618
+to be played so this is essentially a
+要播放，所以这本质上是
+
+71
+00:02:45,818 --> 00:02:48,980
+strategy we can just safely ignore if we
+策略，我们可以放心地忽略是否
+
+72
+00:02:49,180 --> 00:02:50,240
+think players are rational they should
+认为球员应该理性
+
+73
+00:02:50,439 --> 00:02:51,950
+never play a strictly dominated strategy
+从不玩严格控制的策略
+
+74
+00:02:52,150 --> 00:02:54,110
+there's something else which does better
+还有其他更好的东西
+
+75
+00:02:54,310 --> 00:02:56,810
+in all circumstances for them so we
+在任何情况下对他们来说，所以我们
+
+76
+00:02:57,009 --> 00:02:59,118
+remove those from the game and the idea
+从游戏和想法中删除那些
+
+77
+00:02:59,318 --> 00:03:01,099
+of iteration is we take those out now
+迭代是我们现在将那些取出
+
+78
+00:03:01,299 --> 00:03:03,140
+we've got a simpler game now let's do
+我们有一个更简单的游戏，让我们开始
+
+79
+00:03:03,340 --> 00:03:04,730
+the same thing right so there might be
+同样的事情，所以可能会有
+
+80
+00:03:04,930 --> 00:03:05,899
+something which is now strictly
+现在严格的东西
+
+81
+00:03:06,098 --> 00:03:07,879
+dominated in this thing so a player
+在这个东西上占主导地位，所以一个球员
+
+82
+00:03:08,079 --> 00:03:09,349
+should never play this once we get to
+一旦到达
+
+83
+00:03:09,549 --> 00:03:12,289
+this reduced game and then we take those
+这个减少的游戏，然后我们拿那些
+
+84
+00:03:12,489 --> 00:03:14,599
+out and we get an even further reduced
+出去，我们得到进一步减少
+
+85
+00:03:14,799 --> 00:03:16,039
+game and so forth
+游戏等等
+
+86
+00:03:16,239 --> 00:03:17,868
+and we just keep iterating on that it
+我们只是不断地迭代它
+
+87
+00:03:18,068 --> 00:03:19,789
+leaves us with some prediction and then
+给我们一些预测，然后
+
+88
+00:03:19,989 --> 00:03:21,259
+we think that the only thing that's
+我们认为唯一的是
+
+89
+00:03:21,459 --> 00:03:23,360
+logical if there's rational players and
+如果有理性的参与者和
+
+90
+00:03:23,560 --> 00:03:24,679
+they understand that other players are
+他们了解其他玩家
+
+91
+00:03:24,878 --> 00:03:26,390
+rational and so forth they're going to
+理性等等，他们将
+
+92
+00:03:26,590 --> 00:03:31,849
+be left inside that sub game okay so the
+留在那个子游戏里面好吧，所以
+
+93
+00:03:32,049 --> 00:03:34,249
+running this process - its termination
+运行此过程-终止
+
+94
+00:03:34,449 --> 00:03:37,459
+is called the iterated iterated removal
+称为迭代迭代删除
+
+95
+00:03:37,658 --> 00:03:42,319
+of strictly dominated strategies so in
+严格控制的策略，所以在
+
+96
+00:03:42,519 --> 00:03:45,590
+terms of formal notation what are we
+形式符号的术语我们是什么
+
+97
+00:03:45,789 --> 00:03:48,409
+saying here a strategy a sub I for some
+在这里说一个策略
+
+98
+00:03:48,609 --> 00:03:50,450
+player I is strictly dominated by some
+玩家我被某些人严格控制
+
+99
+00:03:50,650 --> 00:03:52,520
+other strategy of the same player a
+同一玩家的其他策略
+
+100
+00:03:52,719 --> 00:03:57,319
+prime I if what's true these the payoff
+素数I如果这是真的，那么回报
+
+101
+00:03:57,519 --> 00:04:01,039
+that the person gets from playing AI the
+这个人从玩AI中得到的
+
+102
+00:04:01,239 --> 00:04:03,730
+one that's strictly dominated is worse
+严格控制的情况更糟
+
+103
+00:04:03,930 --> 00:04:06,590
+strictly lower okay that's important
+严格降低，这很重要
+
+104
+00:04:06,789 --> 00:04:08,709
+that this is a strict inequality then
+那是一个严格的不平等
+
+105
+00:04:08,908 --> 00:04:11,090
+the payoff that they would get by
+他们将获得的回报
+
+106
+00:04:11,289 --> 00:04:14,659
+playing a prime no matter what the other
+不管对方玩什么
+
+107
+00:04:14,859 --> 00:04:16,908
+players do so this is a for all sign for
+玩家这样做是为了所有人
+
+108
+00:04:17,108 --> 00:04:20,899
+every possible strategy of the other
+对方的所有可能策略
+
+109
+00:04:21,098 --> 00:04:23,660
+players no matter what they do this one
+玩家不管他们做什么
+
+110
+00:04:23,860 --> 00:04:25,470
+AI is worse than
+人工智能比
+
+111
+00:04:25,670 --> 00:04:28,230
+payoff for AI prime okay so no there's
+ AI Prime的回报还可以，所以没有
+
+112
+00:04:28,430 --> 00:04:29,819
+no circumstance in which you can do as
+没有可以做的情况
+
+113
+00:04:30,019 --> 00:04:31,920
+well it always does strictly worse that
+好吧，这总是会变得更糟
+
+114
+00:04:32,120 --> 00:04:34,259
+means it's a it's a strategy where
+意味着这是一项战略， 
+
+115
+00:04:34,459 --> 00:04:36,060
+you're just strictly better off playing
+严格来说，你玩得更好
+
+116
+00:04:36,259 --> 00:04:38,370
+a prime I that's the concept of strict
+素我是严格的概念
+
+117
+00:04:38,569 --> 00:04:41,759
+domination okay so let's have an idea
+统治好了，让我们有个主意
+
+118
+00:04:41,959 --> 00:04:44,699
+now of iterative iterated removal of
+现在迭代删除
+
+119
+00:04:44,899 --> 00:04:46,560
+strictly dominated strategies so here's
+严格控制的策略，所以这是
+
+120
+00:04:46,759 --> 00:04:50,250
+a game a 3x3 game it's got a bunch of
+一个3x3游戏，其中有很多
+
+121
+00:04:50,449 --> 00:04:52,319
+different payoffs in it we look at it we
+在不同的回报，我们看着它，我们
+
+122
+00:04:52,519 --> 00:04:54,150
+begin to think okay let's suppose you
+开始想好吧，让我们假设你
+
+123
+00:04:54,350 --> 00:04:55,770
+want to find the Nash equilibrium with
+想找到纳什均衡
+
+124
+00:04:55,970 --> 00:04:57,720
+this game well it gets a little
+这个游戏好一点
+
+125
+00:04:57,920 --> 00:04:59,460
+complicated because you have to if you
+复杂，因为您必须
+
+126
+00:04:59,660 --> 00:05:01,530
+think about mixed strategies or pure you
+考虑混合策略或纯粹的你
+
+127
+00:05:01,730 --> 00:05:03,270
+have to consider all the possible
+必须考虑所有可能
+
+128
+00:05:03,470 --> 00:05:05,400
+combinations one thing we can begin to
+结合我们可以开始的一件事
+
+129
+00:05:05,600 --> 00:05:07,170
+do is look for strictly dominated
+就是寻找严格控制的
+
+130
+00:05:07,370 --> 00:05:09,689
+strategies and just get rid of those so
+策略，并摆脱那些，所以
+
+131
+00:05:09,889 --> 00:05:12,660
+for instance in this game what's true if
+例如在这个游戏中，如果
+
+132
+00:05:12,860 --> 00:05:15,829
+we look at this game we notice that R is
+我们看这个游戏，我们注意到R是
+
+133
+00:05:16,029 --> 00:05:19,230
+strictly dominated by C right so the the
+严格由C权利支配，因此
+
+134
+00:05:19,430 --> 00:05:21,600
+column player gets a strictly lower
+专栏播放器严格降低
+
+135
+00:05:21,800 --> 00:05:24,439
+payoff in every one of these entries
+这些条目中的每一个都有回报
+
+136
+00:05:24,639 --> 00:05:27,480
+then they get in every one of these
+然后他们进入其中的每一个
+
+137
+00:05:27,680 --> 00:05:29,910
+entries so you would be strictly better
+参赛作品，所以您绝对会更好
+
+138
+00:05:30,110 --> 00:05:33,060
+playing C than R no matter what the
+不管玩C比R 
+
+139
+00:05:33,259 --> 00:05:34,470
+other player does whether the other
+其他玩家是否
+
+140
+00:05:34,670 --> 00:05:37,560
+player goes up middle or down Center
+玩家在中上或下中上
+
+141
+00:05:37,759 --> 00:05:40,170
+always does better than R or even if the
+总是比R更好，或者即使
+
+142
+00:05:40,370 --> 00:05:42,000
+other player mixed so whatever the other
+其他玩家混在一起，无论其他
+
+143
+00:05:42,199 --> 00:05:43,620
+player does you get a strictly higher
+玩家你得到严格的更高
+
+144
+00:05:43,819 --> 00:05:45,540
+payoff from the center than R so we
+中心的收益比R高，所以我们
+
+145
+00:05:45,740 --> 00:05:47,069
+should just get rid of our altogether
+应该完全摆脱我们
+
+146
+00:05:47,269 --> 00:05:49,350
+and now we've got a simpler game right
+现在我们有了一个更简单的游戏
+
+147
+00:05:49,550 --> 00:05:51,480
+so the idea is boom we get rid of our
+所以想法是繁荣，我们摆脱了
+
+148
+00:05:51,680 --> 00:05:53,340
+all together now we've got a simpler
+现在在一起，我们有了一个更简单的方法
+
+149
+00:05:53,540 --> 00:05:53,870
+game
+游戏
+
+150
+00:05:54,069 --> 00:05:57,720
+okay so let's iterate on that logic so
+好吧，让我们迭代该逻辑，以便
+
+151
+00:05:57,920 --> 00:06:00,329
+now there's no domination strict
+现在没有严格的统治
+
+152
+00:06:00,529 --> 00:06:03,990
+domination any longer between for the
+之间的统治不再
+
+153
+00:06:04,189 --> 00:06:06,900
+for the column player because the column
+对于专栏播放器，因为专栏
+
+154
+00:06:07,100 --> 00:06:08,250
+player is actually indifferent between
+玩家之间实际上无动于衷
+
+155
+00:06:08,449 --> 00:06:09,449
+left and center of the other player
+另一个玩家的左和中
+
+156
+00:06:09,649 --> 00:06:11,639
+plays middle but one thing we do notice
+扮演中间角色，但我们确实注意到一件事
+
+157
+00:06:11,839 --> 00:06:18,560
+here is that the middle strategy of the
+这是
+
+158
+00:06:18,759 --> 00:06:21,960
+row player is not dominated right so the
+行播放器没有被主导，所以
+
+159
+00:06:22,160 --> 00:06:24,420
+middle strategy does strictly worse than
+中间策略确实比
+
+160
+00:06:24,620 --> 00:06:27,480
+the up strategy for the row player right
+排球运动员的正确策略
+
+161
+00:06:27,680 --> 00:06:29,670
+so three is better than one two is
+所以三胜于一二
+
+162
+00:06:29,870 --> 00:06:31,920
+better than one no matter what happens
+不管发生什么都胜过一个
+
+163
+00:06:32,120 --> 00:06:34,230
+you're better off playing up then middle
+你最好先玩然后再中
+
+164
+00:06:34,430 --> 00:06:38,730
+so M is strictly dominated by you
+所以M严格由你主导
+
+165
+00:06:38,930 --> 00:06:40,079
+in this case we can get rid of em
+在这种情况下，我们可以摆脱em 
+
+166
+00:06:40,279 --> 00:06:42,360
+together that collapse the game further
+一起使游戏进一步崩溃
+
+167
+00:06:42,560 --> 00:06:44,400
+so now we're iterating we've got a
+所以现在我们要迭代
+
+168
+00:06:44,600 --> 00:06:47,850
+simpler game now we see that in this
+简单的游戏，现在我们看到
+
+169
+00:06:48,050 --> 00:06:49,740
+case now once we've done this removal
+现在，一旦完成删除操作
+
+170
+00:06:49,939 --> 00:06:55,050
+now C is dominated by L right so the
+现在C由L主导，所以
+
+171
+00:06:55,250 --> 00:06:56,218
+column player would always get better
+专栏选手总是会变得更好
+
+172
+00:06:56,418 --> 00:06:59,670
+playing L in this game then sorry would
+在这个游戏中玩L然后对不起
+
+173
+00:06:59,870 --> 00:07:03,778
+always be better off playing C than L in
+总是比在L中玩C更好
+
+174
+00:07:03,978 --> 00:07:06,420
+this game so this the payoff is always
+这个游戏，所以回报永远是
+
+175
+00:07:06,620 --> 00:07:13,259
+higher playing C than playing L so L is
+玩C比玩L高，所以L是
+
+176
+00:07:13,459 --> 00:07:15,660
+strictly dominated by C we can get rid
+严格由C主导，我们可以摆脱
+
+177
+00:07:15,860 --> 00:07:17,879
+of L simplify the game further you can
+的L可以进一步简化游戏
+
+178
+00:07:18,079 --> 00:07:18,900
+see where this is going
+看看这是怎么回事
+
+179
+00:07:19,100 --> 00:07:21,088
+boom we're down to a very simple game
+繁荣，我们只能依靠一个非常简单的游戏
+
+180
+00:07:21,288 --> 00:07:25,139
+now the if this is the game is left the
+现在，如果这是游戏剩下的
+
+181
+00:07:25,339 --> 00:07:26,759
+role player is better off playing down
+角色扮演者最好淡化
+
+182
+00:07:26,959 --> 00:07:30,389
+and up boom so what do we end up with we
+和繁荣，那么我们最终会得到什么
+
+183
+00:07:30,589 --> 00:07:34,949
+end up with down and center being the
+最终落下并居中
+
+184
+00:07:35,149 --> 00:07:36,838
+only things that are left once we've
+一旦我们离开，只有剩下的东西
+
+185
+00:07:37,038 --> 00:07:39,689
+done this full iteration so we started
+完成了整个迭代，所以我们开始了
+
+186
+00:07:39,889 --> 00:07:42,300
+with a fairly complicated game we end up
+有了一个相当复杂的游戏，我们最终
+
+187
+00:07:42,500 --> 00:07:45,210
+making a very simple prediction that the
+做出非常简单的预测
+
+188
+00:07:45,410 --> 00:07:47,040
+only thing is left after iteratively
+迭代之后只剩下一件事
+
+189
+00:07:47,240 --> 00:07:49,499
+eliminating strictly dominated
+消除严格控制
+
+190
+00:07:49,699 --> 00:07:52,139
+strategies is down for the role player
+策略对角色扮演者不利
+
+191
+00:07:52,339 --> 00:07:54,778
+Center for the column player that leads
+领导专栏播放器的中心
+
+192
+00:07:54,978 --> 00:07:57,149
+to a payoff of four and two for the two
+到两个的回报分别为4和2 
+
+193
+00:07:57,348 --> 00:08:03,149
+players okay so in fact given that a
+玩家还可以，因此事实上
+
+194
+00:08:03,348 --> 00:08:05,338
+player if we're looking for Nash
+玩家，如果我们正在寻找纳什
+
+195
+00:08:05,538 --> 00:08:07,079
+equilibrium there things have to be best
+平衡那里最好
+
+196
+00:08:07,279 --> 00:08:09,540
+replies we know that they could never be
+我们知道他们永远不会
+
+197
+00:08:09,740 --> 00:08:11,160
+playing a strictly dominated strategies
+发挥严格控制的策略
+
+198
+00:08:11,360 --> 00:08:14,610
+so we can rule those out they can't
+所以我们可以排除那些他们不能
+
+199
+00:08:14,810 --> 00:08:16,860
+actually be playing you can convince
+真的在玩，你可以说服
+
+200
+00:08:17,060 --> 00:08:18,149
+yourself they can't be playing something
+你自己，他们不能玩什么
+
+201
+00:08:18,348 --> 00:08:19,410
+that's strictly dominated and what's
+这是严格控制的，什么是
+
+202
+00:08:19,610 --> 00:08:22,079
+remaining and so forth so the fact that
+剩下的等等，事实是
+
+203
+00:08:22,279 --> 00:08:23,550
+we ended up with a unique prediction
+我们最终做出了独特的预测
+
+204
+00:08:23,750 --> 00:08:25,410
+here actually tells us that this game
+这里实际上告诉我们这个游戏
+
+205
+00:08:25,610 --> 00:08:28,740
+has a unique Nash equilibrium and the
+有一个独特的纳什均衡
+
+206
+00:08:28,939 --> 00:08:30,718
+only Nash equilibrium is for players to
+只有纳什均衡才是让球员
+
+207
+00:08:30,918 --> 00:08:33,569
+play down in Center so it actually in
+在中心播放，所以实际上
+
+208
+00:08:33,769 --> 00:08:35,490
+this case identifies a unique predicted
+这种情况下确定了唯一的预测
+
+209
+00:08:35,690 --> 00:08:37,679
+play which coincides with the only Nash
+与唯一的纳什重合的比赛
+
+210
+00:08:37,879 --> 00:08:44,250
+equilibrium of this game okay so we've
+这个游戏的平衡性好，所以我们已经
+
+211
+00:08:44,450 --> 00:08:47,729
+got the unique Nash equilibrium DC so
+得到了唯一的纳什平衡DC 
+
+212
+00:08:47,929 --> 00:08:49,199
+that that worked very well in that game
+在那个游戏中效果很好
+
+213
+00:08:49,399 --> 00:08:51,329
+let's take a look at another game
+让我们来看看另一个游戏
+
+214
+00:08:51,529 --> 00:08:53,370
+I was slightly change the payoffs of
+我稍微改变了
+
+215
+00:08:53,570 --> 00:08:57,349
+this matrix let's try again in this case
+这个矩阵让我们在这种情况下再试一次
+
+216
+00:08:57,549 --> 00:09:00,179
+you know R is still dominated so in this
+你知道R仍然占主导地位
+
+217
+00:09:00,379 --> 00:09:03,029
+case R always leads to zero for the
+情况R总是导致零
+
+218
+00:09:03,230 --> 00:09:06,449
+column player Center left or Center give
+列播放器向左或向中心
+
+219
+00:09:06,649 --> 00:09:10,979
+higher payoffs so in this case R is
+更高的收益，因此在这种情况下R为
+
+220
+00:09:11,179 --> 00:09:13,379
+dominated by either L or C we can get
+由L或C主导，我们可以得到
+
+221
+00:09:13,580 --> 00:09:15,899
+rid of R and then we can go through
+摆脱R然后我们可以通过
+
+222
+00:09:16,100 --> 00:09:18,359
+again now in this particular situation
+现在再次在这种特殊情况下
+
+223
+00:09:18,559 --> 00:09:20,870
+there's something that's interesting so
+有一些有趣的事情，所以
+
+224
+00:09:21,070 --> 00:09:23,729
+now the column player is indifferent
+现在，列播放器变得冷漠
+
+225
+00:09:23,929 --> 00:09:26,009
+between the two but when we're looking
+两者之间，但是当我们在寻找
+
+226
+00:09:26,210 --> 00:09:28,979
+at the row player we notice that the row
+在排播放器中，我们注意到该排
+
+227
+00:09:29,179 --> 00:09:33,659
+player doesn't have any pure strategy
+玩家没有任何纯粹的策略
+
+228
+00:09:33,860 --> 00:09:38,159
+domination relationships so you know the
+统治关系，所以你知道
+
+229
+00:09:38,360 --> 00:09:44,129
+player gets three here for here compared
+玩家在这里得到三个
+
+230
+00:09:44,330 --> 00:09:45,389
+to zero zero so neither of these
+归零归零
+
+231
+00:09:45,590 --> 00:09:48,089
+strictly dominate the other they get one
+严格控制其他人，他们得到一个
+
+232
+00:09:48,289 --> 00:09:52,219
+always by playing middle so in this case
+总是在中间打，所以在这种情况下
+
+233
+00:09:52,419 --> 00:09:55,469
+they sometimes do better than down if
+他们有时候会比失败更好
+
+234
+00:09:55,669 --> 00:09:57,509
+they're playing middle sometimes do
+他们有时在中间打
+
+235
+00:09:57,710 --> 00:09:59,669
+better than up if they're playing middle
+如果他们在中间比赛，那总比起来好
+
+236
+00:09:59,870 --> 00:10:03,029
+so there's no strict domination when
+所以没有严格的统治
+
+237
+00:10:03,230 --> 00:10:06,919
+we're looking just at pure strategies
+我们只看纯策略
+
+238
+00:10:07,120 --> 00:10:09,379
+but if players are willing to randomize
+但是如果玩家愿意随机化
+
+239
+00:10:09,580 --> 00:10:13,469
+one thing to notice in this game is that
+在这个游戏中要注意的一件事是
+
+240
+00:10:13,669 --> 00:10:16,620
+let's suppose that you played a half on
+假设您演奏了一半
+
+241
+00:10:16,820 --> 00:10:18,870
+up and a half on down
+上半下
+
+242
+00:10:19,070 --> 00:10:22,229
+what would your expected payoff be so if
+如果这样，您的预期收益将是多少？ 
+
+243
+00:10:22,429 --> 00:10:23,579
+the other player went left and you're
+另一个玩家走了，你
+
+244
+00:10:23,779 --> 00:10:25,740
+playing half up half down you get a path
+半上半下玩法
+
+245
+00:10:25,940 --> 00:10:31,319
+of 1.5 if you were doing this and the
+如果您正在执行此操作，则为1.5 
+
+246
+00:10:31,519 --> 00:10:35,279
+other player was playing C you would get
+其他玩家在玩C，你会得到
+
+247
+00:10:35,480 --> 00:10:37,559
+a half of zero and a half of 4 you would
+零的一半和4的一半
+
+248
+00:10:37,759 --> 00:10:41,069
+get two so there's when we look at
+得到两个，所以当我们看着
+
+249
+00:10:41,269 --> 00:10:44,939
+playing a half half then what would we
+打一半，那我们会怎么做
+
+250
+00:10:45,139 --> 00:10:46,979
+end up with if we allow for that mixture
+最后，如果我们允许这种混合
+
+251
+00:10:47,179 --> 00:10:49,589
+right we put in a mixture we would end
+正确，我们混合在一起，我们将结束
+
+252
+00:10:49,789 --> 00:10:56,099
+up having uh oops that happen we would
+发生哎呀，我们会
+
+253
+00:10:56,299 --> 00:11:03,629
+end up with 1.5 1 and a 2 1 so we end up
+最终得到1.5 1和2 1所以我们最终
+
+254
+00:11:03,830 --> 00:11:04,769
+here
+这里
+
+255
+00:11:04,970 --> 00:11:07,289
+with something which strictly dominates
+严格控制的东西
+
+256
+00:11:07,490 --> 00:11:11,939
+middle so playing a half on up and a
+中间，所以玩了一半，一个
+
+257
+00:11:12,139 --> 00:11:16,109
+half on down gives the row player a
+一半下来给行玩家一个
+
+258
+00:11:16,309 --> 00:11:18,929
+strictly higher payoff than they would
+严格高于他们的回报
+
+259
+00:11:19,129 --> 00:11:22,019
+get by playing middle so in this case M
+通过打中得到，所以在这种情况下，M 
+
+260
+00:11:22,220 --> 00:11:24,240
+is dominated by the mixed strategy that
+由混合策略主导
+
+261
+00:11:24,440 --> 00:11:26,459
+selects U and D with equal probability
+以相等的概率选择U和D 
+
+262
+00:11:26,659 --> 00:11:28,349
+so in that case we can still get rid of
+所以在那种情况下我们仍然可以摆脱
+
+263
+00:11:28,549 --> 00:11:33,870
+M so in that we're down to a reduced
+ M这样我们就减少了
+
+264
+00:11:34,070 --> 00:11:36,419
+game now this game doesn't really reduce
+现在玩这个游戏并没有真正减少
+
+265
+00:11:36,620 --> 00:11:39,179
+any further the column players and
+任何进一步的专栏选手和
+
+266
+00:11:39,379 --> 00:11:42,779
+different row player likes up better if
+如果不同的行球员喜欢更好
+
+267
+00:11:42,980 --> 00:11:45,779
+the column player goes left likes down
+列播放器走了喜欢下来
+
+268
+00:11:45,980 --> 00:11:48,689
+better if the com plate goes right so
+如果COM板正确，那么更好
+
+269
+00:11:48,889 --> 00:11:50,429
+what's going to happen in this game now
+现在这场比赛将会发生什么
+
+270
+00:11:50,629 --> 00:11:52,949
+you'd have to take further analysis and
+您必须进行进一步分析， 
+
+271
+00:11:53,149 --> 00:11:54,990
+actually if you want to go through and
+实际上，如果您想经历
+
+272
+00:11:55,190 --> 00:11:56,370
+solve the Nash equilibria this game
+解决纳什均衡这个游戏
+
+273
+00:11:56,570 --> 00:11:58,439
+there's a lot of them right so there's
+有很多对的所以有
+
+274
+00:11:58,639 --> 00:12:00,629
+an in fact an infinite number of Nash
+实际上是无限数量的纳什
+
+275
+00:12:00,830 --> 00:12:04,889
+equilibria given that the column player
+考虑到专栏选手的均衡
+
+276
+00:12:05,090 --> 00:12:07,709
+is fully indifferent in this game so you
+对这款游戏完全漠不关心，所以您
+
+277
+00:12:07,909 --> 00:12:09,929
+can go through and analyze all the Nash
+可以分析所有纳什
+
+278
+00:12:10,129 --> 00:12:11,789
+equilibria if you want but the iterative
+如果需要均衡，但需要迭代
+
+279
+00:12:11,990 --> 00:12:13,049
+elimination of strictly dominated
+消除严格控制
+
+280
+00:12:13,250 --> 00:12:14,339
+strategy still gave us a lot of
+策略仍然给了我们很多
+
+281
+00:12:14,539 --> 00:12:17,719
+predictive power in the sense that it it
+从某种意义上说，它具有预测能力
+
+282
+00:12:17,919 --> 00:12:19,740
+collapsed the game down to a much
+导致游戏崩溃
+
+283
+00:12:19,940 --> 00:12:22,769
+simpler game and then it's much easier
+更简单的游戏，然后变得容易得多
+
+284
+00:12:22,970 --> 00:12:28,319
+to analyze what's left okay so iterative
+分析还剩下什么可以迭代
+
+285
+00:12:28,519 --> 00:12:30,469
+removal of strictly dominated strategies
+删除严格控制的策略
+
+286
+00:12:30,669 --> 00:12:32,699
+one nice thing about this is it
+一件好事是
+
+287
+00:12:32,899 --> 00:12:36,089
+preserves Nash equilibria so you can use
+保留纳什均衡，因此您可以使用
+
+288
+00:12:36,289 --> 00:12:37,709
+it if even if you were just wanting to
+即使您只是想
+
+289
+00:12:37,909 --> 00:12:40,409
+to analyze Nash equilibria you can use
+分析纳什均衡，您可以使用
+
+290
+00:12:40,610 --> 00:12:42,870
+as sort of a pre-processing step right
+作为预处理步骤的权利
+
+291
+00:12:43,070 --> 00:12:44,729
+so before you try and compute Nash
+所以在您尝试计算Nash之前
+
+292
+00:12:44,929 --> 00:12:46,679
+equilibria get rid of all the strictly
+平衡摆脱了所有严格的要求
+
+293
+00:12:46,879 --> 00:12:48,709
+dominated strategies and iterate on that
+主导策略并对此进行迭代
+
+294
+00:12:48,909 --> 00:12:51,000
+some games like the first one we looked
+一些像我们看过的第一个游戏
+
+295
+00:12:51,200 --> 00:12:53,159
+at tend to be solvable using this
+使用这个可以解决
+
+296
+00:12:53,360 --> 00:12:54,599
+technique that's called dominant
+被称为主导的技术
+
+297
+00:12:54,799 --> 00:12:56,729
+solvability if it actually collapses to
+如果它实际上崩溃到
+
+298
+00:12:56,929 --> 00:12:59,159
+a single point you were able to solve
+您能够解决的一点
+
+299
+00:12:59,360 --> 00:13:00,750
+that game just by using dominance
+该游戏只是通过使用优势
+
+300
+00:13:00,950 --> 00:13:03,809
+arguments some games won't be but it
+争论一些游戏不会，但是
+
+301
+00:13:04,009 --> 00:13:05,669
+still could be useful to to you to
+仍然对您有用
+
+302
+00:13:05,870 --> 00:13:08,579
+analyze these things what about the
+分析这些事情
+
+303
+00:13:08,779 --> 00:13:12,209
+order of removal so you know we did
+删除顺序，所以您知道我们做了
+
+304
+00:13:12,409 --> 00:13:14,039
+things in a very particular order so
+事情以非常特殊的顺序
+
+305
+00:13:14,240 --> 00:13:16,139
+just noticing that the the column player
+只是注意到列播放器
+
+306
+00:13:16,339 --> 00:13:17,740
+had one
+有一个
+
+307
+00:13:17,940 --> 00:13:21,939
+you know that the right play was was
+你知道正确的戏是
+
+308
+00:13:22,139 --> 00:13:24,129
+strictly dominated and so forth what if
+严格控制等等，如果
+
+309
+00:13:24,330 --> 00:13:26,259
+we started with the with a different
+我们从
+
+310
+00:13:26,460 --> 00:13:28,269
+player or what it would it make a
+播放器或它将使
+
+311
+00:13:28,470 --> 00:13:30,429
+difference if we're dealing with
+如果我们要处理的话
+
+312
+00:13:30,629 --> 00:13:33,579
+strictly dominated strategies then order
+严格控制策略然后下令
+
+313
+00:13:33,779 --> 00:13:35,740
+doesn't matter so no matter how you do
+没关系，所以不管你怎么做
+
+314
+00:13:35,940 --> 00:13:37,870
+this whatever order you do it in you'll
+无论您执行什么命令
+
+315
+00:13:38,070 --> 00:13:40,509
+end up with the same solution you can
+最终得到相同的解决方案
+
+316
+00:13:40,710 --> 00:13:41,529
+spend some time trying to convince
+花一些时间试图说服
+
+317
+00:13:41,730 --> 00:13:43,419
+yourself of that think carefully about
+自己仔细考虑
+
+318
+00:13:43,620 --> 00:13:46,629
+it so that's something you can you'd
+这就是你可以做的
+
+319
+00:13:46,830 --> 00:13:49,719
+have to prove but in fact order does not
+必须证明，但实际上顺序并没有
+
+320
+00:13:49,919 --> 00:13:53,079
+matter in eliminating strictly dominated
+消除严格控制的事情
+
+321
+00:13:53,279 --> 00:13:56,829
+strategies so the logic is very tight in
+策略，因此逻辑非常紧密
+
+322
+00:13:57,029 --> 00:14:01,059
+that respect there's another type of
+尊重还有另一种
+
+323
+00:14:01,259 --> 00:14:03,009
+domination which also makes some
+统治也使一些
+
+324
+00:14:03,210 --> 00:14:05,319
+intuitive sense and people use in games
+直觉和人们在游戏中的使用
+
+325
+00:14:05,519 --> 00:14:08,379
+and that's to weaken the domination
+那就是削弱统治
+
+326
+00:14:08,580 --> 00:14:11,620
+relationship and instead of strict
+关系，而不是严格
+
+327
+00:14:11,820 --> 00:14:13,929
+domination we can consider weakly
+统治我们可以弱考虑
+
+328
+00:14:14,129 --> 00:14:16,059
+dominated strategies what's the idea of
+主导策略是什么想法
+
+329
+00:14:16,259 --> 00:14:17,949
+weakly domination
+弱统治
+
+330
+00:14:18,149 --> 00:14:19,599
+it's very similar to what we had before
+这与我们以前的经历非常相似
+
+331
+00:14:19,799 --> 00:14:23,829
+but instead of having the strict
+但是与其严格
+
+332
+00:14:24,029 --> 00:14:27,279
+inequality hold everywhere right so
+不平等现象无处不在，所以
+
+333
+00:14:27,480 --> 00:14:30,579
+instead of having this hold for all a -
+而不是全部保留- 
+
+334
+00:14:30,779 --> 00:14:33,159
+I it just has to hold some sometimes and
+我只是有时候要拿着一些
+
+335
+00:14:33,360 --> 00:14:35,889
+you just need a weakened equality for
+你只需要削弱平等
+
+336
+00:14:36,089 --> 00:14:38,740
+all strategies of the others so the idea
+其他人的所有策略，所以这个主意
+
+337
+00:14:38,940 --> 00:14:42,299
+of a weakly dominated strategy is that
+一个弱势控制策略的原因是
+
+338
+00:14:42,500 --> 00:14:48,250
+it always does a prime always does at
+它总是在做素数
+
+339
+00:14:48,450 --> 00:14:52,509
+least as well as is a and sometime
+至少和a和某个时间一样
+
+340
+00:14:52,710 --> 00:14:55,870
+strictly better so this is still a
+严格来说更好，所以这仍然是
+
+341
+00:14:56,070 --> 00:14:57,639
+strategy you could say okay a prime just
+策略，你可以说还可以
+
+342
+00:14:57,839 --> 00:15:00,339
+you know really it dominates a because
+你知道它确实占主导地位，因为
+
+343
+00:15:00,539 --> 00:15:01,539
+it always does at least as well and
+它总是至少也是如此
+
+344
+00:15:01,740 --> 00:15:03,729
+sometimes that's strictly as well so if
+有时也是如此，如果
+
+345
+00:15:03,929 --> 00:15:05,500
+I'm uncertain at all I might as well go
+我完全不确定我是否会去
+
+346
+00:15:05,700 --> 00:15:07,539
+with the one which always does as well
+与总是很好的一个
+
+347
+00:15:07,740 --> 00:15:09,729
+and sometimes just strictly better so
+有时严格来说更好
+
+348
+00:15:09,929 --> 00:15:11,469
+weakly dominated strategies can be
+弱势策略可以是
+
+349
+00:15:11,669 --> 00:15:13,359
+eliminated as well you can go through
+消除以及你可以经历
+
+350
+00:15:13,559 --> 00:15:15,639
+you can iterate you just go through
+你可以迭代你只是经历
+
+351
+00:15:15,839 --> 00:15:17,500
+games exactly like we did before same
+完全像我们之前所做的游戏
+
+352
+00:15:17,700 --> 00:15:23,019
+kind of thing but one thing that's true
+那种事情，但那是真的
+
+353
+00:15:23,220 --> 00:15:25,479
+about week we dominated strategies is
+大约一周我们主导的策略是
+
+354
+00:15:25,679 --> 00:15:27,579
+that sometimes they could be best
+有时他们可能是最好的
+
+355
+00:15:27,779 --> 00:15:30,729
+replies right so a strategy could be
+正确回答，因此可以制定一项策略
+
+356
+00:15:30,929 --> 00:15:34,059
+a weakly dominated and still turn out to
+一个弱势的统治者，仍然导致
+
+357
+00:15:34,259 --> 00:15:36,879
+be a best reply how could that happen
+最好的答复是怎么回事
+
+358
+00:15:37,080 --> 00:15:38,919
+let's suppose for instance you know we
+假设您知道我们
+
+359
+00:15:39,120 --> 00:15:43,149
+look at a very simple game where the row
+看一个很简单的游戏在哪里排
+
+360
+00:15:43,350 --> 00:15:46,839
+player can go up or down if they go up
+玩家可以上升或下降
+
+361
+00:15:47,039 --> 00:15:49,569
+they get a payoff of one against left
+他们得到一个左的回报
+
+362
+00:15:49,769 --> 00:15:54,490
+and right of the column player and you
+和列播放器的右侧，您
+
+363
+00:15:54,690 --> 00:15:56,559
+know here they get to here they get
+知道这里他们到达这里他们得到
+
+364
+00:15:56,759 --> 00:16:00,870
+three so this would be a situation where
+三个所以这是一个情况
+
+365
+00:16:01,070 --> 00:16:05,198
+down weakly dominates up right you
+向下弱主导了你
+
+366
+00:16:05,399 --> 00:16:06,879
+always get at least as high a payoff and
+总是得到至少一样高的回报
+
+367
+00:16:07,080 --> 00:16:09,909
+sometimes strictly higher but
+有时严格更高，但
+
+368
+00:16:10,110 --> 00:16:11,859
+nonetheless it could be for instance
+尽管如此，例如
+
+369
+00:16:12,059 --> 00:16:22,328
+that if left is the is the strategy's
+如果离开的话是该策略的
+
+370
+00:16:22,528 --> 00:16:23,649
+actually chosen by the column player
+由专栏玩家实际选择
+
+371
+00:16:23,850 --> 00:16:27,159
+then up is still a best reply right so
+那么仍然是最好的回复，所以
+
+372
+00:16:27,360 --> 00:16:28,959
+for instance if we put in payoffs here
+例如，如果我们在这里付出
+
+373
+00:16:29,159 --> 00:16:33,939
+of 1 1 so that the column player is
+的1 1这样列播放器是
+
+374
+00:16:34,139 --> 00:16:35,889
+exactly indifferent between these these
+这些之间完全无所谓
+
+375
+00:16:36,089 --> 00:16:39,490
+two strategies then this is actually a
+两种策略，那么这实际上是
+
+376
+00:16:39,690 --> 00:16:42,969
+Nash equilibrium and so eliminating that
+纳什均衡，因此消除了
+
+377
+00:16:43,169 --> 00:16:44,828
+actually eliminates one of the Nash
+实际上消除了纳什之一
+
+378
+00:16:45,028 --> 00:16:47,019
+equilibria of the game right so
+游戏的平衡是这样的
+
+379
+00:16:47,220 --> 00:16:49,959
+depending on what those payoffs are we
+取决于我们的收益是多少
+
+380
+00:16:50,159 --> 00:16:51,189
+could end up eliminating a Nash
+最终可能会消除纳什
+
+381
+00:16:51,389 --> 00:16:55,179
+equilibrium of the game and you know so
+游戏的平衡，你知道
+
+382
+00:16:55,379 --> 00:17:00,939
+this is a situation where you know we
+在这种情况下，您知道我们
+
+383
+00:17:01,139 --> 00:17:02,379
+end up eliminating something which could
+最终消除了可能
+
+384
+00:17:02,580 --> 00:17:05,470
+be part of an equilibrium what is true
+成为均衡的一部分，这是真的
+
+385
+00:17:05,670 --> 00:17:07,029
+is at least one equilibrium is always
+至少总是一个平衡
+
+386
+00:17:07,230 --> 00:17:10,690
+preserved what's unfortunate is that the
+保留的不幸的是
+
+387
+00:17:10,890 --> 00:17:13,089
+order of removal can matter so which
+移除顺序可能很重要
+
+388
+00:17:13,289 --> 00:17:15,729
+order you remove things in can begin to
+为了您删除其中的东西，可以开始
+
+389
+00:17:15,929 --> 00:17:20,950
+to matter that there are some games
+重要的是有一些游戏
+
+390
+00:17:21,150 --> 00:17:23,229
+which is useful to use in so for
+这对于这样有用
+
+391
+00:17:23,429 --> 00:17:24,399
+instance if you remember the Keynes
+如果你还记得凯恩斯的话
+
+392
+00:17:24,599 --> 00:17:25,930
+beauty contest game that we talked about
+我们谈论的选美比赛
+
+393
+00:17:26,130 --> 00:17:27,309
+earlier where people were naming an
+以前人们在命名一个
+
+394
+00:17:27,509 --> 00:17:31,119
+integer between 0 and 100 think about
+考虑0到100之间的整数
+
+395
+00:17:31,319 --> 00:17:33,009
+trying to solve that via iterative
+试图通过迭代来解决
+
+396
+00:17:33,210 --> 00:17:34,419
+elimination of weakly dominated
+消除弱势统治
+
+397
+00:17:34,619 --> 00:17:37,180
+strategies what what do you end up with
+策略您最终会得到什么
+
+398
+00:17:37,380 --> 00:17:39,729
+so it can still be a useful logic and
+因此它仍然是有用的逻辑， 
+
+399
+00:17:39,929 --> 00:17:42,460
+that logic can help you in analyzing
+该逻辑可以帮助您进行分析
+
+400
+00:17:42,660 --> 00:17:44,609
+some games but you do have to
+一些游戏，但您必须
+
+401
+00:17:44,809 --> 00:17:46,829
+it's it's not as tight as strict
+不是那么严格
+
+402
+00:17:47,029 --> 00:17:49,169
+domination because there are situations
+统治，因为有情况
+
+403
+00:17:49,369 --> 00:17:50,519
+where you might want to play a weakly
+您可能想在其中玩弱游戏
+
+404
+00:17:50,720 --> 00:17:53,430
+dominated strategy if you were sure that
+如果您确定主导策略
+
+405
+00:17:53,630 --> 00:17:58,680
+the other player was was going to you
+另一个玩家正在找你
+
+406
+00:17:58,880 --> 00:18:00,149
+know go in a certain direction so for
+知道朝某个方向走
+
+407
+00:18:00,349 --> 00:18:04,409
+instance here if we put in say 2-1 then
+实例在这里，如果我们输入2-1然后
+
+408
+00:18:04,609 --> 00:18:09,859
+uh if we eliminate the column players
+呃，如果我们消除专栏选手
+
+409
+00:18:10,059 --> 00:18:12,329
+dominated strictly dominated strategy
+主导严格主导策略
+
+410
+00:18:12,529 --> 00:18:14,759
+first right so they left weakly
+首先向右，所以他们虚弱地离开
+
+411
+00:18:14,960 --> 00:18:17,639
+dominates right we get rid of of right
+支配权利我们摆脱了权利
+
+412
+00:18:17,839 --> 00:18:19,710
+then what are we left with were left
+那我们剩下的是什么
+
+413
+00:18:19,910 --> 00:18:22,649
+with a situation where the column player
+在列播放器的情况下
+
+414
+00:18:22,849 --> 00:18:24,569
+then sorry the row player is that
+那么对不起排球选手
+
+415
+00:18:24,769 --> 00:18:25,889
+indifferent between the two strategies
+两种策略无动于衷
+
+416
+00:18:26,089 --> 00:18:27,750
+right so if we sort of say okay look
+对，所以如果我们说好看
+
+417
+00:18:27,950 --> 00:18:31,289
+this left dominates right so we get rid
+这左边占优势，所以我们摆脱了
+
+418
+00:18:31,490 --> 00:18:33,269
+of this then we end up with a situation
+这样，我们最终遇到了一个情况
+
+419
+00:18:33,470 --> 00:18:36,000
+where up and left is still left but if
+仍然留在上面和左边，但是如果
+
+420
+00:18:36,200 --> 00:18:39,240
+we removed the role players things first
+我们首先删除了角色扮演者的东西
+
+421
+00:18:39,440 --> 00:18:43,230
+we would remove up first and then we
+我们将首先删除，然后我们
+
+422
+00:18:43,430 --> 00:18:45,930
+would end up with down left so so
+最终以左下角结束
+
+423
+00:18:46,130 --> 00:18:47,940
+depending on on how you go through this
+取决于你如何经历
+
+424
+00:18:48,140 --> 00:18:49,799
+you get different different things that
+你会得到不同的东西
+
+425
+00:18:50,000 --> 00:18:53,339
+are left so there are things that you
+被留下，所以有些事情你
+
+426
+00:18:53,539 --> 00:18:55,409
+know where the order matters and that
+知道订单在哪里重要
+
+427
+00:18:55,609 --> 00:18:58,619
+somewhat problematic okay um iterative
+有点问题，好吧，迭代
+
+428
+00:18:58,819 --> 00:19:00,509
+strict and rationality players maximize
+严格合理的球员最大化
+
+429
+00:19:00,710 --> 00:19:01,349
+their payoffs
+他们的收益
+
+430
+00:19:01,549 --> 00:19:03,509
+they don't play strictly dominated
+他们没有严格控制比赛
+
+431
+00:19:03,710 --> 00:19:06,539
+strategies they don't play strictly
+他们没有严格执行的策略
+
+432
+00:19:06,740 --> 00:19:09,049
+dominated strategies given what remains
+考虑到仍然存在的主导策略
+
+433
+00:19:09,250 --> 00:19:12,180
+we iterate on that Nash equilibria are a
+我们迭代得出纳什均衡是一个
+
+434
+00:19:12,380 --> 00:19:14,579
+subset of what remains so it's a nice
+剩下的子集，所以很好
+
+435
+00:19:14,779 --> 00:19:18,079
+simple solution concept that helps us
+简单的解决方案概念对我们有帮助
+
+436
+00:19:18,279 --> 00:19:20,279
+throw things out of the game and
+把东西扔出游戏， 
+
+437
+00:19:20,480 --> 00:19:23,669
+simplify what we're looking at we can
+简化我们正在查看的内容
+
+438
+00:19:23,869 --> 00:19:25,259
+also ask whether or not we see such
+还问我们是否看到这样的
+
+439
+00:19:25,460 --> 00:19:28,849
+behavior in reality do people really act
+人们实际上在行动
+
+440
+00:19:29,049 --> 00:19:30,599
+inconsistent in ways that are consistent
+以一致的方式不一致
+
+441
+00:19:30,799 --> 00:19:33,599
+with eliminating strictly dominated
+消除严格控制
+
+442
+00:19:33,799 --> 00:19:35,579
+strategies and moreover iterating on
+策略，并且反复进行
+
+443
+00:19:35,779 --> 00:19:40,779
+that process
+这个过程
+

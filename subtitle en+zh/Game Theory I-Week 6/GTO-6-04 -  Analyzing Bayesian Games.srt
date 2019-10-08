@@ -1,0 +1,1305 @@
+﻿1
+00:00:00,000 --> 00:00:02,859
+hi folks this is Matt and we're going to
+嗨，大家好，我是马特，我们要
+
+2
+00:00:03,060 --> 00:00:05,200
+talk a little bit now about basing
+现在说说基础
+
+3
+00:00:05,400 --> 00:00:08,350
+equilibrium and an equilibrium concept a
+均衡和均衡概念
+
+4
+00:00:08,550 --> 00:00:11,460
+solution concept for Bayesian games and
+贝叶斯游戏的解决方案概念和
+
+5
+00:00:11,660 --> 00:00:14,290
+the idea of this it's also sometimes
+这个想法有时
+
+6
+00:00:14,490 --> 00:00:16,260
+referred to as Bayesian Nash equilibria
+称为贝叶斯纳什均衡
+
+7
+00:00:16,460 --> 00:00:20,140
+the concept goes back to harsány John
+这个概念可以追溯到harsányJohn 
+
+8
+00:00:20,339 --> 00:00:23,940
+Harsanyi and in 98 1960s 1967 and 1968
+哈桑尼（Harsanyi）和98年1960年代1967年和1968年
+
+9
+00:00:24,140 --> 00:00:27,669
+where he developed this concept and the
+他在那里发展了这个概念， 
+
+10
+00:00:27,868 --> 00:00:29,769
+idea is that that each player now you
+想法是每个玩家现在
+
+11
+00:00:29,969 --> 00:00:30,970
+know when we're talking about a Bayesian
+知道我们在谈论贝叶斯
+
+12
+00:00:31,170 --> 00:00:32,409
+game players have these types which
+游戏玩家具有以下类型
+
+13
+00:00:32,609 --> 00:00:34,689
+determine their payoffs and relate to
+确定他们的收益并与
+
+14
+00:00:34,890 --> 00:00:36,518
+the uncertainty and can actually tell
+不确定性并可以真正说明
+
+15
+00:00:36,719 --> 00:00:37,719
+them something about what they expect
+他们对他们期望的东西
+
+16
+00:00:37,920 --> 00:00:42,070
+other individuals types to be and an
+其他个人类型为和
+
+17
+00:00:42,270 --> 00:00:43,570
+equilibrium now is can be a plan of
+现在平衡可以是一个计划
+
+18
+00:00:43,770 --> 00:00:45,399
+action for each player as a function of
+每个玩家的动作取决于
+
+19
+00:00:45,600 --> 00:00:49,570
+their types so it's going to say okay if
+他们的类型，所以它会说，如果
+
+20
+00:00:49,770 --> 00:00:51,849
+I observed a certain type what am I
+我观察到某种类型我是什么
+
+21
+00:00:52,049 --> 00:00:54,759
+going to do in the game and it should be
+在游戏中要做，应该是
+
+22
+00:00:54,960 --> 00:00:57,399
+maximizing their expected utility so
+最大化其预期效用，以便
+
+23
+00:00:57,600 --> 00:01:01,599
+it's going to be a best reply and what
+这将是最好的答复，还有什么
+
+24
+00:01:01,799 --> 00:01:03,969
+are they expecting over well now instead
+他们现在期望好吗
+
+25
+00:01:04,170 --> 00:01:07,119
+of just in just in the Nash equilibrium
+在纳什均衡中
+
+26
+00:01:07,319 --> 00:01:08,980
+you fix the strategy of the other player
+您确定其他玩家的策略
+
+27
+00:01:09,180 --> 00:01:12,090
+and then you just maximize your payoff
+然后您就可以最大化您的收益
+
+28
+00:01:12,290 --> 00:01:14,409
+here we're expecting over the actions of
+在这里，我们期待着
+
+29
+00:01:14,609 --> 00:01:17,500
+other players so here we've got a
+其他玩家，所以在这里我们有一个
+
+30
+00:01:17,700 --> 00:01:20,168
+situation where we have to be figuring
+我们必须要弄清楚的情况
+
+31
+00:01:20,368 --> 00:01:22,090
+out based on what we expect their types
+根据我们期望的类型
+
+32
+00:01:22,290 --> 00:01:24,789
+to be and possibly what happened they
+他们可能会发生什么
+
+33
+00:01:24,989 --> 00:01:26,558
+might be mixing how are they playing
+可能会混合他们的演奏方式
+
+34
+00:01:26,759 --> 00:01:29,679
+based on those types what does that lead
+根据这些类型，这会导致什么
+
+35
+00:01:29,879 --> 00:01:31,418
+to the expected action distribution
+到预期的行动分配
+
+36
+00:01:31,618 --> 00:01:34,929
+you're going to face and in terms of the
+您将要面对并就
+
+37
+00:01:35,129 --> 00:01:36,459
+types the other players types can
+其他玩家类型可以的类型
+
+38
+00:01:36,659 --> 00:01:38,738
+actually also enter into your payoff
+实际上也可以进入您的收益
+
+39
+00:01:38,938 --> 00:01:41,049
+function so your utility can depend on
+功能，因此您的实用程序可以依靠
+
+40
+00:01:41,250 --> 00:01:43,149
+information that other people hold so it
+其他人持有的信息
+
+41
+00:01:43,349 --> 00:01:44,558
+might be that somebody else knows about
+可能是别人知道的
+
+42
+00:01:44,759 --> 00:01:47,019
+say the value of a stock and I'm trying
+说股票的价值，我正在尝试
+
+43
+00:01:47,219 --> 00:01:48,609
+to invest based on what information and
+根据什么信息进行投资
+
+44
+00:01:48,810 --> 00:01:50,980
+I have and I realize that I that other
+我有，我意识到我
+
+45
+00:01:51,180 --> 00:01:51,698
+people are going to have other
+人们将有其他
+
+46
+00:01:51,899 --> 00:01:53,829
+information and that information could
+信息，该信息可以
+
+47
+00:01:54,030 --> 00:01:57,579
+affect the value to me as well of a
+也会影响我的价值
+
+48
+00:01:57,780 --> 00:02:01,238
+particular asset for instance okay
+例如特定资产好
+
+49
+00:02:01,438 --> 00:02:04,179
+so given a bayesian game we've got our
+因此，考虑到贝叶斯游戏，我们有了
+
+50
+00:02:04,379 --> 00:02:07,989
+set of player's player's actions the
+一组玩家的动作
+
+51
+00:02:08,189 --> 00:02:10,270
+type space probability distribution over
+类型空间概率分布
+
+52
+00:02:10,469 --> 00:02:13,050
+the type space and
+类型空间和
+
+53
+00:02:13,250 --> 00:02:15,870
+utility functions and for the
+实用程序功能和
+
+54
+00:02:16,069 --> 00:02:17,400
+definitions we're going to provide here
+我们将在此处提供的定义
+
+55
+00:02:17,599 --> 00:02:18,930
+we're going to take these to be finite
+我们将这些视为有限的
+
+56
+00:02:19,129 --> 00:02:21,420
+sets of players finite sets of actions
+一组玩家有限的动作
+
+57
+00:02:21,620 --> 00:02:24,270
+finite sets of types and finite sets of
+类型的有限集和的有限集
+
+58
+00:02:24,469 --> 00:02:26,700
+strategies okay and when you start going
+策略还可以，当您开始前进时
+
+59
+00:02:26,900 --> 00:02:29,010
+to infinite sets and continua you have
+到无限集并连续
+
+60
+00:02:29,210 --> 00:02:30,719
+to be a little more careful about some
+多一些注意
+
+61
+00:02:30,919 --> 00:02:32,880
+of the details of defining these things
+这些东西的细节
+
+62
+00:02:33,080 --> 00:02:36,330
+and in particular measurability kinds of
+特别是可测量性
+
+63
+00:02:36,530 --> 00:02:39,240
+considerations of an integration of
+整合的考虑
+
+64
+00:02:39,439 --> 00:02:41,160
+things so we're going to stick with a
+事情，所以我们要坚持一个
+
+65
+00:02:41,360 --> 00:02:43,469
+finite set where the basic principles
+有限集的基本原理
+
+66
+00:02:43,669 --> 00:02:45,300
+and ideas will be fairly easy to
+而且想法很容易
+
+67
+00:02:45,500 --> 00:02:47,750
+understand and extensions to these are
+理解和扩展这些是
+
+68
+00:02:47,949 --> 00:02:50,010
+fairly straightforward although there's
+相当简单，尽管有
+
+69
+00:02:50,210 --> 00:02:51,450
+some technical details you have to worry
+您需要担心的一些技术细节
+
+70
+00:02:51,650 --> 00:02:55,020
+about ok pure-strategy what's a strategy
+关于好的纯策略什么是策略
+
+71
+00:02:55,219 --> 00:02:57,660
+for a given player a player strategy now
+对于给定的玩家，现在有一个玩家策略
+
+72
+00:02:57,860 --> 00:03:01,560
+is a mapping so S sub I which says as a
+是一个映射，所以S sub I表示为
+
+73
+00:03:01,759 --> 00:03:03,900
+function of your type what's the action
+您的类型的功能是什么
+
+74
+00:03:04,099 --> 00:03:05,130
+you're going to take that would be a
+你将采取那将是
+
+75
+00:03:05,330 --> 00:03:07,020
+pure strategy in a sense that you're
+从某种意义上说，纯策略
+
+76
+00:03:07,219 --> 00:03:10,320
+just picking an action for each type a
+只是为每种类型选择一个动作
+
+77
+00:03:10,520 --> 00:03:12,090
+mixed strategy is then the obvious
+那么混合策略就很明显
+
+78
+00:03:12,289 --> 00:03:17,219
+extension here where instead of picking
+在这里扩展而不是选择
+
+79
+00:03:17,419 --> 00:03:19,020
+a pure action you're picking a
+你在挑选一个纯粹的动作
+
+80
+00:03:19,219 --> 00:03:23,040
+probability distribution over actions as
+动作的概率分布为
+
+81
+00:03:23,240 --> 00:03:26,880
+a function of your type and one thing
+取决于您的类型和一件事
+
+82
+00:03:27,080 --> 00:03:29,610
+that's going to be useful then is that
+那将是有用的，那是
+
+83
+00:03:29,810 --> 00:03:32,910
+if we have a particular type we can then
+如果我们有一个特殊的类型，我们可以
+
+84
+00:03:33,110 --> 00:03:35,810
+talk about what the distribution over
+说说什么分配
+
+85
+00:03:36,009 --> 00:03:39,540
+actions is so the mix under mixed
+行动就是混合
+
+86
+00:03:39,740 --> 00:03:42,510
+strategy si by the person I plays what's
+我扮演的人的策略si 
+
+87
+00:03:42,710 --> 00:03:44,490
+the probability that action AI is going
+动作AI进行的可能性
+
+88
+00:03:44,689 --> 00:03:46,410
+to be chosen by them if they happen to
+如果他们碰巧被他们选择
+
+89
+00:03:46,610 --> 00:03:47,910
+be of type theta I so we use that
+是theta类型的，所以我们用
+
+90
+00:03:48,110 --> 00:03:50,520
+notation and in some of their
+符号和一些
+
+91
+00:03:50,719 --> 00:03:53,700
+calculations okay now when we start
+现在开始计算就可以了
+
+92
+00:03:53,900 --> 00:03:54,990
+talking about Bayesian equilibrium now
+现在谈论贝叶斯均衡
+
+93
+00:03:55,189 --> 00:03:57,480
+we have to talk about what a person's
+我们必须谈论一个人的
+
+94
+00:03:57,680 --> 00:04:00,570
+expected utility is when they're making
+预期的效用是他们制作时
+
+95
+00:04:00,770 --> 00:04:02,219
+their choices and there'll be different
+他们的选择，会有不同
+
+96
+00:04:02,419 --> 00:04:05,520
+timing that we can think of so one is ex
+我们可以想到的时机是前
+
+97
+00:04:05,719 --> 00:04:07,140
+ante
+赌注
+
+98
+00:04:07,340 --> 00:04:10,140
+I have to form a plan for how I'm going
+我必须为我的前进计划
+
+99
+00:04:10,340 --> 00:04:12,510
+to behave but I actually don't know
+表现出来，但我实际上不知道
+
+100
+00:04:12,710 --> 00:04:14,040
+anything about anyone's type including
+关于任何人类型的任何事情，包括
+
+101
+00:04:14,240 --> 00:04:16,860
+my own so we might think of this as for
+我自己的，所以我们可能认为这是为了
+
+102
+00:04:17,060 --> 00:04:19,860
+instance you know a company forming a
+例如，您知道一家公司成立了
+
+103
+00:04:20,060 --> 00:04:24,210
+long term plan for how it might say bid
+关于如何说出价的长期计划
+
+104
+00:04:24,410 --> 00:04:26,129
+in a series of auctions that are coming
+在即将进行的一系列拍卖中
+
+105
+00:04:26,329 --> 00:04:27,810
+but it hasn't actually gone out and
+但实际上并没有熄灭， 
+
+106
+00:04:28,009 --> 00:04:29,850
+collected information yet and it hasn't
+收集信息还没有
+
+107
+00:04:30,050 --> 00:04:33,718
+actually seen the values of other
+实际上看到了其他的价值
+
+108
+00:04:33,918 --> 00:04:35,670
+players or and so forth so it hasn't
+玩家等等，所以没有
+
+109
+00:04:35,870 --> 00:04:37,499
+done any calculations but it's trying to
+做任何计算，但它试图
+
+110
+00:04:37,699 --> 00:04:39,749
+form a strategy of how it's going to
+形成如何发展的策略
+
+111
+00:04:39,949 --> 00:04:44,009
+behave second possibility interim stage
+表现第二可能性过渡阶段
+
+112
+00:04:44,209 --> 00:04:48,449
+so a person knows something about her
+所以一个人对她有所了解
+
+113
+00:04:48,649 --> 00:04:50,939
+his or her own type but not the types of
+他或她自己的类型，但不是
+
+114
+00:04:51,139 --> 00:04:52,850
+other agents yet there are other players
+其他特工还有其他球员
+
+115
+00:04:53,050 --> 00:04:56,040
+so this is a setting where you have seen
+所以这是您所看到的设置
+
+116
+00:04:56,240 --> 00:04:58,528
+some part I've done my homework I know
+我已经完成了一部分作业，我知道
+
+117
+00:04:58,728 --> 00:05:00,810
+what I've seen and I have to form a
+我所看到的，我必须形成一个
+
+118
+00:05:01,009 --> 00:05:02,189
+strategy to bid in an auction but I
+策略竞价，但我
+
+119
+00:05:02,389 --> 00:05:03,449
+don't know what the other players have
+不知道其他玩家有什么
+
+120
+00:05:03,649 --> 00:05:05,040
+seen and that information could be
+看到的信息可能是
+
+121
+00:05:05,240 --> 00:05:06,660
+valuable not only in determining what
+不仅对确定什么有价值
+
+122
+00:05:06,860 --> 00:05:09,060
+their action is but also in determining
+他们的行动还在于
+
+123
+00:05:09,259 --> 00:05:15,069
+whether or not I want to go ahead and
+我是否要继续
+
+124
+00:05:16,209 --> 00:05:19,650
+follow a certain behavior or not based
+遵循某种行为或不基于
+
+125
+00:05:19,850 --> 00:05:21,509
+on what my payoffs might be contingent
+我的收益可能取决于
+
+126
+00:05:21,709 --> 00:05:23,180
+on what information they might have and
+他们可能拥有的信息，以及
+
+127
+00:05:23,379 --> 00:05:26,160
+the third one is ex-post so everybody
+第三个是事后，所以大家
+
+128
+00:05:26,360 --> 00:05:28,290
+knows everything about everybody's types
+知道每个人的类型
+
+129
+00:05:28,490 --> 00:05:32,759
+now ex post is the relatively least
+现在事后相对最少
+
+130
+00:05:32,959 --> 00:05:37,620
+interesting in in the basic sense of the
+从基本意义上讲有趣
+
+131
+00:05:37,819 --> 00:05:38,790
+kinds of calculations we're going to be
+我们将要进行的各种计算
+
+132
+00:05:38,990 --> 00:05:40,860
+doing because in that situation if the
+这样做是因为在那种情况下
+
+133
+00:05:41,060 --> 00:05:43,230
+peoples are making their choices ex post
+人民事后做出选择
+
+134
+00:05:43,430 --> 00:05:47,009
+then the game is going to boil down to
+然后游戏将归结为
+
+135
+00:05:47,209 --> 00:05:48,540
+just the complete information games we
+只是我们完整的信息游戏
+
+136
+00:05:48,740 --> 00:05:50,610
+had before now if people have to make
+以前如果人们必须做
+
+137
+00:05:50,810 --> 00:05:52,468
+their choices that ex ante and they
+他们事前的选择，他们
+
+138
+00:05:52,668 --> 00:05:54,210
+still want them to work ex post then
+还是希望他们事后工作
+
+139
+00:05:54,410 --> 00:05:56,129
+that's a different story that we'll talk
+我们要讲的是一个不同的故事
+
+140
+00:05:56,329 --> 00:05:58,139
+about a little later okay
+大约过一会儿好
+
+141
+00:05:58,339 --> 00:06:01,139
+interim expected utility so let's talk
+中期预期效用，让我们谈谈
+
+142
+00:06:01,339 --> 00:06:02,819
+about the expected utility that a player
+关于玩家的预期效用
+
+143
+00:06:03,019 --> 00:06:05,610
+has if they're at the interim stage well
+如果他们处于过渡阶段
+
+144
+00:06:05,810 --> 00:06:09,629
+we can say what does person I expect if
+我们可以说我期望的人会怎样
+
+145
+00:06:09,829 --> 00:06:11,249
+they're of type theta I and the
+它们是theta I和
+
+146
+00:06:11,449 --> 00:06:13,860
+strategies s are being followed and we
+策略正在遵循，我们
+
+147
+00:06:14,060 --> 00:06:15,569
+end up with a calculation which looks as
+最终得到一个看起来像
+
+148
+00:06:15,769 --> 00:06:21,180
+follows first of all we can look at what
+首先，我们可以看看
+
+149
+00:06:21,379 --> 00:06:22,860
+the possible types are so we're going to
+可能的类型是，所以我们要
+
+150
+00:06:23,060 --> 00:06:25,050
+be summing the person knows their type
+总结这个人知道他们的类型
+
+151
+00:06:25,250 --> 00:06:27,120
+then that can tell them something about
+那可以告诉他们一些有关
+
+152
+00:06:27,319 --> 00:06:28,680
+what they believe the probability of
+他们相信什么
+
+153
+00:06:28,879 --> 00:06:31,199
+other people's types will be we're going
+其他人的类型将是我们要去的
+
+154
+00:06:31,399 --> 00:06:33,480
+to sum across those things and the
+总结这些东西， 
+
+155
+00:06:33,680 --> 00:06:36,420
+utilities are going to be evaluated with
+实用程序将与评估
+
+156
+00:06:36,620 --> 00:06:38,460
+respect to those types
+尊重那些类型
+
+157
+00:06:38,660 --> 00:06:42,060
+so that's one aspect of it the second
+这是第二个方面
+
+158
+00:06:42,259 --> 00:06:46,530
+aspect is that they also have to do the
+方面是他们还必须
+
+159
+00:06:46,730 --> 00:06:49,560
+calculation of what they then believe
+然后计算他们所相信的
+
+160
+00:06:49,759 --> 00:06:53,520
+other players will be doing or including
+其他玩家将做或包括
+
+161
+00:06:53,720 --> 00:06:57,180
+themselves if they're mixing in terms of
+他们自己，如果他们在混合方面
+
+162
+00:06:57,379 --> 00:06:59,280
+which actions will be chosen as a
+哪些动作将被选为
+
+163
+00:06:59,480 --> 00:07:01,889
+function of the types so they have a
+类型的功能，所以他们有一个
+
+164
+00:07:02,089 --> 00:07:03,870
+probability distribution over types then
+然后按类型分布概率
+
+165
+00:07:04,069 --> 00:07:05,790
+what are the strategies that are going
+有什么策略
+
+166
+00:07:05,990 --> 00:07:08,280
+to be played with what probability are
+以什么概率玩
+
+167
+00:07:08,480 --> 00:07:09,420
+we going to see different actions and
+我们将看到不同的动作， 
+
+168
+00:07:09,620 --> 00:07:11,579
+then what's the utility of those actions
+那这些动作的作用是什么
+
+169
+00:07:11,779 --> 00:07:13,560
+so we've got the payoff as a function of
+所以我们得到的收益是
+
+170
+00:07:13,759 --> 00:07:15,629
+actions we've got probabilities of
+我们有概率采取的行动
+
+171
+00:07:15,829 --> 00:07:17,550
+actions and we've got probabilities of
+行动，我们有以下可能性
+
+172
+00:07:17,750 --> 00:07:20,100
+types okay and so that gives us an
+输入还可以，因此
+
+173
+00:07:20,300 --> 00:07:22,620
+expected utility calculation which then
+预期效用计算，然后
+
+174
+00:07:22,819 --> 00:07:24,900
+a player can use to evaluate what do
+玩家可以用来评估做什么
+
+175
+00:07:25,100 --> 00:07:27,600
+they think a given strategy is going to
+他们认为给定的策略将
+
+176
+00:07:27,800 --> 00:07:29,430
+lead to in terms of payoffs
+导致收益
+
+177
+00:07:29,629 --> 00:07:33,000
+that's the interim expected utility if
+这是中期预期效用，如果
+
+178
+00:07:33,199 --> 00:07:35,160
+we if we move things back and then have
+如果我们把东西移回去，然后
+
+179
+00:07:35,360 --> 00:07:38,329
+to operate at an ex ante stage then we
+事前操作，然后我们
+
+180
+00:07:38,529 --> 00:07:42,900
+can very simply say what does I think
+可以很简单地说出我的想法
+
+181
+00:07:43,100 --> 00:07:44,100
+the probability is they'll be of
+他们将成为
+
+182
+00:07:44,300 --> 00:07:45,540
+different types and what do they think
+不同的类型，他们怎么看
+
+183
+00:07:45,740 --> 00:07:47,910
+their expected utility be as a function
+它们的预期效用是一个函数
+
+184
+00:07:48,110 --> 00:07:50,220
+of those types that gives you an overall
+这些类型可以使您整体
+
+185
+00:07:50,420 --> 00:07:52,980
+expected utility okay so we've got an ex
+预期的实用程序好吧，所以我们有一个
+
+186
+00:07:53,180 --> 00:07:54,900
+ante expected utility which isn't going
+事半功倍的预期效用
+
+187
+00:07:55,100 --> 00:07:56,939
+to condition on types and in an interim
+根据类型和临时条件
+
+188
+00:07:57,139 --> 00:08:00,150
+one which conditions on types okay in
+其中一种条件取决于类型
+
+189
+00:08:00,350 --> 00:08:02,250
+the ex post one they know exactly what
+事发后他们确切知道什么
+
+190
+00:08:02,449 --> 00:08:03,930
+the types are so they can just evaluate
+类型，以便他们可以评估
+
+191
+00:08:04,129 --> 00:08:08,240
+things directly as we did before okay so
+就像我们之前所做的一样直接
+
+192
+00:08:08,439 --> 00:08:12,120
+the idea behind Bayes Nash equilibrium
+贝叶斯·纳什均衡背后的思想
+
+193
+00:08:12,319 --> 00:08:15,509
+or Bayesian equilibrium the concept from
+或贝叶斯均衡的概念
+
+194
+00:08:15,709 --> 00:08:19,650
+John Harr Sonya's work is that we're
+ John Harr Sonya的工作是
+
+195
+00:08:19,850 --> 00:08:23,460
+looking for a mixed strategy profile you
+寻找混合策略配置文件
+
+196
+00:08:23,660 --> 00:08:26,160
+can also define pure strategy equilibria
+也可以定义纯策略均衡
+
+197
+00:08:26,360 --> 00:08:29,490
+just by restricting to this to be pure
+仅限于此而已
+
+198
+00:08:29,689 --> 00:08:31,859
+strategies as opposed to mixed but what
+策略而不是混合策略，但是
+
+199
+00:08:32,059 --> 00:08:34,439
+has to be true is that each individual
+必须真实的是，每个人
+
+200
+00:08:34,639 --> 00:08:36,870
+should be choosing a best response so
+应该选择最佳的反应，这样
+
+201
+00:08:37,070 --> 00:08:39,000
+their strategy S sub I which is now a
+他们的策略S sub I现在是
+
+202
+00:08:39,200 --> 00:08:42,269
+mapping from types into actions should
+从类型到动作的映射应该
+
+203
+00:08:42,469 --> 00:08:46,159
+be maximizing their expected utility
+最大化其预期效用
+
+204
+00:08:46,360 --> 00:08:49,519
+here taken at the interim stage so
+这里是在过渡阶段
+
+205
+00:08:49,720 --> 00:08:52,109
+conditional on a theta I that they may
+以theta为条件，他们可以
+
+206
+00:08:52,309 --> 00:08:54,779
+see and it should be true for every eye
+看到，这对每只眼睛都是正确的
+
+207
+00:08:54,980 --> 00:08:57,328
+and every possible type so no matter
+以及每种可能的类型，所以不管
+
+208
+00:08:57,528 --> 00:09:00,569
+what type I am I am the strategy I've
+我是哪种类型，我就是我的策略
+
+209
+00:09:00,769 --> 00:09:03,299
+chosen should be maximizing my expected
+选择应该最大化我的期望
+
+210
+00:09:03,500 --> 00:09:05,789
+utility given what I think other people
+考虑到我认为其他人的效用
+
+211
+00:09:05,990 --> 00:09:07,799
+are going to do and giving the expected
+要去做，给期望
+
+212
+00:09:08,000 --> 00:09:09,299
+utility that I'm calculating based on
+我基于计算的实用程序
+
+213
+00:09:09,500 --> 00:09:12,000
+those strategies okay so this is exactly
+这些策略还可以，所以这正是
+
+214
+00:09:12,200 --> 00:09:15,109
+analogous to Nash equilibrium it's just
+类似于纳什均衡，只是
+
+215
+00:09:15,309 --> 00:09:19,199
+taking explicit account of the fact that
+明确考虑到以下事实
+
+216
+00:09:19,399 --> 00:09:21,149
+individuals have will see different
+个人会有不同的看法
+
+217
+00:09:21,350 --> 00:09:25,439
+things at different points in the at the
+在不同点的东西
+
+218
+00:09:25,639 --> 00:09:27,750
+interim stage and should be maximizing
+过渡阶段，应最大化
+
+219
+00:09:27,950 --> 00:09:32,069
+with respect to that information okay
+关于那个信息还可以
+
+220
+00:09:32,269 --> 00:09:34,620
+the above definition this definition we
+上面的定义这个定义我们
+
+221
+00:09:34,820 --> 00:09:36,389
+just went through is based on an interim
+刚刚经历的是基于临时的
+
+222
+00:09:36,589 --> 00:09:37,889
+approach so it's asking that every
+方法，所以它要求每个
+
+223
+00:09:38,089 --> 00:09:41,370
+individual maximize with respect to the
+个人相对于
+
+224
+00:09:41,570 --> 00:09:42,870
+information that they have at the
+他们在
+
+225
+00:09:43,070 --> 00:09:44,669
+interim stage and no matter what that
+过渡阶段，无论那
+
+226
+00:09:44,870 --> 00:09:48,899
+information turns out to be and if if it
+信息原来是，如果
+
+227
+00:09:49,100 --> 00:09:50,578
+happens to be true that every type
+碰巧是每种类型
+
+228
+00:09:50,778 --> 00:09:53,279
+occurs with positive probability then
+然后以正概率发生
+
+229
+00:09:53,480 --> 00:09:56,459
+this is also equivalent to just looking
+这也相当于只看
+
+230
+00:09:56,659 --> 00:09:59,069
+at the ex-ante stage and saying look my
+在事前阶段说我的
+
+231
+00:09:59,269 --> 00:10:01,379
+strategy should maximize my overall
+策略应该使我的整体表现最大化
+
+232
+00:10:01,580 --> 00:10:05,609
+ex-ante expected utility because if it's
+事前预期效用，因为如果
+
+233
+00:10:05,809 --> 00:10:07,919
+if it's maximizing things for every
+如果它使每个人都最大化
+
+234
+00:10:08,120 --> 00:10:10,229
+possible theta then it's also going to
+可能的θ然后它也将
+
+235
+00:10:10,429 --> 00:10:12,779
+maximize things when I average across
+当我平均时，最大化事物
+
+236
+00:10:12,980 --> 00:10:15,319
+those Thetas and likewise if it didn't
+那些Thetas，如果没有
+
+237
+00:10:15,519 --> 00:10:17,849
+maximize with respect to some theta and
+关于某个θ最大化
+
+238
+00:10:18,049 --> 00:10:19,559
+all the Thetas are receiving positive
+所有Thetas都收到积极
+
+239
+00:10:19,759 --> 00:10:21,509
+probability then it couldn't be
+则不可能
+
+240
+00:10:21,710 --> 00:10:24,359
+maximizing overall so you can write this
+最大化整体，所以您可以编写此
+
+241
+00:10:24,559 --> 00:10:26,849
+base in equilibrium down either from an
+从一个
+
+242
+00:10:27,049 --> 00:10:29,159
+ex ante perspective or from an interim
+事前观点或临时观点
+
+243
+00:10:29,360 --> 00:10:30,959
+perspective as long as all types have
+只要所有类型都有
+
+244
+00:10:31,159 --> 00:10:36,809
+positive probability okay so what have
+正概率好，那有什么
+
+245
+00:10:37,009 --> 00:10:38,779
+we got from Bayesian ash equilibria
+我们来自贝叶斯灰平衡
+
+246
+00:10:38,980 --> 00:10:41,939
+we've got a extension of Nash
+我们已经扩展了Nash 
+
+247
+00:10:42,139 --> 00:10:43,919
+equilibrium to a setting to the Bayesian
+贝叶斯环境的均衡
+
+248
+00:10:44,120 --> 00:10:46,250
+game setting it explicitly models
+游戏设置它明确建模
+
+249
+00:10:46,450 --> 00:10:48,539
+behaviors and settings where we've got
+我们所拥有的行为和设置
+
+250
+00:10:48,740 --> 00:10:51,029
+this uncertainty but the concept is
+这种不确定性，但概念是
+
+251
+00:10:51,230 --> 00:10:53,578
+simple players choose strategies to
+简单的玩家选择策略
+
+252
+00:10:53,778 --> 00:10:55,258
+maximize their payoffs in response to
+最大化他们的回报以响应
+
+253
+00:10:55,458 --> 00:10:57,929
+others accounting for the these two
+其他人占这两个
+
+254
+00:10:58,129 --> 00:11:00,209
+aspects of uncertainty one is strategic
+不确定性方面是战略性的
+
+255
+00:11:00,409 --> 00:11:01,529
+uncertainty what do I think other
+不确定性我怎么认为其他
+
+256
+00:11:01,730 --> 00:11:02,849
+players are going to be doing as a
+玩家将作为
+
+257
+00:11:03,049 --> 00:11:05,939
+function of types and uncertainty and
+类型和不确定性的函数
+
+258
+00:11:06,139 --> 00:11:08,279
+kindly pay off uncertainty I've got to
+请偿还我必须承担的不确定性
+
+259
+00:11:08,480 --> 00:11:10,109
+be expecting over types which might
+期待可能的类型
+
+260
+00:11:10,309 --> 00:11:11,129
+enter my payoffs
+输入我的收益
+
+261
+00:11:11,330 --> 00:11:16,330
+so it's capturing both of those elements
+因此它捕获了这两个元素
+

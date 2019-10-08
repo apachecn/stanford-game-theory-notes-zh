@@ -1,0 +1,1210 @@
+﻿1
+00:00:00,380 --> 00:00:02,290
+this video is going to tell you about
+这部影片将告诉您
+
+2
+00:00:02,490 --> 00:00:04,479
+the revelation principle which is one of
+启示原则是其中之一
+
+3
+00:00:04,679 --> 00:00:06,309
+the core ideas that makes mechanism
+构成机制的核心思想
+
+4
+00:00:06,509 --> 00:00:09,970
+design possible so let's begin by
+设计成为可能，所以让我们开始吧
+
+5
+00:00:10,169 --> 00:00:11,290
+finding out what the revelation
+找出启示
+
+6
+00:00:11,490 --> 00:00:14,439
+principle says to us it says that any
+原则对我们说，它说任何
+
+7
+00:00:14,638 --> 00:00:16,120
+social choice function that can be
+社会选择功能可以是
+
+8
+00:00:16,320 --> 00:00:18,970
+implemented at all by any mechanism can
+任何机制都可以实施
+
+9
+00:00:19,170 --> 00:00:21,760
+also be implemented by a truthful and
+也可以由一个真实的
+
+10
+00:00:21,960 --> 00:00:25,449
+direct mechanism so let's recall what it
+直接机制，让我们回想一下它是什么
+
+11
+00:00:25,649 --> 00:00:27,220
+means for a mechanism to be truthful and
+意味着机制是真实的， 
+
+12
+00:00:27,420 --> 00:00:31,120
+direct we say that a mechanism is direct
+直接我们说一种机制是直接的
+
+13
+00:00:31,320 --> 00:00:33,849
+if it works by having all of the agents
+如果通过让所有代理商起作用
+
+14
+00:00:34,049 --> 00:00:36,698
+simply make a single declaration you can
+只需做出一个声明就可以
+
+15
+00:00:36,899 --> 00:00:38,678
+think of it as writing something down on
+认为它是在写下一些东西
+
+16
+00:00:38,878 --> 00:00:40,719
+a piece of paper giving that to the
+一张纸给那个
+
+17
+00:00:40,920 --> 00:00:43,119
+person who runs the mechanism and having
+运行机制并具有
+
+18
+00:00:43,320 --> 00:00:45,939
+some decision be made an indirect
+间接做出某些决定
+
+19
+00:00:46,140 --> 00:00:48,250
+mechanism in contrast might have a whole
+相反，机制可能有一个整体
+
+20
+00:00:48,450 --> 00:00:51,099
+sequence of actions and information
+行动和信息的顺序
+
+21
+00:00:51,299 --> 00:00:53,079
+revelation and subsequent actions that
+启示和后续行动
+
+22
+00:00:53,280 --> 00:00:54,939
+depend on that information in Revelation
+取决于启示录中的信息
+
+23
+00:00:55,140 --> 00:00:57,309
+multiple actions by different agents an
+不同代理商的多项行动
+
+24
+00:00:57,509 --> 00:00:59,878
+indirect mechanism is essentially any
+间接机制本质上是
+
+25
+00:01:00,079 --> 00:01:02,678
+sort of imperfect information Asia and
+信息不完善的亚洲和
+
+26
+00:01:02,878 --> 00:01:03,748
+extensive form game
+广泛的形式游戏
+
+27
+00:01:03,948 --> 00:01:07,209
+in contrast a direct mechanism is a
+相反，直接机制是
+
+28
+00:01:07,409 --> 00:01:10,119
+simultaneous move Bayesian game so it's
+同时移动贝叶斯游戏，所以
+
+29
+00:01:10,319 --> 00:01:12,219
+kind of like the sort of Bayesian
+有点像贝叶斯
+
+30
+00:01:12,420 --> 00:01:15,549
+version of a normal form game now a
+现在是普通形式游戏的一个版本
+
+31
+00:01:15,750 --> 00:01:18,278
+mechanism is truthful a direct mechanism
+机制是真实的直接机制
+
+32
+00:01:18,478 --> 00:01:22,450
+is truthful if the equilibrium strategy
+如果均衡策略是真实的
+
+33
+00:01:22,650 --> 00:01:25,238
+for every agent is when they have to
+因为每个代理商都必须
+
+34
+00:01:25,438 --> 00:01:26,528
+write something down on that piece of
+在那块东西上写下一些东西
+
+35
+00:01:26,728 --> 00:01:28,750
+paper is just to write down all of their
+纸只是写下他们所有的
+
+36
+00:01:28,950 --> 00:01:31,238
+private information so simply to declare
+私人信息，只需声明
+
+37
+00:01:31,438 --> 00:01:33,609
+what their type is so a truthful
+他们的类型是如此真实
+
+38
+00:01:33,810 --> 00:01:36,369
+mechanism gives agents the very easiest
+机制使代理商最容易
+
+39
+00:01:36,569 --> 00:01:38,730
+strategic problem that they can have
+他们可能遇到的战略问题
+
+40
+00:01:38,930 --> 00:01:41,738
+agents are asked write me down something
+代理商被要求写下我一些东西
+
+41
+00:01:41,938 --> 00:01:43,509
+on the piece of paper and the agents say
+在纸上，代理商说
+
+42
+00:01:43,709 --> 00:01:45,549
+all right I'll tell you all of my
+好吧，我会告诉你我所有的
+
+43
+00:01:45,750 --> 00:01:46,119
+secrets
+机密
+
+44
+00:01:46,319 --> 00:01:47,890
+I'll just reveal everything to you on
+我会告诉你一切
+
+45
+00:01:48,090 --> 00:01:50,140
+the piece of paper and you go off and
+那张纸，你走了， 
+
+46
+00:01:50,340 --> 00:01:53,709
+make a decision based on that and what
+以此为基础做出决定
+
+47
+00:01:53,909 --> 00:01:55,539
+the revelation principle tells us kind
+启示原理告诉我们
+
+48
+00:01:55,739 --> 00:01:57,759
+of surprisingly is that if I can
+令人惊讶的是，如果我能
+
+49
+00:01:57,959 --> 00:01:59,679
+implement a social choice function in
+实施社会选择功能
+
+50
+00:01:59,879 --> 00:02:02,738
+any complicated way I can also implement
+任何我也可以实现的复杂方法
+
+51
+00:02:02,938 --> 00:02:05,738
+it in this very simple truthful direct
+它以非常简单的真实直接
+
+52
+00:02:05,938 --> 00:02:08,169
+way so let's see how this works
+这样，让我们​​看看它是如何工作的
+
+53
+00:02:08,368 --> 00:02:11,020
+I start with an arbitrary non truthful
+我从任意非真实开始
+
+54
+00:02:11,219 --> 00:02:13,360
+mechanism which indeed may be
+实际上可能是
+
+55
+00:02:13,560 --> 00:02:16,330
+direct so let me draw it here so what
+直接，让我在这里画出来
+
+56
+00:02:16,530 --> 00:02:19,420
+happens is all of the agents have some
+发生的是所有代理商都有一些
+
+57
+00:02:19,620 --> 00:02:21,100
+types because we're in a Bayesian game
+类型，因为我们在贝叶斯游戏中
+
+58
+00:02:21,300 --> 00:02:23,560
+setting then they each take some
+设置然后他们每个人都需要一些
+
+59
+00:02:23,759 --> 00:02:26,710
+strategy which is a function of their
+策略是他们的功能
+
+60
+00:02:26,909 --> 00:02:28,750
+types that that tells them how to behave
+告诉他们如何表现的类型
+
+61
+00:02:28,949 --> 00:02:31,210
+inside this mechanism and then some
+在这个机制里面，然后一些
+
+62
+00:02:31,409 --> 00:02:33,069
+complicated thing happens in here maybe
+也许这里发生了复杂的事情
+
+63
+00:02:33,269 --> 00:02:35,259
+we have information revelation there's
+我们有信息启示
+
+64
+00:02:35,459 --> 00:02:39,100
+all kinds of maybe repetitions of agents
+各种各样的代理重复
+
+65
+00:02:39,300 --> 00:02:41,500
+acting multiple times and then in the
+表演多次，然后在
+
+66
+00:02:41,699 --> 00:02:43,240
+end eventually something happens the
+最后最终发生了什么
+
+67
+00:02:43,439 --> 00:02:48,670
+mechanism decides an outcome well recall
+机制决定结果的良好召回
+
+68
+00:02:48,870 --> 00:02:50,410
+that we can look at this whole thing as
+我们可以将整个事情看作
+
+69
+00:02:50,610 --> 00:02:52,660
+being a game right in the end this is
+最终成为游戏，这是
+
+70
+00:02:52,860 --> 00:02:55,719
+just a mapping from agents types and
+只是来自代理类型的映射
+
+71
+00:02:55,919 --> 00:02:58,030
+strategies into some outcome that the
+策略转化为某种结果
+
+72
+00:02:58,229 --> 00:03:00,009
+agents have utility for in the end and
+代理商最终有效用
+
+73
+00:03:00,209 --> 00:03:03,069
+so I can think about an equilibrium of
+所以我可以考虑一下
+
+74
+00:03:03,269 --> 00:03:04,689
+this game it's just some Bayesian game
+这个游戏只是一些贝叶斯游戏
+
+75
+00:03:04,889 --> 00:03:07,330
+and so I can I can think about these
+所以我可以考虑一下
+
+76
+00:03:07,530 --> 00:03:09,460
+asses all being in equilibrium with each
+评估每个人都处于平衡状态
+
+77
+00:03:09,659 --> 00:03:11,830
+other and and that's exactly what I do
+其他，这正是我所做的
+
+78
+00:03:12,030 --> 00:03:13,780
+when I talk about implementation if I
+当我谈论实施时，如果我
+
+79
+00:03:13,979 --> 00:03:15,819
+say that the mechanism implements a
+说该机制实现了
+
+80
+00:03:16,019 --> 00:03:17,349
+social choice function what I'm saying
+社会选择功能我在说什么
+
+81
+00:03:17,549 --> 00:03:20,759
+is that in equilibrium the mapping from
+是在平衡中
+
+82
+00:03:20,959 --> 00:03:24,189
+types to outcomes is the same as the
+结果的类型与
+
+83
+00:03:24,389 --> 00:03:25,450
+mapping that would be chosen by the
+映射将由
+
+84
+00:03:25,650 --> 00:03:30,340
+social choice function well here's the
+社会选择功能很好，这是
+
+85
+00:03:30,539 --> 00:03:32,680
+punchline I want to show that I can make
+我想证明的是，我可以做到
+
+86
+00:03:32,879 --> 00:03:36,430
+a new direct mechanism which is truthful
+真实的新直接机制
+
+87
+00:03:36,629 --> 00:03:39,280
+and here's how I do it I take the
+这就是我的做法
+
+88
+00:03:39,479 --> 00:03:41,740
+original mechanism and I kind of embed
+原始机制，我有点嵌入
+
+89
+00:03:41,939 --> 00:03:44,800
+it in this new mechanism here so what I
+它在这种新机制中，所以我
+
+90
+00:03:45,000 --> 00:03:47,770
+do is I say I'm gonna make a new
+我是说我要做一个新的
+
+91
+00:03:47,969 --> 00:03:50,140
+mechanism whose action space is the same
+作用空间相同的机制
+
+92
+00:03:50,340 --> 00:03:52,480
+as the type space so I'm gonna ask each
+作为类型空间，所以我要问每个
+
+93
+00:03:52,680 --> 00:03:54,520
+of the agents tell me what your type is
+代理商告诉我你的类型是
+
+94
+00:03:54,719 --> 00:03:57,430
+and of course the agents can do whatever
+当然代理商可以做任何事情
+
+95
+00:03:57,629 --> 00:03:59,469
+they want they don't necessarily tell me
+他们希望他们不一定告诉我
+
+96
+00:03:59,669 --> 00:04:02,159
+the truth but they tell me something and
+事实是事实，但他们告诉我一些事情， 
+
+97
+00:04:02,359 --> 00:04:04,390
+then I take that type that they've
+然后我采用他们已经
+
+98
+00:04:04,590 --> 00:04:06,129
+declared so let me first of all give a
+宣布，所以让我首先给一个
+
+99
+00:04:06,329 --> 00:04:09,368
+name to that so so I'll call that policy
+为此命名，所以我将其称为政策
+
+100
+00:04:09,568 --> 00:04:12,099
+that agent I has for declaring his type
+我要声明他的类型的那个经纪人
+
+101
+00:04:12,299 --> 00:04:16,329
+to me his strategy s prime I which is a
+对我来说，他的策略是最重要的
+
+102
+00:04:16,529 --> 00:04:17,889
+function of his true type right so he
+他的真正类型的功能正确，所以他
+
+103
+00:04:18,089 --> 00:04:20,408
+has he has some way of deciding based on
+他有某种决定的依据吗
+
+104
+00:04:20,608 --> 00:04:23,110
+his type how to reveal something to me
+他的类型如何向我揭示一些东西
+
+105
+00:04:23,310 --> 00:04:25,240
+so he'll come up with some type which is
+所以他会想出一种
+
+106
+00:04:25,439 --> 00:04:25,670
+a func
+一个功能
+
+107
+00:04:25,870 --> 00:04:27,230
+the real type that he has but maybe it's
+他真正的类型，但也许是
+
+108
+00:04:27,430 --> 00:04:28,730
+not the truth maybe you'll tell me
+不是事实，也许你会告诉我
+
+109
+00:04:28,930 --> 00:04:31,189
+something else I'll then take whatever
+然后我会拿其他东西
+
+110
+00:04:31,389 --> 00:04:34,400
+he declares to me and I'll believe in
+他向我宣告，我会相信
+
+111
+00:04:34,600 --> 00:04:36,620
+that that's his type and I'll stick that
+那是他的类型，我会坚持下去
+
+112
+00:04:36,819 --> 00:04:40,189
+into s the strategy profile that we had
+成为我们的战略概况
+
+113
+00:04:40,389 --> 00:04:43,430
+before which is our previous equilibrium
+在此之前是我们之前的均衡
+
+114
+00:04:43,629 --> 00:04:45,079
+in the original mechanism so I'll take
+用原来的机制，所以我会
+
+115
+00:04:45,279 --> 00:04:47,600
+that type all then figure out what
+所有类型然后找出
+
+116
+00:04:47,800 --> 00:04:49,430
+strategy he would have played in the
+他本该参加的策略
+
+117
+00:04:49,629 --> 00:04:51,379
+original mechanism if his type had been
+如果他的类型是
+
+118
+00:04:51,579 --> 00:04:53,900
+what he declares to me and then I'll
+他对我说的话，然后我会
+
+119
+00:04:54,100 --> 00:04:55,670
+simulate the original mechanism so if
+模拟原始机制，如果
+
+120
+00:04:55,870 --> 00:04:58,069
+it's indirect inside this new mechanism
+在这种新机制中是间接的
+
+121
+00:04:58,269 --> 00:04:59,689
+I'll kind of run a simulation of the new
+我将对新产品进行模拟
+
+122
+00:04:59,889 --> 00:05:01,610
+mechanism I'll figure out what the
+我会弄清楚
+
+123
+00:05:01,810 --> 00:05:03,230
+original mechanism would have done if
+如果没有，原始机制会完成
+
+124
+00:05:03,430 --> 00:05:05,449
+everybody had played there they're
+每个人都在那里玩过
+
+125
+00:05:05,649 --> 00:05:08,329
+declared types under the strategies that
+在以下策略下声明类型
+
+126
+00:05:08,529 --> 00:05:10,730
+were previously in equilibrium and I'll
+以前处于平衡状态，我会
+
+127
+00:05:10,930 --> 00:05:12,199
+figure out what the outcome is and I'll
+弄清楚结果是什么，我会
+
+128
+00:05:12,399 --> 00:05:13,460
+make that the outcome of the new
+使新的结果
+
+129
+00:05:13,660 --> 00:05:17,180
+mechanism well I want to claim that this
+机制很好，我想声称这
+
+130
+00:05:17,379 --> 00:05:19,249
+new mechanism is truthful you can see
+新机制是真实的，您可以看到
+
+131
+00:05:19,449 --> 00:05:20,540
+that it's direct its direct by
+它是直接的
+
+132
+00:05:20,740 --> 00:05:22,550
+construction I want to claim that it's
+建设我想声称这是
+
+133
+00:05:22,750 --> 00:05:25,338
+truthful and this should be kind of easy
+真实，这应该很容易
+
+134
+00:05:25,538 --> 00:05:27,680
+to see it's truthful by exactly the same
+完全一样地看到它是真实的
+
+135
+00:05:27,879 --> 00:05:30,620
+argument that s was in equilibrium so if
+ s处于平衡状态的论点
+
+136
+00:05:30,819 --> 00:05:33,020
+this mechanism isn't truthful that would
+这种机制是不真实的
+
+137
+00:05:33,220 --> 00:05:35,860
+mean that s wasn't an equilibrium why
+表示s不是一个平衡为什么
+
+138
+00:05:36,060 --> 00:05:38,028
+because it would mean if this mechanism
+因为这意味着如果这种机制
+
+139
+00:05:38,228 --> 00:05:41,329
+isn't truthful then I want to I want to
+是不真实的，那么我想要
+
+140
+00:05:41,529 --> 00:05:43,189
+declare some type here that isn't my
+在这里声明不是我的类型
+
+141
+00:05:43,389 --> 00:05:46,520
+real type and if I'm declaring a my type
+实型，如果我要声明我的类型
+
+142
+00:05:46,720 --> 00:05:48,860
+that isn't my real type that means I'm
+那不是我的真实类型，这意味着我
+
+143
+00:05:49,060 --> 00:05:50,810
+changing the strategy that I would have
+改变我的策略
+
+144
+00:05:51,009 --> 00:05:52,278
+played in the original mechanism I'm
+发挥了我的原始机制
+
+145
+00:05:52,478 --> 00:05:53,930
+kind of what I would have preferred to
+我本来希望的那种
+
+146
+00:05:54,129 --> 00:05:56,810
+also if I lie to the mechanism here I
+如果我对这里的机制撒谎
+
+147
+00:05:57,009 --> 00:05:58,850
+would have preferred to lie to myself in
+宁愿对自己说谎
+
+148
+00:05:59,050 --> 00:06:01,160
+the original mechanism so that I would
+原始的机制，这样我就可以
+
+149
+00:06:01,360 --> 00:06:02,420
+effectively be playing a different
+有效地发挥不同
+
+150
+00:06:02,620 --> 00:06:04,100
+strategy than I was playing before and
+比我以前玩过的策略
+
+151
+00:06:04,300 --> 00:06:06,199
+of course the whole idea of an
+当然， 
+
+152
+00:06:06,399 --> 00:06:08,180
+equilibrium is that nobody can gain by
+平衡是没有人可以通过
+
+153
+00:06:08,379 --> 00:06:10,639
+changing their strategy so if I wouldn't
+改变他们的策略，所以如果我不愿意
+
+154
+00:06:10,839 --> 00:06:12,170
+have wanted to lie to myself in the
+想要对自己撒谎
+
+155
+00:06:12,370 --> 00:06:13,629
+original mechanism to change my strategy
+改变我策略的原始机制
+
+156
+00:06:13,829 --> 00:06:16,338
+nor would I want to lie to the mechanism
+我也不想对机制撒谎
+
+157
+00:06:16,538 --> 00:06:19,490
+now because it's already playing a
+现在，因为它已经在播放
+
+158
+00:06:19,689 --> 00:06:20,899
+strategy for me that's an equilibrium
+对我来说，策略是均衡的
+
+159
+00:06:21,098 --> 00:06:23,329
+for the original mechanism and of course
+对于原始机制，当然
+
+160
+00:06:23,529 --> 00:06:25,249
+that being the case it chooses the same
+既然如此，它选择相同的
+
+161
+00:06:25,449 --> 00:06:28,218
+outcome since the original mechanism so
+结局自原机制如此
+
+162
+00:06:28,418 --> 00:06:30,379
+kind of the the slogan for the
+的口号是
+
+163
+00:06:30,579 --> 00:06:32,629
+revelation principle is that the agents
+启示原则是代理商
+
+164
+00:06:32,829 --> 00:06:34,399
+don't need to lie in this new mechanism
+不需要躺在这个新机制中
+
+165
+00:06:34,598 --> 00:06:36,709
+because the mechanism already lies for
+因为机制已经存在
+
+166
+00:06:36,908 --> 00:06:39,259
+them right the mechanoid
+他们正确的机械类
+
+167
+00:06:39,459 --> 00:06:40,879
+we feed their real types into the
+我们将其真实类型输入
+
+168
+00:06:41,079 --> 00:06:43,249
+original mechanism instead we already
+原来的机制，我们已经
+
+169
+00:06:43,449 --> 00:06:47,270
+apply this strategy of their types just
+运用他们类型的策略
+
+170
+00:06:47,470 --> 00:06:48,379
+in the way that they were doing before
+以他们以前的方式
+
+171
+00:06:48,579 --> 00:06:50,660
+and given that the mechanism is gonna do
+鉴于该机制将
+
+172
+00:06:50,860 --> 00:06:52,850
+such a good job of lying for me just in
+躺在我身上真是太好了
+
+173
+00:06:53,050 --> 00:06:54,259
+the way that I would have wanted to lie
+我本想说谎的方式
+
+174
+00:06:54,459 --> 00:06:56,660
+there's no reason for me to lie again
+我没有理由再说谎
+
+175
+00:06:56,860 --> 00:06:58,850
+right the mechanism is acting kind of as
+正确，机制的作用就像
+
+176
+00:06:59,050 --> 00:07:01,160
+my proxy the mechanism is doing just
+我的代理机制正在做
+
+177
+00:07:01,360 --> 00:07:03,710
+what I would like to do if only I tell
+只要我告诉我我想做什么
+
+178
+00:07:03,910 --> 00:07:05,509
+it the right thing and so I should tell
+这是正确的事情，所以我应该告诉
+
+179
+00:07:05,709 --> 00:07:07,129
+it the right thing that's the idea of
+这是正确的想法
+
+180
+00:07:07,329 --> 00:07:10,430
+the revelation principle so there's one
+启示原理，所以有一个
+
+181
+00:07:10,629 --> 00:07:12,889
+kind of technical concern too to mention
+值得一提的技术问题
+
+182
+00:07:13,089 --> 00:07:14,990
+here which is that the set of equilibria
+这就是均衡集
+
+183
+00:07:15,189 --> 00:07:16,579
+is not always the same in the original
+原件并不总是一样
+
+184
+00:07:16,779 --> 00:07:18,528
+mechanism and the revelation mechanism
+机制和启示机制
+
+185
+00:07:18,728 --> 00:07:20,990
+the revelation mechanism of course has
+启示机制当然有
+
+186
+00:07:21,189 --> 00:07:22,160
+the original equilibrium we're
+我们原来的平衡
+
+187
+00:07:22,360 --> 00:07:23,718
+interested in that's just what what I've
+对那感兴趣的就是我所拥有的
+
+188
+00:07:23,918 --> 00:07:25,879
+shown you but it could actually
+给你看，但实际上
+
+189
+00:07:26,079 --> 00:07:27,829
+introduce new equilibria which we don't
+引入新的均衡，我们不会
+
+190
+00:07:28,029 --> 00:07:29,778
+like it's a bit of a technicality but
+好像有点技术性，但是
+
+191
+00:07:29,978 --> 00:07:32,540
+it's worth telling you but but let me
+值得告诉你，但让我
+
+192
+00:07:32,740 --> 00:07:34,249
+give you the high level point here which
+给你高点在这里
+
+193
+00:07:34,449 --> 00:07:36,468
+is that the revelation principle really
+启示的原则是
+
+194
+00:07:36,668 --> 00:07:39,110
+is important for mechanism design so so
+对机构设计很重要，所以
+
+195
+00:07:39,310 --> 00:07:42,350
+why what is it good for well this kind
+为什么这样对健康有好处
+
+196
+00:07:42,550 --> 00:07:45,319
+of three ways to see it it tells us the
+看它的三种方式告诉我们
+
+197
+00:07:45,519 --> 00:07:46,968
+truthfulness is not a restrictive
+真实性不是限制性的
+
+198
+00:07:47,168 --> 00:07:48,170
+assumption from the point of view of
+从以下观点出发
+
+199
+00:07:48,370 --> 00:07:51,499
+what can be implemented likewise it
+可以实现什么
+
+200
+00:07:51,699 --> 00:07:54,499
+shows us that direct mechanisms are not
+向我们展示了直接机制不是
+
+201
+00:07:54,699 --> 00:07:56,660
+less powerful than indirect mechanisms
+不如间接机制强大
+
+202
+00:07:56,860 --> 00:07:58,218
+which is a bit surprising because it
+这有点令人惊讶，因为它
+
+203
+00:07:58,418 --> 00:08:00,559
+sort of feels like direct mechanisms are
+感觉就像是直接机制
+
+204
+00:08:00,759 --> 00:08:03,050
+much more rich and complicated and they
+更加丰富和复杂，他们
+
+205
+00:08:03,250 --> 00:08:04,999
+ought to be able to do more so this
+应该能够做更多的事情
+
+206
+00:08:05,199 --> 00:08:06,980
+tells us no truthful and direct
+告诉我们没有真实和直接的
+
+207
+00:08:07,180 --> 00:08:09,230
+mechanisms are enough if you can show
+机制就足够了
+
+208
+00:08:09,430 --> 00:08:11,660
+that something is true for truthful and
+真理是真实的， 
+
+209
+00:08:11,860 --> 00:08:13,879
+direct mechanisms you've also shown that
+直接机制你也证明了
+
+210
+00:08:14,079 --> 00:08:16,699
+it's true for all mechanisms and that's
+所有机制都是如此，这就是
+
+211
+00:08:16,899 --> 00:08:19,670
+really important for analysis so if I
+对于分析来说真的很重要，所以如果我
+
+212
+00:08:19,870 --> 00:08:21,680
+want to prove something about the space
+想证明一些关于空间的东西
+
+213
+00:08:21,879 --> 00:08:24,050
+of all mechanisms in principle that
+原则上所有机制
+
+214
+00:08:24,250 --> 00:08:25,670
+might seem really hard to do because I
+似乎真的很难做，因为我
+
+215
+00:08:25,870 --> 00:08:27,170
+would have to grind through every
+将不得不磨碎每一个
+
+216
+00:08:27,370 --> 00:08:29,740
+possible non truthful indirect mechanism
+可能的非真实间接机制
+
+217
+00:08:29,939 --> 00:08:32,809
+seems like a hard set to think about so
+似乎很难考虑
+
+218
+00:08:33,009 --> 00:08:34,429
+what the revelation principle tells me
+启示原理告诉我什么
+
+219
+00:08:34,629 --> 00:08:37,549
+is that if I want to prove that you know
+是如果我想证明你知道
+
+220
+00:08:37,750 --> 00:08:39,588
+mechanism exists with certain properties
+存在具有某些属性的机制
+
+221
+00:08:39,788 --> 00:08:41,539
+or that some given mechanism is the best
+或某种特定的机制是最好的
+
+222
+00:08:41,740 --> 00:08:43,128
+one that exists with certain properties
+具有某些属性的一种
+
+223
+00:08:43,328 --> 00:08:45,289
+it's enough to show that it's the best
+足以表明这是最好的
+
+224
+00:08:45,490 --> 00:08:47,359
+one among the set of truthful and direct
+真实而直接的集合之一
+
+225
+00:08:47,559 --> 00:08:49,069
+mechanisms and that's a much more
+机制，还有更多
+
+226
+00:08:49,269 --> 00:08:50,569
+manageable thing to do
+可管理的事情
+
+227
+00:08:50,769 --> 00:08:53,179
+so really the revelation principle
+所以真的是启示原则
+
+228
+00:08:53,379 --> 00:08:55,399
+in telling us that we can restrict
+告诉我们我们可以限制
+
+229
+00:08:55,600 --> 00:08:56,959
+ourselves to truthful and direct
+忠实而直接
+
+230
+00:08:57,159 --> 00:08:58,990
+mechanisms without loss of generality
+不失一般性的机制
+
+231
+00:08:59,190 --> 00:09:01,699
+opens up the analysis of mechanisms and
+打开机制分析并
+
+232
+00:09:01,899 --> 00:09:03,469
+we're gonna see in the future when we
+我们将来会看到
+
+233
+00:09:03,669 --> 00:09:05,750
+prove things about mechanisms we always
+证明关于我们始终存在的机制的事情
+
+234
+00:09:05,950 --> 00:09:07,849
+begin by saying without loss of
+首先说而不失
+
+235
+00:09:08,049 --> 00:09:09,769
+generality let's restrict ourselves to
+笼统地说，让我们局限于
+
+236
+00:09:09,970 --> 00:09:12,649
+truthful and direct mechanisms and that
+真实而直接的机制
+
+237
+00:09:12,850 --> 00:09:14,299
+step is very important that's what makes
+这是非常重要的一步
+
+238
+00:09:14,500 --> 00:09:16,039
+mechanism design feasible in practice
+机制设计在实践中可行
+
+239
+00:09:16,240 --> 00:09:18,829
+and so that that's why we're telling you
+所以这就是为什么我们告诉你
+
+240
+00:09:19,029 --> 00:09:20,539
+about this so early on this is a really
+这么早就知道了
+
+241
+00:09:20,740 --> 00:09:22,189
+important foundational principle to
+重要的基本原则
+
+242
+00:09:22,389 --> 00:09:27,389
+mechanism design
+机制设计
+

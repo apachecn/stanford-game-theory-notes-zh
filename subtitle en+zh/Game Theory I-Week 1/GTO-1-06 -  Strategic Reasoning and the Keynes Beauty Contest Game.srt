@@ -1,0 +1,1240 @@
+﻿1
+00:00:00,000 --> 00:00:03,309
+hi again it's Matt and now we're talking
+嗨，再次是Matt，现在我们在谈论
+
+2
+00:00:03,509 --> 00:00:05,019
+a little more about strategic reasoning
+有关战略推理的更多信息
+
+3
+00:00:05,219 --> 00:00:08,710
+and in particular let's go through and
+特别是让我们经历一下
+
+4
+00:00:08,910 --> 00:00:10,839
+analyze the Canes beauty contest game
+分析甘蔗选美比赛
+
+5
+00:00:11,039 --> 00:00:13,149
+now and talk a little bit about the Nash
+现在，谈论一下纳什
+
+6
+00:00:13,349 --> 00:00:16,060
+equilibria of this game so remember what
+这个游戏的平衡点，所以记住
+
+7
+00:00:16,260 --> 00:00:17,409
+the structure of this game was each
+这个游戏的结构是每个
+
+8
+00:00:17,609 --> 00:00:19,929
+player named an integer between 1 and
+玩家命名为1到1之间的整数
+
+9
+00:00:20,129 --> 00:00:21,400
+100 so you've got a population of
+ 100，所以您有
+
+10
+00:00:21,600 --> 00:00:24,129
+players they're all naming integers the
+玩家他们都在命名整数
+
+11
+00:00:24,329 --> 00:00:25,120
+person you'll name is the integer
+您要命名的人是整数
+
+12
+00:00:25,320 --> 00:00:28,800
+closest to two-thirds of the average
+最接近平均值的三分之二
+
+13
+00:00:29,000 --> 00:00:32,679
+integer named by people wins other
+人们命名的整数胜过其他
+
+14
+00:00:32,880 --> 00:00:35,349
+people don't get anything ties are
+人们没有任何联系
+
+15
+00:00:35,549 --> 00:00:38,469
+broken uniformly at random ok so again
+均匀均匀地断裂好，所以再次
+
+16
+00:00:38,670 --> 00:00:40,299
+what other players going to do you have
+你还有其他什么打算
+
+17
+00:00:40,500 --> 00:00:43,628
+to reason through that and then what
+通过那来推理，然后呢
+
+18
+00:00:43,829 --> 00:00:45,189
+should I do in response so these are the
+我应该怎么做，所以这些是
+
+19
+00:00:45,390 --> 00:00:46,838
+key ingredients of a Nash equilibrium
+纳什均衡的关键要素
+
+20
+00:00:47,039 --> 00:00:49,448
+and the Nash equilibrium is everybody's
+纳什均衡是每个人的
+
+21
+00:00:49,649 --> 00:00:51,399
+choosing their optimal response the one
+选择他们的最佳反应之一
+
+22
+00:00:51,600 --> 00:00:52,689
+that's going to give them the maximum
+那会给他们最大的
+
+23
+00:00:52,890 --> 00:00:56,018
+chance of winning in this game to what
+在这场比赛中获胜的机会
+
+24
+00:00:56,219 --> 00:00:57,428
+the other players are doing that's going
+其他玩家正在这样做
+
+25
+00:00:57,628 --> 00:01:00,729
+to be a Nash equilibrium ok so let's
+成为纳什均衡好吧，让我们
+
+26
+00:01:00,929 --> 00:01:03,459
+take a look um so how would we can
+看一下，那我们怎么能
+
+27
+00:01:03,659 --> 00:01:05,340
+reason about this suppose that I think
+原因是我想
+
+28
+00:01:05,540 --> 00:01:09,519
+that the average play the averaged
+平均打平均
+
+29
+00:01:09,719 --> 00:01:11,230
+integer named in this game is going to
+在这个游戏中命名的整数将
+
+30
+00:01:11,430 --> 00:01:13,869
+be some number X so you know including
+是一些X，所以你知道包括
+
+31
+00:01:14,069 --> 00:01:15,308
+my own integer I think this is going to
+我自己的整数，我认为这将
+
+32
+00:01:15,509 --> 00:01:17,140
+be the average well what has to be true
+是普通的井，这必须是真实的
+
+33
+00:01:17,340 --> 00:01:21,308
+about my reply to that my reply should
+关于我的回复，我的回复应该
+
+34
+00:01:21,509 --> 00:01:23,679
+be 2/3 of X right I should be naming the
+是X的2/3对，我应该命名为
+
+35
+00:01:23,879 --> 00:01:26,289
+integer closest to 2/3 of whatever I
+最接近我的2/3的整数
+
+36
+00:01:26,489 --> 00:01:28,929
+believe the average is going to be so my
+相信平均值会是这样，我的
+
+37
+00:01:29,129 --> 00:01:31,090
+optimal strategy should be naming an
+最佳策略应命名为
+
+38
+00:01:31,290 --> 00:01:33,340
+integer closest to 2/3 of X so here
+最接近X的2/3的整数，所以这里
+
+39
+00:01:33,540 --> 00:01:35,259
+we're just working through heuristic
+我们只是通过启发式工作
+
+40
+00:01:35,459 --> 00:01:37,569
+aliy we'll get to formal definitions and
+好的，我们将介绍正式定义， 
+
+41
+00:01:37,769 --> 00:01:40,000
+analysis in a little bit but let's just
+分析一点，但让我们
+
+42
+00:01:40,200 --> 00:01:42,459
+go through the basic reasoning now ok so
+现在通过基本的推理就可以了
+
+43
+00:01:42,659 --> 00:01:44,168
+I should be trying to name 2/3 of what I
+我应该尝试说出我的2/3 
+
+44
+00:01:44,368 --> 00:01:47,439
+think the average is going to be well X
+认为平均值会很好X 
+
+45
+00:01:47,640 --> 00:01:49,329
+has to be less than 100 right there's no
+必须小于100，没有
+
+46
+00:01:49,530 --> 00:01:50,859
+way that the average guest can be more
+平均客人可以更多的方式
+
+47
+00:01:51,060 --> 00:01:53,558
+than 100 so the optimal strategy of any
+超过100，因此是任何企业的最佳策略
+
+48
+00:01:53,759 --> 00:01:56,500
+player should be no more than 67 right
+玩家应该不超过67对
+
+49
+00:01:56,700 --> 00:01:59,128
+so if I think that everybody's rational
+所以如果我认为每个人的理性
+
+50
+00:01:59,328 --> 00:02:02,918
+I so if I believe that's true then I
+我所以如果我相信那是真的，那我
+
+51
+00:02:03,118 --> 00:02:05,619
+think that nobody should be naming an
+认为没有人应该命名
+
+52
+00:02:05,819 --> 00:02:09,160
+integer bigger than 67 ok so what what
+大于67的整数好吗？ 
+
+53
+00:02:09,360 --> 00:02:09,699
+does that mean
+这是否意味着
+
+54
+00:02:09,899 --> 00:02:11,320
+well that means that I can't think that
+好吧，这意味着我不能认为
+
+55
+00:02:11,520 --> 00:02:13,660
+the average is any higher than 67 right
+平均高于67对
+
+56
+00:02:13,860 --> 00:02:17,530
+so if the average ex is no bigger than
+因此，如果平均ex不大于
+
+57
+00:02:17,729 --> 00:02:21,070
+67 then I should be naming no more than
+ 67那我的名字应该不超过
+
+58
+00:02:21,270 --> 00:02:23,920
+two-thirds of 67 right now you can begin
+现在可以开始使用67的三分之二
+
+59
+00:02:24,120 --> 00:02:27,310
+to see where this is going so that means
+看这是怎么回事，这意味着
+
+60
+00:02:27,509 --> 00:02:28,780
+that if I think everybody else
+如果我认为其他人
+
+61
+00:02:28,979 --> 00:02:30,520
+understands the game and understands
+了解游戏并了解
+
+62
+00:02:30,719 --> 00:02:31,960
+that nobody should be naming a number
+没有人应该给数字命名
+
+63
+00:02:32,159 --> 00:02:33,760
+bigger than 67 and nobody should be
+大于67，没有人应该
+
+64
+00:02:33,960 --> 00:02:35,830
+naming numbers bigger than two-thirds of
+命名数字大于三分之二
+
+65
+00:02:36,030 --> 00:02:39,160
+67 we keep going on this so nobody
+ 67我们继续进行下去，所以没人
+
+66
+00:02:39,360 --> 00:02:40,660
+should be naming anything more than
+除了命名之外
+
+67
+00:02:40,860 --> 00:02:44,110
+two-thirds of two-thirds of 67 now
+现在67的三分之二的三分之二
+
+68
+00:02:44,310 --> 00:02:45,939
+obviously when you just keep looking
+显然，当你继续寻找时
+
+69
+00:02:46,139 --> 00:02:48,219
+everybody's going to want to be a little
+每个人都想变得有点
+
+70
+00:02:48,419 --> 00:02:49,900
+bit lower than everybody else's guests
+比别人的客人低一点
+
+71
+00:02:50,099 --> 00:02:51,790
+so wherever the average is you should be
+所以无论平均值在哪里
+
+72
+00:02:51,990 --> 00:02:55,390
+lower than that what's the only number
+低于那个是唯一的数字
+
+73
+00:02:55,590 --> 00:02:56,950
+what everybody can be naming and
+每个人都可以命名的
+
+74
+00:02:57,150 --> 00:02:59,500
+consistently choosing the best response
+始终选择最佳响应
+
+75
+00:02:59,699 --> 00:03:01,710
+they have to what the average guess is
+他们必须达到平均猜测
+
+76
+00:03:01,909 --> 00:03:04,060
+the unique Nash equilibrium of this game
+该游戏独特的纳什均衡
+
+77
+00:03:04,259 --> 00:03:07,060
+is for every player to announce one okay
+每个玩家都可以宣布
+
+78
+00:03:07,259 --> 00:03:09,490
+well that's yeah so so we're driven all
+好吧，是的，所以我们被所有
+
+79
+00:03:09,689 --> 00:03:11,320
+the way down to a to announcing one and
+一直到宣布一个
+
+80
+00:03:11,520 --> 00:03:13,330
+that's the unique Nash equilibrium and
+那就是独特的纳什均衡
+
+81
+00:03:13,530 --> 00:03:16,030
+what happens now we all announce one we
+现在发生了什么，我们都宣布一个我们
+
+82
+00:03:16,229 --> 00:03:18,640
+all tie and somebody wins at random if
+所有领带，如果有人随机赢
+
+83
+00:03:18,840 --> 00:03:20,980
+if I try to deviate from that if I tried
+如果我尝试偏离那个
+
+84
+00:03:21,180 --> 00:03:22,840
+to announce a higher integer I just be
+宣布一个更高的整数，我只是
+
+85
+00:03:23,039 --> 00:03:24,340
+higher than the average guest so I
+高于一般客人，所以我
+
+86
+00:03:24,539 --> 00:03:26,770
+wouldn't be at two-thirds of the mean so
+不会是平均值的三分之二
+
+87
+00:03:26,969 --> 00:03:29,410
+this is going to be a stable point okay
+这将是一个稳定点
+
+88
+00:03:29,610 --> 00:03:32,200
+so let's see what what actually happens
+让我们看看实际发生了什么
+
+89
+00:03:32,400 --> 00:03:34,030
+when people play this so so part of this
+当人们玩这个游戏时， 
+
+90
+00:03:34,229 --> 00:03:35,950
+reasoning is you're trying to form
+推理是你试图形成
+
+91
+00:03:36,150 --> 00:03:37,509
+expectations of what other players are
+对其他玩家的期望
+
+92
+00:03:37,709 --> 00:03:38,860
+doing and you need to make sure that
+这样做，您需要确保
+
+93
+00:03:39,060 --> 00:03:40,360
+those expectations actually match
+这些期望实际上符合
+
+94
+00:03:40,560 --> 00:03:43,810
+reality so let's have a peek at some
+现实，所以让我们来看看
+
+95
+00:03:44,009 --> 00:03:46,030
+plays of this game so these this is a
+这个游戏的玩法，所以这是一个
+
+96
+00:03:46,229 --> 00:03:49,630
+plot here where we're actually giving
+在这里绘制我们实际上在哪里
+
+97
+00:03:49,830 --> 00:03:53,650
+you the results of the online course so
+您在线课程的结果，所以
+
+98
+00:03:53,849 --> 00:03:55,990
+when it was taught last year we had
+去年教的时候
+
+99
+00:03:56,189 --> 00:03:58,630
+players play this game and so these are
+玩家玩这个游戏，所以这些是
+
+100
+00:03:58,830 --> 00:04:02,259
+the results and here from 2012 we had
+结果，从2012年开始
+
+101
+00:04:02,459 --> 00:04:03,580
+more than 10,000 people actually
+实际上超过10,000人
+
+102
+00:04:03,780 --> 00:04:05,439
+participated in this particular game
+参加了这个特殊的游戏
+
+103
+00:04:05,639 --> 00:04:09,009
+what do we see so down here on this we
+我们对此有何看法？ 
+
+104
+00:04:09,209 --> 00:04:13,000
+have integers going from 0 to 100 and
+具有从0到100的整数，并且
+
+105
+00:04:13,199 --> 00:04:15,879
+then over here we have the frequency so
+然后在这里，我们有频率，所以
+
+106
+00:04:16,079 --> 00:04:17,439
+how many people name to give an integer
+有多少人给一个整数命名
+
+107
+00:04:17,639 --> 00:04:22,180
+so the 50 right here is the the mode so
+所以这里的50是模式
+
+108
+00:04:22,379 --> 00:04:25,990
+we get the mode of 50 the most often
+我们最常得到50的模式
+
+109
+00:04:26,189 --> 00:04:27,370
+named integer was
+原为整数
+
+110
+00:04:27,569 --> 00:04:30,579
+50 1600 people named 50 well obviously
+ 50 1600人明显地命名为50口井
+
+111
+00:04:30,779 --> 00:04:31,509
+they haven't gone through all the
+他们还没有经历过所有
+
+112
+00:04:31,709 --> 00:04:33,370
+reasoning and it takes a while to sort
+推理，需要一段时间才能进行排序
+
+113
+00:04:33,569 --> 00:04:34,840
+of figure out what the the equilibrium
+弄清楚什么是均衡
+
+114
+00:04:35,040 --> 00:04:39,250
+of this game is what's the mean here so
+这个游戏的意思是这里的意思是
+
+115
+00:04:39,449 --> 00:04:41,620
+the mean was 34 so actually there's some
+平均是34，所以实际上有一些
+
+116
+00:04:41,819 --> 00:04:42,879
+interesting things you some people
+一些人有趣的事情
+
+117
+00:04:43,079 --> 00:04:44,860
+naming a hundred a number that could
+命名一百个可以
+
+118
+00:04:45,060 --> 00:04:47,740
+never really win right so it's not clear
+从来没有真正赢对，所以还不清楚
+
+119
+00:04:47,939 --> 00:04:52,120
+exactly what way it could end up winning
+到底会以什么方式赢得胜利
+
+120
+00:04:52,319 --> 00:04:54,009
+if everybody named 100 then you could
+如果每个人都命名为100，那么您可以
+
+121
+00:04:54,209 --> 00:04:55,780
+end up in a tie there but then you would
+最终在那里打成平手，但是那你会
+
+122
+00:04:55,980 --> 00:04:57,090
+be better off
+会更好
+
+123
+00:04:57,290 --> 00:05:02,079
+naming 67 instead so so when we we end
+命名为67，所以当我们结束时
+
+124
+00:05:02,279 --> 00:05:04,150
+up looking through this what we end up
+通过这个我们最终会发现
+
+125
+00:05:04,350 --> 00:05:06,850
+with is some people naming high numbers
+与某些人命名高数字
+
+126
+00:05:07,050 --> 00:05:09,040
+but very few people then we end up with
+但是最终只有很少的人
+
+127
+00:05:09,240 --> 00:05:10,750
+some interesting spikes a bunch of
+一些有趣的峰值一堆
+
+128
+00:05:10,949 --> 00:05:13,569
+people just named 50 not clear exactly
+刚命名为50的人不清楚
+
+129
+00:05:13,769 --> 00:05:15,569
+what the reasoning is on 50
+ 50的理由是什么
+
+130
+00:05:15,769 --> 00:05:18,970
+interestingly if you think that a bunch
+有趣的是，如果您认为那一堆
+
+131
+00:05:19,170 --> 00:05:20,560
+of people are going to do that you might
+的人会这样做，你可能
+
+132
+00:05:20,759 --> 00:05:23,110
+want to name two thirds of 50 okay well
+想要命名50的三分之二好
+
+133
+00:05:23,310 --> 00:05:26,319
+there's a big spike here at 33 where a
+这里有一个33的大峰值， 
+
+134
+00:05:26,519 --> 00:05:28,600
+bunch of people believe that other
+一群人相信其他
+
+135
+00:05:28,800 --> 00:05:32,980
+people were going to name 50 if we keep
+如果我们继续下去，人们会说出50 
+
+136
+00:05:33,180 --> 00:05:38,110
+going so here if we keep going and
+如果我们继续前进，那么就在这里
+
+137
+00:05:38,310 --> 00:05:40,270
+looking at this what do we see then we
+看着这个，我们看到了什么，然后我们
+
+138
+00:05:40,470 --> 00:05:43,240
+see another spike at two-thirds of 33 so
+在33的三分之二处看到另一个峰值
+
+139
+00:05:43,439 --> 00:05:44,829
+some people said okay well maybe a bunch
+有人说好吧，也许一堆
+
+140
+00:05:45,029 --> 00:05:45,939
+of people are going to think that the
+的人们会认为
+
+141
+00:05:46,139 --> 00:05:47,199
+average is going to be 50 they're going
+他们将要平均50 
+
+142
+00:05:47,399 --> 00:05:49,210
+to name 33 I'm going to go one better
+列举33我会做得更好
+
+143
+00:05:49,410 --> 00:05:51,069
+than that I'm going to name something
+比起我要说的东西
+
+144
+00:05:51,269 --> 00:05:54,370
+around 20 to 23 ah you know what the
+大约20到23啊，你知道
+
+145
+00:05:54,569 --> 00:05:56,829
+winner in this game was the winner was
+这场比赛的胜利者是
+
+146
+00:05:57,029 --> 00:05:59,560
+actually 23 so two-thirds of the average
+实际上是平均水平的三分之二
+
+147
+00:05:59,759 --> 00:06:03,759
+guess here was about 23 the mean was was
+猜这里大概是23 
+
+148
+00:06:03,959 --> 00:06:06,819
+34 and so one of these people randomly
+ 34，所以其中一个人是随机的
+
+149
+00:06:07,019 --> 00:06:08,470
+would end up being the winner of this
+最终会成为这个的赢家
+
+150
+00:06:08,670 --> 00:06:11,530
+game okay um there's actually a spike of
+游戏好吧，嗯，实际上有一个峰值
+
+151
+00:06:11,730 --> 00:06:13,509
+people who went all the way to the Nash
+一路走到纳什的人
+
+152
+00:06:13,709 --> 00:06:17,079
+equilibrium and it's interesting here
+平衡，这很有趣
+
+153
+00:06:17,279 --> 00:06:19,389
+because the Nash equilibrium works if
+因为纳什均衡在
+
+154
+00:06:19,589 --> 00:06:21,699
+you really believe that everybody else
+你真的相信其他人
+
+155
+00:06:21,899 --> 00:06:23,319
+is going to name the integer one then
+将命名为整数然后
+
+156
+00:06:23,519 --> 00:06:25,750
+that's your best response but in
+那是您最好的回应，但是
+
+157
+00:06:25,949 --> 00:06:27,340
+situations where a bunch of people don't
+一群人没有的情况
+
+158
+00:06:27,540 --> 00:06:28,810
+necessarily understand the game and
+一定了解游戏
+
+159
+00:06:29,009 --> 00:06:30,340
+haven't reasoned through it then you
+还没有通过推理，那么你
+
+160
+00:06:30,540 --> 00:06:32,230
+actually would be better off naming a
+实际上命名一个更好
+
+161
+00:06:32,430 --> 00:06:35,009
+higher number so Nash equilibrium is a
+较高的数字，因此纳什均衡是
+
+162
+00:06:35,209 --> 00:06:37,718
+stable point if everybody figures it out
+如果每个人都知道的话，这是一个稳定点
+
+163
+00:06:37,918 --> 00:06:40,300
+and everybody abides by it then it's the
+每个人都遵守它，那就是
+
+164
+00:06:40,500 --> 00:06:42,009
+best thing you can do
+你能做的最好的事
+
+165
+00:06:42,209 --> 00:06:43,300
+but it might be that some of the players
+但是可能有些球员
+
+166
+00:06:43,500 --> 00:06:44,800
+aren't necessarily figuring out exactly
+不一定要弄清楚
+
+167
+00:06:45,000 --> 00:06:48,490
+what goes on okay now suppose you start
+怎么回事，现在假设您开始
+
+168
+00:06:48,689 --> 00:06:50,710
+with this game and they're not
+这个游戏，他们不是
+
+169
+00:06:50,910 --> 00:06:52,180
+necessarily playing the Nash equilibrium
+必然发挥纳什均衡
+
+170
+00:06:52,379 --> 00:06:54,910
+but now we haven't played it again right
+但是现在我们没有再播放了
+
+171
+00:06:55,110 --> 00:06:57,520
+so they get to do this play it again and
+这样他们就可以再玩一次
+
+172
+00:06:57,720 --> 00:06:59,800
+then see what happens well now these
+然后看看现在发生了什么
+
+173
+00:07:00,000 --> 00:07:01,410
+people should realize that they over
+人们应该意识到他们结束了
+
+174
+00:07:01,610 --> 00:07:03,399
+estimated right there's a bunch of
+估计有很多
+
+175
+00:07:03,598 --> 00:07:04,869
+people here who are naming numbers too
+也在这里命名数字的人
+
+176
+00:07:05,069 --> 00:07:06,850
+high they should be moving their
+高，他们应该移动他们的
+
+177
+00:07:07,050 --> 00:07:08,740
+announcements to to lower numbers right
+宣布降低数字的权利
+
+178
+00:07:08,939 --> 00:07:12,069
+they should be moving down and if if I
+他们应该下降，如果我
+
+179
+00:07:12,269 --> 00:07:13,360
+anticipate that everybody is going to
+预计每个人都会
+
+180
+00:07:13,560 --> 00:07:15,430
+adjust and move downwards I should move
+调整并向下移动我应该移动
+
+181
+00:07:15,629 --> 00:07:17,740
+my announcement downwards as well so
+我的公告也向下
+
+182
+00:07:17,939 --> 00:07:20,499
+let's have a peek at what happens so
+让我们来看看发生了什么
+
+183
+00:07:20,699 --> 00:07:23,499
+here's is a subset of players actually
+这实际上是一部分玩家
+
+184
+00:07:23,699 --> 00:07:25,480
+from from one of the classes I did on
+从我上过的一门课上
+
+185
+00:07:25,680 --> 00:07:28,930
+campus where they got this is a second
+他们得到的校园是第二个
+
+186
+00:07:29,129 --> 00:07:30,968
+play of the game so after the first play
+玩游戏，所以在第一次玩后
+
+187
+00:07:31,168 --> 00:07:33,819
+then we haven't played again now you can
+那我们就再也没有玩了
+
+188
+00:07:34,019 --> 00:07:35,528
+begin to see that things you know the
+开始看到你知道的东西
+
+189
+00:07:35,728 --> 00:07:37,449
+50s have disappeared all the numbers up
+ 50年代消失了所有数字
+
+190
+00:07:37,649 --> 00:07:39,249
+here have disappeared people have moved
+这里消失了，人们感动
+
+191
+00:07:39,449 --> 00:07:41,439
+down and in fact a lot more people are
+下来，实际上有更多的人
+
+192
+00:07:41,639 --> 00:07:43,778
+moving towards the equilibrium once you
+一旦你走向平衡
+
+193
+00:07:43,978 --> 00:07:45,639
+get to the second part the second chance
+进入第二部分第二次机会
+
+194
+00:07:45,839 --> 00:07:47,740
+so if you've played this game you begin
+因此，如果您玩过这个游戏，就可以开始
+
+195
+00:07:47,939 --> 00:07:49,540
+to see the logic of it you play it again
+看看它的逻辑，你再玩一次
+
+196
+00:07:49,740 --> 00:07:51,699
+and now we're getting closer to Nash
+现在我们离纳什越来越近
+
+197
+00:07:51,899 --> 00:07:54,189
+equilibrium so Nash equilibrium does is
+纳什均衡做的均衡是
+
+198
+00:07:54,389 --> 00:07:56,829
+a better predictor here if from
+如果来自
+
+199
+00:07:57,029 --> 00:07:58,509
+experienced players who have played this
+玩过这个的经验丰富的球员
+
+200
+00:07:58,709 --> 00:08:00,999
+game understood it and interacting with
+游戏了解它并与之交互
+
+201
+00:08:01,199 --> 00:08:03,069
+the same population you can begin to see
+您可以开始看到的相同人口
+
+202
+00:08:03,269 --> 00:08:04,480
+things unraveling and moving back
+事情解散并向后移动
+
+203
+00:08:04,680 --> 00:08:08,319
+towards all announcing one okay so Nash
+所有人都宣布可以，所以纳什
+
+204
+00:08:08,519 --> 00:08:11,079
+equilibrium basic ideas a consistent
+均衡基本思路一致
+
+205
+00:08:11,279 --> 00:08:14,350
+list of actions so each player is
+动作列表，以便每个玩家
+
+206
+00:08:14,550 --> 00:08:16,269
+maximizing his or her payoffs given the
+给定最大的收益
+
+207
+00:08:16,468 --> 00:08:19,569
+actions of the other players should be
+其他玩家的动作应该是
+
+208
+00:08:19,769 --> 00:08:22,959
+self-consistent and it's stable the nice
+自洽的，稳定的
+
+209
+00:08:23,158 --> 00:08:25,480
+parts about this each player's action is
+关于这个部分，每个玩家的动作是
+
+210
+00:08:25,680 --> 00:08:28,569
+maximizing what they can get given the
+最大化他们可以得到的
+
+211
+00:08:28,769 --> 00:08:31,480
+other players nobody has an incentive to
+其他玩家没有人激励
+
+212
+00:08:31,680 --> 00:08:34,569
+deviate from their action if an
+如果他们偏离了他们的行动
+
+213
+00:08:34,769 --> 00:08:38,289
+equilibrium profile is is played someone
+平衡配置文件被播放某人
+
+214
+00:08:38,490 --> 00:08:40,838
+does have an incentive to deviate from a
+确实有动机偏离
+
+215
+00:08:41,038 --> 00:08:42,549
+profile of actions that do not form an
+不构成行为的行为概况
+
+216
+00:08:42,750 --> 00:08:45,429
+equilibrium so these are the basic ideas
+平衡，所以这些是基本思想
+
+217
+00:08:45,629 --> 00:08:47,889
+and we'll be looking at Nash equilibrium
+我们将研究纳什均衡
+
+218
+00:08:48,089 --> 00:08:50,109
+in much more detail so in terms of
+更详细地说， 
+
+219
+00:08:50,309 --> 00:08:53,049
+making predictions you know why should
+做预测，你知道为什么应该
+
+220
+00:08:53,250 --> 00:08:54,789
+we expect Nash equilibrium to be play
+我们期望纳什均衡发挥作用
+
+221
+00:08:54,990 --> 00:08:57,729
+well I think there's sort of an
+好吧，我认为
+
+222
+00:08:57,929 --> 00:09:00,459
+interesting logic here in this logic
+有趣的逻辑
+
+223
+00:09:00,659 --> 00:09:02,049
+actually goes back to some of the
+其实回到了一些
+
+224
+00:09:02,250 --> 00:09:05,769
+original discussion by Nash when we want
+纳什（Nash）的原始讨论
+
+225
+00:09:05,970 --> 00:09:07,059
+to make a prediction of what's going on
+预测正在发生的事情
+
+226
+00:09:07,259 --> 00:09:10,719
+in the game we want something which if
+在游戏中，我们想要一些如果
+
+227
+00:09:10,919 --> 00:09:12,639
+players really understood things it
+玩家真的很懂事
+
+228
+00:09:12,840 --> 00:09:14,620
+would be consistent and the interesting
+将是一致的和有趣的
+
+229
+00:09:14,820 --> 00:09:19,629
+thing is we should expect non equilibria
+事情是我们应该期待非平衡
+
+230
+00:09:19,830 --> 00:09:22,149
+not to be stable in the sense that if
+不稳定，如果
+
+231
+00:09:22,350 --> 00:09:23,919
+players understood it and see what
+玩家了解它，然后看什么
+
+232
+00:09:24,120 --> 00:09:25,959
+happens in a non equilibrium they should
+发生在非平衡状态，他们应该
+
+233
+00:09:26,159 --> 00:09:27,699
+move away from that and we saw exactly
+远离那个，我们看到了
+
+234
+00:09:27,899 --> 00:09:31,240
+that in the second round of the beauty
+在美丽的第二轮
+
+235
+00:09:31,440 --> 00:09:33,069
+contest game then people start moving
+比赛游戏，然后人们开始移动
+
+236
+00:09:33,269 --> 00:09:35,259
+down towards the Nash equilibrium so
+向下走向纳什均衡，所以
+
+237
+00:09:35,460 --> 00:09:36,969
+it's not necessarily true that we always
+我们总是不一定
+
+238
+00:09:37,169 --> 00:09:39,490
+expect equilibrium to be played but we
+期望发挥平衡，但是我们
+
+239
+00:09:39,690 --> 00:09:41,319
+should expect non equilibria to vanish
+应该期待不平衡消失
+
+240
+00:09:41,519 --> 00:09:44,409
+over time and there'll be various
+随着时间的流逝，将会有各种各样的
+
+241
+00:09:44,610 --> 00:09:46,029
+dynamics and other kinds of settings
+动态和其他种类的设置
+
+242
+00:09:46,230 --> 00:09:47,889
+where there will be strong pushes
+哪里会有强大的推动力
+
+243
+00:09:48,090 --> 00:09:49,990
+towards equilibrium over time but they
+随着时间的流逝达到平衡，但他们
+
+244
+00:09:50,190 --> 00:09:51,549
+might have to be learned and they might
+可能需要学习，他们可能
+
+245
+00:09:51,750 --> 00:09:53,799
+have to evolve and and so forth so as
+必须发展等等
+
+246
+00:09:54,000 --> 00:09:55,509
+course goes on we'll talk more and more
+当然，我们会越来越多地谈论
+
+247
+00:09:55,710 --> 00:09:57,490
+about some of the dynamics and things
+关于一些动态和事物
+
+248
+00:09:57,690 --> 00:10:02,690
+that push towards Nash equilibrium
+推动纳什均衡
+

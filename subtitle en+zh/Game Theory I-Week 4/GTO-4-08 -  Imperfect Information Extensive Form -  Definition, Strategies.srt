@@ -1,0 +1,1410 @@
+﻿1
+00:00:00,030 --> 00:00:01,509
+in this video I'm going to tell you
+在这个视频中，我要告诉你
+
+2
+00:00:01,709 --> 00:00:03,969
+about how to define formally the
+关于如何正式定义
+
+3
+00:00:04,169 --> 00:00:06,219
+imperfect information extensive form and
+不完善的信息广泛形式和
+
+4
+00:00:06,419 --> 00:00:08,140
+how to reason about strategies in these
+如何推理这些策略
+
+5
+00:00:08,339 --> 00:00:11,740
+games so in the perfect information
+游戏中的完美信息
+
+6
+00:00:11,939 --> 00:00:14,919
+extensive form we have a player take an
+广泛的形式，我们有一个球员采取
+
+7
+00:00:15,119 --> 00:00:16,900
+action at every single choice node in
+在每个选择节点上的动作
+
+8
+00:00:17,100 --> 00:00:19,749
+the game and a consequence of that
+游戏及其后果
+
+9
+00:00:19,949 --> 00:00:22,060
+definition is that we're saying that
+定义是我们在说
+
+10
+00:00:22,260 --> 00:00:23,919
+players know what node they're in all
+玩家知道他们在哪个节点
+
+11
+00:00:24,118 --> 00:00:26,350
+the time and that means they know the
+时间，这意味着他们知道
+
+12
+00:00:26,550 --> 00:00:28,179
+whole history of all of the moves that
+所有动作的整个历史
+
+13
+00:00:28,379 --> 00:00:31,269
+have happened before in the game this is
+在游戏中发生过，这是
+
+14
+00:00:31,469 --> 00:00:32,948
+reasonable for some games like chess
+对于象棋这样的游戏来说是合理的
+
+15
+00:00:33,149 --> 00:00:34,750
+where you really do get to see what your
+你真正在哪里看到你的
+
+16
+00:00:34,950 --> 00:00:36,719
+opponent does in every different move
+对手的动作各不相同
+
+17
+00:00:36,920 --> 00:00:39,099
+it's not reasonable for games like
+对于像这样的游戏是不合理的
+
+18
+00:00:39,299 --> 00:00:41,709
+battleship where your play your opponent
+您扮演对手的战舰
+
+19
+00:00:41,909 --> 00:00:43,329
+can do something and you don't get to
+可以做某事而你却无法
+
+20
+00:00:43,530 --> 00:00:46,178
+see what it is and it matters to to what
+看看它是什么，对什么都重要
+
+21
+00:00:46,378 --> 00:00:47,588
+happens to you later in the game it can
+在游戏的后面发生在你身上
+
+22
+00:00:47,789 --> 00:00:49,149
+matter to your payoff it can matter to
+对您的回报至关重要，对
+
+23
+00:00:49,350 --> 00:00:52,059
+whether the game stops or continues so
+游戏是停止还是继续
+
+24
+00:00:52,259 --> 00:00:55,748
+in order to model this richer situation
+为了模拟这种更丰富的情况
+
+25
+00:00:55,948 --> 00:00:57,428
+where players aren't able to observe
+玩家无法观察的地方
+
+26
+00:00:57,628 --> 00:00:59,858
+everything that their opponents do we're
+他们对手所做的一切
+
+27
+00:01:00,058 --> 00:01:03,099
+going to add something new to the game -
+将为游戏添加一些新内容- 
+
+28
+00:01:03,299 --> 00:01:04,509
+the game representation so we're going
+游戏表示，所以我们要去
+
+29
+00:01:04,709 --> 00:01:06,418
+to call it the imperfect information
+称其为不完善的信息
+
+30
+00:01:06,618 --> 00:01:09,429
+extensive form and the way this is going
+广泛的形式以及前进的方向
+
+31
+00:01:09,629 --> 00:01:10,869
+to work is we're going to take the old
+上班是我们要把旧的
+
+32
+00:01:11,069 --> 00:01:13,450
+definition that we had before but we're
+我们以前有过的定义
+
+33
+00:01:13,650 --> 00:01:16,000
+going to say that players consider some
+会说玩家考虑一些
+
+34
+00:01:16,200 --> 00:01:17,738
+choice nodes to be equivalent to each
+选择节点等效于每个
+
+35
+00:01:17,938 --> 00:01:19,750
+other so there's some choice nodes that
+其他的还有一些选择节点
+
+36
+00:01:19,950 --> 00:01:22,359
+a player I isn't able to tell apart and
+我无法分辨的球员
+
+37
+00:01:22,560 --> 00:01:24,579
+that's going to mean they're not able to
+这将意味着他们无法
+
+38
+00:01:24,780 --> 00:01:26,168
+completely figure out the history of
+完全弄清楚历史
+
+39
+00:01:26,368 --> 00:01:27,879
+where they are in the tree because
+他们在树上的位置是因为
+
+40
+00:01:28,079 --> 00:01:28,988
+they're not going to know which of
+他们不会知道哪个
+
+41
+00:01:29,188 --> 00:01:30,730
+several choice nodes they're out when
+几个选择节点
+
+42
+00:01:30,930 --> 00:01:33,278
+they have to take a choice and we're
+他们必须做出选择，我们
+
+43
+00:01:33,478 --> 00:01:35,319
+going to do this by taking the set of
+通过采取一组来做到这一点
+
+44
+00:01:35,519 --> 00:01:36,909
+choice nodes for a given player and
+给定玩家的选择节点，以及
+
+45
+00:01:37,109 --> 00:01:39,789
+putting them into equivalence classes so
+将它们放在等价类中
+
+46
+00:01:39,989 --> 00:01:42,099
+what that means is kind of schematically
+这意味着是示意性的
+
+47
+00:01:42,299 --> 00:01:44,558
+if these are some different choice nodes
+如果这些是一些不同的选择节点
+
+48
+00:01:44,759 --> 00:01:48,009
+in the game that all of course belong to
+在游戏中，所有当然都属于
+
+49
+00:01:48,209 --> 00:01:50,259
+the same player we might say these are
+我们可能会说这些球员是
+
+50
+00:01:50,459 --> 00:01:52,599
+one equivalence class these are another
+一个等价类，这是另一个
+
+51
+00:01:52,799 --> 00:01:54,399
+equivalence class and these are a third
+等值课程，这是第三
+
+52
+00:01:54,599 --> 00:01:56,528
+equivalence class and what that would
+等效类以及那会是什么
+
+53
+00:01:56,728 --> 00:01:58,899
+mean is the player wouldn't know which
+意思是玩家不会知道哪个
+
+54
+00:01:59,099 --> 00:02:00,789
+of these two choice nodes
+这两个选择节点中的一个
+
+55
+00:02:00,989 --> 00:02:03,278
+I he was at when he was asked to make a
+当他被要求制作一个
+
+56
+00:02:03,478 --> 00:02:06,159
+choice but he would know that he was at
+选择，但他会知道他在
+
+57
+00:02:06,359 --> 00:02:07,689
+one of these two and not one of these
+这两个之一，而不是其中之一
+
+58
+00:02:07,890 --> 00:02:08,679
+two because they're in different
+两个，因为他们是不同的
+
+59
+00:02:08,878 --> 00:02:11,649
+equivalence classes so let's say that a
+等价类，所以说
+
+60
+00:02:11,848 --> 00:02:13,640
+little bit more formally
+正式一点
+
+61
+00:02:13,840 --> 00:02:16,969
+so to formally define an imperfect
+从而正式定义一个不完美
+
+62
+00:02:17,169 --> 00:02:19,610
+information extensive form game we start
+我们开始的信息丰富的形式游戏
+
+63
+00:02:19,810 --> 00:02:21,920
+with a perfect information extensive
+拥有完善的信息
+
+64
+00:02:22,120 --> 00:02:23,719
+form game which we've already learned
+我们已经学过的形式游戏
+
+65
+00:02:23,919 --> 00:02:26,270
+how to define before and then we're
+如何定义之前，然后我们
+
+66
+00:02:26,469 --> 00:02:27,800
+going to add this ingredient of
+要添加这个成分
+
+67
+00:02:28,000 --> 00:02:31,310
+equivalence classes so we're going to
+等价类，所以我们将
+
+68
+00:02:31,509 --> 00:02:34,910
+add this element I which is a set of
+添加这个元素我是一组
+
+69
+00:02:35,110 --> 00:02:37,069
+equivalent set of sets of equivalence
+等价的等价集
+
+70
+00:02:37,269 --> 00:02:40,009
+classes one for every player so for
+为每个玩家分配一个，因此
+
+71
+00:02:40,209 --> 00:02:42,860
+player one we have the set of
+玩家一，我们有一套
+
+72
+00:02:43,060 --> 00:02:44,330
+equivalence classes or let's say for
+等价类，或者说
+
+73
+00:02:44,530 --> 00:02:47,240
+player I we have a set of equivalence
+玩家，我有一组等效
+
+74
+00:02:47,439 --> 00:02:51,080
+classes numbered from 1 to K sub I so
+从1到K子类的编号
+
+75
+00:02:51,280 --> 00:02:52,670
+these are all different equivalence
+这些都是等价的
+
+76
+00:02:52,870 --> 00:02:55,118
+classes and each one of these classes is
+类，这些类中的每一个是
+
+77
+00:02:55,318 --> 00:02:57,560
+some number of different choice notes
+一些不同的选择笔记
+
+78
+00:02:57,759 --> 00:03:00,770
+one or more choice notes and these are
+一个或多个选择说明，这些是
+
+79
+00:03:00,969 --> 00:03:02,270
+going to be different choice nodes that
+将成为不同的选择节点
+
+80
+00:03:02,469 --> 00:03:04,819
+that player isn't able to tell apart so
+该玩家无法分辨，所以
+
+81
+00:03:05,019 --> 00:03:06,649
+if every one of these equivalence
+如果这些等价的每一个
+
+82
+00:03:06,848 --> 00:03:08,780
+classes contains only one choice node
+类仅包含一个选择节点
+
+83
+00:03:08,979 --> 00:03:10,430
+we're back with the perfect information
+我们回来了，完美的信息
+
+84
+00:03:10,629 --> 00:03:12,649
+case and if any of these equivalence
+情况，以及是否有这些等同物
+
+85
+00:03:12,848 --> 00:03:14,569
+classes contains more than one thing
+类包含不止一件事
+
+86
+00:03:14,769 --> 00:03:16,280
+then we have something new we have a
+然后我们有了新的东西
+
+87
+00:03:16,479 --> 00:03:17,689
+game where the player doesn't quite know
+玩家不太了解的游戏
+
+88
+00:03:17,889 --> 00:03:20,450
+what's going on all the time now in
+现在一直在发生什么
+
+89
+00:03:20,650 --> 00:03:22,340
+order to make this definition work we
+为了使这个定义可行，我们
+
+90
+00:03:22,539 --> 00:03:24,170
+need to add a couple of restrictions so
+需要添加一些限制，所以
+
+91
+00:03:24,370 --> 00:03:26,390
+that it makes sense so we want to say
+这很有意义，所以我们想说
+
+92
+00:03:26,590 --> 00:03:31,099
+that if and if two different choice
+如果，如果两个不同的选择
+
+93
+00:03:31,299 --> 00:03:32,960
+nodes are part of the same equivalence
+节点是同等的一部分
+
+94
+00:03:33,159 --> 00:03:35,569
+class then first of all they have to
+上课，那么他们首先要
+
+95
+00:03:35,769 --> 00:03:37,730
+belong to the same player they have to
+属于他们必须同一个球员
+
+96
+00:03:37,930 --> 00:03:39,349
+be labeled with the same player because
+被标记为同一个玩家，因为
+
+97
+00:03:39,549 --> 00:03:41,118
+if they're not you'd be able to tell
+如果不是，您将能够告诉他们
+
+98
+00:03:41,318 --> 00:03:42,800
+them apart because they different
+他们分开是因为他们不同
+
+99
+00:03:43,000 --> 00:03:44,270
+players would be acting so the player
+玩家会表演，所以玩家
+
+100
+00:03:44,469 --> 00:03:46,009
+kind of when he shows up he would know
+当他出现时，他会知道
+
+101
+00:03:46,209 --> 00:03:48,710
+which player he was he would really not
+他是哪个球员，他真的不会
+
+102
+00:03:48,909 --> 00:03:50,060
+be confused about all of the nodes in
+对中的所有节点感到困惑
+
+103
+00:03:50,259 --> 00:03:52,730
+the equivalence class and the second
+等价类和第二类
+
+104
+00:03:52,930 --> 00:03:55,610
+restriction we have is that the two
+我们有两个限制
+
+105
+00:03:55,810 --> 00:03:57,319
+choice nodes have to have the same set
+选择节点必须具有相同的集合
+
+106
+00:03:57,519 --> 00:03:59,180
+of available actions because if the
+可用操作，因为如果
+
+107
+00:03:59,379 --> 00:04:01,310
+player can't tell them apart he has to
+玩家无法将他们分开，他必须
+
+108
+00:04:01,509 --> 00:04:03,920
+know what to do and it's the only
+知道该怎么办，这是唯一的
+
+109
+00:04:04,120 --> 00:04:07,730
+restrictions so let's look at an example
+限制，让我们来看一个例子
+
+110
+00:04:07,930 --> 00:04:09,800
+game here and see what the equivalence
+在这里比赛，看看等效
+
+111
+00:04:10,000 --> 00:04:13,640
+classes are so in this game player one
+在这个玩家中上课是这样的
+
+112
+00:04:13,840 --> 00:04:15,319
+has two different equivalence classes
+有两个不同的等价类
+
+113
+00:04:15,519 --> 00:04:18,740
+this is one equivalence class and this
+这是一个等价类
+
+114
+00:04:18,939 --> 00:04:21,649
+is another equivalence class so in other
+是另一个等价类，所以在其他
+
+115
+00:04:21,848 --> 00:04:23,569
+words we're going to use a dotted line
+我们将使用虚线的单词
+
+116
+00:04:23,769 --> 00:04:25,968
+here to connect together choice nodes
+这里将选择节点连接在一起
+
+117
+00:04:26,168 --> 00:04:26,750
+that belong to
+属于
+
+118
+00:04:26,949 --> 00:04:28,850
+the same equivalence class and what we
+相同的等价类以及我们
+
+119
+00:04:29,050 --> 00:04:30,259
+want to say in this game is that player
+想在这场比赛中说的是那个球员
+
+120
+00:04:30,459 --> 00:04:33,110
+1 moves and if he goes right then the
+ 1移动，如果他走对，则
+
+121
+00:04:33,310 --> 00:04:34,850
+game is just going to end and they're
+游戏即将结束，他们
+
+122
+00:04:35,050 --> 00:04:36,500
+just going to get a each of half of one
+只会得到一半的一半
+
+123
+00:04:36,699 --> 00:04:39,949
+if he goes left then they're going to
+如果他走了，那他们将
+
+124
+00:04:40,149 --> 00:04:41,449
+get to make player two is going to get
+成为第二个玩家
+
+125
+00:04:41,649 --> 00:04:44,420
+to make a choice and player 2 is going
+做出选择，而玩家2将会
+
+126
+00:04:44,620 --> 00:04:47,360
+to go either A or B and then player 1 is
+去A或B然后玩家1是
+
+127
+00:04:47,560 --> 00:04:50,030
+going to get to move a second time but
+打算再去一次，但是
+
+128
+00:04:50,230 --> 00:04:51,470
+player 1 isn't going to get to observe
+玩家1不会观察
+
+129
+00:04:51,670 --> 00:04:54,829
+the move that player 2 took and so he's
+玩家2采取的行动，所以他是
+
+130
+00:04:55,029 --> 00:04:56,590
+going to have to take the same action
+将不得不采取相同的行动
+
+131
+00:04:56,790 --> 00:04:58,550
+regardless of whether he said this
+不管他是否这么说
+
+132
+00:04:58,750 --> 00:05:00,620
+choice noted this choice node and indeed
+选择记录了这个选择节点，实际上
+
+133
+00:05:00,819 --> 00:05:02,689
+you can see we've labeled it the same
+您可以看到我们已将其标记为相同
+
+134
+00:05:02,889 --> 00:05:05,780
+way so if he says he wants to go left he
+这样，如果他说他想离开他
+
+135
+00:05:05,980 --> 00:05:06,980
+would have to go left it from both of
+将不得不从两个
+
+136
+00:05:07,180 --> 00:05:10,460
+these notes and just to complete the
+这些笔记，只是为了完成
+
+137
+00:05:10,660 --> 00:05:11,360
+answer to my question what are the
+回答我的问题是什么
+
+138
+00:05:11,560 --> 00:05:12,980
+equivalence classes for player 2
+玩家2的等效课程
+
+139
+00:05:13,180 --> 00:05:15,560
+well player 2 only has one choice node
+玩家2只有一个选择节点
+
+140
+00:05:15,759 --> 00:05:17,030
+actually there's a typo here there
+其实这里有错字
+
+141
+00:05:17,230 --> 00:05:20,180
+shouldn't be a 2 player 2 has only one
+不应该是2位玩家2位只有一位
+
+142
+00:05:20,379 --> 00:05:21,470
+choice node and so he has only one
+选择节点，所以他只有一个
+
+143
+00:05:21,670 --> 00:05:26,060
+equivalence class so how should we
+等值课程，那么我们应该如何
+
+144
+00:05:26,259 --> 00:05:27,860
+define the pure strategies for each
+为每个定义纯策略
+
+145
+00:05:28,060 --> 00:05:29,689
+player in this game what's going to make
+这个游戏的玩家将要做什么
+
+146
+00:05:29,889 --> 00:05:31,960
+sense as a definition of pure strategies
+感觉是纯粹策略的定义
+
+147
+00:05:32,160 --> 00:05:36,259
+well intuitively remember before what we
+直观地记得我们之前
+
+148
+00:05:36,459 --> 00:05:38,750
+said was that we had the cross-product
+说是我们有交叉产品
+
+149
+00:05:38,949 --> 00:05:42,079
+of all of the different action sets for
+的所有不同操作集中
+
+150
+00:05:42,279 --> 00:05:44,480
+each player we don't want that here
+我们不想在这里的每个球员
+
+151
+00:05:44,680 --> 00:05:45,860
+because we don't want for it to be
+因为我们不希望它成为
+
+152
+00:05:46,060 --> 00:05:47,900
+possible for player 1 to do something
+玩家1可以做某事
+
+153
+00:05:48,100 --> 00:05:49,639
+different in this choice node and in
+在这个选择节点和
+
+154
+00:05:49,839 --> 00:05:52,310
+this choice node so instead what we're
+这个选择节点，所以我们是
+
+155
+00:05:52,509 --> 00:05:55,879
+going to use as a definition is that the
+用作定义是
+
+156
+00:05:56,079 --> 00:05:58,220
+pure strategies for player I are the
+我是玩家的纯策略
+
+157
+00:05:58,420 --> 00:06:00,230
+cross-product of the action sets in
+动作的叉积
+
+158
+00:06:00,430 --> 00:06:02,960
+every different equivalence class that
+每个不同的等价类
+
+159
+00:06:03,160 --> 00:06:05,990
+he has and so player one's pure
+他有，所以玩家是纯粹的
+
+160
+00:06:06,189 --> 00:06:09,230
+strategies here are going to be a choice
+这里的策略将是一个选择
+
+161
+00:06:09,430 --> 00:06:11,960
+here and independently a choice here so
+在这里，这里是一个独立的选择
+
+162
+00:06:12,160 --> 00:06:14,300
+player one could take the action LL or
+玩家可以采取行动LL或
+
+163
+00:06:14,500 --> 00:06:17,870
+he could take the action RL or you could
+他可以采取行动RL，也可以
+
+164
+00:06:18,069 --> 00:06:21,500
+take the action L R or RR so player one
+采取LR或RR的动作，让玩家一
+
+165
+00:06:21,699 --> 00:06:24,319
+here has four different pure strategies
+这里有四种不同的纯策略
+
+166
+00:06:24,519 --> 00:06:26,420
+rather than eight as he would have if we
+而不是他的八倍
+
+167
+00:06:26,620 --> 00:06:30,660
+didn't have this equivalence class here
+这里没有这个等效课程
+
+168
+00:06:33,009 --> 00:06:36,740
+so in the imperfect information normal
+所以在不完美的信息中正常
+
+169
+00:06:36,939 --> 00:06:38,800
+form we have a more powerful
+形式我们有一个更强大的
+
+170
+00:06:39,000 --> 00:06:40,939
+representation than we did in the
+代表性比我们在
+
+171
+00:06:41,139 --> 00:06:44,240
+perfect information case and one way we
+完美的信息案例和我们的一种方式
+
+172
+00:06:44,439 --> 00:06:46,009
+can see that is we can represent any
+可以看到那是我们可以代表任何
+
+173
+00:06:46,209 --> 00:06:47,420
+normal form game in this representation
+此表示形式的普通形式游戏
+
+174
+00:06:47,620 --> 00:06:49,460
+which you may recall we couldn't do with
+您可能还记得我们无法做到的
+
+175
+00:06:49,660 --> 00:06:52,280
+perfect information games so here I'm
+完美的信息游戏，所以我在这里
+
+176
+00:06:52,480 --> 00:06:54,650
+showing you how to represent the TCP
+向您展示如何表示TCP 
+
+177
+00:06:54,850 --> 00:06:56,379
+back-off game or in other words the
+退避游戏或换句话说
+
+178
+00:06:56,579 --> 00:06:59,480
+prisoner's dilemma game in imperfect
+不完美的囚徒困境游戏
+
+179
+00:06:59,680 --> 00:07:01,910
+information extensive form so how does
+信息扩展形式，如何
+
+180
+00:07:02,110 --> 00:07:04,610
+this work well first of all player 1
+首先玩家1运作良好
+
+181
+00:07:04,810 --> 00:07:06,770
+gets to decide whether to cooperate or
+决定是否合作或
+
+182
+00:07:06,970 --> 00:07:09,920
+defect and after that player 2 gets to
+缺陷，然后玩家2进入
+
+183
+00:07:10,120 --> 00:07:12,680
+decide whether to cooperate a defect now
+现在决定是否合作缺陷
+
+184
+00:07:12,879 --> 00:07:15,230
+of course in the prisoner's dilemma you
+当然在囚徒困境中
+
+185
+00:07:15,430 --> 00:07:16,610
+don't get to see what the other person
+不要去看对方
+
+186
+00:07:16,810 --> 00:07:18,620
+chose to do when you take your own
+选择自己去做时
+
+187
+00:07:18,819 --> 00:07:20,420
+action so it might sound like a problem
+行动，所以听起来好像是个问题
+
+188
+00:07:20,620 --> 00:07:23,120
+that player 2 gets to move second but
+玩家2获得第二
+
+189
+00:07:23,319 --> 00:07:25,910
+player 2 isn't able to tell which action
+玩家2无法判断哪个动作
+
+190
+00:07:26,110 --> 00:07:28,100
+player 1 took and so although our game
+玩家1参加了比赛，尽管我们的比赛
+
+191
+00:07:28,300 --> 00:07:29,900
+representation says that he goes second
+表示说他屈居第二
+
+192
+00:07:30,100 --> 00:07:31,460
+it doesn't really make a difference that
+它并没有真正改变
+
+193
+00:07:31,660 --> 00:07:33,949
+he goes second because because he's not
+他获得第二名是因为他没有
+
+194
+00:07:34,149 --> 00:07:36,350
+informed of what player 1 did and then
+告知玩家1的行为，然后
+
+195
+00:07:36,550 --> 00:07:38,329
+once both of them take their actions we
+他们俩一旦采取行动，我们
+
+196
+00:07:38,529 --> 00:07:40,520
+end up with some payoff so if they go C
+最终得到一些回报，所以如果他们去C 
+
+197
+00:07:40,720 --> 00:07:43,250
+D and they end up with this payoff here
+ D，他们最终在这里得到了回报
+
+198
+00:07:43,449 --> 00:07:44,569
+and these are the same payoffs that we
+这些是与我们相同的收益
+
+199
+00:07:44,769 --> 00:07:47,569
+have in the game matrix notice that we
+在游戏矩阵中注意到我们
+
+200
+00:07:47,769 --> 00:07:49,819
+could have things work the same way if
+可以让事情以相同的方式运作，如果
+
+201
+00:07:50,019 --> 00:07:52,759
+we put player 2 at the root node and
+我们将播放器2放在根节点上， 
+
+202
+00:07:52,959 --> 00:07:55,579
+player 1 down here below because time
+玩家1在这里的下方，因为时间
+
+203
+00:07:55,779 --> 00:07:59,159
+isn't really playing a role in this game
+在这个游戏中并没有真正扮演角色
+
+204
+00:07:59,730 --> 00:08:02,629
+so I what I told you on the previous
+所以我以前告诉过你的
+
+205
+00:08:02,829 --> 00:08:04,819
+slide was how to start with a normal
+幻灯片是如何从正常开始
+
+206
+00:08:05,019 --> 00:08:06,560
+form game and make an extensive form
+形式游戏并进行广泛的形式
+
+207
+00:08:06,759 --> 00:08:09,439
+game out of it I can also still do the
+游戏出来，我仍然可以
+
+208
+00:08:09,639 --> 00:08:11,000
+thing that we talked about with the
+我们谈论的东西
+
+209
+00:08:11,199 --> 00:08:13,069
+perfect information extensive form which
+完善的信息广泛形式
+
+210
+00:08:13,269 --> 00:08:14,660
+is to start with an extensive form game
+从一个广泛的形式游戏开始
+
+211
+00:08:14,860 --> 00:08:16,340
+and make a normal form game out of it
+然后用它制作一个普通的形式游戏
+
+212
+00:08:16,540 --> 00:08:19,189
+and the way this works is exactly the
+而它的工作方式正是
+
+213
+00:08:19,389 --> 00:08:21,590
+way I did before so I take all of the
+我以前做的方式，所以我把所有
+
+214
+00:08:21,790 --> 00:08:23,750
+pure strategies for player 1 and I make
+我和玩家1的纯策略
+
+215
+00:08:23,949 --> 00:08:26,090
+them into rows I take all of the pure
+他们成排，我把所有的纯
+
+216
+00:08:26,290 --> 00:08:27,770
+strategies for player 2 and I make them
+玩家2的策略，我让他们
+
+217
+00:08:27,970 --> 00:08:30,020
+into columns and then this gives me my
+列，然后这给了我我的
+
+218
+00:08:30,220 --> 00:08:31,610
+matrix and for every cell of the matrix
+矩阵以及矩阵的每个单元格
+
+219
+00:08:31,810 --> 00:08:35,179
+I say well if player 1 took this pure
+我说好，如果玩家1接受了
+
+220
+00:08:35,379 --> 00:08:37,189
+strategy and player 2 took this pure
+策略和玩家2采取了这种纯
+
+221
+00:08:37,389 --> 00:08:39,439
+strategy what payoff would result and I
+策略会带来什么回报，我
+
+222
+00:08:39,639 --> 00:08:41,209
+put that into this cell of the matrix
+把它放到矩阵的这个单元格中
+
+223
+00:08:41,409 --> 00:08:45,240
+and I fill in the whole matrix that way
+然后我以这种方式填写整个矩阵
+
+224
+00:08:45,320 --> 00:08:48,539
+and once I have the matrix like that
+一旦我有了这样的矩阵
+
+225
+00:08:48,740 --> 00:08:51,508
+then then I'm kind of done my definition
+然后我就完成了定义
+
+226
+00:08:51,708 --> 00:08:53,370
+of mixed strategies is exactly what it
+混合策略正是它的目的
+
+227
+00:08:53,570 --> 00:08:54,508
+was before it's just the mixed
+之前只是混合
+
+228
+00:08:54,708 --> 00:08:56,389
+strategies in the induced normal form
+归纳法则形式的策略
+
+229
+00:08:56,589 --> 00:08:58,828
+the definition of best response in Nash
+纳什最佳反应的定义
+
+230
+00:08:59,028 --> 00:09:00,299
+equilibrium for imperfect information
+不完美信息的平衡
+
+231
+00:09:00,500 --> 00:09:02,339
+extensive form games again just kind of
+广泛的形式游戏再次只是一种
+
+232
+00:09:02,539 --> 00:09:04,859
+leverage the induced normal form and so
+利用归纳的范式等等
+
+233
+00:09:05,059 --> 00:09:06,419
+all of those concepts that you already
+您已经拥有的所有这些概念
+
+234
+00:09:06,620 --> 00:09:09,628
+understand from from normal form games
+从普通形式的游戏中了解
+
+235
+00:09:09,828 --> 00:09:12,389
+carry over directly to imperfect
+直接结转不完美
+
+236
+00:09:12,589 --> 00:09:14,490
+information games and so for example we
+信息游戏，例如我们
+
+237
+00:09:14,690 --> 00:09:16,649
+know from Nash's theorem that a Nash
+从纳什定理知道纳什
+
+238
+00:09:16,850 --> 00:09:18,508
+equilibrium always exists for every
+每个人总是存在均衡
+
+239
+00:09:18,708 --> 00:09:20,429
+imperfect information extensive form
+不完善的信息广泛形式
+
+240
+00:09:20,629 --> 00:09:22,529
+game because I can make a finite normal
+游戏，因为我可以做有限的法线
+
+241
+00:09:22,730 --> 00:09:25,589
+form game out of it now it's going to be
+从中形成形式的游戏
+
+242
+00:09:25,789 --> 00:09:28,469
+the case that this transformation can
+这种转变可以
+
+243
+00:09:28,669 --> 00:09:30,448
+make the game exponentially bigger as it
+使游戏成倍增长
+
+244
+00:09:30,649 --> 00:09:32,549
+could before even with the perfect
+甚至可以做到完美
+
+245
+00:09:32,750 --> 00:09:34,438
+information case but for example for
+信息案例，但例如
+
+246
+00:09:34,639 --> 00:09:36,029
+existence of equilibrium that doesn't
+不存在的均衡
+
+247
+00:09:36,230 --> 00:09:39,719
+matter now lastly you might wonder what
+现在很重要，您可能想知道
+
+248
+00:09:39,919 --> 00:09:41,818
+happens if I take both of these
+如果我把这两个都发生
+
+249
+00:09:42,019 --> 00:09:43,318
+transformations that I've shown you and
+我向您展示的转换和
+
+250
+00:09:43,519 --> 00:09:45,568
+I apply them together so for example I
+我将它们一起应用，例如
+
+251
+00:09:45,769 --> 00:09:46,649
+could start with an imperfect
+可能从不完美开始
+
+252
+00:09:46,850 --> 00:09:48,929
+information extensive form game make it
+信息丰富的游戏形式
+
+253
+00:09:49,129 --> 00:09:50,849
+into a normal form game and then make
+变成普通形式的游戏，然后制作
+
+254
+00:09:51,049 --> 00:09:52,349
+that back into an imperfect information
+回到不完美的信息
+
+255
+00:09:52,549 --> 00:09:55,349
+extensive form game again so you might
+再次进行广泛的形式游戏，因此您可能
+
+256
+00:09:55,549 --> 00:09:57,059
+wonder do I end up with the same game
+我不知道我最终会玩同样的游戏吗
+
+257
+00:09:57,259 --> 00:10:00,628
+and the answer is no I won't because I
+答案是不，我不会，因为我
+
+258
+00:10:00,828 --> 00:10:02,818
+might have a game tree which is pretty
+可能有一个漂亮的游戏树
+
+259
+00:10:03,019 --> 00:10:06,109
+deep and it could have all kinds of
+深，它可能有各种各样的
+
+260
+00:10:06,309 --> 00:10:08,758
+different equivalence classes it could
+可以使用的不同等价类
+
+261
+00:10:08,958 --> 00:10:09,959
+have all kinds of different sequential
+有各种不同的顺序
+
+262
+00:10:10,159 --> 00:10:12,089
+moves by the different players and when
+由不同玩家移动，以及何时
+
+263
+00:10:12,289 --> 00:10:14,099
+I make it into a normal form game I'm
+我把它变成普通的形式游戏
+
+264
+00:10:14,299 --> 00:10:16,740
+going to get this flat table and then
+要得到这张桌子，然后
+
+265
+00:10:16,940 --> 00:10:18,839
+when I take a flat table and turn that
+当我拿一张平桌子转身
+
+266
+00:10:19,039 --> 00:10:21,959
+into an extensive form game it's going
+进入广泛的形式游戏
+
+267
+00:10:22,159 --> 00:10:23,399
+to be an extensive form game that only
+成为一个广泛的形式游戏， 
+
+268
+00:10:23,600 --> 00:10:26,578
+has two levels with all this stuff in
+有两个级别的所有这些东西
+
+269
+00:10:26,778 --> 00:10:30,419
+one big equivalence class and so it's
+一个大等价类，所以
+
+270
+00:10:30,620 --> 00:10:31,769
+going to be an extensive form game that
+将是一个广泛的形式游戏， 
+
+271
+00:10:31,970 --> 00:10:32,938
+looks different from the one that I
+看起来和我的不同
+
+272
+00:10:33,139 --> 00:10:36,209
+started with but what is important is
+首先开始，但重要的是
+
+273
+00:10:36,409 --> 00:10:37,469
+that it's going to have the same
+它将具有相同的
+
+274
+00:10:37,669 --> 00:10:39,359
+strategy spaces the same sets of pure
+策略空间相同的纯集合
+
+275
+00:10:39,559 --> 00:10:41,549
+strategies from both agents and it's
+两家代理商的策略， 
+
+276
+00:10:41,750 --> 00:10:42,659
+going to have the same set of Nash
+将具有相同的纳什集
+
+277
+00:10:42,860 --> 00:10:45,179
+equilibria so although these games might
+平衡，所以尽管这些游戏可能
+
+278
+00:10:45,379 --> 00:10:46,769
+look different from the perspective of
+从不同的角度看
+
+279
+00:10:46,970 --> 00:10:48,508
+how they explicitly talk about time
+他们如何明确谈论时间
+
+280
+00:10:48,708 --> 00:10:50,039
+they're going to be strategically
+他们将在战略上
+
+281
+00:10:50,240 --> 00:10:52,889
+equivalent games and that's it for this
+等效的游戏，仅此而已
+
+282
+00:10:53,089 --> 00:10:58,089
+video
+视频
+

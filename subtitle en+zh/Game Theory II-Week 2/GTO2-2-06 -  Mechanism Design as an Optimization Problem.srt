@@ -1,0 +1,2370 @@
+﻿1
+00:00:00,000 --> 00:00:02,678
+this video is about how to see mechanism
+这个视频是关于如何看机制的
+
+2
+00:00:02,879 --> 00:00:05,639
+design as an optimization problem in
+设计中的优化问题
+
+3
+00:00:05,839 --> 00:00:09,430
+particular we can understand the task of
+特别是我们可以理解的任务
+
+4
+00:00:09,630 --> 00:00:12,729
+doing mechanism design as an
+做机构设计
+
+5
+00:00:12,929 --> 00:00:16,030
+optimization that asks us let me find
+要求我们的优化让我找到
+
+6
+00:00:16,230 --> 00:00:18,039
+the best mechanism according to some
+根据一些人的最佳机制
+
+7
+00:00:18,239 --> 00:00:19,720
+kind of definition of best that I'm
+我对最佳的定义
+
+8
+00:00:19,920 --> 00:00:22,300
+interested in given various constraints
+对给定的各种限制感兴趣
+
+9
+00:00:22,500 --> 00:00:24,370
+about how the mechanism has to behave
+关于该机制的行为方式
+
+10
+00:00:24,570 --> 00:00:25,780
+and what kinds of things it's allowed to
+以及允许什么样的事情
+
+11
+00:00:25,980 --> 00:00:27,669
+do so
+这样做
+
+12
+00:00:27,868 --> 00:00:29,109
+in this lecture what I'm going to tell
+在这堂课中我要讲的是
+
+13
+00:00:29,309 --> 00:00:31,419
+you about is some some of the common
+你大概是一些共同点
+
+14
+00:00:31,618 --> 00:00:34,000
+constraints that we impose on mechanism
+我们施加在机制上的约束
+
+15
+00:00:34,200 --> 00:00:36,099
+design and some of the different notions
+设计和一些不同的概念
+
+16
+00:00:36,299 --> 00:00:38,829
+of best that we try to optimize under
+我们尝试在以下方面进行优化的最佳方法
+
+17
+00:00:39,030 --> 00:00:42,518
+these constraints let me begin with
+这些限制让我开始
+
+18
+00:00:42,719 --> 00:00:43,839
+something that we've already spoken
+我们已经说过的话
+
+19
+00:00:44,039 --> 00:00:45,489
+about a bit truthfulness
+有点真实
+
+20
+00:00:45,689 --> 00:00:48,070
+but now I'll define it in the context of
+但现在我将在
+
+21
+00:00:48,270 --> 00:00:51,489
+transferable utility mechanisms so a
+可转移的效用机制
+
+22
+00:00:51,689 --> 00:00:53,619
+transferable utility mechanism is said
+据说可转让的效用机制
+
+23
+00:00:53,820 --> 00:00:55,899
+to be truthful if it is a direct
+如果是直接的话要诚实
+
+24
+00:00:56,100 --> 00:00:59,229
+mechanism and also if it's the case that
+机制，如果是这样的话
+
+25
+00:00:59,429 --> 00:01:02,529
+for all agents and for all valuations
+所有代理商和所有估值
+
+26
+00:01:02,729 --> 00:01:05,439
+that each agent might have an agent eyes
+每个特工可能都有特工的眼睛
+
+27
+00:01:05,640 --> 00:01:09,879
+equilibrium strategy is to disclose
+平衡策略是要披露
+
+28
+00:01:10,079 --> 00:01:12,700
+truthfully so to make his disclosure
+如此真实地进行披露
+
+29
+00:01:12,900 --> 00:01:19,450
+equal to his actual value next I'll say
+接下来我要说等于他的实际价值
+
+30
+00:01:19,650 --> 00:01:21,668
+that a mechanism is strictly Pareto
+严格来说是一种机制
+
+31
+00:01:21,868 --> 00:01:24,759
+efficient or for short just efficient if
+高效或简而言之就是高效
+
+32
+00:01:24,959 --> 00:01:28,058
+in equilibrium it selects a choice X
+在平衡中，它选择一个选择X 
+
+33
+00:01:28,259 --> 00:01:31,259
+with the following properties for all
+具有以下所有属性
+
+34
+00:01:31,459 --> 00:01:34,149
+joint valuation vectors that the agents
+代理商的联合估值向量
+
+35
+00:01:34,349 --> 00:01:35,950
+might have and notice that I'm not
+可能会注意到我不是
+
+36
+00:01:36,150 --> 00:01:37,959
+writing a V hat here so I'm saying the
+在这里写一个V帽，所以我说
+
+37
+00:01:38,159 --> 00:01:40,119
+actual evaluations the agents have for
+代理商的实际评估
+
+38
+00:01:40,319 --> 00:01:43,659
+all actual evaluations and for all other
+所有实际评估以及所有其他评估
+
+39
+00:01:43,859 --> 00:01:47,049
+choices that I might make X prime it's
+我可能会选择X作素的选择
+
+40
+00:01:47,250 --> 00:01:49,000
+the case that the sum of the agents
+代理人总和的情况
+
+41
+00:01:49,200 --> 00:01:52,140
+valuations for X is at least as big as
+ X的估值至少与
+
+42
+00:01:52,340 --> 00:01:54,819
+the sum of the other agents valuations
+其他代理商估值之和
+
+43
+00:01:55,019 --> 00:01:58,599
+for X prime so in other words a
+对于X素数，换句话说a 
+
+44
+00:01:58,799 --> 00:02:01,599
+mechanism is efficient if it selects the
+如果选择
+
+45
+00:02:01,799 --> 00:02:03,819
+choice that maximizes the sums of the
+选择最大化的总和
+
+46
+00:02:04,019 --> 00:02:07,390
+agents actual valuations or their actual
+代理商的实际估值或其实际值
+
+47
+00:02:07,590 --> 00:02:09,100
+utility is disregarding the payments
+公用事业无视付款
+
+48
+00:02:09,300 --> 00:02:12,039
+they'll have to make now you might
+他们必须现在就做
+
+49
+00:02:12,239 --> 00:02:13,510
+notice that in game theory
+注意博弈论中
+
+50
+00:02:13,710 --> 00:02:16,630
+a notion of purrito efficiency which
+纯粹效率的概念
+
+51
+00:02:16,830 --> 00:02:18,670
+seems to be different than this it
+似乎与此不同
+
+52
+00:02:18,870 --> 00:02:20,740
+doesn't talk about summing up valuations
+不谈论总结估值
+
+53
+00:02:20,939 --> 00:02:22,990
+instead it says something about not
+相反，它说了一些关于
+
+54
+00:02:23,189 --> 00:02:25,080
+being purrito dominated by any other
+被其他人支配的嘌呤
+
+55
+00:02:25,280 --> 00:02:28,450
+cell in the game matrix and that seems
+游戏矩阵中的单元格，这似乎
+
+56
+00:02:28,650 --> 00:02:30,300
+pretty different
+完全不同
+
+57
+00:02:30,500 --> 00:02:32,740
+typically when one defines the the game
+通常在定义游戏时
+
+58
+00:02:32,939 --> 00:02:34,630
+theoretic notion of freedom efficiency
+自由效率的理论概念
+
+59
+00:02:34,830 --> 00:02:36,730
+we make a big deal of the fact that
+我们做了很多事实， 
+
+60
+00:02:36,930 --> 00:02:38,380
+we're not just talking about summing up
+我们不只是在谈论总结
+
+61
+00:02:38,580 --> 00:02:39,760
+utilities we're talking about the fact
+我们正在谈论的实用程序
+
+62
+00:02:39,960 --> 00:02:41,890
+that utilities are incomparable here it
+实用程序在这里无与伦比
+
+63
+00:02:42,090 --> 00:02:43,330
+sounds like I'm saying free to
+听起来我在说... 
+
+64
+00:02:43,530 --> 00:02:45,700
+efficiency allows me just to sum things
+效率让我可以总结一下
+
+65
+00:02:45,900 --> 00:02:47,800
+up so so how is it that I'm getting away
+所以我要怎么走
+
+66
+00:02:48,000 --> 00:02:51,580
+with that well the answer is that if we
+有了答案，答案就是，如果我们
+
+67
+00:02:51,780 --> 00:02:53,290
+think about including the mechanism as
+考虑将机制包括在内
+
+68
+00:02:53,490 --> 00:02:55,780
+an agent if we kind of include them the
+一个代理商，如果我们将它们包括在内
+
+69
+00:02:55,979 --> 00:02:57,250
+person who's actually making these
+实际制作这些的人
+
+70
+00:02:57,449 --> 00:02:59,350
+payments as one of the agents when I
+我作为代理人之一付款时
+
+71
+00:02:59,550 --> 00:03:01,660
+think about efficiency then the payments
+考虑效率然后付款
+
+72
+00:03:01,860 --> 00:03:02,920
+kind of don't matter because they always
+没关系，因为他们总是
+
+73
+00:03:03,120 --> 00:03:05,280
+sum up to zero across all of the agents
+所有座席的总和为零
+
+74
+00:03:05,479 --> 00:03:08,920
+so so basically what's really going to
+所以基本上什么是真正的
+
+75
+00:03:09,120 --> 00:03:12,100
+matter is the choices that get made in
+重要的是做出的选择
+
+76
+00:03:12,300 --> 00:03:14,740
+terms of the the aggregate utility if
+聚合效用的条件，如果
+
+77
+00:03:14,939 --> 00:03:17,820
+I'm ever picking some outcome that is
+我从中挑选出一些结果
+
+78
+00:03:18,020 --> 00:03:20,260
+doesn't maximize the sum of the agents
+没有最大化代理商的总和
+
+79
+00:03:20,460 --> 00:03:22,990
+utilities it's always possible to find a
+实用程序，总是可以找到一个
+
+80
+00:03:23,189 --> 00:03:24,969
+different outcome in which the agents
+代理商的不同结果
+
+81
+00:03:25,169 --> 00:03:27,160
+utilities are maximized so there's more
+实用程序已最大化，因此还有更多
+
+82
+00:03:27,360 --> 00:03:29,740
+utility to go around and then I kind of
+实用程序，然后我有点
+
+83
+00:03:29,939 --> 00:03:31,270
+shuffle the payments around in such a
+在这种情况下将付款拖延
+
+84
+00:03:31,469 --> 00:03:33,400
+way that everybody is at least as happy
+每个人至少都快乐的方式
+
+85
+00:03:33,599 --> 00:03:35,680
+in that situation and the reason
+在那种情况下以及原因
+
+86
+00:03:35,879 --> 00:03:37,600
+intuitively that's possible to do is
+凭直觉，这可能是
+
+87
+00:03:37,800 --> 00:03:39,070
+that there's more money on the table and
+桌上还有更多的钱， 
+
+88
+00:03:39,270 --> 00:03:41,230
+so it's it's possible to shuffle things
+所以有可能洗牌
+
+89
+00:03:41,430 --> 00:03:42,700
+instead it's such a way that everybody
+而是这样一种方式，每个人
+
+90
+00:03:42,900 --> 00:03:45,640
+is happier in that circumstance if all
+在这种情况下，如果一切都更快乐
+
+91
+00:03:45,840 --> 00:03:47,800
+that didn't make sense to you then don't
+那对你没有意义，那就不要
+
+92
+00:03:48,000 --> 00:03:49,330
+worry about it what you really need to
+担心它您真正需要的是什么
+
+93
+00:03:49,530 --> 00:03:50,680
+know for the purposes of mechanism
+为了机制的目的而知道
+
+94
+00:03:50,879 --> 00:03:52,570
+design is that it really does make sense
+设计是真的有道理
+
+95
+00:03:52,770 --> 00:03:54,100
+to think of pre to efficiency as
+把提高效率视为
+
+96
+00:03:54,300 --> 00:03:56,500
+maximizing the sum of everyone's values
+最大化每个人的价值总和
+
+97
+00:03:56,699 --> 00:04:01,750
+not their payments just their values let
+不是他们的付款，而是他们的价值让
+
+98
+00:04:01,949 --> 00:04:04,770
+me also note we call this efficiency but
+我还注意到我们称这种效率为
+
+99
+00:04:04,969 --> 00:04:07,210
+there are various other notions of
+还有其他各种观念
+
+100
+00:04:07,409 --> 00:04:08,890
+efficiency that we might care about we
+我们可能关心的效率
+
+101
+00:04:09,090 --> 00:04:09,880
+might care about something like
+可能在乎像
+
+102
+00:04:10,080 --> 00:04:12,370
+computational efficiency how long the
+计算效率多长时间
+
+103
+00:04:12,569 --> 00:04:15,130
+mechanism actually takes to run in cases
+该机制实际上需要在某些情况下运行
+
+104
+00:04:15,330 --> 00:04:17,199
+like that we call this notion of strict
+这样我们称之为严格的概念
+
+105
+00:04:17,399 --> 00:04:19,689
+fritto efficiency economic efficiency to
+效率
+
+106
+00:04:19,889 --> 00:04:21,129
+distinguish it from those other notions
+与其他概念区分开来
+
+107
+00:04:21,329 --> 00:04:23,468
+we also call it social welfare
+我们也称其为社会福利
+
+108
+00:04:23,668 --> 00:04:25,600
+maximization for the obvious reason that
+由于明显的原因而最大化
+
+109
+00:04:25,800 --> 00:04:27,550
+we're we're caring about picking the
+我们正在关心挑选
+
+110
+00:04:27,750 --> 00:04:29,620
+outcome that really does maximize the
+确实确实使
+
+111
+00:04:29,819 --> 00:04:32,439
+sum of the agents utilities and I've
+代理商实用程序的总和，我已经
+
+112
+00:04:32,639 --> 00:04:34,360
+said this before but just to draw your
+说过这个，但只是为了画你的
+
+113
+00:04:34,560 --> 00:04:36,460
+attention to it one last time notice
+最后一次注意它
+
+114
+00:04:36,660 --> 00:04:38,259
+that here I'm talking about the agents
+我在这里谈论代理商
+
+115
+00:04:38,459 --> 00:04:41,418
+actual valuations
+实际估值
+
+116
+00:04:41,509 --> 00:04:43,360
+here's another constraint that we might
+这是我们可能遇到的另一个限制
+
+117
+00:04:43,560 --> 00:04:46,180
+care about budget balance I'll say that
+在乎预算平衡，我会说
+
+118
+00:04:46,379 --> 00:04:48,009
+a transferable utility mechanism is
+一种可转移的效用机制是
+
+119
+00:04:48,209 --> 00:04:50,800
+budget balanced when it's the case that
+在这种情况下，预算平衡
+
+120
+00:04:51,000 --> 00:04:53,050
+for all joint valuations that the agents
+对于代理商的所有联合估价
+
+121
+00:04:53,250 --> 00:04:56,980
+might have and where s is the
+可能有，其中s是
+
+122
+00:04:57,180 --> 00:04:59,740
+equilibrium strategy profile that they
+他们的均衡策略简介
+
+123
+00:04:59,939 --> 00:05:02,710
+follow their equilibrium strategies
+遵循他们的均衡策略
+
+124
+00:05:02,910 --> 00:05:06,278
+given their valuations yield payments
+考虑到他们的估值收益支付
+
+125
+00:05:06,478 --> 00:05:10,180
+that sum to zero so in other words what
+总和为零，换句话说， 
+
+126
+00:05:10,379 --> 00:05:12,278
+I'm saying here is that regardless of
+我的意思是，无论
+
+127
+00:05:12,478 --> 00:05:14,980
+what the agents types are in equilibrium
+什么是代理类型处于平衡状态
+
+128
+00:05:15,180 --> 00:05:17,259
+the mechanism both collects and
+该机制既收集又
+
+129
+00:05:17,459 --> 00:05:18,819
+disperses the same amount of money from
+从中分散等量的钱
+
+130
+00:05:19,019 --> 00:05:20,829
+the agents so the mechanism neither
+代理商，所以机制既没有
+
+131
+00:05:21,029 --> 00:05:24,278
+makes nor loses any money as long as the
+只要不赚钱也不会亏钱
+
+132
+00:05:24,478 --> 00:05:25,480
+agents follow their equilibrium
+特工遵循他们的平衡
+
+133
+00:05:25,680 --> 00:05:30,340
+strategies now you might you might
+现在的策略，您可能会
+
+134
+00:05:30,540 --> 00:05:32,079
+wonder why would I want the mechanism
+想知道我为什么要这种机制
+
+135
+00:05:32,279 --> 00:05:33,278
+not to make any money
+不赚钱
+
+136
+00:05:33,478 --> 00:05:35,860
+the answer is it might be that I really
+答案可能是我真的
+
+137
+00:05:36,060 --> 00:05:37,569
+want the money only to serve to get
+想要钱只是用来得到
+
+138
+00:05:37,769 --> 00:05:39,610
+around impossibility theorems and I
+围绕不可能定理，我
+
+139
+00:05:39,810 --> 00:05:41,050
+really just want the mechanism to make
+真的只是想让机制
+
+140
+00:05:41,250 --> 00:05:43,750
+good decisions on the other hand I might
+另一方面，我可能会做出好的决定
+
+141
+00:05:43,949 --> 00:05:45,460
+be running a mechanism and be perfectly
+运行机制，做到完美
+
+142
+00:05:45,660 --> 00:05:47,050
+happy to make money but just be
+乐于赚钱，但是只是
+
+143
+00:05:47,250 --> 00:05:48,670
+concerned about ever losing money in
+担心在
+
+144
+00:05:48,870 --> 00:05:50,949
+that case I would want a relaxed version
+那样的话我想要一个轻松的版本
+
+145
+00:05:51,149 --> 00:05:52,629
+of this condition called weak budget
+这种情况称为预算不足
+
+146
+00:05:52,829 --> 00:05:55,090
+balance and really the only difference
+平衡，实际上是唯一的区别
+
+147
+00:05:55,290 --> 00:05:57,278
+here is I take this equality and I
+这是我接受这种平等，我
+
+148
+00:05:57,478 --> 00:05:59,259
+replace it with an inequality that says
+用不等式代替它
+
+149
+00:05:59,459 --> 00:06:01,329
+I want to make sure that in equilibrium
+我想确保平衡
+
+150
+00:06:01,529 --> 00:06:03,100
+it's never the case that I lose any
+从来没有我输过任何东西
+
+151
+00:06:03,300 --> 00:06:04,870
+money but I'm quite happy to make a
+钱，但我很高兴赚到
+
+152
+00:06:05,069 --> 00:06:09,850
+profit and I can also make other kinds
+利润，我也可以做其他的
+
+153
+00:06:10,050 --> 00:06:11,170
+of variations so just to show you
+只是为了向您展示
+
+154
+00:06:11,370 --> 00:06:11,949
+another one
+另一个
+
+155
+00:06:12,149 --> 00:06:14,620
+it might be too strong to say that no
+可能很难说不
+
+156
+00:06:14,819 --> 00:06:16,270
+matter what the types of the agents are
+代理的类型是什么
+
+157
+00:06:16,470 --> 00:06:19,329
+I never lose any money or I never I
+我永远不会亏钱，或者我永远不会
+
+158
+00:06:19,529 --> 00:06:21,819
+never lose or gain any money I might
+永远不要失去或获得任何金钱
+
+159
+00:06:22,019 --> 00:06:24,069
+prefer to talk ex-ante across the agency
+宁愿在整个机构事前交谈
+
+160
+00:06:24,269 --> 00:06:25,778
+till ities I might I might like to say
+直到城市我可能想说
+
+161
+00:06:25,978 --> 00:06:28,240
+this mechanism is gonna get run many
+这种机制会运行很多
+
+162
+00:06:28,439 --> 00:06:30,370
+times I don't really care what happens
+我真的不在乎会发生什么
+
+163
+00:06:30,569 --> 00:06:32,500
+one time after another but I care about
+一次又一次，但我在乎
+
+164
+00:06:32,699 --> 00:06:35,949
+my kind of long-run profit or loss so I
+我的长期损益，所以我
+
+165
+00:06:36,149 --> 00:06:38,079
+want to say that on expectation over the
+想说的是对
+
+166
+00:06:38,279 --> 00:06:39,249
+agents valuation
+代理商评估
+
+167
+00:06:39,449 --> 00:06:41,949
+it's the case that I'm strictly budget
+确实是我严格的预算
+
+168
+00:06:42,149 --> 00:06:43,959
+balanced or if I prefer weekly budget
+平衡或如果我更喜欢每周预算
+
+169
+00:06:44,158 --> 00:06:50,259
+balanced here's yet another constraint
+平衡这里还有另一个约束
+
+170
+00:06:50,459 --> 00:06:52,028
+that we often care about
+我们经常在乎的
+
+171
+00:06:52,228 --> 00:06:54,699
+it's called individual rationality and
+这被称为个人理性， 
+
+172
+00:06:54,899 --> 00:06:56,410
+the idea of individual rationality is
+个人理性的思想是
+
+173
+00:06:56,610 --> 00:06:58,809
+that I want to encode the idea that
+我想对这个想法进行编码
+
+174
+00:06:59,009 --> 00:07:00,639
+agents might have a choice about whether
+代理商可能会选择是否
+
+175
+00:07:00,839 --> 00:07:02,860
+to participate in the mechanism and so I
+参与机制，所以我
+
+176
+00:07:03,060 --> 00:07:05,259
+want to make it so formally they don't
+想要正式地做到这一点，他们不想
+
+177
+00:07:05,459 --> 00:07:06,850
+have a choice right formally they just
+正式有选择权，他们只是
+
+178
+00:07:07,050 --> 00:07:07,959
+have to choose some action in the
+必须选择一些动作
+
+179
+00:07:08,158 --> 00:07:09,459
+mechanism and it's kind of too bad for
+机制，对于
+
+180
+00:07:09,658 --> 00:07:11,468
+them and payments get imposed on them
+他们和付款强加给他们
+
+181
+00:07:11,668 --> 00:07:13,088
+and they just have to pay whatever it
+他们只需要付出任何代价
+
+182
+00:07:13,288 --> 00:07:15,699
+gets imposed but in practice we might
+被强加但实际上我们可能
+
+183
+00:07:15,899 --> 00:07:16,600
+want to have a condition on the
+希望有一个条件
+
+184
+00:07:16,800 --> 00:07:19,149
+mechanism that says agents actually
+实际说代理的机制
+
+185
+00:07:19,348 --> 00:07:20,619
+would have liked to choose to be part of
+本来希望选择成为一部分
+
+186
+00:07:20,819 --> 00:07:22,989
+this mechanism and in particular we want
+这种机制，特别是我们想要的
+
+187
+00:07:23,189 --> 00:07:25,360
+to say your expected utility for
+说出您预期的效用
+
+188
+00:07:25,560 --> 00:07:27,189
+participating in the mechanism is no
+参与机制不是
+
+189
+00:07:27,389 --> 00:07:29,259
+worse than your expected utility from
+比您预期的效用差
+
+190
+00:07:29,459 --> 00:07:31,899
+staying at home in other words your
+换句话说，待在家里
+
+191
+00:07:32,098 --> 00:07:35,218
+expected utility is weakly positive so
+预期效用为弱正数，因此
+
+192
+00:07:35,418 --> 00:07:38,110
+for example I might care about this X
+例如我可能会在意这个X 
+
+193
+00:07:38,310 --> 00:07:40,509
+interim recall that X interim means that
+临时回忆X临时意味着
+
+194
+00:07:40,709 --> 00:07:42,519
+I know what my value is but I don't know
+我知道我的价值是什么，但我不知道
+
+195
+00:07:42,718 --> 00:07:45,490
+the values of anybody else so taking
+其他人的价值观
+
+196
+00:07:45,689 --> 00:07:47,769
+that whole idea that I would be happy to
+我很乐意的整个想法
+
+197
+00:07:47,968 --> 00:07:49,869
+participate in this mechanism knowing my
+知道我的参与机制
+
+198
+00:07:50,069 --> 00:07:51,490
+own value but not knowing everyone
+自己的价值，但不认识所有人
+
+199
+00:07:51,689 --> 00:07:52,959
+else's value here's how I would
+其他的价值就是我的意愿
+
+200
+00:07:53,158 --> 00:07:56,230
+formalize it I say for all agents and
+我对所有代理商都说正式化
+
+201
+00:07:56,430 --> 00:07:58,509
+for all valuations of that agent might
+该代理商的所有估值可能
+
+202
+00:07:58,709 --> 00:08:01,899
+have I'm going to look at the
+我要去看看
+
+203
+00:08:02,098 --> 00:08:04,778
+expectation over everybody else's
+对其他人的期望
+
+204
+00:08:04,978 --> 00:08:07,059
+valuations given my valuation in other
+鉴于我的其他估值
+
+205
+00:08:07,259 --> 00:08:08,379
+words I know the distribution over
+我知道的话分布
+
+206
+00:08:08,579 --> 00:08:10,600
+valuations and so once I observe my
+估值，所以一旦我观察到我的
+
+207
+00:08:10,800 --> 00:08:13,959
+value I can update my beliefs over
+可以更新我的信念
+
+208
+00:08:14,158 --> 00:08:16,028
+everyone else's values taking my own
+每个人的价值观都属于我自己
+
+209
+00:08:16,228 --> 00:08:17,980
+value into account for example our
+价值，例如我们的
+
+210
+00:08:18,180 --> 00:08:19,689
+values might be correlated and so I
+值可能是相关的，所以我
+
+211
+00:08:19,889 --> 00:08:20,980
+might believe different things about
+可能会相信不同的事情
+
+212
+00:08:21,180 --> 00:08:24,100
+your value once I know my value so
+你的价值，一旦我知道我的价值
+
+213
+00:08:24,300 --> 00:08:26,679
+knowing all of that I want to say that a
+知道所有这些，我想说
+
+214
+00:08:26,879 --> 00:08:29,379
+jedi's value for the choice that
+绝地的选择价值
+
+215
+00:08:29,579 --> 00:08:31,838
+actually gets made in equilibrium given
+实际上在给定的平衡
+
+216
+00:08:32,038 --> 00:08:35,139
+both his own equilibrium strategy and
+他自己的均衡策略和
+
+217
+00:08:35,339 --> 00:08:36,490
+the equilibrium strategies of everybody
+每个人的均衡策略
+
+218
+00:08:36,690 --> 00:08:42,878
+else his value for the choice - the
+否则他的选择价值- 
+
+219
+00:08:43,078 --> 00:08:45,370
+payment that he makes is greater than or
+他支付的款项大于或
+
+220
+00:08:45,570 --> 00:08:47,979
+equal to zero and again notice that this
+等于零，然后再次注意到
+
+221
+00:08:48,179 --> 00:08:50,109
+is all in equilibrium I'm not saying
+都处于平衡状态我不是在说
+
+222
+00:08:50,309 --> 00:08:52,299
+there's no way to lose in this man
+这个男人没有办法输
+
+223
+00:08:52,500 --> 00:08:53,979
+maybe if everyone else does some
+也许如果其他人都做一些
+
+224
+00:08:54,179 --> 00:08:56,559
+terrible thing then I could actually end
+可怕的事情然后我实际上可以结束
+
+225
+00:08:56,759 --> 00:08:58,059
+up losing on average but if everyone
+平均上升，但如果每个人
+
+226
+00:08:58,259 --> 00:09:00,370
+follows the equilibrium strategy then no
+遵循均衡策略，然后否
+
+227
+00:09:00,570 --> 00:09:03,129
+matter what my type is on average across
+不管我的平均水平是多少
+
+228
+00:09:03,330 --> 00:09:05,079
+everybody else's types I come out ahead
+每个人的类型我都领先
+
+229
+00:09:05,279 --> 00:09:07,479
+or I at least break even that's what X
+或我至少要达到X的收支平衡
+
+230
+00:09:07,679 --> 00:09:11,979
+interim individual rationality says of
+临时个人理性说
+
+231
+00:09:12,179 --> 00:09:13,359
+course I might want something stronger
+当然我可能想要更强的东西
+
+232
+00:09:13,559 --> 00:09:17,349
+so ex post individual rationality says I
+所以事后个人理性说我
+
+233
+00:09:17,549 --> 00:09:18,819
+don't want to average over everybody
+不想对所有人平均
+
+234
+00:09:19,019 --> 00:09:20,469
+else's types maybe I don't want to
+其他类型，也许我不想
+
+235
+00:09:20,669 --> 00:09:21,759
+average because I don't believe that I
+一般，因为我不相信我
+
+236
+00:09:21,960 --> 00:09:23,199
+actually know this distribution of
+实际上知道
+
+237
+00:09:23,399 --> 00:09:25,149
+everybody else's types or maybe I just
+其他人的类型，也许我只是
+
+238
+00:09:25,350 --> 00:09:27,009
+want a stronger condition that says I
+想要一个更坚强的条件，说我
+
+239
+00:09:27,210 --> 00:09:28,719
+don't ever want to be in a situation
+永远都不想遇到这种情况
+
+240
+00:09:28,919 --> 00:09:31,329
+where in equilibrium I would lose so
+在平衡中我会因此失去
+
+241
+00:09:31,529 --> 00:09:33,669
+here I get rid of this expectation over
+在这里，我摆脱了这种期望
+
+242
+00:09:33,870 --> 00:09:36,939
+types and I change this quantification
+类型，我更改此量化
+
+243
+00:09:37,139 --> 00:09:39,279
+over my value into a quantification over
+将我的价值量化为
+
+244
+00:09:39,480 --> 00:09:41,589
+everybody's values all at once so what I
+每个人的价值观都是一次
+
+245
+00:09:41,789 --> 00:09:45,099
+say is for all agents and for all joint
+对所有代理人和所有联合人员说
+
+246
+00:09:45,299 --> 00:09:46,809
+values that they all might have it's
+他们都可能拥有的价值观
+
+247
+00:09:47,009 --> 00:09:48,969
+always the case sort of point wise in
+总是在某种程度上明智
+
+248
+00:09:49,169 --> 00:09:53,679
+this set of values that my value for the
+这套价值是我对
+
+249
+00:09:53,879 --> 00:09:55,809
+choice that gets made - my payment is
+做出的选择-我的付款是
+
+250
+00:09:56,009 --> 00:09:57,669
+always greater than or equal to zero so
+总是大于或等于零，所以
+
+251
+00:09:57,870 --> 00:09:59,859
+this is a stronger condition if I'm
+如果我
+
+252
+00:10:00,059 --> 00:10:01,809
+ex-post individual rational I'm always
+事后个人理性我永远
+
+253
+00:10:02,009 --> 00:10:03,309
+going to be accepted of individual
+会被个人接受
+
+254
+00:10:03,509 --> 00:10:05,829
+rational but the reverse is not
+理性的，但反过来不是
+
+255
+00:10:06,029 --> 00:10:11,979
+necessarily true here's one last
+一定是真的，这是最后一个
+
+256
+00:10:12,179 --> 00:10:14,859
+condition to talk about tractability so
+关于易处理性的条件
+
+257
+00:10:15,059 --> 00:10:16,389
+far we've talked about economic
+到目前为止，我们已经谈到经济
+
+258
+00:10:16,589 --> 00:10:18,039
+conditions that talk about the nature of
+关于...的性质的条件
+
+259
+00:10:18,240 --> 00:10:19,599
+the choice that gets made by the
+由...做出的选择
+
+260
+00:10:19,799 --> 00:10:21,339
+mechanism or the nature of the payments
+付款机制或性质
+
+261
+00:10:21,539 --> 00:10:23,979
+that get imposed well here I want to say
+我想说的很好
+
+262
+00:10:24,179 --> 00:10:26,769
+that these actual functions the acts
+这些实际功能的行为
+
+263
+00:10:26,970 --> 00:10:28,809
+function that chooses the choice and the
+选择选项和功能的功能
+
+264
+00:10:29,009 --> 00:10:31,000
+P function that chooses the payments are
+选择付款的P函数是
+
+265
+00:10:31,200 --> 00:10:34,259
+each computable in polynomial time and
+每个可在多项式时间内计算
+
+266
+00:10:34,460 --> 00:10:36,219
+turns out that some of the mechanisms
+原来有些机制
+
+267
+00:10:36,419 --> 00:10:37,569
+that we're going to turn out to be
+我们将证明是
+
+268
+00:10:37,769 --> 00:10:39,159
+interested in don't have this property
+感兴趣的没有此属性
+
+269
+00:10:39,360 --> 00:10:42,099
+so it's sometimes the case that the
+所以有时候
+
+270
+00:10:42,299 --> 00:10:43,979
+computational problem of figuring out
+计算出的计算问题
+
+271
+00:10:44,179 --> 00:10:46,599
+what choice to make and how much to
+做出什么选择以及要做什么
+
+272
+00:10:46,799 --> 00:10:48,459
+charge everybody can be a hard
+收费每个人都很难
+
+273
+00:10:48,659 --> 00:10:50,079
+computational problem and what this
+计算问题以及这是什么
+
+274
+00:10:50,279 --> 00:10:52,449
+means is we might be worried that for
+意味着我们可能会担心
+
+275
+00:10:52,649 --> 00:10:54,339
+large inputs we just couldn't run the
+大量的投入我们根本无法运行
+
+276
+00:10:54,539 --> 00:10:55,750
+mechanism we wouldn't have enough time
+机制，我们将没有足够的时间
+
+277
+00:10:55,950 --> 00:10:58,479
+on any reasonable computational device
+在任何合理的计算设备上
+
+278
+00:10:58,679 --> 00:11:00,699
+to find out the answer and if that's
+找出答案，如果那是
+
+279
+00:11:00,899 --> 00:11:02,019
+true then there's something wrong with
+是的，那有什么问题
+
+280
+00:11:02,220 --> 00:11:03,370
+the mechanism because we might worry
+该机制，因为我们可能会担心
+
+281
+00:11:03,570 --> 00:11:05,679
+that we just couldn't run it so we might
+我们只是无法运行它，所以我们可能
+
+282
+00:11:05,879 --> 00:11:08,109
+like to make a restriction that says I
+喜欢说我的限制
+
+283
+00:11:08,309 --> 00:11:10,149
+want a guarantee that I can actually
+想要我可以保证
+
+284
+00:11:10,350 --> 00:11:14,229
+evaluate these functions tractable and a
+评估这些功能易于处理并
+
+285
+00:11:14,429 --> 00:11:15,939
+common definition of tractability in
+易处理性的通用定义
+
+286
+00:11:16,139 --> 00:11:18,069
+computer science is the guarantee that
+计算机科学是保证
+
+287
+00:11:18,269 --> 00:11:21,769
+something can be done in polynomial time
+可以在多项式时间内完成
+
+288
+00:11:22,220 --> 00:11:24,609
+okay so much for constraints that we
+很好的约束，我们
+
+289
+00:11:24,809 --> 00:11:26,500
+want to impose now let's think about
+现在要强加让我们考虑一下
+
+290
+00:11:26,700 --> 00:11:28,329
+objective functions that we might place
+我们可能放置的目标功能
+
+291
+00:11:28,529 --> 00:11:32,469
+on our mechanism here's one I might
+在我们的机制上，我可能会
+
+292
+00:11:32,669 --> 00:11:35,620
+actually like revenue so maybe I'm
+其实喜欢收入，所以也许我
+
+293
+00:11:35,820 --> 00:11:39,219
+selling something and I want a mechanism
+卖东西，我想要一种机制
+
+294
+00:11:39,419 --> 00:11:41,740
+that does the best that it can it
+尽其所能
+
+295
+00:11:41,940 --> 00:11:43,779
+satisfies various constraints maybe it's
+满足各种约束，也许是
+
+296
+00:11:43,980 --> 00:11:45,819
+going to ensure individual rationality
+要确保个人理性
+
+297
+00:11:46,019 --> 00:11:47,859
+so people will want to participate maybe
+所以人们可能想参加
+
+298
+00:11:48,059 --> 00:11:49,599
+it's gonna be a weekly budget balance so
+这将是每周预算余额，因此
+
+299
+00:11:49,799 --> 00:11:52,779
+that I know I never lose money but then
+我知道我永远不会亏钱，但是
+
+300
+00:11:52,980 --> 00:11:56,349
+maybe it's gonna be truthful but then
+也许会是真实的，但是
+
+301
+00:11:56,549 --> 00:11:57,279
+once these constraints are satisfied
+一旦满足这些约束
+
+302
+00:11:57,480 --> 00:11:59,258
+they're still going to be maybe a space
+他们仍然可能是一个空间
+
+303
+00:11:59,458 --> 00:12:00,399
+of different mechanisms that would
+不同的机制
+
+304
+00:12:00,600 --> 00:12:02,439
+satisfy those constraints and within
+满足这些约束并且在
+
+305
+00:12:02,639 --> 00:12:04,209
+that space I might want to say that I
+这个空间我可能想说
+
+306
+00:12:04,409 --> 00:12:06,399
+want to pick the mechanism that gives me
+想选择给我的机制
+
+307
+00:12:06,600 --> 00:12:08,258
+as much revenue as possible
+尽可能多的收入
+
+308
+00:12:08,458 --> 00:12:10,419
+so I'll call that mechanism revenue
+所以我称该机制为收益
+
+309
+00:12:10,620 --> 00:12:15,008
+maximizing and a mechanism is revenue
+最大化，机制就是收益
+
+310
+00:12:15,208 --> 00:12:18,339
+maximizing when among all functions X
+在所有功能中最大化X 
+
+311
+00:12:18,539 --> 00:12:20,169
+and P that satisfy whatever other
+和P满足其他条件
+
+312
+00:12:20,370 --> 00:12:22,479
+constraints it is that we care about the
+约束是我们关心
+
+313
+00:12:22,679 --> 00:12:25,899
+mechanism selects those that maximizes
+机制选择那些最大化
+
+314
+00:12:26,100 --> 00:12:28,649
+the expectation over the agents types of
+对代理商类型的期望
+
+315
+00:12:28,850 --> 00:12:32,289
+the sum of the payments where this
+付款总额
+
+316
+00:12:32,490 --> 00:12:34,269
+denotes the agents equilibrium strategy
+表示代理商均衡策略
+
+317
+00:12:34,470 --> 00:12:38,439
+profile notice here I'm using the the
+我在这里使用的个人资料通知
+
+318
+00:12:38,639 --> 00:12:40,029
+theta notation for types instead of
+类型的theta符号代替
+
+319
+00:12:40,230 --> 00:12:42,189
+values but but the the sense of it is
+价值观，但其意义在于
+
+320
+00:12:42,389 --> 00:12:45,490
+the same so the next of objective
+一样，所以下一个目标
+
+321
+00:12:45,690 --> 00:12:46,899
+function that we might care about is
+我们可能关心的功能是
+
+322
+00:12:47,100 --> 00:12:48,729
+actually to minimize the amount of
+实际上最小化
+
+323
+00:12:48,929 --> 00:12:50,469
+revenue that the mechanism collects and
+机制收取的收入和
+
+324
+00:12:50,669 --> 00:12:52,839
+this makes sense if I don't actually
+如果我实际上不这样做，这是有道理的
+
+325
+00:12:53,039 --> 00:12:54,789
+want the mechanism to make money but I
+想要赚钱的机制，但我
+
+326
+00:12:54,990 --> 00:12:56,379
+just wanted to make a good decision and
+只是想做出一个好的决定而
+
+327
+00:12:56,580 --> 00:12:58,719
+the only reason that I have payments at
+我付款的唯一原因
+
+328
+00:12:58,919 --> 00:13:01,569
+all is that quasi-linear or mechanism
+都是准线性或机制
+
+329
+00:13:01,769 --> 00:13:04,899
+design is easier than mechanism design
+设计比机构设计容易
+
+330
+00:13:05,100 --> 00:13:07,508
+when I don't have payments based on
+当我没有付款依据时
+
+331
+00:13:07,708 --> 00:13:08,679
+impossibility theorems that you've
+你已经不可能定理
+
+332
+00:13:08,879 --> 00:13:12,789
+already seen so and I might just prefer
+已经看过了，我可能更喜欢
+
+333
+00:13:12,990 --> 00:13:14,199
+strict budget balance that might be the
+严格的预算余额可能是
+
+334
+00:13:14,399 --> 00:13:15,939
+best thing but there are cases where
+最好的事情，但在某些情况下
+
+335
+00:13:16,139 --> 00:13:17,959
+strict budget balance is impossible to
+严格的预算平衡是不可能的
+
+336
+00:13:18,159 --> 00:13:19,549
+so I might just want to minimize the
+所以我可能只想最小化
+
+337
+00:13:19,750 --> 00:13:22,490
+amount of revenue that I collect so what
+我收取的收入金额是多少
+
+338
+00:13:22,690 --> 00:13:24,679
+I might do is make it constraint for
+我可能会做的是限制它
+
+339
+00:13:24,879 --> 00:13:26,240
+week budget balance say at least I never
+周预算余额说，至少我从来没有
+
+340
+00:13:26,440 --> 00:13:27,919
+want to lose money and then I want to
+想亏钱，然后我想
+
+341
+00:13:28,120 --> 00:13:30,709
+collect as little as possible so I can
+收集尽可能少的，所以我可以
+
+342
+00:13:30,909 --> 00:13:34,459
+formalize this here by saying saying
+通过说说来在这里正式化
+
+343
+00:13:34,659 --> 00:13:36,589
+what follows let me just note what you
+接下来的事情让我只注意你
+
+344
+00:13:36,789 --> 00:13:37,969
+see here at the bottom before I go
+在我走之前，先在底部看到
+
+345
+00:13:38,169 --> 00:13:40,099
+through the definition I'm just for fun
+通过定义我只是为了好玩
+
+346
+00:13:40,299 --> 00:13:42,169
+I'm gonna do this as a worst case over
+我要在最坏的情况下这样做
+
+347
+00:13:42,370 --> 00:13:43,939
+evaluations rather than an expectation
+评价而不是期望
+
+348
+00:13:44,139 --> 00:13:47,719
+like I did in the previous slide so I'll
+就像我在上一张幻灯片中所做的那样， 
+
+349
+00:13:47,919 --> 00:13:49,699
+say that a transferable utility
+说一个可转让的实用程序
+
+350
+00:13:49,899 --> 00:13:52,039
+mechanism is revenue minimizing when
+机制是收益最小化
+
+351
+00:13:52,240 --> 00:13:54,679
+again considering all of the functions X
+再次考虑所有功能X 
+
+352
+00:13:54,879 --> 00:13:56,179
+and P that satisfy whatever other
+和P满足其他条件
+
+353
+00:13:56,379 --> 00:13:58,309
+constraints we have the mechanism
+约束，我们有机制
+
+354
+00:13:58,509 --> 00:14:01,250
+selects those that minimize the maximum
+选择那些使最大值最小的那些
+
+355
+00:14:01,450 --> 00:14:08,029
+over the agents valuations of the sum of
+超过代理商总和的估值
+
+356
+00:14:08,230 --> 00:14:09,709
+the payments in their equilibrium
+付款处于均衡状态
+
+357
+00:14:09,909 --> 00:14:13,159
+strategy profile so here what I'm saying
+策略简介，这就是我要说的
+
+358
+00:14:13,360 --> 00:14:15,559
+is that in the worst case worst from the
+是最坏的情况是
+
+359
+00:14:15,759 --> 00:14:17,000
+point of view of the minimization
+最小化的观点
+
+360
+00:14:17,200 --> 00:14:18,919
+problem so in the case where the
+问题是在
+
+361
+00:14:19,120 --> 00:14:21,349
+valuations cause me to collect the most
+估价使我收集最多
+
+362
+00:14:21,549 --> 00:14:23,149
+revenue I want to make that number as
+我想将这个数字设为
+
+363
+00:14:23,350 --> 00:14:25,039
+little as possible and of course I can
+尽可能少，我当然可以
+
+364
+00:14:25,240 --> 00:14:28,879
+do this with an average as well okay
+平均也可以做到这一点
+
+365
+00:14:29,080 --> 00:14:30,289
+another thing I might care about is
+我可能关心的另一件事是
+
+366
+00:14:30,490 --> 00:14:32,240
+fairness I might want to say my
+公平我可能想说我的
+
+367
+00:14:32,440 --> 00:14:35,359
+mechanism is as fair as possible now
+现在的机制是尽可能公平的
+
+368
+00:14:35,559 --> 00:14:36,709
+this might be something I want to say
+这也许是我想说的
+
+369
+00:14:36,909 --> 00:14:38,179
+but it turns out it's pretty hard to
+但事实证明，很难
+
+370
+00:14:38,379 --> 00:14:40,209
+formalize so let me give you an example
+形式化，让我给你一个例子
+
+371
+00:14:40,409 --> 00:14:42,829
+consider these two cases and ask
+考虑这两种情况并询问
+
+372
+00:14:43,029 --> 00:14:44,269
+yourself which of them do you think it's
+自己，您认为其中的哪个
+
+373
+00:14:44,470 --> 00:14:47,509
+fair is fair so first of all I might ask
+公平是公平的，所以首先我可能会问
+
+374
+00:14:47,710 --> 00:14:50,029
+what about a case where I charge all of
+如果我收取全部费用
+
+375
+00:14:50,230 --> 00:14:51,740
+the agents a hundred dollars and I make
+代理商一百美元，我赚
+
+376
+00:14:51,940 --> 00:14:54,469
+a choice that everybody hates secondly
+每个人都讨厌的选择
+
+377
+00:14:54,669 --> 00:14:56,689
+consider a case where I charge all
+考虑一下我全部负责的情况
+
+378
+00:14:56,889 --> 00:14:59,539
+agents zero dollars and I make a choice
+代理商零美元，我做出选择
+
+379
+00:14:59,740 --> 00:15:01,429
+that some of them hate and some of them
+他们当中有些人讨厌而另一些人
+
+380
+00:15:01,629 --> 00:15:05,359
+like well there's a sense in which the
+就像在某种意义上
+
+381
+00:15:05,559 --> 00:15:07,609
+first one is really fair because it's
+第一个很公平，因为
+
+382
+00:15:07,809 --> 00:15:10,279
+the same for everybody but we still sort
+每个人都一样，但我们仍然在排序
+
+383
+00:15:10,480 --> 00:15:11,750
+of have the sense that the second one is
+的感觉，第二个是
+
+384
+00:15:11,950 --> 00:15:13,339
+better we wouldn't want a sense of
+更好的是，我们不想
+
+385
+00:15:13,539 --> 00:15:14,929
+fairness that just talks about equality
+谈论平等的公平
+
+386
+00:15:15,129 --> 00:15:16,969
+because doing something terrible to
+因为做一些可怕的事情
+
+387
+00:15:17,169 --> 00:15:19,189
+everybody doesn't seem like a good way
+每个人似乎都不是一个好方法
+
+388
+00:15:19,389 --> 00:15:22,069
+to design a mechanism so so I'd like
+设计一种机制，所以我想
+
+389
+00:15:22,269 --> 00:15:23,509
+some kind of definition of fairness then
+那么对公平的某种定义
+
+390
+00:15:23,710 --> 00:15:25,069
+nevertheless says that the second thing
+尽管如此，第二件事
+
+391
+00:15:25,269 --> 00:15:28,159
+is better than the first thing and their
+比第一件事和他们的要好
+
+392
+00:15:28,360 --> 00:15:29,629
+variety of different definitions but
+各种不同的定义，但是
+
+393
+00:15:29,830 --> 00:15:31,069
+here's one that I like
+这是我喜欢的一个
+
+394
+00:15:31,269 --> 00:15:35,349
+max-min fairness so this says I want to
+最大最小公平，所以这说我想
+
+395
+00:15:35,549 --> 00:15:37,819
+look over all the agents and how they do
+查看所有代理商及其行为
+
+396
+00:15:38,019 --> 00:15:40,189
+in the mechanism figure out who is the
+在机制中找出谁是
+
+397
+00:15:40,389 --> 00:15:42,620
+least happy and then make that person
+最不开心，然后让那个人
+
+398
+00:15:42,820 --> 00:15:44,719
+the happiest so I want to look at the
+最幸福的，所以我想看看
+
+399
+00:15:44,919 --> 00:15:47,539
+person in society who gets sort of the
+社会上的人
+
+400
+00:15:47,740 --> 00:15:49,549
+worst deal in this mechanism and then
+这种机制最糟糕的交易，然后
+
+401
+00:15:49,750 --> 00:15:50,959
+how things become as good as possible
+事情如何变得尽可能好
+
+402
+00:15:51,159 --> 00:15:53,299
+for that person so I might recognize
+为那个人，所以我可能会意识到
+
+403
+00:15:53,500 --> 00:15:54,740
+that there's going to be some inequality
+将会有一些不平等
+
+404
+00:15:54,940 --> 00:15:57,169
+in my mechanism but I'm going to focus
+在我的机制中，但我要集中精力
+
+405
+00:15:57,370 --> 00:15:59,689
+on the worst outcome and make it as good
+在最坏的结果上，并使其表现出色
+
+406
+00:15:59,889 --> 00:16:05,299
+as I can so I'll say formally then a
+尽我所能，我会正式说
+
+407
+00:16:05,500 --> 00:16:08,719
+mechanism is maximum fare when among the
+在以下情况下，该机制是最高票价： 
+
+408
+00:16:08,919 --> 00:16:10,490
+functions X and P that satisfy whatever
+满足任何条件的函数X和P 
+
+409
+00:16:10,690 --> 00:16:12,769
+other constraints that I have the
+我有的其他限制
+
+410
+00:16:12,970 --> 00:16:16,370
+mechanism selects those that maximizes
+机制选择那些最大化
+
+411
+00:16:16,570 --> 00:16:19,909
+the expectation over the agents values
+对代理商价值的期望
+
+412
+00:16:20,110 --> 00:16:25,578
+of the minimum over the agents of their
+超过其代理商的最低数量
+
+413
+00:16:25,778 --> 00:16:28,899
+expected utility so I want to maximize
+预期的效用，所以我想最大化
+
+414
+00:16:29,100 --> 00:16:35,700
+the expected value of the worst case
+最坏情况的期望值
+
+415
+00:16:37,019 --> 00:16:38,779
+here's the last thing I want to talk
+这是我想谈的最后一件事
+
+416
+00:16:38,980 --> 00:16:42,339
+about price of Anarchy minimization so
+关于无政府状态最小化的价格
+
+417
+00:16:42,539 --> 00:16:44,448
+before when I talked about revenue
+在我谈到收入之前
+
+418
+00:16:44,649 --> 00:16:46,729
+minimization I was kind of relaxing
+最小化我有点放松
+
+419
+00:16:46,929 --> 00:16:48,620
+strict budget balance in a case where I
+如果我有严格的预算平衡
+
+420
+00:16:48,820 --> 00:16:50,029
+couldn't really have strict budget
+真的没有严格的预算
+
+421
+00:16:50,230 --> 00:16:52,000
+balance I said well let me take
+平衡我说得好让我接受
+
+422
+00:16:52,200 --> 00:16:54,169
+basically let me take this idea of
+基本上让我接受这个想法
+
+423
+00:16:54,370 --> 00:16:55,909
+collecting little revenue and put it
+收取很少的收入并投入
+
+424
+00:16:56,110 --> 00:16:58,128
+into the objective function I can do the
+进入目标函数，我可以做到
+
+425
+00:16:58,328 --> 00:17:00,229
+same thing with efficiency so it might
+有效率的同一件事，所以可能
+
+426
+00:17:00,429 --> 00:17:02,689
+be that strict efficiency is impossible
+严格的效率是不可能的
+
+427
+00:17:02,889 --> 00:17:04,339
+or is too costly in terms of other
+或在其他方面过于昂贵
+
+428
+00:17:04,539 --> 00:17:05,419
+things that I care about in the
+我在乎的事情
+
+429
+00:17:05,619 --> 00:17:07,579
+mechanism and so I might put that into
+机制，所以我可能会将其纳入
+
+430
+00:17:07,779 --> 00:17:09,529
+the objective function and say I want a
+目标函数，说我想要一个
+
+431
+00:17:09,730 --> 00:17:11,269
+mechanism that is as close to efficient
+接近效率的机制
+
+432
+00:17:11,470 --> 00:17:14,210
+as possible so in particular I may want
+尽可能的特别是我可能想要
+
+433
+00:17:14,410 --> 00:17:17,059
+to minimize the worst case ratio between
+使之间的最坏情况比率最小化
+
+434
+00:17:17,259 --> 00:17:19,339
+the optimal social welfare that could be
+可能的最佳社会福利
+
+435
+00:17:19,539 --> 00:17:21,319
+achieved and the social welfare that the
+实现的社会福利
+
+436
+00:17:21,519 --> 00:17:23,569
+mechanism actually does achieve and this
+机制实际上确实实现了这一点
+
+437
+00:17:23,769 --> 00:17:25,579
+ratio is called the price of Anarchy
+比率称为无政府状态的价格
+
+438
+00:17:25,779 --> 00:17:27,769
+it's the difference between the very
+这是非常
+
+439
+00:17:27,970 --> 00:17:29,149
+best thing that could happen and the
+可能发生的最好的事情
+
+440
+00:17:29,349 --> 00:17:30,979
+thing that actually happens when agents
+代理商实际发生的事情
+
+441
+00:17:31,179 --> 00:17:33,909
+act strategically in equilibrium so
+在均衡状态下采取战略行动
+
+442
+00:17:34,109 --> 00:17:36,019
+formally a transferable utility
+正式可转让的实用程序
+
+443
+00:17:36,220 --> 00:17:38,059
+mechanism minimizes the price of Anarchy
+机制将无政府状态的价格降至最低
+
+444
+00:17:38,259 --> 00:17:41,779
+when among all the functions X and P
+在所有功能X和P中
+
+445
+00:17:41,980 --> 00:17:43,669
+that satisfy the other constraints it
+满足其他约束
+
+446
+00:17:43,869 --> 00:17:46,490
+selects those that minimize this ratio
+选择那些最小化此比率的
+
+447
+00:17:46,690 --> 00:17:51,979
+so the ratio is the maximum over all of
+因此比率是所有
+
+448
+00:17:52,179 --> 00:17:54,139
+the choices that could be made of the
+可以做出的选择
+
+449
+00:17:54,339 --> 00:17:58,240
+sum of the agents utilities divided by
+代理商效用之和除以
+
+450
+00:17:58,440 --> 00:18:02,240
+so this is the social welfare this is
+所以这是社会福利
+
+451
+00:18:02,440 --> 00:18:03,889
+the best social welfare that I could
+我能做到的最好的社会福利
+
+452
+00:18:04,089 --> 00:18:07,460
+have and I'm going to divide that by the
+有，我将除以
+
+453
+00:18:07,660 --> 00:18:10,309
+sum over all the agents of the values
+将所有值的主体相加
+
+454
+00:18:10,509 --> 00:18:12,469
+that they actually obtain in equilibrium
+他们实际上在平衡中获得的
+
+455
+00:18:12,669 --> 00:18:13,779
+for the choice that actually gets made
+对于实际做出的选择
+
+456
+00:18:13,980 --> 00:18:20,509
+and I'm going to look in the worst case
+我要看最坏的情况
+
+457
+00:18:20,710 --> 00:18:23,210
+here over all values I'm going to look
+在这里，我要看的所有价值观
+
+458
+00:18:23,410 --> 00:18:25,399
+at the the set of values that makes this
+在使这
+
+459
+00:18:25,599 --> 00:18:28,009
+as bad as it can be and then I'm going
+尽其所能然后我要去
+
+460
+00:18:28,210 --> 00:18:29,960
+to try to minimize this by choosing X
+尝试通过选择X将其最小化
+
+461
+00:18:30,160 --> 00:18:31,879
+and P that make this worst case price of
+和P使得这个最坏情况的价格
+
+462
+00:18:32,079 --> 00:18:37,490
+Anarchy as little as it can be so those
+无政府状态越少越好
+
+463
+00:18:37,690 --> 00:18:39,019
+are all of the constraints and objective
+是所有的约束和目标
+
+464
+00:18:39,220 --> 00:18:40,639
+functions that I'm going to define for
+我将要定义的功能
+
+465
+00:18:40,839 --> 00:18:42,710
+you today overall you can kind of
+您今天总体上可以
+
+466
+00:18:42,910 --> 00:18:44,779
+imagine just listing them all and
+想象一下，只列出它们， 
+
+467
+00:18:44,980 --> 00:18:46,099
+essentially having an optimization
+本质上有优化
+
+468
+00:18:46,299 --> 00:18:48,200
+problem that says I want to find the X
+我想找到X的问题
+
+469
+00:18:48,400 --> 00:18:51,409
+and the P that maximize or minimize
+和最大化或最小化的P 
+
+470
+00:18:51,609 --> 00:18:53,719
+whatever objective function I care about
+我关心的任何目标函数
+
+471
+00:18:53,919 --> 00:18:56,029
+subject to various constraints on how X
+受到X的各种限制
+
+472
+00:18:56,230 --> 00:18:58,099
+and P work in terms of things like
+和P在诸如
+
+473
+00:18:58,299 --> 00:19:00,409
+budget individual rationality
+预算个人理性
+
+474
+00:19:00,609 --> 00:19:05,609
+truthfulness and so on
+真实性等
+

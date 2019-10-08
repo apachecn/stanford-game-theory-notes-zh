@@ -1,0 +1,1670 @@
+﻿1
+00:00:00,000 --> 00:00:02,079
+hi folks so let's talk a little bit
+大家好，让我们谈一点
+
+2
+00:00:02,279 --> 00:00:04,209
+about a first price auction and bidding
+关于第一次价格拍卖和竞标
+
+3
+00:00:04,410 --> 00:00:06,549
+in a first price auction so when we look
+在第一次价格拍卖中，所以当我们看
+
+4
+00:00:06,750 --> 00:00:08,229
+at second price auctions there's this
+在第二价格拍卖中有这个
+
+5
+00:00:08,429 --> 00:00:10,780
+wonderful property that derives from
+源自的奇妙财产
+
+6
+00:00:10,980 --> 00:00:14,169
+Vickrey style arguments that people have
+人们有维克瑞风格的论点
+
+7
+00:00:14,369 --> 00:00:16,210
+a dominant strategy to be to bid their
+竞标他们的主要策略
+
+8
+00:00:16,410 --> 00:00:18,519
+actual true valuation since they can't
+实际的真实估值，因为他们无法
+
+9
+00:00:18,719 --> 00:00:19,989
+affect the price all they can do is
+影响价格，他们所能做的就是
+
+10
+00:00:20,189 --> 00:00:21,220
+affect whether they're getting it good
+影响他们是否过得好
+
+11
+00:00:21,420 --> 00:00:22,900
+or not and they want to get the good
+还是不，他们想得到好的
+
+12
+00:00:23,100 --> 00:00:24,909
+when their values above the next highest
+当它们的值高于下一个最高值时
+
+13
+00:00:25,109 --> 00:00:27,489
+bid in first price auctions you're
+参与您的首次价格拍卖
+
+14
+00:00:27,689 --> 00:00:31,870
+actually paying what you bid and so if
+实际支付您的出价，如果
+
+15
+00:00:32,070 --> 00:00:34,358
+you tell people your valuation as your
+你告诉别人你的估值是你的
+
+16
+00:00:34,558 --> 00:00:37,928
+bid and you win you're going to end up
+出价，您赢了，您将要结束
+
+17
+00:00:38,128 --> 00:00:40,000
+with with no surplus because you're
+没有盈余，因为你
+
+18
+00:00:40,200 --> 00:00:41,619
+paying exactly what you think the items
+完全按照您的想法付款
+
+19
+00:00:41,820 --> 00:00:44,169
+worth you get nothing out of it so here
+值得你一无所获，所以在这里
+
+20
+00:00:44,369 --> 00:00:45,279
+you're going to have an incentive to
+你将有动力去
+
+21
+00:00:45,479 --> 00:00:47,709
+shade your bid and that means that the
+遮盖您的出价，这意味着
+
+22
+00:00:47,909 --> 00:00:49,538
+bidding and first price auctions we're
+拍卖和第一价格拍卖
+
+23
+00:00:49,738 --> 00:00:51,038
+going to solve as an equilibrium as a
+将作为一个平衡来解决
+
+24
+00:00:51,238 --> 00:00:52,838
+base in equilibrium we're not going to
+在均衡基础上，我们不会
+
+25
+00:00:53,039 --> 00:00:54,099
+have dominant strategies and things
+有主导策略和事物
+
+26
+00:00:54,299 --> 00:00:55,928
+you're going to be more complicated so
+你会变得更复杂
+
+27
+00:00:56,128 --> 00:00:58,599
+let's start by just comparing the first
+让我们从比较第一个开始
+
+28
+00:00:58,799 --> 00:01:00,158
+price option to another class of
+另一类的价格选择
+
+29
+00:01:00,359 --> 00:01:02,588
+auctions the Dutch auctions and just
+拍卖荷兰拍卖会， 
+
+30
+00:01:02,789 --> 00:01:03,969
+noting that these things are
+注意到这些东西是
+
+31
+00:01:04,170 --> 00:01:06,310
+strategically equivalent and what does
+战略上等价的，做什么
+
+32
+00:01:06,510 --> 00:01:07,810
+that mean in terms of strategically
+在战略上意味着
+
+33
+00:01:08,010 --> 00:01:10,450
+equivalent it means that as a function
+等价意味着它是一个功能
+
+34
+00:01:10,650 --> 00:01:15,219
+of the valuations of the individuals the
+个人的估值
+
+35
+00:01:15,420 --> 00:01:17,259
+outcomes are going to be the same in
+结果将是相同的
+
+36
+00:01:17,459 --> 00:01:21,119
+terms of the eventual payments and
+最终付款条款和
+
+37
+00:01:21,319 --> 00:01:23,619
+allocations of the objects and in
+对象和对象的分配
+
+38
+00:01:23,819 --> 00:01:25,539
+particular there's a mapping between the
+特别是在
+
+39
+00:01:25,739 --> 00:01:28,090
+strategies in these two games that say
+这两个游戏中的策略说
+
+40
+00:01:28,290 --> 00:01:30,369
+that for an equilibrium in one of them
+为了其中之一的平衡
+
+41
+00:01:30,569 --> 00:01:32,319
+we find an equivalent equilibrium and
+我们找到一个等效的平衡
+
+42
+00:01:32,519 --> 00:01:34,149
+the other one and in particular just to
+另一个，尤其是
+
+43
+00:01:34,349 --> 00:01:35,528
+understand what's going on here
+了解这里发生了什么
+
+44
+00:01:35,728 --> 00:01:39,969
+in both of these auctions you've got to
+在这两次拍卖中，您必须
+
+45
+00:01:40,170 --> 00:01:42,278
+make a decision on how much you're
+决定你要多少钱
+
+46
+00:01:42,478 --> 00:01:44,649
+willing to bid conditional on it being
+愿意以此为条件出价
+
+47
+00:01:44,849 --> 00:01:46,959
+the highest bid and not knowing anything
+最高出价，一无所知
+
+48
+00:01:47,159 --> 00:01:49,149
+else about the other individuals values
+关于其他个人的价值观
+
+49
+00:01:49,349 --> 00:01:51,878
+so Dutch auctions are an extensive form
+因此荷兰式拍卖是广泛的形式
+
+50
+00:01:52,078 --> 00:01:53,980
+so basically what's happening is that
+所以基本上发生的是
+
+51
+00:01:54,180 --> 00:01:56,049
+the price starts at a very high level it
+价格从很高的水平开始
+
+52
+00:01:56,250 --> 00:01:58,778
+starts dropping down and then we keep
+开始下降，然后我们继续
+
+53
+00:01:58,978 --> 00:02:01,329
+going until somebody grabs it okay now
+直到有人抓住它好了
+
+54
+00:02:01,530 --> 00:02:03,819
+once you grab it what do you know all
+一旦你抓住它，你知道什么
+
+55
+00:02:04,019 --> 00:02:06,429
+you know is you grabbed it at some price
+你知道你以一定的价格抢了吗
+
+56
+00:02:06,629 --> 00:02:10,000
+and everyone else is still below you so
+而且其他人仍然在你下方
+
+57
+00:02:10,199 --> 00:02:12,969
+beforehand I could just start a state a
+事先我可以开始一个状态
+
+58
+00:02:13,169 --> 00:02:13,700
+price and
+价格和
+
+59
+00:02:13,900 --> 00:02:15,649
+okay look if nobody's grabbed it so far
+好吧，看看到目前为止，没有人抓住它
+
+60
+00:02:15,848 --> 00:02:17,239
+at this price this is what I'm going to
+以这个价格，这就是我要去的
+
+61
+00:02:17,438 --> 00:02:19,069
+be willing to bid so conditional on me
+愿意出价以我为条件
+
+62
+00:02:19,269 --> 00:02:20,959
+being the highest this is what I'm
+我是最高的
+
+63
+00:02:21,158 --> 00:02:23,780
+willing to put in and so that strategy
+愿意投入等等策略
+
+64
+00:02:23,979 --> 00:02:25,670
+of figuring out where you want the clock
+弄清楚你想要时钟的地方
+
+65
+00:02:25,870 --> 00:02:27,530
+to go down to before you grab it is
+在你抓住它之前下降到
+
+66
+00:02:27,729 --> 00:02:29,450
+equivalent to just writing down your
+相当于只写下您的
+
+67
+00:02:29,650 --> 00:02:31,459
+value in a piece of paper and saying
+在一张纸上说的价值
+
+68
+00:02:31,658 --> 00:02:34,399
+okay the highest person wins because I
+好吧，最高的人赢了，因为我
+
+69
+00:02:34,598 --> 00:02:37,280
+have to make a decision on how much I'm
+必须决定我多少钱
+
+70
+00:02:37,479 --> 00:02:39,618
+willing to pay conditional on that being
+愿意为此付出条件
+
+71
+00:02:39,818 --> 00:02:41,539
+more than what everybody else wrote on
+比其他人写的更多
+
+72
+00:02:41,739 --> 00:02:47,420
+their slips of paper okay so the we end
+他们的纸条好吧，所以我们结束了
+
+73
+00:02:47,620 --> 00:02:50,360
+up with the the same strategic analysis
+进行相同的战略分析
+
+74
+00:02:50,560 --> 00:02:53,629
+basically why do we see both of these
+基本上为什么我们看到这两个
+
+75
+00:02:53,829 --> 00:02:55,310
+different kinds of auctions still use
+各种拍卖仍在使用
+
+76
+00:02:55,509 --> 00:02:58,099
+and practice then so one nice thing
+然后练习，那么一件好事
+
+77
+00:02:58,299 --> 00:03:00,200
+about first price auction sealed bid
+关于第一次价格拍卖的密封投标
+
+78
+00:03:00,400 --> 00:03:03,739
+auctions is you can have people bid at
+拍卖是可以让人们竞标的
+
+79
+00:03:03,938 --> 00:03:05,750
+asynchronously so a lot of procurement
+异步的，所以很多采购
+
+80
+00:03:05,949 --> 00:03:07,189
+auctions might be that done this way so
+拍卖可能是这样完成的
+
+81
+00:03:07,389 --> 00:03:09,200
+for instance the government might say
+例如政府可能会说
+
+82
+00:03:09,400 --> 00:03:11,000
+what you know you know you bid on a
+你所知道的，你知道你对一个出价
+
+83
+00:03:11,199 --> 00:03:12,800
+certain contract put your bid in an
+某些合同将您的出价
+
+84
+00:03:13,000 --> 00:03:15,289
+envelope and send it to us actually
+信封并实际发送给我们
+
+85
+00:03:15,489 --> 00:03:17,330
+procurement auctions if you're trying to
+采购拍卖，如果您尝试
+
+86
+00:03:17,530 --> 00:03:19,189
+sell something government usually is the
+卖东西通常是政府
+
+87
+00:03:19,389 --> 00:03:22,490
+lower bid lowest bid that wins but those
+较低的出价获胜的最低出价，但那些
+
+88
+00:03:22,689 --> 00:03:23,960
+can be held to asynchronously everybody
+可以异步地所有人
+
+89
+00:03:24,159 --> 00:03:25,789
+can just mail their things in then you
+可以邮寄他们的东西，然后你
+
+90
+00:03:25,989 --> 00:03:28,879
+open up the things and whichever is the
+打开东西，无论是
+
+91
+00:03:29,079 --> 00:03:30,830
+winning bid is then picked out of the
+然后从中标出中标
+
+92
+00:03:31,030 --> 00:03:31,789
+envelopes
+信封
+
+93
+00:03:31,989 --> 00:03:34,759
+I'm dr. auctions in contrast you could
+我是博士相比之下，您可以进行拍卖
+
+94
+00:03:34,959 --> 00:03:35,990
+have to have the people together and
+必须让人们在一起
+
+95
+00:03:36,189 --> 00:03:37,730
+sitting there watching the clock go down
+坐在那里看着时钟下来
+
+96
+00:03:37,930 --> 00:03:39,560
+but the nice thing about those auctions
+但是那些拍卖的好处
+
+97
+00:03:39,759 --> 00:03:40,730
+is you don't need as much communication
+你不需要太多的交流吗
+
+98
+00:03:40,930 --> 00:03:42,649
+in the sense that all you need to do is
+从某种意义上说，您需要做的就是
+
+99
+00:03:42,848 --> 00:03:43,999
+have this thing drop and then somebody
+让这东西掉下来然后有人
+
+100
+00:03:44,199 --> 00:03:46,640
+to say yes at some point so only one bit
+在某个时候说是，所以只有一点点
+
+101
+00:03:46,840 --> 00:03:48,200
+needs to be transmitted from the bidders
+需要从投标人那里转达
+
+102
+00:03:48,400 --> 00:03:49,879
+to the auctioneer so it's very efficient
+给拍卖师，所以非常有效率
+
+103
+00:03:50,079 --> 00:03:51,860
+in terms of information communication
+在信息交流方面
+
+104
+00:03:52,060 --> 00:03:53,719
+you have the clock dropping down and
+你的时钟下降了
+
+105
+00:03:53,919 --> 00:03:57,319
+then somebody saying give it to me so so
+然后有人说给我
+
+106
+00:03:57,519 --> 00:03:58,969
+you know there are different auctions in
+你知道有不同的拍卖
+
+107
+00:03:59,169 --> 00:04:01,099
+terms of the actual implementation okay
+实际执行的条件还可以
+
+108
+00:04:01,299 --> 00:04:02,830
+how should people bid on these auctions
+人们应该如何竞标这些拍卖
+
+109
+00:04:03,030 --> 00:04:05,480
+well as we mentioned just a few minutes
+就像我们提到的几分钟
+
+110
+00:04:05,680 --> 00:04:08,779
+ago bid less than your valuation because
+之前的出价低于您的估值，因为
+
+111
+00:04:08,979 --> 00:04:11,390
+it in basically deciding how load a bid
+基本上是决定如何加载出价
+
+112
+00:04:11,590 --> 00:04:13,099
+is going to be the tricky part because
+将成为棘手的部分，因为
+
+113
+00:04:13,299 --> 00:04:15,908
+you've got a trade off the lower the you
+您的交易越低，您的交易就越便宜
+
+114
+00:04:16,108 --> 00:04:18,949
+make your bid the lower the amount you
+降低您的出价
+
+115
+00:04:19,149 --> 00:04:21,259
+pay but also the lower the probability
+支付，但概率也较低
+
+116
+00:04:21,459 --> 00:04:23,420
+that you win so you're trading off
+你赢了，所以你在权衡
+
+117
+00:04:23,620 --> 00:04:25,579
+probability of winning against amount
+赢得金额的可能性
+
+118
+00:04:25,778 --> 00:04:26,879
+that you are having to pay
+你必须付钱
+
+119
+00:04:27,079 --> 00:04:29,160
+and so now you don't have a dominant
+所以现在你没有统治力
+
+120
+00:04:29,360 --> 00:04:31,139
+strategy how low you want to go actually
+策略您实际想走多低
+
+121
+00:04:31,339 --> 00:04:32,600
+depends on what other people are doing
+取决于其他人在做什么
+
+122
+00:04:32,800 --> 00:04:35,490
+so if I think other people going to bid
+所以如果我认为其他人会出价
+
+123
+00:04:35,689 --> 00:04:37,319
+very very low then I'm going to be
+非常非常低，那么我将成为
+
+124
+00:04:37,519 --> 00:04:39,420
+willing to lower my bed a lot if I think
+如果我想，我愿意把床降低很多
+
+125
+00:04:39,620 --> 00:04:40,379
+other people are going to be bidding
+其他人将要出价
+
+126
+00:04:40,579 --> 00:04:41,850
+fairly aggressively I might have to keep
+我可能会非常积极地保持
+
+127
+00:04:42,050 --> 00:04:43,889
+my bit higher so I can't make my
+我高一点，所以我做不到
+
+128
+00:04:44,089 --> 00:04:45,660
+decision of how I should bid without
+决定我应该如何竞标
+
+129
+00:04:45,860 --> 00:04:47,309
+knowing exactly what the bids of others
+确切知道别人的出价
+
+130
+00:04:47,509 --> 00:04:49,649
+are and so now we don't have a dominant
+是的，所以现在我们没有主导地位
+
+131
+00:04:49,848 --> 00:04:50,968
+strategy I don't have one thing which is
+策略我没有一件事是
+
+132
+00:04:51,168 --> 00:04:52,740
+best to do irregardless of what other
+最好不管其他事情
+
+133
+00:04:52,939 --> 00:04:54,600
+people are doing I have to think about
+人们在做我必须考虑的事情
+
+134
+00:04:54,800 --> 00:04:56,129
+what they're doing and calculating my
+他们在做什么并计算我的
+
+135
+00:04:56,329 --> 00:05:00,350
+bid okay so let's have a quick look at
+好吧，让我们快速看一下
+
+136
+00:05:00,550 --> 00:05:02,968
+an equilibrium of one of these and see
+其中之一的平衡，看
+
+137
+00:05:03,168 --> 00:05:05,429
+how how we can least verify something in
+我们如何最少能验证某些东西
+
+138
+00:05:05,629 --> 00:05:06,629
+the equilibrium and then we'll talk a
+平衡，然后我们将讨论
+
+139
+00:05:06,829 --> 00:05:08,579
+little bit about how you might find
+关于您可能如何找到的一点
+
+140
+00:05:08,779 --> 00:05:09,990
+equilibria in these auctions which is
+在这些拍卖中的均衡是
+
+141
+00:05:10,189 --> 00:05:14,278
+not going to be always extremely easy so
+不会总是那么容易，所以
+
+142
+00:05:14,478 --> 00:05:16,050
+let's think of a first price auction so
+让我们考虑一下第一次价格拍卖
+
+143
+00:05:16,250 --> 00:05:17,670
+let's start with a very simple case to
+让我们从一个非常简单的案例开始
+
+144
+00:05:17,870 --> 00:05:20,490
+analyze first two bidders both
+分析前两个竞标者
+
+145
+00:05:20,689 --> 00:05:22,769
+risk-neutral and they get an independent
+风险中立，他们获得了独立
+
+146
+00:05:22,968 --> 00:05:25,230
+draw from a uniform distribution on zero
+从零上的均匀分布得出
+
+147
+00:05:25,430 --> 00:05:28,199
+one okay so each of these two bidders so
+一个可以，所以这两个竞标者都这样
+
+148
+00:05:28,399 --> 00:05:30,449
+we've got two bidders each person
+我们每个人都有两个竞标者
+
+149
+00:05:30,649 --> 00:05:35,338
+uniform zero one valuations and those
+统一零一估值和那些
+
+150
+00:05:35,538 --> 00:05:37,139
+are drawn independently and the claim
+独立绘制，索赔
+
+151
+00:05:37,339 --> 00:05:39,838
+here is that if we look at we want to
+这是如果我们看一下我们想
+
+152
+00:05:40,038 --> 00:05:41,278
+get a Bayesian Nash equilibrium of this
+得到这个的贝叶斯纳什均衡
+
+153
+00:05:41,478 --> 00:05:44,519
+game what are we going to have the bids
+游戏我们要如何出价
+
+154
+00:05:44,718 --> 00:05:46,889
+are just going to be each person drops
+只是每个人都会掉下来
+
+155
+00:05:47,089 --> 00:05:50,269
+their value by half so if my values are
+他们的价值减半，所以如果我的价值是
+
+156
+00:05:50,468 --> 00:05:53,579
+3/4 I'll save 3/8 if my value is 1/2
+ 3/4如果我的值是1/2，我会节省3/8 
+
+157
+00:05:53,778 --> 00:05:55,468
+I'll say 1/4 right so I just take
+我会说1/4对，所以我就拿
+
+158
+00:05:55,668 --> 00:05:57,449
+whatever my value is and I just shade it
+不管我的价值是多少
+
+159
+00:05:57,649 --> 00:06:01,319
+by 1/2 and that's my bid ok and so let's
+加1/2，那是我的出价，所以让我们
+
+160
+00:06:01,519 --> 00:06:02,968
+go through and just verify that that's
+经过并只是验证那是
+
+161
+00:06:03,168 --> 00:06:05,338
+amazing Nash equilibrium okay so we want
+纳什均衡惊人，所以我们想要
+
+162
+00:06:05,538 --> 00:06:06,660
+to check whether this is in equilibrium
+检查这是否处于平衡状态
+
+163
+00:06:06,860 --> 00:06:11,218
+so let's given the symmetry here we can
+所以让我们在这里给出对称性
+
+164
+00:06:11,418 --> 00:06:12,540
+just check for one of the bidders so
+只是检查投标人之一，所以
+
+165
+00:06:12,740 --> 00:06:14,519
+let's suppose that the other bidder is
+假设另一个竞标者是
+
+166
+00:06:14,718 --> 00:06:16,740
+actually whatever their value is they
+实际上，不管他们的价值是什么
+
+167
+00:06:16,939 --> 00:06:20,218
+bid a half of it and now we think about
+出价一半，现在我们考虑
+
+168
+00:06:20,418 --> 00:06:23,429
+bitter one and let's let bitter one
+苦一，让我们苦一
+
+169
+00:06:23,629 --> 00:06:25,709
+choose a strategy s1 of how high they're
+选择他们有多高的策略s1 
+
+170
+00:06:25,908 --> 00:06:27,088
+going to bid as a function of their
+将根据他们的出价
+
+171
+00:06:27,288 --> 00:06:32,249
+value okay so if I'm bidding s1 so let's
+值还行，所以如果我要竞标s1，就让我们
+
+172
+00:06:32,449 --> 00:06:33,929
+suppose I put a bit of s1 in and the
+假设我把s1放进去
+
+173
+00:06:34,129 --> 00:06:36,028
+other bidder is bidding half of their
+其他竞标者正在竞标一半
+
+174
+00:06:36,228 --> 00:06:38,819
+value so what am I going to win I'm
+值，所以我要赢得什么
+
+175
+00:06:39,019 --> 00:06:40,680
+going to win one 1/2 of the
+要赢得1/2的
+
+176
+00:06:40,879 --> 00:06:44,009
+two is less than s 1 or V 2 is less than
+ 2小于s 1或V 2小于
+
+177
+00:06:44,209 --> 00:06:48,720
+2 s 1 ok and what's my payoff then my
+ 2 s 1好，那我的收益是多少
+
+178
+00:06:48,920 --> 00:06:52,410
+payoff is V 1 minus s 1 but I'm going to
+收益是V 1减去s 1，但我要
+
+179
+00:06:52,610 --> 00:06:54,780
+lose whenever the the other individual
+每当其他人失去
+
+180
+00:06:54,980 --> 00:06:59,189
+bid when V 2 over 2 is bigger than s 1
+ V 2 over 2大于s 1时的出价
+
+181
+00:06:59,389 --> 00:07:01,800
+or V 2 is bigger than 2 s 1 and then I
+或V 2大于2 s 1然后我
+
+182
+00:07:02,000 --> 00:07:05,550
+get a utility of 0 ok so in terms of
+得到0的效用，所以在
+
+183
+00:07:05,750 --> 00:07:08,579
+figuring out what my value is there's
+弄清楚我的价值是
+
+184
+00:07:08,779 --> 00:07:12,210
+cases where I win the auction so I can
+我赢得拍卖的情况下，我可以
+
+185
+00:07:12,410 --> 00:07:15,270
+integrate over those where V 2 is up to
+在V 2达到
+
+186
+00:07:15,470 --> 00:07:18,620
+2 over s 1 and then I'm getting this and
+ 2比s 1，然后我得到这个
+
+187
+00:07:18,819 --> 00:07:21,930
+otherwise if the value of the other
+否则，如果对方的价值
+
+188
+00:07:22,129 --> 00:07:23,610
+person is bigger than 2 s 1 I'm going to
+人大于2 s 1我要
+
+189
+00:07:23,810 --> 00:07:26,660
+get 0 so this is my expected utility
+得到0，所以这是我期望的效用
+
+190
+00:07:26,860 --> 00:07:29,699
+it's simple integral integrate that
+简单的积分整合
+
+191
+00:07:29,899 --> 00:07:33,480
+thing what do you get you get 2 V 1
+你得到什么，你得到2 V 1 
+
+192
+00:07:33,680 --> 00:07:38,879
+times s 1 minus 2 s 1 squared okay very
+时间s 1减去2 s 1平方好
+
+193
+00:07:39,079 --> 00:07:40,259
+simple expression so we have an expected
+简单的表达，所以我们有一个期望
+
+194
+00:07:40,459 --> 00:07:42,540
+utility as a function of what my s 1 is
+效用是我的s 1的函数
+
+195
+00:07:42,740 --> 00:07:44,550
+conditional any other person following
+有条件的任何其他人关注
+
+196
+00:07:44,750 --> 00:07:47,520
+this prescribed strategy so let's
+这个规定的策略，所以让我们
+
+197
+00:07:47,720 --> 00:07:49,470
+differentiate that with respect to s 1
+关于s 1进行区分
+
+198
+00:07:49,670 --> 00:07:52,350
+set it equal to 0 so when we do that
+将其设置为0，所以当我们这样做时
+
+199
+00:07:52,550 --> 00:07:55,470
+what do we end up with we end up with s
+我们最终得到什么，我们最终得到s 
+
+200
+00:07:55,670 --> 00:07:58,770
+1 equals 1/2 V 1 as being the solution
+ 1等于1/2 V 1作为解决方案
+
+201
+00:07:58,970 --> 00:08:00,990
+to setting that equal to 0 so if you
+设置为等于0，所以如果你
+
+202
+00:08:01,189 --> 00:08:02,370
+want to maximize this and you can check
+想要最大化这个，你可以检查
+
+203
+00:08:02,569 --> 00:08:03,870
+the second-order conditions you want to
+您想要的二阶条件
+
+204
+00:08:04,069 --> 00:08:08,160
+maximize this indeed here we end up with
+最大化这确实是我们最终的结果
+
+205
+00:08:08,360 --> 00:08:10,650
+a condition where my optimal bid given
+我的最佳出价给出的条件
+
+206
+00:08:10,850 --> 00:08:11,879
+it the other person is bidding half
+对方出价一半
+
+207
+00:08:12,079 --> 00:08:13,620
+their value is 2 bid half my value as
+他们的价值是我的价值的2一半
+
+208
+00:08:13,819 --> 00:08:17,670
+well ok so and again the calculation for
+好吧，一次又一次的计算
+
+209
+00:08:17,870 --> 00:08:19,319
+the other person is exactly symmetric to
+另一个人与
+
+210
+00:08:19,519 --> 00:08:21,000
+this so this is the basic Nash
+这就是基本的纳什
+
+211
+00:08:21,199 --> 00:08:23,400
+equilibrium of this game so what we've
+这个游戏的平衡，所以我们已经
+
+212
+00:08:23,600 --> 00:08:28,139
+got is people bidding down and they're
+有人叫低价，他们是
+
+213
+00:08:28,339 --> 00:08:30,629
+trading off a calculation implicitly in
+隐式权衡计算
+
+214
+00:08:30,829 --> 00:08:32,789
+terms of what we're doing here if we
+我们在这里做什么的条件
+
+215
+00:08:32,990 --> 00:08:34,199
+want to look at the calculation that we
+想看一下我们的计算
+
+216
+00:08:34,399 --> 00:08:37,319
+were doing by increasing your by
+通过增加你的
+
+217
+00:08:37,519 --> 00:08:41,189
+decreasing your bid the the gain is that
+降低您的出价，收益是
+
+218
+00:08:41,389 --> 00:08:43,259
+you pay less conditional on winning but
+您支付获胜的条件较少，但
+
+219
+00:08:43,460 --> 00:08:45,509
+you also win less of the time so the
+您也赢得较少的时间，所以
+
+220
+00:08:45,710 --> 00:08:47,099
+trade off is coming at your you're
+权衡即将到来
+
+221
+00:08:47,299 --> 00:08:48,990
+winning less of the time but then you're
+赢得更少的时间，然后你就
+
+222
+00:08:49,190 --> 00:08:51,509
+paying less when you do win and so that
+赢钱时少付钱，这样
+
+223
+00:08:51,710 --> 00:08:53,849
+trade-off is exactly
+权衡是恰到好处
+
+224
+00:08:54,049 --> 00:08:56,319
+captured to this maximization problem
+抓住了这个最大化问题
+
+225
+00:08:56,519 --> 00:08:58,799
+and you want to shade your bid by a half
+而您想将出价降低一半
+
+226
+00:08:59,000 --> 00:09:02,139
+okay um this is obviously a very narrow
+好吧，这显然是非常狭窄的
+
+227
+00:09:02,340 --> 00:09:04,029
+result we did two bidders uniform
+结果我们做了两个投标人制服
+
+228
+00:09:04,230 --> 00:09:07,839
+valuations so we need to solve for this
+估值，所以我们需要解决这个问题
+
+229
+00:09:08,039 --> 00:09:09,250
+thing because this is not incentive
+事情，因为这不是激励
+
+230
+00:09:09,450 --> 00:09:10,719
+compatible as a direct mechanism in
+作为直接机制兼容
+
+231
+00:09:10,919 --> 00:09:12,370
+terms of dominant strategies right so
+占主导地位的策略对吧
+
+232
+00:09:12,570 --> 00:09:15,729
+it's not a dominant we have no dominant
+它不是统治者，我们没有统治者
+
+233
+00:09:15,929 --> 00:09:17,529
+strategies here we're not getting
+的策略，我们没有得到
+
+234
+00:09:17,730 --> 00:09:18,609
+dominant strategy instead of
+主导策略而不是
+
+235
+00:09:18,809 --> 00:09:20,379
+compatibility when you dissolve four the
+溶解性时的四个
+
+236
+00:09:20,580 --> 00:09:23,919
+equilibrium and no more generally you
+平衡，而不是一般而言
+
+237
+00:09:24,120 --> 00:09:25,449
+could solve for you know if we had n
+可以解决您的问题，如果我们知道
+
+238
+00:09:25,649 --> 00:09:27,490
+bidders instead of two what would
+竞标者而不是两个
+
+239
+00:09:27,690 --> 00:09:28,959
+devalue what would the equilibrium look
+贬值均衡的面貌
+
+240
+00:09:29,159 --> 00:09:31,870
+like then it's going to look like
+就像那样
+
+241
+00:09:32,070 --> 00:09:33,939
+instead of shading your bid by a half
+而不是将出价降低一半
+
+242
+00:09:34,139 --> 00:09:35,589
+you should general formula is going to
+你应该将通用公式
+
+243
+00:09:35,789 --> 00:09:38,859
+be n minus 1 over n right so when n is 2
+是n减去n的1，所以当n是2时
+
+244
+00:09:39,059 --> 00:09:42,879
+this is 1/2 when n is 3 then it's going
+这是1/2当n为3时
+
+245
+00:09:43,080 --> 00:09:45,909
+to be 2/3 when n is 4 you go up to 3/4
+当n为4时为2/3，则上升到3/4 
+
+246
+00:09:46,110 --> 00:09:47,559
+and so forth and so you just keep
+依此类推，所以你只要保持
+
+247
+00:09:47,759 --> 00:09:49,329
+climbing in terms of how much you're
+根据你的身高攀升
+
+248
+00:09:49,529 --> 00:09:51,219
+bidding and what's happening well it
+竞标及其进展顺利
+
+249
+00:09:51,419 --> 00:09:53,529
+gets harder and harder to win with more
+越来越难赢得更多
+
+250
+00:09:53,730 --> 00:09:55,479
+and more people in the auction you're
+还有更多人在拍卖中
+
+251
+00:09:55,679 --> 00:09:57,279
+going to have to bid closer and closer
+将不得不越来越接近
+
+252
+00:09:57,480 --> 00:09:59,529
+to your value to have a chance to win
+以您的价值来赢得机会
+
+253
+00:09:59,730 --> 00:10:03,339
+and then the trade-off is just that you
+然后权衡就是你
+
+254
+00:10:03,539 --> 00:10:05,139
+know as you as you lower your bid much
+当您降低出价时就知道
+
+255
+00:10:05,340 --> 00:10:08,709
+beyond something that's a very close to
+超越了非常接近的东西
+
+256
+00:10:08,909 --> 00:10:10,689
+your bid you have no chance of winning
+您的出价，您将没有中奖的机会
+
+257
+00:10:10,889 --> 00:10:12,909
+and so you're going to end up having
+因此，您最终将不得不拥有
+
+258
+00:10:13,110 --> 00:10:14,439
+this trade-off be closer to the actual
+这种权衡更接近实际
+
+259
+00:10:14,639 --> 00:10:16,299
+value you can go through and do the
+您可以经历并做的价值
+
+260
+00:10:16,500 --> 00:10:17,500
+calculation it's going to be very
+计算这将是非常
+
+261
+00:10:17,700 --> 00:10:19,839
+similar to what we did just a different
+类似于我们所做的不同
+
+262
+00:10:20,039 --> 00:10:21,759
+calculation in terms of integrals now
+现在按照积分计算
+
+263
+00:10:21,960 --> 00:10:22,870
+you're going to win when everybody's
+当每个人都
+
+264
+00:10:23,070 --> 00:10:24,339
+below you not just the other person
+在你下面，而不仅仅是另一个人
+
+265
+00:10:24,539 --> 00:10:26,139
+below you so that's a slightly more
+在你下面，所以稍微多一点
+
+266
+00:10:26,340 --> 00:10:28,569
+complicated integration but basically
+复杂的整合，但基本上
+
+267
+00:10:28,769 --> 00:10:30,370
+exactly the same logic we just did for
+我们刚才做的逻辑完全相同
+
+268
+00:10:30,570 --> 00:10:34,599
+the two bitter case okay so broader
+这两个痛苦的情况还好，范围更广
+
+269
+00:10:34,799 --> 00:10:36,519
+problem what we did here is we only
+问题，我们在这里所做的只是
+
+270
+00:10:36,720 --> 00:10:39,219
+verified that this was in equilibrium so
+验证这是平衡的，所以
+
+271
+00:10:39,419 --> 00:10:42,490
+we guessed the equilibrium and then
+我们猜到了平衡，然后
+
+272
+00:10:42,690 --> 00:10:44,379
+verified it I'm how do you actually find
+验证它，我实际上是如何找到的
+
+273
+00:10:44,580 --> 00:10:46,750
+an equilibrium in these cases well if
+在这些情况下，如果
+
+274
+00:10:46,950 --> 00:10:48,969
+it's not a nice uniform distribution and
+这不是一个很好的均匀分布， 
+
+275
+00:10:49,169 --> 00:10:50,439
+guessing that it's going to be a linear
+猜测它将是线性的
+
+276
+00:10:50,639 --> 00:10:53,019
+function of your value then you've got
+您的价值的功能，那么你已经
+
+277
+00:10:53,220 --> 00:10:54,879
+to guess more complicated functions and
+猜测更复杂的功能
+
+278
+00:10:55,080 --> 00:10:57,159
+there's going to be basically some
+基本上会有一些
+
+279
+00:10:57,360 --> 00:10:59,079
+integration problems which will give you
+整合问题会给你
+
+280
+00:10:59,279 --> 00:11:01,029
+some ideas of how this works for certain
+关于某些方法的一些想法
+
+281
+00:11:01,230 --> 00:11:02,709
+distributions for arbitrary
+任意分布
+
+282
+00:11:02,909 --> 00:11:04,659
+distributions the bidding function can
+分配竞标功能可以
+
+283
+00:11:04,860 --> 00:11:06,250
+be much more complicated functions and
+功能要复杂得多
+
+284
+00:11:06,450 --> 00:11:07,448
+basically it will
+基本上它将
+
+285
+00:11:07,649 --> 00:11:09,459
+we be described up to some integration
+我们将描述一些集成
+
+286
+00:11:09,659 --> 00:11:13,839
+conditions so there are papers that give
+条件，所以有论文可以
+
+287
+00:11:14,039 --> 00:11:15,668
+some solutions to this there's a paper
+一些解决方案，有一篇论文
+
+288
+00:11:15,869 --> 00:11:18,339
+by Milton Weber in 1982 there's some
+ Milton Weber在1982年写的
+
+289
+00:11:18,539 --> 00:11:19,779
+other papers out there which will give
+那里的其他论文会给
+
+290
+00:11:19,980 --> 00:11:21,938
+some background on on solving these
+解决这些问题的一些背景
+
+291
+00:11:22,139 --> 00:11:25,149
+kinds of auctions that that first price
+第一种价格的拍卖
+
+292
+00:11:25,350 --> 00:11:26,818
+auction actually has been solved in
+拍卖实际上已经在
+
+293
+00:11:27,019 --> 00:11:29,529
+quite early on in the literature but
+在文献中还很早，但是
+
+294
+00:11:29,730 --> 00:11:33,008
+more generally solving these ones when
+更普遍地解决这些问题时
+
+295
+00:11:33,208 --> 00:11:34,298
+we don't have gone on strategies is
+我们没有继续执行策略
+
+296
+00:11:34,499 --> 00:11:38,948
+going to involve some guesses and in
+将涉及一些猜测和
+
+297
+00:11:39,149 --> 00:11:40,178
+some cases there might be some
+有些情况下可能会有一些
+
+298
+00:11:40,379 --> 00:11:41,728
+integration conditions that will give us
+整合条件将给我们
+
+299
+00:11:41,928 --> 00:11:45,039
+nice solutions but they often won't
+好的解决方案，但它们通常不会
+
+300
+00:11:45,240 --> 00:11:47,618
+exist in closed form and especially here
+以封闭形式存在，尤其是在这里
+
+301
+00:11:47,818 --> 00:11:49,599
+also the symmetry helps a lot so if you
+对称性也有很大帮助，所以如果您
+
+302
+00:11:49,799 --> 00:11:52,118
+have asymmetric auctions things can be
+进行非对称拍卖
+
+303
+00:11:52,318 --> 00:11:53,498
+difficult and more generally even
+困难，甚至更普遍
+
+304
+00:11:53,698 --> 00:11:55,389
+finding weather equilibria exists in
+发现存在天气平衡
+
+305
+00:11:55,589 --> 00:11:58,539
+these worlds is not an easy problem
+这些世界不是一个容易的问题
+
+306
+00:11:58,740 --> 00:12:01,089
+there's a literature they in fact I've
+他们实际上有一种文学
+
+307
+00:12:01,289 --> 00:12:03,639
+worked on a bit about existence of
+对存在的存在进行了一些研究
+
+308
+00:12:03,839 --> 00:12:05,649
+equilibria and auctions so one thing
+平衡和拍卖是一回事
+
+309
+00:12:05,850 --> 00:12:07,868
+about equilibria and auctions is they're
+关于均衡和拍卖是他们
+
+310
+00:12:08,068 --> 00:12:09,519
+discontinuous I changed my bid a little
+不连续，我稍微更改了出价
+
+311
+00:12:09,720 --> 00:12:11,828
+and I might be going from winning the
+我可能会从赢得
+
+312
+00:12:12,028 --> 00:12:14,349
+object to not winning the object and so
+反对不赢得目标等等
+
+313
+00:12:14,549 --> 00:12:15,789
+suddenly my payoff goes from being
+突然我的收获就消失了
+
+314
+00:12:15,990 --> 00:12:19,988
+positive to being zero and that this
+积极为零，这
+
+315
+00:12:20,188 --> 00:12:22,058
+continuity means that I might not always
+连续性意味着我可能并不总是
+
+316
+00:12:22,259 --> 00:12:25,988
+have nicely defined best responses that
+有明确定义的最佳回应， 
+
+317
+00:12:26,188 --> 00:12:28,808
+are going to move in ways that were used
+将以过去的方式移动
+
+318
+00:12:29,009 --> 00:12:30,878
+that the implicit proofs of existence
+存在的隐含证据
+
+319
+00:12:31,078 --> 00:12:34,298
+before made nice use of the best
+善用最好的之前
+
+320
+00:12:34,499 --> 00:12:36,938
+response correspondence that that it's
+是的对应
+
+321
+00:12:37,139 --> 00:12:38,228
+not going to have the properties that
+不会有那些
+
+322
+00:12:38,428 --> 00:12:40,298
+used to have any discontinuous games and
+曾经玩过任何不连续的游戏， 
+
+323
+00:12:40,499 --> 00:12:42,608
+getting equilibrium and existence in
+获得平衡和存在
+
+324
+00:12:42,808 --> 00:12:44,798
+these kinds of auction settings this is
+这些拍卖设置是
+
+325
+00:12:44,999 --> 00:12:47,409
+quite tricky and there's some things
+很棘手，有些事情
+
+326
+00:12:47,610 --> 00:12:49,118
+that are known about settings where
+关于设置的已知信息
+
+327
+00:12:49,318 --> 00:12:50,769
+there do exist equilibria there also
+那里确实存在均衡
+
+328
+00:12:50,970 --> 00:12:52,389
+some examples where they don't exist
+一些不存在的例子
+
+329
+00:12:52,589 --> 00:12:53,948
+equilibria so that's actually an
+平衡，所以实际上
+
+330
+00:12:54,149 --> 00:12:56,758
+interesting project on its own so
+有趣的项目本身
+
+331
+00:12:56,958 --> 00:12:58,868
+different kinds of auctions different
+不同种类的拍卖不同
+
+332
+00:12:59,068 --> 00:13:01,568
+kinds of equilibria they're related to
+与它们相关的各种均衡
+
+333
+00:13:01,769 --> 00:13:04,029
+each other and we'll see more about that
+彼此，我们将看到更多有关此的信息
+
+334
+00:13:04,230 --> 00:13:09,230
+in a bit
+有点
+

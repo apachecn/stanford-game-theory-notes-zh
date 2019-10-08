@@ -1,0 +1,1180 @@
+﻿1
+00:00:00,089 --> 00:00:04,149
+this segment is not so much a a lecture
+这部分不是一场演讲
+
+2
+00:00:04,349 --> 00:00:08,470
+as a metal lecture or a if you wish a
+作为金属演讲或如果您希望
+
+3
+00:00:08,669 --> 00:00:11,680
+teaser when one speaks about optioned
+当一个人谈论选择时的预告片
+
+4
+00:00:11,880 --> 00:00:15,790
+the theory is so rich that it's very
+理论是如此丰富，以至于
+
+5
+00:00:15,990 --> 00:00:19,749
+easy to speak about one-sided single
+简单讲单面
+
+6
+00:00:19,949 --> 00:00:23,650
+good options and spend a lot of time on
+不错的选择，花很多时间在
+
+7
+00:00:23,850 --> 00:00:26,710
+it but one shouldn't forget that there
+它，但不要忘了那里
+
+8
+00:00:26,910 --> 00:00:28,269
+are other types of auctions are very
+其他类型的拍卖
+
+9
+00:00:28,469 --> 00:00:31,568
+interesting and I just want to alert you
+有趣，我只想提醒您
+
+10
+00:00:31,768 --> 00:00:36,250
+here two examples of such auctions so
+这里有两个这样的拍卖例子
+
+11
+00:00:36,450 --> 00:00:39,029
+let's start with a the multiple units
+让我们从多个单元开始
+
+12
+00:00:39,229 --> 00:00:43,239
+version of auctions so imagine that I
+版本的拍卖，让我想像一下
+
+13
+00:00:43,439 --> 00:00:47,678
+have not one widget to sell but ten
+没有一个要出售的小部件，而是十个
+
+14
+00:00:47,878 --> 00:00:51,939
+widgets maybe I have 10 cameras for sale
+小部件，也许我有10台待售的相机
+
+15
+00:00:52,140 --> 00:00:57,309
+and I put them on and imagine for
+我穿上它们，然后想象
+
+16
+00:00:57,509 --> 00:01:01,178
+example a sealed bid auction what would
+例如一个密封的投标拍卖会
+
+17
+00:01:01,378 --> 00:01:02,739
+the bidding rules look here
+竞标规则请看这里
+
+18
+00:01:02,939 --> 00:01:05,200
+you no longer specify only a price you
+您不再只指定价格
+
+19
+00:01:05,400 --> 00:01:07,689
+need to specify something else for
+需要指定其他内容
+
+20
+00:01:07,890 --> 00:01:12,069
+example a price and a quantity and so if
+例如价格和数量，如果
+
+21
+00:01:12,269 --> 00:01:14,409
+we specify price and a quantity you
+我们指定价格和数量
+
+22
+00:01:14,609 --> 00:01:16,899
+might say I want three cameras and I'll
+可能会说我要三个相机，我会
+
+23
+00:01:17,099 --> 00:01:21,579
+pay you a hundred dollars for three but
+付给你三百美元
+
+24
+00:01:21,780 --> 00:01:25,000
+maybe you'd be happy to get also four
+也许你会很高兴得到四个
+
+25
+00:01:25,200 --> 00:01:27,819
+cameras for the right price for example
+例如价格合适的相机
+
+26
+00:01:28,019 --> 00:01:30,039
+if I gave you're willing to pay a
+如果我给你愿意支付
+
+27
+00:01:30,239 --> 00:01:32,730
+hundred price $100 for three cameras
+一百个价格$ 100三个相机
+
+28
+00:01:32,930 --> 00:01:35,590
+perhaps you'd be happy to get four
+也许你会很高兴得到四个
+
+29
+00:01:35,790 --> 00:01:37,500
+cameras for hundred and ten dollars
+一百美元的相机
+
+30
+00:01:37,700 --> 00:01:40,659
+certainly for a hundred dollars you'd be
+当然只要一百美元， 
+
+31
+00:01:40,859 --> 00:01:43,590
+happy to get four and and three cameras
+很高兴得到四个和三个相机
+
+32
+00:01:43,790 --> 00:01:47,259
+or is it the case and so one needs to
+还是这样，所以需要
+
+33
+00:01:47,459 --> 00:01:49,659
+specify these more complicated rules
+指定这些更复杂的规则
+
+34
+00:01:49,859 --> 00:01:52,448
+here in general the most general way to
+一般而言，这是最一般的方式
+
+35
+00:01:52,649 --> 00:01:55,119
+specify things in a sealed bid auction
+在密封的投标拍卖中指定事物
+
+36
+00:01:55,319 --> 00:01:58,539
+would be to specify is what's called a
+将指定什么是所谓的
+
+37
+00:01:58,739 --> 00:02:01,179
+schedule somewhat non-standard use of
+安排一些非标准的使用
+
+38
+00:02:01,379 --> 00:02:04,119
+the term but it's a whole curve that
+这个词，但这是一条完整的曲线
+
+39
+00:02:04,319 --> 00:02:08,050
+says for each price how much am I
+说每个价格我多少钱
+
+40
+00:02:08,250 --> 00:02:11,350
+willing to how many units am I willing
+我愿意多少单位
+
+41
+00:02:11,550 --> 00:02:12,670
+to buy for that price
+以该价格购买
+
+42
+00:02:12,870 --> 00:02:16,600
+and presumably and this is not universal
+大概这不是普遍的
+
+43
+00:02:16,800 --> 00:02:19,270
+but you might have a monotonicity rule
+但您可能会有单调性规则
+
+44
+00:02:19,469 --> 00:02:22,920
+so that is the higher the price the
+所以价格越高
+
+45
+00:02:23,120 --> 00:02:25,990
+smaller the number of units I might want
+我可能想要的单位数少
+
+46
+00:02:26,189 --> 00:02:29,740
+to buy one can definitely find counter
+买一个绝对可以找到柜台
+
+47
+00:02:29,939 --> 00:02:32,950
+examples to this but that would be a
+例子，但这将是
+
+48
+00:02:33,150 --> 00:02:36,480
+natural restriction in certain cases
+在某些情况下自然限制
+
+49
+00:02:36,680 --> 00:02:40,750
+think now about a an open outcry auction
+现在考虑公开喊价拍卖
+
+50
+00:02:40,949 --> 00:02:43,360
+so for example think about the Japanese
+例如以日本人为例
+
+51
+00:02:43,560 --> 00:02:46,689
+auction in let me recall what it is the
+拍卖让我想起这是什么
+
+52
+00:02:46,889 --> 00:02:49,780
+Japanese auction there is an ascending
+日本拍卖呈上升趋势
+
+53
+00:02:49,979 --> 00:02:53,460
+price called out by the auctioneer and
+拍卖师要求的价格，以及
+
+54
+00:02:53,659 --> 00:02:57,219
+people in the single unit good in the
+单一单位中的人在
+
+55
+00:02:57,419 --> 00:03:01,390
+single unit case people start by all
+单位案例的人从头开始
+
+56
+00:03:01,590 --> 00:03:05,020
+being in so who will buy who will buy
+在谁会买谁会买
+
+57
+00:03:05,219 --> 00:03:10,630
+this camera for zero dollars everybody's
+这台相机零美元大家的
+
+58
+00:03:10,830 --> 00:03:13,750
+in and as the price rises one by one the
+随着价格一一上涨
+
+59
+00:03:13,949 --> 00:03:16,689
+bidders sit down irrevocably and when
+竞标者无可挽回地坐下，何时
+
+60
+00:03:16,889 --> 00:03:18,939
+there's only one person the standing
+站着只有一个人
+
+61
+00:03:19,139 --> 00:03:22,750
+they get the camera for that price what
+他们以那个价格得到相机
+
+62
+00:03:22,949 --> 00:03:24,939
+happens when I have now ten cameras for
+当我现在有十个摄像机用于
+
+63
+00:03:25,139 --> 00:03:26,590
+sale what would be the natural
+出售自然是什么
+
+64
+00:03:26,789 --> 00:03:28,830
+generalization of the Japanese auction
+日本拍卖的概括
+
+65
+00:03:29,030 --> 00:03:31,030
+well here's a one natural generalization
+好，这是一个自然的概括
+
+66
+00:03:31,229 --> 00:03:35,319
+and it is specifying a quantity so I
+它指定了数量，所以我
+
+67
+00:03:35,519 --> 00:03:37,840
+have ten cameras for sale and I ask how
+有十台相机要出售，我问如何
+
+68
+00:03:38,039 --> 00:03:40,900
+many do you want at zero dollars well
+您想以零美元买到很多吗
+
+69
+00:03:41,099 --> 00:03:44,620
+presumably you want all ten and as the
+想必您想全部十个
+
+70
+00:03:44,819 --> 00:03:49,289
+price rises you reduce your demand until
+价格上涨，您减少需求直到
+
+71
+00:03:49,489 --> 00:03:51,819
+and whenever you reduces you can never
+无论何时减少，您都永远无法
+
+72
+00:03:52,019 --> 00:03:55,090
+bring it back up again if it ever goes
+如果有的话，再次备份
+
+73
+00:03:55,289 --> 00:03:57,009
+down to zero then you're totally out of
+降到零，那么你完全没钱了
+
+74
+00:03:57,209 --> 00:04:00,090
+the game and when does the auction stop
+游戏以及何时停止拍卖
+
+75
+00:04:00,289 --> 00:04:06,730
+well as soon as the demand is is is less
+需求少就好
+
+76
+00:04:06,930 --> 00:04:10,360
+than supply you stop so when the total
+比供应停止，所以当总
+
+77
+00:04:10,560 --> 00:04:12,909
+demand by the agent at a given point is
+代理商在给定时间点的需求是
+
+78
+00:04:13,109 --> 00:04:16,870
+less than ten will stop the auction that
+少于十个将停止拍卖
+
+79
+00:04:17,069 --> 00:04:18,218
+raises an interesting question what
+提出了一个有趣的问题
+
+80
+00:04:18,418 --> 00:04:22,060
+happens if in a discrete case when
+如果在离散情况下
+
+81
+00:04:22,259 --> 00:04:25,660
+suddenly we went from a demand of 11
+突然我们从11的需求
+
+82
+00:04:25,860 --> 00:04:28,540
+of eight we stop the auction what do we
+在八分之一的拍卖中我们停止拍卖
+
+83
+00:04:28,740 --> 00:04:32,218
+do the two extra cameras well there's
+做好两个额外的相机
+
+84
+00:04:32,418 --> 00:04:34,929
+interesting topic for discussion that
+有趣的讨论话题
+
+85
+00:04:35,129 --> 00:04:37,269
+illustrates some of the subtleties that
+说明了一些微妙之处
+
+86
+00:04:37,468 --> 00:04:39,639
+come up when we go from single unit to
+当我们从单个单元转到
+
+87
+00:04:39,839 --> 00:04:41,889
+multiple unit a different class of
+多个单元，不同类别的
+
+88
+00:04:42,089 --> 00:04:43,689
+auctions are special because they're
+拍卖很特别，因为它们
+
+89
+00:04:43,889 --> 00:04:46,379
+motivated by specific applications and
+由特定的应用程序和
+
+90
+00:04:46,579 --> 00:04:50,769
+ad options or advertising auctions are a
+广告选项或广告竞标是
+
+91
+00:04:50,968 --> 00:04:54,759
+good example so we all have the
+很好的例子，所以我们都有
+
+92
+00:04:54,959 --> 00:04:56,679
+experience of going to an online site
+进入在线网站的经验
+
+93
+00:04:56,879 --> 00:05:00,730
+most famously Google and doing for
+最著名的是Google， 
+
+94
+00:05:00,930 --> 00:05:02,709
+example a search gathered getting our
+例如，搜集到的搜索使我们
+
+95
+00:05:02,908 --> 00:05:04,170
+search results
+搜索结果
+
+96
+00:05:04,370 --> 00:05:07,088
+hopefully accurately reflecting the
+希望准确反映
+
+97
+00:05:07,288 --> 00:05:11,019
+relevance of the site's to us but then
+该网站与我们的相关性，然后
+
+98
+00:05:11,218 --> 00:05:12,670
+on the right we have these sponsored
+在右边，我们有这些赞助
+
+99
+00:05:12,870 --> 00:05:17,100
+links and these are links that
+链接，这些是链接
+
+100
+00:05:17,300 --> 00:05:22,329
+advertisers paid to give to us and the
+广告客户付费给我们和
+
+101
+00:05:22,528 --> 00:05:25,149
+typically tied to the search term that
+通常与搜索字词相关联， 
+
+102
+00:05:25,348 --> 00:05:28,989
+we have so for example if we tie if we
+例如，如果我们并列， 
+
+103
+00:05:29,189 --> 00:05:33,369
+type in Paris hotels then there are
+键入巴黎酒店，然后有
+
+104
+00:05:33,569 --> 00:05:37,449
+advertisers out there who paid for the
+在那里付费的广告客户
+
+105
+00:05:37,649 --> 00:05:39,490
+right to display us their advertising
+向我们展示其广告的权利
+
+106
+00:05:39,689 --> 00:05:44,920
+when we type in those terms and so how
+当我们输入这些术语时，如何
+
+107
+00:05:45,120 --> 00:05:49,480
+does one run an auction for such search
+有没有人为这种搜索进行拍卖
+
+108
+00:05:49,680 --> 00:05:55,088
+terms knowing that they are run millions
+知道他们已经运行了数百万条的术语
+
+109
+00:05:55,288 --> 00:05:58,749
+of times throughout the day all over the
+整天的时间
+
+110
+00:05:58,949 --> 00:06:01,929
+world and they are run in different
+世界，他们在不同的地方
+
+111
+00:06:02,129 --> 00:06:05,528
+places multiple times and so wanting to
+放置多次，所以想
+
+112
+00:06:05,728 --> 00:06:08,559
+design an auction that is appropriate
+设计合适的拍卖
+
+113
+00:06:08,759 --> 00:06:12,309
+for this particular application so
+对于这个特殊的应用
+
+114
+00:06:12,509 --> 00:06:15,129
+sponsored search auctions or ad auctions
+赞助的搜索拍卖或广告拍卖
+
+115
+00:06:15,329 --> 00:06:18,489
+are a very rich topic of research in
+是一个非常丰富的研究主题
+
+116
+00:06:18,689 --> 00:06:21,429
+both academia and industry finally let
+学术界和工业界终于让
+
+117
+00:06:21,629 --> 00:06:24,519
+me speak briefly about combinatorial
+我简要谈一下组合
+
+118
+00:06:24,718 --> 00:06:27,910
+auctions those are very interesting both
+拍卖都非常有趣
+
+119
+00:06:28,110 --> 00:06:29,499
+because they are commercially very
+因为它们在商业上非常
+
+120
+00:06:29,699 --> 00:06:32,920
+relevant and because they give rise to a
+相关的，因为它们引起了
+
+121
+00:06:33,120 --> 00:06:36,009
+host of very interesting intellectual
+非常有趣的知识分子的主人
+
+122
+00:06:36,209 --> 00:06:39,259
+issues so what's an example of
+问题，这是什么例子
+
+123
+00:06:39,459 --> 00:06:43,400
+combinatorial auction imagine an auction
+组合拍卖想象拍卖
+
+124
+00:06:43,600 --> 00:06:47,210
+for shoes you could have an auction for
+对于鞋子，您可以进行拍卖
+
+125
+00:06:47,410 --> 00:06:49,579
+left shoes and you couldn't have an
+左鞋，你不能
+
+126
+00:06:49,779 --> 00:06:52,218
+auction for right shoes but that'd be
+拍卖合适的鞋子，但那会是
+
+127
+00:06:52,418 --> 00:06:54,710
+very weird because you really don't have
+非常奇怪，因为您真的没有
+
+128
+00:06:54,910 --> 00:06:59,149
+a use for only left or only a right shoe
+仅用于左鞋或仅用于右鞋
+
+129
+00:06:59,348 --> 00:07:01,910
+and so well you really would want to be
+好吧，你真的很想成为
+
+130
+00:07:02,110 --> 00:07:05,230
+able to bid for both of those together
+能够一起竞标
+
+131
+00:07:05,430 --> 00:07:08,680
+this seems frivolous but now think about
+这似乎很轻浮，但现在考虑一下
+
+132
+00:07:08,879 --> 00:07:12,350
+a popular consumer auction sites such as
+受欢迎的消费者拍卖网站，例如
+
+133
+00:07:12,550 --> 00:07:15,559
+eBay maybe you want to put together a
+易趣也许你想把一个
+
+134
+00:07:15,759 --> 00:07:18,759
+home theater system so you need a
+家庭影院系统，因此您需要一个
+
+135
+00:07:18,959 --> 00:07:23,809
+television you need a DVD player and
+电视，您需要DVD播放器和
+
+136
+00:07:24,009 --> 00:07:27,259
+maybe you need some other items that go
+也许您还需要其他一些物品
+
+137
+00:07:27,459 --> 00:07:29,540
+along to make a home entertainment
+进行家庭娱乐
+
+138
+00:07:29,740 --> 00:07:34,550
+system well you go out there and you bid
+系统很好，你去那里，你竞标
+
+139
+00:07:34,750 --> 00:07:37,278
+for televisions first off you have many
+首先要看电视你有很多
+
+140
+00:07:37,478 --> 00:07:40,399
+different televisions to bid on many
+不同的电视竞标很多
+
+141
+00:07:40,598 --> 00:07:41,718
+different televisions are very same
+不同的电视都一样
+
+142
+00:07:41,918 --> 00:07:44,059
+model and even more so of different
+型号甚至更多
+
+143
+00:07:44,259 --> 00:07:44,480
+models
+楷模
+
+144
+00:07:44,680 --> 00:07:47,180
+you only need one television so here you
+你只需要一台电视，所以在这里你
+
+145
+00:07:47,379 --> 00:07:49,520
+are you have these two televisions that
+你有这两台电视吗
+
+146
+00:07:49,720 --> 00:07:51,110
+you're bidding on but you don't want to
+您正在竞标，但您不想
+
+147
+00:07:51,310 --> 00:07:57,230
+get both of them so how can you bid on
+都拿到，所以你怎么出价
+
+148
+00:07:57,430 --> 00:07:59,389
+and make sure you get the tail of the
+并确保您了解
+
+149
+00:07:59,589 --> 00:08:03,170
+television you prefer but only one at
+您喜欢的电视，但只有一部
+
+150
+00:08:03,370 --> 00:08:05,899
+the same time perhaps you have here a
+同时也许你在这里
+
+151
+00:08:06,098 --> 00:08:09,249
+DVD player that you're bidding on but
+您竞标的DVD播放器，但
+
+152
+00:08:09,449 --> 00:08:11,689
+you really wouldn't want to get the DVD
+你真的不想拿DVD 
+
+153
+00:08:11,889 --> 00:08:14,959
+player alone a DVD without a television
+单独播放DVD而不播放电视
+
+154
+00:08:15,158 --> 00:08:17,420
+to display it on would be completely
+在上面显示
+
+155
+00:08:17,620 --> 00:08:19,430
+valueless to you and yet these are
+对你毫无价值，但这些都是
+
+156
+00:08:19,629 --> 00:08:22,249
+different options and so what you have
+不同的选择，所以你有什么
+
+157
+00:08:22,449 --> 00:08:24,550
+here are examples of are called
+这是被称为的例子
+
+158
+00:08:24,750 --> 00:08:27,709
+complementarity and substitutability the
+互补性和可替代性
+
+159
+00:08:27,908 --> 00:08:30,499
+two TVs you may be looking at our
+两台电视，您可能正在看我们的
+
+160
+00:08:30,699 --> 00:08:33,409
+substitute it doesn't mean that one is
+替代它并不意味着一个是
+
+161
+00:08:33,610 --> 00:08:35,419
+completely equivalent to the other but
+完全等同于另一个，但
+
+162
+00:08:35,620 --> 00:08:38,599
+it means that that the value of both of
+这意味着两者的价值
+
+163
+00:08:38,799 --> 00:08:41,000
+them together to you is much less that
+他们在一起给你要少得多
+
+164
+00:08:41,200 --> 00:08:43,370
+the some are their individual value to
+一些是他们的个人价值
+
+165
+00:08:43,570 --> 00:08:46,399
+you in the extreme case is simply the
+在极端情况下，你就是
+
+166
+00:08:46,600 --> 00:08:49,008
+value of the maximum maximum among the
+其中最大最大值的值
+
+167
+00:08:49,208 --> 00:08:52,309
+two on the other hand the connection
+另一方面，两个连接
+
+168
+00:08:52,509 --> 00:08:52,859
+between
+之间
+
+169
+00:08:53,059 --> 00:08:55,589
+in the DVD player and the television is
+在DVD播放器和电视中
+
+170
+00:08:55,789 --> 00:08:58,769
+that of complementarity the value of the
+互补的价值
+
+171
+00:08:58,970 --> 00:09:02,819
+DVD player plus the television is much
+ DVD播放器加电视很多
+
+172
+00:09:03,019 --> 00:09:06,328
+more than the value of the DVD player
+超过DVD播放机的价值
+
+173
+00:09:06,528 --> 00:09:08,309
+alone plus the value of the TV alone
+加上电视的价值
+
+174
+00:09:08,509 --> 00:09:10,649
+because the value of the DVD alone is
+因为仅DVD的价值就是
+
+175
+00:09:10,850 --> 00:09:13,740
+zero to you and so that's those two
+零给你，那就是那两个
+
+176
+00:09:13,940 --> 00:09:18,479
+goods are complementary there are many
+商品互补有很多
+
+177
+00:09:18,679 --> 00:09:22,099
+examples of combinatorial auctions and
+组合拍卖和
+
+178
+00:09:22,299 --> 00:09:25,349
+most famous example are the spectrum
+最著名的例子是频谱
+
+179
+00:09:25,549 --> 00:09:27,359
+auction you can you think of the
+拍卖您可以想到
+
+180
+00:09:27,559 --> 00:09:29,309
+spectrum auction these are rights for
+频谱拍卖这些是权利
+
+181
+00:09:29,509 --> 00:09:31,139
+you to use the electromagnetic spectrum
+您使用电磁频谱
+
+182
+00:09:31,339 --> 00:09:34,049
+and you can think of those as a matrix
+您可以将它们视为矩阵
+
+183
+00:09:34,250 --> 00:09:39,359
+where the rows are their regions in
+行在其中的区域
+
+184
+00:09:39,559 --> 00:09:41,459
+question for example geographical
+例如地理问题
+
+185
+00:09:41,659 --> 00:09:45,328
+regions in the US and the columns are
+美国的地区和列
+
+186
+00:09:45,528 --> 00:09:48,500
+certain bandwidth in megahertz for say
+一定的兆赫带宽
+
+187
+00:09:48,700 --> 00:09:50,939
+that are being auctions you could have a
+正在拍卖中，您可能会有
+
+188
+00:09:51,139 --> 00:09:53,609
+handful say five different bands that
+少数说五个不同的乐队
+
+189
+00:09:53,809 --> 00:09:55,649
+are auctions and many hundreds of
+是拍卖会，还有数百个
+
+190
+00:09:55,850 --> 00:09:58,379
+regions and so each cell in this matrix
+区域，因此此矩阵中的每个单元格
+
+191
+00:09:58,580 --> 00:10:01,669
+is a good but you have very strong
+很好，但是你很坚强
+
+192
+00:10:01,870 --> 00:10:06,120
+complementarity among the rows and very
+行之间的互补性
+
+193
+00:10:06,320 --> 00:10:08,159
+strong substitutability among the
+强大的替代性
+
+194
+00:10:08,360 --> 00:10:11,699
+columns the columns are really
+列是真的
+
+195
+00:10:11,899 --> 00:10:15,870
+interchangeable only needs one bandwidth
+可互换只需要一个带宽
+
+196
+00:10:16,070 --> 00:10:19,109
+and you don't care which it is on the
+而且你不在乎它在哪
+
+197
+00:10:19,309 --> 00:10:20,759
+other hand if you're a setted or
+另一方面，如果您是固定的，或者
+
+198
+00:10:20,960 --> 00:10:24,389
+operator for example getting a whole
+运算符，例如得到一个整体
+
+199
+00:10:24,589 --> 00:10:28,019
+contiguous segments is something you
+连续的段是你的事
+
+200
+00:10:28,220 --> 00:10:29,579
+essentially need in order to run a
+基本上需要运行
+
+201
+00:10:29,779 --> 00:10:32,429
+service you don't want to get just a
+您不想得到的服务
+
+202
+00:10:32,629 --> 00:10:34,259
+little pocket here a little pocket there
+这里的小口袋这里的小口袋
+
+203
+00:10:34,460 --> 00:10:40,589
+and so you really need say all the
+所以你真的需要说所有
+
+204
+00:10:40,789 --> 00:10:43,500
+metropolitan areas or all of the Midwest
+大都市地区或整个中西部
+
+205
+00:10:43,700 --> 00:10:47,099
+in order to justify rolling out a
+为了证明推出一个
+
+206
+00:10:47,299 --> 00:10:50,279
+service there that's an example of where
+服务那里是一个例子
+
+207
+00:10:50,480 --> 00:10:52,559
+combinatorial auction would be very
+组合拍卖会非常
+
+208
+00:10:52,759 --> 00:10:53,449
+natural
+自然
+
+209
+00:10:53,649 --> 00:10:56,279
+interestingly it hasn't really run this
+有趣的是，它并没有真正运行
+
+210
+00:10:56,480 --> 00:10:58,669
+way although the discussions about
+方式虽然讨论
+
+211
+00:10:58,870 --> 00:11:01,169
+running it's quite quite as a
+运行它相当
+
+212
+00:11:01,370 --> 00:11:05,789
+combinatorial auctions commit to options
+组合拍卖承诺期权
+
+213
+00:11:05,990 --> 00:11:08,129
+give rise to many issues how to design
+引起很多问题如何设计
+
+214
+00:11:08,330 --> 00:11:10,469
+the auction to ensure the right economic
+拍卖以确保正确的经济
+
+215
+00:11:10,669 --> 00:11:13,409
+properties there are interesting
+那里的属性很有趣
+
+216
+00:11:13,610 --> 00:11:17,009
+computational issues so find finding the
+计算问题，所以找到
+
+217
+00:11:17,210 --> 00:11:20,099
+winner in a simple English auction or in
+简单的英语拍卖或
+
+218
+00:11:20,299 --> 00:11:22,049
+a sealed bid auction is trivial you look
+密封的竞价拍卖看起来微不足道
+
+219
+00:11:22,250 --> 00:11:24,859
+at the maximum among a set of numbers
+在一组数字中最大
+
+220
+00:11:25,059 --> 00:11:27,209
+computing the outcome of a combinatorial
+计算组合的结果
+
+221
+00:11:27,409 --> 00:11:30,719
+auction is distinctly more complicated
+拍卖显然要复杂得多
+
+222
+00:11:30,919 --> 00:11:33,599
+both competing who the winner is and in
+既竞争获胜者又是谁
+
+223
+00:11:33,799 --> 00:11:36,209
+particular computing the payments can be
+特别是计算付款可以是
+
+224
+00:11:36,409 --> 00:11:39,959
+very complicated in the in the technical
+在技​​术上非常复杂
+
+225
+00:11:40,159 --> 00:11:43,199
+language the this so-called winner
+语言这个所谓的赢家
+
+226
+00:11:43,399 --> 00:11:46,490
+determination problem is what's called
+确定问题就是所谓的
+
+227
+00:11:46,690 --> 00:11:51,059
+np-complete which means that it's a a an
+ np-complete这意味着它是一个
+
+228
+00:11:51,259 --> 00:11:54,929
+agreed upon difficult problem to compute
+同意计算困难的问题
+
+229
+00:11:55,129 --> 00:11:57,779
+and there's been a literature about how
+并且有关于如何
+
+230
+00:11:57,980 --> 00:11:59,429
+to do it in a practical manner
+以实际的方式做到这一点
+
+231
+00:11:59,629 --> 00:12:04,679
+nonetheless so these are examples of non
+尽管如此，这些都是非
+
+232
+00:12:04,879 --> 00:12:08,870
+non simple actions multiple-unit
+非简单动作多单元
+
+233
+00:12:09,070 --> 00:12:12,059
+sponsored search options compare toriel
+赞助商搜索选项比较
+
+234
+00:12:12,259 --> 00:12:15,750
+auctions and all this by way of working
+拍卖和所有这些通过工作
+
+235
+00:12:15,950 --> 00:12:17,939
+your appetite to learn more about these
+您的胃口以了解更多有关这些的信息
+
+236
+00:12:18,139 --> 00:12:23,139
+kinds of auctions
+各种拍卖
+

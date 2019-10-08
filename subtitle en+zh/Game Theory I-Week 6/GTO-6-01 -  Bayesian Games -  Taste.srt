@@ -1,0 +1,775 @@
+﻿1
+00:00:00,000 --> 00:00:02,319
+this video will help to introduce the
+该视频将有助于介绍
+
+2
+00:00:02,520 --> 00:00:05,229
+idea of Bayesian games which is a new
+贝叶斯游戏的新思想
+
+3
+00:00:05,429 --> 00:00:09,880
+game representation so here I want to
+游戏表示，所以我想在这里
+
+4
+00:00:10,080 --> 00:00:14,140
+think about auctions now canonically
+现在考虑规范拍卖
+
+5
+00:00:14,339 --> 00:00:15,519
+when we think about auctions we think
+当我们想到拍卖时，我们会想到
+
+6
+00:00:15,718 --> 00:00:17,679
+about something like this wood cutting
+关于这种木头切割
+
+7
+00:00:17,879 --> 00:00:20,679
+from 1885 showing the auction of tea in
+从1885年开始展示茶叶拍卖
+
+8
+00:00:20,879 --> 00:00:24,010
+Melbourne Australia we've got a guy in a
+澳大利亚墨尔本，我们有一个家伙
+
+9
+00:00:24,210 --> 00:00:25,749
+top hat standing at the front of the
+高顶礼帽站在前面
+
+10
+00:00:25,949 --> 00:00:27,429
+room and he's got a gavel in his hand
+房间，他手里拿着木槌
+
+11
+00:00:27,629 --> 00:00:29,050
+and he's probably talking in a funny
+而且他可能在讲有趣
+
+12
+00:00:29,250 --> 00:00:30,609
+voice and at some point he bangs the
+声音，在某个时候，他砰的一声
+
+13
+00:00:30,809 --> 00:00:32,259
+gavel and somebody just won a bunch of
+木槌和某人刚刚赢得了一堆
+
+14
+00:00:32,460 --> 00:00:34,570
+tea but auctions are a really practical
+茶，但是拍卖真的很实用
+
+15
+00:00:34,770 --> 00:00:37,538
+thing they they really are quite
+他们真的很
+
+16
+00:00:37,738 --> 00:00:38,919
+important in the world and they used for
+在世界上很重要，他们曾经
+
+17
+00:00:39,119 --> 00:00:41,529
+a lot of different things here's an
+很多不同的东西
+
+18
+00:00:41,729 --> 00:00:43,299
+example of a much more modern auction
+现代拍卖的例子
+
+19
+00:00:43,500 --> 00:00:46,448
+this is an auction of bluefin tuna at a
+这是蓝鳍金枪鱼的拍卖
+
+20
+00:00:46,649 --> 00:00:48,820
+fish market in Tokyo and you can see
+东京的鱼市场，你可以看到
+
+21
+00:00:49,020 --> 00:00:52,748
+this is from 2008 and auctions are used
+这是从2008年开始，使用拍卖
+
+22
+00:00:52,948 --> 00:00:55,088
+to sell fish because fish spoiled
+卖鱼，因为鱼变质了
+
+23
+00:00:55,289 --> 00:00:57,038
+quickly and their value changes quickly
+快速，他们的价值快速变化
+
+24
+00:00:57,238 --> 00:00:59,320
+and so it's important to find a way of
+所以找到一种方法很重要
+
+25
+00:00:59,520 --> 00:01:01,509
+determining what the prices should be on
+确定价格应该是多少
+
+26
+00:01:01,710 --> 00:01:06,640
+a day-by-day basis here's an auction by
+每天的拍卖行
+
+27
+00:01:06,840 --> 00:01:10,028
+the US Marshal Service selling some
+美国元帅处出售一些
+
+28
+00:01:10,228 --> 00:01:12,278
+horses that were seized by somebody who
+被某人抓住的马
+
+29
+00:01:12,478 --> 00:01:14,799
+was convicted of embezzling money and so
+因挪用金钱而被定罪，因此
+
+30
+00:01:15,000 --> 00:01:17,319
+the u.s. marshals got a bunch of guys
+美国法警有很多人
+
+31
+00:01:17,519 --> 00:01:19,299
+and cowboy hats to round up this
+和牛仔帽来凑合这个
+
+32
+00:01:19,500 --> 00:01:21,189
+person's horses and sell them off to
+人的马，卖给
+
+33
+00:01:21,390 --> 00:01:22,980
+recover some of the embezzled money
+追回一些挪用的钱
+
+34
+00:01:23,180 --> 00:01:25,359
+again you can see why an auction might
+再次，您可以了解为什么拍卖会
+
+35
+00:01:25,560 --> 00:01:27,278
+be used here because the value of
+在这里使用是因为
+
+36
+00:01:27,478 --> 00:01:29,079
+something like a horse is pretty unclear
+像马一样的东西还不清楚
+
+37
+00:01:29,280 --> 00:01:31,480
+it depends on supply and demand it
+这取决于供求关系
+
+38
+00:01:31,680 --> 00:01:34,238
+depends on intangible things like the
+取决于像
+
+39
+00:01:34,438 --> 00:01:36,668
+value of the horse the number of other
+马的价值其他
+
+40
+00:01:36,868 --> 00:01:38,200
+good horses on the market at a given
+给定市场上的好马
+
+41
+00:01:38,400 --> 00:01:42,308
+time and so on here's yet another
+时间等等，这是另一个
+
+42
+00:01:42,509 --> 00:01:45,429
+auction this is an auction of rugby
+拍卖这是橄榄球的拍卖
+
+43
+00:01:45,629 --> 00:01:47,378
+players presumably only for a limited
+大概只是有限的玩家
+
+44
+00:01:47,578 --> 00:01:49,899
+time and again you can see why an
+一次又一次，您可以看到为什么
+
+45
+00:01:50,099 --> 00:01:51,579
+auction might need to be used because
+可能需要使用拍卖，因为
+
+46
+00:01:51,780 --> 00:01:54,819
+it's pretty unclear what this guy would
+目前还不清楚这个家伙会做什么
+
+47
+00:01:55,019 --> 00:01:59,859
+be worth of course not all auctions
+当然值得所有拍卖
+
+48
+00:02:00,060 --> 00:02:02,558
+happen in person here's a famous auction
+亲自发生，这是著名的拍卖
+
+49
+00:02:02,759 --> 00:02:05,340
+that occurred on eBay a few years ago
+几年前发生在eBay上
+
+50
+00:02:05,540 --> 00:02:10,029
+this was a situation where a woman in
+在这种情况下， 
+
+51
+00:02:10,229 --> 00:02:11,890
+Florida was eating a grilled cheese
+佛罗里达正在吃烤奶酪
+
+52
+00:02:12,090 --> 00:02:13,929
+sandwich that she had made for
+她做的三明治
+
+53
+00:02:14,128 --> 00:02:16,420
+you can see a picture of it right here
+你可以在这里看到它的图片
+
+54
+00:02:16,620 --> 00:02:19,660
+and she took a bite out of it and then
+她咬了一口，然后
+
+55
+00:02:19,860 --> 00:02:22,330
+she was amazed to discover what she
+她惊讶地发现了自己的东西
+
+56
+00:02:22,530 --> 00:02:24,429
+considered to be a perfect likeness of
+被认为是完美的肖像
+
+57
+00:02:24,628 --> 00:02:27,969
+the Virgin Mary in the the shape of the
+圣母玛利亚的形状
+
+58
+00:02:28,169 --> 00:02:31,420
+burn mark on the grilled cheese sandwich
+烤奶酪三明治上有烫痕
+
+59
+00:02:31,620 --> 00:02:35,830
+right there and so she was so amazed she
+就在那里，所以她很惊讶
+
+60
+00:02:36,030 --> 00:02:38,080
+decided that this was a religious relic
+认为这是宗教遗物
+
+61
+00:02:38,280 --> 00:02:41,289
+she stopped eating the sandwich and like
+她停止吃三明治，喜欢
+
+62
+00:02:41,489 --> 00:02:43,300
+anyone would do if they discovered a
+任何人只要发现一个
+
+63
+00:02:43,500 --> 00:02:44,530
+sign from God
+来自上帝的迹象
+
+64
+00:02:44,729 --> 00:02:46,569
+she posted it on eBay to sell to the
+她将其发布在eBay上以出售给
+
+65
+00:02:46,769 --> 00:02:49,030
+highest bidder this is kind of
+出价最高的人
+
+66
+00:02:49,229 --> 00:02:51,009
+interesting both because it's ridiculous
+都有趣，因为这太荒谬了
+
+67
+00:02:51,209 --> 00:02:54,759
+but also because it goes to show how the
+而且还因为它显示了
+
+68
+00:02:54,959 --> 00:02:56,800
+Internet allows auctions to create
+互联网允许拍卖创造
+
+69
+00:02:57,000 --> 00:02:58,840
+markets in places where they really
+他们真正去过的地方的市场
+
+70
+00:02:59,039 --> 00:03:01,420
+wouldn't have existed before so if this
+以前不存在，所以如果这
+
+71
+00:03:01,620 --> 00:03:02,950
+had happened before the internet it
+发生在互联网之前
+
+72
+00:03:03,150 --> 00:03:04,868
+seems pretty clear that this woman would
+似乎很清楚，这个女人会
+
+73
+00:03:05,068 --> 00:03:07,000
+have had a hard time finding a buyer for
+很难找到买家
+
+74
+00:03:07,199 --> 00:03:09,039
+her grilled cheese sandwich but you can
+她的烤奶酪三明治，但你可以
+
+75
+00:03:09,239 --> 00:03:12,759
+see that when I took this screenshot the
+看到当我拍摄此屏幕截图时， 
+
+76
+00:03:12,959 --> 00:03:15,219
+auction still had almost four days to go
+拍卖还有将近四天的时间
+
+77
+00:03:15,419 --> 00:03:18,490
+and already the top bid was seven
+最高出价已经是七个
+
+78
+00:03:18,689 --> 00:03:21,340
+thousand six hundred US dollars and this
+一千六百美元，这
+
+79
+00:03:21,539 --> 00:03:23,289
+this really was not a hoax this was an
+这真的不是骗局，这是
+
+80
+00:03:23,489 --> 00:03:24,580
+actual auction it was covered in the
+实际拍卖中
+
+81
+00:03:24,780 --> 00:03:27,969
+news so that's that's kind of an amazing
+新闻，那真是太神奇了
+
+82
+00:03:28,169 --> 00:03:29,409
+thing it goes to show the power of
+它显示出力量的东西
+
+83
+00:03:29,609 --> 00:03:31,509
+auctions to to match up buyers and
+拍卖以匹配买家
+
+84
+00:03:31,709 --> 00:03:35,200
+sellers here's the last auction picture
+卖家这是最近一次拍卖的照片
+
+85
+00:03:35,400 --> 00:03:38,020
+I want to show you this is what's called
+我想告诉你这就是所谓的
+
+86
+00:03:38,219 --> 00:03:41,800
+a silent auction in a charity auction so
+慈善拍卖中的无声拍卖，所以
+
+87
+00:03:42,000 --> 00:03:44,259
+what's going on here is there there are
+这是怎么回事
+
+88
+00:03:44,459 --> 00:03:46,060
+actually two different bundles for sale
+实际上是两个不同的捆绑销售
+
+89
+00:03:46,259 --> 00:03:49,390
+so there's a gift basket here for sale
+所以这里有一个礼物篮要出售
+
+90
+00:03:49,590 --> 00:03:52,330
+and all of the people who are interested
+和所有感兴趣的人
+
+91
+00:03:52,530 --> 00:03:54,520
+in buying it are able to go up and
+在购买它能够上升， 
+
+92
+00:03:54,719 --> 00:03:57,069
+inspect it decide what they think it's
+检查它决定他们认为是什么
+
+93
+00:03:57,269 --> 00:04:01,118
+worth to them and then they write a bid
+对他们来说很有价值，然后他们写了一个报价
+
+94
+00:04:01,318 --> 00:04:03,459
+they write their name and an amount that
+他们写下自己的名字和金额
+
+95
+00:04:03,658 --> 00:04:05,289
+they're willing to pay on this sheet of
+他们愿意为此支付
+
+96
+00:04:05,489 --> 00:04:09,129
+paper here and the reason that I think
+本文在这里以及我认为的原因
+
+97
+00:04:09,329 --> 00:04:10,840
+the silent auction is particularly
+无声拍卖尤其如此
+
+98
+00:04:11,039 --> 00:04:13,420
+interesting is we can really see how
+有趣的是我们真的可以看到
+
+99
+00:04:13,620 --> 00:04:16,389
+this might look like a game we here have
+这看起来像我们这里的游戏
+
+100
+00:04:16,589 --> 00:04:19,930
+a well-defined action space you come you
+一个定义明确的动作空间，您来了
+
+101
+00:04:20,129 --> 00:04:21,550
+you look at the piece of paper you can
+你看着那张纸，你可以
+
+102
+00:04:21,750 --> 00:04:23,410
+see the moves of the players who have
+看到有
+
+103
+00:04:23,610 --> 00:04:27,069
+moved before you and then you
+在你之前移动，然后你
+
+104
+00:04:27,269 --> 00:04:28,540
+in action which is choosing to write
+在选择写作的行动中
+
+105
+00:04:28,740 --> 00:04:31,240
+down a number and at the end presumably
+减少一个数字，最后大概
+
+106
+00:04:31,439 --> 00:04:32,920
+you don't write down a number that is
+你不会写下一个数字
+
+107
+00:04:33,120 --> 00:04:35,290
+worth more than the gift basket is worth
+价值超过礼品篮的价值
+
+108
+00:04:35,490 --> 00:04:37,509
+to you at the end if you have the
+最后，如果您有
+
+109
+00:04:37,709 --> 00:04:39,100
+highest number you win the gift basket
+您赢得礼品篮的最高号码
+
+110
+00:04:39,300 --> 00:04:41,649
+you realize an amount of utility which
+您意识到一定数量的效用
+
+111
+00:04:41,848 --> 00:04:43,809
+is which depends on how good the gift
+取决于礼物的好坏
+
+112
+00:04:44,009 --> 00:04:45,490
+basket is from your point of view and
+从您的角度来看篮子
+
+113
+00:04:45,689 --> 00:04:47,588
+you pay whatever amount it is that you
+您支付的金额是
+
+114
+00:04:47,788 --> 00:04:48,999
+wrote down on the piece of paper which
+在那张纸上写下
+
+115
+00:04:49,199 --> 00:04:51,369
+is presumably less and you get the
+大概更少，你得到
+
+116
+00:04:51,569 --> 00:04:53,379
+difference as your utility for having
+与您拥有的实用程序不同
+
+117
+00:04:53,579 --> 00:04:56,110
+played the game so all of this looks
+玩了游戏，所以所有这些看起来
+
+118
+00:04:56,310 --> 00:04:57,999
+like something we can really model in
+就像我们可以真正建模的东西
+
+119
+00:04:58,199 --> 00:05:00,249
+the context of this course and if we
+本课程的背景，如果我们
+
+120
+00:05:00,449 --> 00:05:01,749
+realize we can model the silent auction
+意识到我们可以为无声拍卖建模
+
+121
+00:05:01,949 --> 00:05:04,088
+this way we can probably see that we can
+这样，我们可能会看到，我们可以
+
+122
+00:05:04,288 --> 00:05:05,499
+model the other options that I've just
+模拟我刚才的其他选项
+
+123
+00:05:05,699 --> 00:05:07,649
+described in this sort of way as well
+也用这种方式描述
+
+124
+00:05:07,848 --> 00:05:10,088
+however there's something really
+但是确实有一些东西
+
+125
+00:05:10,288 --> 00:05:13,270
+critical about the case of the silent
+对沉默的情况至关重要
+
+126
+00:05:13,470 --> 00:05:15,218
+auction which is different from the
+拍卖与
+
+127
+00:05:15,418 --> 00:05:16,389
+games that we've talked about in this
+我们在此讨论的游戏
+
+128
+00:05:16,589 --> 00:05:19,240
+course already and that is that when I
+当然，那就是当我
+
+129
+00:05:19,439 --> 00:05:21,069
+want to reason about what other people
+想知道其他人
+
+130
+00:05:21,269 --> 00:05:23,319
+will do in this game I need to think
+在这个游戏中我会想
+
+131
+00:05:23,519 --> 00:05:25,540
+about what they think the gift basket is
+他们认为礼物篮是什么
+
+132
+00:05:25,740 --> 00:05:27,399
+worth to them that's going to be
+对他们来说值得
+
+133
+00:05:27,598 --> 00:05:29,199
+something very important to the way they
+对他们的方式非常重要的事情
+
+134
+00:05:29,399 --> 00:05:32,889
+choose to act in the game and critically
+选择在游戏中扮演重要角色
+
+135
+00:05:33,089 --> 00:05:36,309
+this is something that will affect their
+这会影响他们的
+
+136
+00:05:36,509 --> 00:05:39,040
+utility and it's not something that I
+实用程序，这不是我的事
+
+137
+00:05:39,240 --> 00:05:42,249
+know and so this is a case where I'm not
+知道，所以这是我不知道的情况
+
+138
+00:05:42,449 --> 00:05:45,939
+quite sure what other players utility
+非常确定其他玩家的实用程序
+
+139
+00:05:46,139 --> 00:05:48,550
+functions are even in cases where I can
+功能甚至在我可以的情况下
+
+140
+00:05:48,750 --> 00:05:50,740
+imagine what all of the actions taken in
+想象所有采取的行动
+
+141
+00:05:50,939 --> 00:05:53,230
+the game are so this is a different sort
+游戏是不同的
+
+142
+00:05:53,430 --> 00:05:54,519
+of setting than we've ever looked at
+设置比我们以前看过的
+
+143
+00:05:54,718 --> 00:05:57,040
+before and hopefully you can see that
+以前，希望你能看到
+
+144
+00:05:57,240 --> 00:05:59,050
+this is really necessary to model the
+这对于建模
+
+145
+00:05:59,250 --> 00:06:01,329
+case of auctions it's really fundamental
+拍卖的情况真的很重要
+
+146
+00:06:01,528 --> 00:06:03,790
+to an auction that I'm not quite sure
+参加我不太确定的拍卖
+
+147
+00:06:03,990 --> 00:06:06,459
+what the good is worth to all of the
+什么对所有的人都有价值
+
+148
+00:06:06,658 --> 00:06:07,899
+other participants in the auction and
+拍卖的其他参与者
+
+149
+00:06:08,098 --> 00:06:09,999
+that fact is really critical to my
+这个事实对我来说真的很关键
+
+150
+00:06:10,199 --> 00:06:12,278
+strategic reasoning and the option so
+战略推理及其选择
+
+151
+00:06:12,478 --> 00:06:14,379
+Bayesian games are a formalism that
+贝叶斯游戏是形式主义， 
+
+152
+00:06:14,579 --> 00:06:16,059
+allows us to model this kind of
+允许我们建模这种
+
+153
+00:06:16,259 --> 00:06:17,889
+uncertainty uncertainty about the
+不确定性
+
+154
+00:06:18,089 --> 00:06:21,249
+utility functions and this week we'll go
+实用程序功能，本周我们将去
+
+155
+00:06:21,449 --> 00:06:26,449
+into Bayesian games in more detail
+更详细地介绍贝叶斯游戏
+

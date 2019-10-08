@@ -1,0 +1,1260 @@
+﻿1
+00:00:00,030 --> 00:00:01,900
+okay folks let's take a look at some
+好吧，我们来看看一些
+
+2
+00:00:02,100 --> 00:00:04,990
+data now on mixed strategies and begin
+现在就采用混合策略并开始
+
+3
+00:00:05,190 --> 00:00:06,698
+to see whether or not some of the
+看看是否有一些
+
+4
+00:00:06,899 --> 00:00:07,960
+subtleties that we were talking about
+我们正在谈论的微妙之处
+
+5
+00:00:08,160 --> 00:00:11,290
+earlier actually play play themselves
+早先实际上玩自己玩
+
+6
+00:00:11,490 --> 00:00:14,559
+out in real incarnations of these games
+这些游戏的真实化身
+
+7
+00:00:14,759 --> 00:00:19,629
+so in particular we mentioned that mixed
+所以我们特别提到
+
+8
+00:00:19,829 --> 00:00:20,999
+strategy Nash equilibria can have some
+策略纳什均衡可以有一些
+
+9
+00:00:21,199 --> 00:00:25,179
+counterintuitive features and there can
+违反直觉的功能，并且可以
+
+10
+00:00:25,379 --> 00:00:27,519
+be can be somewhat subtle to solve for
+解决可能会有些微妙
+
+11
+00:00:27,719 --> 00:00:30,068
+so we might wonder whether people
+所以我们可能想知道人们是否
+
+12
+00:00:30,268 --> 00:00:33,128
+actually really obey the predictions of
+实际上真的服从于
+
+13
+00:00:33,329 --> 00:00:35,500
+Nash equilibrium in these settings so
+在这些情况下纳什均衡
+
+14
+00:00:35,700 --> 00:00:37,779
+let's have a look at professional soccer
+让我们来看看职业足球
+
+15
+00:00:37,979 --> 00:00:40,538
+penalty kicks and we'll look at some
+点球大战，我们来看一些
+
+16
+00:00:40,738 --> 00:00:42,339
+data that was gathered by Ignacio
+ Ignacio收集的数据
+
+17
+00:00:42,539 --> 00:00:46,268
+Palacios Huerta in 2003 where what he
+ Palacios Huerta在2003年
+
+18
+00:00:46,469 --> 00:00:47,890
+did was he actually looked at as a whole
+是他实际上从整体上看
+
+19
+00:00:48,090 --> 00:00:49,479
+series of FIFA games that he recorded
+他录制的一系列FIFA游戏
+
+20
+00:00:49,679 --> 00:00:52,689
+off of television different different
+电视不同
+
+21
+00:00:52,890 --> 00:00:55,538
+shows he looked at fourteen hundred and
+显示他看了一千四百
+
+22
+00:00:55,738 --> 00:00:57,369
+seventeen penalty kicks and in the
+十七次罚球并在
+
+23
+00:00:57,570 --> 00:01:02,829
+Spanish league England in Italy and so
+西班牙联赛英格兰在意大利等
+
+24
+00:01:03,030 --> 00:01:05,319
+forth and so he's looking at at high
+来，所以他看着高
+
+25
+00:01:05,519 --> 00:01:08,049
+level soccer and looked at penalty kicks
+水平足球，看着罚球
+
+26
+00:01:08,250 --> 00:01:10,750
+and what he did is he kept track of
+他所做的是他一直在追踪
+
+27
+00:01:10,950 --> 00:01:12,640
+whether people kicked to the left they
+人们是否向左踢
+
+28
+00:01:12,840 --> 00:01:14,079
+kicked to the center they kicked to the
+踢到他们踢到的中心
+
+29
+00:01:14,280 --> 00:01:16,959
+right and whether they were using their
+对以及他们是否正在使用他们的
+
+30
+00:01:17,159 --> 00:01:20,590
+left leg or the right leg and and we're
+左腿还是右腿，而我们
+
+31
+00:01:20,790 --> 00:01:21,789
+gonna look just at this simplified
+会看看这个简化的
+
+32
+00:01:21,989 --> 00:01:23,259
+version that corresponds to what we
+对应于我们的版本
+
+33
+00:01:23,459 --> 00:01:24,939
+analysed earlier which is just a left
+前面分析过的只是剩下的
+
+34
+00:01:25,140 --> 00:01:27,009
+kick right kick and the goalie can
+踢右脚踢，守门员可以
+
+35
+00:01:27,209 --> 00:01:29,649
+either move left to right which he
+要么左右移动
+
+36
+00:01:29,849 --> 00:01:31,959
+actually analyzes a subset of the data
+实际分析数据的子集
+
+37
+00:01:32,159 --> 00:01:34,450
+on page 402 and will look at what data
+在第402页，将查看哪些数据
+
+38
+00:01:34,650 --> 00:01:37,168
+he actually has and from that paper
+他实际上有
+
+39
+00:01:37,368 --> 00:01:42,039
+okay so here's based on on what he finds
+好吧，这是根据他的发现
+
+40
+00:01:42,239 --> 00:01:43,899
+out of these fourteen hundred and
+在这1400个中
+
+41
+00:01:44,099 --> 00:01:46,119
+seventeen penalty kicks these are sort
+这些罚球有十七个
+
+42
+00:01:46,319 --> 00:01:48,909
+of the averages so in situations where
+平均值的情况下， 
+
+43
+00:01:49,109 --> 00:01:52,390
+kickers go left and goalies go left
+踢脚向左走，守门员向左走
+
+44
+00:01:52,590 --> 00:01:54,909
+kickers win fifty eight point percent of
+踢球者赢得百分之五十八
+
+45
+00:01:55,109 --> 00:01:58,090
+the time goalies win forty-two percent
+守门员的时间赢了42％ 
+
+46
+00:01:58,290 --> 00:02:01,238
+of the time in situations where the
+在这种情况下
+
+47
+00:02:01,438 --> 00:02:02,829
+kicker goes left and a goalie goes right
+踢脚向左走，守门员向右走
+
+48
+00:02:03,030 --> 00:02:04,778
+then the the kicker wins ninety five
+然后踢手赢得九十五
+
+49
+00:02:04,978 --> 00:02:07,868
+percent of the time if the kicker goes
+踢球走时的百分比
+
+50
+00:02:08,068 --> 00:02:09,789
+right and that go he goes left they went
+对，他走了，他走了，他们走了
+
+51
+00:02:09,989 --> 00:02:11,890
+the kicker wins ninety three percent of
+踢手赢得百分之九十三
+
+52
+00:02:12,090 --> 00:02:12,660
+the time and so
+时间等等
+
+53
+00:02:12,860 --> 00:02:15,560
+so so these are the actual numbers that
+所以这些是实际数字
+
+54
+00:02:15,759 --> 00:02:19,790
+Ignacio finds based on these recorded
+伊格纳西奥根据这些记录发现
+
+55
+00:02:19,990 --> 00:02:24,480
+penalty kicks from the 1417 games okay
+ 1417比赛罚点球好吗
+
+56
+00:02:24,680 --> 00:02:26,790
+so we do see that there's biases here
+所以我们确实看到这里有偏见
+
+57
+00:02:26,990 --> 00:02:27,840
+there's some advantages and
+有一些优势， 
+
+58
+00:02:28,039 --> 00:02:29,420
+disadvantages
+缺点
+
+59
+00:02:29,620 --> 00:02:33,780
+so going left against right is slightly
+所以左转右转稍微
+
+60
+00:02:33,979 --> 00:02:35,820
+better than a four a kicker that going
+胜过四踢
+
+61
+00:02:36,020 --> 00:02:40,200
+right versus left not so different but
+右与左没什么不同，但
+
+62
+00:02:40,400 --> 00:02:41,510
+left left
+左左
+
+63
+00:02:41,710 --> 00:02:43,650
+compared to right right we see a little
+与正确的相比，我们看到了一点
+
+64
+00:02:43,849 --> 00:02:44,969
+bit more of a difference so this is an
+有所不同，所以这是一个
+
+65
+00:02:45,169 --> 00:02:47,660
+asymmetric game it's a fairly subtle one
+非对称游戏，这是一个相当微妙的游戏
+
+66
+00:02:47,860 --> 00:02:51,960
+so we have to see whether or not we're
+所以我们必须看看我们是否
+
+67
+00:02:52,159 --> 00:02:54,680
+going to end up with the Nash
+以纳什结束
+
+68
+00:02:54,879 --> 00:02:57,810
+equilibrium in this game okay so why
+在这个游戏中保持平衡，为什么呢？ 
+
+69
+00:02:58,009 --> 00:02:59,880
+don't we do the following given those
+鉴于这些，我们不执行以下操作
+
+70
+00:03:00,080 --> 00:03:02,510
+numbers you we can pause the video and
+数字，我们可以暂停视频， 
+
+71
+00:03:02,710 --> 00:03:06,270
+solve the game so you can take a look at
+解决游戏，让您可以看看
+
+72
+00:03:06,469 --> 00:03:07,860
+this try and figure out what the
+这个尝试找出什么
+
+73
+00:03:08,060 --> 00:03:10,050
+probabilities that the goalie should go
+守门员应该走的概率
+
+74
+00:03:10,250 --> 00:03:12,719
+left so to say the goalie is going to go
+离开，说守门员要走了
+
+75
+00:03:12,919 --> 00:03:15,420
+left with probability P G the kicker is
+ PG离开的可能性是
+
+76
+00:03:15,620 --> 00:03:17,340
+going to go left with probability P sub
+将以概率P sub向左走
+
+77
+00:03:17,539 --> 00:03:22,020
+K solve for P sub G and P sub K with
+ K求解P sub G和P sub K 
+
+78
+00:03:22,219 --> 00:03:25,310
+this matrix so you're going to put P G
+这个矩阵，所以你要把PG 
+
+79
+00:03:25,509 --> 00:03:31,230
+here 1 minus P G here PK here 1 minus P
+这里1减去PG这里PK这里1减去P 
+
+80
+00:03:31,430 --> 00:03:34,650
+K here and try and solve for the the
+在这里K并尝试解决
+
+81
+00:03:34,849 --> 00:03:36,780
+mixed strategy Nash equilibrium of this
+纳什均衡的混合策略
+
+82
+00:03:36,979 --> 00:03:38,759
+game so take a few minutes pause the
+游戏，所以花几分钟暂停
+
+83
+00:03:38,959 --> 00:03:40,560
+video try and solve that and then we'll
+视频尝试解决该问题，然后我们将
+
+84
+00:03:40,759 --> 00:03:41,880
+come back and look at what the solution
+回来看看解决方案
+
+85
+00:03:42,080 --> 00:03:46,439
+looks like ok so you've had a chance to
+看起来还可以，所以您有机会
+
+86
+00:03:46,639 --> 00:03:48,960
+look through that now let's see what
+现在看一下，让我们看看
+
+87
+00:03:49,159 --> 00:03:52,770
+actually is happening in the in this
+实际上发生在
+
+88
+00:03:52,969 --> 00:03:55,890
+game so what we need is we need PG to
+游戏，所以我们需要的是PG 
+
+89
+00:03:56,090 --> 00:03:59,550
+make the kicker indifferent right so if
+使踢球者无动于衷，所以如果
+
+90
+00:03:59,750 --> 00:04:01,200
+the kicker kicks left we can figure out
+踢脚向左踢，我们可以弄清楚
+
+91
+00:04:01,400 --> 00:04:04,110
+what payoff they get if the kicker goes
+如果踢球成功，他们会得到什么回报
+
+92
+00:04:04,310 --> 00:04:05,550
+right we can figure out what payoff they
+是的，我们可以找出他们的收益
+
+93
+00:04:05,750 --> 00:04:08,100
+get so in particular the goalies
+特别是守门员
+
+94
+00:04:08,300 --> 00:04:09,630
+probability of going left versus right
+左移与右移的可能性
+
+95
+00:04:09,830 --> 00:04:12,150
+must have the kicker indifferent so when
+必须对踢脚无动于衷
+
+96
+00:04:12,349 --> 00:04:15,360
+we look at the kickers payoff from going
+我们看一下踢球的收益
+
+97
+00:04:15,560 --> 00:04:19,590
+left compared to their payoff to going
+离开与他们的回报相比
+
+98
+00:04:19,790 --> 00:04:22,468
+right has to be the same you solve that
+权利必须与您解决的问题相同
+
+99
+00:04:22,668 --> 00:04:26,319
+out and what do you end up with PG is
+出来，你最终得到PG是什么
+
+100
+00:04:26,519 --> 00:04:31,809
+is roughly 5/12 in this case or 0.42 so
+在这种情况下大约是5/12或0.42 
+
+101
+00:04:32,009 --> 00:04:34,119
+if we do the same for the kicker going
+如果我们对踢脚做同样的事情
+
+102
+00:04:34,319 --> 00:04:36,218
+left versus the kicker going right you
+向左踢，向右踢
+
+103
+00:04:36,418 --> 00:04:39,790
+can go through that and you know setting
+可以经历那件事，你知道设置
+
+104
+00:04:39,990 --> 00:04:43,240
+the the goalies payoff from going left
+守门员从左走的收益
+
+105
+00:04:43,439 --> 00:04:45,730
+versus right being indifferent what do
+与权利漠不关心该做什么
+
+106
+00:04:45,930 --> 00:04:49,270
+we end up with we end up with PK the
+我们最终以PK结束
+
+107
+00:04:49,470 --> 00:04:50,920
+probability that the kicker goes left is
+踢手离开的概率是
+
+108
+00:04:51,120 --> 00:04:55,689
+point three eight so in terms of what we
+指出三点八点
+
+109
+00:04:55,889 --> 00:04:57,910
+found we found that goalies should go
+发现我们发现守门员应该走
+
+110
+00:04:58,110 --> 00:05:00,819
+left forty two percent of the time that
+剩下百分之四十二的时间
+
+111
+00:05:01,019 --> 00:05:02,499
+leaves them going right fifty eight
+让他们向右走58 
+
+112
+00:05:02,699 --> 00:05:03,610
+percent of the time
+百分之几的时间
+
+113
+00:05:03,810 --> 00:05:06,869
+kickers should go left with probability
+踢手应该左走
+
+114
+00:05:07,069 --> 00:05:11,319
+0.38 which then puts them going right
+ 0.38然后使它们正确
+
+115
+00:05:11,519 --> 00:05:14,199
+with probability 0.62 so we have a
+概率为0.62，所以我们有一个
+
+116
+00:05:14,399 --> 00:05:16,329
+simple prediction based on the actual
+基于实际的简单预测
+
+117
+00:05:16,529 --> 00:05:19,119
+frequencies with which kickers and
+踢脚的频率和
+
+118
+00:05:19,319 --> 00:05:22,329
+goalies score when they go left versus
+守门员进左时得分
+
+119
+00:05:22,529 --> 00:05:25,389
+left right and and so forth so if they
+左右，依此类推，如果他们
+
+120
+00:05:25,589 --> 00:05:29,588
+were doing this facing populations of
+这样做是面对
+
+121
+00:05:29,788 --> 00:05:31,028
+people going left and right and these
+人们左右走，这些
+
+122
+00:05:31,228 --> 00:05:32,619
+are the payoffs then this is how they
+是回报，这就是他们的方式
+
+123
+00:05:32,819 --> 00:05:35,139
+should be behaving okay so what happens
+应该表现良好，所以会发生什么
+
+124
+00:05:35,339 --> 00:05:38,040
+in the data let's take a peek
+在数据中，让我们来看看
+
+125
+00:05:38,240 --> 00:05:41,769
+so the Nash frequencies the goalie going
+所以纳什频率守门员走
+
+126
+00:05:41,968 --> 00:05:43,600
+left forty two percent of the time
+剩下42％的时间
+
+127
+00:05:43,800 --> 00:05:45,939
+goalie should go right fifty eight
+守门员应该向右走58 
+
+128
+00:05:46,139 --> 00:05:47,860
+percent of the time kicker should go
+踢脚的时间百分比应该走
+
+129
+00:05:48,060 --> 00:05:49,360
+left thirty eight percent of the time
+剩下百分之三十八的时间
+
+130
+00:05:49,560 --> 00:05:51,249
+kicker should go right sixty-two percent
+踢手应该正确百分之六十二
+
+131
+00:05:51,449 --> 00:05:53,468
+of the time what do they actually do out
+他们实际上在做什么
+
+132
+00:05:53,668 --> 00:05:55,059
+of fourteen hundred and seventeen games
+一千一百一十七场比赛
+
+133
+00:05:55,259 --> 00:05:56,680
+that were recorded so we have a
+记录下来，所以我们有一个
+
+134
+00:05:56,879 --> 00:05:59,759
+non-trivial amount of data here goalies
+守门员的大量数据
+
+135
+00:05:59,959 --> 00:06:03,490
+forty to fifty eight right on the money
+四十八到五十八对钱
+
+136
+00:06:03,689 --> 00:06:07,629
+kickers forty sixty so very very close
+踢脚四十，所以非常非常接近
+
+137
+00:06:07,829 --> 00:06:10,869
+to the 3862 so in fact when we see
+到3862，所以事实上，当我们看到
+
+138
+00:06:11,069 --> 00:06:13,088
+professional soccer players playing and
+职业足球运动员和
+
+139
+00:06:13,288 --> 00:06:14,980
+we look at the payoffs they're getting
+我们看看他们得到的回报
+
+140
+00:06:15,180 --> 00:06:17,079
+they're playing almost exactly the Nash
+他们几乎在玩纳什
+
+141
+00:06:17,278 --> 00:06:18,939
+equilibrium in terms of the mixed
+就混合而言均衡
+
+142
+00:06:19,139 --> 00:06:20,949
+strategy or in this case given this is a
+策略或在这种情况下，如果这是一个
+
+143
+00:06:21,149 --> 00:06:22,930
+zero-sum game this is the same as the
+零和博弈与
+
+144
+00:06:23,129 --> 00:06:26,680
+max min strategies and you know if we
+最大最小策略，您知道我们是否
+
+145
+00:06:26,879 --> 00:06:30,790
+ask a question of exactly how they
+问一个问题，他们到底如何
+
+146
+00:06:30,990 --> 00:06:34,059
+learned to do this it's not necessarily
+学会做到这一点，不一定
+
+147
+00:06:34,259 --> 00:06:36,519
+true that they're sitting down and
+没错，他们正在坐下来， 
+
+148
+00:06:36,718 --> 00:06:38,680
+looking at a matrix and calculating
+看矩阵并计算
+
+149
+00:06:38,879 --> 00:06:39,968
+these things direct
+这些东西直接
+
+150
+00:06:40,168 --> 00:06:43,239
+but over time they get it you know they
+但是随着时间的流逝，他们知道了
+
+151
+00:06:43,439 --> 00:06:44,920
+should be indifferent between going left
+左移之间应该无动于衷
+
+152
+00:06:45,120 --> 00:06:47,939
+and right so if the other players are
+对，如果其他玩家是
+
+153
+00:06:48,139 --> 00:06:50,980
+going in one direction or the other too
+也朝着一个方向
+
+154
+00:06:51,180 --> 00:06:54,309
+often and they start adjust they can get
+经常，他们开始调整他们可以得到
+
+155
+00:06:54,509 --> 00:06:57,040
+a better payoff from going one direction
+从一个方向获得更好的回报
+
+156
+00:06:57,240 --> 00:06:58,329
+or the other they'll take advantage of
+或其他他们会利用的
+
+157
+00:06:58,528 --> 00:07:00,369
+that and so things have to adjust and in
+所以事情必须调整
+
+158
+00:07:00,569 --> 00:07:03,999
+keeping them and different overtime so
+保持他们和不同的加班时间
+
+159
+00:07:04,199 --> 00:07:07,059
+you know do players randomize well over
+你知道球员们随机分配得很好吗
+
+160
+00:07:07,259 --> 00:07:10,209
+time yeah pretty well and you know
+时间不错，你知道
+
+161
+00:07:10,408 --> 00:07:12,670
+ignacio's paper goes in much more detail
+ ignacio的论文更加详细
+
+162
+00:07:12,870 --> 00:07:15,579
+on this and looks at you know at things
+在这，看着你知道的东西
+
+163
+00:07:15,778 --> 00:07:21,040
+like how well they do in terms of mixing
+喜欢他们在混音方面的表现
+
+164
+00:07:21,240 --> 00:07:24,129
+you know is do they if you wanted to
+你知道吗，如果他们愿意的话
+
+165
+00:07:24,329 --> 00:07:25,660
+make 50/50 one way to do it would be to
+使50/50的一种方法是
+
+166
+00:07:25,860 --> 00:07:27,519
+go left one time then right the next
+向左走一次，然后向右走
+
+167
+00:07:27,718 --> 00:07:29,649
+time then right left the next time and
+时间，然后下一次右移，然后
+
+168
+00:07:29,848 --> 00:07:31,239
+so forth and just alternate that's
+等等，只是交替
+
+169
+00:07:31,439 --> 00:07:34,600
+obviously not randomizing and so instead
+显然不是随机的，所以
+
+170
+00:07:34,800 --> 00:07:36,489
+there's a question of whether people
+有一个问题是人们是否
+
+171
+00:07:36,689 --> 00:07:38,170
+randomize so that they're really
+随机化，以便他们真的
+
+172
+00:07:38,370 --> 00:07:40,420
+unpredictable over time and Ignacio
+随着时间的流逝和伊格纳西奥无法预测
+
+173
+00:07:40,620 --> 00:07:42,160
+finds that they do fairly well even in
+发现他们即使在
+
+174
+00:07:42,360 --> 00:07:44,139
+terms of the strings of kicks that they
+他们踢腿的条件
+
+175
+00:07:44,338 --> 00:07:46,209
+have there's other questions you could
+还有其他问题可以
+
+176
+00:07:46,408 --> 00:07:47,528
+ask you know how well do they perform
+问你知道他们的表现如何
+
+177
+00:07:47,728 --> 00:07:49,569
+under pressure if it's a big game and
+如果这是一场大比赛，将面临压力
+
+178
+00:07:49,769 --> 00:07:51,879
+it's a very important kick do this tend
+这是非常重要的一击
+
+179
+00:07:52,079 --> 00:07:54,369
+to go towards their stronger foot did
+走向他们更坚强的脚
+
+180
+00:07:54,569 --> 00:07:57,489
+they become predictable well you know in
+他们变得可以预见，你知道
+
+181
+00:07:57,689 --> 00:07:58,899
+fact now you see more and more
+事实上，现在您看到越来越多
+
+182
+00:07:59,098 --> 00:08:00,699
+professional sports teams hiring
+专业运动队招聘
+
+183
+00:08:00,899 --> 00:08:02,350
+statisticians hiring game there's
+统计学家在招聘游戏
+
+184
+00:08:02,550 --> 00:08:04,718
+keeping track of exactly what's going on
+跟踪到底发生了什么
+
+185
+00:08:04,918 --> 00:08:06,999
+in terms of other other teams tendencies
+就其他球队的倾向而言
+
+186
+00:08:07,199 --> 00:08:08,468
+whether they tend to do in this
+他们是否倾向于这样做
+
+187
+00:08:08,668 --> 00:08:09,850
+situation what do they tend to do in
+他们倾向于在什么情况下做
+
+188
+00:08:10,050 --> 00:08:11,379
+that situation what's our best strategy
+那情况是我们最好的策略
+
+189
+00:08:11,579 --> 00:08:14,079
+in response to that so you know going
+作为回应，所以你知道会
+
+190
+00:08:14,278 --> 00:08:18,069
+through and analyzing these things has
+通过分析这些东西有
+
+191
+00:08:18,269 --> 00:08:21,249
+become more of a trend in other sports
+成为其他运动中的一种趋势
+
+192
+00:08:21,449 --> 00:08:23,379
+there's similar analyses there's a very
+有类似的分析
+
+193
+00:08:23,579 --> 00:08:25,360
+nice paper by Mark Walker and John Wood
+马克·沃克和约翰·伍德的好论文
+
+194
+00:08:25,560 --> 00:08:27,179
+errs the American Economic Review
+犯了《美国经济评论》 
+
+195
+00:08:27,379 --> 00:08:32,109
+looking at tennis and serves so you know
+看网球和服务，所以你知道
+
+196
+00:08:32,309 --> 00:08:34,479
+to which side you have to serve into a
+您必须向哪一方服务
+
+197
+00:08:34,679 --> 00:08:36,909
+given area do you serve towards the left
+给定区域，您是否向左服务
+
+198
+00:08:37,110 --> 00:08:38,620
+side of it the right side of it the
+它的右边
+
+199
+00:08:38,820 --> 00:08:40,599
+center which how does it depend on
+中心如何依赖
+
+200
+00:08:40,799 --> 00:08:41,649
+whether you're right-handed left-handed
+无论您是右撇子还是左撇子
+
+201
+00:08:41,849 --> 00:08:43,659
+which directions you're going in and so
+你要去哪个方向等等
+
+202
+00:08:43,860 --> 00:08:46,959
+forth so they in analyze a series of
+因此，他们在分析一系列
+
+203
+00:08:47,159 --> 00:08:49,929
+professional tennis games and similarly
+职业网球比赛
+
+204
+00:08:50,129 --> 00:08:53,189
+they find that minimax plays is
+他们发现minimax玩的是
+
+205
+00:08:53,389 --> 00:08:55,649
+good predictor of exactly what's going
+准确预测即将发生的事情
+
+206
+00:08:55,850 --> 00:08:58,019
+on and you know there there's also
+继续，你知道那里也
+
+207
+00:08:58,220 --> 00:08:59,729
+questions of how well people really mix
+人们如何真正融合的问题
+
+208
+00:08:59,929 --> 00:09:03,269
+over time but the the the equilibrium
+随着时间的流逝，但均衡
+
+209
+00:09:03,470 --> 00:09:06,929
+predictions do fairly well okay you know
+预测效果还不错，你知道
+
+210
+00:09:07,129 --> 00:09:09,299
+we see there they're gonna be games that
+我们看到那里会有游戏
+
+211
+00:09:09,500 --> 00:09:11,459
+have mixed strategy equilibria in
+具有混合策略平衡
+
+212
+00:09:11,659 --> 00:09:13,709
+particular zero-sum and competitive
+特别是零和竞争
+
+213
+00:09:13,909 --> 00:09:16,469
+games will tend to have them in in a lot
+游戏往往会吸引很多人
+
+214
+00:09:16,669 --> 00:09:18,809
+of situations players have to be
+在某些情况下玩家必须
+
+215
+00:09:19,009 --> 00:09:20,879
+indifferent between what the players
+玩家之间无动于衷
+
+216
+00:09:21,080 --> 00:09:23,389
+they're facing that gives you some very
+他们正面临着给你一些
+
+217
+00:09:23,590 --> 00:09:26,579
+interesting comparative statics you know
+您知道的有趣的比较静力学
+
+218
+00:09:26,779 --> 00:09:28,139
+we asked the question do we really see
+我们问了一个问题，我们真的看到了吗
+
+219
+00:09:28,340 --> 00:09:30,929
+randomization we found you know yes in
+随机化我们发现您知道是
+
+220
+00:09:31,129 --> 00:09:32,509
+professional sports we do see
+我们看到的专业运动
+
+221
+00:09:32,710 --> 00:09:34,740
+randomization there's lots of other
+随机化还有很多其他
+
+222
+00:09:34,940 --> 00:09:35,819
+things in the world where you see
+您所看到的世界上的事物
+
+223
+00:09:36,019 --> 00:09:38,189
+randomization so predator-prey games you
+随机，所以捕食者-猎物游戏
+
+224
+00:09:38,389 --> 00:09:40,409
+know in nature if you come up a Conor
+自然知道您是否会提出康纳
+
+225
+00:09:40,610 --> 00:09:41,939
+squirrel a squirrel thinks you're trying
+松鼠认为你在尝试
+
+226
+00:09:42,139 --> 00:09:44,309
+to catch it what does it do it
+抓住它是做什么的
+
+227
+00:09:44,509 --> 00:09:45,809
+randomizes a bit so it's very
+随机化一点，所以非常
+
+228
+00:09:46,009 --> 00:09:47,250
+unpredictable to figure out which way
+无法预测出哪种方式
+
+229
+00:09:47,450 --> 00:09:48,539
+the squirrel is going to dart when
+松鼠飞镖的时候
+
+230
+00:09:48,740 --> 00:09:51,990
+you're walking by it it's you know it's
+你在走，那是你知道的
+
+231
+00:09:52,190 --> 00:09:54,329
+following essentially a randomized
+基本上是随机的
+
+232
+00:09:54,529 --> 00:09:57,419
+strategy many business interactions so
+战略许多业务互动，所以
+
+233
+00:09:57,620 --> 00:10:00,479
+if we look at things like audits tax
+如果我们看看审计税
+
+234
+00:10:00,679 --> 00:10:03,539
+auditing that's that's a game where
+审核那就是游戏
+
+235
+00:10:03,740 --> 00:10:05,519
+you're going to see a situation where
+你会看到一种情况
+
+236
+00:10:05,720 --> 00:10:08,789
+it's competitive and tax authorities
+是竞争和税务机关
+
+237
+00:10:08,990 --> 00:10:11,939
+don't necessarily want you to know
+不一定要你知道
+
+238
+00:10:12,139 --> 00:10:13,289
+exactly whether you're gonna be audit or
+确切地说，您是否要接受审核或
+
+239
+00:10:13,490 --> 00:10:14,789
+not they want you might want you to have
+他们不是想要你可能想要你拥有
+
+240
+00:10:14,990 --> 00:10:16,559
+some uncertainty so they can't audit
+有些不确定性，因此他们无法审核
+
+241
+00:10:16,759 --> 00:10:18,359
+every if they can't audit everybody in
+如果他们不能审核每个人
+
+242
+00:10:18,559 --> 00:10:19,529
+the population if there's a cost to
+人口，如果有成本
+
+243
+00:10:19,730 --> 00:10:21,329
+auditing that's going to be a game where
+审核那将是一场比赛
+
+244
+00:10:21,529 --> 00:10:24,829
+they're going to mix and that random
+他们将混合，随机
+
+245
+00:10:25,029 --> 00:10:27,469
+randomization might help tax authorities
+随机化可能有助于税务机关
+
+246
+00:10:27,669 --> 00:10:29,909
+so there's a lot of settings where
+所以有很多设置
+
+247
+00:10:30,110 --> 00:10:33,299
+random random checks random audits are
+随机随机检查随机审核
+
+248
+00:10:33,500 --> 00:10:35,909
+essentially optimal strategies as as
+基本上是最佳策略
+
+249
+00:10:36,110 --> 00:10:38,819
+part of some game and we're next Nash
+游戏的一部分，我们接下来是纳什
+
+250
+00:10:39,019 --> 00:10:40,529
+equilibria in particular mixed strategy
+均衡特别是混合策略
+
+251
+00:10:40,730 --> 00:10:42,750
+Nash equilibria will help us understand
+纳什均衡将帮助我们理解
+
+252
+00:10:42,950 --> 00:10:47,950
+those things
+那些事
+

@@ -1,0 +1,1180 @@
+﻿1
+00:00:00,000 --> 00:00:02,468
+hi folks welcome back so this is Matt
+大家好，欢迎回来，这是马特
+
+2
+00:00:02,669 --> 00:00:04,828
+Jackson and we're talking now about
+杰克逊，我们现在谈论的是
+
+3
+00:00:05,028 --> 00:00:07,030
+defining games and we'll work through
+定义游戏，我们将继续努力
+
+4
+00:00:07,230 --> 00:00:08,620
+some basic definitions of the key
+密钥的一些基本定义
+
+5
+00:00:08,820 --> 00:00:11,919
+ingredients in games so let's take a
+游戏中的成分，所以让我们来
+
+6
+00:00:12,119 --> 00:00:17,289
+look at some of those so obviously one
+看那些很明显的那些
+
+7
+00:00:17,489 --> 00:00:19,449
+one of the most obvious ones is the
+最明显的一个是
+
+8
+00:00:19,649 --> 00:00:21,460
+players in the game so who's making the
+游戏中的玩家，谁在创造
+
+9
+00:00:21,660 --> 00:00:24,429
+decisions are they people are we talking
+决定是他们在说我们吗
+
+10
+00:00:24,629 --> 00:00:27,220
+about governments negotiating over trade
+关于政府就贸易进行谈判
+
+11
+00:00:27,420 --> 00:00:28,899
+agreements are we talking about
+我们在谈论协议
+
+12
+00:00:29,099 --> 00:00:31,898
+companies choosing their strategies for
+公司为其选择策略
+
+13
+00:00:32,098 --> 00:00:35,829
+developing new products do we want to
+开发我们想要的新产品
+
+14
+00:00:36,030 --> 00:00:37,779
+get down to the point of modeling people
+深入到建模人的地步
+
+15
+00:00:37,979 --> 00:00:40,599
+within a firm as opposed to the company
+在公司内部而不是公司内部
+
+16
+00:00:40,799 --> 00:00:43,329
+as a whole so this whole there's a whole
+作为一个整体，所以整个
+
+17
+00:00:43,530 --> 00:00:44,890
+series of questions about how we're
+关于我们如何的一系列问题
+
+18
+00:00:45,090 --> 00:00:46,719
+going to choose the players but there
+要选择球员，但在那里
+
+19
+00:00:46,920 --> 00:00:49,000
+they're going to be the central decision
+他们将成为中心决策
+
+20
+00:00:49,200 --> 00:00:52,479
+makers and what we're doing next we have
+制造商以及我们下一步要做的事情
+
+21
+00:00:52,679 --> 00:00:54,099
+to decide how we're going to model the
+决定我们如何建模
+
+22
+00:00:54,299 --> 00:00:56,108
+action so what can play what actions can
+行动，所以可以发挥什么作用
+
+23
+00:00:56,308 --> 00:00:58,838
+players actually take so when we later
+玩家实际上选择了
+
+24
+00:00:59,039 --> 00:01:00,009
+on in the course we'll be looking at
+在课程中，我们将继续研究
+
+25
+00:01:00,210 --> 00:01:00,579
+auctions
+拍卖会
+
+26
+00:01:00,780 --> 00:01:02,649
+they'll have bids so they can enter a
+他们将有出价，以便他们可以输入
+
+27
+00:01:02,850 --> 00:01:05,950
+number of bids when we're talking about
+我们谈论的竞标数量
+
+28
+00:01:06,150 --> 00:01:07,480
+bargaining they might be deciding
+讨价还价他们可能会决定
+
+29
+00:01:07,680 --> 00:01:10,359
+whether or not to strike when we're
+我们是否要罢工
+
+30
+00:01:10,560 --> 00:01:11,799
+thinking about investing it could be
+考虑投资它可能是
+
+31
+00:01:12,000 --> 00:01:14,168
+that an investor is deciding how much of
+投资者在决定多少
+
+32
+00:01:14,368 --> 00:01:16,090
+a stock to buy or sell when to buy or
+何时购买或出售的股票
+
+33
+00:01:16,290 --> 00:01:18,640
+sell it how they should react to other
+卖给他们他们应该如何回应其他人
+
+34
+00:01:18,840 --> 00:01:20,939
+people in the market how they should be
+市场中的人们应该如何
+
+35
+00:01:21,140 --> 00:01:24,480
+conditioning their decisions on prices
+以价格决定他们的决定
+
+36
+00:01:24,680 --> 00:01:26,619
+when we're thinking about voters how do
+当我们在考虑选民时
+
+37
+00:01:26,819 --> 00:01:28,238
+they vote so there's going to be a whole
+他们投票，所以将有一个整体
+
+38
+00:01:28,438 --> 00:01:30,579
+series of actions and we'll want to be
+一系列的动作，我们希望成为
+
+39
+00:01:30,780 --> 00:01:32,319
+careful in making sure that we have the
+小心确保我们拥有
+
+40
+00:01:32,519 --> 00:01:36,480
+essential actions modeled finally
+最终模仿的基本行动
+
+41
+00:01:36,680 --> 00:01:37,750
+payoffs
+收益
+
+42
+00:01:37,950 --> 00:01:39,519
+so what's motivating the players do they
+所以激励球员的是他们
+
+43
+00:01:39,719 --> 00:01:42,609
+care simply about some sort of profit do
+只是在乎某种利润
+
+44
+00:01:42,810 --> 00:01:45,579
+they care about other players so how are
+他们关心其他球员，所以
+
+45
+00:01:45,780 --> 00:01:48,789
+they receiving utility as a function of
+他们收到的效用是
+
+46
+00:01:48,989 --> 00:01:52,599
+what what the actions lead to in the
+这些动作会导致什么
+
+47
+00:01:52,799 --> 00:01:56,918
+context of the game so there's basically
+游戏的背景，所以基本上
+
+48
+00:01:57,118 --> 00:01:58,859
+two standard representations of games
+游戏的两种标准表示形式
+
+49
+00:01:59,060 --> 00:02:01,750
+one is what's known as the normal form
+一种是普通形式
+
+50
+00:02:01,950 --> 00:02:02,948
+and that's what we'll be starting with
+这就是我们要开始的
+
+51
+00:02:03,149 --> 00:02:05,168
+in the course and what it does is it
+在课程中，它是做什么的
+
+52
+00:02:05,368 --> 00:02:08,110
+it's a very simple and stark
+这是非常简单而鲜明的
+
+53
+00:02:08,310 --> 00:02:10,630
+representation of a game so it lists
+游戏的表示形式，因此它列出了
+
+54
+00:02:10,830 --> 00:02:12,969
+what payoffs players get as a fun
+玩家会从中获得什么收益
+
+55
+00:02:13,169 --> 00:02:16,030
+of their actions normally it's it's
+通常是他们的行为
+
+56
+00:02:16,229 --> 00:02:18,780
+thought of as as if players are moving
+好像玩家在移动
+
+57
+00:02:18,979 --> 00:02:21,969
+simultaneously but strategies and we'll
+同时但战略，我们将
+
+58
+00:02:22,169 --> 00:02:23,530
+talk about this in more detail can
+详细讨论一下可以
+
+59
+00:02:23,729 --> 00:02:27,580
+encode many things so the other
+编码很多东西，其他
+
+60
+00:02:27,780 --> 00:02:29,200
+alternative representation is what's
+替代表示是什么
+
+61
+00:02:29,400 --> 00:02:30,880
+known as the extensive form and that
+被称为广泛形式
+
+62
+00:02:31,080 --> 00:02:34,030
+includes more explicit timing in the
+包括更明确的时间安排
+
+63
+00:02:34,229 --> 00:02:37,420
+game so who moves at what at what point
+游戏，以便谁在什么时候移动
+
+64
+00:02:37,620 --> 00:02:38,890
+in time so that's going to be
+及时，这将是
+
+65
+00:02:39,090 --> 00:02:41,439
+represented often as a tree so for
+通常代表一棵树
+
+66
+00:02:41,639 --> 00:02:43,660
+instance in chess one player moves first
+在国际象棋中，一个玩家先移动
+
+67
+00:02:43,860 --> 00:02:45,550
+the white player generally moves first
+白人球员通常先走
+
+68
+00:02:45,750 --> 00:02:48,460
+and the black player can see the move by
+黑人玩家可以看到
+
+69
+00:02:48,659 --> 00:02:51,039
+the other player react to that and and
+另一个玩家对此做出反应，并且
+
+70
+00:02:51,239 --> 00:02:52,868
+so forth so that's going to be better
+等等，这样会更好
+
+71
+00:02:53,068 --> 00:02:56,020
+represented as a tree then then in
+表示为一棵树，然后
+
+72
+00:02:56,219 --> 00:02:59,849
+normal form so it keeps track of also
+正常形式，所以它也跟踪
+
+73
+00:03:00,049 --> 00:03:03,130
+what players know when they move so even
+玩家知道什么时候他们移动
+
+74
+00:03:03,330 --> 00:03:05,439
+in poker somebody moves first they make
+在扑克中，有人先移动
+
+75
+00:03:05,639 --> 00:03:09,520
+a bet but the other player only sees the
+下注，但其他玩家只看到
+
+76
+00:03:09,719 --> 00:03:11,349
+bet and not necessarily the cards that
+下注，不一定是
+
+77
+00:03:11,549 --> 00:03:13,180
+the other player sees so in some cases
+在某些情况下，其他玩家看到了
+
+78
+00:03:13,379 --> 00:03:15,189
+we'll have sequential games where
+我们将有连续游戏
+
+79
+00:03:15,389 --> 00:03:16,660
+players will have different information
+玩家会有不同的信息
+
+80
+00:03:16,860 --> 00:03:17,950
+at different points in time and we'll
+在不同的时间点，我们将
+
+81
+00:03:18,150 --> 00:03:19,390
+we'll want to talk about modeling that
+我们将要讨论建模
+
+82
+00:03:19,590 --> 00:03:21,580
+explicitly - so we're going to start out
+明确地-因此我们将开始
+
+83
+00:03:21,780 --> 00:03:23,500
+with the normal form and then we'll move
+以正常形式，然后我们将移动
+
+84
+00:03:23,699 --> 00:03:25,090
+later in the course to the extensive
+在课程的后期向广泛
+
+85
+00:03:25,289 --> 00:03:26,110
+form and we'll talk about the
+表格，我们将讨论
+
+86
+00:03:26,310 --> 00:03:27,670
+relationship between these two and more
+这两个和更多之间的关系
+
+87
+00:03:27,870 --> 00:03:28,349
+detail
+详情
+
+88
+00:03:28,549 --> 00:03:30,969
+okay so normal form games what are the
+好吧，那么普通的形式游戏是什么
+
+89
+00:03:31,169 --> 00:03:34,240
+key ingredients again players so we're
+关键因素再次成为球员，所以我们
+
+90
+00:03:34,439 --> 00:03:35,409
+going to have generally we're going to
+通常我们要
+
+91
+00:03:35,609 --> 00:03:37,960
+think of finite sets of players so 1
+想想有限的玩家集合，所以1 
+
+92
+00:03:38,159 --> 00:03:40,420
+through n little n will represent the
+通过n小n将代表
+
+93
+00:03:40,620 --> 00:03:43,390
+set of players generally will index
+一组球员一般都会索引
+
+94
+00:03:43,590 --> 00:03:47,020
+these things by an eye so we'll use a
+这些东西，所以我们将使用
+
+95
+00:03:47,219 --> 00:03:52,450
+little eye to represent the the generic
+小眼睛代表通用
+
+96
+00:03:52,650 --> 00:03:59,618
+player the action set for 4 players will
+玩家为4位玩家设定的动作将
+
+97
+00:03:59,818 --> 00:04:03,700
+represent by a sub eye ok so we'll let
+用肉眼代表，好吧，让我们
+
+98
+00:04:03,900 --> 00:04:05,950
+that represent the actions of player eye
+代表玩家视线的动作
+
+99
+00:04:06,150 --> 00:04:08,680
+and then we'll talk about profiles of
+然后我们将讨论
+
+100
+00:04:08,879 --> 00:04:10,240
+actions which will just be a list of
+动作将仅是
+
+101
+00:04:10,439 --> 00:04:12,550
+what every player is doing so for
+每个玩家都在做什么
+
+102
+00:04:12,750 --> 00:04:18,870
+instance are they just deciding to
+例如，他们只是决定
+
+103
+00:04:19,069 --> 00:04:21,639
+cooperate or not to cooperate with other
+合作或不合作
+
+104
+00:04:21,839 --> 00:04:23,588
+players for instance in a prisoner's
+例如囚犯的玩家
+
+105
+00:04:23,788 --> 00:04:24,460
+dilemma that will
+将会陷入的困境
+
+106
+00:04:24,660 --> 00:04:28,900
+about utility function is then a payoff
+关于效用函数是一个回报
+
+107
+00:04:29,100 --> 00:04:31,449
+function which indicates as a function
+表示功能的功能
+
+108
+00:04:31,649 --> 00:04:33,370
+of all the actions that are played
+播放的所有动作中
+
+109
+00:04:33,569 --> 00:04:35,319
+what's the payoff for the different
+不同的收益是什么
+
+110
+00:04:35,519 --> 00:04:39,100
+players so for each player I we end up
+玩家，所以我最终每位玩家
+
+111
+00:04:39,300 --> 00:04:41,379
+with a function which tells us how they
+带有告诉我们他们如何
+
+112
+00:04:41,579 --> 00:04:45,610
+evaluate outcomes of the game and again
+评估游戏结果
+
+113
+00:04:45,810 --> 00:04:47,710
+how they evaluate these things could
+他们如何评估这些事情
+
+114
+00:04:47,910 --> 00:04:51,639
+could it caps late many things and it's
+它可以限制很多事情吗，这是
+
+115
+00:04:51,839 --> 00:04:52,930
+going to be very important to make sure
+非常重要的是要确保
+
+116
+00:04:53,129 --> 00:04:55,240
+that we're getting the right
+我们做对了
+
+117
+00:04:55,439 --> 00:04:57,310
+representation of what really motivates
+真正激励的代表
+
+118
+00:04:57,509 --> 00:05:01,840
+people okay so often when we when we
+人们经常这样，当我们当我们
+
+119
+00:05:02,040 --> 00:05:04,030
+represent non form games a very simple
+代表非形式游戏非常简单
+
+120
+00:05:04,230 --> 00:05:05,759
+way of doing that is just in the matrix
+这样做的方式只是在矩阵中
+
+121
+00:05:05,959 --> 00:05:09,129
+representation so let's just look at
+表示法，让我们来看看
+
+122
+00:05:09,329 --> 00:05:11,829
+this the most standard representation of
+这是最标准的表示
+
+123
+00:05:12,029 --> 00:05:14,470
+very simple games writing a two-player
+两个人玩的非常简单的游戏
+
+124
+00:05:14,670 --> 00:05:18,040
+game as a matrix so we'll have one
+游戏作为矩阵，所以我们将有一个
+
+125
+00:05:18,240 --> 00:05:22,090
+player 1 will be the row player player 2
+玩家1将成为行玩家2 
+
+126
+00:05:22,290 --> 00:05:23,920
+will have via column player so they're
+将通过列播放器，所以他们
+
+127
+00:05:24,120 --> 00:05:25,600
+going to choose actions that will be
+选择要采取的行动
+
+128
+00:05:25,800 --> 00:05:27,000
+represented in the column of the matrix
+在矩阵列中表示
+
+129
+00:05:27,199 --> 00:05:31,740
+and the cells inside the cells will then
+然后细胞内的细胞将
+
+130
+00:05:31,939 --> 00:05:34,689
+represent the payoffs so for instance
+代表收益，例如
+
+131
+00:05:34,889 --> 00:05:37,480
+the TCP back off game that was talked
+讨论过的TCP后退游戏
+
+132
+00:05:37,680 --> 00:05:41,170
+about in the earlier video can be
+在较早的视频中可以
+
+133
+00:05:41,370 --> 00:05:44,170
+written as a matrix as follows so the
+写成如下矩阵
+
+134
+00:05:44,370 --> 00:05:46,270
+row player player one can choose either
+行播放器玩家可以选择
+
+135
+00:05:46,470 --> 00:05:51,400
+C or D so this is player 1s choice then
+ C或D，所以这是玩家1的选择
+
+136
+00:05:51,600 --> 00:05:53,410
+we known as the role player this is
+我们被称为角色扮演者
+
+137
+00:05:53,610 --> 00:06:02,439
+player two's the column player and they
+玩家二是专栏玩家，他们
+
+138
+00:06:02,639 --> 00:06:04,689
+represent the the choices that they have
+代表他们的选择
+
+139
+00:06:04,889 --> 00:06:07,840
+and an inside the cells are the payoffs
+细胞内部是收益
+
+140
+00:06:08,040 --> 00:06:10,540
+to the different players so if player
+给不同的玩家，所以如果玩家
+
+141
+00:06:10,740 --> 00:06:13,389
+one cooperates and player two cooperates
+一合作，二合作
+
+142
+00:06:13,589 --> 00:06:15,280
+then these are the payoffs to the two
+那么这就是两者的收益
+
+143
+00:06:15,480 --> 00:06:18,100
+players the first payoff player one
+玩家第一位回报玩家
+
+144
+00:06:18,300 --> 00:06:20,530
+second playoff player two so this is
+第二个季后赛球员，所以这是
+
+145
+00:06:20,730 --> 00:06:22,780
+going to the column player this one's
+去专栏玩家这个
+
+146
+00:06:22,980 --> 00:06:27,790
+going to the row player okay then we end
+转到行播放器好，然后我们结束
+
+147
+00:06:27,990 --> 00:06:30,218
+up you know for instance if the row
+最多，例如，如果该行
+
+148
+00:06:30,418 --> 00:06:33,250
+player chooses D and the column player
+玩家选择D，而列玩家
+
+149
+00:06:33,449 --> 00:06:35,740
+chooses C then we end up with a payoff
+选择C，然后我们得到回报
+
+150
+00:06:35,939 --> 00:06:37,990
+here of zero
+零这里
+
+151
+00:06:38,189 --> 00:06:40,900
+the Rope layer and -4 to the column
+绳索层和-4列
+
+152
+00:06:41,100 --> 00:06:43,120
+player so the matrix is a very simple
+播放器，因此矩阵非常简单
+
+153
+00:06:43,319 --> 00:06:47,439
+way of representing all of the basic
+代表所有基本的方式
+
+154
+00:06:47,639 --> 00:06:48,960
+elements of the normal form game
+普通形式游戏的要素
+
+155
+00:06:49,160 --> 00:06:51,819
+visually so that we can actually keep
+视觉上，以便我们实际上可以保持
+
+156
+00:06:52,019 --> 00:06:53,650
+track of exactly what the strategic
+准确地追踪战略
+
+157
+00:06:53,850 --> 00:06:55,930
+interaction is and what players would
+互动是什么，玩家会怎样
+
+158
+00:06:56,129 --> 00:06:59,220
+like to do as a function of the game ok
+喜欢做游戏的功能好吗
+
+159
+00:06:59,420 --> 00:07:01,360
+let's talk about another game that we
+让我们谈谈我们的另一款游戏
+
+160
+00:07:01,560 --> 00:07:03,430
+won't be able to write down in such a
+这样的话将无法写下
+
+161
+00:07:03,629 --> 00:07:05,470
+simple form so let's think of a large
+简单的形式，让我们想一想
+
+162
+00:07:05,670 --> 00:07:08,230
+collective action game so for instance
+集体动作游戏，例如
+
+163
+00:07:08,430 --> 00:07:10,389
+whether or not a population wants to
+人口是否想要
+
+164
+00:07:10,589 --> 00:07:13,210
+revolt against this government so here
+反抗这个政府，所以在这里
+
+165
+00:07:13,410 --> 00:07:14,860
+we have many more players so let's
+我们还有更多的球员，所以让我们
+
+166
+00:07:15,060 --> 00:07:16,780
+imagine that we have a population of 10
+想象我们有10个人
+
+167
+00:07:16,980 --> 00:07:18,670
+million players so we're not obviously
+百万玩家，所以我们不是很明显
+
+168
+00:07:18,870 --> 00:07:19,840
+not going to be able to write that down
+无法将其写下来
+
+169
+00:07:20,040 --> 00:07:24,220
+as a as a matrix on our screen so we can
+作为屏幕上的矩阵，因此我们可以
+
+170
+00:07:24,420 --> 00:07:26,560
+do that more abstractly but we'll have
+可以更抽象地做，但是我们有
+
+171
+00:07:26,759 --> 00:07:29,770
+10 million players whether they they
+ 1000万玩家，无论他们
+
+172
+00:07:29,970 --> 00:07:31,990
+what are their actions here let's keep
+他们在这里做什么？ 
+
+173
+00:07:32,189 --> 00:07:34,329
+it very simple so they have a choice
+非常简单，所以他们可以选择
+
+174
+00:07:34,529 --> 00:07:39,430
+here of either revolting or not so their
+这里要么反抗，要么不反抗
+
+175
+00:07:39,629 --> 00:07:44,430
+action set is just binary two choices
+操作集只是二进制的两个选择
+
+176
+00:07:44,629 --> 00:07:49,180
+then the payoffs are going to be the
+那么收益将是
+
+177
+00:07:49,379 --> 00:07:52,300
+critical thing in this game what happens
+在这个游戏中关键的事情发生了什么
+
+178
+00:07:52,500 --> 00:07:54,879
+well let's say that in order for revolt
+好吧，为了反抗
+
+179
+00:07:55,079 --> 00:07:56,800
+to be successful you need at least two
+要成功，您至少需要两个
+
+180
+00:07:57,000 --> 00:07:59,980
+million people to participate so in this
+百万人参加
+
+181
+00:08:00,180 --> 00:08:03,189
+particular stylized example what do we
+特定的程式化示例
+
+182
+00:08:03,389 --> 00:08:05,530
+end up with then we can represent a
+最后我们可以代表一个
+
+183
+00:08:05,730 --> 00:08:08,050
+successful revolt as the player getting
+随着玩家获得成功反叛
+
+184
+00:08:08,250 --> 00:08:11,620
+a payoff of 1 so UI of the action
+收益为1，因此操作的用户界面
+
+185
+00:08:11,819 --> 00:08:16,240
+profile a is equal to 1 if the number of
+如果a的数量等于1 
+
+186
+00:08:16,439 --> 00:08:20,139
+people here the number of players J such
+这里的人数
+
+187
+00:08:20,339 --> 00:08:23,230
+that they picked to revolt the number of
+他们选择反抗的数量
+
+188
+00:08:23,430 --> 00:08:26,290
+this is at least 2 million so if we end
+这至少是200万，所以如果我们结束
+
+189
+00:08:26,490 --> 00:08:29,460
+up with at least 2 million people
+至少有200万人
+
+190
+00:08:29,660 --> 00:08:35,409
+revolting then player I gets 1 and note
+令人反感的玩家我得到1并注意
+
+191
+00:08:35,610 --> 00:08:37,778
+here that this is true regardless of
+在这里，这是真的，无论
+
+192
+00:08:37,979 --> 00:08:39,929
+whether I is one of the revolt
+我是否是叛乱之一
+
+193
+00:08:40,129 --> 00:08:42,729
+participants so this is a game where you
+参与者，所以这是一个游戏
+
+194
+00:08:42,929 --> 00:08:44,259
+care about the end outcome not
+不在乎最终结果
+
+195
+00:08:44,460 --> 00:08:45,909
+necessarily getting utility out of the
+必然会从中获得效用
+
+196
+00:08:46,110 --> 00:08:48,519
+participation we could change this and
+参与，我们可以改变这一点， 
+
+197
+00:08:48,720 --> 00:08:50,620
+have people get enjoyment out of the
+让人们从中获得乐趣
+
+198
+00:08:50,820 --> 00:08:52,479
+participation or
+参与或
+
+199
+00:08:52,679 --> 00:08:55,508
+have costs of the participation directly
+直接承担参加费用
+
+200
+00:08:55,708 --> 00:08:56,219
+as well
+以及
+
+201
+00:08:56,419 --> 00:08:59,349
+okay so what's what happens if the if
+好吧，如果
+
+202
+00:08:59,549 --> 00:09:02,948
+things fail here if we end up with less
+如果我们少吃点东西，事情就会失败
+
+203
+00:09:03,149 --> 00:09:04,839
+than two million then it depends on
+超过两百万则取决于
+
+204
+00:09:05,039 --> 00:09:06,309
+whether you were a participant in the
+您是否参加了
+
+205
+00:09:06,509 --> 00:09:10,628
+revolt or not so if you if player I was
+反叛与否，如果你是我的话
+
+206
+00:09:10,828 --> 00:09:12,578
+a participant in the revolt and it fails
+叛乱的参与者而失败
+
+207
+00:09:12,778 --> 00:09:14,589
+then they get a payoff of negative one
+然后他们得到负数的回报
+
+208
+00:09:14,789 --> 00:09:17,109
+so this could be in a situation where
+所以这可能是在
+
+209
+00:09:17,309 --> 00:09:20,529
+they're punished by the government or
+他们受到政府的惩罚或
+
+210
+00:09:20,730 --> 00:09:22,299
+face some other kinds of sanctions and
+面临其他制裁
+
+211
+00:09:22,500 --> 00:09:25,059
+they get a payoff of zero if the revolts
+如果起义，他们得到的回报为零
+
+212
+00:09:25,259 --> 00:09:27,789
+not successful and they didn't
+不成功，他们没有
+
+213
+00:09:27,990 --> 00:09:29,349
+participate so they weren't one of the
+参加，所以他们不是其中之一
+
+214
+00:09:29,549 --> 00:09:31,508
+people that was actually revolting now
+现在真正反抗的人
+
+215
+00:09:31,708 --> 00:09:33,669
+obviously this is very stylized but what
+显然，这是非常风格化的，但是
+
+216
+00:09:33,870 --> 00:09:37,078
+it does capture is that players have to
+它确实捕获了玩家必须
+
+217
+00:09:37,278 --> 00:09:42,729
+strategically analyze and predict what
+战略性地分析和预测什么
+
+218
+00:09:42,929 --> 00:09:44,439
+other players are going to do and their
+其他玩家将要做的
+
+219
+00:09:44,639 --> 00:09:46,599
+payoffs depend not only on what they're
+收益不仅取决于它们的价值
+
+220
+00:09:46,799 --> 00:09:50,109
+doing right so here we have a situation
+做得好，所以在这里我们有一个情况
+
+221
+00:09:50,309 --> 00:09:53,289
+where player i's payoff depends on
+我的收益来源取决于
+
+222
+00:09:53,490 --> 00:09:56,589
+whether they revolt or not but it also
+他们是否反抗，但也
+
+223
+00:09:56,789 --> 00:09:58,628
+depends on what other players are doing
+取决于其他玩家在做什么
+
+224
+00:09:58,828 --> 00:10:00,789
+and it can depend in fairly complicated
+这可能取决于相当复杂的
+
+225
+00:10:00,990 --> 00:10:03,128
+ways on what all the players in the game
+游戏中所有玩家的方式
+
+226
+00:10:03,328 --> 00:10:08,589
+are doing okay so just in summary in
+一切正常，所以在总结中
+
+227
+00:10:08,789 --> 00:10:11,769
+defining games we have two different
+定义游戏我们有两种不同
+
+228
+00:10:11,970 --> 00:10:13,899
+forms the normal form and extensive form
+形成正常形式和广义形式
+
+229
+00:10:14,100 --> 00:10:16,448
+for now we're starting with the normal
+现在我们从普通的
+
+230
+00:10:16,649 --> 00:10:18,909
+form critical ingredients players
+形成关键成分的参与者
+
+231
+00:10:19,110 --> 00:10:21,490
+actions and payoffs later when we get to
+行动和回报以后，当我们到达
+
+232
+00:10:21,690 --> 00:10:23,349
+the extension form that's going to bring
+将会带来的扩展形式
+
+233
+00:10:23,549 --> 00:10:26,229
+in timing information and so forth so
+在时间信息等方面
+
+234
+00:10:26,429 --> 00:10:29,709
+extra things that will account for more
+多余的东西会占更多
+
+235
+00:10:29,909 --> 00:10:32,609
+detailed representations of the
+的详细表示
+
+236
+00:10:32,809 --> 00:10:37,809
+strategic interaction by players
+玩家之间的战略互动
+

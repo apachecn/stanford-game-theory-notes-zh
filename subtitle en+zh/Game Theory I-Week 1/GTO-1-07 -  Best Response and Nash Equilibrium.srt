@@ -1,0 +1,265 @@
+﻿1
+00:00:00,000 --> 00:00:03,099
+I will now speak about how we predict
+我现在将谈论我们如何预测
+
+2
+00:00:03,299 --> 00:00:05,139
+that people will play in a game and
+人们会玩游戏， 
+
+3
+00:00:05,339 --> 00:00:07,780
+specifically about the concepts of best
+特别是关于最佳概念
+
+4
+00:00:07,980 --> 00:00:12,100
+response and Nash equilibrium now let's
+反应和纳什均衡现在让我们
+
+5
+00:00:12,300 --> 00:00:14,319
+go home were to assume that you are one
+回家假设你是一个
+
+6
+00:00:14,519 --> 00:00:17,530
+of the players and the other players are
+的球员和其他球员是
+
+7
+00:00:17,730 --> 00:00:19,109
+going to play in a way that you know
+会以您知道的方式演奏
+
+8
+00:00:19,309 --> 00:00:22,239
+then we can speak about what is your
+那我们可以说说你是什么
+
+9
+00:00:22,439 --> 00:00:24,039
+best thing to do and we'll call that the
+最好的事情，我们称之为
+
+10
+00:00:24,239 --> 00:00:27,550
+best response and technically speaking
+最佳回应，从技术上讲
+
+11
+00:00:27,750 --> 00:00:31,149
+let's use the following notation let's
+让我们使用以下表示法
+
+12
+00:00:31,349 --> 00:00:36,099
+call AI the action sequence of everybody
+把AI称为每个人的行动顺序
+
+13
+00:00:36,299 --> 00:00:39,878
+except you player I so it's player 1 and
+除了你我是玩家1 
+
+14
+00:00:40,079 --> 00:00:42,909
+so on internal player I minus 1 I plus 1
+所以内部玩家我减去1我加1 
+
+15
+00:00:43,109 --> 00:00:46,619
+and all the rest so the entire action
+其余的一切，整个动作
+
+16
+00:00:46,820 --> 00:00:49,649
+vector we call it the action profile a
+向量，我们将其称为行动概况
+
+17
+00:00:49,850 --> 00:00:53,320
+is really made up of all those a minus I
+真的是由所有减去我的人组成
+
+18
+00:00:53,520 --> 00:00:58,329
+and your own action with that notation
+以及您使用该符号的操作
+
+19
+00:00:58,530 --> 00:01:01,149
+here's the definition we will say that
+这是我们要说的定义
+
+20
+00:01:01,350 --> 00:01:03,849
+your best response which we'll call AI
+您最好的回应，我们称之为AI 
+
+21
+00:01:04,049 --> 00:01:07,689
+star it may not be unique but it's got
+明星可能不是唯一的但有
+
+22
+00:01:07,890 --> 00:01:10,599
+to be part of the set it will call BR
+作为集合的一部分，它将调用BR 
+
+23
+00:01:10,799 --> 00:01:13,269
+the best response assuming that all the
+假设所有
+
+24
+00:01:13,469 --> 00:01:17,709
+other agents play is a a - I if it's the
+其他特工打的是aa-如果是
+
+25
+00:01:17,909 --> 00:01:20,890
+case that for any anything you might be
+不管你做什么， 
+
+26
+00:01:21,090 --> 00:01:24,250
+thinking of doing a sub I for all a sub
+想为所有子项目做一个子项目
+
+27
+00:01:24,450 --> 00:01:27,399
+I it's got to be the case that your
+我一定要这样
+
+28
+00:01:27,599 --> 00:01:31,028
+utility for playing that in other words
+换句话说，实用程序
+
+29
+00:01:31,228 --> 00:01:34,899
+when you playing AI star and the others
+当你玩AI之星和其他人
+
+30
+00:01:35,099 --> 00:01:38,500
+are playing AI a - I for whatever it is
+在玩AI a-我不管
+
+31
+00:01:38,700 --> 00:01:40,778
+has got to be at least as great as
+必须至少与
+
+32
+00:01:40,978 --> 00:01:44,278
+anything else you might choose a sub I
+还有其他你可以选择的子
+
+33
+00:01:44,478 --> 00:01:47,439
+that's the case we'll say that a AI star
+就是这样，我们会说一个AI明星
+
+34
+00:01:47,640 --> 00:01:51,069
+is a best response very intuitive notion
+最好的回应是非常直观的概念
+
+35
+00:01:51,269 --> 00:01:55,119
+and that would bring us all almost all
+那将带给我们几乎所有人
+
+36
+00:01:55,319 --> 00:01:57,369
+the way there the problem of course is
+那里的问题当然是
+
+37
+00:01:57,569 --> 00:01:59,319
+that you don't know what the others will
+你不知道别人会怎么做
+
+38
+00:01:59,519 --> 00:02:02,378
+do but that's ok because when we use the
+可以，但是没关系，因为当我们使用
+
+39
+00:02:02,578 --> 00:02:04,778
+notion of best response as a building
+最佳响应的概念
+
+40
+00:02:04,978 --> 00:02:07,028
+block to define what we call the Nash
+定义我们称为Nash的块
+
+41
+00:02:07,228 --> 00:02:09,850
+equilibrium and the National Caribbean
+均衡与加勒比国家联盟
+
+42
+00:02:10,050 --> 00:02:12,520
+briefly is a set of acts
+简单来说是一套行为
+
+43
+00:02:12,719 --> 00:02:14,950
+one for each of the agents such that
+每个代理一个
+
+44
+00:02:15,150 --> 00:02:17,730
+each is the best response to the others
+每个都是对其他人的最佳回应
+
+45
+00:02:17,930 --> 00:02:20,469
+specifically we'll look at an action
+具体来说，我们来看看一个动作
+
+46
+00:02:20,669 --> 00:02:24,850
+profile here a a one through a n and
+在这里通过一个和一个配置文件
+
+47
+00:02:25,050 --> 00:02:26,710
+we'll say that it's a Nash equilibrium
+我们会说那是纳什均衡
+
+48
+00:02:26,909 --> 00:02:29,560
+and later on we'll tell you why we call
+稍后我们会告诉您为什么我们打电话
+
+49
+00:02:29,759 --> 00:02:32,140
+it specifically a pure strategy Nash
+它专门是一种纯粹的策略纳什
+
+50
+00:02:32,340 --> 00:02:35,020
+equilibrium if it's the case that for
+如果是这样的话
+
+51
+00:02:35,219 --> 00:02:38,650
+every agent that action a sub I
+每个行动一个子我
+
+52
+00:02:38,849 --> 00:02:40,120
+associate with agent is your best
+与代理商合作是您最好的选择
+
+53
+00:02:40,319 --> 00:02:45,319
+response all the rest
+其余所有回应
+

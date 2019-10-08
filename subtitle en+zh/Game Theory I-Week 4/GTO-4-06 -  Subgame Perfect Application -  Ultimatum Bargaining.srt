@@ -1,0 +1,2060 @@
+﻿1
+00:00:00,000 --> 00:00:03,790
+hi folks its Matt Jackson again so we're
+大家好，再次是Matt Matt Jackson，所以我们
+
+2
+00:00:03,990 --> 00:00:06,368
+here and now we're talking about an
+在这里，现在我们正在谈论
+
+3
+00:00:06,569 --> 00:00:08,310
+application of sub-game perfect
+子游戏完美的应用
+
+4
+00:00:08,509 --> 00:00:10,630
+reasoning and we're looking at what's
+推理，我们正在研究什么
+
+5
+00:00:10,830 --> 00:00:13,809
+known as ultimatum bargaining so let's
+被称为最后通bar的讨价还价，所以让我们
+
+6
+00:00:14,009 --> 00:00:16,659
+have a peek so ultimatum bargaining is
+偷看，所以最后通bar的议价是
+
+7
+00:00:16,859 --> 00:00:18,789
+probably one of the simplest bargaining
+可能是最简单的讨价还价之一
+
+8
+00:00:18,989 --> 00:00:20,859
+games you could imagine it's sort of a
+您可以想象的游戏有点像
+
+9
+00:00:21,059 --> 00:00:22,359
+take-it-or-leave-it offer kind of
+接受或离开提供某种
+
+10
+00:00:22,559 --> 00:00:25,690
+bargaining that you might have heard of
+您可能听说过的讨价还价
+
+11
+00:00:25,890 --> 00:00:28,780
+about in popular folklore so the idea
+关于民间传说
+
+12
+00:00:28,980 --> 00:00:30,640
+here is is let's say that there's 10
+这是说有十个
+
+13
+00:00:30,839 --> 00:00:32,468
+units to be split between two players
+由两个玩家分配的单位
+
+14
+00:00:32,668 --> 00:00:35,140
+and in particular we'll take these two
+特别是我们将把这两个
+
+15
+00:00:35,340 --> 00:00:38,500
+be say integer units so we have say ten
+可以说是整数单位，所以我们可以说十
+
+16
+00:00:38,700 --> 00:00:41,709
+dollars ten euros ten whatever's to
+美元十欧元十美元
+
+17
+00:00:41,909 --> 00:00:45,128
+split between two players and they have
+在两个玩家之间分配，他们有
+
+18
+00:00:45,329 --> 00:00:47,349
+to agree in order to get anything so
+同意以便得到任何东西
+
+19
+00:00:47,549 --> 00:00:50,159
+player one makes an offer says okay look
+玩家提出要约说好
+
+20
+00:00:50,359 --> 00:00:53,070
+here you can have six I'll keep the rest
+在这里你可以有六个，我会剩下的
+
+21
+00:00:53,270 --> 00:00:55,748
+and then player two can accept or reject
+然后第二个玩家可以接受或拒绝
+
+22
+00:00:55,948 --> 00:01:01,358
+and based on what happens then if player
+然后根据发生的情况，如果玩家
+
+23
+00:01:01,558 --> 00:01:07,028
+two accepts the offer so if X is the
+两个人接受了要约，所以如果X是
+
+24
+00:01:07,228 --> 00:01:08,918
+offer that's made and player two accepts
+提供的报价，第二个玩家接受
+
+25
+00:01:09,118 --> 00:01:11,319
+then player two gets whatever was
+然后玩家二得到什么
+
+26
+00:01:11,519 --> 00:01:13,390
+offered and player one gets the
+提供，玩家一获得
+
+27
+00:01:13,590 --> 00:01:15,789
+remainder if it's rejected then
+其余的如果被拒绝的话
+
+28
+00:01:15,989 --> 00:01:19,090
+everybody gets zero so in this case you
+每个人都为零，所以在这种情况下，您
+
+29
+00:01:19,290 --> 00:01:20,980
+only reach something if it's an
+只有达到目标
+
+30
+00:01:21,180 --> 00:01:22,659
+agreement and this is one-shot
+同意，这是一枪
+
+31
+00:01:22,859 --> 00:01:24,640
+bargaining in the sense that the there's
+在某种意义上讲讨价还价
+
+32
+00:01:24,840 --> 00:01:26,319
+just one offer made and an accept or
+只是一个要约和一个接受或
+
+33
+00:01:26,519 --> 00:01:28,299
+reject they can't go back and forth so
+拒绝他们不能来回走
+
+34
+00:01:28,500 --> 00:01:30,099
+it doesn't alternate they don't get the
+这不会交替，他们不会得到
+
+35
+00:01:30,299 --> 00:01:31,628
+chance to come back to the table and so
+有机会回到桌子上，所以
+
+36
+00:01:31,828 --> 00:01:33,429
+forth it's just here take it or leave it
+出来就在这里，拿走或离开它
+
+37
+00:01:33,629 --> 00:01:36,640
+if you don't want it forget it so that's
+如果您不想让它忘记它，那就是
+
+38
+00:01:36,840 --> 00:01:37,778
+the idea okay
+好主意
+
+39
+00:01:37,978 --> 00:01:40,418
+so let's analyze this game using stuff
+所以让我们用东西来分析这个游戏
+
+40
+00:01:40,618 --> 00:01:42,849
+game perfection you can actually write
+您可以实际编写的游戏完美
+
+41
+00:01:43,049 --> 00:01:46,090
+it out the tree for this you know still
+为此，你仍然知道
+
+42
+00:01:46,290 --> 00:01:49,539
+manageable so player 1 moves first they
+易于管理，因此玩家1首先移动
+
+43
+00:01:49,739 --> 00:01:53,140
+could offer x equals 0 1 2 etc all the
+可以提供x等于0 1 2等等
+
+44
+00:01:53,340 --> 00:01:56,679
+way up to 10 then player 2 move second
+上升到10，然后玩家2移至第二
+
+45
+00:01:56,879 --> 00:01:59,558
+they can accept or reject the offer so
+他们可以接受或拒绝要约，因此
+
+46
+00:01:59,759 --> 00:02:01,439
+they can reject they can accept and
+他们可以拒绝，他们可以接受， 
+
+47
+00:02:01,640 --> 00:02:06,909
+based on what the the offers are they're
+根据要约是什么
+
+48
+00:02:07,109 --> 00:02:09,130
+going to get different payoffs right so
+将会获得不同的回报，所以
+
+49
+00:02:09,330 --> 00:02:10,868
+the payoffs here if they reject
+如果他们拒绝，这里的收益
+
+50
+00:02:11,068 --> 00:02:13,179
+everybody gets 0 in each case if an
+如果一个
+
+51
+00:02:13,378 --> 00:02:13,660
+offer is
+报价是
+
+52
+00:02:13,860 --> 00:02:16,060
+made of ten and it's accepted player two
+由十个组成，并且被接受为第二个玩家
+
+53
+00:02:16,259 --> 00:02:18,640
+gets ten player one gets zero for an
+赢得十个玩家，一个获得零
+
+54
+00:02:18,840 --> 00:02:21,550
+offer of six is made and it's accepted
+提出了六个报价并被接受
+
+55
+00:02:21,750 --> 00:02:24,430
+player two gets six player one gets for
+玩家二拿六玩家一拿
+
+56
+00:02:24,629 --> 00:02:27,250
+an offer of one is made and it's
+要约一个被提出
+
+57
+00:02:27,449 --> 00:02:29,800
+accepted player two gets one player one
+被接受的玩家二获得一名玩家一
+
+58
+00:02:30,000 --> 00:02:31,810
+gets nine and so forth right so that's
+得到九等等，所以
+
+59
+00:02:32,009 --> 00:02:33,790
+the structure of the game very simple
+游戏的结构非常简单
+
+60
+00:02:33,990 --> 00:02:36,610
+and you can solve this directly by
+您可以通过直接解决
+
+61
+00:02:36,810 --> 00:02:39,730
+backward induction or sub game
+向后归纳或子博弈
+
+62
+00:02:39,930 --> 00:02:42,640
+perfection what's true well when we
+完美，当我们
+
+63
+00:02:42,840 --> 00:02:45,040
+think about the player two they should
+想想他们应该选的两个球员
+
+64
+00:02:45,240 --> 00:02:49,990
+accept any offer which is positive right
+接受任何积极的权利
+
+65
+00:02:50,189 --> 00:02:53,110
+so any offer which is positive you get a
+因此，任何积极的报价都会得到
+
+66
+00:02:53,310 --> 00:02:55,030
+positive payoff who you accept it zero
+正收益，您接受谁为零
+
+67
+00:02:55,229 --> 00:02:56,830
+if you don't they should go ahead and
+如果你不这样做，他们应该继续前进， 
+
+68
+00:02:57,030 --> 00:03:00,880
+accept any one of those authors at at
+在接受其中任何一位作者
+
+69
+00:03:01,080 --> 00:03:06,670
+zero in that case it looks like one
+在那种情况下为零
+
+70
+00:03:06,870 --> 00:03:09,969
+where the second player is actually
+第二个玩家实际上在哪里
+
+71
+00:03:10,169 --> 00:03:14,289
+indifferent so what they do is up to
+漠不关心，所以他们的工作取决于
+
+72
+00:03:14,489 --> 00:03:15,490
+them at that point so if they're offered
+他们在那个时候，所以如果他们被提供
+
+73
+00:03:15,689 --> 00:03:17,550
+0 they might say yes they might say no
+ 0他们可能会说是，他们可能会说不
+
+74
+00:03:17,750 --> 00:03:22,060
+they could mix they could randomize so
+他们可以混合他们可以随机
+
+75
+00:03:22,259 --> 00:03:23,800
+we're not sure exactly what's going to
+我们不确定到底会发生什么
+
+76
+00:03:24,000 --> 00:03:27,430
+happen in that part of the tree but what
+发生在树的那部分，但是
+
+77
+00:03:27,629 --> 00:03:29,800
+is true is that since they should be
+的确是因为他们应该
+
+78
+00:03:30,000 --> 00:03:32,680
+accepting all of these things we do know
+接受我们知道的所有这些事情
+
+79
+00:03:32,879 --> 00:03:36,219
+that a best best reply for player one
+给玩家一个最好的答复
+
+80
+00:03:36,419 --> 00:03:38,380
+given what they anticipate happening in
+鉴于他们预期发生的事情
+
+81
+00:03:38,580 --> 00:03:40,719
+the second thing should never be to make
+第二件事永远不要做
+
+82
+00:03:40,919 --> 00:03:44,200
+an offer which involves more than one
+一项涉及多个
+
+83
+00:03:44,400 --> 00:03:47,020
+two player to write so they can get nine
+两个球员写，所以他们可以得到九
+
+84
+00:03:47,219 --> 00:03:49,330
+by offering this which they know will be
+通过提供他们知道的
+
+85
+00:03:49,530 --> 00:03:51,640
+accepted whether they want to go down
+接受他们是否想下去
+
+86
+00:03:51,840 --> 00:03:53,289
+here depends on what their beliefs are
+这取决于他们的信仰
+
+87
+00:03:53,489 --> 00:03:54,759
+about what player 2 is going to do here
+关于玩家2将要在这里做什么
+
+88
+00:03:54,959 --> 00:03:57,039
+but basically once we've assumed that
+但是基本上，一旦我们假设
+
+89
+00:03:57,239 --> 00:04:01,060
+once we've deduced that player 2 is
+一旦我们推断出玩家2是
+
+90
+00:04:01,259 --> 00:04:04,980
+going to accept any positive offer then
+然后接受任何积极的报价
+
+91
+00:04:05,180 --> 00:04:09,370
+given that the player 1 gets a higher
+给定玩家1更高
+
+92
+00:04:09,569 --> 00:04:11,050
+payoff from the lowest possible amount
+从最低的可能的收益
+
+93
+00:04:11,250 --> 00:04:13,480
+they're going to offer player 2 at most
+他们最多会提供玩家2 
+
+94
+00:04:13,680 --> 00:04:16,620
+1 right so we get a pretty direct
+ 1对，这样我们就可以直接获得
+
+95
+00:04:16,819 --> 00:04:19,210
+prediction player 2 accepts any positive
+预测玩家2接受任何肯定
+
+96
+00:04:19,410 --> 00:04:21,968
+thing player 1 is going to offer either
+玩家1将要提供的东西
+
+97
+00:04:22,168 --> 00:04:24,310
+0 or 1 depending on two's decision at 0
+ 0或1，取决于两个人在0时的决定
+
+98
+00:04:24,509 --> 00:04:27,170
+but in a sub game perfect equilibrium
+但在子游戏中达到完美平衡
+
+99
+00:04:27,370 --> 00:04:29,990
+we have a prediction that two or more
+我们预测两个或更多
+
+100
+00:04:30,189 --> 00:04:34,400
+would never be offered okay so let's
+永远不会被提供，所以让我们
+
+101
+00:04:34,600 --> 00:04:37,150
+have a look these are some data from
+看看这些是一些数据
+
+102
+00:04:37,350 --> 00:04:42,468
+online games played last year and in the
+去年和
+
+103
+00:04:42,668 --> 00:04:45,710
+game theory course and let's have a look
+博弈论课程，让我们来看看
+
+104
+00:04:45,910 --> 00:04:50,930
+at what actually were played so here are
+实际演奏的是这里
+
+105
+00:04:51,129 --> 00:04:53,600
+the offers how much was offered to the
+报价给了多少
+
+106
+00:04:53,800 --> 00:04:55,730
+second player and in fact you can see
+第二个玩家，实际上你可以看到
+
+107
+00:04:55,930 --> 00:04:59,718
+that five was the modal offer offered
+那五个是模态报价
+
+108
+00:04:59,918 --> 00:05:02,569
+more than 2000 times the next highest
+超过第二高的2000倍
+
+109
+00:05:02,769 --> 00:05:05,090
+offer of one which is the prediction or
+提供一个预测或
+
+110
+00:05:05,290 --> 00:05:08,000
+one of the predictions of the sub game
+子游戏的预测之一
+
+111
+00:05:08,199 --> 00:05:11,660
+perfect equilibrium was slightly less
+完美平衡稍差
+
+112
+00:05:11,860 --> 00:05:14,810
+than a thousand and we can also look at
+超过一千，我们也可以看看
+
+113
+00:05:15,009 --> 00:05:17,360
+the acceptance so here the way this
+这样的接受方式
+
+114
+00:05:17,560 --> 00:05:19,189
+worked is players were asked what's the
+工作是玩家被问到是什么
+
+115
+00:05:19,389 --> 00:05:20,600
+minimal amount that you would be willing
+您愿意的最低金额
+
+116
+00:05:20,800 --> 00:05:25,278
+to accept and the theory predicts that
+接受，理论预测
+
+117
+00:05:25,478 --> 00:05:27,680
+everybody should should be saying either
+每个人都应该说
+
+118
+00:05:27,879 --> 00:05:28,730
+0 or 1
+ 0或1 
+
+119
+00:05:28,930 --> 00:05:32,810
+they should never be rejecting offers
+他们不应该拒绝报价
+
+120
+00:05:33,009 --> 00:05:35,210
+the of at least one so the minimal
+至少一个的最小
+
+121
+00:05:35,410 --> 00:05:37,040
+amount they should be accepted to be at
+他们应该被接受的数量
+
+122
+00:05:37,240 --> 00:05:40,850
+least sorry at most 1 and here we see
+至少对不起1，在这里我们看到
+
+123
+00:05:41,050 --> 00:05:43,670
+that actually a majority of the players
+实际上大多数玩家
+
+124
+00:05:43,870 --> 00:05:47,509
+are in fact put setting their minimal
+实际上将其设置为最小
+
+125
+00:05:47,709 --> 00:05:50,389
+acceptance at higher and a lot of them
+更高的接受度
+
+126
+00:05:50,589 --> 00:05:55,819
+hold out for point 4 5 50% so in fact
+支持点4 5 50％，所以实际上
+
+127
+00:05:56,019 --> 00:05:58,730
+when we look at the data here the data
+当我们在这里查看数据时
+
+128
+00:05:58,930 --> 00:06:01,370
+are not congruent with what sub game
+与什么子游戏不一致
+
+129
+00:06:01,569 --> 00:06:05,899
+perfection is predicting and you know
+完美在预言，你知道
+
+130
+00:06:06,098 --> 00:06:07,100
+when you when you think about what the
+当你想到什么
+
+131
+00:06:07,300 --> 00:06:10,629
+best offer is for a given player given
+最佳报价是给定的给定玩家
+
+132
+00:06:10,829 --> 00:06:15,199
+the strategies that are being played
+正在采取的策略
+
+133
+00:06:15,399 --> 00:06:18,170
+here so when we look at the acceptance
+在这里，所以当我们看验收
+
+134
+00:06:18,370 --> 00:06:20,300
+rate so if I knew that this is what the
+率，所以如果我知道这就是
+
+135
+00:06:20,500 --> 00:06:22,250
+population is doing suppose I know that
+人口正在做，假设我知道
+
+136
+00:06:22,449 --> 00:06:23,899
+this is the way people are acting in
+这就是人们的行为方式
+
+137
+00:06:24,098 --> 00:06:25,180
+terms of what they're going to accept
+他们将接受的条款
+
+138
+00:06:25,379 --> 00:06:28,639
+what should I offer well there's some
+我应该提供些什么？ 
+
+139
+00:06:28,839 --> 00:06:29,930
+chance I'm going to meet somebody who's
+机会我会遇到一个
+
+140
+00:06:30,129 --> 00:06:34,310
+only going to accept 5 at least 5 I had
+我只会接受5个，至少5个
+
+141
+00:06:34,509 --> 00:06:36,649
+a pretty fair chance that if I offered
+一个相当公平的机会，如果我愿意
+
+142
+00:06:36,848 --> 00:06:38,389
+something above 5 it would almost
+高于5的东西几乎
+
+143
+00:06:38,589 --> 00:06:40,000
+certainly be accepted
+当然会被接受
+
+144
+00:06:40,199 --> 00:06:42,430
+but whether it has to be five or whether
+但是否必须是五个
+
+145
+00:06:42,629 --> 00:06:44,829
+I drop all the way down to one that's
+我一路下降到那个
+
+146
+00:06:45,029 --> 00:06:46,900
+going to depend on who I happen to meet
+取决于我碰巧遇到谁
+
+147
+00:06:47,100 --> 00:06:51,310
+and if you look at my expected payoff my
+如果你看看我的预期收益
+
+148
+00:06:51,509 --> 00:06:54,069
+expected payoff my best payoff is
+预期收益我最好的收益是
+
+149
+00:06:54,269 --> 00:06:58,569
+actually to offer to offer five given
+实际上提供要约
+
+150
+00:06:58,769 --> 00:07:00,790
+what the players are doing in terms of
+玩家在做什么方面
+
+151
+00:07:00,990 --> 00:07:03,220
+their acceptance and so when we go back
+他们的接受，所以当我们回去
+
+152
+00:07:03,420 --> 00:07:06,280
+to the play here the fact that that
+在这里玩的事实是
+
+153
+00:07:06,480 --> 00:07:08,460
+these players are playing five is
+这些球员打五是
+
+154
+00:07:08,660 --> 00:07:10,329
+consistent with what the players are
+与玩家是一致的
+
+155
+00:07:10,529 --> 00:07:13,509
+doing in the second stage so where sub
+在第二阶段做，所以子
+
+156
+00:07:13,709 --> 00:07:15,220
+game perfection is missing things in
+游戏完美性缺失
+
+157
+00:07:15,420 --> 00:07:17,860
+here so players here are a lot of them
+这里的球员很多
+
+158
+00:07:18,060 --> 00:07:19,449
+are best replying to the actual
+最好回复实际
+
+159
+00:07:19,649 --> 00:07:21,220
+distribution that they're facing it's
+他们面对的分布是
+
+160
+00:07:21,420 --> 00:07:23,170
+really the acceptance rejection part
+真的是验收拒绝部分
+
+161
+00:07:23,370 --> 00:07:26,590
+which is which is contradicting what the
+这是矛盾的
+
+162
+00:07:26,790 --> 00:07:29,500
+sub game perfect play would have and you
+子游戏完美玩法会和你
+
+163
+00:07:29,699 --> 00:07:30,759
+know there's different explanations for
+知道有不同的解释
+
+164
+00:07:30,959 --> 00:07:36,699
+this we could think you know in terms of
+我们可以认为您知道
+
+165
+00:07:36,899 --> 00:07:39,100
+why we're seeing this particular play it
+为什么我们看到这个特别的游戏
+
+166
+00:07:39,300 --> 00:07:42,660
+could be that players for instance are
+举例来说，可能是
+
+167
+00:07:42,860 --> 00:07:45,370
+you know have strong aversion to
+你知道对
+
+168
+00:07:45,569 --> 00:07:47,530
+anything that's unequal and what that
+任何不平等的东西
+
+169
+00:07:47,730 --> 00:07:49,660
+means then is that the payoff that we've
+那就意味着我们已经获得了回报
+
+170
+00:07:49,860 --> 00:07:52,629
+written into this matrix of 1 2 3 4 5
+写入1 2 3 4 5的矩阵
+
+171
+00:07:52,829 --> 00:07:55,329
+and so forth is not the actual payoff
+等等不是实际的收益
+
+172
+00:07:55,529 --> 00:07:57,750
+that people have maybe they have
+人们有也许他们有
+
+173
+00:07:57,949 --> 00:08:01,210
+disutility of getting less than another
+徒劳无益
+
+174
+00:08:01,410 --> 00:08:02,860
+person and that makes them feel really
+人，这让他们感到非常
+
+175
+00:08:03,060 --> 00:08:04,870
+badly and and they want to avoid that
+非常糟糕，他们想避免这种情况
+
+176
+00:08:05,069 --> 00:08:07,870
+bad feeling and so their utility might
+不好的感觉，所以他们的效用可能
+
+177
+00:08:08,069 --> 00:08:09,610
+actually represent something which
+实际代表的东西
+
+178
+00:08:09,810 --> 00:08:11,939
+includes equity concerns for instance
+包括股权问题
+
+179
+00:08:12,139 --> 00:08:16,720
+that's one possibility you know there's
+你知道那是一种可能性
+
+180
+00:08:16,920 --> 00:08:18,160
+a lot of alternative explanations it
+很多其他的解释
+
+181
+00:08:18,360 --> 00:08:19,540
+could be that they they always want to
+可能是他们一直想要的
+
+182
+00:08:19,740 --> 00:08:21,040
+have more than the other player or you
+比其他玩家或您拥有更多
+
+183
+00:08:21,240 --> 00:08:22,480
+know you could think of different kinds
+知道你会想到不同的种类
+
+184
+00:08:22,680 --> 00:08:25,030
+of things which would govern different
+决定不同的事物
+
+185
+00:08:25,230 --> 00:08:27,280
+kinds of play so there's some players
+各种各样的比赛，所以有一些球员
+
+186
+00:08:27,480 --> 00:08:29,139
+who just seem to be taking whatever they
+他们似乎正在采取任何他们
+
+187
+00:08:29,339 --> 00:08:31,420
+can other players who seem to be pushing
+其他看似在推动的玩家可以
+
+188
+00:08:31,620 --> 00:08:33,519
+for an equal split and somehow feeling
+对于平等的分裂和某种感觉
+
+189
+00:08:33,720 --> 00:08:36,159
+it that's what the the minimal amount
+这就是最小的数量
+
+190
+00:08:36,360 --> 00:08:40,659
+that they would be willing to accept one
+他们愿意接受一个
+
+191
+00:08:40,860 --> 00:08:42,490
+other possible conjecture that people
+人们可能的其他猜想
+
+192
+00:08:42,690 --> 00:08:44,799
+have brought up a number of times is
+提出了很多次是
+
+193
+00:08:45,000 --> 00:08:46,509
+that maybe the stakes aren't large
+可能赌注不大
+
+194
+00:08:46,710 --> 00:08:48,370
+enough so you know for instance when we
+足够，所以你知道例如当我们
+
+195
+00:08:48,570 --> 00:08:52,089
+played this online the the players were
+在网上玩过，玩家们
+
+196
+00:08:52,289 --> 00:08:53,429
+playing this
+玩这个
+
+197
+00:08:53,629 --> 00:08:54,629
+in terms of a question they weren't
+在一个问题上，他们不是
+
+198
+00:08:54,830 --> 00:08:56,669
+actually paid for it maybe if we paid
+实际付款了，如果我们付款了
+
+199
+00:08:56,870 --> 00:08:58,019
+them you know suppose you're now
+他们他们知道你现在就知道了
+
+200
+00:08:58,220 --> 00:09:01,139
+splitting instead of 10 fictional units
+拆分而不是10个虚构单元
+
+201
+00:09:01,340 --> 00:09:03,179
+you're splitting ten million dollars or
+您要拆分一千万美元，或者
+
+202
+00:09:03,379 --> 00:09:05,759
+ten million euros are you going to
+你要一千万欧元
+
+203
+00:09:05,960 --> 00:09:08,639
+reject an offer of four million of that
+拒绝其中四百万的报价
+
+204
+00:09:08,840 --> 00:09:10,079
+if somebody says okay you can have four
+如果有人说可以的话，你可以有四个
+
+205
+00:09:10,279 --> 00:09:11,490
+million I'll take I'll keep six million
+我要拿六百万
+
+206
+00:09:11,690 --> 00:09:17,069
+are you gonna say no probably not so one
+你会说不，也许不是吗
+
+207
+00:09:17,269 --> 00:09:19,979
+possibility is you know to see whether
+可能是你知道看是否
+
+208
+00:09:20,179 --> 00:09:22,259
+the size of the pie matters and so here
+馅饼的大小很重要，所以在这里
+
+209
+00:09:22,460 --> 00:09:23,639
+are some interesting experiments to try
+有一些有趣的实验可以尝试
+
+210
+00:09:23,840 --> 00:09:25,500
+and test that hypothesis maybe it's just
+并检验假设，也许只是
+
+211
+00:09:25,700 --> 00:09:26,939
+that you know we're not paying people
+你知道我们不付钱给人
+
+212
+00:09:27,139 --> 00:09:30,059
+enough to to see that they're the real
+足以看到他们是真实的
+
+213
+00:09:30,259 --> 00:09:32,009
+rational behavior so there's a nice
+理性的行为，所以有一个很好的
+
+214
+00:09:32,210 --> 00:09:35,429
+paper by Robert Slonim and Al Roth and
+ Robert Slonim和Al Roth的论文，以及
+
+215
+00:09:35,629 --> 00:09:38,039
+Al Roth one just won a Nobel Prize this
+罗斯（Al Roth）刚刚获得诺贝尔奖
+
+216
+00:09:38,240 --> 00:09:41,459
+year and and what they're looking at
+年以及他们在看什么
+
+217
+00:09:41,659 --> 00:09:43,229
+here is is learning in high stakes
+这是学习高额赌注
+
+218
+00:09:43,429 --> 00:09:45,659
+ultimatum games and to make things high
+最后通games游戏和使事情高涨
+
+219
+00:09:45,860 --> 00:09:47,039
+stakes what they did is they went to
+赌注他们所做的是他们去了
+
+220
+00:09:47,240 --> 00:09:51,389
+Slovakia the Slovak Republic and they
+斯洛伐克斯洛伐克共和国和他们
+
+221
+00:09:51,590 --> 00:09:53,729
+they did three different versions of
+他们做了三种不同的版本
+
+222
+00:09:53,929 --> 00:09:54,179
+this
+这个
+
+223
+00:09:54,379 --> 00:09:56,219
+so one where people could split 60
+所以人们可以分开60 
+
+224
+00:09:56,419 --> 00:09:58,679
+Slovak crowns one where they could split
+斯洛伐克加冕他们可以分开的地方
+
+225
+00:09:58,879 --> 00:10:01,079
+300 Slovak crowns and another word they
+ 300斯洛伐克克朗和另一个词
+
+226
+00:10:01,279 --> 00:10:03,689
+could split 1500 and the average monthly
+可以拆分1500，平均每月
+
+227
+00:10:03,889 --> 00:10:06,709
+wage right so per month you're getting
+正确的工资，所以每月
+
+228
+00:10:06,909 --> 00:10:10,740
+5500 so when you're getting up to 1500
+ 5500，所以当您起床到1500 
+
+229
+00:10:10,940 --> 00:10:13,859
+you're talking about more than a week's
+你在谈论一个多星期的时间
+
+230
+00:10:14,059 --> 00:10:17,459
+wage right so you're looking at offering
+工资合适，所以您正在考虑提供
+
+231
+00:10:17,659 --> 00:10:20,939
+somebody a week salary to be split
+某人一个星期的工资要分摊
+
+232
+00:10:21,139 --> 00:10:23,579
+so now arguably the money at stake is
+所以现在可以说这笔钱危在旦夕了
+
+233
+00:10:23,779 --> 00:10:25,259
+reasonably large right so the high
+相当大的权利，所以高
+
+234
+00:10:25,460 --> 00:10:27,149
+stakes version is is on the order of a
+赌注的版本大约是
+
+235
+00:10:27,350 --> 00:10:29,789
+week's wage okay
+一周的工资还可以
+
+236
+00:10:29,990 --> 00:10:32,579
+so what happened so what they did here
+所以发生了什么，他们在这里做了什么
+
+237
+00:10:32,779 --> 00:10:34,019
+is they had a thousand units so instead
+他们有一千个单位，所以
+
+238
+00:10:34,220 --> 00:10:36,120
+of just splitting things one two three
+一二三的分裂
+
+239
+00:10:36,320 --> 00:10:38,009
+four five to ten you could split it in
+四五到十，你可以分成
+
+240
+00:10:38,210 --> 00:10:40,319
+units of a thousand where the you know
+你知道的千单位
+
+241
+00:10:40,519 --> 00:10:42,209
+the full thousand correspondent in the
+的一千名通讯员
+
+242
+00:10:42,409 --> 00:10:44,669
+first game to the 60 crowns in the
+第一场比赛达到60冠
+
+243
+00:10:44,870 --> 00:10:46,769
+second game to three hundred and so
+第二局到三百左右
+
+244
+00:10:46,970 --> 00:10:49,349
+forth right so one unit and this would
+正确，所以一个单位，这将
+
+245
+00:10:49,549 --> 00:10:52,199
+be 1.5 Slovak crowns and the 1500
+ 1.5斯洛伐克克朗和1500 
+
+246
+00:10:52,399 --> 00:10:54,149
+treatment and so the question is then
+治疗，所以问题是
+
+247
+00:10:54,350 --> 00:10:56,039
+how much was offered to the other player
+向其他玩家提供了多少
+
+248
+00:10:56,240 --> 00:10:59,819
+on average well 451 in the first game
+在第一场比赛中平均451 
+
+249
+00:11:00,019 --> 00:11:03,049
+the low stakes game 460 in the middle
+中低筹码游戏460 
+
+250
+00:11:03,250 --> 00:11:06,179
+423 in the higher stakes game so it did
+在高赌注游戏中为423，所以
+
+251
+00:11:06,379 --> 00:11:08,069
+go down a little
+下去一点
+
+252
+00:11:08,269 --> 00:11:10,829
+but certainly not down to one which
+但当然不能归结为哪一个
+
+253
+00:11:11,029 --> 00:11:13,919
+would be the prediction of sub-game
+将是子游戏的预测
+
+254
+00:11:14,120 --> 00:11:16,289
+perfect at the medians they're very
+在中位数很完美，他们非常
+
+255
+00:11:16,490 --> 00:11:19,469
+similar 465 480 450 so a little bit
+类似465 480 450，所以有点
+
+256
+00:11:19,669 --> 00:11:20,759
+people are shading a little bit below
+人们在下面加阴影
+
+257
+00:11:20,960 --> 00:11:23,339
+50% but they're not pushing too much
+ 50％但他们并没有努力
+
+258
+00:11:23,539 --> 00:11:28,109
+further than 50% and when we look at the
+超过50％，当我们观察
+
+259
+00:11:28,309 --> 00:11:31,919
+rejection offer so let's look just for
+拒绝报价，让我们看看
+
+260
+00:11:32,120 --> 00:11:34,409
+instance at when people offered less
+当人们提供较少的实例
+
+261
+00:11:34,610 --> 00:11:37,500
+than 250 out of the 1000 to the second
+千分之二至千分之二
+
+262
+00:11:37,700 --> 00:11:40,500
+mover how often was that rejected well
+搬家工人被拒绝的频率有多高
+
+263
+00:11:40,700 --> 00:11:42,209
+it was it wasn't offered that frequently
+那不是经常提供
+
+264
+00:11:42,409 --> 00:11:43,439
+in the low stakes game it was only
+在低赌注游戏中，这只是
+
+265
+00:11:43,639 --> 00:11:46,169
+offered once and it was rejected but in
+提供一次，但被拒绝，但在
+
+266
+00:11:46,370 --> 00:11:48,179
+the middle stakes game it was rejected
+中间赌注游戏被拒绝了
+
+267
+00:11:48,379 --> 00:11:51,899
+about half the time 10 out of 20 and in
+大约一半的时间是20分之10 
+
+268
+00:11:52,100 --> 00:11:54,990
+the higher stakes game it was on the
+赌注较高的游戏
+
+269
+00:11:55,190 --> 00:11:58,919
+order of a third 12 out of 32 so a
+在32的三分之一中排序为12 
+
+270
+00:11:59,120 --> 00:12:01,949
+little more than a third but what we do
+三分之一多一点，但我们做什么
+
+271
+00:12:02,149 --> 00:12:05,189
+see is is you know subject to
+看是你知道服从
+
+272
+00:12:05,389 --> 00:12:06,839
+statistical significance here basically
+基本上在这里具有统计意义
+
+273
+00:12:07,039 --> 00:12:08,849
+we get a comparison between these two we
+我们将两者进行比较
+
+274
+00:12:09,049 --> 00:12:10,769
+are seeing as we up the stakes people
+在看到我们举足轻重的人
+
+275
+00:12:10,970 --> 00:12:14,969
+are pushing down and rejecting really
+在推倒并拒绝
+
+276
+00:12:15,169 --> 00:12:19,379
+lower offers less frequently but it's
+较低的报价频率较低，但这是
+
+277
+00:12:19,580 --> 00:12:21,289
+not going all the way down and still the
+不会一直走下去，仍然
+
+278
+00:12:21,490 --> 00:12:23,789
+the offers that are being made on
+正在进行的报价
+
+279
+00:12:23,990 --> 00:12:28,289
+average are fairly high okay so what do
+一般都很高，那该怎么办
+
+280
+00:12:28,490 --> 00:12:28,889
+we learn from this
+我们从中学习
+
+281
+00:12:29,090 --> 00:12:31,379
+well sub-game perfection does not always
+子游戏的完美并不总是
+
+282
+00:12:31,580 --> 00:12:34,169
+match the data and if you go back to
+匹配数据，如果您返回
+
+283
+00:12:34,370 --> 00:12:36,299
+this game and you think about the Nash
+这个游戏，你会想到纳什
+
+284
+00:12:36,500 --> 00:12:40,049
+equilibria any one of the offers can be
+平衡任何一项报价都可以
+
+285
+00:12:40,250 --> 00:12:41,359
+supported as part of a Nash equilibrium
+作为纳什均衡的一部分得到支持
+
+286
+00:12:41,559 --> 00:12:45,240
+right so it could be that I make that
+对，所以可能我做了
+
+287
+00:12:45,440 --> 00:12:46,740
+offer because I think it's the only one
+提供，因为我认为这是唯一的
+
+288
+00:12:46,940 --> 00:12:47,759
+that the other person's going to be
+另一个人将会是
+
+289
+00:12:47,960 --> 00:12:51,029
+willing to accept and indeed they accept
+愿意接受，实际上他们接受
+
+290
+00:12:51,230 --> 00:12:53,699
+it and I never know whether they would
+它，我永远不知道他们是否会
+
+291
+00:12:53,899 --> 00:12:55,469
+have rejected the other one so there's
+已经拒绝了另一个，所以有
+
+292
+00:12:55,669 --> 00:12:57,889
+lots of Nash equilibria to this game and
+这个游戏有很多纳什均衡
+
+293
+00:12:58,090 --> 00:13:01,259
+sub game perfection is picking a few of
+子游戏的完美选择
+
+294
+00:13:01,460 --> 00:13:04,109
+them out and in some cases you know
+他们出来，在某些情况下，你知道
+
+295
+00:13:04,309 --> 00:13:06,269
+these violate rationality but
+这些违反了理性，但
+
+296
+00:13:06,470 --> 00:13:08,219
+rationality where we believe that the
+我们认为
+
+297
+00:13:08,419 --> 00:13:10,349
+payoffs are just exactly the monetary
+收益恰好是金钱
+
+298
+00:13:10,549 --> 00:13:12,689
+amounts and not something else right so
+数量而不是其他的东西，所以
+
+299
+00:13:12,889 --> 00:13:13,919
+it could be that we have the payoffs
+可能是我们有回报
+
+300
+00:13:14,120 --> 00:13:16,649
+incorrect it written down incorrectly
+不正确的写下来不正确
+
+301
+00:13:16,850 --> 00:13:18,899
+people could value equity they could be
+人们可以珍惜他们可能成为的平等
+
+302
+00:13:19,100 --> 00:13:20,759
+feeling emotions
+感受情绪
+
+303
+00:13:20,960 --> 00:13:22,409
+so there's a whole area of game theory
+所以整个博弈论领域
+
+304
+00:13:22,610 --> 00:13:24,809
+which is basically expanded and more or
+基本上是扩展的，或者更多
+
+305
+00:13:25,009 --> 00:13:26,459
+less exploded in the last couple of
+在最近的几个爆炸较少
+
+306
+00:13:26,659 --> 00:13:31,729
+decades where people begin to analyze
+人们开始分析的几十年
+
+307
+00:13:31,929 --> 00:13:34,740
+motivations of players other kinds of
+玩家的其他动机
+
+308
+00:13:34,940 --> 00:13:36,149
+concerns that they might have called
+他们可能已经打电话给他们的担忧
+
+309
+00:13:36,350 --> 00:13:38,819
+behavioral game theory and it it moves
+行为博弈论及其动因
+
+310
+00:13:39,019 --> 00:13:41,639
+away from the very narrow definitions of
+远离狭义的定义
+
+311
+00:13:41,840 --> 00:13:43,769
+rationality which are that we just look
+我们只是看的合理性
+
+312
+00:13:43,970 --> 00:13:47,370
+directly at some very specific monetary
+直接以一些非常具体的货币
+
+313
+00:13:47,570 --> 00:13:51,389
+or simple payoff and are looking at
+或简单的回报，正在寻找
+
+314
+00:13:51,590 --> 00:13:52,979
+either expanding the way in which
+要么扩大
+
+315
+00:13:53,179 --> 00:13:55,589
+payoffs are there or bringing in other
+收益存在或带来其他
+
+316
+00:13:55,789 --> 00:13:58,469
+kinds of biases or tendencies that
+各种偏见或倾向
+
+317
+00:13:58,669 --> 00:14:00,419
+people might have to understand things
+人们可能必须了解事物
+
+318
+00:14:00,620 --> 00:14:04,319
+and that can expand and help games so
+这样可以扩展和帮助游戏， 
+
+319
+00:14:04,519 --> 00:14:05,669
+over all of them you know when we look
+对他们所有人，当我们看着
+
+320
+00:14:05,870 --> 00:14:07,259
+at sub game perfect and what we've
+在完美的子游戏中，我们所拥有的
+
+321
+00:14:07,460 --> 00:14:10,469
+learned from it the the basic premise
+从中学到的基本前提
+
+322
+00:14:10,669 --> 00:14:12,029
+and I think the one of the important
+而且我认为重要的之一
+
+323
+00:14:12,230 --> 00:14:14,039
+things to take away from studying sub
+学习潜艇带走的东西
+
+324
+00:14:14,240 --> 00:14:16,859
+game perfection is that it imposes
+游戏的完美之处在于
+
+325
+00:14:17,059 --> 00:14:19,649
+sequential rationality so it's a certain
+顺序合理性
+
+326
+00:14:19,850 --> 00:14:21,870
+kind of logic and whether or not people
+逻辑以及人们是否
+
+327
+00:14:22,070 --> 00:14:24,089
+play that way understanding the logic
+以这种方式理解逻辑
+
+328
+00:14:24,289 --> 00:14:27,000
+helps us understand the the incentives
+帮助我们了解激励措施
+
+329
+00:14:27,200 --> 00:14:29,009
+in the game better and at least gives us
+在游戏中更好，至少给了我们
+
+330
+00:14:29,210 --> 00:14:32,189
+some feeling for the game so they result
+对游戏有一些感觉，所以他们结果
+
+331
+00:14:32,389 --> 00:14:34,709
+some game perfection and backward
+一些游戏的完善和落后
+
+332
+00:14:34,909 --> 00:14:36,689
+induction we generally will pick out a
+归纳，我们通常会挑选一个
+
+333
+00:14:36,889 --> 00:14:38,370
+subset of the Nash equilibria and
+纳什均衡的子集和
+
+334
+00:14:38,570 --> 00:14:40,589
+they're doing that by sort of imposing a
+他们通过强加一个
+
+335
+00:14:40,789 --> 00:14:42,209
+credibility in circumstances that are
+在以下情况下的信誉
+
+336
+00:14:42,409 --> 00:14:43,919
+never reached right so there's this idea
+从来没有达到正确的，所以有这个想法
+
+337
+00:14:44,120 --> 00:14:46,409
+of what's happening off the equilibrium
+平衡发生了什么
+
+338
+00:14:46,610 --> 00:14:49,379
+path can actually be important in
+路径实际上在以下方面很重要
+
+339
+00:14:49,580 --> 00:14:50,849
+determining what people are doing and
+确定人们在做什么， 
+
+340
+00:14:51,049 --> 00:14:53,519
+you want to make sure that that the
+您要确保
+
+341
+00:14:53,720 --> 00:14:55,049
+prescription of what players are going
+球员要做什么的处方
+
+342
+00:14:55,250 --> 00:14:56,689
+to do in all these circumstances is
+在所有这些情况下要做的是
+
+343
+00:14:56,889 --> 00:15:00,240
+credible one thing that it's very
+可信的一件事，这是非常
+
+344
+00:15:00,440 --> 00:15:01,740
+interesting to start thinking about when
+开始思考何时有趣
+
+345
+00:15:01,940 --> 00:15:04,500
+you think about sub game perfection what
+您认为完美的子游戏是什么
+
+346
+00:15:04,700 --> 00:15:06,899
+about the game of chess chess is
+关于国际象棋的游戏
+
+347
+00:15:07,100 --> 00:15:08,579
+actually a game of complete information
+实际上是一个完整的信息游戏
+
+348
+00:15:08,779 --> 00:15:10,529
+right so you could write down a tree for
+对，所以你可以写下一棵树
+
+349
+00:15:10,730 --> 00:15:12,719
+chess if you had a lot of time on your
+国际象棋，如果你有很多时间
+
+350
+00:15:12,919 --> 00:15:14,939
+hands the first player can make a bunch
+第一手牌手可以制造一堆
+
+351
+00:15:15,139 --> 00:15:16,709
+of moves the second player can then make
+第二个玩家可以做出的动作
+
+352
+00:15:16,909 --> 00:15:18,719
+a bunch of moves the third player I'm
+一堆动作，我是第三位玩家
+
+353
+00:15:18,919 --> 00:15:20,219
+sorry the first player then again gets
+对不起，第一个玩家然后再次获得
+
+354
+00:15:20,419 --> 00:15:22,079
+to make a move and and so you've got a
+采取行动，所以你有一个
+
+355
+00:15:22,279 --> 00:15:25,620
+tree which can be written out and it's
+可以写出来的树
+
+356
+00:15:25,820 --> 00:15:28,049
+actually a finite game a very big but a
+实际上是一个有限的游戏，很大，但是
+
+357
+00:15:28,250 --> 00:15:30,059
+finite game in the sense that if the
+在某种意义上说，如果
+
+358
+00:15:30,259 --> 00:15:31,679
+same board has ever reached three times
+同一块板曾达到三遍
+
+359
+00:15:31,879 --> 00:15:34,089
+the game end so so there are ending
+游戏结束，所以结束了
+
+360
+00:15:34,289 --> 00:15:35,618
+which make sure that the game doesn't go
+确保游戏不会进行
+
+361
+00:15:35,818 --> 00:15:39,238
+on infinitely so it's actually a finite
+在无限上，所以实际上是有限的
+
+362
+00:15:39,438 --> 00:15:41,228
+extensive form game of complete
+完整的广泛形式游戏
+
+363
+00:15:41,428 --> 00:15:44,399
+information so at least theoretically
+信息，至少理论上如此
+
+364
+00:15:44,600 --> 00:15:49,628
+you could solve chess but obviously we
+你可以解决国际象棋，但显然我们
+
+365
+00:15:49,828 --> 00:15:51,459
+haven't managed to do that and and it's
+尚未做到这一点，这是
+
+366
+00:15:51,659 --> 00:15:53,558
+just such a large game that solving the
+这么大的游戏，解决了
+
+367
+00:15:53,759 --> 00:15:55,778
+sub game perfect equilibria that seem to
+子游戏的完美平衡似乎
+
+368
+00:15:55,979 --> 00:15:58,899
+be impossible maybe on another planet
+不可能在另一个星球上
+
+369
+00:15:59,100 --> 00:16:02,528
+they've solved a chess and they could be
+他们解决了国际象棋，他们可能会
+
+370
+00:16:02,729 --> 00:16:04,838
+that they think of it as like our
+他们认为它就像我们的
+
+371
+00:16:05,038 --> 00:16:06,639
+tic-tac-toe which is a much simpler game
+井字游戏，这是一个简单得多的游戏
+
+372
+00:16:06,839 --> 00:16:08,709
+to solve and after you've played it a
+解决，在您玩过之后
+
+373
+00:16:08,909 --> 00:16:12,639
+few times you get pretty bored by it one
+几次，你对此感到无聊
+
+374
+00:16:12,839 --> 00:16:14,468
+other thing that's important is is you
+另一个重要的是你
+
+375
+00:16:14,668 --> 00:16:16,568
+know even with a game where it's
+即使在游戏中也知道
+
+376
+00:16:16,769 --> 00:16:19,508
+dominant solvable and so forth sorry not
+占主导地位的可解决的等等，对不起
+
+377
+00:16:19,708 --> 00:16:21,308
+a dominant solvable but solvable by a
+占主导地位的可解决但被一个人解决
+
+378
+00:16:21,509 --> 00:16:23,498
+backward induction or sub game
+向后归纳或子博弈
+
+379
+00:16:23,698 --> 00:16:26,198
+perfection it's it's not completely
+完美不是完全
+
+380
+00:16:26,399 --> 00:16:29,048
+clear that everybody abides by the logic
+清楚每个人都遵守逻辑
+
+381
+00:16:29,249 --> 00:16:31,508
+and in particular you need to believe in
+特别是你需要相信
+
+382
+00:16:31,708 --> 00:16:33,098
+the rationality of others right so you
+别人的合理性对吧
+
+383
+00:16:33,298 --> 00:16:34,988
+need to in order to really solve this
+为了真正解决这个问题
+
+384
+00:16:35,188 --> 00:16:36,758
+thing backwards you have to think about
+倒退的事情你必须考虑
+
+385
+00:16:36,958 --> 00:16:38,408
+well I think the other player is going
+好吧，我认为其他玩家会
+
+386
+00:16:38,609 --> 00:16:40,149
+to do this in a certain situation and
+在特定情况下做到这一点
+
+387
+00:16:40,350 --> 00:16:44,618
+then you backup and that you know the
+然后您备份，并且您知道
+
+388
+00:16:44,818 --> 00:16:46,948
+the demands that are placed on players
+对玩家的要求
+
+389
+00:16:47,149 --> 00:16:52,850
+in that situation are it can be quite
+在那种情况下
+
+390
+00:16:53,298 --> 00:16:56,188
+difficult to meet as the game becomes
+游戏变得难以相遇
+
+391
+00:16:56,389 --> 00:16:59,588
+more complicated another thing to say
+更复杂的另一句话要说
+
+392
+00:16:59,788 --> 00:17:01,508
+about this is there there is some
+关于这个有一些
+
+393
+00:17:01,708 --> 00:17:04,539
+controversy in game theory about the
+关于博弈论的争论
+
+394
+00:17:04,740 --> 00:17:06,459
+ideas behind things like backward
+落后的想法
+
+395
+00:17:06,659 --> 00:17:10,239
+induction and part of that is that you
+归纳法，其中一部分是你
+
+396
+00:17:10,439 --> 00:17:12,729
+know the according to the theory there
+根据那里的理论知道
+
+397
+00:17:12,929 --> 00:17:13,779
+are certain parts of the game that you
+是您游戏中的某些部分
+
+398
+00:17:13,980 --> 00:17:16,539
+should never see yourself in and then
+永远不应该看到自己，然后
+
+399
+00:17:16,740 --> 00:17:17,769
+you could begin to ask the question okay
+你可以开始问这个问题了
+
+400
+00:17:17,970 --> 00:17:19,688
+well let's suppose we really did end up
+好吧，假设我们真的结束了
+
+401
+00:17:19,888 --> 00:17:20,979
+there what should I believe about the
+那我应该相信什么
+
+402
+00:17:21,179 --> 00:17:24,608
+other player how did we get there so
+其他玩家我们如何到达那里
+
+403
+00:17:24,808 --> 00:17:26,618
+there's there's it's not so easy
+那里不是那么容易
+
+404
+00:17:26,818 --> 00:17:29,139
+actually to to very carefully write down
+其实要很认真地写下来
+
+405
+00:17:29,339 --> 00:17:31,719
+a foundation in terms of logical
+逻辑上的基础
+
+406
+00:17:31,919 --> 00:17:33,669
+thinking which makes these predictions
+做出这些预测的思考
+
+407
+00:17:33,869 --> 00:17:35,348
+and that's an interesting area of
+这是一个有趣的领域
+
+408
+00:17:35,548 --> 00:17:37,940
+research
+研究
+
+409
+00:17:39,669 --> 00:17:43,198
+so just to wrap up next time we'll be
+所以下次我们总结一下
+
+410
+00:17:43,398 --> 00:17:45,240
+thinking a little bit about incomplete
+考虑一点不完整
+
+411
+00:17:45,440 --> 00:17:48,509
+information and bringing that into the
+信息并将其带入
+
+412
+00:17:48,710 --> 00:17:53,710
+study of games
+游戏研究
+

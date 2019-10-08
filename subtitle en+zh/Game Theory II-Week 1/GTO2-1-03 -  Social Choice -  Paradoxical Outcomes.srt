@@ -1,0 +1,805 @@
+﻿1
+00:00:00,000 --> 00:00:03,129
+this lecture was look at voting schemed
+这堂课是看投票计划的
+
+2
+00:00:03,330 --> 00:00:06,189
+a little more closely and the main
+更紧密和主要
+
+3
+00:00:06,389 --> 00:00:09,250
+message of this segment will be that
+该段的消息是
+
+4
+00:00:09,449 --> 00:00:12,399
+even very reasonable sounding voting
+甚至听起来很合理的投票
+
+5
+00:00:12,599 --> 00:00:15,040
+schemes can run into problems and we'll
+方案可能会遇到问题，我们将
+
+6
+00:00:15,240 --> 00:00:17,829
+do it by a series of examples we'll look
+我们将通过一系列示例来做到这一点
+
+7
+00:00:18,028 --> 00:00:19,960
+at situation I'll ask you to pause the
+在这种情况下，我会请您暂停
+
+8
+00:00:20,160 --> 00:00:22,179
+video and think about the situation and
+视频并考虑情况
+
+9
+00:00:22,379 --> 00:00:24,039
+then we'll and to continue when you're
+然后我们会继续，当您
+
+10
+00:00:24,239 --> 00:00:26,919
+ready so let's get let's get started
+准备好了，让我们开始吧
+
+11
+00:00:27,118 --> 00:00:29,710
+let's start with the condos sake endorse
+让我们从公寓的缘故开始
+
+12
+00:00:29,910 --> 00:00:36,350
+a condition which on the face of it is
+从表面上看是
+
+13
+00:00:37,100 --> 00:00:40,839
+incontrovertible and consider the
+坚不可摧，并考虑
+
+14
+00:00:41,039 --> 00:00:42,669
+following examples so here we are we
+下面的例子，所以我们在这里
+
+15
+00:00:42,869 --> 00:00:46,628
+have a thousand agents and and here are
+有一千个代理商，这是
+
+16
+00:00:46,829 --> 00:00:50,229
+their preferences so for example four
+他们的偏好，例如四个
+
+17
+00:00:50,429 --> 00:00:53,108
+hundred and ninety nine of them prefer A
+其中109个喜欢A 
+
+18
+00:00:53,308 --> 00:00:57,669
+to B to C and so on for the others first
+从B到C，以此类推。 
+
+19
+00:00:57,869 --> 00:01:00,549
+question is not every voting situation
+问题不是每个投票情况
+
+20
+00:01:00,750 --> 00:01:03,428
+has a converse a winner does this one
+有一个交谈者获胜者做到这一点
+
+21
+00:01:03,628 --> 00:01:06,009
+have says good time for you to pause the
+说了好时间让您暂停
+
+22
+00:01:06,209 --> 00:01:10,810
+video and think about it well the answer
+视频并仔细考虑答案
+
+23
+00:01:11,010 --> 00:01:13,869
+is yes there is a conversation winner
+是的，有一个对话的赢家
+
+24
+00:01:14,069 --> 00:01:15,909
+and it's B and why is that
+是B，那是为什么
+
+25
+00:01:16,109 --> 00:01:18,700
+well let's look at their relative
+好，让我们看看他们的亲戚
+
+26
+00:01:18,900 --> 00:01:20,859
+preference of B to a and the relevant
+ B对a的偏爱及相关
+
+27
+00:01:21,060 --> 00:01:24,308
+preference of B to C well we have here
+ B对C的偏爱我们在这里
+
+28
+00:01:24,509 --> 00:01:30,039
+that 500 and one of the agents prefer B
+ 500和其中一位特工更喜欢B 
+
+29
+00:01:30,239 --> 00:01:38,200
+to a and 502 of the agents prefer B to C
+到a和502的代理商更喜欢B到C 
+
+30
+00:01:38,400 --> 00:01:42,390
+so clearly B is a conversate winner
+所以很明显B是一个对话的赢家
+
+31
+00:01:42,590 --> 00:01:46,198
+well that so where's the problem well
+好，那么问题出在哪里
+
+32
+00:01:46,399 --> 00:01:50,230
+now think about the simplest sort of
+现在考虑最简单的一种
+
+33
+00:01:50,430 --> 00:01:52,209
+voting we're familiar with plurality
+投票，我们熟悉复数
+
+34
+00:01:52,409 --> 00:01:54,849
+voting everybody votes for their top
+投票给所有人投票
+
+35
+00:01:55,049 --> 00:01:58,000
+candidate who would win the plurality
+赢得多元化的候选人
+
+36
+00:01:58,200 --> 00:02:03,159
+voting here well again you could pause
+再次在这里投票可以暂停
+
+37
+00:02:03,359 --> 00:02:05,709
+the video or in this case it's fairly
+视频，或者在这种情况下， 
+
+38
+00:02:05,909 --> 00:02:07,000
+straightforward right
+直截了当的权利
+
+39
+00:02:07,200 --> 00:02:11,880
+clearly a would win it because 490
+显然一个会赢，因为490 
+
+40
+00:02:12,080 --> 00:02:15,630
+agents would vote for a and the next
+代理商会投票给A和下一个
+
+41
+00:02:15,830 --> 00:02:21,290
+highest number would be C with 498 so
+最高的数字将是C与498，所以
+
+42
+00:02:21,490 --> 00:02:23,760
+morality boating doesn't give you the
+道德划船不会给你
+
+43
+00:02:23,960 --> 00:02:25,710
+candidate that on the face of it
+表面上的候选人
+
+44
+00:02:25,909 --> 00:02:30,990
+is the clear should be the clear winner
+是明确的应该是明确的赢家
+
+45
+00:02:31,189 --> 00:02:35,120
+what about voting plurality with
+用...投票复数怎么办
+
+46
+00:02:35,319 --> 00:02:38,460
+elimination so this might take a little
+消除，所以这可能需要一点时间
+
+47
+00:02:38,659 --> 00:02:40,830
+more time to think about so you might
+有更多时间思考，所以您可能
+
+48
+00:02:41,030 --> 00:02:42,540
+want to pause the video here just for a
+想要在这里暂停视频只是为了
+
+49
+00:02:42,740 --> 00:02:47,700
+second and now when you think about it
+第二，现在当您考虑它时
+
+50
+00:02:47,900 --> 00:02:50,219
+you see that C would be the winner under
+您会看到C将是下一个赢家
+
+51
+00:02:50,419 --> 00:02:52,830
+pure reality with in elimination and why
+消除中的纯现实，为什么
+
+52
+00:02:53,030 --> 00:02:59,580
+is that well you'd first run a plurality
+那是您首先要运行多个
+
+53
+00:02:59,780 --> 00:03:03,000
+and you'll see that B is the loser
+你会看到B是失败者
+
+54
+00:03:03,199 --> 00:03:08,490
+so B would leave the competition if you
+所以B如果你愿意离开比赛
+
+55
+00:03:08,689 --> 00:03:10,680
+wish and now it'll be head-to-head
+希望，现在将是正面交锋
+
+56
+00:03:10,879 --> 00:03:13,320
+between CNA and in this case C would be
+在CNA与C之间
+
+57
+00:03:13,520 --> 00:03:16,080
+the winner because 501 out of the
+获胜者，因为501分
+
+58
+00:03:16,280 --> 00:03:19,259
+thousand agents prefer C to a so C would
+成千上万的代理商更喜欢C而不是C 
+
+59
+00:03:19,459 --> 00:03:22,439
+be the winner and so two voted teams
+成为赢家，所以有两个投票小组
+
+60
+00:03:22,639 --> 00:03:23,759
+both of them on the face of it
+他们俩都面对它
+
+61
+00:03:23,959 --> 00:03:26,100
+reasonable would give you different
+合理会给你不同
+
+62
+00:03:26,300 --> 00:03:28,380
+answers and both answer is different
+答案和两个答案都不同
+
+63
+00:03:28,580 --> 00:03:30,509
+from the criterion that on the face of
+从面对的标准
+
+64
+00:03:30,709 --> 00:03:32,910
+it seems quite a safe criterion namely
+看来相当安全的标准是
+
+65
+00:03:33,110 --> 00:03:35,880
+the cantos a foundation so here's
+ cantos基础，所以这里是
+
+66
+00:03:36,080 --> 00:03:38,850
+another example and let's think about
+另一个例子，让我们考虑一下
+
+67
+00:03:39,050 --> 00:03:43,439
+what would happen in this case what
+在这种情况下会发生什么
+
+68
+00:03:43,639 --> 00:03:45,750
+would happen under pure reality voting
+将在纯现实投票下发生
+
+69
+00:03:45,949 --> 00:03:49,680
+well clearly under Florida voting a
+很明显，在佛罗里达投票下
+
+70
+00:03:49,879 --> 00:03:55,500
+would win since I would get 35 votes and
+会赢，因为我将获得35票， 
+
+71
+00:03:55,699 --> 00:03:59,120
+the second highest would be B with 33
+第二高的是33 
+
+72
+00:03:59,319 --> 00:04:03,689
+what would happened under the board of
+在董事会的领导下会发生什么
+
+73
+00:04:03,889 --> 00:04:07,080
+voting this takes a little more thinking
+投票这需要更多的思考
+
+74
+00:04:07,280 --> 00:04:09,030
+and you might want to pause just for a
+而您可能只想暂停一下
+
+75
+00:04:09,229 --> 00:04:12,890
+second the video but when you continue
+第二个视频，但是当您继续时
+
+76
+00:04:13,090 --> 00:04:15,630
+by that time you'll quickly realize that
+到那时你会很快意识到
+
+77
+00:04:15,830 --> 00:04:18,980
+again a would be the winner under border
+再一次将是边界下的赢家
+
+78
+00:04:19,180 --> 00:04:23,970
+and clearly you have
+显然你有
+
+79
+00:04:24,170 --> 00:04:28,560
+a B and C each appearing in each of the
+ B和C分别出现在每个
+
+80
+00:04:28,759 --> 00:04:32,430
+places one two or three with a appearing
+放置一两个或三个出现
+
+81
+00:04:32,629 --> 00:04:34,500
+with the largest number of agents and
+代理商数量最多
+
+82
+00:04:34,699 --> 00:04:38,670
+the higher locations so they would have
+较高的位置，所以他们将有
+
+83
+00:04:38,870 --> 00:04:40,949
+the highest board account and would be
+董事会最高帐户，并且
+
+84
+00:04:41,149 --> 00:04:44,340
+the one or two so this looks very good
+一两个这样看起来很好
+
+85
+00:04:44,540 --> 00:04:50,220
+but now what happens if she drops out so
+但是现在如果她退学了怎么办
+
+86
+00:04:50,420 --> 00:04:54,150
+C realizes that he has no no chance of
+ C意识到自己没有机会
+
+87
+00:04:54,350 --> 00:04:57,240
+winning the election and drops out now
+赢得选举，现在退学
+
+88
+00:04:57,439 --> 00:04:59,189
+what would happen under the both
+在这两种情况下会发生什么
+
+89
+00:04:59,389 --> 00:05:02,790
+plurality and border just you might want
+您可能想要的复数和边框
+
+90
+00:05:02,990 --> 00:05:04,319
+to pause for a second the video and
+暂停一秒钟的视频， 
+
+91
+00:05:04,519 --> 00:05:08,699
+think about it and when you do you
+考虑一下，什么时候做
+
+92
+00:05:08,899 --> 00:05:11,520
+realize that in both cases B would win
+意识到在两种情况下B都会赢
+
+93
+00:05:11,720 --> 00:05:16,230
+and so here you have a candidate that
+所以这里有一个候选人
+
+94
+00:05:16,430 --> 00:05:21,079
+has no chance of winning and is sole
+没有获胜的机会，而且是唯一的
+
+95
+00:05:21,279 --> 00:05:25,710
+role if you wish is to change what
+如果您希望改变的角色
+
+96
+00:05:25,910 --> 00:05:27,180
+otherwise would be the outcome of the
+否则将是
+
+97
+00:05:27,379 --> 00:05:31,500
+elections here is another acuity of
+这里的选举是
+
+98
+00:05:31,699 --> 00:05:34,470
+voting schemes and imagine that we're
+投票计划并想象我们
+
+99
+00:05:34,670 --> 00:05:36,509
+doing terrorise elimination that is
+做恐怖消除
+
+100
+00:05:36,709 --> 00:05:38,850
+we're going to take one candidate to
+我们将带一名候选人参加
+
+101
+00:05:39,050 --> 00:05:42,870
+compare him to another take the winner
+比较他和另一个获胜者
+
+102
+00:05:43,069 --> 00:05:44,790
+comparing to a third and so on and so
+比较三分之一等等
+
+103
+00:05:44,990 --> 00:05:48,629
+forth so the order in which we compare
+所以我们比较的顺序
+
+104
+00:05:48,829 --> 00:05:50,579
+the candidates we call that the agenda
+我们称之为议程的候选人
+
+105
+00:05:50,779 --> 00:05:53,220
+so somebody needs to set the agenda we
+所以有人需要设定议程
+
+106
+00:05:53,420 --> 00:05:56,340
+call that person the attenders agenda
+将该人称为与会者议程
+
+107
+00:05:56,540 --> 00:06:00,240
+setter so imagine pairwise elimination
+二传手，所以想像成对消除
+
+108
+00:06:00,439 --> 00:06:03,300
+with the order of comparison ABC in
+与比较顺序ABC在
+
+109
+00:06:03,500 --> 00:06:05,160
+other words a would be compared to B and
+换句话说a将与B进行比较
+
+110
+00:06:05,360 --> 00:06:08,520
+then B will be compared to C so who
+那么B将与C相比较
+
+111
+00:06:08,720 --> 00:06:09,930
+would be the winner of this election a
+将是这次选举的赢家
+
+112
+00:06:10,129 --> 00:06:12,030
+good time to pause the video and think
+暂停视频并思考的好时机
+
+113
+00:06:12,230 --> 00:06:16,290
+about it and once you do you realize
+关于它，一旦你意识到
+
+114
+00:06:16,490 --> 00:06:19,860
+that C would be the winner because when
+ C是赢家，因为当
+
+115
+00:06:20,060 --> 00:06:27,110
+a is compared to B well we have be
+ a与B相比较，我们已经
+
+116
+00:06:27,310 --> 00:06:31,319
+preferred to a by a majority of the
+被大多数人偏爱
+
+117
+00:06:31,519 --> 00:06:35,670
+agents so a would be eliminated and then
+代理，因此将被淘汰，然后
+
+118
+00:06:35,870 --> 00:06:38,730
+when the winner namely B is compared to
+当获胜者即B与
+
+119
+00:06:38,930 --> 00:06:43,740
+C you'll see that C is preferred to B by
+ C，您会看到C比B更偏爱B 
+
+120
+00:06:43,939 --> 00:06:46,860
+the majority of the agent and therefore
+大多数代理商，因此
+
+121
+00:06:47,060 --> 00:06:50,250
+C will be the winner of this election
+ C将是这次选举的获胜者
+
+122
+00:06:50,449 --> 00:06:54,689
+with this ordering what happens with
+按照这种顺序会发生什么
+
+123
+00:06:54,889 --> 00:06:58,650
+another ordering like ACB again you
+再次像ACB一样订购
+
+124
+00:06:58,850 --> 00:07:00,870
+might want to pause the video and when
+可能想暂停视频以及何时
+
+125
+00:07:01,069 --> 00:07:02,579
+we read by the time you resume will
+我们会在您恢复简历时阅读
+
+126
+00:07:02,779 --> 00:07:05,610
+realize that this case B would be the
+意识到这种情况B将是
+
+127
+00:07:05,810 --> 00:07:08,430
+winner and perhaps not surprisingly when
+赢家，也许并不奇怪
+
+128
+00:07:08,629 --> 00:07:10,350
+you asked about the third ordering BCA
+您询问了第三个订购BCA 
+
+129
+00:07:10,550 --> 00:07:13,500
+you'll see that a would be the or the
+您会看到a将是或
+
+130
+00:07:13,699 --> 00:07:15,629
+winner there and so it's a little
+那里的赢家，所以有点
+
+131
+00:07:15,829 --> 00:07:19,020
+perhaps disconcerting that a the same
+也许让我感到相同
+
+132
+00:07:19,220 --> 00:07:22,350
+voting scheme merely by deciding on the
+仅通过决定投票方案
+
+133
+00:07:22,550 --> 00:07:24,629
+order in which you run it would lead to
+您运行的顺序将导致
+
+134
+00:07:24,829 --> 00:07:27,870
+very different results and here is
+非常不同的结果，这是
+
+135
+00:07:28,069 --> 00:07:30,990
+another example there are three agents
+另一个例子有三个代理
+
+136
+00:07:31,189 --> 00:07:34,560
+and four candidates and the preferences
+和四个候选人和偏好
+
+137
+00:07:34,759 --> 00:07:39,300
+are written up there now consider again
+被写在那里，现在再考虑
+
+138
+00:07:39,500 --> 00:07:42,449
+pairwise elimination with the ABCD
+与ABCD成对消除
+
+139
+00:07:42,649 --> 00:07:47,280
+ordering and what would you get again
+订购，您还会得到什么
+
+140
+00:07:47,480 --> 00:07:49,170
+pause the video for a second think about
+暂停视频再三思
+
+141
+00:07:49,370 --> 00:07:53,129
+it and realize that the winner would be
+并意识到获胜者将是
+
+142
+00:07:53,329 --> 00:08:04,170
+d what about what about this case we're
+ d我们在这种情况下怎么样
+
+143
+00:08:04,370 --> 00:08:06,540
+not talking about different orderings
+不谈论不同的顺序
+
+144
+00:08:06,740 --> 00:08:08,340
+we're talking about a given ordering and
+我们在谈论给定的顺序， 
+
+145
+00:08:08,540 --> 00:08:11,220
+an outcome but there's something a
+结果，但有一些
+
+146
+00:08:11,420 --> 00:08:15,150
+little troubling about this outcome what
+这个结果有点令人不安
+
+147
+00:08:15,350 --> 00:08:20,930
+is it pause the video think about it and
+视频暂停了吗？ 
+
+148
+00:08:21,129 --> 00:08:23,730
+realize that the problem is that
+意识到问题是
+
+149
+00:08:23,930 --> 00:08:31,800
+everyone prefers B to D here right so B
+每个人都喜欢B比D好，所以B 
+
+150
+00:08:32,000 --> 00:08:34,559
+is preferred to D here be referred to D
+优先于D，这里称为D 
+
+151
+00:08:34,759 --> 00:08:39,120
+here and be referred to D here and yet d
+在这里，并在这里被称为D 
+
+152
+00:08:39,320 --> 00:08:43,370
+this purrito dominated candidate wins
+这个purrito主导的候选人获胜
+
+153
+00:08:43,570 --> 00:08:49,750
+something is wrong in this picture well
+这幅画出了点问题
+
+154
+00:08:49,950 --> 00:08:53,509
+the goal here was not to give us the
+目的不是要给我们
+
+155
+00:08:53,710 --> 00:08:55,429
+final answer what what is the right way
+最后的答案是什么正确的方法
+
+156
+00:08:55,629 --> 00:08:59,919
+to vote in fact that is not well-defined
+投票实际上定义不明确
+
+157
+00:09:00,120 --> 00:09:03,979
+the goal was to alert us to that the
+目的是提醒我们
+
+158
+00:09:04,179 --> 00:09:07,389
+fact that a lot of reasonable sounding
+事实很多合理
+
+159
+00:09:07,589 --> 00:09:11,449
+voting schemes can can be problematic
+投票方案可能会有问题
+
+160
+00:09:11,649 --> 00:09:15,199
+and so with this note of caution
+因此请注意
+
+161
+00:09:15,399 --> 00:09:20,399
+we'll finish this segment
+我们将结束本段
+

@@ -1,0 +1,685 @@
+﻿1
+00:00:00,060 --> 00:00:01,629
+we're gonna look at the simplest kind of
+我们将看看最简单的一种
+
+2
+00:00:01,829 --> 00:00:04,030
+games that involve time which are called
+涉及时间的游戏称为
+
+3
+00:00:04,230 --> 00:00:07,559
+perfect information extensive form games
+完善的信息，广泛的形式游戏
+
+4
+00:00:07,759 --> 00:00:11,589
+so recall the normal form games model
+所以回想一下普通形式的游戏模型
+
+5
+00:00:11,789 --> 00:00:13,359
+situations in which all of the players
+所有玩家的情况
+
+6
+00:00:13,558 --> 00:00:16,539
+take action simultaneously and that
+同时采取行动， 
+
+7
+00:00:16,739 --> 00:00:19,210
+means that it's difficult to use them to
+意味着很难用它们来
+
+8
+00:00:19,410 --> 00:00:21,339
+think about cases where people really
+想想人们真正的案例
+
+9
+00:00:21,539 --> 00:00:22,749
+are doing something in sequence where
+在按顺序做某事
+
+10
+00:00:22,949 --> 00:00:24,579
+there's some kind of explicit time in
+有一些明确的时间
+
+11
+00:00:24,778 --> 00:00:27,669
+the setting here we're going to look at
+我们将在这里查看设置
+
+12
+00:00:27,868 --> 00:00:29,409
+another game representation called the
+另一个游戏表示称为
+
+13
+00:00:29,609 --> 00:00:31,930
+extensive form which makes the temporal
+广泛的形式使时间
+
+14
+00:00:32,130 --> 00:00:34,268
+structure explicit so it allows us to
+结构明确，因此我们可以
+
+15
+00:00:34,469 --> 00:00:37,029
+think more naturally about time there
+更自然地思考那里的时间
+
+16
+00:00:37,229 --> 00:00:39,189
+are two different kinds of extensive
+是两种不同的广泛
+
+17
+00:00:39,390 --> 00:00:40,689
+form games that we'll talk about in this
+我们将在此讨论的形式游戏
+
+18
+00:00:40,890 --> 00:00:43,029
+course perfect information extensive
+课程完善的信息广泛
+
+19
+00:00:43,229 --> 00:00:45,128
+form and imperfect information extensive
+形式和不完善的信息广泛
+
+20
+00:00:45,329 --> 00:00:47,500
+form we'll start with the first case
+表格我们将从第一种情况开始
+
+21
+00:00:47,700 --> 00:00:50,378
+basically they differ by whether the
+基本上，它们的区别在于
+
+22
+00:00:50,579 --> 00:00:52,829
+players are able to reason about
+玩家能够推理
+
+23
+00:00:53,030 --> 00:00:54,998
+everything the other player does or
+其他玩家所做的一切，或
+
+24
+00:00:55,198 --> 00:00:58,729
+whether sometimes they can't observe it
+有时他们是否看不到它
+
+25
+00:00:59,539 --> 00:01:02,768
+so a perfect information game in
+所以是一个完美的信息游戏
+
+26
+00:01:02,969 --> 00:01:05,560
+extensive form is defined in a way
+扩展形式以某种方式定义
+
+27
+00:01:05,760 --> 00:01:07,840
+that's much more complicated than normal
+这比平常要复杂得多
+
+28
+00:01:08,040 --> 00:01:09,278
+form games were we need a lot more
+形式游戏，我们还需要更多
+
+29
+00:01:09,478 --> 00:01:12,759
+pieces to make it work so we need all of
+件使其工作，所以我们需要所有
+
+30
+00:01:12,959 --> 00:01:15,539
+these different pieces here and
+这些不同的部分和
+
+31
+00:01:15,739 --> 00:01:18,789
+intuitively what's going on here is that
+从直觉上讲，这是在做什么
+
+32
+00:01:18,989 --> 00:01:21,429
+we have a set of players as we did
+我们像以前一样有一组球员
+
+33
+00:01:21,629 --> 00:01:25,359
+before we have a set of actions which
+在我们采取一系列行动之前
+
+34
+00:01:25,560 --> 00:01:27,278
+now is just a single set for all of the
+现在只是所有
+
+35
+00:01:27,478 --> 00:01:30,969
+players rather than having a different
+玩家而不是与众不同
+
+36
+00:01:31,170 --> 00:01:34,028
+action set for everybody and then all
+为所有人制定行动，然后为所有人
+
+37
+00:01:34,228 --> 00:01:36,250
+the rest of this stuff is going to be
+这些东西的其余部分将是
+
+38
+00:01:36,450 --> 00:01:38,079
+used to define the utility function and
+用于定义效用函数和
+
+39
+00:01:38,280 --> 00:01:40,418
+in order to get to utilities we need to
+为了进入公用事业，我们需要
+
+40
+00:01:40,618 --> 00:01:41,890
+think about the temporal structure of
+考虑一下时间结构
+
+41
+00:01:42,090 --> 00:01:43,929
+the game so we're gonna build up
+游戏，所以我们要建立
+
+42
+00:01:44,129 --> 00:01:46,329
+effectively a game tree where players
+有效的游戏树，玩家
+
+43
+00:01:46,530 --> 00:01:48,399
+take turns taking actions in the game
+轮流在游戏中采取行动
+
+44
+00:01:48,599 --> 00:01:51,189
+tree and eventually they end up at some
+一棵树，最终他们最终到了
+
+45
+00:01:51,390 --> 00:01:53,590
+node where the game ends and we're gonna
+游戏结束的节点，我们要
+
+46
+00:01:53,790 --> 00:01:55,869
+have a utility marking that note so
+有一个实用程序标记该注释，因此
+
+47
+00:01:56,069 --> 00:01:59,679
+let's formalize that intuition we'll
+让我们正式化直觉
+
+48
+00:01:59,879 --> 00:02:02,109
+start with a set of choice nodes so
+从一组选择节点开始，所以
+
+49
+00:02:02,310 --> 00:02:03,549
+these are going to be the nodes in the
+这些将成为
+
+50
+00:02:03,750 --> 00:02:05,948
+tree where players take an action where
+玩家在哪里采取行动的树
+
+51
+00:02:06,149 --> 00:02:08,558
+something happens and we're going to
+发生了一些事情，我们将
+
+52
+00:02:08,758 --> 00:02:12,880
+call that set of choice nodes H now to
+现在将那组选择节点H称为
+
+53
+00:02:13,080 --> 00:02:13,600
+make the
+使
+
+54
+00:02:13,800 --> 00:02:19,060
+nodes work we need to assign to a choice
+节点工作，我们需要分配给一个选择
+
+55
+00:02:19,259 --> 00:02:21,430
+node all of the different actions that
+节点所有的不同动作
+
+56
+00:02:21,629 --> 00:02:23,469
+can be taken in that choice node so we
+可以放在那个选择节点中，所以我们
+
+57
+00:02:23,669 --> 00:02:25,330
+have a function called the action
+有一个叫做动作的功能
+
+58
+00:02:25,530 --> 00:02:29,710
+function Chi which assigns to each
+分配给每个的功能Chi 
+
+59
+00:02:29,909 --> 00:02:31,960
+choice node which actions it is that are
+选择节点是什么动作
+
+60
+00:02:32,159 --> 00:02:34,060
+available to a player in that choice
+可供选择的玩家使用
+
+61
+00:02:34,259 --> 00:02:37,480
+node and we also have a player function
+节点，我们还有一个播放器功能
+
+62
+00:02:37,680 --> 00:02:39,939
+and the player function tells us for
+播放器功能告诉我们
+
+63
+00:02:40,139 --> 00:02:42,219
+every choice node who it is that gets to
+每个选择节点是谁
+
+64
+00:02:42,419 --> 00:02:45,300
+make the choice in that node
+在该节点中做出选择
+
+65
+00:02:45,500 --> 00:02:47,710
+that's the choice nodes we have another
+那是选择节点，我们还有另一个
+
+66
+00:02:47,909 --> 00:02:49,300
+kind of nodes which are the nodes where
+节点的种类
+
+67
+00:02:49,500 --> 00:02:51,189
+the game ends we call these terminal
+游戏结束，我们称这些终端
+
+68
+00:02:51,389 --> 00:02:53,320
+nodes so this is a different set of
+节点，所以这是一组不同的
+
+69
+00:02:53,520 --> 00:02:56,200
+nodes it's disjoint from H and we call
+节点与H不相交，我们称
+
+70
+00:02:56,400 --> 00:03:02,710
+it Z so this gives us all of the
+ Z，所以这给了我们所有的
+
+71
+00:03:02,909 --> 00:03:04,930
+different nodes in our game tree now we
+现在我们游戏树中的不同节点
+
+72
+00:03:05,129 --> 00:03:07,570
+need the edges in the game tree and we
+需要游戏树的边缘，我们
+
+73
+00:03:07,770 --> 00:03:09,490
+build those up using the successor
+使用后继者建立
+
+74
+00:03:09,689 --> 00:03:11,830
+function so the way the successor
+功能如此，后继者
+
+75
+00:03:12,030 --> 00:03:15,660
+function works is that it's a mapping
+功能起作用是因为它是一个映射
+
+76
+00:03:15,860 --> 00:03:20,620
+from a choice node and an action that
+来自选择节点和一个动作
+
+77
+00:03:20,819 --> 00:03:23,740
+was taken in that choice node to a new
+在该选择节点中被带到一个新的
+
+78
+00:03:23,939 --> 00:03:26,200
+node and that new node can be either a
+节点，该新节点可以是
+
+79
+00:03:26,400 --> 00:03:28,450
+choice node another choice node or a
+选择节点另一个选择节点或一个
+
+80
+00:03:28,650 --> 00:03:31,870
+terminal node and what we want is that
+终端节点，我们想要的是
+
+81
+00:03:32,069 --> 00:03:33,850
+the successor function combined with the
+后继功能与
+
+82
+00:03:34,050 --> 00:03:36,820
+nodes defines a tree and in order for
+节点定义一棵树并为了
+
+83
+00:03:37,020 --> 00:03:38,890
+that to happen we need to say that
+要发生，我们需要说
+
+84
+00:03:39,090 --> 00:03:41,170
+there's only one way of getting to any
+到达任何地方只有一种方法
+
+85
+00:03:41,370 --> 00:03:44,439
+given new node so the way we say that
+给定新节点，我们这样说
+
+86
+00:03:44,639 --> 00:03:47,560
+formally is that for all pairs of choice
+正式地是对于所有选择
+
+87
+00:03:47,759 --> 00:03:50,830
+nodes and for all pairs of actions that
+节点以及所有对动作
+
+88
+00:03:51,030 --> 00:03:53,800
+could be taken the only way that it can
+可以采取的唯一方式
+
+89
+00:03:54,000 --> 00:03:56,770
+be that the successor function is equal
+是后继函数相等
+
+90
+00:03:56,969 --> 00:04:00,780
+in both of those cases is if the -
+在这两种情况下，如果- 
+
+91
+00:04:00,979 --> 00:04:04,660
+whoops if the two choice nodes were the
+如果两个选择节点是
+
+92
+00:04:04,860 --> 00:04:07,920
+same and the two actions were the same
+相同，两个动作相同
+
+93
+00:04:08,120 --> 00:04:11,650
+so these this condition means that the
+所以这些情况意味着
+
+94
+00:04:11,849 --> 00:04:13,090
+choice nodes form a tree which is what
+选择节点形成一棵树
+
+95
+00:04:13,289 --> 00:04:17,139
+we want so now at this point we can
+我们希望现在就可以
+
+96
+00:04:17,339 --> 00:04:18,759
+finally talk about what the players
+最后说说玩家
+
+97
+00:04:18,959 --> 00:04:21,490
+utilities are in the game and so we're
+工具在游戏中，所以我们
+
+98
+00:04:21,689 --> 00:04:23,410
+gonna have a utility function for every
+每个人都会有一个实用功能
+
+99
+00:04:23,610 --> 00:04:26,720
+player and it's going to
+播放器，它将
+
+100
+00:04:26,920 --> 00:04:31,009
+number two every terminal mode so for
+每个终端模式第二，所以
+
+101
+00:04:31,209 --> 00:04:33,650
+each player for each terminal mode we're
+每个终端模式下的每个玩家
+
+102
+00:04:33,850 --> 00:04:35,900
+going to associate a real value which is
+将要关联的实际价值是
+
+103
+00:04:36,100 --> 00:04:37,759
+going to tell us how happy that player
+告诉我们那个球员有多高兴
+
+104
+00:04:37,959 --> 00:04:42,100
+is if they end up in that terminal mode
+如果他们最终以该终端模式
+
+105
+00:04:42,300 --> 00:04:45,470
+let's look at an example this is the
+让我们看一个例子，这是
+
+106
+00:04:45,670 --> 00:04:47,509
+sharing game that talks about a
+分享游戏，谈论
+
+107
+00:04:47,709 --> 00:04:50,300
+situation where a brother and a sister
+兄弟姐妹的情况
+
+108
+00:04:50,500 --> 00:04:53,120
+want to decide between each other how
+想互相决定
+
+109
+00:04:53,319 --> 00:04:55,460
+they're going to share two dollars so
+他们要分享两美元，所以
+
+110
+00:04:55,660 --> 00:04:57,680
+they have two dollar bills and it begins
+他们有两个美元的钞票，它开始
+
+111
+00:04:57,879 --> 00:05:01,910
+with the brother saying how he proposes
+哥哥说他如何求婚
+
+112
+00:05:02,110 --> 00:05:05,810
+to divide the money so he he starts out
+分钱，所以他开始
+
+113
+00:05:06,009 --> 00:05:07,730
+in this first choice node here the
+在这个首选节点中， 
+
+114
+00:05:07,930 --> 00:05:10,610
+brother is player 1 and so he has three
+兄弟是玩家1，所以他有3 
+
+115
+00:05:10,810 --> 00:05:12,259
+actions that he can take in the first
+他可以在第一阶段采取的行动
+
+116
+00:05:12,459 --> 00:05:15,850
+choice note his first action is labeled
+选择注意，他的第一个动作被标记为
+
+117
+00:05:16,050 --> 00:05:19,220
+2-0 what that means is that he keeps two
+ 2-0这意味着他保持两个
+
+118
+00:05:19,420 --> 00:05:21,050
+dollars and he gives nothing to his
+美元，他什么也没给
+
+119
+00:05:21,250 --> 00:05:24,740
+sister the second action is labeled 1 1
+姐姐的第二个动作被标记为1 1 
+
+120
+00:05:24,939 --> 00:05:27,949
+and that means that he offers to split
+这意味着他愿意分裂
+
+121
+00:05:28,149 --> 00:05:30,069
+the money 50/50 with his sister and the
+与他的妹妹和50/50的钱
+
+122
+00:05:30,269 --> 00:05:34,730
+last action is labeled 0-2 and that
+最后一个动作标记为0-2， 
+
+123
+00:05:34,930 --> 00:05:36,949
+means that he proposes to give all of
+意味着他建议给所有
+
+124
+00:05:37,149 --> 00:05:40,490
+the money to his sister in each of these
+这些钱给他姐姐的钱
+
+125
+00:05:40,689 --> 00:05:42,949
+cases after the brother takes his action
+兄弟采取行动后的案例
+
+126
+00:05:43,149 --> 00:05:45,650
+we transition to a new choice node where
+我们过渡到新的选择节点
+
+127
+00:05:45,850 --> 00:05:49,129
+the sister gets to act and she gets to
+妹妹开始行动，她开始
+
+128
+00:05:49,329 --> 00:05:51,650
+take one of two actions in each case she
+她在每种情况下都要采取以下两项操作之一
+
+129
+00:05:51,850 --> 00:05:54,020
+has the same two actions she gets to
+具有与她相同的两个动作
+
+130
+00:05:54,220 --> 00:05:56,960
+accept the offer that he made or she
+接受他或她的报价
+
+131
+00:05:57,160 --> 00:06:00,620
+gets to reject it and the way this works
+开始拒绝它以及它的工作方式
+
+132
+00:06:00,819 --> 00:06:05,030
+is just what you would expect so if she
+正是您所期望的，如果她
+
+133
+00:06:05,230 --> 00:06:07,220
+rejects the offer then both of them get
+拒绝报价，然后两个人都得到
+
+134
+00:06:07,420 --> 00:06:10,490
+a payoff of 0 whereas if she accepts the
+收益为0，而如果她接受
+
+135
+00:06:10,689 --> 00:06:12,770
+offer then both of them get the payoffs
+提供，然后他们俩都得到回报
+
+136
+00:06:12,970 --> 00:06:14,120
+corresponding to what the brother
+对应什么兄弟
+
+137
+00:06:14,319 --> 00:06:19,319
+proposed
+提议的
+

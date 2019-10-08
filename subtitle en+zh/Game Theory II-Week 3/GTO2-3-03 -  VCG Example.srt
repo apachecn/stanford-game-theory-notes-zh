@@ -1,0 +1,545 @@
+﻿1
+00:00:00,120 --> 00:00:03,248
+let us look at an example of VCG in
+让我们来看一个VCG的例子
+
+2
+00:00:03,448 --> 00:00:05,589
+action of the victory park roads
+胜利公园道路行动
+
+3
+00:00:05,790 --> 00:00:08,970
+mechanism in action and it'll be a
+作用机制，它将是一个
+
+4
+00:00:09,169 --> 00:00:13,059
+rafting transportation problem so here
+漂流问题，所以在这里
+
+5
+00:00:13,259 --> 00:00:17,949
+is a directed network of links each link
+是链接的定向网络，每个链接
+
+6
+00:00:18,149 --> 00:00:20,829
+had the cost of the length of it if you
+如果你有长度的代价
+
+7
+00:00:21,028 --> 00:00:24,669
+wish and the goal is to find a shortest
+希望，目标是找到最短的
+
+8
+00:00:24,868 --> 00:00:29,318
+path from A to F and obviously looking
+从A到F的路径，显然
+
+9
+00:00:29,518 --> 00:00:31,930
+at it I'll be quite obvious that the
+在这一点上，我会很明显地看到
+
+10
+00:00:32,130 --> 00:00:36,038
+shortest path is this one and so this is
+最短的路径就是这个，所以这是
+
+11
+00:00:36,238 --> 00:00:40,979
+the path that would be selected by a
+由a选择的路径
+
+12
+00:00:41,179 --> 00:00:43,959
+traveler who wishes to get there from A
+希望从A到达那里的旅行者
+
+13
+00:00:44,159 --> 00:00:50,399
+to F most quickly now according to a BCG
+根据BCG，现在最快地到达F 
+
+14
+00:00:50,600 --> 00:00:55,119
+how much would the owner of the link AF
+链接AF的所有者要多少钱
+
+15
+00:00:55,320 --> 00:01:00,279
+pay well intuitively he's not part of
+凭直觉支付好他不属于
+
+16
+00:01:00,479 --> 00:01:04,539
+the other path so we shouldn't have to
+另一条路，所以我们不必
+
+17
+00:01:04,739 --> 00:01:07,509
+pay or receive anything let's see what
+支付或接收任何东西，让我们看看
+
+18
+00:01:07,709 --> 00:01:13,629
+VCG says so the shorter path with a C's
+ VCG说，所以C的较短路径
+
+19
+00:01:13,829 --> 00:01:16,679
+declaration of what their cost is is
+声明其成本是
+
+20
+00:01:16,879 --> 00:01:20,799
+five right and so the cost to all the
+五权，所以所有的成本
+
+21
+00:01:21,000 --> 00:01:24,879
+agents is that shortest path totaling
+代理商是最短的路径总计
+
+22
+00:01:25,079 --> 00:01:31,409
+five had AC not being in the picture and
+有五个人不在照片中
+
+23
+00:01:31,609 --> 00:01:34,058
+not declared anything therefore what if
+没有声明任何东西，如果
+
+24
+00:01:34,259 --> 00:01:36,939
+what would the total cost to the agents
+代理商的总费用是多少
+
+25
+00:01:37,140 --> 00:01:38,528
+have been well it would have been the
+很好，应该是
+
+26
+00:01:38,728 --> 00:01:41,140
+very same path so the shortest path and
+路径完全相同，所以最短路径和
+
+27
+00:01:41,340 --> 00:01:44,349
+so the cost would have been five also
+所以成本也将是五
+
+28
+00:01:44,549 --> 00:01:50,198
+and so the amount that AC pays if you
+因此，如果您
+
+29
+00:01:50,399 --> 00:01:52,448
+wish is the difference between the cost
+希望是成本之间的差异
+
+30
+00:01:52,649 --> 00:01:56,709
+to the agents within the picture and the
+给图片中的代理商和
+
+31
+00:01:56,909 --> 00:02:00,250
+cost without him in the picture which of
+图片中没有他的代价
+
+32
+00:02:00,450 --> 00:02:03,250
+course is zero and this is true for all
+当然是零，这对所有人都是正确的
+
+33
+00:02:03,450 --> 00:02:06,579
+the other ages other edges that don't
+其他年龄的其他优势
+
+34
+00:02:06,780 --> 00:02:09,929
+participate in the shortest path all
+全部参加最短路径
+
+35
+00:02:10,128 --> 00:02:13,818
+these edges
+这些边缘
+
+36
+00:02:18,250 --> 00:02:22,170
+draw in blue these edges not
+将这些边缘涂成蓝色
+
+37
+00:02:22,370 --> 00:02:26,570
+participating the shortest path will
+参加最短路径将
+
+38
+00:02:26,770 --> 00:02:29,189
+will neither pain or seep anything
+既不会痛苦也不会渗入任何东西
+
+39
+00:02:29,389 --> 00:02:32,210
+according to BCG so that's the easy part
+根据BCG的说法，这很容易
+
+40
+00:02:32,409 --> 00:02:35,340
+what about edges that do participate in
+那么参与的边缘呢
+
+41
+00:02:35,539 --> 00:02:38,700
+the shortest path so let's look for
+最短的路径，让我们寻找
+
+42
+00:02:38,900 --> 00:02:47,100
+example at one of them at a B well with
+例如在一个B井中
+
+43
+00:02:47,300 --> 00:02:52,410
+the shortest path as we know is it is
+我们知道的最短路径是
+
+44
+00:02:52,610 --> 00:02:56,570
+this one and how much would all agents
+这个和所有代理商多少钱
+
+45
+00:02:56,770 --> 00:03:01,050
+other than a B itself what is the cost
+除了B本身，成本是多少
+
+46
+00:03:01,250 --> 00:03:03,900
+of the agents on the shortest path well
+最短路径上的代理商
+
+47
+00:03:04,099 --> 00:03:10,200
+it's 1 plus 1 is 2 cost of two had a B
+它的1加1是2的成本，两个有B 
+
+48
+00:03:10,400 --> 00:03:14,640
+not being in the picture what would have
+不在图片中会有什么
+
+49
+00:03:14,840 --> 00:03:18,330
+happened well the shortest path would
+发生得最好的最短路径
+
+50
+00:03:18,530 --> 00:03:23,910
+have been um this one over here so this
+一直在这一个这里，所以这个
+
+51
+00:03:24,110 --> 00:03:26,939
+would have been the shortest path of a
+本来是一条最短的路
+
+52
+00:03:27,139 --> 00:03:36,689
+cost of 2 plus 3 plus 1 and so the cost
+成本2加3加1等等
+
+53
+00:03:36,889 --> 00:03:39,810
+to the agent a B is the difference
+与代理商A B的区别
+
+54
+00:03:40,009 --> 00:03:42,719
+between the cost without them in the
+在没有它们的情况下
+
+55
+00:03:42,919 --> 00:03:46,230
+picture which would be minus 6 and the
+图片将是负6和
+
+56
+00:03:46,430 --> 00:03:50,100
+cost with them in the picture which is
+与他们在图片中的成本是
+
+57
+00:03:50,300 --> 00:03:52,170
+minus 2 that is a cost to all the other
+减2是其他所有费用
+
+58
+00:03:52,370 --> 00:03:56,850
+agents and the difference is minus 4 so
+代理和差是负4所以
+
+59
+00:03:57,050 --> 00:03:59,430
+the crust to a B is minus 4 in other
+ B的外壳在其他地方为负4 
+
+60
+00:03:59,629 --> 00:04:06,890
+words a B will get a payment of four
+单词B将获得四的付款
+
+61
+00:04:07,090 --> 00:04:09,960
+making if you wish a profit of 1 because
+如果您希望获利1， 
+
+62
+00:04:10,159 --> 00:04:12,840
+their cost is 3 we'll get a payment of 4
+他们的成本是3我们将支付4 
+
+63
+00:04:13,039 --> 00:04:17,848
+and they'll have a benefit of 1 so this
+他们将受益1 
+
+64
+00:04:18,048 --> 00:04:23,810
+is for a B what about B II for example
+对于一个B例如B II 
+
+65
+00:04:24,009 --> 00:04:27,869
+well the same sort of analysis
+同样的分析
+
+66
+00:04:28,069 --> 00:04:34,579
+ve the cost to all other agents without
+将所有其他代理商的费用
+
+67
+00:04:34,779 --> 00:04:37,170
+being the picture is minus six it's
+图片是负六
+
+68
+00:04:37,370 --> 00:04:40,020
+still this would have been the shorter
+仍然会更短
+
+69
+00:04:40,220 --> 00:04:42,930
+route had been on in picture and cost
+路线已经在图片和费用中
+
+70
+00:04:43,129 --> 00:04:49,199
+would be minus six now the cost to the
+现在将是负六
+
+71
+00:04:49,399 --> 00:04:51,360
+agents with be in the picture to the
+与代理商在图片中
+
+72
+00:04:51,560 --> 00:04:54,389
+agent rather than be e is for why is
+代理而不是e是为什么
+
+73
+00:04:54,589 --> 00:04:59,819
+that it's one plus three and so the cost
+那是一加三，所以成本
+
+74
+00:05:00,019 --> 00:05:03,449
+to this is the minus four over here so
+这是这里的负四
+
+75
+00:05:03,649 --> 00:05:08,670
+the net of it is that the cost imposed
+最终的结果是所施加的成本
+
+76
+00:05:08,870 --> 00:05:14,430
+on by VCG on the link be e is minus two
+由链接上的VCG开启，e为负2 
+
+77
+00:05:14,629 --> 00:05:17,610
+in other words they would get a payment
+换句话说，他们会得到付款
+
+78
+00:05:17,810 --> 00:05:20,910
+of two making again a profit of one if
+的二分之一再次获利，如果
+
+79
+00:05:21,110 --> 00:05:23,470
+you wish
+你希望
+
+80
+00:05:23,529 --> 00:05:31,819
+what about EF same same of calculation
+ EF与计算相同
+
+81
+00:05:32,019 --> 00:05:33,959
+although the outcome would be a little
+虽然结果会有点
+
+82
+00:05:34,158 --> 00:05:38,040
+different because in that case they will
+不同，因为在这种情况下，他们会
+
+83
+00:05:38,240 --> 00:05:41,189
+be getting a payment of three why is
+得到三分钱，为什么
+
+84
+00:05:41,389 --> 00:05:44,160
+that well without them in the picture
+没有他们在照片中很好
+
+85
+00:05:44,360 --> 00:05:46,528
+this would no longer be the shortest
+这将不再是最短的
+
+86
+00:05:46,728 --> 00:05:49,319
+path the shortest path would be a cost
+最短的路径将是成本
+
+87
+00:05:49,519 --> 00:05:52,649
+of 7 whether it's this one or this one
+的7，无论是这个还是这个
+
+88
+00:05:52,848 --> 00:05:55,499
+in both cases the cost of the first path
+在这两种情况下，第一条路径的成本
+
+89
+00:05:55,699 --> 00:05:58,100
+will be 7 so the total cost to the
+将为7，因此总费用为
+
+90
+00:05:58,300 --> 00:06:00,838
+population without them in the picture
+图片中没有他们的人口
+
+91
+00:06:01,038 --> 00:06:06,300
+would be 7 with them the cost is again
+和他们在一起将是7 
+
+92
+00:06:06,500 --> 00:06:10,199
+the 1 plus 3 it's a 4 and so they get
+ 1加3是4，所以他们得到
+
+93
+00:06:10,399 --> 00:06:15,420
+the difference of 3 so the payment would
+ 3的差额，所以付款
+
+94
+00:06:15,620 --> 00:06:19,259
+be 3 and therefore the net profit if you
+为3，因此净利润为
+
+95
+00:06:19,459 --> 00:06:22,819
+wish it would be 3 minus 1 name namely 2
+希望它是3减1的名字，即2 
+
+96
+00:06:23,019 --> 00:06:29,100
+so you could ask why are why is it the
+所以你可以问为什么是为什么
+
+97
+00:06:29,300 --> 00:06:31,019
+difference you know you look at all
+差异，你知道你看看所有
+
+98
+00:06:31,218 --> 00:06:36,329
+these links somehow their net payoff is
+这些链接的净收益是
+
+99
+00:06:36,528 --> 00:06:40,620
+different and that's fair
+不同，这很公平
+
+100
+00:06:40,819 --> 00:06:42,960
+and what fairness is in the eye of the
+眼中的公平是什么
+
+101
+00:06:43,160 --> 00:06:45,960
+beholder but the rationale for it is
+情人，但其理由是
+
+102
+00:06:46,160 --> 00:06:48,060
+that they have different market power
+他们有不同的市场力量
+
+103
+00:06:48,259 --> 00:06:53,610
+the amount of social value they bring is
+他们带来的社会价值是
+
+104
+00:06:53,810 --> 00:06:56,160
+different because without them the
+不同，因为没有他们
+
+105
+00:06:56,360 --> 00:07:00,180
+outcome will be different into the
+结果会有所不同
+
+106
+00:07:00,379 --> 00:07:02,879
+population and that's why they have a
+人口，这就是为什么他们有一个
+
+107
+00:07:03,079 --> 00:07:06,170
+different sort of payments and different
+不同的付款方式和不同的
+
+108
+00:07:06,370 --> 00:07:09,629
+cost structures here that's an example
+成本结构就是一个例子
+
+109
+00:07:09,829 --> 00:07:14,829
+of BCG in operation
+运营中的BCG 
+

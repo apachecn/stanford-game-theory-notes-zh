@@ -1,0 +1,360 @@
+﻿1
+00:00:00,089 --> 00:00:02,829
+we're gonna talk about auctions in this
+我们将在此谈论拍卖
+
+2
+00:00:03,029 --> 00:00:06,639
+segment and when we think about auctions
+细分以及当我们考虑拍卖时
+
+3
+00:00:06,839 --> 00:00:09,100
+we usually think about something fairly
+我们通常会公平考虑
+
+4
+00:00:09,300 --> 00:00:13,439
+specific often something fairly simple
+具体往往很简单
+
+5
+00:00:13,638 --> 00:00:16,810
+this is probably what many of us think
+这可能是我们许多人的想法
+
+6
+00:00:17,010 --> 00:00:18,190
+of when we think about auctions
+当我们考虑拍卖的时候
+
+7
+00:00:18,390 --> 00:00:22,390
+initially an art auction where the
+最初是艺术品拍卖， 
+
+8
+00:00:22,589 --> 00:00:26,890
+auctioneer displays the art and people
+拍卖师展示艺术品和人物
+
+9
+00:00:27,089 --> 00:00:27,970
+from the audience
+听众
+
+10
+00:00:28,170 --> 00:00:31,350
+call out larger and larger numbers until
+喊出越来越大的数字，直到
+
+11
+00:00:31,550 --> 00:00:34,059
+nobody says anything and the auctioneer
+没有人说什么，拍卖师
+
+12
+00:00:34,259 --> 00:00:36,839
+famously says going once going twice
+著名的说一次去两次
+
+13
+00:00:37,039 --> 00:00:40,809
+sold and that's this that's how the sale
+出售，这就是销售的方式
+
+14
+00:00:41,009 --> 00:00:46,919
+is decided on somewhat differently is
+决定的有所不同是
+
+15
+00:00:47,119 --> 00:00:49,750
+this what is this well this is the
+这是什么好这是
+
+16
+00:00:49,950 --> 00:00:52,178
+flower market in Holland just outside
+荷兰的花卉市场就在外面
+
+17
+00:00:52,378 --> 00:00:56,518
+Amsterdam and here every day large
+阿姆斯特丹和这里每天都很大
+
+18
+00:00:56,719 --> 00:00:59,459
+number of flowers are trucked in and
+运了一些花， 
+
+19
+00:00:59,659 --> 00:01:01,989
+Seoul's sold rather quickly because
+首尔的销量很快，因为
+
+20
+00:01:02,189 --> 00:01:05,289
+flowers are perishable and they're sold
+花易腐烂，被卖掉
+
+21
+00:01:05,489 --> 00:01:08,769
+somewhat differently there is a trading
+有所不同，有交易
+
+22
+00:01:08,969 --> 00:01:11,379
+pit where the pallets of flowers are
+鲜花托盘所在的坑
+
+23
+00:01:11,579 --> 00:01:15,730
+rolled in and they are auctioned off
+卷入，它们被拍卖掉
+
+24
+00:01:15,930 --> 00:01:18,099
+auctioned off rather differently you see
+拍卖会与众不同
+
+25
+00:01:18,299 --> 00:01:21,480
+these large clocks in the background and
+这些大钟在后台
+
+26
+00:01:21,680 --> 00:01:26,289
+they have a special role and what that
+他们扮演着特殊的角色
+
+27
+00:01:26,489 --> 00:01:29,168
+is something to be discussed here it's a
+这里要讨论的是
+
+28
+00:01:29,368 --> 00:01:31,599
+very different kind of auction these are
+这些是非常不同的拍卖
+
+29
+00:01:31,799 --> 00:01:34,500
+auctions for the rights to use our
+拍卖使用我们的权利
+
+30
+00:01:34,700 --> 00:01:39,009
+electric magnetic spectrum so our
+电磁频谱所以我们
+
+31
+00:01:39,209 --> 00:01:42,659
+airwaves are filled with all kind of
+电波充满了各种
+
+32
+00:01:42,859 --> 00:01:46,299
+broadcasts from television to Cellular
+从电视广播到手机
+
+33
+00:01:46,500 --> 00:01:49,058
+to what-have-you and those are worth a
+对你有什么，那些都值得
+
+34
+00:01:49,259 --> 00:01:53,859
+lot to commercially and socially so
+在商业上和社会上都是如此
+
+35
+00:01:54,060 --> 00:01:56,799
+governments all over the world have
+全世界的政府都有
+
+36
+00:01:57,000 --> 00:01:59,429
+auctioned off the rights to use this
+拍卖使用权
+
+37
+00:01:59,629 --> 00:02:04,289
+spectrum famously starting with the u.s.
+频谱始于美国
+
+38
+00:02:04,489 --> 00:02:08,039
+FCC or Federal Communication Commission
+ FCC或联邦通讯委员会
+
+39
+00:02:08,239 --> 00:02:12,610
+besides being valuable to society and
+除了对社会有价值
+
+40
+00:02:12,810 --> 00:02:15,840
+fetching very large sums in the billions
+取得数十亿美元的巨额款项
+
+41
+00:02:16,039 --> 00:02:18,490
+these altars very interesting because
+这些祭坛非常有趣，因为
+
+42
+00:02:18,689 --> 00:02:21,130
+they're complicated what's being sold
+他们很复杂正在出售什么
+
+43
+00:02:21,330 --> 00:02:23,050
+here is not something as simple as a
+这不是一个简单的东西
+
+44
+00:02:23,250 --> 00:02:26,140
+single piece piece of art or even a
+一件艺术品，甚至一件
+
+45
+00:02:26,340 --> 00:02:28,000
+palette of flowers
+花的调色板
+
+46
+00:02:28,199 --> 00:02:32,860
+what sold here are regions and
+这里卖的是地区和
+
+47
+00:02:33,060 --> 00:02:37,030
+frequencies and so different regions in
+频率等不同区域
+
+48
+00:02:37,229 --> 00:02:39,850
+the country are different goods and in
+这个国家是不同的商品
+
+49
+00:02:40,050 --> 00:02:41,590
+each region one can broadcast at
+每个地区都可以在
+
+50
+00:02:41,789 --> 00:02:44,110
+different frequencies so that makes for
+不同的频率，因此
+
+51
+00:02:44,310 --> 00:02:46,420
+a different kind of auction where both
+另一种拍卖方式
+
+52
+00:02:46,620 --> 00:02:47,939
+the design of the auction and the
+拍卖的设计和
+
+53
+00:02:48,139 --> 00:02:50,980
+trading in the auction are non-trivial
+拍卖中的交易是不平凡的
+
+54
+00:02:51,180 --> 00:02:55,689
+and finally in all those cases until now
+最后在所有这些情况下直到现在
+
+55
+00:02:55,889 --> 00:02:58,120
+we've had a single seller and main
+我们有一个卖方和主要
+
+56
+00:02:58,319 --> 00:03:01,150
+buyers here's a famous example we have
+买家，这是一个著名的例子
+
+57
+00:03:01,349 --> 00:03:04,630
+many cells and many buyers this is the
+许多细胞和许多买家，这是
+
+58
+00:03:04,830 --> 00:03:08,530
+Nasdaq one of the many stock exchanges
+纳斯达克众多证券交易所之一
+
+59
+00:03:08,729 --> 00:03:11,259
+in the world we have many buyers and is
+在世界上，我们有很多买家
+
+60
+00:03:11,459 --> 00:03:14,140
+very sellers of goods and in fact these
+非常商品的卖家，实际上这些
+
+61
+00:03:14,340 --> 00:03:16,780
+Goods coming multiple units if you wish
+如果您愿意的话，货品有多个单位
+
+62
+00:03:16,979 --> 00:03:20,819
+to buy Google stock then you can buy
+买谷歌股票然后你可以买
+
+63
+00:03:21,019 --> 00:03:25,539
+many such shares and there are many
+很多这样的股份，还有很多
+
+64
+00:03:25,739 --> 00:03:27,550
+others like you want to buy it and many
+其他像您想购买的东西
+
+65
+00:03:27,750 --> 00:03:31,780
+many who want to sell it so the way you
+许多人想以您的方式出售它
+
+66
+00:03:31,979 --> 00:03:34,660
+design a two-sided exchange and the way
+设计双向交流和方式
+
+67
+00:03:34,860 --> 00:03:37,090
+you trade in it and again different from
+您进行交易，再次与
+
+68
+00:03:37,289 --> 00:03:39,400
+the simple single sided option we know
+我们知道的简单的单面选项
+
+69
+00:03:39,599 --> 00:03:42,129
+these are all examples of auctions there
+这些都是那里的拍卖的例子
+
+70
+00:03:42,329 --> 00:03:45,370
+are many other examples and the theory
+还有很多其他例子和理论
+
+71
+00:03:45,569 --> 00:03:47,980
+about how to design and how to be able
+关于如何设计和如何能够
+
+72
+00:03:48,180 --> 00:03:53,180
+option is very rich
+选项非常丰富
+

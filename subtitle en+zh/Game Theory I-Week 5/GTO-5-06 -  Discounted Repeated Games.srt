@@ -1,0 +1,1685 @@
+﻿1
+00:00:00,299 --> 00:00:02,649
+folks welcome back this is Matt again
+大家欢迎回来这又是马特
+
+2
+00:00:02,850 --> 00:00:04,868
+and I'm gonna talk a little bit now
+我现在要谈一点
+
+3
+00:00:05,068 --> 00:00:06,669
+about repeated games when players
+关于玩家重复游戏
+
+4
+00:00:06,870 --> 00:00:10,510
+discount the future payoffs and let's
+折现未来的收益，让我们
+
+5
+00:00:10,710 --> 00:00:13,030
+talk about more about that and what that
+谈论更多关于那个和那个
+
+6
+00:00:13,230 --> 00:00:16,060
+means so when we're looking at
+意思是当我们看着
+
+7
+00:00:16,260 --> 00:00:19,030
+discounted repeated games the idea is
+打折重复游戏的想法是
+
+8
+00:00:19,230 --> 00:00:21,129
+we're looking at games where players are
+我们正在寻找玩家所在的游戏
+
+9
+00:00:21,329 --> 00:00:23,679
+playing the same game over and over and
+一遍又一遍地玩同一游戏， 
+
+10
+00:00:23,879 --> 00:00:26,230
+over again but instead of looking at the
+再来一次，但不要看
+
+11
+00:00:26,429 --> 00:00:27,909
+limit of the means in terms of some
+手段的限制
+
+12
+00:00:28,109 --> 00:00:30,159
+limit of the average of what the payoffs
+收益平均值的极限
+
+13
+00:00:30,359 --> 00:00:31,769
+are going to be in the distant future
+将会在遥远的未来
+
+14
+00:00:31,969 --> 00:00:37,390
+instead people are looking at valuing
+相反，人们正在看价
+
+15
+00:00:37,590 --> 00:00:39,729
+today versus tomorrow differently so the
+今天和明天不同，所以
+
+16
+00:00:39,929 --> 00:00:41,320
+idea of this kind of repeated games is
+这种重复游戏的想法是
+
+17
+00:00:41,520 --> 00:00:42,969
+the future is uncertain you're often
+未来不确定你经常
+
+18
+00:00:43,170 --> 00:00:45,239
+motivated somewhat by what happens today
+受到今天发生的事情的推动
+
+19
+00:00:45,439 --> 00:00:47,979
+and you trade off today versus the
+而您今天与
+
+20
+00:00:48,179 --> 00:00:49,719
+future so it's not the infinite future
+未来，所以这不是无限的未来
+
+21
+00:00:49,920 --> 00:00:51,428
+that you care about but you say I really
+你在乎，但你说我真的
+
+22
+00:00:51,628 --> 00:00:53,229
+care about today I care about it a
+在乎今天，我在乎它
+
+23
+00:00:53,429 --> 00:00:54,698
+little bit more than tomorrow so maybe
+比明天多一点，也许
+
+24
+00:00:54,899 --> 00:00:58,419
+tomorrow's value is a is say eighty or
+明天的价值是80 
+
+25
+00:00:58,619 --> 00:01:00,399
+ninety percent of what today's value is
+今天的价值的百分之九十
+
+26
+00:01:00,600 --> 00:01:01,899
+and that means that the next day is
+这意味着第二天是
+
+27
+00:01:02,100 --> 00:01:05,138
+worth if I take today is worth one
+如果我今天服用值得一
+
+28
+00:01:05,338 --> 00:01:07,060
+tomorrow is worth point nine and X days
+明天值得点九天和X天
+
+29
+00:01:07,260 --> 00:01:11,619
+worth point eight 10.72 etc etc so
+值得八点10.72等等等
+
+30
+00:01:11,819 --> 00:01:14,140
+things are decaying exponentially in
+事物在呈指数级衰减
+
+31
+00:01:14,340 --> 00:01:16,629
+terms of discounting and so the idea
+折扣条款等等
+
+32
+00:01:16,829 --> 00:01:19,719
+here is is if I misbehave today now I
+这是如果我今天表现不佳， 
+
+33
+00:01:19,920 --> 00:01:21,579
+have to think about what is it how are
+必须考虑这是怎么回事
+
+34
+00:01:21,780 --> 00:01:23,709
+people going to react to that so if
+人们会对此做出反应，所以如果
+
+35
+00:01:23,909 --> 00:01:25,238
+we're trying to support cooperative
+我们正在努力支持合作社
+
+36
+00:01:25,438 --> 00:01:27,549
+behavior in a prisoner's dilemma I can
+我可以在囚徒困境中的行为
+
+37
+00:01:27,750 --> 00:01:31,289
+behave today or I can cheat and deviate
+今天就行，否则我可以作弊和偏离
+
+38
+00:01:31,489 --> 00:01:35,679
+defect and if I do that I'm gonna get a
+缺陷，如果我这样做，我会得到一个
+
+39
+00:01:35,879 --> 00:01:37,539
+temporary gain and then I'm going to
+暂时的收益，然后我要
+
+40
+00:01:37,739 --> 00:01:40,179
+possibly be punished in the future so
+将来可能会受到惩罚，所以
+
+41
+00:01:40,379 --> 00:01:41,558
+the kinds of questions that are going to
+要解决的问题
+
+42
+00:01:41,759 --> 00:01:43,988
+be important here is will people want to
+重要的是人们是否愿意
+
+43
+00:01:44,188 --> 00:01:45,340
+punish me in the future is it going to
+将来要惩罚我
+
+44
+00:01:45,540 --> 00:01:46,179
+be in their interest
+为了他们的利益
+
+45
+00:01:46,379 --> 00:01:48,308
+how much do I care do I care about it
+我在乎我在乎什么
+
+46
+00:01:48,509 --> 00:01:50,319
+how much my discount do I care a lot
+我在乎我有多少折扣
+
+47
+00:01:50,519 --> 00:01:53,319
+about the future or just a little bit so
+关于未来或只是一点点
+
+48
+00:01:53,519 --> 00:01:55,269
+we're looking at a stage game so again a
+我们正在看一个舞台游戏，所以再次
+
+49
+00:01:55,469 --> 00:01:57,399
+stage game just take a normal form game
+舞台游戏只是采取常规形式的游戏
+
+50
+00:01:57,599 --> 00:01:58,719
+we're gonna play that repeatedly over
+我们要反复播放
+
+51
+00:01:58,920 --> 00:02:01,959
+time and now each player has a discount
+时间，现在每个玩家都有折扣
+
+52
+00:02:02,159 --> 00:02:04,238
+factor so player one has a discount
+因素，因此玩家一有折扣
+
+53
+00:02:04,438 --> 00:02:06,488
+factor and so forth discount factors are
+因素等等折扣因素是
+
+54
+00:02:06,688 --> 00:02:08,250
+going to be taken to be in zero one
+将被视为零一
+
+55
+00:02:08,449 --> 00:02:11,530
+generally we'll take beta I to be
+通常我们将Beta I作为
+
+56
+00:02:11,729 --> 00:02:13,719
+strictly less than one
+严格小于一
+
+57
+00:02:13,919 --> 00:02:16,030
+so that it's more interest if it's equal
+这样相等就更有趣
+
+58
+00:02:16,229 --> 00:02:17,439
+to zero that it means you don't care
+零表示您不在乎
+
+59
+00:02:17,639 --> 00:02:18,759
+about the future at all it's basically
+基本上关于未来
+
+60
+00:02:18,959 --> 00:02:21,189
+just a one stage game so generally the
+只是一个阶段的游戏，所以一般来说
+
+61
+00:02:21,389 --> 00:02:22,509
+interesting case is going to be when
+有趣的情况是
+
+62
+00:02:22,709 --> 00:02:25,420
+players care somewhat about the future
+玩家在乎未来
+
+63
+00:02:25,620 --> 00:02:27,969
+but they care more about today than
+但是他们比今天更关心
+
+64
+00:02:28,169 --> 00:02:32,830
+tomorrow and so forth often in these
+明天等等经常在这些
+
+65
+00:02:33,030 --> 00:02:34,810
+games people look at it at situations
+游戏人们看情况
+
+66
+00:02:35,009 --> 00:02:36,160
+with a common discount factor so
+具有共同的折扣因子，因此
+
+67
+00:02:36,360 --> 00:02:38,050
+everybody has the same discount factor
+每个人都有相同的折扣系数
+
+68
+00:02:38,250 --> 00:02:40,118
+which will make things fairly easy in
+这将使事情变得相当容易
+
+69
+00:02:40,318 --> 00:02:42,700
+some cases and then the idea of
+一些情况下，然后
+
+70
+00:02:42,900 --> 00:02:44,830
+discounting is then the payoff that you
+折扣就是你的回报
+
+71
+00:02:45,030 --> 00:02:47,069
+get from a whole sequence of action so
+从整个动作序列中得到
+
+72
+00:02:47,269 --> 00:02:50,950
+profile of actions a one played in the
+一个人在
+
+73
+00:02:51,150 --> 00:02:53,980
+first period and 80 and the teeth period
+第一时期和80和牙齿时期
+
+74
+00:02:54,180 --> 00:02:56,469
+and so forth what you just do is you sum
+依此类推，你只是在做总结
+
+75
+00:02:56,669 --> 00:02:59,679
+up these payoffs but now you weight them
+增加这些收益，但现在您对它们进行加权
+
+76
+00:02:59,878 --> 00:03:03,960
+by an exponentially decreasing function
+通过指数递减函数
+
+77
+00:03:04,159 --> 00:03:07,090
+which is the discount factor raised to
+这是提高到的折扣因子
+
+78
+00:03:07,289 --> 00:03:09,759
+the power of T so if I care you know I
+ T的力量所以如果我在乎你知道我
+
+79
+00:03:09,959 --> 00:03:12,969
+get if this payoff was one every day I'd
+如果我每天都会得到一次回报
+
+80
+00:03:13,169 --> 00:03:16,780
+be getting one today plus 0.9 plus 0.8
+今天得到一加0.9加0.8 
+
+81
+00:03:16,979 --> 00:03:22,000
+one plus 0.7 and two right so that's the
+一加0.7右二
+
+82
+00:03:22,199 --> 00:03:27,960
+idea okay so when we look at these games
+好主意，所以当我们看这些游戏时
+
+83
+00:03:28,159 --> 00:03:31,360
+again players can condition their play
+玩家可以再次调节自己的比赛
+
+84
+00:03:31,560 --> 00:03:34,960
+on past history so history a finite
+在过去的历史上，所以历史是有限的
+
+85
+00:03:35,159 --> 00:03:37,480
+history of some length T is just going
+长度为T的历史正在过去
+
+86
+00:03:37,680 --> 00:03:39,520
+to be a list of everything that's
+列出所有的东西
+
+87
+00:03:39,719 --> 00:03:43,868
+happened at every date so here a 1 is
+发生在每个日期，所以这里1是
+
+88
+00:03:44,068 --> 00:03:47,319
+equal to a profile of what every player
+等于每个玩家的概况
+
+89
+00:03:47,519 --> 00:03:50,649
+did in period 1 so when the first time
+在期间1做过，所以第一次
+
+90
+00:03:50,848 --> 00:03:52,868
+we played this game what did everyone do
+我们玩了这个游戏每个人都做了什么
+
+91
+00:03:53,068 --> 00:03:56,710
+and generally 80 is going to be what
+通常80将会是
+
+92
+00:03:56,909 --> 00:04:00,129
+everybody did at time T right so we've
+每个人都在时间T做对了，所以我们
+
+93
+00:04:00,329 --> 00:04:06,550
+got 81 to etienne so these things are
+到艾蒂安去了81 
+
+94
+00:04:06,750 --> 00:04:08,649
+vectors and they tell us what everybody
+向量，它们告诉我们每个人
+
+95
+00:04:08,848 --> 00:04:10,118
+did in the first period what everybody
+在第一阶段做了什么
+
+96
+00:04:10,318 --> 00:04:11,618
+did in the second period and so forth
+在第二阶段做了，依此类推
+
+97
+00:04:11,818 --> 00:04:13,810
+and then we can talk about all finite
+然后我们可以讨论所有有限
+
+98
+00:04:14,009 --> 00:04:17,649
+histories so all possible histories that
+历史，所以所有可能的历史
+
+99
+00:04:17,848 --> 00:04:18,879
+could be faced with when I'm playing
+我玩的时候可能会面临
+
+100
+00:04:19,079 --> 00:04:20,408
+this game all the kinds of things I'm
+这个游戏我各种各样的东西
+
+101
+00:04:20,608 --> 00:04:22,088
+going to have to think about what am I
+不得不考虑我是什么
+
+102
+00:04:22,288 --> 00:04:23,350
+going to do if this happens what am I
+如果发生这种情况我该怎么办
+
+103
+00:04:23,550 --> 00:04:25,088
+going to do if that happens so in an
+如果发生这种情况该怎么办
+
+104
+00:04:25,288 --> 00:04:26,530
+infinitely repeated game I've got all
+无限重复的游戏，我拥有所有
+
+105
+00:04:26,730 --> 00:04:27,850
+history's what am I gonna do any
+历史就是我要做什么
+
+106
+00:04:28,050 --> 00:04:30,340
+circumstance so a strategy is a map from
+在这种情况下，策略就是从
+
+107
+00:04:30,540 --> 00:04:33,790
+every possible history into a possibly
+每一个可能的历史变成一个可能
+
+108
+00:04:33,990 --> 00:04:36,879
+mixed strategy over what I can do in a
+我可以在某项工作中采取的混合策略
+
+109
+00:04:37,079 --> 00:04:39,629
+given period face to the given history
+给定时期面对给定的历史
+
+110
+00:04:39,829 --> 00:04:41,770
+so from looking at prisoner's dilemma
+所以从看囚徒困境
+
+111
+00:04:41,970 --> 00:04:44,310
+people can either cooperate or defect in
+人们可以合作或缺陷
+
+112
+00:04:44,509 --> 00:04:46,900
+a given period so if we're thinking
+给定的时期，所以如果我们在想
+
+113
+00:04:47,100 --> 00:04:49,600
+about a history of lengths three one
+关于长度三的历史
+
+114
+00:04:49,800 --> 00:04:51,400
+possibility would be the following
+可能性如下
+
+115
+00:04:51,600 --> 00:04:53,230
+we both cooperated in the first period
+我们都在第一阶段合作
+
+116
+00:04:53,430 --> 00:04:55,689
+maybe player two defected in the second
+也许第二个玩家第二
+
+117
+00:04:55,889 --> 00:04:58,000
+period and then both of them defected in
+期，然后他们都叛逃了
+
+118
+00:04:58,199 --> 00:04:59,620
+the third period so that would be a
+第三期，所以将是
+
+119
+00:04:59,819 --> 00:05:01,000
+possible history and then they could say
+可能的历史，然后他们可以说
+
+120
+00:05:01,199 --> 00:05:02,620
+okay now what are we going to do in in
+好吧，现在我们要在里面做什么
+
+121
+00:05:02,819 --> 00:05:05,290
+the fourth period maybe will that
+第四期也许会
+
+122
+00:05:05,490 --> 00:05:06,850
+bygones be bygones and try and get back
+过去，再尝试回来
+
+123
+00:05:07,050 --> 00:05:09,460
+to cooperation maybe we'll just defect
+进行合作，也许我们只会背叛
+
+124
+00:05:09,660 --> 00:05:12,069
+we're angry at each other who knows okay
+我们对彼此都知道的人生气
+
+125
+00:05:12,269 --> 00:05:13,689
+so a strategy for a fourth period would
+所以第四阶段的策略会
+
+126
+00:05:13,889 --> 00:05:15,990
+be what what you do after you've seen
+看完之后就是你要做的
+
+127
+00:05:16,189 --> 00:05:18,100
+different histories of the first three
+前三个不同的历史
+
+128
+00:05:18,300 --> 00:05:21,480
+periods so sub-game perfection again
+期间，子游戏再一次完美
+
+129
+00:05:21,680 --> 00:05:24,910
+same as usual profile of strategies that
+与通常的策略简介相同
+
+130
+00:05:25,110 --> 00:05:27,340
+are nash in every sub game what is the
+在每个子游戏中都是纳什
+
+131
+00:05:27,540 --> 00:05:30,520
+sub game here sub games are just start
+子游戏在这里子游戏才刚刚开始
+
+132
+00:05:30,720 --> 00:05:32,079
+in some period and talk about what
+在某个时期谈论什么
+
+133
+00:05:32,279 --> 00:05:33,850
+remains so it has to be a Nash
+仍然存在，所以它必须是纳什
+
+134
+00:05:34,050 --> 00:05:35,920
+equilibrium following every possible
+遵循所有可能的平衡
+
+135
+00:05:36,120 --> 00:05:37,720
+history so if you take some history
+历史，所以如果你有一些历史
+
+136
+00:05:37,920 --> 00:05:40,270
+start at that point it has to be Nash
+从这一点开始，它必须是纳什
+
+137
+00:05:40,470 --> 00:05:43,270
+for forever on so strategies now are
+永远永远如此，所以现在的策略是
+
+138
+00:05:43,470 --> 00:05:44,710
+going to be specifications of what we
+将成为我们所要规范的
+
+139
+00:05:44,910 --> 00:05:46,660
+would do in every situation and then
+在每种情况下都会做到，然后
+
+140
+00:05:46,860 --> 00:05:51,970
+we've got nationally history one thing
+我们有国家历史一件事
+
+141
+00:05:52,170 --> 00:05:54,310
+to check and it's important here is
+检查，这里很重要
+
+142
+00:05:54,509 --> 00:05:56,470
+repeatedly playing a nash equilibrium of
+反复发挥纳什均衡
+
+143
+00:05:56,670 --> 00:06:00,340
+the stage game so just find a static
+舞台游戏，所以找到一个静态的
+
+144
+00:06:00,540 --> 00:06:02,020
+Nash equilibrium of whatever game it is
+纳什均衡是什么游戏
+
+145
+00:06:02,220 --> 00:06:04,300
+so for instance defect defected in the
+因此，例如缺陷在
+
+146
+00:06:04,500 --> 00:06:06,490
+prisoner's dilemma just play that
+囚徒的困境只是玩那个
+
+147
+00:06:06,689 --> 00:06:08,470
+forever no matter what's happened in the
+永远不管发生了什么事
+
+148
+00:06:08,670 --> 00:06:10,689
+past it's always going to be sub game
+过去永远都是子游戏
+
+149
+00:06:10,889 --> 00:06:13,420
+perfect so for every possible history
+完美，适合所有可能的历史
+
+150
+00:06:13,620 --> 00:06:14,920
+everybody is going to say that they're
+每个人都会说他们
+
+151
+00:06:15,120 --> 00:06:16,120
+going to play the Nash equilibrium
+要发挥纳什均衡
+
+152
+00:06:16,319 --> 00:06:19,090
+forever on going forward you can check
+永远向前，你可以检查
+
+153
+00:06:19,290 --> 00:06:21,639
+that that's a sub game perfect
+那是一个完美的子游戏
+
+154
+00:06:21,839 --> 00:06:22,990
+equilibrium right that's going to be
+平衡权将是
+
+155
+00:06:23,189 --> 00:06:25,210
+Nash in every possible sub game so check
+在所有可能的子游戏中都纳什，因此请检查
+
+156
+00:06:25,410 --> 00:06:26,560
+if everyone else is doing that I
+如果其他人都在做我
+
+157
+00:06:26,759 --> 00:06:28,270
+wouldn't want to deviate so there's
+不想偏离所以有
+
+158
+00:06:28,470 --> 00:06:29,470
+think a little bit about the logic of
+考虑一下逻辑
+
+159
+00:06:29,670 --> 00:06:31,389
+that because it's there's a lot of
+那是因为那里有很多
+
+160
+00:06:31,589 --> 00:06:33,879
+possible sub games to think about but
+可能需要考虑的子游戏，但
+
+161
+00:06:34,079 --> 00:06:35,170
+you can convince yourself that that's
+你可以说服自己那是
+
+162
+00:06:35,370 --> 00:06:36,990
+true
+真正
+
+163
+00:06:37,189 --> 00:06:39,610
+okay so so solving the repeated
+好吧，所以解决重复
+
+164
+00:06:39,810 --> 00:06:41,439
+prisoner's dilemma let's think about it
+囚徒的困境让我们考虑一下
+
+165
+00:06:41,639 --> 00:06:44,350
+a little bit with the context of
+与背景有关
+
+166
+00:06:44,550 --> 00:06:46,689
+discounting now so let's suppose what we
+现在打折，让我们假设我们
+
+167
+00:06:46,889 --> 00:06:47,949
+want to do is we want to sustain
+想做的就是我们要维持
+
+168
+00:06:48,149 --> 00:06:49,900
+cooperation right so we've got our
+合作的权利，所以我们有我们的
+
+169
+00:06:50,100 --> 00:06:51,610
+standard prisoner's dilemma putting
+标准囚徒困境
+
+170
+00:06:51,810 --> 00:06:53,319
+payoffs here of three three four
+这里三三四的收益
+
+171
+00:06:53,519 --> 00:06:56,710
+cooperating 5-0 from you defecting and
+与您合作5-0叛逃
+
+172
+00:06:56,910 --> 00:06:58,270
+the other person cooperating and one one
+合作的另一人和一个
+
+173
+00:06:58,470 --> 00:07:00,520
+if you both defect so the only Nash
+如果你们俩都有缺陷，那么唯一的纳什
+
+174
+00:07:00,720 --> 00:07:02,259
+equilibrium of the static game is defect
+静态博弈的平衡就是缺陷
+
+175
+00:07:02,459 --> 00:07:04,180
+effect with path one we want to support
+要支持的路径一的效果
+
+176
+00:07:04,379 --> 00:07:07,569
+three three if we can so cooperate as
+三三如果我们可以这样合作
+
+177
+00:07:07,769 --> 00:07:10,150
+long as everyone has in the past and a
+只要每个人都过去
+
+178
+00:07:10,350 --> 00:07:12,550
+defect forever in the future if anyone
+如果有人将来永远存在缺陷
+
+179
+00:07:12,750 --> 00:07:15,278
+deviates so when is this in equilibrium
+偏离所以什么时候处于平衡状态
+
+180
+00:07:15,478 --> 00:07:17,379
+okay so clearly that's not an
+好吧，很明显，这不是
+
+181
+00:07:17,579 --> 00:07:21,040
+equilibrium so if we set beta I equals
+平衡，所以如果我们将beta设置为I 
+
+182
+00:07:21,240 --> 00:07:23,949
+zero for both players we can't make this
+两个玩家都为零，我们不能做到这一点
+
+183
+00:07:24,149 --> 00:07:25,389
+work right because I don't care about
+工作正常，因为我不在乎
+
+184
+00:07:25,589 --> 00:07:27,629
+the future nobody cares about the future
+未来没有人关心未来
+
+185
+00:07:27,829 --> 00:07:29,920
+then we'd end up with so many defect
+那么我们最终会有很多缺陷
+
+186
+00:07:30,120 --> 00:07:33,310
+defect in every period being the only
+每个时期的缺陷都是唯一的
+
+187
+00:07:33,509 --> 00:07:35,528
+sub game perfect equilibrium players
+子游戏完美平衡玩家
+
+188
+00:07:35,728 --> 00:07:37,660
+only care about the present they're
+只在乎现在的礼物
+
+189
+00:07:37,860 --> 00:07:39,579
+always just going to myopically defect
+总是只是近视缺陷
+
+190
+00:07:39,779 --> 00:07:41,560
+they don't care about the future so
+他们不在乎未来，所以
+
+191
+00:07:41,759 --> 00:07:43,540
+nothing's going to work so the question
+什么都行不通，所以这个问题
+
+192
+00:07:43,740 --> 00:07:45,819
+here is for which betas can we sustain
+这是我们可以维持哪些beta版本
+
+193
+00:07:46,019 --> 00:07:48,160
+this kind of strategy which is cooperate
+这种合作策略
+
+194
+00:07:48,360 --> 00:07:51,100
+as long as everyone has and if we ever
+只要每个人都有，如果我们有的话
+
+195
+00:07:51,300 --> 00:07:52,990
+if cooperation breaks down and we just
+如果合作破裂，我们只是
+
+196
+00:07:53,189 --> 00:07:55,028
+say forget it we're going to defect
+说忘了，我们会背叛
+
+197
+00:07:55,228 --> 00:07:58,960
+forever after okay let's have a peek so
+永远好吧，让我们来看看
+
+198
+00:07:59,160 --> 00:08:02,230
+if you cooperate and the other player is
+如果您合作并且另一位玩家是
+
+199
+00:08:02,430 --> 00:08:04,629
+cooperating if no one's failed to
+合作，如果没有人失败
+
+200
+00:08:04,829 --> 00:08:06,338
+cooperate in the past what do we get
+过去合作我们会得到什么
+
+201
+00:08:06,538 --> 00:08:08,230
+we get three in perpetuity right so we
+我们将永久保留三个，所以我们
+
+202
+00:08:08,430 --> 00:08:10,778
+get three plus beta times three so take
+得到3加beta乘以3，所以
+
+203
+00:08:10,978 --> 00:08:13,300
+a common discount factor for now beta
+ Beta的常见折扣系数
+
+204
+00:08:13,500 --> 00:08:15,579
+squared times three beta cubed in the
+平方乘以三个beta 
+
+205
+00:08:15,779 --> 00:08:17,410
+third period and so forth so in
+第三期，依此类推
+
+206
+00:08:17,610 --> 00:08:19,389
+perpetuity if you remember your sum of
+如果你还记得你的总和
+
+207
+00:08:19,589 --> 00:08:21,430
+series that's just the value of that is
+系列的价值在于
+
+208
+00:08:21,629 --> 00:08:23,490
+just three over one minus beta
+减去beta仅三分之一
+
+209
+00:08:23,689 --> 00:08:26,649
+okay what happens if I defect and people
+好吧，如果我叛逃，人们会怎样？ 
+
+210
+00:08:26,848 --> 00:08:28,060
+were playing this discrim trigger
+正在播放此触发信号
+
+211
+00:08:28,259 --> 00:08:30,819
+strategy well everybody else is
+每个人都很好的策略
+
+212
+00:08:31,019 --> 00:08:32,289
+cooperating the other person is
+合作对方是
+
+213
+00:08:32,490 --> 00:08:34,179
+cooperating in the first period so I'm
+在第一阶段合作，所以我
+
+214
+00:08:34,379 --> 00:08:36,909
+gonna manage to change from cooperate to
+将从合作变为
+
+215
+00:08:37,110 --> 00:08:38,439
+defect I'm gonna get a five in the first
+缺陷，我会先得到五个
+
+216
+00:08:38,639 --> 00:08:41,679
+period but then they're gonna see that
+期，但他们会看到
+
+217
+00:08:41,879 --> 00:08:44,258
+and the next period they react to it
+下一个时期他们会对此做出反应
+
+218
+00:08:44,458 --> 00:08:46,870
+they defect and they say everybody's
+他们叛逃，他们说每个人的
+
+219
+00:08:47,070 --> 00:08:49,688
+going to defect forever after so then in
+如此一来，便会永远存在缺陷
+
+220
+00:08:49,889 --> 00:08:51,878
+opportunity we get a bunch of ones right
+机会，我们得到了一堆正确的
+
+221
+00:08:52,078 --> 00:08:55,748
+so what do we get we get five and then
+所以我们得到什么我们得到五个然后
+
+222
+00:08:55,948 --> 00:08:58,538
+beta times one beta squared and so forth
+ beta乘以一个beta的平方，依此类推
+
+223
+00:08:58,739 --> 00:09:00,098
+and if you remember your summer series
+如果你还记得你的夏季系列
+
+224
+00:09:00,298 --> 00:09:02,258
+here this is just beta times a 1 plus a
+在这里，这只是beta乘以1加一个
+
+225
+00:09:02,458 --> 00:09:04,688
+beta is 1 and so forth this is beta
+ beta是1，依此类推，这是beta 
+
+226
+00:09:04,889 --> 00:09:07,209
+times 1 over 1 minus beta so if I
+ 1乘以1减去beta，所以如果我
+
+227
+00:09:07,409 --> 00:09:09,399
+deviate what happens is in the first
+偏离发生在第一
+
+228
+00:09:09,600 --> 00:09:12,428
+period I get a gain but then I lose in
+期间我有所收获，但后来却输了
+
+229
+00:09:12,629 --> 00:09:14,529
+the subsequent periods so there's a
+随后的时期，所以有一个
+
+230
+00:09:14,730 --> 00:09:16,628
+trade-off and how big that trade-off is
+权衡以及该权衡有多大
+
+231
+00:09:16,828 --> 00:09:18,218
+depends on the size of the discount
+取决于折扣的大小
+
+232
+00:09:18,418 --> 00:09:22,149
+factor so we've got these two different
+因素，所以我们有两个不同
+
+233
+00:09:22,350 --> 00:09:23,558
+payoffs we can look at the difference
+收益，我们可以看看差异
+
+234
+00:09:23,759 --> 00:09:26,948
+between these if I stay cooperating
+在这些之间，如果我保持合作
+
+235
+00:09:27,149 --> 00:09:28,508
+instead of defecting I'm giving up two
+而不是背叛我放弃了两个
+
+236
+00:09:28,708 --> 00:09:30,818
+today I could I could gain by defecting
+今天我可以从叛逃中获益
+
+237
+00:09:31,019 --> 00:09:33,128
+but then I keep the benefits of
+但是我保留了
+
+238
+00:09:33,328 --> 00:09:35,108
+cooperation in the future so I don't
+未来的合作，所以我不会
+
+239
+00:09:35,308 --> 00:09:36,998
+ruin things and that that means that I'm
+毁了东西，这意味着我
+
+240
+00:09:37,198 --> 00:09:38,918
+getting a bunch of twos extras in the
+在中获得一堆的二三
+
+241
+00:09:39,119 --> 00:09:41,468
+future and so when you look at this the
+未来，所以当你看着这个
+
+242
+00:09:41,668 --> 00:09:43,959
+value of this is beta times 2 over 1
+它的值是beta乘以2比1 
+
+243
+00:09:44,159 --> 00:09:46,389
+minus beta minus the 2 and for going
+减去beta减去2并继续
+
+244
+00:09:46,589 --> 00:09:49,089
+today and when do I want to keep
+今天，我什么时候想保留
+
+245
+00:09:49,289 --> 00:09:51,368
+cooperating as long as this is not
+只要这不是合作
+
+246
+00:09:51,568 --> 00:09:53,288
+negative right this becomes negative
+消极的权利，这变成消极的
+
+247
+00:09:53,489 --> 00:09:56,468
+then I'm worse off today by cooperating
+那么我今天的合作更糟
+
+248
+00:09:56,668 --> 00:09:58,899
+it might as well just affect so
+它可能也是如此影响
+
+249
+00:09:59,100 --> 00:10:00,788
+difference is not negative if this thing
+如果这件事差异不为负
+
+250
+00:10:00,989 --> 00:10:04,029
+is such that beta is greater than 1
+使得beta大于1 
+
+251
+00:10:04,230 --> 00:10:07,029
+minus beta or basically beta has to be
+减去beta或基本上beta必须是
+
+252
+00:10:07,230 --> 00:10:08,948
+greater than or equal to 1/2 so if you
+大于或等于1/2，所以如果您
+
+253
+00:10:09,149 --> 00:10:10,358
+just go through the algebra of solving
+只是经历求解的代数
+
+254
+00:10:10,558 --> 00:10:11,288
+this inequality
+这种不平等
+
+255
+00:10:11,489 --> 00:10:13,029
+you'll get beta greater than equal to
+您将得到的beta大于等于
+
+256
+00:10:13,230 --> 00:10:15,368
+1/2 so as long as people care about
+只要人们在乎就可以1/2 
+
+257
+00:10:15,568 --> 00:10:17,409
+tomorrow at least half as much as today
+明天至少是今天的一半
+
+258
+00:10:17,610 --> 00:10:19,149
+they're going to be willing to cooperate
+他们将愿意合作
+
+259
+00:10:19,350 --> 00:10:20,649
+in this and the repeated prisoner's
+在这个和反复犯人的
+
+260
+00:10:20,850 --> 00:10:22,779
+dilemma with these particular payoffs
+这些特殊收益的困境
+
+261
+00:10:22,980 --> 00:10:25,118
+that we looked at before so when we're
+我们之前看过的，所以当我们
+
+262
+00:10:25,318 --> 00:10:27,639
+looking at this this payoffs this payoff
+看着这个回报这个回报
+
+263
+00:10:27,839 --> 00:10:29,918
+structure here then we've got a
+结构，然后我们有一个
+
+264
+00:10:30,119 --> 00:10:33,758
+situation where beta has to be they if
+ Beta必须是他们的情况，如果
+
+265
+00:10:33,958 --> 00:10:37,178
+each beta I is at least 1/2 then they
+每个beta我至少是1/2，然后他们
+
+266
+00:10:37,379 --> 00:10:40,838
+can sustain cooperation in this finitely
+可以在有限范围内维持合作
+
+267
+00:10:41,038 --> 00:10:42,519
+repeated or infinitely repeated
+重复或无限重复
+
+268
+00:10:42,720 --> 00:10:45,728
+prisoner's dilemma okay
+囚徒困境好吗
+
+269
+00:10:45,928 --> 00:10:48,698
+so let's change the numbers a little bit
+所以让我们稍微改变一下数字
+
+270
+00:10:48,899 --> 00:10:53,078
+and see what happens so now let's try
+看看会发生什么，所以现在让我们尝试
+
+271
+00:10:53,278 --> 00:10:55,838
+and make defection a little bit more
+使叛变多一点
+
+272
+00:10:56,038 --> 00:10:58,988
+attractive right so instead of 5 we'll
+有吸引力的权利，所以我们将取代5个
+
+273
+00:10:59,188 --> 00:11:00,608
+make it worth 10 to defect
+使它值得10缺陷
+
+274
+00:11:00,808 --> 00:11:03,219
+so now defection looks really attractive
+所以现在叛逃看起来真的很有吸引力
+
+275
+00:11:03,419 --> 00:11:06,370
+what what has to happen well we can go
+发生了什么事我们可以走了
+
+276
+00:11:06,570 --> 00:11:08,139
+through the same exact calculations we
+通过相同的精确计算，我们
+
+277
+00:11:08,340 --> 00:11:09,789
+just did but we're just going to change
+只是做了，但我们只是要改变
+
+278
+00:11:09,990 --> 00:11:11,949
+the numbers right so we've got the same
+数字正确，所以我们有相同的
+
+279
+00:11:12,149 --> 00:11:14,079
+if cooperating in perpetuity x' worth of
+如果永久合作x'的价值
+
+280
+00:11:14,279 --> 00:11:16,029
+3 over 1 minus beta the only differences
+ 3比1减去beta的唯一区别
+
+281
+00:11:16,230 --> 00:11:17,649
+we're getting a higher number here and
+我们在这里得到更多的数字， 
+
+282
+00:11:17,850 --> 00:11:19,179
+then we're still going back to the
+那么我们仍然要回到
+
+283
+00:11:19,379 --> 00:11:21,099
+defect so there's a little bit more
+缺陷，所以还有更多
+
+284
+00:11:21,299 --> 00:11:23,679
+temptation today and when you do the
+今天和当你做的诱惑
+
+285
+00:11:23,879 --> 00:11:25,389
+differences here you know you'll get the
+差异在这里，你知道你会得到
+
+286
+00:11:25,590 --> 00:11:27,609
+same kind of thing except now instead of
+除了现在而不是现在
+
+287
+00:11:27,809 --> 00:11:30,120
+a minus 2 we've got a minus 7 difference
+负2我们有负7差
+
+288
+00:11:30,320 --> 00:11:32,889
+you're for going 7 units from not
+你要从不走7个单位
+
+289
+00:11:33,090 --> 00:11:35,079
+defecting today so when you go through
+今天叛逃，所以当你经历
+
+290
+00:11:35,279 --> 00:11:37,689
+and solve for that now beta has to be at
+并解决现在beta必须在
+
+291
+00:11:37,889 --> 00:11:39,699
+least 7 nice before players are gonna be
+至少要有7位好玩家才能成为
+
+292
+00:11:39,899 --> 00:11:41,709
+willing to cooperate so you have to care
+愿意合作，所以你必须在意
+
+293
+00:11:41,909 --> 00:11:43,779
+about tomorrow at least is 7 nights as
+大约明天至少是7晚
+
+294
+00:11:43,980 --> 00:11:46,149
+much as today okay and so you can see
+就像今天还好，所以您可以看到
+
+295
+00:11:46,350 --> 00:11:47,679
+the basic logic here right so there's
+这里的基本逻辑，所以有
+
+296
+00:11:47,879 --> 00:11:49,329
+trade-offs of punishments tomorrow
+明天的权衡取舍
+
+297
+00:11:49,529 --> 00:11:55,809
+versus a good payoff today and the the
+与今天的丰厚回报相比， 
+
+298
+00:11:56,009 --> 00:11:58,029
+the whether or not something can hold
+是否可以容纳东西
+
+299
+00:11:58,230 --> 00:11:59,620
+together as an equilibrium what's it
+一起作为平衡是什么
+
+300
+00:11:59,820 --> 00:12:01,509
+going to be determined by we have to
+将由我们决定
+
+301
+00:12:01,710 --> 00:12:03,639
+know how big is the future versus the
+知道未来与未来有多大
+
+302
+00:12:03,840 --> 00:12:07,209
+present how tempting is the defection
+展示叛逃是多么诱人
+
+303
+00:12:07,409 --> 00:12:11,709
+versus the current what we're doing in
+与我们目前正在做什么
+
+304
+00:12:11,909 --> 00:12:14,559
+the current period how big is the threat
+当前时期威胁有多大
+
+305
+00:12:14,759 --> 00:12:18,729
+so how bad is it if whatever the thing
+所以如果有什么事有多糟
+
+306
+00:12:18,929 --> 00:12:20,199
+that we're resorting to in the future
+将来我们要诉诸的
+
+307
+00:12:20,399 --> 00:12:21,939
+how bad is that in terms of the
+就这个而言，这有多糟糕
+
+308
+00:12:22,139 --> 00:12:23,469
+trade-off all these things are going to
+权衡所有这些事情
+
+309
+00:12:23,669 --> 00:12:26,669
+matter in terms of holding together
+关于团结在一起的问题
+
+310
+00:12:26,870 --> 00:12:28,419
+cooperation in these kinds of settings
+在这种情况下的合作
+
+311
+00:12:28,620 --> 00:12:30,370
+and that gets back to the discussion we
+然后回到我们的讨论中
+
+312
+00:12:30,570 --> 00:12:32,109
+had a little earlier about say OPEC
+早些时候说过欧佩克
+
+313
+00:12:32,309 --> 00:12:34,120
+right there's a temptation to pump more
+对，有吸引更多人的诱惑
+
+314
+00:12:34,320 --> 00:12:36,819
+oil today how much do you care about the
+今天的油你在乎多少
+
+315
+00:12:37,019 --> 00:12:38,620
+future what's your beta what's the
+未来您的Beta是什么
+
+316
+00:12:38,820 --> 00:12:40,419
+reaction gonna be if I start pumping
+如果我开始抽水，反应会是
+
+317
+00:12:40,620 --> 00:12:42,099
+more oil how are they gonna react to
+更多的油，他们将如何反应
+
+318
+00:12:42,299 --> 00:12:43,179
+that are they going to start pumping
+他们将开始抽水
+
+319
+00:12:43,379 --> 00:12:44,709
+more oil and driving the price down how
+更多的石油和压低价格
+
+320
+00:12:44,909 --> 00:12:46,509
+much is that going to hurt me all those
+那会伤害我所有人
+
+321
+00:12:46,710 --> 00:12:48,399
+things matter and they determine whether
+事情很重要，他们确定
+
+322
+00:12:48,600 --> 00:12:51,449
+an equilibrium can hang together or not
+平衡可以挂在一起
+
+323
+00:12:51,649 --> 00:12:54,609
+ok so basic logic play something with
+好的，所以基本逻辑可以发挥作用
+
+324
+00:12:54,809 --> 00:12:56,949
+relatively high payoffs even if it's not
+相对较高的收益，即使不是
+
+325
+00:12:57,149 --> 00:12:58,569
+an equilibrium of static game you can
+您可以平衡静态游戏
+
+326
+00:12:58,769 --> 00:13:03,179
+sustain it and you sustain it by having
+维持它，你通过拥有它来维持它
+
+327
+00:13:03,379 --> 00:13:05,289
+punishments if anyone deviates you
+任何人偏离你的惩罚
+
+328
+00:13:05,490 --> 00:13:06,909
+resort to something that has lower
+诉诸于较低的东西
+
+329
+00:13:07,110 --> 00:13:08,829
+payoffs for at least that player and the
+至少该玩家和
+
+330
+00:13:09,029 --> 00:13:10,299
+important thing is that it all has to be
+重要的是，这一切都必须
+
+331
+00:13:10,500 --> 00:13:12,399
+credible has to be an equilibrium in the
+可信度必须是平衡
+
+332
+00:13:12,600 --> 00:13:14,439
+sub-game that goes forward in order to
+为了前进的子游戏
+
+333
+00:13:14,639 --> 00:13:16,250
+make that work and
+使这项工作和
+
+334
+00:13:16,450 --> 00:13:18,049
+it has to be that the lower payoffs in
+必须是较低的收益
+
+335
+00:13:18,250 --> 00:13:21,109
+the future are enough to make sure that
+未来足以确保
+
+336
+00:13:21,309 --> 00:13:23,689
+you you know you you deter people from
+你你知道你会阻止人们
+
+337
+00:13:23,889 --> 00:13:28,889
+deviating in the present
+现在偏离
+

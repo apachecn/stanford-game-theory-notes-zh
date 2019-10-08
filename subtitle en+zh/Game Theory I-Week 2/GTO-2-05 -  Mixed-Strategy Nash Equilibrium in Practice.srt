@@ -1,0 +1,1170 @@
+﻿1
+00:00:00,050 --> 00:00:02,438
+hi folks this is Matt Jackson again and
+嗨，大家好，我是Matt Matt Jackson 
+
+2
+00:00:02,638 --> 00:00:04,809
+so now let's take a look at mixed
+现在让我们来看看混合
+
+3
+00:00:05,009 --> 00:00:06,519
+strategy Nash equilibrium in practice
+实践中的策略纳什均衡
+
+4
+00:00:06,719 --> 00:00:08,080
+yeah I've been trying to understand a
+是的，我一直在努力理解
+
+5
+00:00:08,279 --> 00:00:09,370
+little bit about what it can tell us
+关于它可以告诉我们的一点点
+
+6
+00:00:09,570 --> 00:00:12,240
+about what we should expect to see so
+关于我们应该期望看到的
+
+7
+00:00:12,439 --> 00:00:15,189
+let's start with a situation of soccer
+让我们从足球的情况开始
+
+8
+00:00:15,388 --> 00:00:16,150
+penalty kicks
+罚点球
+
+9
+00:00:16,350 --> 00:00:17,829
+and this is a quite natural application
+这是一个很自然的应用
+
+10
+00:00:18,028 --> 00:00:19,810
+of mixed strategy equilibria because
+混合策略均衡的原因是
+
+11
+00:00:20,010 --> 00:00:22,419
+they're ubiquitous in sports and
+他们在运动中无处不在
+
+12
+00:00:22,618 --> 00:00:25,329
+competitive games so situations where it
+竞技游戏，在这种情况下
+
+13
+00:00:25,528 --> 00:00:29,140
+actually pays to be unpredictable so by
+实际上付出了不可预测的代价
+
+14
+00:00:29,339 --> 00:00:31,239
+not knowing what the other the
+不知道其他的
+
+15
+00:00:31,439 --> 00:00:32,739
+opposition is going to do it makes it a
+反对派将这样做
+
+16
+00:00:32,939 --> 00:00:34,000
+little more difficult for you to pick an
+让您难以选择
+
+17
+00:00:34,200 --> 00:00:35,589
+optimal strategy in these games where
+这些游戏中的最佳策略
+
+18
+00:00:35,789 --> 00:00:37,000
+one player wins and the other player
+一个玩家获胜，另一个玩家
+
+19
+00:00:37,200 --> 00:00:41,259
+loses and in particular in soccer
+输，尤其是足球
+
+20
+00:00:41,460 --> 00:00:44,259
+penalty kicks we're looking at a
+点球大战，我们正在寻找
+
+21
+00:00:44,460 --> 00:00:46,750
+situation where a kicker has to try and
+踢手不得不尝试的情况
+
+22
+00:00:46,950 --> 00:00:48,788
+kick the ball into the goal the goalie
+将球踢入守门员
+
+23
+00:00:48,988 --> 00:00:53,169
+can try and move to deflect the ball and
+可以尝试移动以使球偏向
+
+24
+00:00:53,369 --> 00:00:54,640
+this happens very quickly so it's
+这发生得很快，所以
+
+25
+00:00:54,840 --> 00:00:56,979
+essentially a simultaneous move game the
+本质上是同时移动游戏
+
+26
+00:00:57,179 --> 00:00:59,919
+kicker is choosing to go either in their
+踢球者选择要么进入他们
+
+27
+00:01:00,119 --> 00:01:01,689
+simplified version say to the right or
+简化版本说在右边或
+
+28
+00:01:01,890 --> 00:01:03,909
+the left the goalie is then gonna dive
+左边的守门员将要潜水
+
+29
+00:01:04,109 --> 00:01:06,310
+to the to one side or the other side and
+到一侧或另一侧， 
+
+30
+00:01:06,510 --> 00:01:09,189
+try to deflect the ball and if the
+尝试使球偏转，如果
+
+31
+00:01:09,390 --> 00:01:11,560
+goalie guesses correctly it ends up in
+守门员正确猜出它最终以
+
+32
+00:01:11,760 --> 00:01:14,319
+the same direction as the kicker then
+然后与踢脚方向相同
+
+33
+00:01:14,519 --> 00:01:16,329
+they have a high chance of higher chance
+他们有较高的机会
+
+34
+00:01:16,530 --> 00:01:18,459
+of saving it if they go in an opposite
+如果他们走了相反的话，保存它
+
+35
+00:01:18,659 --> 00:01:19,719
+direction they have a lower chance of
+方向，他们有较低的机会
+
+36
+00:01:19,920 --> 00:01:25,490
+saving it okay so how are equilibrium
+可以节省下来，那么平衡如何
+
+37
+00:01:26,150 --> 00:01:29,230
+stencil that I might be biased I might
+模具，我可能有偏见，我可能
+
+38
+00:01:29,430 --> 00:01:31,209
+be able to kick the ball more accurately
+能够更准确地踢球
+
+39
+00:01:31,409 --> 00:01:33,340
+in one direction than the other so if
+在一个方向比另一个方向
+
+40
+00:01:33,540 --> 00:01:34,599
+you ask me to kick it towards the left
+你问我把它踢向左边
+
+41
+00:01:34,799 --> 00:01:36,340
+side of the goal it might be that I hit
+目标的一面可能是我击中了
+
+42
+00:01:36,540 --> 00:01:38,378
+there very accurately if you tell me I
+如果你告诉我我就很准确
+
+43
+00:01:38,578 --> 00:01:39,878
+have to kick it towards the right side
+必须将其踢向右侧
+
+44
+00:01:40,078 --> 00:01:42,278
+of the goal it could be that I'm less
+目标可能是我少了
+
+45
+00:01:42,478 --> 00:01:44,168
+accurate and I have a higher chance of
+准确，我有更高的机会
+
+46
+00:01:44,368 --> 00:01:46,238
+just missing the goal all together so
+只是一起错过了目标
+
+47
+00:01:46,438 --> 00:01:47,948
+how is the equilibrium going to adjust
+平衡如何调整
+
+48
+00:01:48,149 --> 00:01:50,759
+when we change one of the players
+当我们更换一名球员时
+
+49
+00:01:50,959 --> 00:01:53,079
+adjustments and in terms of their skills
+调整以及他们的技能
+
+50
+00:01:53,280 --> 00:01:56,378
+so let's have a peek at this
+让我们来看看
+
+51
+00:01:56,578 --> 00:01:59,079
+so the kicker who kicks penalty kicks
+所以踢罚球的踢脚踢
+
+52
+00:01:59,280 --> 00:02:01,268
+worse to the right than the left kick
+右脚比左脚还差
+
+53
+00:02:01,468 --> 00:02:03,399
+more often to the left than the right so
+左边比右边多
+
+54
+00:02:03,599 --> 00:02:05,439
+if I if I'm worse and kicking towards
+如果我如果我更糟，踢向
+
+55
+00:02:05,640 --> 00:02:07,058
+the right does that mean I should kick
+正确的意思是我应该踢
+
+56
+00:02:07,259 --> 00:02:08,740
+in the opposite direction more often
+相反的方向
+
+57
+00:02:08,939 --> 00:02:11,860
+well let's have a peek so let's start
+好吧，让我们来看看，让我们开始吧
+
+58
+00:02:12,060 --> 00:02:13,330
+with just the simple version
+只是简单的版本
+
+59
+00:02:13,530 --> 00:02:17,800
+to get our ideas fixed so imagine that
+修正我们的想法，想象一下
+
+60
+00:02:18,000 --> 00:02:20,290
+the setting is one where the kicker and
+该设置是其中踢脚和
+
+61
+00:02:20,490 --> 00:02:23,200
+a goalie if they so let's have the
+守门员，如果他们愿意，让我们
+
+62
+00:02:23,400 --> 00:02:25,930
+kicker on this side so the kicker is the
+这边的踢腿，所以踢腿是
+
+63
+00:02:26,129 --> 00:02:28,330
+row player the goalie is the column
+行球员守门员是列
+
+64
+00:02:28,530 --> 00:02:31,990
+player and if they end up kicking
+球员，如果他们最终踢
+
+65
+00:02:32,189 --> 00:02:34,539
+if the kicker goes left and the goalie
+如果踢脚向左走，守门员
+
+66
+00:02:34,739 --> 00:02:36,580
+also happens to go to the left then the
+也碰巧到左边然后
+
+67
+00:02:36,780 --> 00:02:38,650
+goalie saves and the goalie gets a
+守门员保存，守门员得到
+
+68
+00:02:38,849 --> 00:02:41,230
+payoff of 1 the kicker gets a payoff of
+收益为1，踢球者的收益为
+
+69
+00:02:41,430 --> 00:02:46,180
+0 if instead we're in a situation where
+如果相反，我们处于一种情况
+
+70
+00:02:46,379 --> 00:02:48,789
+say the kicker goes left and the goalie
+说踢手走了，守门员
+
+71
+00:02:48,989 --> 00:02:51,719
+goes right then the kicker scores and
+正确，然后踢球得分， 
+
+72
+00:02:51,919 --> 00:02:54,430
+gets a payoff of 1 and and so forth ok
+得到1的收益，依此类推
+
+73
+00:02:54,629 --> 00:02:56,710
+so this is just a simple variation on
+所以这只是一个简单的变化
+
+74
+00:02:56,909 --> 00:02:59,009
+matching pennies and in this situation
+匹配的便士，在这种情况下
+
+75
+00:02:59,209 --> 00:03:01,660
+what's the equilibrium going to be the
+什么是平衡
+
+76
+00:03:01,860 --> 00:03:02,890
+equilibrium is going to be quite simple
+平衡将非常简单
+
+77
+00:03:03,090 --> 00:03:06,240
+it's just going to be that the kicker
+只是踢球
+
+78
+00:03:06,439 --> 00:03:08,259
+randomizes equally between left and
+在左和右之间平均随机分配
+
+79
+00:03:08,459 --> 00:03:12,009
+right the goalie randomizes between left
+右边守门员在左边之间随机分组
+
+80
+00:03:12,209 --> 00:03:14,469
+and right each person has a probability
+每个人都有机会
+
+81
+00:03:14,669 --> 00:03:17,319
+1/2 to win from kicking to the left to
+从左踢到1/2获胜
+
+82
+00:03:17,519 --> 00:03:20,950
+right going left to right so it's a very
+右从左到右，这是一个非常
+
+83
+00:03:21,150 --> 00:03:25,480
+simple game and we have a good idea of
+简单的游戏，我们有一个好主意
+
+84
+00:03:25,680 --> 00:03:28,660
+how to solve that one ok so now what are
+如何解决这个问题，那么现在是什么
+
+85
+00:03:28,860 --> 00:03:30,610
+we going to do let's change things and
+我们要做的就是改变事物， 
+
+86
+00:03:30,810 --> 00:03:34,090
+now we've got a kicker who sometimes
+现在我们有一个踢人，有时
+
+87
+00:03:34,289 --> 00:03:36,520
+misses when they go to the right so in
+当他们向右走时会错过
+
+88
+00:03:36,719 --> 00:03:39,340
+particular if the goalie happens to go
+特别是守门员碰巧走
+
+89
+00:03:39,539 --> 00:03:41,770
+to the left and the goals wide open to
+向左，目标向
+
+90
+00:03:41,969 --> 00:03:43,180
+the right the kicker
+正确的踢脚
+
+91
+00:03:43,379 --> 00:03:46,509
+scores 75% of the time but actually
+得分达到75％的时间，但实际上
+
+92
+00:03:46,709 --> 00:03:50,140
+misses completely 25% of the time okay
+完全错过25％的时间
+
+93
+00:03:50,340 --> 00:03:54,250
+so this is a kicker who still does well
+所以这是踢得很好的人
+
+94
+00:03:54,449 --> 00:03:58,870
+if they go left in the goalie goes to
+如果他们在守门员左走
+
+95
+00:03:59,069 --> 00:04:00,879
+the opposite direction but now they have
+相反的方向，但现在他们有了
+
+96
+00:04:01,079 --> 00:04:02,680
+a lower probability of winning when
+较低的获胜概率
+
+97
+00:04:02,879 --> 00:04:05,110
+they're kicking right and they have a
+他们踢的正确，他们有一个
+
+98
+00:04:05,310 --> 00:04:07,480
+wide-open goal ok so how should this
+大开目标好，那该怎么办
+
+99
+00:04:07,680 --> 00:04:09,490
+adjust what's what should the new
+调整新的内容
+
+100
+00:04:09,689 --> 00:04:11,650
+equilibrium look like so let's suppose
+平衡看起来像这样，让我们​​假设
+
+101
+00:04:11,849 --> 00:04:14,140
+let's first of all try and keep the
+让我们首先尝试保持
+
+102
+00:04:14,340 --> 00:04:16,569
+kicker indifferent so let's think of the
+踢球者无动于衷，让我们想想
+
+103
+00:04:16,769 --> 00:04:18,400
+goalie going left with probability P
+守门员以概率P向左走
+
+104
+00:04:18,600 --> 00:04:21,520
+right with probability 1 minus P for the
+对的概率为1减去P 
+
+105
+00:04:21,720 --> 00:04:23,528
+kicker to be indifferent what has to be
+踢球者无动于衷
+
+106
+00:04:23,728 --> 00:04:26,528
+true well what's their payoff if they go
+真的很好，如果他们去，他们的收益是什么
+
+107
+00:04:26,728 --> 00:04:27,160
+left
+剩下
+
+108
+00:04:27,360 --> 00:04:29,649
+their payoff to going left is just 1
+他们向左走的收益只有1 
+
+109
+00:04:29,848 --> 00:04:33,819
+times 1 minus P their kickoff their
+ 1乘以P，他们的开球
+
+110
+00:04:34,019 --> 00:04:38,410
+payoff to going right is 0.75 times P
+向右的收益是P的0.75倍
+
+111
+00:04:38,610 --> 00:04:42,819
+these two things have to be equal in
+这两个条件必须相等
+
+112
+00:04:43,019 --> 00:04:46,329
+order to have this the kicker be
+为了让这个踢球
+
+113
+00:04:46,529 --> 00:04:49,059
+indifferent so what do we end up with we
+漠不关心，所以我们最终会得到什么
+
+114
+00:04:49,259 --> 00:04:54,480
+end up with 0.75 P is equal to 1 minus P
+最终0.75 P等于1减去P 
+
+115
+00:04:54,680 --> 00:05:06,100
+so we end up with 1 equals 1.75 P or P
+所以我们最终得到1等于1.75 P或P 
+
+116
+00:05:06,300 --> 00:05:10,600
+is equal to 1 over 1.75 which is equal
+等于1.75等于1 
+
+117
+00:05:10,800 --> 00:05:15,160
+to 4 over 7 okay so that tells us that
+到4比7好，这告诉我们
+
+118
+00:05:15,360 --> 00:05:18,429
+the goalie should be going left with
+守门员应该和
+
+119
+00:05:18,629 --> 00:05:21,519
+probability 4/7 and right with
+概率为4/7，右为
+
+120
+00:05:21,718 --> 00:05:26,319
+probability 3/7 okay so we know what the
+概率为3/7，所以我们知道
+
+121
+00:05:26,519 --> 00:05:27,819
+goal is supposed to be doing so so now
+目标应该现在就这样做
+
+122
+00:05:28,019 --> 00:05:29,709
+the fact that we changed the goalies
+我们改变了守门员的事实
+
+123
+00:05:29,908 --> 00:05:31,838
+payoffs haven't changed but the fact
+收益没有改变，但事实
+
+124
+00:05:32,038 --> 00:05:33,278
+that we changed the kicker's payoffs
+我们改变了踢球者的收益
+
+125
+00:05:33,478 --> 00:05:35,528
+meant that the goalie actually had to
+意味着守门员实际上不得不
+
+126
+00:05:35,728 --> 00:05:37,420
+adjust right so even though the goalies
+调整正确，即使守门员
+
+127
+00:05:37,620 --> 00:05:38,889
+payoffs haven't changed at all in this
+收益根本没有改变
+
+128
+00:05:39,088 --> 00:05:41,050
+game the new equilibrium has a different
+游戏中新的平衡有不同
+
+129
+00:05:41,250 --> 00:05:43,269
+set of probabilities for the goalie in
+守门员的一组概率
+
+130
+00:05:43,468 --> 00:05:45,100
+order to keep the kicker and different
+为了保持踢脚和不同
+
+131
+00:05:45,300 --> 00:05:47,588
+now okay so now let's let's see what the
+现在好了，现在让我们看看
+
+132
+00:05:47,788 --> 00:05:50,139
+kicker is going to do so how we see
+踢手将这样做，我们如何看
+
+133
+00:05:50,338 --> 00:05:52,019
+what's so so let's suppose that the
+怎么回事，让我们假设
+
+134
+00:05:52,218 --> 00:05:54,600
+kicker goes left with probability Q
+踢手以概率Q向左走
+
+135
+00:05:54,800 --> 00:05:57,399
+right with probability 1 minus Q and
+就以概率1减去Q和
+
+136
+00:05:57,598 --> 00:06:00,639
+must solve for Q well for the goalie to
+必须为守门员很好地解决Q 
+
+137
+00:06:00,838 --> 00:06:03,160
+be indifferent what is their payoff if
+淡漠他们的收益是什么，如果
+
+138
+00:06:03,360 --> 00:06:05,559
+they go left if they're going left
+他们要走就走
+
+139
+00:06:05,759 --> 00:06:09,459
+they're getting and they're getting a Q
+他们正在得到Q 
+
+140
+00:06:09,658 --> 00:06:11,439
+probability that they match so they get
+他们匹配的概率，所以他们得到
+
+141
+00:06:11,639 --> 00:06:16,480
+Q plus 0.25 times 1 minus Q if they go
+ Q加0.25乘以1减去Q 
+
+142
+00:06:16,680 --> 00:06:19,540
+left if they go right instead what are
+如果他们向右走就向左走，那是什么
+
+143
+00:06:19,740 --> 00:06:21,129
+they getting they're just getting 1
+他们得到他们只是得到1 
+
+144
+00:06:21,329 --> 00:06:24,939
+minus Q right so these two things have
+减去Q对，所以这两件事
+
+145
+00:06:25,139 --> 00:06:31,809
+to be equal so we end up with Q is equal
+等于，所以我们得出Q等于
+
+146
+00:06:32,009 --> 00:06:40,209
+to 0.75 times 1 minus Q so Q over 1
+到0.75乘以1减去Q，所以Q超过1 
+
+147
+00:06:40,408 --> 00:06:41,110
+minus Q
+负Q 
+
+148
+00:06:41,310 --> 00:06:44,170
+is equal to 0.75 what does this tell us
+等于0.75这告诉我们什么
+
+149
+00:06:44,370 --> 00:06:49,230
+about Q that tells us that Q is equal to
+关于Q的告诉我们Q等于
+
+150
+00:06:49,430 --> 00:06:52,840
+3/7 okay so what's going to happen when
+ 3/7好的，那么什么时候会发生
+
+151
+00:06:53,040 --> 00:06:55,780
+we work out this we get 3/7 for the
+我们算出这个，我们得到3/7 
+
+152
+00:06:55,980 --> 00:06:57,280
+probability that the kicker is going to
+踢手将要去的概率
+
+153
+00:06:57,480 --> 00:07:02,230
+go left and 4/7 for the probability that
+向左走和4/7的概率
+
+154
+00:07:02,430 --> 00:07:04,480
+the kicker is going to go right so
+踢脚将要正确，所以
+
+155
+00:07:04,680 --> 00:07:07,120
+overall what do we have now we have the
+总体而言，我们现在拥有的是
+
+156
+00:07:07,319 --> 00:07:09,670
+strategies looking like this as we made
+我们制定的策略看起来像这样
+
+157
+00:07:09,870 --> 00:07:16,389
+this adjustment and we noticed two sort
+这种调整，我们注意到两种
+
+158
+00:07:16,589 --> 00:07:20,290
+of interesting things about this one is
+关于这个有趣的事情是
+
+159
+00:07:20,490 --> 00:07:22,509
+that the goalies payoffs didn't change
+守门员的收益没有改变
+
+160
+00:07:22,709 --> 00:07:23,710
+but they still had to adjust their
+但是他们仍然不得不调整他们的
+
+161
+00:07:23,910 --> 00:07:27,430
+strategies and the second is that the
+策略，第二个是
+
+162
+00:07:27,629 --> 00:07:31,420
+kicker is actually kicking more often to
+踢手实际上踢得更多
+
+163
+00:07:31,620 --> 00:07:35,020
+the weaker side right so the the right
+较弱的一面，所以右边
+
+164
+00:07:35,220 --> 00:07:37,180
+foot got worse than it was before and
+脚变得比以前更糟
+
+165
+00:07:37,379 --> 00:07:39,460
+they're actually going in that direction
+他们实际上正在朝那个方向前进
+
+166
+00:07:39,660 --> 00:07:43,870
+more often and why is that it's because
+更多，为什么是因为
+
+167
+00:07:44,069 --> 00:07:46,689
+the kicker the the goalie has also made
+守门员还踢出的球
+
+168
+00:07:46,889 --> 00:07:49,270
+an adjustment in this game and so the
+在这个游戏中的调整，所以
+
+169
+00:07:49,470 --> 00:07:51,370
+the comparative statics in mixed
+混合中的比较静态
+
+170
+00:07:51,569 --> 00:07:53,259
+strategy Nash equilibria are actually
+策略纳什均衡实际上是
+
+171
+00:07:53,459 --> 00:07:55,569
+quite subtle and somewhat
+相当微妙和有点
+
+172
+00:07:55,769 --> 00:07:57,730
+counterintuitive in terms of what you
+关于你的直觉
+
+173
+00:07:57,930 --> 00:08:00,250
+might expect you're you you get a bias
+可能会期望你是你，你会有偏见
+
+174
+00:08:00,449 --> 00:08:02,350
+so that this becomes a weaker direction
+所以这变成一个较弱的方向
+
+175
+00:08:02,550 --> 00:08:05,530
+and the equilibrium adjusts so that the
+并调整平衡，以便
+
+176
+00:08:05,730 --> 00:08:07,300
+player goes in that direction more often
+玩家更经常朝那个方向走
+
+177
+00:08:07,500 --> 00:08:11,860
+so let's have a look just through the
+因此，让我们看一下
+
+178
+00:08:12,060 --> 00:08:13,960
+intuition here again in the goalie
+守门员再次在这里直觉
+
+179
+00:08:14,160 --> 00:08:15,340
+strategy must have the kicker and
+策略必须具有优势
+
+180
+00:08:15,540 --> 00:08:18,069
+different and so when we went through
+不同，所以当我们经历
+
+181
+00:08:18,269 --> 00:08:20,920
+that those payoffs the the kicker the
+那些回报使踢球者
+
+182
+00:08:21,120 --> 00:08:22,600
+goalie goes left more often than right
+守门员向左走的次数多于向右走的次数
+
+183
+00:08:22,800 --> 00:08:26,350
+and the kicker actually so sorry there's
+踢手实际上很抱歉
+
+184
+00:08:26,550 --> 00:08:28,650
+a typo here the kicker
+错别字
+
+185
+00:08:28,850 --> 00:08:32,829
+actually goes right more frequently
+实际上更正确
+
+186
+00:08:33,029 --> 00:08:37,139
+right goes right with probability now
+正确的可能性现在正确
+
+187
+00:08:37,340 --> 00:08:39,039
+4/7 so they've increased their
+ 4/7所以他们增加了他们的
+
+188
+00:08:39,240 --> 00:08:42,159
+probability on that and when we end up
+最终发生的可能性
+
+189
+00:08:42,360 --> 00:08:44,859
+what we see is the the goalie strategy's
+我们看到的是守门员策略
+
+190
+00:08:45,059 --> 00:08:46,959
+adjusting but we also see that the
+调整，但我们也看到
+
+191
+00:08:47,159 --> 00:08:49,719
+kicker adjusts to kicking more to the
+踢脚调整为向脚踢更多
+
+192
+00:08:49,919 --> 00:08:53,500
+towards their weak side so the the
+朝向他们的弱点，所以
+
+193
+00:08:53,700 --> 00:08:54,969
+goalie now actually has a slighted
+守门员现在实际上有点
+
+194
+00:08:55,169 --> 00:08:56,620
+so if you go through and calculate the
+因此，如果您经过计算
+
+195
+00:08:56,820 --> 00:08:57,879
+probability that the goalie is going to
+守门员要去的概率
+
+196
+00:08:58,080 --> 00:08:59,949
+win they're going to win 4/7 of the time
+赢，他们将赢得4/7的时间
+
+197
+00:09:00,149 --> 00:09:03,009
+and this in this match and and we can
+在这场比赛中，我们可以
+
+198
+00:09:03,210 --> 00:09:04,509
+think you know what would happen if the
+以为你知道如果
+
+199
+00:09:04,710 --> 00:09:06,579
+goalie actually just stayed with their
+守门员实际上只是和他们在一起
+
+200
+00:09:06,779 --> 00:09:09,129
+old strategy of still going 5050 then
+仍然沿用5050的旧策略
+
+201
+00:09:09,330 --> 00:09:11,709
+the kicker could always go left and win
+踢手总能向左走并赢
+
+202
+00:09:11,909 --> 00:09:14,229
+half the time instead of three sevens so
+一半的时间而不是三七
+
+203
+00:09:14,429 --> 00:09:17,199
+the the fact that the goalie has to make
+守门员必须做出的事实
+
+204
+00:09:17,399 --> 00:09:19,779
+an adjustment is because they have to
+调整是因为他们必须
+
+205
+00:09:19,980 --> 00:09:22,990
+defend more to the left side to defer
+防守更多，以推迟
+
+206
+00:09:23,190 --> 00:09:26,169
+because now the the kickers has a better
+因为现在踢球者有更好的表现
+
+207
+00:09:26,370 --> 00:09:28,990
+chance of winning on that side so the
+在那边获胜的机会，所以
+
+208
+00:09:29,190 --> 00:09:31,029
+goalie goes more in that direction that
+守门员朝那个方向走得更多
+
+209
+00:09:31,230 --> 00:09:32,919
+pushes the the kicker towards their
+将踢脚推向他们
+
+210
+00:09:33,120 --> 00:09:35,319
+weaker side in order to make sure that
+较弱的一面，以确保
+
+211
+00:09:35,519 --> 00:09:39,339
+the goalie is willing to go in to the
+守门员愿意进入
+
+212
+00:09:39,539 --> 00:09:43,089
+left side without her frequency so by
+左边没有她的频率所以
+
+213
+00:09:43,289 --> 00:09:44,889
+adjusting the strategy to keep the
+调整策略以保持
+
+214
+00:09:45,090 --> 00:09:46,839
+kicker indifferent the goalie actually
+踢手实际上无视守门员
+
+215
+00:09:47,039 --> 00:09:49,240
+gets advantage of the kickers week right
+正确利用踢球周
+
+216
+00:09:49,440 --> 00:09:53,060
+kick and and wins more often okay
+踢和赢更多，好吗
+
+217
+00:09:53,370 --> 00:09:55,809
+so just in terms of summary and mixed
+所以就总结和混合而言
+
+218
+00:09:56,009 --> 00:09:57,879
+strategies and soccer penalty kicks in
+策略和足球处罚开始
+
+219
+00:09:58,080 --> 00:09:59,859
+general players must be indifferent
+一般玩家必须漠不关心
+
+220
+00:10:00,059 --> 00:10:01,000
+between the things that they're
+在他们之间的事物之间
+
+221
+00:10:01,200 --> 00:10:03,969
+randomizing over that produces very
+随机产生非常
+
+222
+00:10:04,169 --> 00:10:06,309
+interesting and subtle comparative
+有趣而微妙的比较
+
+223
+00:10:06,509 --> 00:10:09,490
+statics and you know there's a question
+静力学，你知道有一个问题
+
+224
+00:10:09,690 --> 00:10:11,049
+it might come up in your mind you know
+你可能会想到
+
+225
+00:10:11,250 --> 00:10:12,519
+do people really do this I mean this is
+人们真的这样做吗？我的意思是
+
+226
+00:10:12,720 --> 00:10:14,289
+fairly complicated right so you know
+相当复杂的权利，所以你知道
+
+227
+00:10:14,490 --> 00:10:16,959
+5050 we can figure out once we get these
+ 5050我们一旦弄清这些就可以弄清楚
+
+228
+00:10:17,159 --> 00:10:19,620
+to these games where a player has an
+这些玩家拥有
+
+229
+00:10:19,820 --> 00:10:22,359
+advantage one way or another then the
+优势一种或另一种然后
+
+230
+00:10:22,559 --> 00:10:23,829
+actual mixture becomes fairly
+实际的混合变得相当
+
+231
+00:10:24,029 --> 00:10:25,839
+complicated and it's not so obvious that
+复杂，而且不是很明显
+
+232
+00:10:26,039 --> 00:10:28,539
+players will actually do that so we'll
+玩家实际上会这样做，所以我们会
+
+233
+00:10:28,740 --> 00:10:30,159
+take a look at that and see if this
+看看那个，看看是否
+
+234
+00:10:30,360 --> 00:10:35,360
+actually bears out in practice
+实际上证明了
+

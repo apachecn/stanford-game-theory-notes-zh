@@ -1,0 +1,1280 @@
+﻿1
+00:00:00,000 --> 00:00:02,468
+hi again folks so let's talk a little
+大家好，再说一遍
+
+2
+00:00:02,669 --> 00:00:03,879
+bit about a folk theorem now for a
+现在谈谈一个民间定理
+
+3
+00:00:04,080 --> 00:00:05,469
+discounted repeated game so we're in the
+打折重复游戏，所以我们在
+
+4
+00:00:05,669 --> 00:00:08,169
+case where there's a discount factor and
+有折扣因素的情况下
+
+5
+00:00:08,369 --> 00:00:10,149
+people care more about today than the
+人们比今天更关心
+
+6
+00:00:10,349 --> 00:00:13,750
+future or tomorrow and so forth and we
+未来或明天等等，我们
+
+7
+00:00:13,949 --> 00:00:17,320
+want to think about the expansion of the
+想考虑的扩展
+
+8
+00:00:17,519 --> 00:00:19,510
+logic that we just went through and some
+我们刚刚经历的逻辑和一些
+
+9
+00:00:19,710 --> 00:00:21,970
+examples but see whether that holds in a
+例子，但看看是否在
+
+10
+00:00:22,170 --> 00:00:25,539
+general setting of repeated games so
+重复游戏的一般设置
+
+11
+00:00:25,739 --> 00:00:26,859
+what's the folk theorem what's the
+民间定理是什么
+
+12
+00:00:27,059 --> 00:00:30,728
+extension to repeated games so take a
+扩展到重复游戏，因此
+
+13
+00:00:30,928 --> 00:00:34,239
+normal forma game and so there's
+正常的形式游戏，所以有
+
+14
+00:00:34,439 --> 00:00:36,969
+actually very many versions of folk
+其实民间的版本很多
+
+15
+00:00:37,170 --> 00:00:38,559
+theorems and we'll do a very particular
+定理，我们将做一个非常特别的
+
+16
+00:00:38,759 --> 00:00:41,198
+one which has I think the basic
+我认为基本的
+
+17
+00:00:41,399 --> 00:00:43,779
+intuition behind it and a fairly simple
+背后的直觉和相当简单
+
+18
+00:00:43,979 --> 00:00:46,599
+proof so the idea is is we're looking at
+证明，所以我们的想法是
+
+19
+00:00:46,799 --> 00:00:49,419
+some Nash equilibrium of the stage game
+阶段游戏的纳什均衡
+
+20
+00:00:49,619 --> 00:00:52,448
+so take a stage game find a profile
+所以参加一个舞台游戏找到一个个人资料
+
+21
+00:00:52,649 --> 00:00:54,038
+which is a Nash equilibrium of the stage
+这是阶段的纳什均衡
+
+22
+00:00:54,238 --> 00:01:00,099
+game and then also look for some
+游戏，然后还寻找一些
+
+23
+00:01:00,299 --> 00:01:02,169
+alternative strategy and here we have a
+另类策略，在这里我们有一个
+
+24
+00:01:02,369 --> 00:01:04,149
+couple of typos that should be in a
+错别字应该在
+
+25
+00:01:04,349 --> 00:01:07,769
+prime so look for some alternative
+总理，所以寻找一些替代方案
+
+26
+00:01:07,969 --> 00:01:12,039
+strategy a prime such that everybody
+策略素数，使每个人
+
+27
+00:01:12,239 --> 00:01:14,829
+gets a strictly higher payoff from a
+从中获得更高的收益
+
+28
+00:01:15,030 --> 00:01:19,778
+prime than a ok where a is the Nash
+优胜于OK，那是纳什
+
+29
+00:01:19,978 --> 00:01:22,418
+equilibrium then there exists some
+平衡，然后存在一些
+
+30
+00:01:22,618 --> 00:01:25,959
+discount factor below one such that if
+低于1的折现系数，如果
+
+31
+00:01:26,159 --> 00:01:28,058
+everybody has a discount factor above
+每个人都有一个以上的折扣系数
+
+32
+00:01:28,259 --> 00:01:30,640
+that level then there exists a sub-game
+那个水平，然后有一个子游戏
+
+33
+00:01:30,840 --> 00:01:33,189
+perfect equilibrium of the infinite
+无限的完美平衡
+
+34
+00:01:33,390 --> 00:01:35,799
+repetition of the game that has a prime
+具有质数的游戏的重复
+
+35
+00:01:36,000 --> 00:01:37,840
+played in every period on the
+在每个时期都玩过
+
+36
+00:01:38,040 --> 00:01:39,549
+equilibrium path so what this is telling
+平衡路径，这说明了什么
+
+37
+00:01:39,750 --> 00:01:42,099
+us is the logic that we went through in
+我们是我们经历的逻辑
+
+38
+00:01:42,299 --> 00:01:43,988
+those two examples of prisoners dilemmas
+那两个囚徒困境的例子
+
+39
+00:01:44,188 --> 00:01:46,179
+where we found the discount factory
+我们找到折扣工厂的地方
+
+40
+00:01:46,379 --> 00:01:50,829
+there half or at least 7 9 etc take any
+有一半或至少7 9等采取任何
+
+41
+00:01:51,030 --> 00:01:53,679
+game find a Nash equilibrium of that and
+游戏找到那个的纳什均衡
+
+42
+00:01:53,879 --> 00:01:55,448
+find something which is better than that
+找到比这更好的东西
+
+43
+00:01:55,649 --> 00:01:57,488
+which you'd like to sustain in an
+您想维持在
+
+44
+00:01:57,688 --> 00:01:59,140
+infinitely repeated game and you can do
+无限重复的游戏，你可以做
+
+45
+00:01:59,340 --> 00:02:00,939
+the same logic that we did in those
+与我们在那些逻辑中所做的相同的逻辑
+
+46
+00:02:01,140 --> 00:02:03,579
+examples in the general case where
+一般情况下的例子
+
+47
+00:02:03,780 --> 00:02:04,840
+there'll be a high enough discount
+会有足够高的折扣
+
+48
+00:02:05,040 --> 00:02:07,539
+factor that'll make that sustainable ok
+使可持续发展的因素
+
+49
+00:02:07,739 --> 00:02:10,029
+and and basically the proof of this
+并基本上证明了这一点
+
+50
+00:02:10,229 --> 00:02:13,630
+theorem is is very similar to what we
+定理与我们非常相似
+
+51
+00:02:13,830 --> 00:02:15,640
+went through in those examples so the
+经历了那些例子，所以
+
+52
+00:02:15,840 --> 00:02:17,439
+idea is is you know we'll play a prime
+想法是你知道我们会发挥主要作用
+
+53
+00:02:17,639 --> 00:02:19,570
+as long as everybody plays it
+只要大家玩
+
+54
+00:02:19,770 --> 00:02:21,910
+if anybody deviates from that then we're
+如果有人偏离了那我们
+
+55
+00:02:22,110 --> 00:02:23,230
+gonna go to a grim trigger we're just
+要去一个严峻的触发，我们只是
+
+56
+00:02:23,430 --> 00:02:24,850
+gonna threaten to play the Nash
+威胁要打纳什
+
+57
+00:02:25,050 --> 00:02:26,920
+equilibrium a forever after which is
+永远平衡之后
+
+58
+00:02:27,120 --> 00:02:28,870
+giving us a lower payoff than a prime
+给我们的回报比素数低
+
+59
+00:02:29,069 --> 00:02:30,550
+and we just need to make sure that
+我们只需要确保
+
+60
+00:02:30,750 --> 00:02:32,469
+people care enough about the loss of the
+人们足够在意损失
+
+61
+00:02:32,669 --> 00:02:35,170
+future to offset the game the game from
+未来来抵消游戏
+
+62
+00:02:35,370 --> 00:02:37,570
+today so in terms of the the proof
+今天，就证明而言
+
+63
+00:02:37,770 --> 00:02:39,370
+checking that this is a sub-game
+检查这是一个子游戏
+
+64
+00:02:39,569 --> 00:02:41,080
+equilibrium for high enough discount
+足够高的折扣的均衡
+
+65
+00:02:41,280 --> 00:02:43,380
+factors what do we have to do well
+因素我们要做好什么
+
+66
+00:02:43,580 --> 00:02:46,420
+playing a forever if everyone anyone is
+如果每个人都在玩一个永远
+
+67
+00:02:46,620 --> 00:02:48,550
+ever deviated is part of a sub-game
+曾经偏离的游戏是子游戏的一部分
+
+68
+00:02:48,750 --> 00:02:50,439
+perfect continuation if we ever have a
+如果我们有一个完美的延续
+
+69
+00:02:50,639 --> 00:02:52,480
+deviation because it's Nash in every sub
+偏差，因为它是每个子项中的纳什
+
+70
+00:02:52,680 --> 00:02:56,590
+game so we need to check will anybody
+游戏，所以我们需要检查任何人
+
+71
+00:02:56,789 --> 00:02:58,780
+want to deviate from a prime if nobody
+如果没有人想偏离素数
+
+72
+00:02:58,979 --> 00:03:02,590
+has in the past and we can bound the
+在过去，我们可以绑定
+
+73
+00:03:02,789 --> 00:03:04,900
+game so an upper bound on the gain is
+游戏，所以收益的上限是
+
+74
+00:03:05,099 --> 00:03:07,300
+the maximum over all players and all
+所有玩家和所有玩家的最大值
+
+75
+00:03:07,500 --> 00:03:09,100
+possible deviations they could have of
+他们可能会有的偏差
+
+76
+00:03:09,300 --> 00:03:12,280
+the best of the gain and payoff that
+最好的收益和回报
+
+77
+00:03:12,479 --> 00:03:14,530
+they would get from that so that gives
+他们会从中得到，所以给
+
+78
+00:03:14,729 --> 00:03:18,759
+us a maximum possible gain the minimum
+我们最大可能获得最小
+
+79
+00:03:18,959 --> 00:03:21,640
+period per period loss so this is the
+每个时期的损失，所以这是
+
+80
+00:03:21,840 --> 00:03:23,319
+maximum they can gain from today well
+他们今天最大的收获就是
+
+81
+00:03:23,519 --> 00:03:24,730
+compared to the minimum they could lose
+与他们可能损失的最低赔率相比
+
+82
+00:03:24,930 --> 00:03:25,660
+from tomorrow
+从明天起
+
+83
+00:03:25,860 --> 00:03:28,469
+so the minimum they could lose is
+因此他们可能损失的最低金额是
+
+84
+00:03:28,669 --> 00:03:30,939
+instead of getting a prime they're not
+而不是得到一个素数，他们不是
+
+85
+00:03:31,139 --> 00:03:35,319
+going to go to a so that's that and and
+去一个就是这样，并且
+
+86
+00:03:35,519 --> 00:03:37,330
+take that the minimum across different
+把不同的最小值
+
+87
+00:03:37,530 --> 00:03:39,580
+players for this and one question is
+玩家对此，一个问题是
+
+88
+00:03:39,780 --> 00:03:42,009
+sort of why this the question here is
+有点为什么这是这里的问题
+
+89
+00:03:42,209 --> 00:03:46,930
+you know is really the minimum relative
+你知道真的是最小的亲戚
+
+90
+00:03:47,129 --> 00:03:48,610
+to the Nash equilibrium or could they
+到纳什均衡还是
+
+91
+00:03:48,810 --> 00:03:50,969
+gain so think about this a little bit
+获得，所以请对此一点点思考
+
+92
+00:03:51,169 --> 00:03:53,380
+why wouldn't they want to change from
+他们为什么不想要从
+
+93
+00:03:53,580 --> 00:03:55,390
+the Nash equilibrium in the future right
+未来权利中的纳什均衡
+
+94
+00:03:55,590 --> 00:03:57,520
+so the idea there is there they're not
+所以那里没有他们的想法
+
+95
+00:03:57,719 --> 00:04:00,730
+going to be able to to help themselves
+能够自助
+
+96
+00:04:00,930 --> 00:04:02,830
+by trying to change away from the
+通过尝试改变
+
+97
+00:04:03,030 --> 00:04:04,660
+punishment because that is a Nash
+惩罚，因为那是纳什
+
+98
+00:04:04,860 --> 00:04:05,950
+equilibrium so they're already getting
+平衡，所以他们已经在
+
+99
+00:04:06,150 --> 00:04:07,900
+the best possible payoff if the other
+最好的回报，如果其他
+
+100
+00:04:08,099 --> 00:04:09,069
+people follow through with the
+人们遵循
+
+101
+00:04:09,269 --> 00:04:11,860
+punishment so we've got the maximum
+惩罚，所以我们得到了最大的
+
+102
+00:04:12,060 --> 00:04:14,550
+possible game the minimum possible loss
+可能的游戏最小可能的损失
+
+103
+00:04:14,750 --> 00:04:17,528
+so if I deviate and given what other
+所以如果我偏离并给了其他
+
+104
+00:04:17,728 --> 00:04:20,468
+players are doing the maximum possible
+玩家正在尽最大努力
+
+105
+00:04:20,668 --> 00:04:23,528
+net gain overall is our gain the M today
+总体净收益是我们今天的收益M 
+
+106
+00:04:23,728 --> 00:04:27,100
+but I could lose up to M tomorrow
+但明天我可能输给M 
+
+107
+00:04:27,300 --> 00:04:29,499
+in the future I'll lose at least them in
+将来我至少会失去他们
+
+108
+00:04:29,699 --> 00:04:33,550
+the future and this should be an AI then
+未来，这应该是一个人工智能
+
+109
+00:04:33,750 --> 00:04:36,730
+we've got beta I over 1 minus beta I and
+我们的Beta I超过1减去Beta I，并且
+
+110
+00:04:36,930 --> 00:04:41,350
+so if you go ahead and you know set this
+因此，如果您继续进行，并且知道设置
+
+111
+00:04:41,550 --> 00:04:47,290
+has to be non-negative sorry has to be
+必须是非负的，对不起
+
+112
+00:04:47,490 --> 00:04:49,749
+negative in order for players not to
+消极的，以使球员不
+
+113
+00:04:49,949 --> 00:04:52,749
+want to deviate so what do we need we
+想偏离，所以我们需要什么
+
+114
+00:04:52,949 --> 00:04:56,379
+need that M is less than or equal to
+需要M小于或等于
+
+115
+00:04:56,579 --> 00:04:58,959
+this so M over m is less than or equal
+因此，M大于m小于或等于
+
+116
+00:04:59,158 --> 00:05:03,939
+to beta I over 1 minus beta I and that
+超过1的beta I减去beta I， 
+
+117
+00:05:04,139 --> 00:05:06,790
+gives us a lower bound on beta I it has
+给了我们它的beta的下限
+
+118
+00:05:06,990 --> 00:05:10,480
+to be at least M over m plus m so that's
+至少M超过m加m，所以
+
+119
+00:05:10,680 --> 00:05:12,850
+a not a tight lower bound in the sense
+从某种意义上讲不是一个严格的下限
+
+120
+00:05:13,050 --> 00:05:15,670
+that we went with fairly loose bounds
+我们的界限相当宽松
+
+121
+00:05:15,870 --> 00:05:18,459
+here but if everybody has a high enough
+在这里，但如果每个人都足够高
+
+122
+00:05:18,658 --> 00:05:20,588
+discount factor then you can sustain
+折扣系数，那么您可以维持
+
+123
+00:05:20,788 --> 00:05:22,360
+cooperation so this is just a
+合作，所以这只是一个
+
+124
+00:05:22,560 --> 00:05:24,430
+straightforward generalization of the
+的直接概括
+
+125
+00:05:24,629 --> 00:05:27,399
+examples we looked through before and
+我们之前看过的例子
+
+126
+00:05:27,598 --> 00:05:30,160
+it's showing us that we can sustain
+告诉我们我们可以维持
+
+127
+00:05:30,360 --> 00:05:32,588
+cooperation in an infinitely repeated
+合作无限重复
+
+128
+00:05:32,788 --> 00:05:35,860
+setting this is provided people have
+设置这个是提供给人们
+
+129
+00:05:36,060 --> 00:05:38,410
+enough patience for the future now
+现在对未来有足够的耐心
+
+130
+00:05:38,610 --> 00:05:41,129
+there's many bells and whistles on this
+有很多风吹草动
+
+131
+00:05:41,329 --> 00:05:44,410
+one thing to think about you could you
+想一想你能
+
+132
+00:05:44,610 --> 00:05:46,509
+can sustain fairly complicated play if
+可以维持相当复杂的比赛，如果
+
+133
+00:05:46,709 --> 00:05:48,160
+you if you'd like so let's take a look
+如果您愿意的话，让我们看一下
+
+134
+00:05:48,360 --> 00:05:50,889
+at the game we looked at before so the
+在我们之前看过的游戏中， 
+
+135
+00:05:51,089 --> 00:05:52,360
+prisoner's dilemma but now we've got
+囚徒的困境，但现在我们有了
+
+136
+00:05:52,560 --> 00:05:55,749
+this very high payoff from deviating one
+从偏离中获得很高的回报
+
+137
+00:05:55,949 --> 00:05:58,480
+thing you can notice is the total of the
+您可以注意到的是
+
+138
+00:05:58,680 --> 00:06:00,850
+payoffs here the players together get
+玩家们在这里得到的回报
+
+139
+00:06:01,050 --> 00:06:05,800
+ten if they cooperate they're only
+十，如果他们合作，他们只是
+
+140
+00:06:06,000 --> 00:06:08,949
+getting six in total so here actually
+一共六个
+
+141
+00:06:09,149 --> 00:06:12,309
+playing this makes one of the players
+玩这个使球员之一
+
+142
+00:06:12,509 --> 00:06:14,829
+really well off so if they played this
+真的很好，所以如果他们玩这个
+
+143
+00:06:15,028 --> 00:06:16,360
+in perpetuity they get three three
+他们永远得到三三
+
+144
+00:06:16,560 --> 00:06:19,149
+suppose they trying to do following they
+假设他们试图跟随他们
+
+145
+00:06:19,348 --> 00:06:23,290
+say in odd periods we'll play a CD right
+说在奇怪的时期我们会播放CD权利
+
+146
+00:06:23,490 --> 00:06:27,129
+so in in periods one three five and so
+所以在一期三五等
+
+147
+00:06:27,329 --> 00:06:29,499
+forth will play cooperate by the first
+第四将发挥合作的第一
+
+148
+00:06:29,699 --> 00:06:31,869
+player defect for the other so the
+另一个玩家的缺陷
+
+149
+00:06:32,069 --> 00:06:33,249
+second player is going to get tens in
+第二个玩家将获得
+
+150
+00:06:33,449 --> 00:06:36,069
+those periods but then we'll play will
+那些时期，但是我们将演奏
+
+151
+00:06:36,269 --> 00:06:39,340
+reverse it and the even periods
+扭转它和偶数期
+
+152
+00:06:39,540 --> 00:06:42,280
+right so now roughly on average players
+现在大概是普通玩家
+
+153
+00:06:42,480 --> 00:06:44,350
+are getting five each instead of three
+每人得到五个而不是三个
+
+154
+00:06:44,550 --> 00:06:47,710
+each right so what we'll do is what
+每一项权利，所以我们要做的是
+
+155
+00:06:47,910 --> 00:06:49,540
+we'll alternate and as long as we're
+我们会交替，只要我们
+
+156
+00:06:49,740 --> 00:06:51,670
+you're continuing to abide by these
+你继续遵守这些
+
+157
+00:06:51,870 --> 00:06:56,079
+rules where we nicely do this then in in
+规定我们在哪里做的很好
+
+158
+00:06:56,279 --> 00:07:00,009
+the future as long as everybody does
+只要每个人都做的未来
+
+159
+00:07:00,209 --> 00:07:01,600
+this we'll continue to do it
+这我们会继续做
+
+160
+00:07:01,800 --> 00:07:03,520
+if anybody deviates from this then we'll
+如果有人偏离这一点，那么我们将
+
+161
+00:07:03,720 --> 00:07:05,800
+just go to defect defect right and you
+只是去缺陷缺陷吧，你
+
+162
+00:07:06,000 --> 00:07:07,660
+can check and see what kinds of discount
+可以检查看看有哪些折扣
+
+163
+00:07:07,860 --> 00:07:10,060
+factors you need and you know are there
+你需要的因素，你知道在那里
+
+164
+00:07:10,259 --> 00:07:11,470
+different discount factors you need for
+您需要的不同折扣系数
+
+165
+00:07:11,670 --> 00:07:12,790
+the first player that the player is
+该玩家是的第一个玩家
+
+166
+00:07:12,990 --> 00:07:14,050
+getting the CD in the first period
+在第一期获得CD 
+
+167
+00:07:14,250 --> 00:07:16,210
+versus the second player and so forth
+与第二个玩家等
+
+168
+00:07:16,410 --> 00:07:18,100
+you can go through that and actually
+你可以经历一下，实际上
+
+169
+00:07:18,300 --> 00:07:22,870
+this kind of thing is is something that
+这种事情是
+
+170
+00:07:23,069 --> 00:07:25,180
+people worry about in regulatory
+人们担心监管
+
+171
+00:07:25,379 --> 00:07:29,170
+settings so for instance you know
+设置，例如，您知道
+
+172
+00:07:29,370 --> 00:07:31,210
+imagine that you have a situation where
+想象你有一种情况
+
+173
+00:07:31,410 --> 00:07:33,759
+you've got companies bidding for
+你有公司竞标
+
+174
+00:07:33,959 --> 00:07:34,930
+government contracts and they're
+政府合同，他们是
+
+175
+00:07:35,129 --> 00:07:36,220
+repeating you know they're doing this
+再说一遍，你知道他们正在这样做
+
+176
+00:07:36,420 --> 00:07:39,819
+repeatedly over time and one way they
+随着时间的推移反复出现，一种方法是
+
+177
+00:07:40,019 --> 00:07:42,370
+could do it is to say okay look we can
+可以说是可以的，我们可以
+
+178
+00:07:42,569 --> 00:07:44,199
+compete against each other and bid very
+互相竞争并非常出价
+
+179
+00:07:44,399 --> 00:07:48,160
+high every day or have to bid you know
+每天都很高，或者必须出价
+
+180
+00:07:48,360 --> 00:07:49,750
+to give them a the government of low
+给他们一个低下的政府
+
+181
+00:07:49,949 --> 00:07:51,750
+cost every day if there's a procurement
+如果有采购，每天都会花费
+
+182
+00:07:51,949 --> 00:07:54,879
+contract but what they could do
+合同，但他们能做什么
+
+183
+00:07:55,079 --> 00:07:57,160
+alternatively is say okay look I'll let
+或者说好吧，我会让
+
+184
+00:07:57,360 --> 00:08:00,850
+you in the contract today you let me win
+你今天的合同，你让我赢
+
+185
+00:08:01,050 --> 00:08:02,710
+it tomorrow and we'll just alternate and
+明天，我们将轮流和
+
+186
+00:08:02,910 --> 00:08:04,720
+as long as we keep cooperating we won't
+只要我们保持合作，我们就不会
+
+187
+00:08:04,920 --> 00:08:06,520
+compete with each other we'll enjoy high
+相互竞争，我们将享受高
+
+188
+00:08:06,720 --> 00:08:09,550
+payoffs but if that ever breaks down
+回报，但如果失败了
+
+189
+00:08:09,750 --> 00:08:11,680
+then we're gonna go back to competition
+然后我们要回到竞争
+
+190
+00:08:11,879 --> 00:08:14,770
+so there's situations where regulators
+因此，在某些情况下，监管机构
+
+191
+00:08:14,970 --> 00:08:18,189
+worry and in fact there's some various
+担心，实际上有一些
+
+192
+00:08:18,389 --> 00:08:20,610
+cases that have some evidence that
+有证据表明
+
+193
+00:08:20,810 --> 00:08:23,829
+companies will tend to do this to try
+公司将倾向于这样做尝试
+
+194
+00:08:24,029 --> 00:08:26,139
+and game the system and an increase
+和游戏系统，并增加
+
+195
+00:08:26,339 --> 00:08:28,270
+payoff so so you can see that the kind
+回报，所以你可以看到那种
+
+196
+00:08:28,470 --> 00:08:29,949
+of logic and what has to be true in
+逻辑和什么必须是真实的
+
+197
+00:08:30,149 --> 00:08:31,139
+order for that to happen
+为了做到这一点
+
+198
+00:08:31,339 --> 00:08:33,490
+okay so repeated games we've had a
+好吧，如此反复的比赛，我们有一个
+
+199
+00:08:33,690 --> 00:08:36,789
+fairly detailed look at these things
+比较详细地看这些东西
+
+200
+00:08:36,990 --> 00:08:39,759
+players can condition their future play
+玩家可以限制他们未来的比赛
+
+201
+00:08:39,960 --> 00:08:42,099
+on past actions that allows them to
+根据他们过去的行动
+
+202
+00:08:42,299 --> 00:08:43,990
+react to things in ways that they can't
+以他们无法做到的方式对事物做出反应
+
+203
+00:08:44,190 --> 00:08:46,689
+in a static game it produces new
+在静态游戏中，它会产生新的
+
+204
+00:08:46,889 --> 00:08:49,629
+equilibria in the game folk theorems
+博弈定理中的均衡
+
+205
+00:08:49,830 --> 00:08:52,029
+partly referring to the fact that these
+部分是指这些
+
+206
+00:08:52,230 --> 00:08:52,349
+were
+是
+
+207
+00:08:52,549 --> 00:08:53,818
+known for a long time in kind of
+长期以来以
+
+208
+00:08:54,019 --> 00:08:55,469
+folklore and game theory before they
+民俗学和博弈论
+
+209
+00:08:55,669 --> 00:08:57,328
+were actually written down
+实际上被写下来
+
+210
+00:08:57,528 --> 00:08:59,370
+there's many equilibria in these things
+这些东西之间有很多平衡
+
+211
+00:08:59,570 --> 00:09:03,709
+and they're based on on key ingredients
+它们基于关键成分
+
+212
+00:09:03,909 --> 00:09:06,059
+having observation of what other players
+观察其他玩家
+
+213
+00:09:06,259 --> 00:09:09,000
+do and being able to react to that and
+能够并且能够对此做出反应
+
+214
+00:09:09,200 --> 00:09:10,799
+having sufficient value in the future
+将来有足够的价值
+
+215
+00:09:11,000 --> 00:09:13,799
+either by limit of the means which is an
+要么通过手段限制
+
+216
+00:09:14,000 --> 00:09:15,389
+extreme value or high enough discount
+极高价值或足够高的折扣
+
+217
+00:09:15,589 --> 00:09:17,159
+factors so that players really care
+使玩家真正关心的因素
+
+218
+00:09:17,360 --> 00:09:20,189
+about the future now repeated games have
+关于未来现在重复的游戏有
+
+219
+00:09:20,389 --> 00:09:21,599
+actually been a fairly active area of
+实际上是一个相当活跃的领域
+
+220
+00:09:21,799 --> 00:09:23,279
+research recently there's a lot of other
+最近的研究还有很多其他的
+
+221
+00:09:23,480 --> 00:09:25,439
+interesting questions on these what
+关于这些有趣的问题是什么
+
+222
+00:09:25,639 --> 00:09:27,359
+happens if you don't always see what
+如果您不总是看到什么就会发生
+
+223
+00:09:27,559 --> 00:09:29,219
+other players do you only see sometimes
+其他玩家您有时只会看到
+
+224
+00:09:29,419 --> 00:09:32,370
+there's some noises and things what
+有一些噪音和其他东西
+
+225
+00:09:32,570 --> 00:09:35,519
+happens if there's uncertain payoffs
+如果不确定的回报会发生
+
+226
+00:09:35,720 --> 00:09:38,689
+over time there are payoffs are varying
+随着时间的流逝，收益是不同的
+
+227
+00:09:38,889 --> 00:09:41,429
+there's a whole series of issues there
+那里有一系列的问题
+
+228
+00:09:41,629 --> 00:09:43,349
+there's also issues about things like
+还有一些类似的问题
+
+229
+00:09:43,549 --> 00:09:48,359
+renegotiation so you know the logic here
+重新谈判，所以你知道这里的逻辑
+
+230
+00:09:48,559 --> 00:09:51,508
+has been okay if if we anybody ever
+如果我们有人曾经一直没事
+
+231
+00:09:51,708 --> 00:09:54,539
+deviates then we go to a bad equilibrium
+偏离然后我们达到一个糟糕的平衡
+
+232
+00:09:54,740 --> 00:09:58,709
+forever after so suppose that happens
+如此假设之后永远
+
+233
+00:09:58,909 --> 00:10:01,740
+somebody deviates and then we you know
+有人偏离，然后我们知道
+
+234
+00:10:01,940 --> 00:10:03,779
+after about a few periods we say well
+大约过了一段时间后，我们说好了
+
+235
+00:10:03,980 --> 00:10:05,578
+this is kind of silly why are we why are
+这有点傻，为什么我们为什么
+
+236
+00:10:05,778 --> 00:10:07,828
+we hurting ourselves let's go back to
+我们伤害自己让我们回到
+
+237
+00:10:08,028 --> 00:10:09,419
+the original agreement let's forget
+原始协议让我们忘记
+
+238
+00:10:09,620 --> 00:10:12,689
+about things by Ron's be bygones so we
+关于罗恩（Ron）过去的事情，所以我们
+
+239
+00:10:12,889 --> 00:10:14,189
+can do better by just starting all over
+可以从头开始做得更好
+
+240
+00:10:14,389 --> 00:10:18,209
+right okay well that's wonderful the
+好吧，那太好了
+
+241
+00:10:18,409 --> 00:10:20,758
+difficulty is that if if we now believe
+困难在于如果我们现在相信
+
+242
+00:10:20,958 --> 00:10:24,389
+that if we deviate eventually we're
+如果我们最终偏离了我们
+
+243
+00:10:24,589 --> 00:10:26,370
+going to be forgiven then that changes
+将被原谅，然后改变
+
+244
+00:10:26,570 --> 00:10:28,469
+the whole nature of the game and changes
+游戏的整体性质和变化
+
+245
+00:10:28,669 --> 00:10:30,719
+the the the incentives at the beginning
+一开始的激励措施
+
+246
+00:10:30,919 --> 00:10:33,419
+and so incorporating that kind of logic
+所以结合了这种逻辑
+
+247
+00:10:33,620 --> 00:10:36,240
+is is quite complicated and another area
+是相当复杂的另一个领域
+
+248
+00:10:36,440 --> 00:10:38,519
+of research and in these so repeated
+研究，并在这些如此重复
+
+249
+00:10:38,720 --> 00:10:39,959
+games are very interesting they have
+游戏非常有趣
+
+250
+00:10:40,159 --> 00:10:42,029
+lots of applications there's some
+很多应用程序中有一些
+
+251
+00:10:42,230 --> 00:10:43,620
+interesting logic which comes out of
+有趣的逻辑
+
+252
+00:10:43,820 --> 00:10:45,748
+them sometimes you can sustain
+他们有时你可以维持
+
+253
+00:10:45,948 --> 00:10:47,519
+cooperation or better payoffs and you
+合作或更好的回报，您
+
+254
+00:10:47,720 --> 00:10:49,198
+can in the static setting sometimes you
+可以在静态设置中有时
+
+255
+00:10:49,399 --> 00:10:52,169
+can't and we've seen some of the
+不能，我们已经看到了一些
+
+256
+00:10:52,370 --> 00:10:57,370
+features that affect that
+影响那个的功能
+

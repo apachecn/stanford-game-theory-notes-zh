@@ -1,0 +1,1465 @@
+﻿1
+00:00:00,000 --> 00:00:02,919
+hi folks its Matt again and we're going
+嗨，大家好，Matt，我们要去
+
+2
+00:00:03,120 --> 00:00:04,629
+to talk now about dominant strategy
+现在谈论主导策略
+
+3
+00:00:04,830 --> 00:00:07,269
+implementation so the idea that we're
+实施，所以我们
+
+4
+00:00:07,469 --> 00:00:09,339
+looking at is we have a society we have
+看着我们有一个社会
+
+5
+00:00:09,539 --> 00:00:11,649
+to make a decision and we're trying to
+做出决定，我们正在努力
+
+6
+00:00:11,849 --> 00:00:14,769
+design a mechanism that is going to take
+设计需要采取的机制
+
+7
+00:00:14,968 --> 00:00:16,539
+people's preferences and give us
+人们的喜好并给我们
+
+8
+00:00:16,739 --> 00:00:19,659
+outcomes and in particular let's start
+结果，特别是让我们开始
+
+9
+00:00:19,859 --> 00:00:21,669
+by looking at a situation where we've
+通过观察我们已经
+
+10
+00:00:21,868 --> 00:00:24,579
+got a full set of alternatives and any
+有全套的替代品和任何
+
+11
+00:00:24,778 --> 00:00:26,859
+possible ranking over those things so
+可能对这些东西进行排名
+
+12
+00:00:27,059 --> 00:00:28,300
+for instance we have a set of candidates
+例如我们有一组候选人
+
+13
+00:00:28,500 --> 00:00:30,550
+that we need to pick from say four or
+我们需要从说四或
+
+14
+00:00:30,750 --> 00:00:33,909
+five six candidates okay so we think
+五六个候选人好吧，我们认为
+
+15
+00:00:34,109 --> 00:00:35,649
+about the voting rules that we looked at
+关于我们看过的投票规则
+
+16
+00:00:35,850 --> 00:00:38,529
+earlier now we've got to make a choice
+现在早些时候，我们必须做出选择
+
+17
+00:00:38,729 --> 00:00:40,299
+over these candidates and in particular
+这些候选人，尤其是
+
+18
+00:00:40,500 --> 00:00:42,820
+what we'd like is when we ask people
+我们想要的是当我们问别人时
+
+19
+00:00:43,020 --> 00:00:46,209
+that they have no difficulties in
+他们没有困难
+
+20
+00:00:46,409 --> 00:00:47,529
+deciding what they should announce they
+决定他们应该宣布什么
+
+21
+00:00:47,729 --> 00:00:49,209
+should just be truthful okay so we want
+应该是真实的好吧，所以我们想要
+
+22
+00:00:49,409 --> 00:00:51,698
+dominant strategy implementation we want
+我们想要的主导战略实施
+
+23
+00:00:51,899 --> 00:00:53,439
+to design the mechanism so that they
+设计机制，使他们
+
+24
+00:00:53,640 --> 00:00:55,239
+want to tell us truthfully exactly what
+想真实地告诉我们什么
+
+25
+00:00:55,439 --> 00:00:56,739
+their preference rankings are over the
+他们的偏好排名超过
+
+26
+00:00:56,939 --> 00:00:58,570
+alternatives and they don't gain at all
+替代方案，他们根本没有收获
+
+27
+00:00:58,770 --> 00:01:00,908
+by trying to mix up the alternatives and
+通过尝试混合各种选择和
+
+28
+00:01:01,109 --> 00:01:03,189
+manipulate the system okay so that's the
+操纵系统好吧，那就是
+
+29
+00:01:03,390 --> 00:01:07,689
+idea and in particular let's think of
+的想法，尤其是让我们想到
+
+30
+00:01:07,890 --> 00:01:09,039
+we've got our society with an
+我们的社会
+
+31
+00:01:09,239 --> 00:01:13,599
+individual's finite set of outcomes oh
+个人的有限结果集哦
+
+32
+00:01:13,799 --> 00:01:16,808
+and if we begin to think about designing
+如果我们开始考虑设计
+
+33
+00:01:17,009 --> 00:01:19,539
+mechanisms in this world and we want one
+在这个世界上的机制，我们想要一个
+
+34
+00:01:19,739 --> 00:01:21,009
+where every agent has a dominant
+每个代理人都有支配地位
+
+35
+00:01:21,209 --> 00:01:22,390
+strategy for each preference we can
+我们可以针对每个偏好的策略
+
+36
+00:01:22,590 --> 00:01:25,418
+invoke the revelation principle and the
+引用启示原理和
+
+37
+00:01:25,618 --> 00:01:27,250
+revelation principle tells us that if we
+启示原理告诉我们，如果我们
+
+38
+00:01:27,450 --> 00:01:29,649
+do have an indirect mechanism that has
+确实有一个间接机制
+
+39
+00:01:29,849 --> 00:01:33,039
+dominant strategies we can just collapse
+我们可以崩溃的主导策略
+
+40
+00:01:33,239 --> 00:01:36,640
+that into a social choice function a
+转化为社会选择功能
+
+41
+00:01:36,840 --> 00:01:38,709
+direct mechanism where people just tell
+人们直接说出的直接机制
+
+42
+00:01:38,909 --> 00:01:40,719
+us directly their preferences and then
+我们直接按照他们的喜好
+
+43
+00:01:40,920 --> 00:01:42,009
+we give them the outcomes they would
+我们给他们他们想要的结果
+
+44
+00:01:42,209 --> 00:01:43,090
+have gotten through the original
+已经通过原始
+
+45
+00:01:43,290 --> 00:01:45,128
+mechanism for each announcement of their
+每次宣布的机制
+
+46
+00:01:45,328 --> 00:01:47,528
+preferences so if they'd followed the
+偏好设置，因此如果他们遵循
+
+47
+00:01:47,728 --> 00:01:49,659
+strategies that they had had dominant
+他们曾经占主导地位的策略
+
+48
+00:01:49,859 --> 00:01:51,549
+strategies in the original one so this
+在原来的策略，这样
+
+49
+00:01:51,750 --> 00:01:53,980
+makes truth a dominant strategy so the
+将真理作为主导策略，因此
+
+50
+00:01:54,180 --> 00:01:55,778
+revelation principle will means that we
+启示原理将意味着我们
+
+51
+00:01:55,978 --> 00:01:58,768
+can without loss of generality for this
+可以在不失一般性的情况下
+
+52
+00:01:58,968 --> 00:02:02,429
+exercise look at social choice functions
+练习看社会选择功能
+
+53
+00:02:02,629 --> 00:02:05,500
+directly okay and so now what we want to
+直接好了，所以现在我们要
+
+54
+00:02:05,700 --> 00:02:06,849
+do is think about which social choice
+要做的是考虑哪个社会选择
+
+55
+00:02:07,049 --> 00:02:09,009
+functions can a society have which are
+一个社会可以拥有的功能是
+
+56
+00:02:09,209 --> 00:02:11,590
+going to be dominant strategy truthful
+将成为主导战略的真实
+
+57
+00:02:11,789 --> 00:02:13,520
+in this sense okay
+从这个意义上讲可以
+
+58
+00:02:13,719 --> 00:02:19,460
+well so it's these things are also known
+好吧，这些东西也是众所周知的
+
+59
+00:02:19,659 --> 00:02:22,189
+as non manipulable strategy proof
+作为不可操纵的策略证明
+
+60
+00:02:22,389 --> 00:02:23,540
+sometimes they're called straightforward
+有时他们被称为简单
+
+61
+00:02:23,740 --> 00:02:25,880
+mechanisms or social choice functions
+机制或社会选择功能
+
+62
+00:02:26,080 --> 00:02:29,090
+and the important result in this area
+在这方面的重要成果
+
+63
+00:02:29,289 --> 00:02:30,740
+due to Allen gibart and Mark
+由于艾伦·吉伯特和马克
+
+64
+00:02:30,939 --> 00:02:33,260
+Satterthwaite in the early 1970s is
+ 1970年代初期的Satterthwaite是
+
+65
+00:02:33,460 --> 00:02:34,610
+gonna say we're gonna have a really hard
+会说我们将很难
+
+66
+00:02:34,810 --> 00:02:36,740
+time doing this in a setting where
+时间在一个设置中
+
+67
+00:02:36,939 --> 00:02:38,870
+people can have any possible ranking
+人们可以有任何可能的排名
+
+68
+00:02:39,069 --> 00:02:40,820
+over the alternatives so let's have a
+在替代方案上，让我们来
+
+69
+00:02:41,020 --> 00:02:42,650
+look at that this is what's known as the
+看，这就是所谓的
+
+70
+00:02:42,849 --> 00:02:45,230
+givers Satterthwaite theorem and it's
+给定者Satterthwaite定理，它是
+
+71
+00:02:45,430 --> 00:02:47,330
+another form of an impossibility theorem
+不可能定理的另一种形式
+
+72
+00:02:47,530 --> 00:02:49,400
+similar to what we saw in terms of
+与我们在以下方面看到的相似
+
+73
+00:02:49,599 --> 00:02:51,770
+arrows theorem and Miller Satterthwaite
+箭头定理和Miller Satterthwaite 
+
+74
+00:02:51,969 --> 00:02:53,689
+theorem so situations where we have a
+定理，所以我们有一个
+
+75
+00:02:53,889 --> 00:02:55,880
+set of conditions we'd like to have and
+我们希望拥有的一组条件
+
+76
+00:02:56,080 --> 00:02:58,130
+the theorem says it's impossible to have
+定理说不可能有
+
+77
+00:02:58,330 --> 00:03:00,560
+this desirable set of conditions all at
+这套理想的条件
+
+78
+00:03:00,759 --> 00:03:02,810
+once so what's the setting here we've
+一次，那么这里的设置是什么
+
+79
+00:03:03,009 --> 00:03:05,330
+got a social choice function we'd like
+得到了我们想要的社交选择功能
+
+80
+00:03:05,530 --> 00:03:08,090
+to have one that's mapping all possible
+有一个映射所有可能的
+
+81
+00:03:08,289 --> 00:03:10,700
+preferences so people have linear orders
+偏好使人们拥有线性订单
+
+82
+00:03:10,900 --> 00:03:12,590
+they can have any strict ranking over
+他们可以有严格的排名
+
+83
+00:03:12,789 --> 00:03:16,280
+candidates and we are going to look at
+候选人，我们将要研究
+
+84
+00:03:16,479 --> 00:03:18,560
+situations with at least three outcomes
+至少有三个结果的情况
+
+85
+00:03:18,759 --> 00:03:21,080
+so we have at least three candidates to
+所以我们至少有三个候选人
+
+86
+00:03:21,280 --> 00:03:25,069
+choose from and we're going to also look
+从中选择，我们还将寻找
+
+87
+00:03:25,269 --> 00:03:27,410
+at a social choice function which is on
+在一个社会选择功能上
+
+88
+00:03:27,610 --> 00:03:29,030
+two that means for every possible
+两个意味着一切可能
+
+89
+00:03:29,229 --> 00:03:32,390
+outcome there is a profile of
+结果有一个配置文件
+
+90
+00:03:32,590 --> 00:03:34,310
+preferences which gives you that outcome
+偏好给您带来的结果
+
+91
+00:03:34,509 --> 00:03:38,300
+and that condition can be satisfied
+而且那个条件可以满足
+
+92
+00:03:38,500 --> 00:03:40,400
+quite easily for instance if you just
+例如，如果您只是
+
+93
+00:03:40,599 --> 00:03:42,950
+required that your social choice
+要求您的社会选择
+
+94
+00:03:43,150 --> 00:03:45,020
+function be unanimous so if all
+功能是一致的，所以如果全部
+
+95
+00:03:45,219 --> 00:03:48,319
+individuals prefer the same alternative
+个人喜欢相同的选择
+
+96
+00:03:48,519 --> 00:03:50,660
+we all say we love candidate a then
+我们都说我们爱候选人
+
+97
+00:03:50,860 --> 00:03:53,270
+society should pick candidate a if you
+如果你愿意，社会应该选择候选人
+
+98
+00:03:53,469 --> 00:03:54,920
+put that minimal condition in then
+然后把那个最小条件
+
+99
+00:03:55,120 --> 00:03:58,700
+indeed the in this domain of preferences
+确实在这个偏好领域
+
+100
+00:03:58,900 --> 00:04:01,039
+C is going to be on two so if we put
+ C将在两个点上，所以如果我们把
+
+101
+00:04:01,239 --> 00:04:02,509
+those conditions in and what does the
+这些条件以及什么
+
+102
+00:04:02,709 --> 00:04:04,640
+theorem say the theorem says that we're
+定理说定理说我们
+
+103
+00:04:04,840 --> 00:04:05,870
+going to have the strategy proof in this
+在这方面有策略证明
+
+104
+00:04:06,069 --> 00:04:07,789
+condition truthful reporting of
+有条件如实报告
+
+105
+00:04:07,989 --> 00:04:09,740
+preferences as a dominant strategy for
+偏好作为主导策略
+
+106
+00:04:09,939 --> 00:04:11,599
+every agent at every preference profile
+每个偏好配置文件中的每个业务代表
+
+107
+00:04:11,799 --> 00:04:16,699
+if and only if C is dictatorial okay so
+当且仅当C是独裁的就可以
+
+108
+00:04:16,899 --> 00:04:18,468
+again that means here there exists some
+再次这意味着这里存在一些
+
+109
+00:04:18,668 --> 00:04:21,468
+particular individual I for whom the
+我为之特别的个人
+
+110
+00:04:21,668 --> 00:04:24,079
+choice function is just always their
+选择功能永远是他们的
+
+111
+00:04:24,279 --> 00:04:26,530
+favorite alternative
+最喜欢的替代品
+
+112
+00:04:26,730 --> 00:04:28,120
+the thing that maximizes their
+最大化他们的东西
+
+113
+00:04:28,319 --> 00:04:30,879
+preferences in regardless of what
+偏好，无论
+
+114
+00:04:31,079 --> 00:04:32,590
+anybody else says so we just pick one
+有人说，所以我们只选一个
+
+115
+00:04:32,790 --> 00:04:34,660
+individual we just listen to that person
+个人，我们只是听那个人
+
+116
+00:04:34,860 --> 00:04:38,290
+okay now in terms of the proof of this
+现在就证明这一点
+
+117
+00:04:38,490 --> 00:04:41,050
+it's clear that if we assign somebody to
+很明显，如果我们分配某人
+
+118
+00:04:41,250 --> 00:04:42,670
+be a dictator and don't listen to
+成为独裁者，不听
+
+119
+00:04:42,870 --> 00:04:44,170
+anybody else that's gonna be strategy
+其他会成为策略的人
+
+120
+00:04:44,370 --> 00:04:45,819
+proof right nobody else can make any
+证明权没有其他人能做的
+
+121
+00:04:46,019 --> 00:04:47,170
+difference doesn't matter what they say
+他们说什么无关紧要
+
+122
+00:04:47,370 --> 00:04:49,810
+and the person who is a dictator always
+而独裁者总是
+
+123
+00:04:50,009 --> 00:04:51,370
+wants to be truthful because they're
+想要诚实，因为他们
+
+124
+00:04:51,569 --> 00:04:53,740
+getting your favorite alternative the
+得到你最喜欢的替代品
+
+125
+00:04:53,939 --> 00:04:55,600
+converse of this theorem is is much more
+这个定理的反面是更多
+
+126
+00:04:55,800 --> 00:04:57,939
+difficult that part saying that if it's
+很难说那是
+
+127
+00:04:58,139 --> 00:04:59,379
+strategy proof then it has to be
+战略证明，那么它必须是
+
+128
+00:04:59,579 --> 00:05:03,730
+dictatorial and the this can be proven
+独裁的，这可以证明
+
+129
+00:05:03,930 --> 00:05:07,329
+by various means there are proofs that
+通过各种方式可以证明
+
+130
+00:05:07,529 --> 00:05:09,790
+relate this back to arrows theorem and
+将此与箭头定理联系起来， 
+
+131
+00:05:09,990 --> 00:05:16,139
+and show that that there are similar
+并证明有相似之处
+
+132
+00:05:16,339 --> 00:05:18,069
+conclusions that can get in terms of the
+可以得出的结论
+
+133
+00:05:18,269 --> 00:05:20,290
+basic steps dilemmas that were proven
+已证明的基本步骤困境
+
+134
+00:05:20,490 --> 00:05:25,230
+there there's a very elegant proof by
+有一个非常优雅的证明
+
+135
+00:05:25,430 --> 00:05:29,259
+Salvador Barbra which works off of
+萨尔瓦多·巴拉布拉（Salvador Barbra） 
+
+136
+00:05:29,459 --> 00:05:31,629
+individuals being pivotal in terms of
+个人在以下方面至关重要
+
+137
+00:05:31,829 --> 00:05:33,129
+changing their preferences and changing
+改变他们的喜好并改变
+
+138
+00:05:33,329 --> 00:05:35,470
+the outcome and showing that you can't
+结果并显示您无法
+
+139
+00:05:35,670 --> 00:05:37,300
+have too many individuals being pivotal
+有太多人是关键
+
+140
+00:05:37,500 --> 00:05:39,730
+at once if you are going to satisfy
+如果您要立即满足
+
+141
+00:05:39,930 --> 00:05:42,129
+dominant strategies so there's a basic
+主导策略，所以有一个基本的
+
+142
+00:05:42,329 --> 00:05:44,259
+conflict of allowing people to make
+让人产生冲突
+
+143
+00:05:44,459 --> 00:05:46,240
+decisions and having multiple people
+决策和多人
+
+144
+00:05:46,439 --> 00:05:48,370
+make decisions at the same time and
+同时做出决定， 
+
+145
+00:05:48,569 --> 00:05:50,590
+making sure that everybody cannot
+确保每个人都不能
+
+146
+00:05:50,790 --> 00:05:52,540
+manipulate things by by announcing
+通过宣布来操纵事情
+
+147
+00:05:52,740 --> 00:05:54,810
+things falsely so we're not going to
+错误的事情，所以我们不会
+
+148
+00:05:55,009 --> 00:05:57,610
+explicitly offer that proof but you can
+明确提供该证明，但您可以
+
+149
+00:05:57,810 --> 00:05:59,889
+find various versions of this in the
+在中找到各种版本
+
+150
+00:06:00,089 --> 00:06:02,650
+literature and we'll leave you to look
+文学，我们留给你看看
+
+151
+00:06:02,850 --> 00:06:06,610
+at that directly what this means is that
+直接这意味着
+
+152
+00:06:06,810 --> 00:06:08,949
+any social choice function that we write
+我们编写的任何社会选择功能
+
+153
+00:06:09,149 --> 00:06:11,259
+down that we're interested in assuming
+下来，我们有兴趣假设
+
+154
+00:06:11,459 --> 00:06:14,020
+that we don't want dictatorial functions
+我们不希望独裁功能
+
+155
+00:06:14,220 --> 00:06:16,000
+are going to be manipulable in some
+在某些方面将是可操纵的
+
+156
+00:06:16,199 --> 00:06:17,860
+situations so if we're in a voting
+情况，所以如果我们参加投票
+
+157
+00:06:18,060 --> 00:06:20,620
+setting and we have a set of candidates
+设置，我们有一组候选人
+
+158
+00:06:20,819 --> 00:06:22,480
+that we're looking at and we have to
+我们正在寻找，我们必须
+
+159
+00:06:22,680 --> 00:06:23,949
+pick among those candidates and any
+从这些候选人中挑选
+
+160
+00:06:24,149 --> 00:06:26,439
+possible ordering of those is possible
+这些可能的顺序是可能的
+
+161
+00:06:26,639 --> 00:06:29,860
+and people's preferences regardless of
+和人们的喜好，无论
+
+162
+00:06:30,060 --> 00:06:31,689
+what rule we use we're going to end up
+我们将使用什么规则来结束
+
+163
+00:06:31,889 --> 00:06:33,970
+having people manipulate that rule in
+让人们操纵这个规则
+
+164
+00:06:34,170 --> 00:06:36,520
+certain situations so that's a very
+在某些情况下，这是非常
+
+165
+00:06:36,720 --> 00:06:38,590
+negative result in some sense it's a
+从某种意义上讲，负面结果是
+
+166
+00:06:38,790 --> 00:06:40,240
+damaging results and it's
+破坏性的结果是
+
+167
+00:06:40,439 --> 00:06:41,560
+different from arrows theorem because
+与箭头定理不同，因为
+
+168
+00:06:41,759 --> 00:06:43,870
+what this is doing is really looking at
+这实际上是在看
+
+169
+00:06:44,069 --> 00:06:45,790
+the incentives that people have and
+人们拥有的激励和
+
+170
+00:06:45,990 --> 00:06:46,960
+saying it's going to be difficult to
+说这将很难
+
+171
+00:06:47,160 --> 00:06:49,120
+beget people to be truthful when we were
+当我们在一起的时候，让人变得诚实
+
+172
+00:06:49,319 --> 00:06:50,650
+looking at arrows theorem there was
+看着箭头定理
+
+173
+00:06:50,850 --> 00:06:52,389
+nothing said about whether people were
+没有人在说什么
+
+174
+00:06:52,589 --> 00:06:54,430
+being truthful or not the kinds of
+真实与否
+
+175
+00:06:54,629 --> 00:06:56,050
+conclusions that were being reached on
+得出的结论
+
+176
+00:06:56,250 --> 00:06:57,610
+arrows theorem we're just saying that
+箭头定理，我们只是说
+
+177
+00:06:57,810 --> 00:07:00,759
+some basic independence conditions and
+一些基本的独立条件和
+
+178
+00:07:00,959 --> 00:07:02,530
+Pareto conditions couldn't be satisfied
+无法满足帕累托条件
+
+179
+00:07:02,730 --> 00:07:04,660
+by a social welfare ordering at the same
+通过同时订购的社会福利
+
+180
+00:07:04,860 --> 00:07:06,670
+time but presuming that you could see
+时间，但假设您可以看到
+
+181
+00:07:06,870 --> 00:07:08,199
+what people's preferences were as the
+人们的喜好是什么
+
+182
+00:07:08,399 --> 00:07:09,939
+input and this is saying that if you're
+输入，这是说，如果你是
+
+183
+00:07:10,139 --> 00:07:12,100
+going to make a choice it's going to be
+做出选择，它将是
+
+184
+00:07:12,300 --> 00:07:13,780
+difficult to get people to reveal their
+很难让人透露他们的
+
+185
+00:07:13,980 --> 00:07:15,790
+preferences to you in a truthful manner
+真实地偏爱您
+
+186
+00:07:15,990 --> 00:07:17,949
+one more thing about this and this is
+关于这一点的另一件事是
+
+187
+00:07:18,149 --> 00:07:20,550
+something you can verify yourself
+你可以验证自己的东西
+
+188
+00:07:20,750 --> 00:07:22,329
+suppose that you only had two
+假设你只有两个
+
+189
+00:07:22,529 --> 00:07:25,930
+alternatives then it's going to be easy
+替代品，这将很容易
+
+190
+00:07:26,129 --> 00:07:29,350
+to find a rule think of majority rule so
+找到一个规则考虑多数规则
+
+191
+00:07:29,550 --> 00:07:30,970
+is that strategy proof so imagine that
+是该策略的证明，所以想象一下
+
+192
+00:07:31,170 --> 00:07:33,009
+we have just two candidates and you get
+我们只有两个候选人，你得到
+
+193
+00:07:33,209 --> 00:07:34,389
+to vote for which one you would prefer
+投票给您更喜欢的人
+
+194
+00:07:34,589 --> 00:07:37,740
+and you always prefer one to the other
+而你总是喜欢一个
+
+195
+00:07:37,939 --> 00:07:40,360
+there there will be a variety actually
+实际上会有各种各样
+
+196
+00:07:40,560 --> 00:07:43,468
+of strategy proof rules in that setting
+在那种情况下的策略证明规则
+
+197
+00:07:43,668 --> 00:07:50,560
+if C is not on - then we are ignoring
+如果C没有打开-那么我们将忽略
+
+198
+00:07:50,759 --> 00:07:53,650
+certain outcomes then you're going to
+某些结果，那么您将
+
+199
+00:07:53,850 --> 00:07:56,110
+have some more limited conclusions here
+这里有一些更有限的结论
+
+200
+00:07:56,310 --> 00:07:57,218
+that things are going to be stick
+事情会坚持下去
+
+201
+00:07:57,418 --> 00:07:59,319
+tutorial but only on the range of the
+教程，但仅适用于
+
+202
+00:07:59,519 --> 00:08:02,230
+outcome function if at least if it still
+结果函数，如果至少仍然
+
+203
+00:08:02,430 --> 00:08:04,689
+has at least three alternatives in it so
+至少有三个选择
+
+204
+00:08:04,889 --> 00:08:07,060
+there's some limitations on this but in
+有一些限制，但在
+
+205
+00:08:07,259 --> 00:08:08,468
+terms of really getting around this kind
+真正解决这类问题的条件
+
+206
+00:08:08,668 --> 00:08:12,340
+of negative result there's various ways
+负面结果有多种方式
+
+207
+00:08:12,540 --> 00:08:15,009
+we can think of doing this um one is to
+我们可以想到做这个是
+
+208
+00:08:15,209 --> 00:08:17,199
+use a weaker form of implementation so
+使用较弱的实现方式
+
+209
+00:08:17,399 --> 00:08:19,509
+here we're we were asking for dominant
+在这里，我们是在要求主导
+
+210
+00:08:19,709 --> 00:08:21,129
+strategies for all individuals at all
+面向所有个人的策略
+
+211
+00:08:21,329 --> 00:08:23,439
+preferences we could work instead for
+我们可以代替的偏好
+
+212
+00:08:23,639 --> 00:08:25,090
+something like Bayes Nash implementation
+类似于Bayes Nash的实现
+
+213
+00:08:25,290 --> 00:08:27,160
+Bayesian implementation where we ask
+我们问的贝叶斯实现
+
+214
+00:08:27,360 --> 00:08:31,509
+people just to have a best response - to
+人们只是为了做出最好的回应- 
+
+215
+00:08:31,709 --> 00:08:33,639
+announce truthfully given that everyone
+诚实地宣布，因为每个人
+
+216
+00:08:33,839 --> 00:08:36,909
+else's and that'll open some doors for
+否则，这将为
+
+217
+00:08:37,110 --> 00:08:38,349
+us that's going to be much more
+我们将会更多
+
+218
+00:08:38,549 --> 00:08:39,939
+demanding in terms of an equilibrium
+要求均衡
+
+219
+00:08:40,139 --> 00:08:41,859
+concept and the beauty of dominant
+概念和优势之美
+
+220
+00:08:42,059 --> 00:08:43,479
+strategies is people don't have to worry
+策略是人们不必担心
+
+221
+00:08:43,679 --> 00:08:45,009
+about what other people are doing and
+关于别人在做什么， 
+
+222
+00:08:45,210 --> 00:08:47,199
+they don't have to know or have beliefs
+他们不必知道或有信仰
+
+223
+00:08:47,399 --> 00:08:49,500
+about what's going on Bayes Nash
+关于贝叶斯·纳什（Bayes Nash）发生的事情
+
+224
+00:08:49,700 --> 00:08:52,000
+structure a Bayesian Nash structure is
+贝叶斯Nash结构是
+
+225
+00:08:52,200 --> 00:08:54,128
+much more demanding and that
+要求更高， 
+
+226
+00:08:54,328 --> 00:08:58,988
+since we could relax the assumption that
+因为我们可以放宽假设
+
+227
+00:08:59,188 --> 00:09:01,209
+people have arbitrary preferences and
+人们有任意的偏好， 
+
+228
+00:09:01,409 --> 00:09:02,649
+look at more structured settings and
+看看更结构化的设置
+
+229
+00:09:02,850 --> 00:09:04,988
+indeed when we do that we're going to
+确实，当我们这样做时，我们将
+
+230
+00:09:05,188 --> 00:09:07,719
+find much more interesting and positive
+发现更多有趣和正面的
+
+231
+00:09:07,919 --> 00:09:11,709
+results in terms of rules that we can
+根据我们可以制定的规则
+
+232
+00:09:11,909 --> 00:09:13,448
+apply so more interesting rules I should
+应用更有趣的规则
+
+233
+00:09:13,649 --> 00:09:15,188
+say not more interesting results that
+说不出更有趣的结果
+
+234
+00:09:15,389 --> 00:09:16,478
+give or Satterthwaite theorem is a very
+ Give或Satterthwaite定理是一个非常
+
+235
+00:09:16,678 --> 00:09:18,368
+interesting result but we'll find more
+有趣的结果，但我们会发现更多
+
+236
+00:09:18,568 --> 00:09:20,308
+interesting rules that we can work with
+我们可以使用的有趣规则
+
+237
+00:09:20,509 --> 00:09:23,198
+we've already seen one in fact median
+我们已经看过一个事实上的中位数
+
+238
+00:09:23,399 --> 00:09:26,769
+voting on a single peak domain so as we
+在单个高峰域上投票
+
+239
+00:09:26,970 --> 00:09:29,048
+mentioned there if you're asked for your
+提到那里，如果您被要求
+
+240
+00:09:29,249 --> 00:09:31,719
+preferences you have no reason to try
+您没有理由尝试的偏好
+
+241
+00:09:31,919 --> 00:09:33,578
+and distort your preferences the median
+并扭曲您的偏好中位数
+
+242
+00:09:33,778 --> 00:09:34,988
+peak wins and the only way to change
+高峰制胜和改变的唯一途径
+
+243
+00:09:35,188 --> 00:09:39,248
+that is to flip over and announce
+就是翻过来宣布
+
+244
+00:09:39,448 --> 00:09:40,478
+something on the other side which would
+另一边的东西
+
+245
+00:09:40,678 --> 00:09:42,608
+be worse for a given individual you
+对于一个给定的人你会更糟
+
+246
+00:09:42,808 --> 00:09:44,258
+could also take the max of the peaks you
+也可能会占用您最大的山峰
+
+247
+00:09:44,458 --> 00:09:45,639
+could do instead of median voting have
+可以代替中位数投票
+
+248
+00:09:45,839 --> 00:09:48,519
+maximum voting so whoever has the
+最高投票权，无论谁拥有
+
+249
+00:09:48,720 --> 00:09:51,519
+maximum peak or the minimum peak or any
+最大峰或最小峰或任何
+
+250
+00:09:51,720 --> 00:09:53,738
+order statistics so single peak domains
+订单统计，因此单峰域
+
+251
+00:09:53,938 --> 00:09:55,209
+are going to be settings where what
+将要设置在什么地方
+
+252
+00:09:55,409 --> 00:09:56,738
+we've done is we've limited the set of
+我们要做的是限制了
+
+253
+00:09:56,938 --> 00:09:58,538
+preferences so not any ordering over
+偏好，因此没有任何排序
+
+254
+00:09:58,739 --> 00:10:00,578
+candidates is allowed any longer and
+候选人被允许再
+
+255
+00:10:00,778 --> 00:10:03,218
+once you do that then it's easier to
+一旦这样做，就更容易
+
+256
+00:10:03,418 --> 00:10:06,788
+design strategy proof rules another
+设计策略证明另有规定
+
+257
+00:10:06,989 --> 00:10:09,279
+setting I'm trade so imagine that you
+设置我要交易，所以想象你
+
+258
+00:10:09,480 --> 00:10:12,038
+have an indivisible good you have to a
+有一个不可分割的好处，你必须
+
+259
+00:10:12,239 --> 00:10:14,168
+buyer and a seller and they might have
+买方和卖方，他们可能有
+
+260
+00:10:14,369 --> 00:10:16,748
+private values for how much they value
+私人价值观
+
+261
+00:10:16,948 --> 00:10:19,178
+the good and you're trying to get trade
+的好处，你正在努力获得贸易
+
+262
+00:10:19,379 --> 00:10:22,748
+to go on one mechanism that works in
+进行一种有效的机制
+
+263
+00:10:22,948 --> 00:10:25,149
+that situation is just to fix a price so
+这种情况只是为了定价
+
+264
+00:10:25,350 --> 00:10:29,468
+say you can trade the price at at a
+说您可以以
+
+265
+00:10:29,668 --> 00:10:31,928
+price of 10 so individuals say at a
+ 10个人的价格， 
+
+266
+00:10:32,129 --> 00:10:33,668
+price of 10 am I willing to trade or not
+我愿意交易或不交易的价格为上午10点
+
+267
+00:10:33,869 --> 00:10:35,798
+and now there's a simple decision you
+现在有一个简单的决定
+
+268
+00:10:35,999 --> 00:10:37,779
+can't influence the price all you can do
+不能影响价格
+
+269
+00:10:37,980 --> 00:10:39,368
+is influence whether you actually trade
+是否真的进行交易会产生影响
+
+270
+00:10:39,568 --> 00:10:41,649
+or not and so then it's you have an
+还是没有，所以那是你有一个
+
+271
+00:10:41,850 --> 00:10:43,328
+incentive to say truthfully do you
+激励你说实话
+
+272
+00:10:43,528 --> 00:10:44,948
+really want the trade or do you not and
+真的想要交易还是不想要
+
+273
+00:10:45,149 --> 00:10:47,139
+then trade if both of the agents want
+然后如果两个代理商都想要交易
+
+274
+00:10:47,339 --> 00:10:48,909
+the trade so there you can design a
+贸易，所以你可以设计一个
+
+275
+00:10:49,110 --> 00:10:50,978
+dominant strategy mechanism there's
+主导策略机制有
+
+276
+00:10:51,178 --> 00:10:52,269
+gonna be some inefficiencies associated
+可能会导致效率低下
+
+277
+00:10:52,470 --> 00:10:54,008
+with that you're not going to have trade
+这样你就不会有交易
+
+278
+00:10:54,208 --> 00:10:55,779
+occurring in all the circumstances that
+在所有情况下
+
+279
+00:10:55,980 --> 00:10:58,149
+you'd like but at least you've got
+你想要但至少你有
+
+280
+00:10:58,350 --> 00:11:00,399
+dominant strategies and what we'll take
+主导策略以及我们将采取的措施
+
+281
+00:11:00,600 --> 00:11:02,978
+a closer look at these things we're
+仔细看看这些东西
+
+282
+00:11:03,178 --> 00:11:04,959
+gonna see a whole series of other types
+会看到一系列其他类型的
+
+283
+00:11:05,159 --> 00:11:06,668
+of rules that we'll look at the Vickery
+规则，我们将看维克
+
+284
+00:11:06,869 --> 00:11:08,318
+Clark grow of schemes and other kinds of
+克拉克计划和其他种类的成长
+
+285
+00:11:08,519 --> 00:11:10,328
+schemes and when we look and narrow in
+方案，当我们寻找并缩小范围时
+
+286
+00:11:10,528 --> 00:11:11,798
+the kinds of settings we're looking at
+我们正在查看的设置种类
+
+287
+00:11:11,999 --> 00:11:13,838
+with more structure on preferences we'll
+通过偏好的更多结构，我们将
+
+288
+00:11:14,038 --> 00:11:15,698
+have a whole series of interesting
+有一系列有趣的事情
+
+289
+00:11:15,899 --> 00:11:18,218
+dominant strategy compatible mechanisms
+优势战略兼容机制
+
+290
+00:11:18,418 --> 00:11:20,168
+which are going to be present and we'll
+这将要存在，我们将
+
+291
+00:11:20,369 --> 00:11:22,568
+take a look at particular kinds of
+看一下特定种类的
+
+292
+00:11:22,769 --> 00:11:23,618
+environments where that's going to be
+这将是的环境
+
+293
+00:11:23,818 --> 00:11:28,818
+possible we'll be next up
+可能我们会下一个
+

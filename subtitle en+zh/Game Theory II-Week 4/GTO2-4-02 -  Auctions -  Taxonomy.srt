@@ -1,0 +1,1390 @@
+﻿1
+00:00:00,060 --> 00:00:03,428
+we're gonna speak about some varieties
+我们要谈一些品种
+
+2
+00:00:03,629 --> 00:00:05,530
+of auctions to get a sense for the
+拍卖以了解
+
+3
+00:00:05,730 --> 00:00:08,979
+richness of the space because we often
+空间的丰富性，因为我们经常
+
+4
+00:00:09,179 --> 00:00:10,960
+think about auctions about something as
+考虑拍卖有关
+
+5
+00:00:11,160 --> 00:00:13,599
+something very specific but in fact
+很具体但实际上
+
+6
+00:00:13,798 --> 00:00:16,600
+auctions are very broad an option is any
+拍卖的范围很广
+
+7
+00:00:16,800 --> 00:00:19,980
+mechanism that allocates resources
+资源分配机制
+
+8
+00:00:20,179 --> 00:00:23,530
+typically scarce resources among agents
+代理商之间通常稀缺的资源
+
+9
+00:00:23,730 --> 00:00:27,489
+who have their own interests and we know
+他们有自己的利益，我们知道
+
+10
+00:00:27,689 --> 00:00:30,429
+of many examples the governed sale of
+在许多例子中， 
+
+11
+00:00:30,629 --> 00:00:32,168
+whether the electric mech
+是否电动
+
+12
+00:00:32,368 --> 00:00:35,979
+electromagnetic spectrum or mineral
+电磁频谱或矿物
+
+13
+00:00:36,179 --> 00:00:38,198
+rights drilling rights for oil
+石油开采权
+
+14
+00:00:38,399 --> 00:00:41,709
+what-have-you privatization of national
+你对国民有什么私有化
+
+15
+00:00:41,909 --> 00:00:45,369
+assets those are all typically put to
+这些资产通常都放在
+
+16
+00:00:45,570 --> 00:00:48,788
+bid in one way another stock markets are
+以另一种方式出价
+
+17
+00:00:48,988 --> 00:00:51,640
+very famous to cited auction where there
+非常有名的引用拍卖那里
+
+18
+00:00:51,840 --> 00:00:54,878
+are many buyers and sellers rfqs or
+有很多买卖双方的rfqs或
+
+19
+00:00:55,079 --> 00:00:57,399
+requests for quotes are a standard
+报价请求是标准
+
+20
+00:00:57,600 --> 00:01:00,088
+mechanism for a company or a government
+公司或政府的机制
+
+21
+00:01:00,289 --> 00:01:05,278
+to solicit offers to supply them with
+征求报价以向他们提供
+
+22
+00:01:05,478 --> 00:01:08,709
+goods or services at the most attractive
+最具吸引力的商品或服务
+
+23
+00:01:08,909 --> 00:01:11,909
+terms these are called reverse auctions
+这些术语称为反向拍卖
+
+24
+00:01:12,109 --> 00:01:14,799
+we already mentioned the FCC spectrum
+我们已经提到了FCC频谱
+
+25
+00:01:15,000 --> 00:01:18,250
+auction by way of sale of national
+通过国民拍卖的方式进行拍卖
+
+26
+00:01:18,450 --> 00:01:21,879
+resources real estate a sales are often
+资源房地产销售经常
+
+27
+00:01:22,079 --> 00:01:24,418
+conducted on some kind of tender a bid
+以某种形式进行招标
+
+28
+00:01:24,618 --> 00:01:28,750
+basis where multiple people offer make
+多人提供的基础
+
+29
+00:01:28,950 --> 00:01:31,209
+offers and according to certain rules
+报价并根据某些规则
+
+30
+00:01:31,409 --> 00:01:35,769
+and certainly consumer based reactions
+当然还有基于消费者的反应
+
+31
+00:01:35,969 --> 00:01:37,569
+such as the ones conducted on eBay a
+例如在eBay上进行的
+
+32
+00:01:37,769 --> 00:01:42,640
+very famous where everything from cars
+非常有名的地方，一切都来自汽车
+
+33
+00:01:42,840 --> 00:01:48,849
+to to old CDs are are sold there are
+到旧CD出售有
+
+34
+00:01:49,049 --> 00:01:51,909
+many other examples and we should bear
+许多其他例子，我们应该承担
+
+35
+00:01:52,109 --> 00:01:55,840
+in mind that often the goods being sold
+请记住，经常出售商品
+
+36
+00:01:56,040 --> 00:02:01,390
+or are not necessarily the standard once
+或不一定是标准
+
+37
+00:02:01,590 --> 00:02:04,028
+you think of in options as a computer
+您认为选项就像一台电脑
+
+38
+00:02:04,228 --> 00:02:07,628
+scientist I should point out many
+科学家，我应该指出很多
+
+39
+00:02:07,828 --> 00:02:10,750
+applications of auction in competing
+拍卖在竞争中的应用
+
+40
+00:02:10,949 --> 00:02:13,310
+environments so for example
+环境，例如
+
+41
+00:02:13,509 --> 00:02:16,480
+firk bandwidth is a scarce resource and
+发射带宽是一种稀缺资源， 
+
+42
+00:02:16,680 --> 00:02:20,629
+there is an opportunity to auction off
+有机会拍卖
+
+43
+00:02:20,829 --> 00:02:23,420
+the right to use bandwidth to highest
+最高使用带宽的权利
+
+44
+00:02:23,620 --> 00:02:28,819
+bidders in advertising options famously
+广告选择竞标者
+
+45
+00:02:29,019 --> 00:02:30,939
+on Google and other advertising
+在Google和其他广告上
+
+46
+00:02:31,139 --> 00:02:35,420
+platforms advertisers bid for the right
+平台广告商竞标权利
+
+47
+00:02:35,620 --> 00:02:40,009
+to present us with certain offers when
+向我们提供某些优惠
+
+48
+00:02:40,209 --> 00:02:42,860
+you search for certain keywords or even
+您搜索某些关键字，甚至
+
+49
+00:02:43,060 --> 00:02:45,590
+when we just browse certain web pages
+当我们只浏览某些网页时
+
+50
+00:02:45,789 --> 00:02:48,349
+there are display advertising and they
+有展示广告，他们
+
+51
+00:02:48,549 --> 00:02:52,399
+too are open for for a bid there are
+也有公开招标
+
+52
+00:02:52,598 --> 00:02:54,099
+peer-to-peer networks and many other
+对等网络和许多其他
+
+53
+00:02:54,299 --> 00:02:56,840
+applications in the computing
+计算中的应用
+
+54
+00:02:57,039 --> 00:02:59,780
+environment so what are the kind of
+环境，那是什么样的
+
+55
+00:02:59,979 --> 00:03:02,599
+auctions we see in fact the space of
+拍卖实际上我们看到的空间
+
+56
+00:03:02,799 --> 00:03:04,969
+auctions is infinite here are some
+拍卖是无限的，这里有一些
+
+57
+00:03:05,169 --> 00:03:07,310
+examples that begin to illustrate the
+例子开始说明
+
+58
+00:03:07,509 --> 00:03:09,950
+richness of the space so we'll go over
+空间的丰富性，我们将结束
+
+59
+00:03:10,150 --> 00:03:12,618
+those in in in order the English auction
+那些以顺序进行的英语拍卖
+
+60
+00:03:12,818 --> 00:03:16,280
+the Japanese the Dutch the first price
+日本人荷兰人第一价
+
+61
+00:03:16,479 --> 00:03:18,740
+sealed bid auction and the second price
+密封投标拍卖和第二价格
+
+62
+00:03:18,939 --> 00:03:22,039
+sealed bid auction and finally the all
+密封拍卖，最后全部
+
+63
+00:03:22,239 --> 00:03:24,679
+pay auction so let's go over those in
+支付拍卖，让我们看看那些
+
+64
+00:03:24,878 --> 00:03:27,920
+turn the English auction is probably the
+打开英语拍卖可能是
+
+65
+00:03:28,120 --> 00:03:31,189
+most familiar format this is the sort of
+最常见的格式是
+
+66
+00:03:31,389 --> 00:03:36,189
+thing that in art auction houses I
+在艺术品拍卖行中的东西
+
+67
+00:03:36,389 --> 00:03:39,590
+mekansm use they're so clear starts with
+ mekansm使用它们是如此清晰，从
+
+68
+00:03:39,789 --> 00:03:43,280
+some initial price often called the
+一些初始价格通常称为
+
+69
+00:03:43,479 --> 00:03:46,450
+reservation or the reserve price and
+保留或底价和
+
+70
+00:03:46,650 --> 00:03:48,830
+bittering the auctions shot sending
+痛苦的拍卖镜头发送
+
+71
+00:03:49,030 --> 00:03:51,499
+prices and at some point to stop
+价格，并在某个时候停止
+
+72
+00:03:51,699 --> 00:03:53,780
+shouting the auctioneer may try to
+大喊拍卖师可能会尝试
+
+73
+00:03:53,979 --> 00:03:58,219
+control them into sedition high prices
+控制他们进入煽动高价
+
+74
+00:03:58,419 --> 00:04:01,730
+but at some point the nobody says
+但在某个时候，没人说
+
+75
+00:04:01,930 --> 00:04:03,259
+anything at that point the option is
+那时的任何选择
+
+76
+00:04:03,459 --> 00:04:05,810
+closed and the highest bidder wins the
+关闭，最高出价者中标
+
+77
+00:04:06,009 --> 00:04:11,509
+good at that price the Japanese auction
+以这样的价格，日本拍卖行
+
+78
+00:04:11,709 --> 00:04:15,860
+is a less common term but it's similar
+是一个不太常用的术语，但类似
+
+79
+00:04:16,060 --> 00:04:18,468
+to the English auction in that it's an
+参加英国拍卖会
+
+80
+00:04:18,668 --> 00:04:21,439
+open outcry auction and the price
+公开竞价拍卖和价格
+
+81
+00:04:21,639 --> 00:04:24,199
+ascends except here is the auctioneer
+上升，除了这里是拍卖师
+
+82
+00:04:24,399 --> 00:04:26,520
+that calls out the prices
+喊出价格
+
+83
+00:04:26,720 --> 00:04:29,460
+whether explicitly or by some mechanism
+无论是明确地还是通过某种机制
+
+84
+00:04:29,660 --> 00:04:31,740
+like a clock that just continuously
+就像一个持续不断的时钟
+
+85
+00:04:31,939 --> 00:04:35,699
+Rises and I think of all the bidders as
+上升，我认为所有投标者都是
+
+86
+00:04:35,899 --> 00:04:38,639
+being in to begin with there so standing
+在那里开始如此站立
+
+87
+00:04:38,839 --> 00:04:41,340
+there and maybe the auction start is
+在那里，也许拍卖开始是
+
+88
+00:04:41,540 --> 00:04:44,040
+zero dollars for a television and
+电视机零美元， 
+
+89
+00:04:44,240 --> 00:04:46,680
+everybody says I'm in and then the price
+大家都说我进去了然后价钱
+
+90
+00:04:46,879 --> 00:04:51,259
+starts to rise slowly and at some point
+开始缓慢上升，并在某个时刻
+
+91
+00:04:51,459 --> 00:04:53,819
+bidders decide the price is too high for
+竞标者认为价格过高
+
+92
+00:04:54,019 --> 00:04:55,350
+them and they sit down they're out of
+他们，他们坐下，他们走了
+
+93
+00:04:55,550 --> 00:04:57,660
+the auction and this is irrevocable once
+拍卖，这是一次不可撤销的
+
+94
+00:04:57,860 --> 00:04:59,400
+they sit down they cannot stand back up
+他们坐下来，他们不能站起来
+
+95
+00:04:59,600 --> 00:05:02,460
+and when you have only one bitter left
+当你只剩下一个苦
+
+96
+00:05:02,660 --> 00:05:04,889
+standing they get the good at that at
+站立时，他们擅长于
+
+97
+00:05:05,089 --> 00:05:09,180
+that price this is very similar to the
+这个价格非常类似于
+
+98
+00:05:09,379 --> 00:05:13,050
+English auction it's a little easier to
+英文拍卖更容易
+
+99
+00:05:13,250 --> 00:05:16,470
+analyze among other things because the
+进行分析，因为
+
+100
+00:05:16,670 --> 00:05:18,660
+price does rise continuously and there
+价格确实持续上涨， 
+
+101
+00:05:18,860 --> 00:05:20,310
+you don't have what you call jump it
+你没有你所谓的跳跃
+
+102
+00:05:20,509 --> 00:05:22,800
+where somebody certainly offers a price
+肯定有人要价的地方
+
+103
+00:05:23,000 --> 00:05:24,600
+that's much higher than the current
+远高于目前
+
+104
+00:05:24,800 --> 00:05:31,710
+price and and if you want to think about
+价格，如果您想考虑
+
+105
+00:05:31,910 --> 00:05:35,460
+it in terms of a game representation you
+就游戏表现而言， 
+
+106
+00:05:35,660 --> 00:05:37,290
+can imagine that in the English auction
+可以想象在英国拍卖中
+
+107
+00:05:37,490 --> 00:05:39,720
+at every point in the game you have many
+在游戏的每个点上，您都有很多
+
+108
+00:05:39,920 --> 00:05:42,930
+branches corresponding to the different
+对应于不同的分支
+
+109
+00:05:43,129 --> 00:05:46,500
+sort of increases or jump bids one could
+可以提高或提高出价的一种方式
+
+110
+00:05:46,699 --> 00:05:50,129
+give whereas here the game evolves in a
+给予，而游戏在这里发展
+
+111
+00:05:50,329 --> 00:05:53,040
+very you know in a single predictable
+你知道一个单一的可预测的
+
+112
+00:05:53,240 --> 00:05:56,850
+way that is the auction that's often
+这种方式通常是拍卖
+
+113
+00:05:57,050 --> 00:06:00,090
+called the Japanese auction and staying
+叫日本拍卖行
+
+114
+00:06:00,290 --> 00:06:03,030
+on the international theme we have the
+关于国际主题，我们有
+
+115
+00:06:03,230 --> 00:06:06,230
+doctor auction this is a more standard
+医生拍卖这是更标准的
+
+116
+00:06:06,430 --> 00:06:10,079
+term and it's so called because this is
+这个词之所以被称为是因为
+
+117
+00:06:10,279 --> 00:06:12,389
+in fact the mechanism but to this day is
+实际上，直到今天的机制是
+
+118
+00:06:12,589 --> 00:06:15,509
+used in the Dutch flower market so how
+用在荷兰花卉市场上
+
+119
+00:06:15,709 --> 00:06:17,009
+does the Dutch often work because this
+荷兰人经常工作是因为
+
+120
+00:06:17,209 --> 00:06:20,310
+is a descending auction like in the
+是像在
+
+121
+00:06:20,509 --> 00:06:22,350
+Japanese auction is the option ear that
+日本拍卖是一种选择
+
+122
+00:06:22,550 --> 00:06:24,389
+calls out prices again whether
+再次召集价格
+
+123
+00:06:24,589 --> 00:06:27,300
+explicitly or by a mechanism and in fact
+明确地或通过某种机制，实际上
+
+124
+00:06:27,500 --> 00:06:29,639
+in the Dutch flower market it's a clock
+在荷兰花卉市场上，它是一个时钟
+
+125
+00:06:29,839 --> 00:06:32,699
+that starts at that everybody can look
+始于每个人都可以看
+
+126
+00:06:32,899 --> 00:06:35,360
+at the end starts at a high price and
+最后以高价开始
+
+127
+00:06:35,560 --> 00:06:38,139
+gradually goes down
+逐渐下降
+
+128
+00:06:38,339 --> 00:06:41,650
+at some point the bidder claims the the
+在某些时候，投标人要求
+
+129
+00:06:41,850 --> 00:06:45,910
+the objects say the flower palette by
+对象说出的调色板
+
+130
+00:06:46,110 --> 00:06:49,090
+shouting mine or as it's the case and
+喊我的或者是这样
+
+131
+00:06:49,290 --> 00:06:51,730
+the Dutch flower market hitting a buzzer
+荷兰花卉市场蜂鸣器
+
+132
+00:06:51,930 --> 00:06:55,120
+and when they get it they when they hit
+当他们拿到时
+
+133
+00:06:55,319 --> 00:06:58,300
+it they get that good for that price so
+他们以那个价格得到了那么好的，所以
+
+134
+00:06:58,500 --> 00:06:59,730
+you can think of it as a game of chicken
+你可以把它当成鸡的游戏
+
+135
+00:06:59,930 --> 00:07:01,780
+obviously everybody would like to get
+显然每个人都想得到
+
+136
+00:07:01,980 --> 00:07:04,569
+the good at the lowest possible price
+以尽可能低的价格出售商品
+
+137
+00:07:04,769 --> 00:07:06,370
+but if they wait too long somebody could
+但是如果他们等待太久，有人可以
+
+138
+00:07:06,569 --> 00:07:09,520
+beat them to the punch this is the Dutch
+击败他们，这是荷兰人
+
+139
+00:07:09,720 --> 00:07:11,990
+auction
+拍卖
+
+140
+00:07:12,920 --> 00:07:19,030
+moving on to sealed bid auctions we we
+继续进行密封的竞标拍卖，我们
+
+141
+00:07:19,230 --> 00:07:22,540
+get off the international theme these
+摆脱这些国际主题
+
+142
+00:07:22,740 --> 00:07:25,329
+are called sealed bid auctions because
+之所以称为密封竞标拍卖，是因为
+
+143
+00:07:25,529 --> 00:07:27,340
+unlike the ones we discussed so far
+不像我们到目前为止讨论的那样
+
+144
+00:07:27,540 --> 00:07:30,220
+there's no open house try but imagine
+没有开放的房子尝试，但想像
+
+145
+00:07:30,420 --> 00:07:33,449
+that everybody writes a an offer a bid
+大家写要约
+
+146
+00:07:33,649 --> 00:07:36,790
+on a piece of paper and seals it in an
+在一张纸上并将其密封在
+
+147
+00:07:36,990 --> 00:07:38,590
+envelope and hands it the auctioneer and
+信封并递给拍卖师， 
+
+148
+00:07:38,790 --> 00:07:41,829
+the auctioneer opens the envelope at the
+拍卖师在
+
+149
+00:07:42,029 --> 00:07:45,250
+same time and and then then decides what
+同时，然后决定什么
+
+150
+00:07:45,449 --> 00:07:47,889
+the outcome of the auction is and here
+拍卖的结果在这里
+
+151
+00:07:48,089 --> 00:07:50,199
+are two example of how this might happen
+是两个例子说明如何发生
+
+152
+00:07:50,399 --> 00:07:53,860
+the most common auction is the first
+最常见的拍卖是第一次
+
+153
+00:07:54,060 --> 00:07:56,650
+price auction or first price sealed bid
+价格拍卖或第一价格密封投标
+
+154
+00:07:56,850 --> 00:08:01,740
+auction so in this case the auctioneer
+拍卖，因此在这种情况下，拍卖师
+
+155
+00:08:01,939 --> 00:08:04,509
+fix the bidder with the highest price as
+将出价最高的竞标者确定为
+
+156
+00:08:04,709 --> 00:08:07,060
+the winner and have them pay their price
+获胜者并让他们付出代价
+
+157
+00:08:07,259 --> 00:08:08,949
+seems very straightforward and a very
+看起来非常直接，非常
+
+158
+00:08:09,149 --> 00:08:12,939
+common mechanism second price auction is
+共同机制第二价格拍卖是
+
+159
+00:08:13,139 --> 00:08:15,759
+almost the same it's again the highest
+几乎一样，再次是最高的
+
+160
+00:08:15,959 --> 00:08:20,470
+person who bid who wins the auction but
+竞标的人谁赢得了拍卖会，但
+
+161
+00:08:20,670 --> 00:08:22,389
+they don't pay what they wrote down they
+他们不付写下来的钱
+
+162
+00:08:22,589 --> 00:08:25,060
+pay what the highest rejected bid or the
+支付最高拒绝出价或
+
+163
+00:08:25,259 --> 00:08:27,759
+second highest bid is and you might
+第二高的出价是
+
+164
+00:08:27,959 --> 00:08:29,139
+scratch your head for a moment to say
+挠头说一句话
+
+165
+00:08:29,339 --> 00:08:31,060
+why would I want to do this for example
+我为什么要这样做
+
+166
+00:08:31,259 --> 00:08:33,189
+if I want to maximize my revenue as a
+如果我想最大化我的收入
+
+167
+00:08:33,389 --> 00:08:35,500
+seller surely I'd get less money if I
+卖方如果我能肯定会少赚钱
+
+168
+00:08:35,700 --> 00:08:38,109
+did the second price but when you think
+做了第二个价格，但是当你认为
+
+169
+00:08:38,309 --> 00:08:39,969
+about it the answer isn't so simple
+关于它，答案不是那么简单
+
+170
+00:08:40,169 --> 00:08:42,729
+because by changing the rules the
+因为通过更改规则
+
+171
+00:08:42,929 --> 00:08:46,389
+auction people would bid differently in
+拍卖人在
+
+172
+00:08:46,590 --> 00:08:48,729
+fact there's a famous result called the
+事实上，有一个著名的结果叫做
+
+173
+00:08:48,929 --> 00:08:51,149
+revenue equivalence theorem
+收益等价定理
+
+174
+00:08:51,350 --> 00:08:54,089
+shows that under certain conditions many
+表明在某些条件下
+
+175
+00:08:54,289 --> 00:08:56,609
+auction formats that look very different
+看起来非常不同的拍卖形式
+
+176
+00:08:56,809 --> 00:08:59,069
+in particular the first and second price
+特别是第一和第二价格
+
+177
+00:08:59,269 --> 00:09:01,289
+sealed bid auctions actually an
+密封竞标拍卖实际上是
+
+178
+00:09:01,490 --> 00:09:08,219
+expectation fetch the same price here
+期望在这里获得相同的价格
+
+179
+00:09:08,419 --> 00:09:10,709
+for variety it's a very different sort
+种类繁多
+
+180
+00:09:10,909 --> 00:09:14,099
+of auction and it's the old pay auction
+拍卖，这是旧的薪酬拍卖
+
+181
+00:09:14,299 --> 00:09:18,979
+and so you have a good for sale and oh
+所以你有一个很好的销售哦
+
+182
+00:09:19,179 --> 00:09:26,659
+maybe the good is a maybe that good is a
+也许好是一个
+
+183
+00:09:26,860 --> 00:09:31,139
+$20 bill now imagine that I auction off
+ 20美元的钞票现在想象我在拍卖
+
+184
+00:09:31,340 --> 00:09:35,339
+this $20 bill and here are the rules if
+这20美元的钞票，如果
+
+185
+00:09:35,539 --> 00:09:37,349
+you bid in the auction you can write
+您在拍卖中出价可以写
+
+186
+00:09:37,549 --> 00:09:39,569
+down any amount you want and piece of
+减少您想要的任何金额
+
+187
+00:09:39,769 --> 00:09:41,519
+paper and if you're the highest guy and
+纸，如果你是最高的人， 
+
+188
+00:09:41,720 --> 00:09:43,859
+at the highest guy will win the auction
+最高的人将赢得拍卖
+
+189
+00:09:44,059 --> 00:09:46,799
+so if you write down $3 and if your
+因此，如果您写下$ 3， 
+
+190
+00:09:47,000 --> 00:09:48,990
+highest guy you'll get this $20 bill for
+最高的人，你会得到这20美元的钞票
+
+191
+00:09:49,190 --> 00:09:53,219
+3 $3 if you lost you will still have to
+ 3 $ 3如果您输了，您仍然必须
+
+192
+00:09:53,419 --> 00:09:55,589
+pay your bid right so that's why it's
+正确支付您的出价，这就是为什么
+
+193
+00:09:55,789 --> 00:09:59,759
+called an all pay auction and now think
+叫全薪拍卖，现在想
+
+194
+00:09:59,960 --> 00:10:02,099
+for a moment what would you bid in such
+一会儿你会出价
+
+195
+00:10:02,299 --> 00:10:06,449
+an auction surely so tempting you want
+拍卖肯定很诱人
+
+196
+00:10:06,649 --> 00:10:08,250
+to bid something would you bid at least
+出价某物您至少会出价
+
+197
+00:10:08,450 --> 00:10:14,120
+$1 for the right to to win this $20 bill
+ 1美元，可赢得20美元的钞票
+
+198
+00:10:14,320 --> 00:10:17,069
+what happens if this wasn't a sealed bid
+如果这不是密封投标，会发生什么
+
+199
+00:10:17,269 --> 00:10:21,319
+auction but an ascending option and
+拍卖，但选择权上升
+
+200
+00:10:21,519 --> 00:10:25,589
+people could bid $1 and then somebody
+人们可以出价1美元，然后有人
+
+201
+00:10:25,789 --> 00:10:28,049
+could bid $2 how would you behave in
+可以出价2美元，您的行为如何
+
+202
+00:10:28,250 --> 00:10:31,049
+this auction so we've seen several
+这次拍卖，所以我们已经看到了几个
+
+203
+00:10:31,250 --> 00:10:33,929
+auction type now the English Japanese
+拍卖类型现在为英文日文
+
+204
+00:10:34,129 --> 00:10:36,750
+the Dutch sealed bid auctions they all
+荷兰人全部竞标
+
+205
+00:10:36,950 --> 00:10:39,990
+pay auction and this might suggests that
+付费拍卖，这可能表明
+
+206
+00:10:40,190 --> 00:10:41,669
+to understand the space of auctions you
+了解您的拍卖空间
+
+207
+00:10:41,870 --> 00:10:43,469
+should enumerate the different option
+应该列举不同的选择
+
+208
+00:10:43,669 --> 00:10:47,490
+types and study them but in fact the
+类型并研究它们，但实际上
+
+209
+00:10:47,690 --> 00:10:50,309
+space of auctions is infinite in an
+拍卖的空间是无限的
+
+210
+00:10:50,509 --> 00:10:52,799
+option is simply a negotiation mechanism
+选择只是一种协商机制
+
+211
+00:10:53,000 --> 00:10:58,259
+that is first market-based so that means
+首先是基于市场的，这意味着
+
+212
+00:10:58,460 --> 00:11:00,990
+that there is some sort of rules that
+有某种规则
+
+213
+00:11:01,190 --> 00:11:04,990
+govern it and typically involve
+治理它，通常涉及
+
+214
+00:11:05,190 --> 00:11:08,289
+some sort of currency of the marketplace
+某种市场货币
+
+215
+00:11:08,490 --> 00:11:11,919
+for example money it's mediated by a
+例如金钱是由
+
+216
+00:11:12,120 --> 00:11:14,859
+central authority the auctioneer and it
+中央拍卖行及其
+
+217
+00:11:15,059 --> 00:11:18,669
+has very well-defined rules that
+有非常明确的规则
+
+218
+00:11:18,870 --> 00:11:21,099
+everybody goes by and everybody knows
+每个人都经过，每个人都知道
+
+219
+00:11:21,299 --> 00:11:22,628
+that everybody goes by their common
+每个人都遵循他们的共同点
+
+220
+00:11:22,828 --> 00:11:25,389
+knowledge and the three kind of rules
+知识和三种规则
+
+221
+00:11:25,589 --> 00:11:28,118
+that we need to specify it in order to
+我们需要指定它以便
+
+222
+00:11:28,318 --> 00:11:30,519
+specify an auction there are the bidding
+指定一个拍卖会
+
+223
+00:11:30,720 --> 00:11:33,339
+rules there are the information rules
+规则有信息规则
+
+224
+00:11:33,539 --> 00:11:36,519
+and are the market clearing rules and if
+市场清算规则以及
+
+225
+00:11:36,720 --> 00:11:38,498
+you specify those you specify the
+您指定那些您指定
+
+226
+00:11:38,698 --> 00:11:43,868
+auction so what we mean by bidding rules
+拍卖，所以我们所说的竞标规则
+
+227
+00:11:44,068 --> 00:11:48,328
+we really mean who can bid when they bid
+我们的意思是说谁可以出价
+
+228
+00:11:48,528 --> 00:11:52,709
+what they can bid and some restrictions
+他们可以出价和一些限制
+
+229
+00:11:52,909 --> 00:11:58,928
+there are you know for example in an
+你知道例如
+
+230
+00:11:59,129 --> 00:12:01,118
+ascendant we had bid auction I have to
+上升，我们不得不进行拍卖
+
+231
+00:12:01,318 --> 00:12:04,959
+bid the current highest price in other
+出价其他单位的当前最高价
+
+232
+00:12:05,159 --> 00:12:09,818
+auctions I have to bid my own price we
+拍卖我必须出价自己的价格
+
+233
+00:12:10,019 --> 00:12:12,669
+may not allow people to bid arbitrarily
+可能不允许人们任意竞标
+
+234
+00:12:12,870 --> 00:12:15,308
+high we will make with some budget
+高，我们将用一些预算
+
+235
+00:12:15,509 --> 00:12:18,969
+constraints bids may have expiration
+限制条件出价可能已到期
+
+236
+00:12:19,169 --> 00:12:22,748
+dates they may may be subject to
+他们可能要遵守的日期
+
+237
+00:12:22,948 --> 00:12:25,479
+withdrawals or not and so on and so
+是否提现等等
+
+238
+00:12:25,679 --> 00:12:28,349
+forth so these are all the bidding rules
+就是这些，所有的竞标规则
+
+239
+00:12:28,549 --> 00:12:31,149
+very importantly are the information
+非常重要的是信息
+
+240
+00:12:31,350 --> 00:12:34,808
+disclosure rules and for example in a
+披露规则，例如
+
+241
+00:12:35,009 --> 00:12:40,149
+sealed bid auction we when I bid you
+密封竞标拍卖，当我竞标时我们
+
+242
+00:12:40,350 --> 00:12:42,818
+don't see my bid but do you know that I
+没有看到我的出价，但是你知道我吗
+
+243
+00:12:43,019 --> 00:12:45,429
+bid already that's a very important
+出价已经非常重要
+
+244
+00:12:45,629 --> 00:12:47,109
+information from you do you know who are
+来自您的信息，您知道谁是谁
+
+245
+00:12:47,309 --> 00:12:49,328
+the set of people who might be bidding
+可能正在竞标的人
+
+246
+00:12:49,528 --> 00:12:51,969
+so information dissemination here is
+所以这里的信息传播是
+
+247
+00:12:52,169 --> 00:12:54,488
+very critical to the market place and
+对市场非常关键， 
+
+248
+00:12:54,688 --> 00:12:57,748
+has to be explicitly specified and
+必须明确指定
+
+249
+00:12:57,948 --> 00:13:01,089
+finally when all is said and done the
+终于，当一切都说完了， 
+
+250
+00:13:01,289 --> 00:13:03,428
+bidding is done based on information
+根据信息进行投标
+
+251
+00:13:03,629 --> 00:13:06,219
+that agents do and don't have you need
+代理商需要和不需要的
+
+252
+00:13:06,419 --> 00:13:09,039
+to clear the market and market clearing
+清理市场和市场清理
+
+253
+00:13:09,240 --> 00:13:13,479
+rules are also multifaceted there's a
+规则也是多方面的
+
+254
+00:13:13,679 --> 00:13:16,709
+questions of when to clear for example
+例如何时清除的问题
+
+255
+00:13:16,909 --> 00:13:18,789
+you might clear the market
+你可能会清理市场
+
+256
+00:13:18,990 --> 00:13:20,500
+many times if you have multiple Goods
+如果您有多个商品很多次
+
+257
+00:13:20,700 --> 00:13:24,459
+you may clear the market once and
+您可能会清除市场一次， 
+
+258
+00:13:24,659 --> 00:13:26,349
+certain set of goods will be sold and
+某些商品将被出售， 
+
+259
+00:13:26,549 --> 00:13:28,229
+clear again and another set and so on
+再次清除和另一组，依此类推
+
+260
+00:13:28,429 --> 00:13:32,289
+you might for example decide when to
+例如，您可能决定何时
+
+261
+00:13:32,490 --> 00:13:36,039
+clear based on activities and so in some
+根据活动明确，因此在某些情况下
+
+262
+00:13:36,240 --> 00:13:37,779
+of the online auctions you will see that
+在网上拍卖中，您会看到
+
+263
+00:13:37,980 --> 00:13:42,939
+the auction ends at noon or after a
+拍卖在中午或
+
+264
+00:13:43,139 --> 00:13:46,508
+periods of 10 minutes of inactivity that
+闲置10分钟
+
+265
+00:13:46,708 --> 00:13:49,029
+is 10 minutes during which nobody place
+ 10分钟内没有人放置
+
+266
+00:13:49,230 --> 00:13:52,899
+any bid whichever is later it's a very
+任何出价，以较晚者为准
+
+267
+00:13:53,100 --> 00:13:57,399
+interesting market clearing rule so
+有趣的市场清算规则
+
+268
+00:13:57,600 --> 00:13:59,948
+that's the - regarding the timing then
+那是-关于时间
+
+269
+00:14:00,149 --> 00:14:01,839
+the allocation and the payment in other
+分配和其他付款
+
+270
+00:14:02,039 --> 00:14:03,399
+words you've cleared the marketing to
+您已清除行销的字词
+
+271
+00:14:03,600 --> 00:14:06,789
+say who got what who got for example in
+说出谁得到了谁，例如
+
+272
+00:14:06,990 --> 00:14:09,549
+case of a single good who got the van
+一辆面包车的单一商品的情况
+
+273
+00:14:09,750 --> 00:14:14,169
+Gogh and who pays what as we've seen may
+梵高和谁支付我们所看到的可能
+
+274
+00:14:14,370 --> 00:14:16,779
+not only be the person of one who pays
+不仅是付钱的人
+
+275
+00:14:16,980 --> 00:14:19,198
+for example in on all pay auction
+例如在所有薪酬拍卖中
+
+276
+00:14:19,399 --> 00:14:22,359
+everybody who bid phase once we
+每个竞标阶段的人
+
+277
+00:14:22,559 --> 00:14:24,279
+specified all of that we specify the
+指定了所有我们指定的
+
+278
+00:14:24,480 --> 00:14:29,480
+auction and return
+拍卖和退货
+

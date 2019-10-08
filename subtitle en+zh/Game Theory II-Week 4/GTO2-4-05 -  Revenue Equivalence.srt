@@ -1,0 +1,4650 @@
+﻿1
+00:00:00,740 --> 00:00:02,799
+this video will introduce you to the
+该视频将向您介绍
+
+2
+00:00:03,000 --> 00:00:04,629
+revenue equivalence theorem which is one
+收益等价定理之一
+
+3
+00:00:04,830 --> 00:00:06,250
+of the most important results in Option
+ Option中最重要的结果
+
+4
+00:00:06,450 --> 00:00:08,890
+theory I'll begin by stating the theorem
+理论，我将从阐述定理开始
+
+5
+00:00:09,089 --> 00:00:11,019
+and explaining why it's important I'll
+并解释为什么这很重要
+
+6
+00:00:11,218 --> 00:00:12,700
+show how we can use it to think about
+展示我们如何使用它来思考
+
+7
+00:00:12,900 --> 00:00:15,550
+first price auctions and then at the end
+首先进行价格拍卖，然后结束
+
+8
+00:00:15,750 --> 00:00:17,199
+of the video I'll prove the theorem to
+视频中，我将证明定理
+
+9
+00:00:17,399 --> 00:00:19,239
+you which is important because there's
+你很重要，因为有
+
+10
+00:00:19,439 --> 00:00:20,620
+actually a lot we can learn from the way
+实际上，我们可以从中学习很多
+
+11
+00:00:20,820 --> 00:00:25,030
+that the proof works so to begin what is
+证明有效，所以开始什么是
+
+12
+00:00:25,230 --> 00:00:27,449
+this revenue equivalence theorem well
+这个收入等价定理很好
+
+13
+00:00:27,649 --> 00:00:29,859
+most importantly it's an answer to the
+最重要的是，这是对
+
+14
+00:00:30,059 --> 00:00:31,449
+question of which auction we should
+我们应该进行哪种拍卖的问题
+
+15
+00:00:31,649 --> 00:00:33,969
+choose so far we've seen all kinds of
+选择到目前为止，我们已经看到了各种各样的
+
+16
+00:00:34,170 --> 00:00:35,799
+different auctions first price auctions
+不同的拍卖第一次价格拍卖
+
+17
+00:00:36,000 --> 00:00:39,428
+second price English Dutch it's kind of
+第二个价格是英语荷兰语
+
+18
+00:00:39,628 --> 00:00:41,349
+confusing you wonder how you should
+令您感到困惑的是您应该如何
+
+19
+00:00:41,549 --> 00:00:43,119
+actually as an auctioneer decide which
+实际上作为拍卖师决定
+
+20
+00:00:43,320 --> 00:00:46,149
+auction you should use well strangely
+拍卖你应该很好地使用
+
+21
+00:00:46,350 --> 00:00:47,619
+enough the revenue equivalence theorem
+足够的收入等价定理
+
+22
+00:00:47,820 --> 00:00:50,229
+says that to a large extent it actually
+说在很大程度上
+
+23
+00:00:50,429 --> 00:00:52,268
+doesn't matter which one you pick so
+选哪一个都没关系
+
+24
+00:00:52,469 --> 00:00:55,268
+let's see formally what it says let's
+让我们正式看看它说了什么
+
+25
+00:00:55,469 --> 00:00:56,890
+assume that we have n different
+假设我们有n个不同
+
+26
+00:00:57,090 --> 00:01:00,009
+risk-neutral agents each of whom has an
+风险中立的代理人，每个人都有一个
+
+27
+00:01:00,210 --> 00:01:01,869
+independent private valuation for the
+的独立私人估值
+
+28
+00:01:02,070 --> 00:01:04,480
+single good that's at auction and each
+拍卖中的单个商品
+
+29
+00:01:04,680 --> 00:01:06,069
+of which is drawn from a cumulative
+其中从累计
+
+30
+00:01:06,269 --> 00:01:08,918
+distribution F now we're going to
+分布F现在我们要
+
+31
+00:01:09,118 --> 00:01:10,149
+consider two different auction
+考虑两个不同的拍卖
+
+32
+00:01:10,349 --> 00:01:11,769
+mechanisms for these two similar
+这两个相似的机制
+
+33
+00:01:11,969 --> 00:01:15,399
+settings and we want to assume two
+设置，我们要假设两个
+
+34
+00:01:15,599 --> 00:01:16,869
+things about these auction mechanisms
+关于这些拍卖机制的事情
+
+35
+00:01:17,069 --> 00:01:19,750
+first of all that in equilibrium they
+首先，它们处于平衡状态
+
+36
+00:01:19,950 --> 00:01:21,730
+allocate the good in the same way all of
+以相同的方式分配商品
+
+37
+00:01:21,930 --> 00:01:23,500
+the time so for all of the different
+对于所有不同的时间
+
+38
+00:01:23,700 --> 00:01:25,179
+types that agents might actually have
+代理商可能实际拥有的类型
+
+39
+00:01:25,379 --> 00:01:28,230
+they have the same allocations and
+他们有相同的分配
+
+40
+00:01:28,430 --> 00:01:31,509
+secondly that an agent with valuation 0
+其次是一个估价为0的代理商
+
+41
+00:01:31,709 --> 00:01:33,459
+an agent with the lowest possible type
+具有最低可能类型的代理
+
+42
+00:01:33,659 --> 00:01:36,250
+would have an expected utility of 0 in
+预期效用为0 in 
+
+43
+00:01:36,450 --> 00:01:40,028
+the auction if these two properties hold
+如果这两个属性成立，则进行拍卖
+
+44
+00:01:40,228 --> 00:01:43,569
+across both of these auctions then the
+在这两次拍卖中
+
+45
+00:01:43,769 --> 00:01:45,069
+revenue equivalence theorem tells us
+收入等价定理告诉我们
+
+46
+00:01:45,269 --> 00:01:46,628
+that both auctions yield the same
+两次拍卖产生相同的结果
+
+47
+00:01:46,828 --> 00:01:49,299
+expected revenue and indeed that both
+预期收入，实际上两者
+
+48
+00:01:49,500 --> 00:01:51,369
+result in any bitter with the same
+导致任何痛苦相同
+
+49
+00:01:51,569 --> 00:01:53,590
+valuation making the same expected
+估值与预期相同
+
+50
+00:01:53,790 --> 00:01:57,308
+payment so in other words as long as two
+也就是说，只要两个
+
+51
+00:01:57,509 --> 00:01:59,469
+mechanisms allocate in the same way and
+机制分配方式相同， 
+
+52
+00:01:59,670 --> 00:02:02,198
+as long as they charge an agent with the
+只要他们向代理商收取
+
+53
+00:02:02,399 --> 00:02:04,090
+lowest possible valuation the same
+最低可能的估价不变
+
+54
+00:02:04,290 --> 00:02:07,778
+amount 0 then the rest of their payment
+金额0，然后其余的付款
+
+55
+00:02:07,978 --> 00:02:09,910
+functions have to be the same as well so
+功能也必须一样
+
+56
+00:02:10,110 --> 00:02:12,070
+you can't get extra money out of agents
+你不能从代理商那里得到额外的钱
+
+57
+00:02:12,270 --> 00:02:13,450
+without changing the
+不改变
+
+58
+00:02:13,650 --> 00:02:15,250
+ocation function or the payment of the
+定位功能或支付
+
+59
+00:02:15,449 --> 00:02:20,830
+low estate valued agent now in fact I've
+实际上，我现在已经拥有低房地产价值的经纪人
+
+60
+00:02:21,030 --> 00:02:22,420
+stated the revenue equivalence theorem
+陈述了收入等价定理
+
+61
+00:02:22,620 --> 00:02:24,489
+here in a way that's a bit narrower than
+在某种程度上比
+
+62
+00:02:24,688 --> 00:02:26,439
+I have to just to make it a bit easier
+我只需要使其变得容易一点
+
+63
+00:02:26,639 --> 00:02:29,289
+to say to you so in fact I can get
+跟你说，实际上我可以
+
+64
+00:02:29,489 --> 00:02:30,909
+beyond the independent private values
+超越独立的私人价值观
+
+65
+00:02:31,109 --> 00:02:32,890
+assumption that I've made and I can also
+我所做的假设，我也可以
+
+66
+00:02:33,090 --> 00:02:34,300
+get a bit beyond the single good
+超越单一的好处
+
+67
+00:02:34,500 --> 00:02:34,929
+assumption
+假设
+
+68
+00:02:35,128 --> 00:02:37,868
+so stating it in its full generality
+如此概括地说
+
+69
+00:02:38,068 --> 00:02:40,810
+would have been just a little bit more
+本来应该多一点
+
+70
+00:02:41,009 --> 00:02:42,700
+notationally clumsy although the proof
+尽管证明
+
+71
+00:02:42,900 --> 00:02:44,050
+that I'll give you actually holds more
+我会给你更多
+
+72
+00:02:44,250 --> 00:02:48,219
+generally okay now let's see why the
+现在基本上可以了，让我们看看为什么
+
+73
+00:02:48,419 --> 00:02:49,959
+revenue equivalence theorem is useful
+收益等价定理很有用
+
+74
+00:02:50,158 --> 00:02:51,550
+for thinking about first and second
+考虑第一和第二
+
+75
+00:02:51,750 --> 00:02:54,550
+price options to do this we need to
+为此的价格选择，我们需要
+
+76
+00:02:54,750 --> 00:02:56,439
+think about a concept called the caithe
+想一想叫caithe的概念
+
+77
+00:02:56,639 --> 00:02:58,149
+order statistic of a distribution
+分布的顺序统计
+
+78
+00:02:58,348 --> 00:03:01,689
+so the keith's order statistic is the
+所以基思的订单统计量是
+
+79
+00:03:01,889 --> 00:03:04,989
+expected value of the K largest of n
+ n的K最大的期望值
+
+80
+00:03:05,188 --> 00:03:07,810
+draws so imagine that I was to
+如此想象，我曾经
+
+81
+00:03:08,009 --> 00:03:11,230
+independently draw five times from a
+从一个独立绘制五次
+
+82
+00:03:11,430 --> 00:03:14,770
+distribution what is the expected value
+分配的期望值是多少
+
+83
+00:03:14,969 --> 00:03:18,159
+of the biggest of those draws or what is
+这些抽奖中最大的一次是什么
+
+84
+00:03:18,359 --> 00:03:20,679
+the expected value of the second-biggest
+第二大的期望值
+
+85
+00:03:20,878 --> 00:03:22,868
+of those drugs those are questions about
+在那些药物中，有关于
+
+86
+00:03:23,068 --> 00:03:24,759
+the first order and second order
+一阶和二阶
+
+87
+00:03:24,959 --> 00:03:28,509
+statistics of that distribution for K
+ K的分布统计
+
+88
+00:03:28,709 --> 00:03:31,499
+equals one and two and for N equals five
+等于一和二，对于N等于五
+
+89
+00:03:31,699 --> 00:03:35,499
+well here's a useful formula to know for
+好吧，这是一个有用的公式
+
+90
+00:03:35,699 --> 00:03:36,939
+for what we're gonna think about just
+对于我们要考虑的只是
+
+91
+00:03:37,139 --> 00:03:40,569
+now if I make n I IAD which which is to
+现在，如果我使n IIAD到
+
+92
+00:03:40,769 --> 00:03:41,920
+say independent and identically
+独立且相同地说
+
+93
+00:03:42,120 --> 00:03:45,340
+distributed draws from the uniform
+从制服分发抽奖
+
+94
+00:03:45,539 --> 00:03:48,520
+distribution over the range zero to
+分布范围从零到
+
+95
+00:03:48,719 --> 00:03:51,819
+v-max the caithe order statistic is what
+ v-max caithe订单统计量是多少
+
+96
+00:03:52,019 --> 00:03:55,560
+you see here it's this fraction
+你看这里就是这个分数
+
+97
+00:03:55,759 --> 00:03:59,598
+multiplied by V Max
+乘以V Max 
+
+98
+00:04:03,769 --> 00:04:07,240
+now using this fact directly I can
+现在直接使用这个事实，我可以
+
+99
+00:04:07,439 --> 00:04:09,399
+conclude that in a second price auction
+得出结论，在第二次价格拍卖中
+
+100
+00:04:09,598 --> 00:04:13,179
+the sellers expected revenue is this
+卖方期望的收入是这个
+
+101
+00:04:13,378 --> 00:04:16,060
+fraction and that's because I know that
+分数，因为我知道
+
+102
+00:04:16,259 --> 00:04:18,218
+in a second price auction the seller's
+在第二次价格拍卖中，卖方的
+
+103
+00:04:18,418 --> 00:04:20,379
+expected revenue is the same as the
+预期收入与
+
+104
+00:04:20,579 --> 00:04:22,028
+expected value of the second highest
+第二高的期望值
+
+105
+00:04:22,228 --> 00:04:22,689
+bidder
+投标人
+
+106
+00:04:22,889 --> 00:04:25,180
+because the seller always gets the
+因为卖方总是得到
+
+107
+00:04:25,379 --> 00:04:27,249
+expected revenue always gets the revenue
+预期收入总能获得收入
+
+108
+00:04:27,449 --> 00:04:28,840
+of the second highest bid in a second
+一秒钟内第二高的出价
+
+109
+00:04:29,040 --> 00:04:31,290
+price auction so if I just substitute in
+价格拍卖，所以，如果我只是替代
+
+110
+00:04:31,490 --> 00:04:33,670
+that's this is the expression that I get
+这就是我得到的表达
+
+111
+00:04:33,870 --> 00:04:37,930
+and you can confirm that now first and
+您现在可以先确认
+
+112
+00:04:38,129 --> 00:04:40,028
+second price auctions both satisfy the
+第二价格拍卖都满足
+
+113
+00:04:40,228 --> 00:04:41,680
+requirements of the revenue equivalence
+收入等值的要求
+
+114
+00:04:41,879 --> 00:04:46,150
+theorem it's easy to see for second
+定理很容易看出来
+
+115
+00:04:46,350 --> 00:04:49,028
+price auctions for first price auctions
+首次拍卖的价格拍卖
+
+116
+00:04:49,228 --> 00:04:50,588
+it's not quite as easy to see that they
+看到他们并不容易
+
+117
+00:04:50,788 --> 00:04:53,350
+allocate goods in the same way but as
+以相同的方式分配货物，但
+
+118
+00:04:53,550 --> 00:04:55,360
+the second price auction does but
+第二次价格拍卖会
+
+119
+00:04:55,560 --> 00:04:57,430
+basically what I want to reason is that
+基本上我想说的是
+
+120
+00:04:57,629 --> 00:04:59,290
+in a first price auction the bidder with
+在第一次价格拍卖中，投标人
+
+121
+00:04:59,490 --> 00:05:01,870
+the highest value gets the good and I
+最高的价值得到好处，我
+
+122
+00:05:02,069 --> 00:05:03,600
+can argue this essentially by saying
+基本上可以说
+
+123
+00:05:03,800 --> 00:05:06,040
+every symmetric game has a symmetric
+每个对称游戏都有一个对称
+
+124
+00:05:06,240 --> 00:05:08,588
+equilibrium a the first price auction
+平衡第一次价格拍卖
+
+125
+00:05:08,788 --> 00:05:10,088
+Bayesian game is a symmetric game
+贝叶斯游戏是对称游戏
+
+126
+00:05:10,288 --> 00:05:13,120
+because everyone's iid and so in a
+因为每个人都在玩，所以
+
+127
+00:05:13,319 --> 00:05:14,800
+symmetric equilibrium of this game a
+该游戏的对称平衡a 
+
+128
+00:05:15,000 --> 00:05:17,468
+higher valuation is gonna happen if and
+如果和
+
+129
+00:05:17,668 --> 00:05:19,270
+only if a bidder has a higher bid and
+仅当投标人具有更高的出价并且
+
+130
+00:05:19,470 --> 00:05:20,889
+that's gonna mean that the person with
+那意味着那个人
+
+131
+00:05:21,089 --> 00:05:24,300
+the highest valuation wins the auction
+最高估价赢得拍卖
+
+132
+00:05:24,500 --> 00:05:28,360
+so then I conclude that a bidder in a
+因此，我得出结论： 
+
+133
+00:05:28,560 --> 00:05:31,710
+first price auction is going to have to
+第一次价格拍卖将不得不
+
+134
+00:05:31,910 --> 00:05:34,509
+pay on expectation the same amount as
+期望支付与
+
+135
+00:05:34,709 --> 00:05:36,699
+the same bidder would pay on expectation
+相同的投标人将按预期支付
+
+136
+00:05:36,899 --> 00:05:40,120
+in a second price auction and because
+在第二次价格拍卖中，因为
+
+137
+00:05:40,319 --> 00:05:42,338
+only the winner has to pay anything in a
+只有获胜者必须在
+
+138
+00:05:42,538 --> 00:05:44,528
+first price auction that means everyone
+第一次价格拍卖意味着每个人
+
+139
+00:05:44,728 --> 00:05:46,718
+should bid they're expected payment
+应该出价他们期望的付款
+
+140
+00:05:46,918 --> 00:05:48,670
+conditional on being the winner of a
+以成为某人的获胜者为条件
+
+141
+00:05:48,870 --> 00:05:51,850
+second price auction so each bidder in a
+第二次价格拍卖，因此
+
+142
+00:05:52,050 --> 00:05:54,550
+first price auction should imagine that
+第一次价格拍卖应该想象
+
+143
+00:05:54,750 --> 00:05:57,040
+they're the highest bidder and then bid
+他们是出价最高的人，然后出价
+
+144
+00:05:57,240 --> 00:05:59,850
+the expected second highest bid
+预期第二高的出价
+
+145
+00:06:00,050 --> 00:06:02,560
+conditional and their value being the
+有条件的，其价值是
+
+146
+00:06:02,759 --> 00:06:05,310
+highest sample from the distribution and
+分布中的最高样本
+
+147
+00:06:05,509 --> 00:06:07,899
+you might think this is kind of strange
+您可能会认为这有点奇怪
+
+148
+00:06:08,098 --> 00:06:11,350
+because of all of the N bidders n minus
+因为所有N个竞标者n减
+
+149
+00:06:11,550 --> 00:06:12,670
+one of them will be wrong when they do
+其中之一会做错
+
+150
+00:06:12,870 --> 00:06:14,139
+this conditioning only one of them
+这种条件只是其中之一
+
+151
+00:06:14,339 --> 00:06:14,639
+actually
+其实
+
+152
+00:06:14,839 --> 00:06:16,079
+we'll be the highest bidder so why
+我们将成为出价最高的人，为什么
+
+153
+00:06:16,279 --> 00:06:17,400
+should they all bid as though they think
+他们是否都应该像他们认为的那样出价
+
+154
+00:06:17,600 --> 00:06:19,590
+they're the highest bidder well the
+他们是出价最高的人
+
+155
+00:06:19,790 --> 00:06:21,718
+reason this makes sense is that the only
+之所以有意义是因为
+
+156
+00:06:21,918 --> 00:06:23,370
+bidder that this matters to is the
+重要的竞标者是
+
+157
+00:06:23,569 --> 00:06:25,620
+bidder with the highest valuation and so
+估价最高的竞标者等等
+
+158
+00:06:25,819 --> 00:06:27,990
+if the bidder turns out in fact to win
+如果竞标者实际上胜出
+
+159
+00:06:28,189 --> 00:06:30,180
+the first price auction then he was
+第一次价格拍卖，然后他是
+
+160
+00:06:30,379 --> 00:06:31,590
+right to do this conditioning and
+进行此调节的权利，以及
+
+161
+00:06:31,790 --> 00:06:33,569
+otherwise his bid doesn't matter anyway
+否则，他的出价无所谓
+
+162
+00:06:33,769 --> 00:06:35,310
+and so the fact that he conditioned rung
+因此，他对梯级进行调节
+
+163
+00:06:35,509 --> 00:06:39,300
+is okay so so thinking now about the
+没关系，所以现在考虑
+
+164
+00:06:39,500 --> 00:06:41,939
+highest bidder if his valuation VI is
+最高出价者，如果他的估值VI为
+
+165
+00:06:42,139 --> 00:06:44,910
+the high value then there are n minus 1
+高值则有n减1 
+
+166
+00:06:45,110 --> 00:06:48,900
+other values which are below his and so
+其他低于他的值等等
+
+167
+00:06:49,100 --> 00:06:50,670
+all he knows is that they're drawn from
+他只知道他们是从
+
+168
+00:06:50,870 --> 00:06:53,310
+the uniform distribution on the interval
+间隔上的均匀分布
+
+169
+00:06:53,509 --> 00:06:56,400
+between zero and his bid I hear I'm
+在零到他的出价之间我听说我
+
+170
+00:06:56,600 --> 00:06:57,900
+thinking about first price options in
+考虑中的第一个价格选择
+
+171
+00:06:58,100 --> 00:07:00,680
+the case of a uniform distribution and
+均匀分布的情况下
+
+172
+00:07:00,879 --> 00:07:03,569
+thus the expected value of the second
+因此第二个的期望值
+
+173
+00:07:03,769 --> 00:07:05,819
+highest bid is going to be the first
+最高出价将是第一个
+
+174
+00:07:06,019 --> 00:07:08,670
+order statistic of n minus 1 draws from
+ n的阶次统计量减去1得出
+
+175
+00:07:08,870 --> 00:07:10,230
+this distribution we're thinking about
+我们正在考虑的分布
+
+176
+00:07:10,430 --> 00:07:11,730
+the second highest bid but we've
+第二高的出价，但我们已经
+
+177
+00:07:11,930 --> 00:07:13,319
+conditioned on the first highest bid so
+以第一高的出价为条件
+
+178
+00:07:13,519 --> 00:07:14,730
+we're now going to think about the
+我们现在要考虑
+
+179
+00:07:14,930 --> 00:07:16,650
+biggest of the draws among the remaining
+在其余的最大抽奖
+
+180
+00:07:16,850 --> 00:07:17,939
+agents that's going to be the second
+代理商将是第二个
+
+181
+00:07:18,139 --> 00:07:23,509
+highest bit and I can just substitute in
+最高的位，我可以替代
+
+182
+00:07:23,709 --> 00:07:28,259
+to this expression for the the expected
+对于预期的此表达式
+
+183
+00:07:28,459 --> 00:07:30,300
+for the first order statistic of n minus
+对于n减的一阶统计量
+
+184
+00:07:30,500 --> 00:07:32,879
+1 draws and I can substitute in n minus
+ 1次平局，我可以负n替代
+
+185
+00:07:33,079 --> 00:07:35,790
+1 into that expression and simplify and
+ 1表示该表达式，并简化和
+
+186
+00:07:35,990 --> 00:07:38,430
+what I get is this expression here and
+我得到的是这里的表达， 
+
+187
+00:07:38,629 --> 00:07:40,170
+that's something you've seen before
+那是你以前见过的东西
+
+188
+00:07:40,370 --> 00:07:42,770
+right we've claimed in the past that the
+是的，我们过去声称
+
+189
+00:07:42,970 --> 00:07:45,870
+symmetric equilibrium of a first price
+第一价格的对称均衡
+
+190
+00:07:46,069 --> 00:07:48,870
+auction is with the independent uniform
+拍卖是与独立制服
+
+191
+00:07:49,069 --> 00:07:50,850
+valuations is for all of the bidders to
+估值适用于所有投标人
+
+192
+00:07:51,050 --> 00:07:52,710
+bid n minus 1 over n times their
+出价n减去n的1倍
+
+193
+00:07:52,910 --> 00:07:55,560
+valuation and now you can see actually
+估值，现在您可以实际看到
+
+194
+00:07:55,759 --> 00:07:58,050
+where that comes from that we can
+从那里我们可以
+
+195
+00:07:58,250 --> 00:07:59,850
+actually find that by reasoning through
+实际上通过推理来发现
+
+196
+00:08:00,050 --> 00:08:01,588
+revenue equivalents so so essentially
+收入等值从本质上讲是如此
+
+197
+00:08:01,788 --> 00:08:02,819
+there's two ways of finding the
+有两种方法可以找到
+
+198
+00:08:03,019 --> 00:08:04,770
+equilibrium of an auction like a first
+像第一次拍卖一样的均衡拍卖
+
+199
+00:08:04,970 --> 00:08:06,810
+price auction the hard way is that you
+价格拍卖的难点在于你
+
+200
+00:08:07,009 --> 00:08:08,639
+do a ton of calculus to actually figure
+进行大量演算以实际计算
+
+201
+00:08:08,839 --> 00:08:11,939
+out what the equilibrium is from first
+从一开始就得出均衡是什么
+
+202
+00:08:12,139 --> 00:08:14,040
+principles that's really hard even in
+即使在
+
+203
+00:08:14,240 --> 00:08:15,150
+the case of a first price auction that
+在第一次价格拍卖的情况下
+
+204
+00:08:15,350 --> 00:08:17,879
+that's really hard the easy way is that
+这真的很难，简单的方法是
+
+205
+00:08:18,079 --> 00:08:20,790
+you guess the equilibrium by appealing
+你通过吸引来猜测平衡
+
+206
+00:08:20,990 --> 00:08:22,079
+to revenue equivalence and then you just
+到收入等值，然后
+
+207
+00:08:22,279 --> 00:08:24,028
+verify that it's an equilibrium and so
+验证这是一个平衡，所以
+
+208
+00:08:24,228 --> 00:08:25,528
+we know from revenue equivalence by
+我们从等价收入中知道
+
+209
+00:08:25,728 --> 00:08:27,209
+comparing to second price auctions that
+与第二次拍卖相比
+
+210
+00:08:27,408 --> 00:08:27,750
+are easy to
+很容易
+
+211
+00:08:27,949 --> 00:08:30,120
+analyze that the expected revenue has to
+分析预期收入必须
+
+212
+00:08:30,319 --> 00:08:32,159
+be the same and then we work through to
+一样，然后我们努力
+
+213
+00:08:32,360 --> 00:08:33,689
+figure out how bidders would have to bid
+弄清楚投标者将如何投标
+
+214
+00:08:33,889 --> 00:08:35,609
+to get that expected revenue and we
+获得预期的收入，我们
+
+215
+00:08:35,809 --> 00:08:40,019
+arrive at this expression okay well all
+到达这个表情好吧
+
+216
+00:08:40,220 --> 00:08:42,329
+that remains for this video is for me to
+这部影片剩下的就是我
+
+217
+00:08:42,529 --> 00:08:43,769
+show you how we prove the revenue
+向您展示我们如何证明收入
+
+218
+00:08:43,970 --> 00:08:46,169
+equivalence theorem so let me now do
+等价定理，让我现在做
+
+219
+00:08:46,370 --> 00:08:48,750
+that this is going to be the most
+这将是最
+
+220
+00:08:48,950 --> 00:08:50,870
+technical and advanced part of the video
+视频的技术和高级部分
+
+221
+00:08:51,070 --> 00:08:52,979
+if you find that you bogged down and
+如果您发现自己陷入困境， 
+
+222
+00:08:53,179 --> 00:08:54,809
+this is too much for you you understand
+这对您来说太多了
+
+223
+00:08:55,009 --> 00:08:55,979
+everything else you need to know about
+您需要了解的所有其他信息
+
+224
+00:08:56,179 --> 00:08:58,229
+revenue equivalence without watching the
+收入等值而不看
+
+225
+00:08:58,429 --> 00:09:00,029
+proof so you can stop watching the video
+证明，以便您可以停止观看视频
+
+226
+00:09:00,230 --> 00:09:01,919
+now but I encourage you to go on because
+现在，但我鼓励您继续，因为
+
+227
+00:09:02,120 --> 00:09:03,299
+I think this is a really cool proof
+我认为这是一个很酷的证明
+
+228
+00:09:03,500 --> 00:09:06,419
+actually I actually worked really hard
+其实我真的很努力
+
+229
+00:09:06,620 --> 00:09:07,799
+to make this part of the video for you
+为您制作视频的这一部分
+
+230
+00:09:08,000 --> 00:09:09,359
+because I really like this proof so I
+因为我真的很喜欢这个证明，所以我
+
+231
+00:09:09,559 --> 00:09:11,879
+hope you enjoy it too so so let's see
+希望你也喜欢，所以让我们看看
+
+232
+00:09:12,080 --> 00:09:14,099
+how it works we have to introduce the
+如何运作，我们必须介绍
+
+233
+00:09:14,299 --> 00:09:16,799
+idea of an X interim allocation function
+ X临时分配函数的构想
+
+234
+00:09:17,000 --> 00:09:18,959
+and an X interim payment so let's see
+和X期中付款，让我们来看一下
+
+235
+00:09:19,159 --> 00:09:21,349
+what that means well I'm going to call
+那意味着我要打电话给我
+
+236
+00:09:21,549 --> 00:09:23,519
+remember we have this choice function ax
+记得我们有这个选择功能的斧头
+
+237
+00:09:23,720 --> 00:09:25,049
+well I'm now going to have the choice
+好吧，我现在要选择
+
+238
+00:09:25,250 --> 00:09:27,870
+function X I and what I'm going to mean
+函数XI以及我的意思
+
+239
+00:09:28,070 --> 00:09:30,929
+by that is the choice function from the
+通过那是来自
+
+240
+00:09:31,129 --> 00:09:33,149
+point of view of agent I given that
+我给出的代理的观点
+
+241
+00:09:33,350 --> 00:09:36,379
+everybody else is following the
+其他人都在关注
+
+242
+00:09:36,580 --> 00:09:39,299
+equilibrium strategy profile asks for
+均衡策略简介
+
+243
+00:09:39,500 --> 00:09:41,459
+some base nash equilibrium and that age
+一些基础纳什均衡和那个年龄
+
+244
+00:09:41,659 --> 00:09:45,659
+and i has type VI so what this X I is
+我有VI型，所以这个XI是什么
+
+245
+00:09:45,860 --> 00:09:47,639
+going to give us is the probability that
+要给我们的是
+
+246
+00:09:47,840 --> 00:09:51,329
+an agent I with type VI is going to be
+我拥有VI型的特工
+
+247
+00:09:51,529 --> 00:09:54,089
+allocated the good given that everybody
+分配给每个人的好处
+
+248
+00:09:54,289 --> 00:09:57,179
+follows the equilibrium strategy s
+遵循均衡策略
+
+249
+00:09:57,379 --> 00:10:03,240
+including I and similarly P sub I is
+包括我和类似的P sub I是
+
+250
+00:10:03,440 --> 00:10:07,859
+going to be the expected payment that
+将是预期的付款
+
+251
+00:10:08,059 --> 00:10:10,709
+agent AI has to make again under the
+代理商AI必须根据
+
+252
+00:10:10,909 --> 00:10:12,000
+assumption that everyone is following
+假设每个人都在关注
+
+253
+00:10:12,200 --> 00:10:15,059
+the equilibrium strategy profile s and
+均衡策略配置文件s和
+
+254
+00:10:15,259 --> 00:10:20,599
+that agent I has type VI so here's a
+那个代理商我有VI型，所以这是一个
+
+255
+00:10:20,799 --> 00:10:22,409
+stronger theorem than the revenue
+比收益更强的定理
+
+256
+00:10:22,610 --> 00:10:24,209
+equivalence theorem but it should be
+等价定理，但应该是
+
+257
+00:10:24,409 --> 00:10:25,889
+easy to see that this implies the
+显而易见，这意味着
+
+258
+00:10:26,090 --> 00:10:27,569
+revenue equivalence theorem directly so
+收入等价定理直接这样
+
+259
+00:10:27,769 --> 00:10:30,509
+once we have this theorem we we just
+一旦有了这个定理，我们就
+
+260
+00:10:30,710 --> 00:10:31,649
+basically get the revenue equivalence
+基本取得收入等值
+
+261
+00:10:31,850 --> 00:10:34,079
+theorem for free what the revenue
+免费定理是什么收益
+
+262
+00:10:34,279 --> 00:10:35,719
+equivalence theorem tells us is that
+等价定理告诉我们， 
+
+263
+00:10:35,919 --> 00:10:37,909
+mechanisms that allocate in the same way
+以相同方式分配的机制
+
+264
+00:10:38,110 --> 00:10:40,109
+all have to have the same pain
+所有人都必须有同样的痛苦
+
+265
+00:10:40,309 --> 00:10:43,439
+function what this tells us is exactly
+函数告诉我们的正是
+
+266
+00:10:43,639 --> 00:10:45,149
+what the payment function has to be a
+付款功能必须是什么
+
+267
+00:10:45,350 --> 00:10:46,949
+little bit about how the allocation has
+关于分配的一点点
+
+268
+00:10:47,149 --> 00:10:50,069
+to work as well it really shows us
+很好地工作，这确实向我们展示了
+
+269
+00:10:50,269 --> 00:10:51,839
+exactly what the equilibrium even needs
+均衡甚至需要什么
+
+270
+00:10:52,039 --> 00:10:53,849
+to be and so as a side effect we'll see
+作为副作用，我们将看到
+
+271
+00:10:54,049 --> 00:10:54,328
+that
+那
+
+272
+00:10:54,528 --> 00:10:57,149
+that any two mechanisms that allocate in
+在其中分配的任何两种机制
+
+273
+00:10:57,350 --> 00:10:58,199
+the same way I have to have the same
+同样，我必须拥有相同的方式
+
+274
+00:10:58,399 --> 00:10:59,879
+payments but let's look at what this
+付款，但让我们看看这是什么
+
+275
+00:11:00,080 --> 00:11:01,859
+theorem says this is really kind of
+定理说这真的是
+
+276
+00:11:02,059 --> 00:11:05,219
+crucial theorem for mechanism design so
+机构设计的关键定理
+
+277
+00:11:05,419 --> 00:11:07,199
+here we're saying that when values are
+这里我们说的是当价值是
+
+278
+00:11:07,399 --> 00:11:08,578
+drawn from a continuous Joint
+取自连续关节
+
+279
+00:11:08,778 --> 00:11:10,859
+Distribution F and agents are
+分布F和代理商是
+
+280
+00:11:11,059 --> 00:11:14,309
+risk-neutral a strategy profile s is in
+风险中立的策略配置文件
+
+281
+00:11:14,509 --> 00:11:17,399
+Bayes Nash equilibrium only if the two
+仅当贝叶斯纳什均衡
+
+282
+00:11:17,600 --> 00:11:19,649
+conditions that follow are true for all
+以下条件对所有人都适用
+
+283
+00:11:19,850 --> 00:11:22,679
+agents I first of all we need
+我首先需要的代理商
+
+284
+00:11:22,879 --> 00:11:25,740
+monotonicity so each agents X interim
+单调性，因此每个代理X临时
+
+285
+00:11:25,940 --> 00:11:28,259
+allocation probability needs to be
+分配概率需要为
+
+286
+00:11:28,460 --> 00:11:30,828
+monotone non-decreasing in that agents
+该代理中的单调非减少
+
+287
+00:11:31,028 --> 00:11:34,559
+value so in other words as agents have
+价值，换句话说，就是代理
+
+288
+00:11:34,759 --> 00:11:36,750
+higher and higher values for the good
+物品的价值越来越高
+
+289
+00:11:36,950 --> 00:11:38,909
+their probability of getting the good
+他们获得利益的可能性
+
+290
+00:11:39,110 --> 00:11:40,799
+averaged across all of the other agents
+所有其他代理商的平均值
+
+291
+00:11:41,000 --> 00:11:43,049
+type as well as potentially across
+类型以及潜在的跨度
+
+292
+00:11:43,250 --> 00:11:45,629
+randomness in the mechanism itself needs
+机制本身需要随机性
+
+293
+00:11:45,830 --> 00:11:48,449
+to weakly increase so as I have higher
+弱增长，因为我有更高
+
+294
+00:11:48,649 --> 00:11:50,849
+and higher values for the good it can
+和更高的价值，它可以
+
+295
+00:11:51,049 --> 00:11:53,309
+never reduce my chance on average of
+永远不会减少我的机会
+
+296
+00:11:53,509 --> 00:11:57,539
+getting the good so that's necessary for
+得到好处，所以对于
+
+297
+00:11:57,740 --> 00:12:00,299
+a base Nash equilibrium the other thing
+基本的纳什均衡
+
+298
+00:12:00,500 --> 00:12:01,709
+that's necessary for a business
+这对企业来说是必要的
+
+299
+00:12:01,909 --> 00:12:03,629
+equilibrium is the following payment
+均衡是以下支付
+
+300
+00:12:03,830 --> 00:12:06,809
+identity and this probably looks kind of
+身份，这可能看起来有点
+
+301
+00:12:07,009 --> 00:12:08,189
+scary it's just a whole lot of math
+可怕的是很多数学
+
+302
+00:12:08,389 --> 00:12:11,279
+right so I'm saying the payment function
+对，所以我说的是付款功能
+
+303
+00:12:11,480 --> 00:12:14,009
+this.x interim expected payment that an
+ this.x的中期预期付款额
+
+304
+00:12:14,210 --> 00:12:16,889
+agent makes needs to look like this
+代理使需求看起来像这样
+
+305
+00:12:17,089 --> 00:12:19,620
+it needs to be the agents value for the
+它必须是代理商的价值
+
+306
+00:12:19,820 --> 00:12:22,169
+good x the probability that they get the
+好x他们得到的概率
+
+307
+00:12:22,370 --> 00:12:27,389
+good minus this integral the the
+好减去这个积分
+
+308
+00:12:27,589 --> 00:12:30,469
+integral from zero to VI of this
+从零到此的整数
+
+309
+00:12:30,669 --> 00:12:33,779
+eccentric allocation probability plus
+偏心分配概率加
+
+310
+00:12:33,980 --> 00:12:36,120
+the payment the expected payment that an
+付款预期的付款
+
+311
+00:12:36,320 --> 00:12:40,889
+agent of type zero gets now it's often
+现在，类型为零的代理通常
+
+312
+00:12:41,089 --> 00:12:42,089
+the case that we just want to have
+我们只想拥有的情况
+
+313
+00:12:42,289 --> 00:12:43,559
+auctions in which an agent with the
+拍卖与
+
+314
+00:12:43,759 --> 00:12:46,289
+lowest possible valuation doesn't pay
+最低的估值不付钱
+
+315
+00:12:46,490 --> 00:12:48,779
+anything and if that's true then this
+任何事情，如果那是真的，那么这
+
+316
+00:12:48,980 --> 00:12:50,309
+just goes to zero in the payment
+只是零
+
+317
+00:12:50,509 --> 00:12:50,779
+identity
+身份
+
+318
+00:12:50,980 --> 00:12:52,339
+and we get a slightly simpler expression
+我们得到一个稍微简单的表达
+
+319
+00:12:52,539 --> 00:12:54,799
+but nevertheless this integral probably
+但是尽管如此，这个积分可能
+
+320
+00:12:55,000 --> 00:12:56,328
+seems pretty mysterious to you and
+对你来说似乎很神秘， 
+
+321
+00:12:56,528 --> 00:12:58,068
+what's cool about the proof is that I
+证明最酷的是，我
+
+322
+00:12:58,269 --> 00:13:00,139
+can give you a really intuitive idea of
+可以给你一个非常直观的想法
+
+323
+00:13:00,339 --> 00:13:03,378
+where this integral comes from the final
+这个积分来自最终
+
+324
+00:13:03,578 --> 00:13:05,839
+part of the proof that is also really
+证明的一部分也确实
+
+325
+00:13:06,039 --> 00:13:07,818
+interesting is this last statement here
+有趣的是，这是最后一条语句
+
+326
+00:13:08,019 --> 00:13:12,078
+so it says if s is on 2 then the
+所以说如果s在2上，那么
+
+327
+00:13:12,278 --> 00:13:13,998
+converse holds what does that mean
+匡威是什么意思
+
+328
+00:13:14,198 --> 00:13:17,328
+well here we've said that a strategy
+在这里，我们已经说过一种策略
+
+329
+00:13:17,528 --> 00:13:19,370
+profile S is in Bayes Nash equilibrium
+轮廓S在贝叶斯纳什均衡中
+
+330
+00:13:19,570 --> 00:13:21,679
+only if these two conditions hold here
+只有这两个条件在这里成立
+
+331
+00:13:21,879 --> 00:13:23,389
+we're saying if we add the requirement
+我们是说如果我们添加要求
+
+332
+00:13:23,589 --> 00:13:25,159
+that s is on 2 which I'll explain in a
+ s在2上，我将在
+
+333
+00:13:25,360 --> 00:13:28,039
+second then it's also sufficient then
+第二个就足够了
+
+334
+00:13:28,240 --> 00:13:30,948
+these two conditions imply base Nash
+这两个条件暗示了纳什的基础
+
+335
+00:13:31,149 --> 00:13:37,219
+equilibrium so what does it mean for us
+平衡，这对我们意味着什么
+
+336
+00:13:37,419 --> 00:13:40,370
+to be on 2 it means there's some type
+在2上意味着有某种类型
+
+337
+00:13:40,570 --> 00:13:42,258
+you could have that would lead you to
+你本可以带你去
+
+338
+00:13:42,458 --> 00:13:45,938
+make any given bid so I can always
+进行任何给定的出价，这样我就可以始终
+
+339
+00:13:46,139 --> 00:13:49,039
+simulate any action that I want to take
+模拟我想采取的任何行动
+
+340
+00:13:49,240 --> 00:13:51,378
+in the game by pretending to have a
+在游戏中假装有一个
+
+341
+00:13:51,578 --> 00:13:53,809
+certain valuation so that means that I
+一定的估值，这意味着我
+
+342
+00:13:54,009 --> 00:13:55,998
+can I can get to any action in the game
+我可以在游戏中采取任何行动吗
+
+343
+00:13:56,198 --> 00:13:59,059
+by having evaluation formally we say the
+通过正式评估，我们说
+
+344
+00:13:59,259 --> 00:14:00,679
+strategy profile is on - that's all that
+战略简介已启用-仅此而已
+
+345
+00:14:00,879 --> 00:14:01,479
+means
+手段
+
+346
+00:14:01,679 --> 00:14:05,448
+so this proof proceeds in three parts
+所以这个证明分为三个部分
+
+347
+00:14:05,649 --> 00:14:09,289
+let me first say this proof follows a
+首先让我说这个证明遵循
+
+348
+00:14:09,490 --> 00:14:10,938
+really elegant proof that I'd like very
+我想要的非常优雅的证明
+
+349
+00:14:11,139 --> 00:14:13,609
+much by Jason Hartline here's a URL to
+这是Jason Hartline的很多文章
+
+350
+00:14:13,809 --> 00:14:15,529
+his book in which he introduces this
+他在书中介绍了这一点
+
+351
+00:14:15,730 --> 00:14:17,990
+proof and I also use figures adapted
+证明，我也使用改编的数字
+
+352
+00:14:18,190 --> 00:14:20,628
+from his proof with his permission so
+从他的证明，得到他的允许，所以
+
+353
+00:14:20,828 --> 00:14:22,459
+this proof has three different parts I'm
+这个证明有三个不同的部分
+
+354
+00:14:22,659 --> 00:14:23,899
+going to start with the last thing I'm
+从我最后一件事开始
+
+355
+00:14:24,100 --> 00:14:26,389
+gonna say that the strategy profile is a
+会说策略简介是
+
+356
+00:14:26,589 --> 00:14:28,698
+Bayes Nash equilibrium if the
+如果贝叶斯纳什均衡
+
+357
+00:14:28,899 --> 00:14:30,429
+monotonicity and payment identity
+单调性和付款身份
+
+358
+00:14:30,629 --> 00:14:32,899
+properties hold and furthermore s is on
+属性保持不变，并且s开启
+
+359
+00:14:33,100 --> 00:14:35,359
+- so I'm going to show that those things
+ -所以我将展示那些东西
+
+360
+00:14:35,559 --> 00:14:36,979
+suffice to give us a base Nash
+足以给我们基础纳什
+
+361
+00:14:37,179 --> 00:14:39,919
+equilibrium then I'm gonna show that
+平衡，那么我要证明
+
+362
+00:14:40,120 --> 00:14:42,618
+those two things are necessary that s is
+这两件事是必要的
+
+363
+00:14:42,818 --> 00:14:44,240
+a base Nash equilibrium only when
+基本纳什均衡仅当
+
+364
+00:14:44,440 --> 00:14:46,519
+monotonicity holds and that s is a base
+单调性成立并且s是基数
+
+365
+00:14:46,720 --> 00:14:48,078
+Nash equilibrium only when the payment
+纳什均衡只有当支付
+
+366
+00:14:48,278 --> 00:14:51,019
+identity holds I'll make a couple of
+身份持有，我会做几个
+
+367
+00:14:51,220 --> 00:14:52,779
+simplifying assumptions in this proof
+简化此证明中的假设
+
+368
+00:14:52,980 --> 00:14:54,709
+just to make it a little bit less
+只是为了少一点
+
+369
+00:14:54,909 --> 00:14:56,568
+annoying to follow I'm going to consider
+烦人的我要考虑
+
+370
+00:14:56,769 --> 00:14:58,549
+the special case where the support of
+特殊情况下
+
+371
+00:14:58,750 --> 00:15:01,339
+every agents valuation function is
+每个代理商的评估功能是
+
+372
+00:15:01,539 --> 00:15:04,588
+between 0 and infinity
+在0到无穷大之间
+
+373
+00:15:04,720 --> 00:15:05,959
+so you just have kind of arbitrary
+所以你只是有些武断
+
+374
+00:15:06,159 --> 00:15:09,769
+non-negative real-valued valuations and
+非负实值估值和
+
+375
+00:15:09,970 --> 00:15:12,618
+I'm going to assume that the the payment
+我将假设付款
+
+376
+00:15:12,818 --> 00:15:14,419
+of an agent with type over the lowest
+类型超过最低的座席
+
+377
+00:15:14,620 --> 00:15:15,948
+possible type is zero as I've mentioned
+如前所述，可能的类型为零
+
+378
+00:15:16,149 --> 00:15:19,219
+before okay
+没事之前
+
+379
+00:15:19,419 --> 00:15:21,919
+so moving on to this first part where
+所以继续到第一部分
+
+380
+00:15:22,120 --> 00:15:23,839
+I'm going to show that the
+我要证明
+
+381
+00:15:24,039 --> 00:15:26,508
+characterization and the assumption that
+表征和假设
+
+382
+00:15:26,708 --> 00:15:30,349
+Isis on 2 implies that s is it based at
+ Isis在2上表示s是基于
+
+383
+00:15:30,549 --> 00:15:34,909
+equilibrium so to begin if agent I
+如果代理人I开始均衡
+
+384
+00:15:35,110 --> 00:15:38,269
+deviates from taking action from from
+从...采取行动
+
+385
+00:15:38,470 --> 00:15:42,198
+the strategy profile s and instead takes
+策略配置文件s而取
+
+386
+00:15:42,399 --> 00:15:44,269
+the action that the strategy profile
+战略概况的行动
+
+387
+00:15:44,470 --> 00:15:46,758
+asks would have him take if his type was
+问他是否要接受他的类型
+
+388
+00:15:46,958 --> 00:15:48,649
+not VI but instead with some other type
+不是VI，而是其他类型
+
+389
+00:15:48,850 --> 00:15:52,428
+VI hat then what would a jedi's utility
+ VI帽子那么绝地的效用是什么
+
+390
+00:15:52,629 --> 00:15:55,219
+be well we can write an expression here
+好吧，我们可以在这里写一个表达式
+
+391
+00:15:55,419 --> 00:15:57,378
+so I'm gonna first of all introduce some
+所以我首先要介绍一些
+
+392
+00:15:57,578 --> 00:16:00,558
+notation I'm going to say I'm gonna use
+符号，我要说的是我会用
+
+393
+00:16:00,759 --> 00:16:04,308
+this notation u sub I comma VI to mean
+我用逗号VI表示这个表示法
+
+394
+00:16:04,509 --> 00:16:09,078
+the utility of an agent I whose real
+我的代理人的效用
+
+395
+00:16:09,278 --> 00:16:15,289
+type is VI when he reports the type of V
+他报告V的类型时，类型为VI 
+
+396
+00:16:15,490 --> 00:16:18,828
+hat I and when everyone including him
+帽子我，包括他在内的所有人
+
+397
+00:16:19,028 --> 00:16:22,099
+then follows the strategy profile s and
+然后遵循策略配置文件s和
+
+398
+00:16:22,299 --> 00:16:23,149
+what I mean by him following the
+我的意思是他跟随
+
+399
+00:16:23,350 --> 00:16:25,188
+strategy profile as is that he he kind
+策略简介，因为他很友善
+
+400
+00:16:25,389 --> 00:16:27,229
+of lies to himself he applies the
+谎言对他自己适用
+
+401
+00:16:27,429 --> 00:16:30,169
+strategy profile s to his in correct
+他的策略简介正确
+
+402
+00:16:30,370 --> 00:16:36,108
+type V hat I so so this is kind of the
+我是V型帽子，所以这有点
+
+403
+00:16:36,308 --> 00:16:39,799
+accent from expected utility of agent I
+代理商I预期效用的重音
+
+404
+00:16:40,000 --> 00:16:41,899
+for kind of misreporting his type in the
+对于那种在类型中误报他的类型
+
+405
+00:16:42,100 --> 00:16:45,378
+strategy profile and so what is that
+战略概况，那是什么
+
+406
+00:16:45,578 --> 00:16:49,279
+expected utility well it's the utility
+期望的效用是它的效用
+
+407
+00:16:49,480 --> 00:16:52,729
+that he gets from getting the good - the
+他从获得好处中得到- 
+
+408
+00:16:52,929 --> 00:16:55,878
+payment that he has to make so what is
+他必须付款的原因是什么
+
+409
+00:16:56,078 --> 00:16:57,589
+the utility of if he gets from consuming
+他从消费中得到的效用
+
+410
+00:16:57,789 --> 00:17:01,758
+the good well he he gets here I use his
+他到达这里的好习惯，我用他的
+
+411
+00:17:01,958 --> 00:17:03,229
+real valuation because if he actually
+实际估值，因为如果他实际上
+
+412
+00:17:03,429 --> 00:17:05,299
+gets the good he values it according to
+得到好的，他根据
+
+413
+00:17:05,500 --> 00:17:06,919
+his real valuation not according to the
+他的实际估值不符合
+
+414
+00:17:07,119 --> 00:17:10,190
+lie that he told but the probability
+他告诉他的谎言，但概率
+
+415
+00:17:10,390 --> 00:17:12,049
+that he gets the good is going to depend
+他得到的好处将取决于
+
+416
+00:17:12,250 --> 00:17:14,409
+on his declaration so he's going to have
+在他的宣言上，所以他将有
+
+417
+00:17:14,609 --> 00:17:17,259
+the the allocation probability of an
+一个人的分配概率
+
+418
+00:17:17,459 --> 00:17:20,499
+agent with type V hat I but then he's
+我有V型帽子的特工，但他是
+
+419
+00:17:20,699 --> 00:17:22,269
+going to have the utility for getting
+将拥有该实用程序
+
+420
+00:17:22,470 --> 00:17:25,659
+the good of an agent of type VI and his
+第六类代理人的利益及其
+
+421
+00:17:25,859 --> 00:17:27,190
+payment is of course gonna be the
+付款当然是
+
+422
+00:17:27,390 --> 00:17:29,559
+payment of an agent of type V hat I
+支付给我V型帽子代理人的费用
+
+423
+00:17:29,759 --> 00:17:30,698
+because that's what he will have
+因为那就是他所拥有的
+
+424
+00:17:30,898 --> 00:17:35,440
+declared to the mechanism and I note
+声明给机制，我注意到
+
+425
+00:17:35,640 --> 00:17:37,959
+that as I was just saying before it's
+就像我刚才说的那样
+
+426
+00:17:38,159 --> 00:17:40,240
+possible for agent I to play any action
+特工我可以采取任何行动
+
+427
+00:17:40,440 --> 00:17:43,299
+by by behaving in this way because of
+通过这样表现
+
+428
+00:17:43,500 --> 00:17:45,369
+our assumption that S is on too so so by
+我们假设S也是如此
+
+429
+00:17:45,569 --> 00:17:47,619
+you can find some V hat I which will
+你可以找到一些V帽我
+
+430
+00:17:47,819 --> 00:17:49,358
+correspond to any action in the game any
+对应游戏中的任何动作
+
+431
+00:17:49,558 --> 00:17:52,139
+one of the real values in the interval
+间隔中的实际值之一
+
+432
+00:17:52,339 --> 00:17:55,479
+so what does it mean men for a strategy
+那么，对于战略男人来说意味着什么
+
+433
+00:17:55,679 --> 00:17:57,639
+profile asked to be in base nash
+要求配置文件为基础纳什
+
+434
+00:17:57,839 --> 00:17:58,379
+equilibrium
+平衡
+
+435
+00:17:58,579 --> 00:18:02,108
+well it means that agent i is best
+好吧，这意味着代理商我是最好的
+
+436
+00:18:02,308 --> 00:18:05,198
+responding by reporting his true type to
+通过报告他的真实类型来回应
+
+437
+00:18:05,398 --> 00:18:07,838
+his own strategy profile rather than
+他自己的策略简介而不是
+
+438
+00:18:08,038 --> 00:18:10,389
+kind of lying to himself sort of like we
+对自己撒谎有点像我们
+
+439
+00:18:10,589 --> 00:18:12,490
+saw in the revelation principle so in
+看到启示的原理，所以在
+
+440
+00:18:12,690 --> 00:18:16,318
+other words his expected utility for
+换句话说，他的预期效用
+
+441
+00:18:16,519 --> 00:18:19,930
+actually using his true type has to be
+实际上使用他的真实类型必须是
+
+442
+00:18:20,130 --> 00:18:23,289
+at least as big as his expected utility
+至少和他预期的效用一样大
+
+443
+00:18:23,490 --> 00:18:26,139
+for lying to himself and reporting a
+对自己撒谎并报告
+
+444
+00:18:26,339 --> 00:18:27,490
+different type to the strategy profile
+与策略配置文件不同的类型
+
+445
+00:18:27,690 --> 00:18:32,078
+if that's true for all agents and for
+如果对所有代理商和
+
+446
+00:18:32,278 --> 00:18:34,629
+all values that the agent might have and
+座席可能具有的所有价值以及
+
+447
+00:18:34,829 --> 00:18:37,509
+all lies that he might tell then we have
+他可能会告诉我们的所有谎言
+
+448
+00:18:37,710 --> 00:18:42,039
+a base nash equilibria okay well now's
+基本的纳什均衡现在好了
+
+449
+00:18:42,240 --> 00:18:43,688
+the fun part it turns out we can prove
+有趣的部分证明我们可以证明
+
+450
+00:18:43,888 --> 00:18:46,858
+this almost entirely using pictures so
+这几乎完全使用图片，所以
+
+451
+00:18:47,058 --> 00:18:49,139
+let's start by considering some
+让我们开始考虑一些
+
+452
+00:18:49,339 --> 00:18:52,299
+arbitrary and monotonic allocation rule
+任意单调分配规则
+
+453
+00:18:52,500 --> 00:18:53,740
+I mean assume I'm assuming it's
+我的意思是假设我假设它是
+
+454
+00:18:53,940 --> 00:18:55,779
+monotonic because recall the assumption
+单调的，因为回忆假设
+
+455
+00:18:55,980 --> 00:18:56,649
+of our proof is that the
+我们的证明是
+
+456
+00:18:56,849 --> 00:18:58,719
+characterization holds and half of the
+表征成立，一半
+
+457
+00:18:58,919 --> 00:19:00,519
+characterization is that the allocation
+表征是分配
+
+458
+00:19:00,720 --> 00:19:02,948
+rule is monotonic so let's think about
+规则是单调的，让我们考虑一下
+
+459
+00:19:03,148 --> 00:19:06,068
+what this picture says here on the x
+这张图片在x上说了什么
+
+460
+00:19:06,269 --> 00:19:08,828
+axis I have the valuation that an agent
+轴我有一个代理商的估值
+
+461
+00:19:09,028 --> 00:19:10,568
+might have so this is the lowest
+可能有，所以这是最低的
+
+462
+00:19:10,769 --> 00:19:13,438
+possible valuation and this is
+可能的估值，这是
+
+463
+00:19:13,638 --> 00:19:16,209
+infinitely big valuation as we go far
+我们走得更远，估值无限大
+
+464
+00:19:16,409 --> 00:19:20,078
+enough out and what and this is the
+足够了，这是什么
+
+465
+00:19:20,278 --> 00:19:24,938
+probability of getting the good so if
+获得利益的可能性，如果
+
+466
+00:19:25,138 --> 00:19:26,588
+the agent reports the lowest possible
+代理报告可能的最低值
+
+467
+00:19:26,788 --> 00:19:27,710
+valuation
+估价
+
+468
+00:19:27,910 --> 00:19:30,169
+doesn't win the good and because this
+不能赢得好处，因为这
+
+469
+00:19:30,369 --> 00:19:33,200
+rule is monotonic as he reports higher
+他报告更高时，规则是单调的
+
+470
+00:19:33,400 --> 00:19:35,690
+in higher valuations he has an
+在较高的估值中，他有一个
+
+471
+00:19:35,890 --> 00:19:37,819
+increasing chance of getting the good it
+获得好处的机会增加
+
+472
+00:19:38,019 --> 00:19:40,309
+can flatten out and stay level it can go
+可以拉平并保持水平
+
+473
+00:19:40,509 --> 00:19:42,529
+up it can go up gradually it can go up
+它可以逐渐上升
+
+474
+00:19:42,730 --> 00:19:44,809
+just continuously and if it ever hits
+只是连续不断，如果有的话
+
+475
+00:19:45,009 --> 00:19:47,899
+one it has to stay at one because it's
+它必须停留在一个，因为它是
+
+476
+00:19:48,099 --> 00:19:51,470
+monotonic and so the there of course it
+单调的，所以当然有
+
+477
+00:19:51,670 --> 00:19:52,579
+doesn't have to ever hit one it could
+不必打一个就可以了
+
+478
+00:19:52,779 --> 00:19:54,139
+just gradually ramp up but if it ever
+只是逐渐增加，但如果有的话
+
+479
+00:19:54,339 --> 00:19:56,480
+hits one as I've drawn it here and then
+我在这里画的时候打了一个
+
+480
+00:19:56,680 --> 00:19:58,309
+for all values beyond that point it has
+对于超出该点的所有值
+
+481
+00:19:58,509 --> 00:20:01,190
+to stay at one so I'm not gonna make any
+留在一个，所以我不会做任何
+
+482
+00:20:01,390 --> 00:20:03,049
+assumptions about what this function
+关于此功能的假设
+
+483
+00:20:03,250 --> 00:20:05,000
+looks like I accepted that it's
+看起来我接受了
+
+484
+00:20:05,200 --> 00:20:08,960
+monotonic okay
+单调还可以
+
+485
+00:20:09,160 --> 00:20:11,419
+so now let's think about first of all
+所以现在让我们首先考虑
+
+486
+00:20:11,619 --> 00:20:14,599
+agent i's value for consuming the good
+代理商我是消费商品的价值
+
+487
+00:20:14,799 --> 00:20:15,950
+just what i talked about before
+就是我之前所说的
+
+488
+00:20:16,150 --> 00:20:17,839
+remember that his utility has two parts
+记住，他的工具有两个部分
+
+489
+00:20:18,039 --> 00:20:20,899
+his value for consuming the good and the
+他在消费商品和
+
+490
+00:20:21,099 --> 00:20:23,329
+payment that he has to make so first of
+他必须先支付的款项
+
+491
+00:20:23,529 --> 00:20:25,460
+all let's think about his value well as
+所有让我们考虑一下他的价值，以及
+
+492
+00:20:25,660 --> 00:20:28,819
+I argued before this is his value for
+我认为这是他的价值所在
+
+493
+00:20:29,019 --> 00:20:30,619
+telling the truth for for playing
+说出玩的真相
+
+494
+00:20:30,819 --> 00:20:33,950
+truthfully where he he reports his own
+说实话他报告自己的地方
+
+495
+00:20:34,150 --> 00:20:36,039
+true value to the strategy profile and
+对战略概况的真正价值
+
+496
+00:20:36,240 --> 00:20:40,220
+this is his value for consuming the good
+这是他消费商品的价值
+
+497
+00:20:40,420 --> 00:20:43,579
+when he has kind of lied to himself and
+当他对自己撒谎时
+
+498
+00:20:43,779 --> 00:20:44,299
+so he gets a different allocation
+所以他得到了不同的分配
+
+499
+00:20:44,500 --> 00:20:46,430
+probability so let's think about what
+概率，所以让我们考虑一下
+
+500
+00:20:46,630 --> 00:20:47,859
+those things look like on the picture
+那些东西看起来像在图片上
+
+501
+00:20:48,059 --> 00:20:50,629
+well notice that these expressions are
+请注意，这些表达式是
+
+502
+00:20:50,829 --> 00:20:54,919
+products it's a value multiplied by an
+产品是价值乘以
+
+503
+00:20:55,119 --> 00:20:57,379
+allocation probability so we can see
+分配概率，所以我们可以看到
+
+504
+00:20:57,579 --> 00:20:59,990
+that kind of in the picture as a
+图片中的那种
+
+505
+00:21:00,190 --> 00:21:02,930
+rectangle where it's the area of this
+这是此区域的矩形
+
+506
+00:21:03,130 --> 00:21:05,089
+shape here's the valuation right this
+形状是这里的估值
+
+507
+00:21:05,289 --> 00:21:07,159
+distance here is the valuation it goes
+这里的距离就是它的估值
+
+508
+00:21:07,359 --> 00:21:11,269
+from zero to VI and this distance here
+从零到VI，这个距离在这里
+
+509
+00:21:11,470 --> 00:21:14,000
+is the allocation probability it goes
+是分配的概率
+
+510
+00:21:14,200 --> 00:21:19,609
+from zero to X I of VI givenness and so
+从零到VI给定的XI等
+
+511
+00:21:19,809 --> 00:21:24,409
+this whole shaded region here is that
+这整个阴影区域是
+
+512
+00:21:24,609 --> 00:21:26,839
+product so the area of that region is
+产品，因此该区域的面积为
+
+513
+00:21:27,039 --> 00:21:32,529
+the product V I times X I've VI given us
+产品VI乘以X我已给我们VI 
+
+514
+00:21:32,730 --> 00:21:34,639
+what about in the case where he doesn't
+如果他不这样做怎么办
+
+515
+00:21:34,839 --> 00:21:37,759
+tell the truth to himself well for this
+为此，对自己说实话
+
+516
+00:21:37,960 --> 00:21:40,549
+proof I'm going to assume that the agent
+证明我将假设代理
+
+517
+00:21:40,750 --> 00:21:41,119
+is considered
+被认为
+
+518
+00:21:41,319 --> 00:21:43,039
+reporting a lower type than his true
+报告的类型比他的真实情况低
+
+519
+00:21:43,240 --> 00:21:46,970
+type you leave it as an exercise for you
+输入您将其保留为练习
+
+520
+00:21:47,170 --> 00:21:48,980
+to do the reverse proof where he
+在他做反向证明的地方
+
+521
+00:21:49,180 --> 00:21:50,899
+considers reporting a higher type but
+考虑报告较高的类型，但
+
+522
+00:21:51,099 --> 00:21:52,399
+it's very much the same argument so it
+这是几乎相同的论点，所以
+
+523
+00:21:52,599 --> 00:21:54,259
+should be easy for you to to check your
+应该很容易让您检查您的
+
+524
+00:21:54,460 --> 00:21:55,819
+understanding by trying to run the proof
+通过尝试运行证明来理解
+
+525
+00:21:56,019 --> 00:21:59,930
+in the other way so when I assume that
+换句话说，当我假设
+
+526
+00:22:00,130 --> 00:22:04,879
+the value V hat I is lower because of my
+因为我的价值，我的V帽价值较低
+
+527
+00:22:05,079 --> 00:22:05,990
+assumption that the function is
+假设函数是
+
+528
+00:22:06,190 --> 00:22:09,109
+monotonic that means that this point
+单调的，这意味着这一点
+
+529
+00:22:09,309 --> 00:22:10,940
+here is going to be lower than this
+这将低于这个
+
+530
+00:22:11,140 --> 00:22:13,519
+point here the pointed V hat I as
+指向这里尖的V帽
+
+531
+00:22:13,720 --> 00:22:16,309
+compared to the pointed V I and so that
+比较尖的VI，这样
+
+532
+00:22:16,509 --> 00:22:18,500
+means that this corresponding point on
+表示该对应点在
+
+533
+00:22:18,700 --> 00:22:20,869
+the y axis is going to be lower than
+ y轴将低于
+
+534
+00:22:21,069 --> 00:22:24,019
+this point was over here and all of that
+这一点就在这里，所有这些
+
+535
+00:22:24,220 --> 00:22:26,960
+means that the area of this rectangle
+表示此矩形的面积
+
+536
+00:22:27,160 --> 00:22:29,690
+here is going to be smaller and and it
+这将变得更小，它
+
+537
+00:22:29,890 --> 00:22:33,230
+also means that this this corner of the
+也意味着这个角落
+
+538
+00:22:33,430 --> 00:22:34,849
+rectangle is not going to touch the line
+矩形不会碰线
+
+539
+00:22:35,049 --> 00:22:37,389
+the way that it does here that's fine
+这样做的方式很好
+
+540
+00:22:37,589 --> 00:22:40,609
+okay so so what we've seen so far is
+好，所以到目前为止我们所看到的是
+
+541
+00:22:40,809 --> 00:22:41,750
+we've kind of learned how to look at
+我们已经学会了如何看待
+
+542
+00:22:41,950 --> 00:22:43,909
+these pictures and we've seen that the
+这些图片，我们已经看到
+
+543
+00:22:44,109 --> 00:22:46,399
+area of these two rectangles is the
+这两个矩形的面积是
+
+544
+00:22:46,599 --> 00:22:49,759
+expected utility that the agent gets for
+代理获得的预期效用
+
+545
+00:22:49,960 --> 00:22:52,250
+consuming the good his true value in
+消耗商品的真实价值
+
+546
+00:22:52,450 --> 00:22:54,740
+both cases VI multiplied by the
+两种情况VI乘以
+
+547
+00:22:54,940 --> 00:22:57,139
+allocation probability which depends on
+分配概率取决于
+
+548
+00:22:57,339 --> 00:22:59,299
+whether he's reporting his true type or
+他是在报告自己的真实类型还是
+
+549
+00:22:59,500 --> 00:23:04,490
+reporting some lower type V hat I okay
+我报告一些较低的V型帽子
+
+550
+00:23:04,690 --> 00:23:05,629
+well that's so that was consuming the
+那么那是在消耗
+
+551
+00:23:05,829 --> 00:23:07,639
+good now let's think about the payment
+好了，现在让我们考虑付款
+
+552
+00:23:07,839 --> 00:23:09,079
+that that he has to make to the
+他必须对
+
+553
+00:23:09,279 --> 00:23:12,769
+mechanism well again we're assuming that
+再次很好，我们假设
+
+554
+00:23:12,970 --> 00:23:14,509
+this characterization holds and that
+这个特征成立，并且
+
+555
+00:23:14,710 --> 00:23:16,519
+means that we're assuming that this
+表示我们假设
+
+556
+00:23:16,720 --> 00:23:18,440
+payment identity is true
+付款身份为真
+
+557
+00:23:18,640 --> 00:23:21,609
+I remember the payment identity had a a
+我记得付款身份有一个
+
+558
+00:23:21,809 --> 00:23:25,309
+p0 in here but we don't have to worry
+ p0在这里，但我们不必担心
+
+559
+00:23:25,509 --> 00:23:27,589
+about the p0 because what we've assumed
+关于p0，因为我们假设
+
+560
+00:23:27,789 --> 00:23:33,950
+that it's 0 oh pardon me um okay so so
+那是0哦，对不起，我很好，所以
+
+561
+00:23:34,150 --> 00:23:35,599
+what is this so now it's time to think
+这是什么，现在该考虑
+
+562
+00:23:35,799 --> 00:23:38,659
+about this kind of crazy integral so so
+关于这种疯狂的积分，所以
+
+563
+00:23:38,859 --> 00:23:39,950
+how let's actually think about what the
+我们如何真正思考
+
+564
+00:23:40,150 --> 00:23:42,349
+payment identity is well this first term
+第一个学期的付款身份很好
+
+565
+00:23:42,549 --> 00:23:44,210
+here is the one that we've been thinking
+这是我们一直在思考的那个
+
+566
+00:23:44,410 --> 00:23:46,879
+about all along right that's the area of
+一直以来，这就是
+
+567
+00:23:47,079 --> 00:23:54,319
+the rectangle right VI x x
+矩形右侧VI xx 
+
+568
+00:23:54,519 --> 00:23:58,279
+VI given s which is that so it's that
+ VI给出s就是这样
+
+569
+00:23:58,480 --> 00:24:00,139
+whole shaded region that we just looked
+我们刚刚看过的整个阴影区域
+
+570
+00:24:00,339 --> 00:24:04,039
+at on the previous slide now what are we
+现在在上一张幻灯片上，我们是什么
+
+571
+00:24:04,240 --> 00:24:08,119
+subtracting here this is the integral
+在这里减去这是积分
+
+572
+00:24:08,319 --> 00:24:16,519
+from zero to V I of X I of Z given s so
+从零到Z的XI的VI给定s 
+
+573
+00:24:16,720 --> 00:24:18,769
+in other words it's the area underneath
+换句话说就是它下面的区域
+
+574
+00:24:18,970 --> 00:24:22,899
+this allocation curve it's all of that
+分配曲线就是全部
+
+575
+00:24:23,099 --> 00:24:26,769
+so the payment is the whole rectangle
+所以付款是整个矩形
+
+576
+00:24:26,970 --> 00:24:31,039
+minus this stripey region here and of
+减去这里和这里的条纹区域
+
+577
+00:24:31,240 --> 00:24:33,950
+course that's the the gray region that
+当然那是灰色地带
+
+578
+00:24:34,150 --> 00:24:36,649
+I'm showing you on the slide so the
+我在幻灯片上向您展示，所以
+
+579
+00:24:36,849 --> 00:24:39,829
+agents expected payment is the part of
+代理商期望的付款是一部分
+
+580
+00:24:40,029 --> 00:24:41,569
+that rectangle that I showed you which
+我给你看的那个矩形
+
+581
+00:24:41,769 --> 00:24:44,809
+lies above the curve well that's kind of
+恰好位于曲线上方
+
+582
+00:24:45,009 --> 00:24:50,809
+interesting whoops okay so then I can
+有趣的呐喊好吧，那么我可以
+
+583
+00:24:51,009 --> 00:24:53,389
+put those two things together and figure
+将这两件事放在一起并计算
+
+584
+00:24:53,589 --> 00:24:55,369
+out what the agents expected utility is
+找出代理商期望的效用
+
+585
+00:24:55,569 --> 00:24:58,279
+for playing as though his type was VI
+就像他的类型是VI 
+
+586
+00:24:58,480 --> 00:25:00,589
+and playing as though his type was VI
+好像他的类型是VI 
+
+587
+00:25:00,789 --> 00:25:02,569
+hat given that in fact his type really
+考虑到实际上他的类型
+
+588
+00:25:02,769 --> 00:25:06,440
+is VI and so well remember that the
+是VI，所以请记住
+
+589
+00:25:06,640 --> 00:25:08,980
+expression for this expected utility is
+此预期效用的表达式是
+
+590
+00:25:09,180 --> 00:25:12,409
+simply the value for consuming the good
+仅仅是消费商品的价值
+
+591
+00:25:12,609 --> 00:25:15,169
+which as we saw before whoops is the
+正如我们在呐喊之前所看到的
+
+592
+00:25:15,369 --> 00:25:20,899
+rectangle minus the payment identity
+矩形减去付款身份
+
+593
+00:25:21,099 --> 00:25:23,210
+which as we saw before is the part of
+正如我们之前所见，这是
+
+594
+00:25:23,410 --> 00:25:24,799
+the rectangle that lives above the line
+线上方的矩形
+
+595
+00:25:25,000 --> 00:25:29,509
+and so this difference then is the area
+所以这个差异就是面积
+
+596
+00:25:29,710 --> 00:25:31,940
+that lies below the line so that's the
+它位于线下，所以
+
+597
+00:25:32,140 --> 00:25:33,379
+amount of utility that the agent would
+代理会产生的效用数量
+
+598
+00:25:33,579 --> 00:25:36,649
+get and you can see that these two
+得到，你可以看到这两个
+
+599
+00:25:36,849 --> 00:25:39,799
+pictures are pretty similar they're
+图片非常相似
+
+600
+00:25:40,000 --> 00:25:42,049
+they're both this area under the curve
+他们都是曲线下的这个区域
+
+601
+00:25:42,250 --> 00:25:44,990
+they both go up to VI but the difference
+他们俩都升至VI，但差异
+
+602
+00:25:45,190 --> 00:25:46,549
+is that this one kind of gets clipped
+是这种被剪裁的
+
+603
+00:25:46,750 --> 00:25:49,339
+off at this lower allocation probability
+以较低的分配概率关闭
+
+604
+00:25:49,539 --> 00:25:51,230
+here which we kind of correspond to
+在这里我们有点对应
+
+605
+00:25:51,430 --> 00:25:53,450
+about here whereas this one goes a bit
+在这里，而这个有点
+
+606
+00:25:53,650 --> 00:25:57,859
+higher and indeed if I then think about
+更高，如果我再考虑
+
+607
+00:25:58,059 --> 00:26:01,159
+the utility difference the the utility
+效用差异效用
+
+608
+00:26:01,359 --> 00:26:03,470
+then the difference in utility between
+那么效用之间的差异
+
+609
+00:26:03,670 --> 00:26:05,509
+telling telling the truth really playing
+讲真话实话
+
+610
+00:26:05,710 --> 00:26:07,639
+as as the TrueType and
+与TrueType和
+
+611
+00:26:07,839 --> 00:26:09,139
+the utility of playing as though you had
+仿佛您玩过的实用程序
+
+612
+00:26:09,339 --> 00:26:11,569
+a different type that's going to be this
+不同的类型将是这样
+
+613
+00:26:11,769 --> 00:26:14,990
+amount here and what's important the
+数量在这里，重要的是
+
+614
+00:26:15,190 --> 00:26:16,669
+thing that we have done all of this in
+我们已经完成了所有这些工作的事情
+
+615
+00:26:16,869 --> 00:26:18,950
+order to reason to ourselves is that
+为了推理自己是
+
+616
+00:26:19,150 --> 00:26:21,680
+this is a positive number and the fact
+这是一个正数，事实
+
+617
+00:26:21,880 --> 00:26:25,279
+that it is an actual area in our graph
+这是我们图中的实际区域
+
+618
+00:26:25,480 --> 00:26:28,190
+that it has positive area goes to show
+它有积极的领域去表明
+
+619
+00:26:28,390 --> 00:26:31,848
+that it's a positive number and because
+这是一个正数，因为
+
+620
+00:26:32,048 --> 00:26:34,490
+of monotonicity really the result that
+单调性的结果
+
+621
+00:26:34,690 --> 00:26:37,159
+made this true is that this point here
+做到这一点是这里
+
+622
+00:26:37,359 --> 00:26:38,990
+has to be weakly lower than this point
+必须弱于此点
+
+623
+00:26:39,190 --> 00:26:40,909
+here it would have been possible for the
+在这里，对于
+
+624
+00:26:41,109 --> 00:26:43,009
+function to be flat here in that region
+在该区域的功能保持平坦
+
+625
+00:26:43,210 --> 00:26:45,649
+and if it was then this number would be
+如果是，那么这个数字将是
+
+626
+00:26:45,849 --> 00:26:48,139
+zero rather than being positive but it
+零而不是积极的，但它
+
+627
+00:26:48,339 --> 00:26:50,029
+can never be negative the only way that
+永远不会否定的唯一方式
+
+628
+00:26:50,230 --> 00:26:51,078
+it could be negative would be if the
+这可能是负面的，如果
+
+629
+00:26:51,278 --> 00:26:52,940
+function went down and the function is
+功能下降，功能是
+
+630
+00:26:53,140 --> 00:26:54,379
+not allowed to go down by monotonicity
+不允许单调下降
+
+631
+00:26:54,579 --> 00:26:59,299
+and so so that tells us that this
+因此，这告诉我们
+
+632
+00:26:59,500 --> 00:27:02,838
+utility difference is always going to be
+效用差异永远是
+
+633
+00:27:03,038 --> 00:27:05,838
+non-negative and remember we argued
+非负的，记得我们争论过
+
+634
+00:27:06,038 --> 00:27:09,559
+before that as long as this number is
+在此之前，只要这个数字是
+
+635
+00:27:09,759 --> 00:27:11,149
+greater than or equal to this number
+大于或等于此数字
+
+636
+00:27:11,349 --> 00:27:13,789
+then s is a based on Calibri and so what
+那么s是基于Calibri的，那么
+
+637
+00:27:13,990 --> 00:27:15,919
+we've just argued is that indeed that's
+我们只是在争论那确实是
+
+638
+00:27:16,119 --> 00:27:20,659
+true so so the characterisation plus our
+是的，所以特征加上我们的
+
+639
+00:27:20,859 --> 00:27:23,419
+assumption that s is on - allows us to
+假设s开启-允许我们
+
+640
+00:27:23,619 --> 00:27:25,369
+reason that s is a base nash equilibrium
+ s是基础纳什均衡的原因
+
+641
+00:27:25,569 --> 00:27:27,169
+so that's a really powerful thing we've
+所以这是我们真正强大的一件事
+
+642
+00:27:27,369 --> 00:27:28,759
+just seen something very structural
+刚刚看到一些非常结构化的东西
+
+643
+00:27:28,960 --> 00:27:30,979
+about what the base nash equilibrium of
+关于什么基础纳什均衡
+
+644
+00:27:31,179 --> 00:27:32,569
+a quasi linear mechanism has to look
+拟线性机制必须看
+
+645
+00:27:32,769 --> 00:27:36,379
+like ok now let's do the sufficient
+好的，现在让我们做足够的
+
+646
+00:27:36,579 --> 00:27:41,029
+conditions so now i want to say that s
+条件，所以现在我想说
+
+647
+00:27:41,230 --> 00:27:43,240
+being a base nash equilibrium implies
+作为基础纳什均衡意味着
+
+648
+00:27:43,440 --> 00:27:50,448
+that monotonicity has to hold ok so so
+单调性必须保持不变
+
+649
+00:27:50,648 --> 00:27:52,309
+again I'm going to make the same kind of
+再次，我将做同样的
+
+650
+00:27:52,509 --> 00:27:54,740
+argument that I made before that having
+我在那之前提出的论点
+
+651
+00:27:54,940 --> 00:27:56,448
+a base nash equilibrium implies that for
+基本纳什均衡意味着
+
+652
+00:27:56,648 --> 00:27:57,948
+all valuations that the agents could
+代理商可以进行的所有估值
+
+653
+00:27:58,148 --> 00:28:01,159
+have and all other valuations that they
+以及他们拥有的所有其他估值
+
+654
+00:28:01,359 --> 00:28:03,559
+could pretend to have the utility that
+可能假装具有该实用程序
+
+655
+00:28:03,759 --> 00:28:08,930
+agent i gets on expectation from really
+代理商，我真的期望
+
+656
+00:28:09,130 --> 00:28:11,509
+having valuation VI and playing as
+具有估值VI并以
+
+657
+00:28:11,710 --> 00:28:13,879
+though he has valuation VI is at least
+尽管他的估值VI至少是
+
+658
+00:28:14,079 --> 00:28:15,948
+as big as the utility that he gets from
+和他从中获得的效用一样大
+
+659
+00:28:16,148 --> 00:28:19,069
+really having valuation VI and playing
+真正拥有估值VI并玩
+
+660
+00:28:19,269 --> 00:28:20,440
+like he has valuation
+就像他有估值
+
+661
+00:28:20,640 --> 00:28:25,119
+i prime if I expand this out I get this
+如果我将其扩展，我会得到
+
+662
+00:28:25,319 --> 00:28:27,250
+expression here here all that I've done
+在这里表达我所做的一切
+
+663
+00:28:27,450 --> 00:28:30,129
+is just substituted in this expression
+在此表达式中被替换
+
+664
+00:28:30,329 --> 00:28:31,240
+that we already looked at in the
+我们已经在
+
+665
+00:28:31,440 --> 00:28:33,069
+previous part of the proof that says
+证明的前一部分
+
+666
+00:28:33,269 --> 00:28:36,190
+that my utility is the the amount that I
+我的效用就是我的金额
+
+667
+00:28:36,390 --> 00:28:38,589
+get by consuming the good - the payment
+通过消耗商品获得-付款
+
+668
+00:28:38,789 --> 00:28:40,269
+that I have to make in both cases
+在两种情况下我都必须做的
+
+669
+00:28:40,470 --> 00:28:42,129
+depending on the report that I really
+取决于我的报告
+
+670
+00:28:42,329 --> 00:28:46,960
+made okay so so you may have noticed
+一切正常，所以您可能已经注意到
+
+671
+00:28:47,160 --> 00:28:48,579
+I've switched from using V hat to V
+我已经从使用V帽切换到了V 
+
+672
+00:28:48,779 --> 00:28:50,169
+prime and that's because I want to
+素，那是因为我想
+
+673
+00:28:50,369 --> 00:28:52,680
+actually think that that this has to be
+实际上认为这必须是
+
+674
+00:28:52,880 --> 00:28:55,089
+it can be possible for the agent really
+代理商真的有可能
+
+675
+00:28:55,289 --> 00:28:57,129
+to have valuation VI or really to have
+拥有估值VI或真正具有
+
+676
+00:28:57,329 --> 00:28:59,230
+valuation VI prime and I can use these
+估值VI素数，我可以使用这些
+
+677
+00:28:59,430 --> 00:29:02,319
+these facts both ways so I'm going to
+这些事实都是双向的，所以我要
+
+678
+00:29:02,519 --> 00:29:05,279
+consider two possible values z1 and z2
+考虑两个可能的值z1和z2 
+
+679
+00:29:05,480 --> 00:29:08,259
+that the agent really could have and I'm
+那个经纪人真的可以拥有的，我是
+
+680
+00:29:08,460 --> 00:29:10,750
+gonna substitute in to this expression
+将替代这个表达
+
+681
+00:29:10,950 --> 00:29:14,079
+here kind of both ways so I'm going to
+这两种方式，所以我要
+
+682
+00:29:14,279 --> 00:29:17,289
+substitute in VI equals Z one VI prime
+ VI中的替代值等于Z一个VI质数
+
+683
+00:29:17,490 --> 00:29:19,210
+equals z2 and I'm also going to
+等于z2，我也要
+
+684
+00:29:19,410 --> 00:29:20,919
+substitute in the other way around and
+用另一种方式替代
+
+685
+00:29:21,119 --> 00:29:23,200
+depending on which way I substitute I
+取决于我替代我的方式
+
+686
+00:29:23,400 --> 00:29:26,230
+get two different inequalities so if I
+得到两个不等式，所以如果我
+
+687
+00:29:26,430 --> 00:29:28,539
+do the first substitution here then I
+在这里做第一次替换
+
+688
+00:29:28,740 --> 00:29:32,919
+get this inequality which says well it
+得到这个不等式
+
+689
+00:29:33,119 --> 00:29:34,509
+says what you read there's no point am I
+说你读的书我没有意义
+
+690
+00:29:34,710 --> 00:29:36,250
+reading it out but but it gives an
+读出来，但它给
+
+691
+00:29:36,450 --> 00:29:40,569
+expression that that has z2 here and Zed
+ Z2在这里和Zed的表达式
+
+692
+00:29:40,769 --> 00:29:43,480
+one here for example when I do things
+例如当我做某事时
+
+693
+00:29:43,680 --> 00:29:45,220
+the other way around everything switches
+反过来一切都切换
+
+694
+00:29:45,420 --> 00:29:47,379
+so I get Zed ones and said twos in the
+所以我得到了Zed并在
+
+695
+00:29:47,579 --> 00:29:49,930
+other way and and both times I have the
+反过来说，两次我都有
+
+696
+00:29:50,130 --> 00:29:51,250
+inequality pointing this way because
+不平等之所以这样指出，是因为
+
+697
+00:29:51,450 --> 00:29:53,500
+that's that's what we always started out
+那就是我们一开始就做的
+
+698
+00:29:53,700 --> 00:29:56,019
+with so so basically what this is saying
+基本上这么说
+
+699
+00:29:56,220 --> 00:30:01,240
+is an agent of type Zed one wouldn't
+是Zed类型的代理，不会
+
+700
+00:30:01,440 --> 00:30:03,129
+want to lie and pretend to have type z2
+想要撒谎并假装具有类型z2 
+
+701
+00:30:03,329 --> 00:30:05,710
+and similarly an agent of type z2
+同样是z2类型的代理
+
+702
+00:30:05,910 --> 00:30:07,569
+wouldn't want to lie and pretend to have
+不想撒谎和假装有
+
+703
+00:30:07,769 --> 00:30:09,899
+type said one either
+类型说一个
+
+704
+00:30:10,099 --> 00:30:13,119
+okay well I've got these two different
+好吧，我有这两种不同
+
+705
+00:30:13,319 --> 00:30:15,430
+inequalities here so I can just add them
+不平等在这里，所以我可以添加它们
+
+706
+00:30:15,630 --> 00:30:18,579
+together and if I do that then that
+在一起，如果我这样做，那
+
+707
+00:30:18,779 --> 00:30:21,629
+causes these P terms to cancel out and
+使这些P项抵消并
+
+708
+00:30:21,829 --> 00:30:24,159
+so then I just get these two things
+所以我就得到这两件事
+
+709
+00:30:24,359 --> 00:30:31,269
+added together and when I do that I end
+加在一起，当我这样做时，我结束
+
+710
+00:30:31,470 --> 00:30:32,649
+up with
+与
+
+711
+00:30:32,849 --> 00:30:37,389
+this expression here and then I can just
+这种表达在这里，然后我就可以
+
+712
+00:30:37,589 --> 00:30:40,839
+factor that expression and I end up with
+因素的表达，我最终与
+
+713
+00:30:41,039 --> 00:30:43,329
+this simpler inequality here that
+这里的不等式
+
+714
+00:30:43,529 --> 00:30:44,440
+doesn't talk about the payments at all
+根本不谈论付款
+
+715
+00:30:44,640 --> 00:30:46,659
+and I
+和我
+
+716
+00:30:46,859 --> 00:30:48,579
+you can verify that for yourself that's
+您可以亲自验证
+
+717
+00:30:48,779 --> 00:30:50,379
+just some simple algebraic manipulation
+只是一些简单的代数运算
+
+718
+00:30:50,579 --> 00:30:54,669
+and really the monotonicity requirement
+真正的单调性要求
+
+719
+00:30:54,869 --> 00:30:57,639
+just pops directly out of this
+只是直接从中弹出
+
+720
+00:30:57,839 --> 00:31:00,609
+expression here so in particularly you
+在这里表达，尤其是你
+
+721
+00:31:00,809 --> 00:31:03,690
+can see that if Z 2 is bigger than Z 1
+可以看到Z 2是否大于Z 1 
+
+722
+00:31:03,890 --> 00:31:06,629
+meaning that this term here is positive
+表示这里的这个词是肯定的
+
+723
+00:31:06,829 --> 00:31:09,669
+then in order for this inequality to be
+那么为了使这种不平等成为
+
+724
+00:31:09,869 --> 00:31:11,680
+true in order for this whole thing to be
+为了使整个事情成为真
+
+725
+00:31:11,880 --> 00:31:13,869
+non-negative we have to make sure that
+非负的，我们必须确保
+
+726
+00:31:14,069 --> 00:31:16,690
+this is also not negative so we can
+这也不是负面的，所以我们可以
+
+727
+00:31:16,890 --> 00:31:19,299
+conclude that this being positive
+得出结论，这是积极的
+
+728
+00:31:19,500 --> 00:31:23,169
+implies that this has to be positive
+暗示这必须是积极的
+
+729
+00:31:23,369 --> 00:31:27,190
+oh sorry mistake on the slide I should
+哦，抱歉，幻灯片上的错误我应该
+
+730
+00:31:27,390 --> 00:31:33,009
+say is positive so I'll change that in
+说是肯定的，所以我将改变它
+
+731
+00:31:33,210 --> 00:31:36,940
+the slides so in other words it means
+幻灯片，换句话说，这意味着
+
+732
+00:31:37,140 --> 00:31:38,680
+that the x function has to be monotone
+ x函数必须是单调的
+
+733
+00:31:38,880 --> 00:31:47,169
+non-decreasing it means that when when
+不减少意味着什么时候
+
+734
+00:31:47,369 --> 00:31:48,659
+this number is bigger than this number
+这个数字大于这个数字
+
+735
+00:31:48,859 --> 00:31:50,950
+this number has to be bigger than this
+这个数字必须大于这个
+
+736
+00:31:51,150 --> 00:31:52,419
+number so that means the function has to
+数字，这意味着该功能必须
+
+737
+00:31:52,619 --> 00:31:58,329
+be weakly going up and that's that's
+虚弱地上升，那就是
+
+738
+00:31:58,529 --> 00:31:59,710
+exactly what monotonicity says so that
+确切地说，单调性是这样的
+
+739
+00:31:59,910 --> 00:32:01,240
+establishes this second part of the
+建立了第二部分
+
+740
+00:32:01,440 --> 00:32:05,200
+proof all right so now there's only one
+证明没事，所以现在只有一个
+
+741
+00:32:05,400 --> 00:32:07,089
+last thing to say and that is that this
+最后要说的是
+
+742
+00:32:07,289 --> 00:32:12,009
+payment identity is is required so so
+要求提供付款身份，所以
+
+743
+00:32:12,210 --> 00:32:14,109
+let's see what I want to say here is
+让我们看看我想说的是
+
+744
+00:32:14,309 --> 00:32:16,269
+that the strategy profile is a Bayes
+战略概况是贝叶斯
+
+745
+00:32:16,470 --> 00:32:19,720
+Nash equilibrium implies that we need
+纳什均衡意味着我们需要
+
+746
+00:32:19,920 --> 00:32:21,279
+the payment identity the payment vanity
+付款身份付款虚荣
+
+747
+00:32:21,480 --> 00:32:23,740
+didn't just kind of suffice to give us a
+不仅仅是给我们一个机会
+
+748
+00:32:23,940 --> 00:32:25,480
+basic Nash equilibrium but we actually
+基本的纳什均衡，但实际上
+
+749
+00:32:25,680 --> 00:32:28,720
+need to have it so I'm gonna start with
+需要它，所以我要开始
+
+750
+00:32:28,920 --> 00:32:30,579
+those same two inequalities that we just
+我们刚才提到的两个不等式
+
+751
+00:32:30,779 --> 00:32:32,950
+talked about before and now I'm going to
+谈到以前，现在我要
+
+752
+00:32:33,150 --> 00:32:34,899
+do something different I'm gonna solve
+做一些我要解决的事情
+
+753
+00:32:35,099 --> 00:32:37,119
+each of them for this expression so I'm
+他们每个人都为此表达，所以我
+
+754
+00:32:37,319 --> 00:32:38,980
+going to kind of rearrange them you
+要重新安排他们你
+
+755
+00:32:39,180 --> 00:32:42,430
+notice they both have a P I said to
+注意他们两个都有一个PI 
+
+756
+00:32:42,630 --> 00:32:43,440
+given
+给定
+
+757
+00:32:43,640 --> 00:32:47,549
+and @p I said one given s and so if I
+和@p我说了一个给定的s，所以如果我
+
+758
+00:32:47,750 --> 00:32:50,039
+rearrange things then I can I can get
+重新整理事情，然后我可以得到
+
+759
+00:32:50,240 --> 00:32:51,659
+them so they both have that on one side
+他们，所以他们都在一侧
+
+760
+00:32:51,859 --> 00:32:54,180
+of the expression and when I do that I
+的表达，当我这样做时
+
+761
+00:32:54,380 --> 00:32:57,869
+end up with one of the equations looking
+最终得到其中一个方程式
+
+762
+00:32:58,069 --> 00:32:59,369
+one of the inequalities looking like
+看起来像不平等之一
+
+763
+00:32:59,569 --> 00:33:05,720
+this and the other one looking like that
+这个和另一个看起来像那样
+
+764
+00:33:05,920 --> 00:33:10,129
+and in total I can think of that as
+总的来说，我可以认为是
+
+765
+00:33:10,329 --> 00:33:13,349
+upper and lower bounds on the
+上限和下限
+
+766
+00:33:13,549 --> 00:33:15,299
+differences in expected payments that
+预期付款的差异
+
+767
+00:33:15,500 --> 00:33:17,700
+have to be made between agents of type Z
+必须在Z型代理之间进行
+
+768
+00:33:17,900 --> 00:33:21,659
+2 and agents of type said 1 so in other
+ 2，其他类型的代理说1 
+
+769
+00:33:21,859 --> 00:33:24,480
+words this difference in payments whoops
+用词表达这种支付差异
+
+770
+00:33:24,680 --> 00:33:27,210
+this difference in payments here has to
+这里的付款差异必须
+
+771
+00:33:27,410 --> 00:33:33,089
+be not less than this amount and not
+不小于此数量且不小于
+
+772
+00:33:33,289 --> 00:33:36,869
+more than this amount well that's fine
+超过这个数量就可以了
+
+773
+00:33:37,069 --> 00:33:39,240
+but this just looks like a lot of messy
+但这看起来很乱
+
+774
+00:33:39,440 --> 00:33:41,069
+math it's not clear why these upper and
+数学尚不清楚为什么这些高和
+
+775
+00:33:41,269 --> 00:33:43,169
+lower bounds are very helpful to me well
+下限对我很有帮助
+
+776
+00:33:43,369 --> 00:33:44,519
+here again we want to go back to our
+再次在这里，我们想回到我们的
+
+777
+00:33:44,720 --> 00:33:47,369
+pictures so let's visualize this on the
+图片，所以让我们在
+
+778
+00:33:47,569 --> 00:33:51,389
+graphs that we were looking at before so
+我们以前看过的图形
+
+779
+00:33:51,589 --> 00:33:54,359
+so here I've just written the upper and
+所以在这里我只写了上部
+
+780
+00:33:54,559 --> 00:33:56,129
+lower bound expression for you again so
+下界表达式再次为您
+
+781
+00:33:56,329 --> 00:33:59,519
+that you can compare it and here is the
+您可以比较它，这是
+
+782
+00:33:59,720 --> 00:34:04,289
+upper bound and here is the lower bound
+上限，这是下限
+
+783
+00:34:04,490 --> 00:34:06,930
+and let's think about what those numbers
+让我们考虑一下这些数字
+
+784
+00:34:07,130 --> 00:34:14,130
+mean well here I'm multiplying by Z 2 so
+意思是这里我要乘以Z 2 
+
+785
+00:34:14,329 --> 00:34:18,840
+here's the distance Z 2 and here I have
+这是距离Z 2，我有
+
+786
+00:34:19,039 --> 00:34:21,330
+the allocation probability of an agent
+代理人的分配概率
+
+787
+00:34:21,530 --> 00:34:23,699
+of type Z 2 minus the allocation
+ Z 2的类型减去分配
+
+788
+00:34:23,898 --> 00:34:25,019
+probability for an agent of types that
+一个类型的主体的概率
+
+789
+00:34:25,219 --> 00:34:27,780
+one and that's this difference here and
+一个，就是这里的区别， 
+
+790
+00:34:27,980 --> 00:34:33,269
+so in total the upper bound is this
+所以总的来说上限是
+
+791
+00:34:33,469 --> 00:34:36,180
+shaded region here so the payment
+这里的阴影区域，所以付款
+
+792
+00:34:36,380 --> 00:34:38,959
+difference can be no more than that
+差异不能超过
+
+793
+00:34:39,159 --> 00:34:44,640
+the lower bound is Z 1 multiplied by
+下限是Z 1乘以
+
+794
+00:34:44,840 --> 00:34:46,530
+that same difference so I have that same
+同样的差异，所以我也一样
+
+795
+00:34:46,730 --> 00:34:48,420
+difference that I had before now
+我以前有过的不同
+
+796
+00:34:48,619 --> 00:34:51,780
+multiplied by Z 1 so that gives me this
+乘以Z 1，所以给我这个
+
+797
+00:34:51,980 --> 00:34:55,260
+shaded region and the important thing to
+阴影区域和重要的是
+
+798
+00:34:55,460 --> 00:34:57,180
+notice about these two
+关于这两个的注意
+
+799
+00:34:57,380 --> 00:34:59,399
+regions is that they intersect the curve
+区域是它们与曲线相交
+
+800
+00:34:59,599 --> 00:35:01,680
+at different points so this one touches
+在不同的地方，所以这一点感动
+
+801
+00:35:01,880 --> 00:35:03,899
+the curve right there and this one
+那里的曲线和这一个
+
+802
+00:35:04,099 --> 00:35:11,579
+touches the curve right there well I can
+我可以很好地触及曲线
+
+803
+00:35:11,778 --> 00:35:13,589
+argue this more formally using calculus
+用微积分更正式地争论这一点
+
+804
+00:35:13,789 --> 00:35:15,780
+but if you think about it it's easy to
+但是如果您考虑一下，这很容易
+
+805
+00:35:15,980 --> 00:35:17,490
+get an intuition that makes it clearer
+得到直觉，使之更清晰
+
+806
+00:35:17,690 --> 00:35:19,500
+but the only payment rule that can
+但唯一可以
+
+807
+00:35:19,699 --> 00:35:22,289
+satisfy these upper and lower bounds for
+满足以下上限和下限
+
+808
+00:35:22,489 --> 00:35:24,568
+every given pair of types is said 1 and
+每个给定的类型对都说1和
+
+809
+00:35:24,768 --> 00:35:27,750
+Z 2 has payment difference that's equal
+ Z 2的付款差额相等
+
+810
+00:35:27,949 --> 00:35:31,079
+exactly to the shaded region that's
+恰好是阴影区域
+
+811
+00:35:31,278 --> 00:35:34,289
+shown here basically it needs to touch
+这里显示基本上需要触摸
+
+812
+00:35:34,489 --> 00:35:37,710
+the curve everywhere because if I change
+曲线无处不在，因为如果我改变
+
+813
+00:35:37,909 --> 00:35:39,599
+that 1 and Z 2 I still need to have the
+那1和Z 2我仍然需要
+
+814
+00:35:39,798 --> 00:35:42,829
+problem the property that it's never
+质疑从未有过的财产
+
+815
+00:35:43,028 --> 00:35:46,169
+less so it's never more than that amount
+更少，所以永远不会超过这个数量
+
+816
+00:35:46,369 --> 00:35:49,950
+and it's never less than that amount and
+而且永远不会少于那个数量
+
+817
+00:35:50,150 --> 00:35:52,619
+so as I kind of move around I need to
+所以当我四处走动时，我需要
+
+818
+00:35:52,818 --> 00:35:54,359
+make sure that I always have those sort
+确保我总是有那种
+
+819
+00:35:54,559 --> 00:35:55,980
+of points of contact with the curve and
+与曲线的接触点
+
+820
+00:35:56,179 --> 00:35:58,050
+the only way for that to work everywhere
+使其在任何地方工作的唯一方法
+
+821
+00:35:58,250 --> 00:35:59,909
+is to have contact with the curve
+与曲线接触
+
+822
+00:36:00,108 --> 00:36:02,339
+everywhere so kind of in an intuitive
+到处都是如此直观
+
+823
+00:36:02,539 --> 00:36:04,859
+level that that should be convincing to
+应该说服的水平
+
+824
+00:36:05,059 --> 00:36:06,780
+you and if you'd like to see the the
+您，如果您想查看
+
+825
+00:36:06,980 --> 00:36:08,609
+proof with calculus you can look at the
+用微积分证明，你可以看看
+
+826
+00:36:08,809 --> 00:36:09,960
+the book citation that I gave you at the
+我给你的那本书的引文
+
+827
+00:36:10,159 --> 00:36:15,480
+beginning and that pretty much gives us
+开始，这几乎给了我们
+
+828
+00:36:15,679 --> 00:36:17,280
+the payment identity in order to get the
+付款身份以获取
+
+829
+00:36:17,480 --> 00:36:20,068
+payment identity we just want to set Z 1
+我们只想设置Z 1的付款身份
+
+830
+00:36:20,268 --> 00:36:21,690
+equals 0 so push this guy all the way
+等于0，所以一直推这个家伙
+
+831
+00:36:21,889 --> 00:36:25,769
+down said said 2 equals 1 and then that
+向下说2等于1然后
+
+832
+00:36:25,969 --> 00:36:27,629
+gives us this whole shaded region that
+给我们整个阴影区域
+
+833
+00:36:27,829 --> 00:36:34,230
+we saw before ok so that concludes our
+我们在确定之前就看到了，因此可以得出结论
+
+834
+00:36:34,429 --> 00:36:37,230
+proof of the the base Nash equilibrium
+基本纳什均衡的证明
+
+835
+00:36:37,429 --> 00:36:39,780
+characterization result and recall that
+表征结果并回顾
+
+836
+00:36:39,980 --> 00:36:41,789
+that that directly gives us the revenue
+直接给我们带来收入
+
+837
+00:36:41,989 --> 00:36:43,169
+equivalence theorem as a corollary
+等价定理作为推论
+
+838
+00:36:43,369 --> 00:36:45,690
+because would revel in the revenue
+因为会带来收益
+
+839
+00:36:45,889 --> 00:36:48,059
+equivalence theorem said is that having
+等价定理说的是
+
+840
+00:36:48,259 --> 00:36:51,139
+the same allocation probability implies
+相同的分配概率意味着
+
+841
+00:36:51,338 --> 00:36:54,720
+having and also having the same payment
+也有相同的付款
+
+842
+00:36:54,920 --> 00:36:56,039
+for an agent with the lowest possible
+对于尽可能低的代理商
+
+843
+00:36:56,239 --> 00:36:58,470
+type implies having the same expected
+类型意味着期望值相同
+
+844
+00:36:58,670 --> 00:37:00,690
+payments what this characterization
+支付此特征
+
+845
+00:37:00,889 --> 00:37:04,470
+result said is it's something much
+结果说是很多
+
+846
+00:37:04,670 --> 00:37:07,230
+stronger that having the same allocation
+具有相同分配的更强
+
+847
+00:37:07,429 --> 00:37:10,200
+probability implies exactly the the
+概率恰好暗示了
+
+848
+00:37:10,400 --> 00:37:10,539
+payment
+付款
+
+849
+00:37:10,739 --> 00:37:14,289
+that you saw and the payment identity
+您看到的以及付款身份
+
+850
+00:37:14,489 --> 00:37:16,030
+has determinant for what the the lowest
+有最低的决定因素
+
+851
+00:37:16,230 --> 00:37:19,060
+possible type gets and so if that is set
+可能的类型获取，因此如果已设置
+
+852
+00:37:19,260 --> 00:37:21,070
+constant and in both cases then then
+常数，然后在两种情况下
+
+853
+00:37:21,269 --> 00:37:23,980
+they have to be the same so so the
+他们必须一样，所以
+
+854
+00:37:24,179 --> 00:37:25,900
+overall claim that we want to make here
+我们要在这里提出的总体主张
+
+855
+00:37:26,099 --> 00:37:27,400
+that overall take away from all of this
+总体上消除了所有这些
+
+856
+00:37:27,599 --> 00:37:29,680
+is that if two mechanisms have the same
+是如果两种机制具有相同的
+
+857
+00:37:29,880 --> 00:37:32,590
+allocation rule then they basically have
+分配规则，那么他们基本上有
+
+858
+00:37:32,789 --> 00:37:34,360
+the same payment rule too and when I say
+同样的付款规则，当我说
+
+859
+00:37:34,559 --> 00:37:36,669
+basically essentially all I really mean
+基本上我真正要说的是
+
+860
+00:37:36,869 --> 00:37:38,140
+is that the only thing that can change
+是唯一可以改变的东西
+
+861
+00:37:38,340 --> 00:37:39,970
+is if I just offset everything by a
+是如果我只是用一个偏移量
+
+862
+00:37:40,170 --> 00:37:43,450
+constant so if I pay you $100 for
+不变，所以如果我付给您$ 100 
+
+863
+00:37:43,650 --> 00:37:45,280
+showing up in my auction and then we
+出现在我的拍卖中，然后我们
+
+864
+00:37:45,480 --> 00:37:47,410
+have an auction then my expected revenue
+进行拍卖，然后获得我的预期收入
+
+865
+00:37:47,610 --> 00:37:48,880
+is different you know if I charge you
+不一样，你知道我是否要收费
+
+866
+00:37:49,079 --> 00:37:50,919
+$100 for walking in the door and you
+ $ 100即可进门，而您
+
+867
+00:37:51,119 --> 00:37:52,210
+have no choice about whether to walk in
+别无选择
+
+868
+00:37:52,409 --> 00:37:53,590
+the door and then we have an auction
+门，然后我们进行拍卖
+
+869
+00:37:53,789 --> 00:37:55,120
+I'll get a different amount of revenue
+我会得到不同的收入
+
+870
+00:37:55,320 --> 00:37:57,820
+but that's not very satisfying that's
+但这不是很令人满意
+
+871
+00:37:58,019 --> 00:37:59,320
+why we have this requirement about the
+为什么我们对
+
+872
+00:37:59,519 --> 00:38:01,360
+agent with the lowest possible type gets
+具有最低可能类型的业务代表
+
+873
+00:38:01,559 --> 00:38:04,960
+paid zero as long as that's true then
+只要是真的就支付零
+
+874
+00:38:05,159 --> 00:38:06,669
+there's really no other wiggle room in
+真的没有其他摆动空间
+
+875
+00:38:06,869 --> 00:38:08,769
+the payment rule and so mechanisms with
+付款规则等机制
+
+876
+00:38:08,969 --> 00:38:10,269
+the same allocation rule just need to
+相同的分配规则只需要
+
+877
+00:38:10,469 --> 00:38:13,120
+have the same payment rule a key
+具有相同的付款规则
+
+878
+00:38:13,320 --> 00:38:15,880
+corollary is that all efficient auctions
+结果是所有有效的拍卖
+
+879
+00:38:16,079 --> 00:38:17,860
+yield the same revenue in equilibrium
+平衡产生相同的收入
+
+880
+00:38:18,059 --> 00:38:20,380
+because after all efficiency is just one
+因为毕竟效率只是一个
+
+881
+00:38:20,579 --> 00:38:22,330
+allocation rule right efficiency means
+分配规则权效率手段
+
+882
+00:38:22,530 --> 00:38:24,669
+the agent with the highest valuation
+估价最高的代理商
+
+883
+00:38:24,869 --> 00:38:27,010
+always gets the good that's an example
+总是得到好处，这就是一个例子
+
+884
+00:38:27,210 --> 00:38:29,110
+of a restriction of what the allocation
+限制什么分配
+
+885
+00:38:29,309 --> 00:38:32,560
+rule needs to be and so so that tells us
+规则必须如此，这样才能告诉我们
+
+886
+00:38:32,760 --> 00:38:35,110
+that it turns out most of the options we
+事实证明，大多数选择
+
+887
+00:38:35,309 --> 00:38:36,580
+care about are efficient and so for all
+关心是有效的，所以对所有人
+
+888
+00:38:36,780 --> 00:38:38,590
+of these efficient auctions we know that
+在这些有效的拍卖中，我们知道
+
+889
+00:38:38,789 --> 00:38:40,240
+there's actually nothing we can do to
+实际上我们无能为力
+
+890
+00:38:40,440 --> 00:38:42,190
+get to change the amount of revenue that
+改变收入的数额
+
+891
+00:38:42,389 --> 00:38:44,080
+we get an equilibrium by changing the
+我们通过改变
+
+892
+00:38:44,280 --> 00:38:45,940
+option within efficient auctions and
+有效拍卖中的选择权，以及
+
+893
+00:38:46,139 --> 00:38:48,519
+indeed this applies not just to the
+确实，这不仅适用于
+
+894
+00:38:48,719 --> 00:38:49,570
+auctions we've seen before
+我们之前看过的拍卖
+
+895
+00:38:49,769 --> 00:38:52,300
+but to some pretty weird auction so you
+但是要进行一些非常奇怪的拍卖， 
+
+896
+00:38:52,500 --> 00:38:53,860
+can think about not a first or second
+不能考虑第一或第二
+
+897
+00:38:54,059 --> 00:38:55,570
+price auction but a third price auction
+价格拍卖，但第三次价格拍卖
+
+898
+00:38:55,769 --> 00:38:56,890
+and that actually turns out to be
+事实证明是
+
+899
+00:38:57,090 --> 00:38:58,870
+revenue equivalent you can think about
+您可以考虑的收入等值
+
+900
+00:38:59,070 --> 00:39:00,850
+various auction designs in which not
+各种拍卖设计，其中没有
+
+901
+00:39:01,050 --> 00:39:02,350
+only the winners have to pay but losers
+只有胜利者必须付出，但失败者
+
+902
+00:39:02,550 --> 00:39:04,780
+pay too we didn't make any assumptions
+付钱也没做任何假设
+
+903
+00:39:04,980 --> 00:39:06,190
+about these kinds of things in the proof
+关于证明中的这类事情
+
+904
+00:39:06,389 --> 00:39:07,960
+and so it turns out they're also revenue
+所以事实证明他们也是收益
+
+905
+00:39:08,159 --> 00:39:11,680
+equivalent one last caveat risk
+等效的最后警告风险
+
+906
+00:39:11,880 --> 00:39:13,330
+neutrality did turn out to be important
+中立确实很重要
+
+907
+00:39:13,530 --> 00:39:15,700
+so I've assumed everywhere in this video
+所以我在这个视频中到处都有
+
+908
+00:39:15,900 --> 00:39:17,919
+that agents are risk neutral which means
+代理商是风险中性的，这意味着
+
+909
+00:39:18,119 --> 00:39:21,950
+they treat expected payments the same as
+他们将预期付款与
+
+910
+00:39:22,150 --> 00:39:23,659
+worth in payments they don't care about
+值得他们不在乎的付款
+
+911
+00:39:23,858 --> 00:39:24,950
+how much randomness there is in the
+有多少随机性
+
+912
+00:39:25,150 --> 00:39:26,990
+environment they just care about the
+他们只是在乎的环境
+
+913
+00:39:27,190 --> 00:39:29,200
+expected payment they have to make and
+他们必须支付的预期付款和
+
+914
+00:39:29,400 --> 00:39:32,419
+if that isn't true then these are
+如果那不是真的，那么这些是
+
+915
+00:39:32,619 --> 00:39:33,859
+different auction mechanisms actually do
+实际上有不同的拍卖机制
+
+916
+00:39:34,059 --> 00:39:36,200
+turn out to be different so so that
+事实证明是不同的
+
+917
+00:39:36,400 --> 00:39:38,570
+concludes this lecture and you'll go on
+结束本讲座，您将继续
+
+918
+00:39:38,769 --> 00:39:40,609
+now in the next lecture to think about
+现在在下一个讲座中考虑
+
+919
+00:39:40,809 --> 00:39:42,349
+how to actually maximize revenue in an
+如何在
+
+920
+00:39:42,548 --> 00:39:44,570
+auction and where we can see from today
+拍卖以及我们今天可以看到的地方
+
+921
+00:39:44,769 --> 00:39:47,060
+is that's gonna have to happen by
+那将是必须发生的
+
+922
+00:39:47,260 --> 00:39:49,159
+changing the allocation rule there's no
+更改分配规则没有
+
+923
+00:39:49,358 --> 00:39:50,780
+way of maximizing with inefficiency
+效率低下的最大化方式
+
+924
+00:39:50,980 --> 00:39:52,579
+because efficient auctions are all going
+因为有效的拍卖都在进行
+
+925
+00:39:52,778 --> 00:39:54,349
+to yield the same revenues so if what
+产生相同的收入，如果
+
+926
+00:39:54,548 --> 00:39:55,669
+you want to do is to maximize your
+你想做的就是最大化你的
+
+927
+00:39:55,869 --> 00:39:56,079
+revenue
+收入
+
+928
+00:39:56,278 --> 00:39:59,000
+strangely enough you you are gonna turn
+奇怪的是你要转身
+
+929
+00:39:59,199 --> 00:40:00,769
+out not to want to sell to the person
+不想卖给那个人
+
+930
+00:40:00,969 --> 00:40:05,969
+with the highest valuation all the time
+一直以来估值最高
+

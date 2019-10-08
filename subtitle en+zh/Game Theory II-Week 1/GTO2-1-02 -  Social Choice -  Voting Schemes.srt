@@ -1,0 +1,1995 @@
+﻿1
+00:00:00,000 --> 00:00:01,749
+hi folks this is Matt and so we're
+大家好，我是马特，所以我们
+
+2
+00:00:01,949 --> 00:00:03,309
+talking a little bit about social choice
+谈一点社会选择
+
+3
+00:00:03,509 --> 00:00:05,950
+theory now and I'll introduce you to
+现在讲理论，我将向您介绍
+
+4
+00:00:06,150 --> 00:00:08,020
+voting schemes and social choice
+投票方案与社会选择
+
+5
+00:00:08,220 --> 00:00:11,319
+functions and in terms of the overall
+功能和整体
+
+6
+00:00:11,519 --> 00:00:13,630
+idea what we're looking at now as we
+知道我们现在在看什么
+
+7
+00:00:13,830 --> 00:00:15,550
+were looking at a set of setting where a
+在看一组环境
+
+8
+00:00:15,750 --> 00:00:18,579
+society's making decisions and we've got
+社会的决策，我们已经
+
+9
+00:00:18,778 --> 00:00:19,989
+a bunch of different individuals who
+一堆不同的人
+
+10
+00:00:20,189 --> 00:00:22,480
+have preferences and that we want to
+有偏好，我们想要
+
+11
+00:00:22,679 --> 00:00:24,550
+aggregate those right so we've got a set
+汇总这些权利，所以我们有一套
+
+12
+00:00:24,750 --> 00:00:26,620
+of voters a set of people they have to
+选民的一组他们必须
+
+13
+00:00:26,820 --> 00:00:30,460
+make decision and we want to take into
+做出决定，我们要考虑
+
+14
+00:00:30,660 --> 00:00:32,468
+account the Preferences of the different
+帐户的首选项不同
+
+15
+00:00:32,668 --> 00:00:34,899
+individuals so we're looking at a
+个人，所以我们正在寻找
+
+16
+00:00:35,100 --> 00:00:36,369
+setting where we have a set of outcomes
+设定我们有一套结果的地方
+
+17
+00:00:36,570 --> 00:00:39,579
+or a set of alternatives so something
+或一组替代方案等等
+
+18
+00:00:39,780 --> 00:00:40,779
+we're going to choose over so it could
+我们将选择，以便可以
+
+19
+00:00:40,979 --> 00:00:41,768
+be a political set of political
+政治上的政治
+
+20
+00:00:41,969 --> 00:00:44,169
+candidates it could be that we're trying
+候选人可能是我们正在尝试
+
+21
+00:00:44,369 --> 00:00:46,358
+to choose this set of new members for a
+选择这组新成员
+
+22
+00:00:46,558 --> 00:00:48,878
+society that we're trying to decide on a
+我们试图决定的社会
+
+23
+00:00:49,079 --> 00:00:53,079
+new tax rate for government we've got a
+政府的新税率
+
+24
+00:00:53,280 --> 00:00:54,549
+whole series of different questions and
+一系列不同的问题和
+
+25
+00:00:54,750 --> 00:00:56,529
+there's possible outcomes that are there
+有可能的结果
+
+26
+00:00:56,729 --> 00:01:00,099
+and the people the voters the agents the
+和人民选民代理
+
+27
+00:01:00,299 --> 00:01:01,059
+people in the society
+社会上的人
+
+28
+00:01:01,259 --> 00:01:03,669
+have preferences over these outcomes so
+对这些结果有偏好，所以
+
+29
+00:01:03,869 --> 00:01:04,959
+in this setting we're going to look at
+在这种情况下，我们将要看
+
+30
+00:01:05,159 --> 00:01:07,119
+for now people are going to have
+现在人们将拥有
+
+31
+00:01:07,319 --> 00:01:08,439
+preferences they'll be able to tell you
+他们可以告诉您的偏好
+
+32
+00:01:08,640 --> 00:01:09,879
+this is my favorite outcome this is my
+这是我最喜欢的结果这是我的
+
+33
+00:01:10,079 --> 00:01:11,738
+second favorite my third my fourth and
+第二喜欢我的第三我第四
+
+34
+00:01:11,938 --> 00:01:13,988
+so forth and what a social choice
+等等，这是什么社会选择
+
+35
+00:01:14,188 --> 00:01:16,659
+function is going to do is take the
+功能要做的就是
+
+36
+00:01:16,859 --> 00:01:19,719
+preferences of the individuals and as a
+个人的喜好
+
+37
+00:01:19,920 --> 00:01:21,640
+function of those tell us which outcome
+这些功能告诉我们哪个结果
+
+38
+00:01:21,840 --> 00:01:23,168
+are we're going to choose so it's going
+我们要选择吗
+
+39
+00:01:23,368 --> 00:01:24,789
+to be a mapping from profiles of
+是来自以下配置文件的映射
+
+40
+00:01:24,989 --> 00:01:26,829
+preferences to a particular outcome and
+对特定结果的偏好，以及
+
+41
+00:01:27,030 --> 00:01:28,238
+generally what we're going to be
+通常我们将成为
+
+42
+00:01:28,438 --> 00:01:30,308
+interested in is sort of which ones
+对什么感兴趣
+
+43
+00:01:30,509 --> 00:01:32,200
+which of these social choice functions
+这些社会选择功能中的哪个
+
+44
+00:01:32,400 --> 00:01:34,689
+would we like to have now in the course
+我们现在想要课程吗
+
+45
+00:01:34,890 --> 00:01:36,009
+we're going to eventually have to talk
+我们最终将不得不谈论
+
+46
+00:01:36,209 --> 00:01:38,259
+about incentives because people you know
+关于激励措施，因为您认识的人
+
+47
+00:01:38,459 --> 00:01:41,140
+in a setting where we're voting for a
+在我们投票支持的环境中
+
+48
+00:01:41,340 --> 00:01:43,209
+bunch of candidates it might be that I
+一堆候选人可能是我
+
+49
+00:01:43,409 --> 00:01:44,948
+actually and you ask me which one's my
+其实你问我哪个是我的
+
+50
+00:01:45,149 --> 00:01:46,778
+favorite candidate I might not tell you
+最喜欢的候选人我可能不会告诉你
+
+51
+00:01:46,978 --> 00:01:48,099
+truthfully which is my favorite
+老实说这是我的最爱
+
+52
+00:01:48,299 --> 00:01:50,079
+candidate I might vote for somebody else
+我可能会为其他人投票的候选人
+
+53
+00:01:50,280 --> 00:01:51,939
+if I think my candidate has no chance of
+如果我认为我的候选人没有机会
+
+54
+00:01:52,140 --> 00:01:54,308
+winning the election so people might try
+赢得选举，以便人们可以尝试
+
+55
+00:01:54,509 --> 00:01:58,090
+and manipulate the voting scheme by by
+并通过以下方式操纵投票方案
+
+56
+00:01:58,290 --> 00:02:00,518
+changing the how they represent their
+改变他们代表自己的方式
+
+57
+00:02:00,718 --> 00:02:02,230
+preferences they'll say okay actually I
+他们会说“好吧” 
+
+58
+00:02:02,430 --> 00:02:03,849
+would like to vote for this person not
+不想为此人投票
+
+59
+00:02:04,049 --> 00:02:06,219
+for this other person so we'll have to
+为了这个人，所以我们必须
+
+60
+00:02:06,420 --> 00:02:08,890
+we'll have to very carefully think about
+我们必须非常仔细地考虑
+
+61
+00:02:09,090 --> 00:02:13,060
+how the mapping from preferences into
+如何从偏好映射到
+
+62
+00:02:13,259 --> 00:02:13,450
+all turn
+全部转
+
+63
+00:02:13,650 --> 00:02:16,599
+eventually is achieved but for now what
+最终实现了，但是现在
+
+64
+00:02:16,799 --> 00:02:17,500
+we're going to do is we're just going to
+我们要做的就是
+
+65
+00:02:17,699 --> 00:02:19,450
+look at the function itself and say hey
+看一下功能本身，然后说嘿
+
+66
+00:02:19,650 --> 00:02:22,270
+okay if society you know there's a whole
+好吧，如果社会，你知道整个
+
+67
+00:02:22,469 --> 00:02:25,000
+ways a set of ways in which these things
+这些东西的一套方式
+
+68
+00:02:25,199 --> 00:02:26,740
+can be mapped and then later we'll ask
+可以被映射，然后我们会问
+
+69
+00:02:26,939 --> 00:02:28,390
+which ones can actually be achieved or
+哪些实际上可以实现，或者
+
+70
+00:02:28,590 --> 00:02:31,810
+how they can be achieved and so forth so
+如何实现这些目标等等
+
+71
+00:02:32,009 --> 00:02:33,969
+given is a set of preferences or outcome
+给定的是一组偏好或结果
+
+72
+00:02:34,169 --> 00:02:35,709
+I were sorry outcomes were alternatives
+我很抱歉结果是替代方案
+
+73
+00:02:35,908 --> 00:02:37,959
+so that's going to be the set oh and
+这样就可以了哦
+
+74
+00:02:38,158 --> 00:02:39,550
+people are going to have preferences
+人们将有偏好
+
+75
+00:02:39,750 --> 00:02:40,689
+over these and we're going to represent
+这些，我们将代表
+
+76
+00:02:40,889 --> 00:02:43,060
+these in a very simple form generally
+这些通常以非常简单的形式
+
+77
+00:02:43,259 --> 00:02:44,349
+they're the agents are going to have
+他们是代理商要拥有的
+
+78
+00:02:44,549 --> 00:02:46,060
+strict preferences over these things so
+对这些东西有严格的偏好，所以
+
+79
+00:02:46,259 --> 00:02:48,520
+we'll eliminate in differences that will
+我们将消除差异
+
+80
+00:02:48,719 --> 00:02:51,250
+make our life easier so that's going to
+让我们的生活更轻松，这将
+
+81
+00:02:51,449 --> 00:02:54,310
+be represented by this relationship
+被这种关系所代表
+
+82
+00:02:54,509 --> 00:02:56,920
+which is going to be generally linear
+通常是线性的
+
+83
+00:02:57,120 --> 00:02:59,379
+orders so we'll look at situations where
+下订单，因此我们将研究以下情况
+
+84
+00:02:59,579 --> 00:03:00,819
+people are not indifferent so they'll be
+人们并不冷漠，所以他们会
+
+85
+00:03:01,019 --> 00:03:03,009
+having a linear order or what's known as
+具有线性顺序或所谓的
+
+86
+00:03:03,209 --> 00:03:05,289
+a total order over the alternative so
+总订单超过其他
+
+87
+00:03:05,489 --> 00:03:07,480
+they can tell you which is my favorite
+他们可以告诉你哪个是我的最爱
+
+88
+00:03:07,680 --> 00:03:09,368
+which is my second-favorite and so forth
+这是我的最爱，依此类推
+
+89
+00:03:09,568 --> 00:03:11,649
+so given a finite set I can just list
+所以给定一个有限集，我可以列出
+
+90
+00:03:11,848 --> 00:03:16,000
+them in order and so above a linear
+它们按顺序排列等等
+
+91
+00:03:16,199 --> 00:03:17,530
+order the set of linear orders will let
+订购线性订单集将使
+
+92
+00:03:17,729 --> 00:03:19,750
+be denoted by L and there's going to be
+用L表示
+
+93
+00:03:19,949 --> 00:03:23,170
+the binary relations which are total and
+总和的二进制关系
+
+94
+00:03:23,370 --> 00:03:25,270
+transitive what does that mean that
+可及的是什么意思
+
+95
+00:03:25,469 --> 00:03:26,740
+means if you look at any two
+意味着如果你看任何两个
+
+96
+00:03:26,939 --> 00:03:30,210
+alternatives any two outcomes a and B
+替代任何两个结果a和B 
+
+97
+00:03:30,409 --> 00:03:33,159
+that are not equal to each other then
+那彼此不相等
+
+98
+00:03:33,359 --> 00:03:36,879
+either a is preferred to B or B is
+ a优先于B或B为
+
+99
+00:03:37,079 --> 00:03:39,640
+preferred to a but not both so it means
+首选而不是两者都选，所以这意味着
+
+100
+00:03:39,840 --> 00:03:41,740
+first of all I can tell you which of the
+首先，我可以告诉您
+
+101
+00:03:41,939 --> 00:03:43,810
+two I prefer and I'm not indifferent
+两个我更喜欢，我并不冷漠
+
+102
+00:03:44,009 --> 00:03:45,999
+okay so one part about the linear orders
+好吧，关于线性订单的一部分
+
+103
+00:03:46,199 --> 00:03:47,590
+it's gonna be a strict ordering I'm
+这将是一个严格的命令我
+
+104
+00:03:47,789 --> 00:03:49,480
+never going to be indifferent and for
+永远不会冷漠，因为
+
+105
+00:03:49,680 --> 00:03:50,830
+any two alternatives I can always make a
+我总是可以选择任何两种选择
+
+106
+00:03:51,030 --> 00:03:52,569
+comparison I can't say I don't know I'm
+比较我不能说我不知道​​我是
+
+107
+00:03:52,769 --> 00:03:54,460
+not sure I'm not undecided all these
+不确定我还不确定吗
+
+108
+00:03:54,659 --> 00:03:55,990
+voters are decided they can tell you
+选民们决定他们可以告诉你
+
+109
+00:03:56,189 --> 00:03:58,349
+exactly how they rank everything and
+他们到底如何排名
+
+110
+00:03:58,549 --> 00:04:00,460
+preferences are going to be strict
+偏好将严格
+
+111
+00:04:00,659 --> 00:04:03,009
+they're also going to be transitive so
+他们也将是可传递的，所以
+
+112
+00:04:03,209 --> 00:04:05,259
+if I like a better than B and be better
+如果我比B更喜欢一个更好的
+
+113
+00:04:05,459 --> 00:04:07,118
+than C then I better like a better than
+比C好，我比
+
+114
+00:04:07,318 --> 00:04:09,069
+C okay so we've got a nice transitive
+好的，我们有一个不错的传递
+
+115
+00:04:09,269 --> 00:04:11,080
+ordering that's going to be a linear
+排序将是线性的
+
+116
+00:04:11,280 --> 00:04:14,890
+linear order as total and transitive
+线性顺序为整体和传递
+
+117
+00:04:15,090 --> 00:04:17,020
+sometimes we'll also be working with non
+有时我们也会与非
+
+118
+00:04:17,220 --> 00:04:19,170
+strict preferences so it could be that
+严格的偏好，所以可能是
+
+119
+00:04:19,370 --> 00:04:22,209
+someone's indifferent so then we'll
+某人无动于衷，那么我们将
+
+120
+00:04:22,408 --> 00:04:24,730
+allow for transitivity and completeness
+允许传递性和完整性
+
+121
+00:04:24,930 --> 00:04:26,509
+you can make a comparison
+你可以做一个比较
+
+122
+00:04:26,709 --> 00:04:28,699
+between a and B so a could be weakly
+在a和B之间，因此a可能很弱
+
+123
+00:04:28,899 --> 00:04:31,040
+preferred to be B weakly preferred to a
+优先于B弱于a 
+
+124
+00:04:31,240 --> 00:04:33,259
+and you could have both relationships
+你们可能有两种关系
+
+125
+00:04:33,459 --> 00:04:35,150
+holding at the same time which means
+同时举行意味着
+
+126
+00:04:35,350 --> 00:04:37,430
+you're actually indifferent so sometimes
+你实际上很冷漠所以有时候
+
+127
+00:04:37,629 --> 00:04:39,230
+it'll be better to work with non strict
+最好与非严格的人一起工作
+
+128
+00:04:39,430 --> 00:04:41,780
+relationships and in fact when we're
+关系，事实上，当我们
+
+129
+00:04:41,980 --> 00:04:44,720
+thinking about how society decides on a
+思考社会如何决定
+
+130
+00:04:44,920 --> 00:04:46,610
+relationship it might mean it might be
+关系可能意味着它可能是
+
+131
+00:04:46,810 --> 00:04:48,860
+that you know everybody in the society
+你认识社会上的每个人
+
+132
+00:04:49,060 --> 00:04:51,110
+has a strict ranking but then society as
+有严格的排名，但社会
+
+133
+00:04:51,310 --> 00:04:55,280
+a whole ends up with a weak ordering so
+整个结果以弱的顺序结束
+
+134
+00:04:55,480 --> 00:04:57,050
+so we'll allow for from non strict
+所以我们会允许非严格
+
+135
+00:04:57,250 --> 00:04:58,970
+preferences as well okay so those are
+偏好设置还可以，所以
+
+136
+00:04:59,170 --> 00:05:00,139
+going to be preferences those are the
+将成为偏好的是
+
+137
+00:05:00,339 --> 00:05:01,699
+objects that we're going to assume
+我们要假设的对象
+
+138
+00:05:01,899 --> 00:05:03,980
+people have and then based on those we
+人们拥有的，然后基于我们
+
+139
+00:05:04,180 --> 00:05:05,980
+try and make a choice for the society
+尝试为社会做出选择
+
+140
+00:05:06,180 --> 00:05:09,020
+okay so the formal model then in terms
+好了，那么正式模型
+
+141
+00:05:09,220 --> 00:05:10,400
+of the way that will work through social
+通过社交运作的方式
+
+142
+00:05:10,600 --> 00:05:12,079
+choice functions we've got a set of
+选择函数，我们有一组
+
+143
+00:05:12,279 --> 00:05:14,350
+individuals finite set of individuals
+个人有限的个人集
+
+144
+00:05:14,550 --> 00:05:17,329
+finite set of outcomes oh and we'll
+有限的结果集哦，我们会
+
+145
+00:05:17,529 --> 00:05:18,650
+consider the linear orders on the
+考虑在
+
+146
+00:05:18,850 --> 00:05:22,220
+outcomes on this set bell and also the
+铃响的结果，以及
+
+147
+00:05:22,420 --> 00:05:24,050
+non strict version so social choice
+非严格版本，因此是社会选择
+
+148
+00:05:24,250 --> 00:05:25,490
+function is going to be a function which
+函数将是一个函数
+
+149
+00:05:25,689 --> 00:05:30,468
+maps from the set of preferences weak
+偏好设置中的映射弱
+
+150
+00:05:30,668 --> 00:05:33,620
+preferences into outcomes so if you tell
+偏好结果，所以如果你告诉
+
+151
+00:05:33,819 --> 00:05:36,800
+me what everybody thinks in the society
+我每个人在社会上的想法
+
+152
+00:05:37,000 --> 00:05:39,590
+in terms of their rankings I'll pick an
+根据他们的排名，我会选择一个
+
+153
+00:05:39,790 --> 00:05:41,449
+outcome social choice function tells you
+结果社会选择功能告诉您
+
+154
+00:05:41,649 --> 00:05:43,850
+as a function of what people believe in
+根据人们的信仰
+
+155
+00:05:44,050 --> 00:05:45,590
+terms of their preferences of different
+他们的偏好条款不同
+
+156
+00:05:45,790 --> 00:05:47,420
+outcomes what's the outcome they're
+结果是什么结果
+
+157
+00:05:47,620 --> 00:05:49,819
+going to choose a social welfare
+要选择社会福利
+
+158
+00:05:50,019 --> 00:05:52,910
+function or a social welfare ordering is
+功能或社会福利命令是
+
+159
+00:05:53,110 --> 00:05:55,879
+going to be the the same kind of object
+将会是同一种对象
+
+160
+00:05:56,079 --> 00:05:58,490
+except that instead of just picking an
+除了那不只是挑选一个
+
+161
+00:05:58,689 --> 00:06:00,199
+outcome what it's going to do is
+结果它将要做的是
+
+162
+00:06:00,399 --> 00:06:02,600
+actually say give you a full ranking of
+其实说给你一个完整的排名
+
+163
+00:06:02,800 --> 00:06:04,490
+outcomes so society's going to rank
+结果，社会将排名
+
+164
+00:06:04,689 --> 00:06:06,259
+outcomes okay and that's different than
+结果还可以，这与
+
+165
+00:06:06,459 --> 00:06:08,270
+just picking an outcome so it might be
+只是选择一个结果，所以可能是
+
+166
+00:06:08,470 --> 00:06:09,410
+that we've got you know three outcomes
+我们知道了三个结果
+
+167
+00:06:09,610 --> 00:06:12,829
+ABC and we ask people what the
+美国广播公司，我们问人们
+
+168
+00:06:13,029 --> 00:06:14,090
+preferences are over these things and
+偏好超过这些东西， 
+
+169
+00:06:14,290 --> 00:06:15,590
+we're going to pick one of them so we
+我们将选择其中之一，所以我们
+
+170
+00:06:15,790 --> 00:06:16,939
+just need to make a choice for who's
+只需要选择谁
+
+171
+00:06:17,139 --> 00:06:19,370
+going to be our president alternatively
+也要当我们的总统
+
+172
+00:06:19,569 --> 00:06:21,680
+we might actually want society to be
+我们可能实际上希望社会成为
+
+173
+00:06:21,879 --> 00:06:24,710
+able to rank these objects okay so often
+能够经常对这些物体进行排名
+
+174
+00:06:24,910 --> 00:06:26,210
+when you look at rankings of
+当您查看
+
+175
+00:06:26,410 --> 00:06:27,500
+organizations like rankings of
+喜欢的组织排名
+
+176
+00:06:27,699 --> 00:06:29,180
+universities or rankings of schools
+大学或学校排名
+
+177
+00:06:29,379 --> 00:06:31,069
+we'll take a whole series of different
+我们将采用一系列不同的方法
+
+178
+00:06:31,269 --> 00:06:32,960
+people say here's my ranking and then we
+人们说这是我的排名，然后我们
+
+179
+00:06:33,160 --> 00:06:34,400
+aggregate those up and say okay here's
+汇总这些内容，然后说还可以
+
+180
+00:06:34,600 --> 00:06:36,170
+an overall ranking and there might be
+整体排名，可能会有
+
+181
+00:06:36,370 --> 00:06:38,960
+ties okay so we might have people
+关系好，所以我们可能会有人
+
+182
+00:06:39,160 --> 00:06:40,040
+express their prayer
+表达他们的祈祷
+
+183
+00:06:40,240 --> 00:06:41,778
+Frances or their rankings and then
+ Frances或他们的排名，然后
+
+184
+00:06:41,978 --> 00:06:43,278
+society might end up saying here's
+社会可能最终会说
+
+185
+00:06:43,478 --> 00:06:46,069
+society's rankings okay and that's
+社会的排名还可以，那就是
+
+186
+00:06:46,269 --> 00:06:47,270
+different so sometimes were picking an
+不同，所以有时会选择
+
+187
+00:06:47,470 --> 00:06:48,559
+outcome sometimes we're picking a
+结果有时我们会选择
+
+188
+00:06:48,759 --> 00:06:51,499
+ranking okay so what are some examples
+排名还可以，那么有哪些例子
+
+189
+00:06:51,699 --> 00:06:54,139
+of these things the most basic and most
+这些东西中最基本，最
+
+190
+00:06:54,339 --> 00:06:57,110
+widely used is what's known as plurality
+广泛使用的是所谓的复数
+
+191
+00:06:57,310 --> 00:06:57,559
+rule
+规则
+
+192
+00:06:57,759 --> 00:06:59,569
+what's plurality rule that's just
+什么是复数规则
+
+193
+00:06:59,769 --> 00:07:01,189
+picking the outcome that is most
+选择最重要的结果
+
+194
+00:07:01,389 --> 00:07:02,960
+preferred by the most people so
+最受人喜欢的
+
+195
+00:07:03,160 --> 00:07:05,449
+everybody just gets one vote they get to
+每个人都只有一票
+
+196
+00:07:05,649 --> 00:07:07,550
+express it and generally if we'll assume
+表达它，一般来说，如果我们假设
+
+197
+00:07:07,750 --> 00:07:08,809
+that people are truthful we'd assume
+人们会以为我们是诚实的
+
+198
+00:07:09,009 --> 00:07:09,949
+that they did express who's their
+他们确实表达了谁是他们的
+
+199
+00:07:10,149 --> 00:07:12,709
+favorite and then the social welfare
+最喜欢的，然后是社会福利
+
+200
+00:07:12,908 --> 00:07:15,110
+social choice function just picks the
+社会选择功能只是选择
+
+201
+00:07:15,310 --> 00:07:17,149
+outcome that is most preferred by most
+大多数人最喜欢的结果
+
+202
+00:07:17,348 --> 00:07:17,718
+people
+人
+
+203
+00:07:17,918 --> 00:07:20,860
+so that's known as plurality rule
+这就是所谓的复数规则
+
+204
+00:07:21,060 --> 00:07:22,610
+cumulative voting that's another
+累积投票是另一回事
+
+205
+00:07:22,810 --> 00:07:24,829
+interesting voting rule you give people
+你给人的有趣的投票规则
+
+206
+00:07:25,029 --> 00:07:27,230
+multiple votes so you get a set of votes
+多张选票，您将获得一组选票
+
+207
+00:07:27,430 --> 00:07:30,980
+and you could problem you can give your
+你可能会遇到问题，你可以给你
+
+208
+00:07:31,180 --> 00:07:32,569
+votes to different candidates so if
+投票给不同的候选人，如果
+
+209
+00:07:32,769 --> 00:07:35,028
+there's four different candidates I can
+我可以有四个不同的候选人
+
+210
+00:07:35,228 --> 00:07:37,639
+assign several votes to the first I can
+给我可以分配的第一张票
+
+211
+00:07:37,839 --> 00:07:40,218
+give two to my most preferred and then
+给我最喜欢的两个，然后
+
+212
+00:07:40,418 --> 00:07:44,569
+one each say to my second and third and
+一个对我的第二个和第三个说
+
+213
+00:07:44,769 --> 00:07:48,050
+then we'll count up and find who has the
+然后我们算起来，找出谁拥有
+
+214
+00:07:48,250 --> 00:07:50,059
+most votes so now I've got multiple
+多数选票，所以现在我有多个
+
+215
+00:07:50,259 --> 00:07:53,059
+votes I can express approval voting is
+我可以表示同意的投票是
+
+216
+00:07:53,259 --> 00:07:54,559
+another interesting voting rule and
+另一个有趣的投票规则
+
+217
+00:07:54,759 --> 00:07:56,870
+that's one more you can basically just
+那基本上可以再说一遍
+
+218
+00:07:57,069 --> 00:08:00,740
+express whichever outcomes you like and
+表达您喜欢的结果并
+
+219
+00:08:00,939 --> 00:08:04,100
+not Express which ones you don't like so
+不表达你不喜欢哪个
+
+220
+00:08:04,300 --> 00:08:06,860
+this is often used in saying electing
+这通常用于说选举
+
+221
+00:08:07,060 --> 00:08:08,838
+new members to a club or electing new
+俱乐部的新成员或选举新成员
+
+222
+00:08:09,038 --> 00:08:11,059
+members to a society something like that
+像这样的社会成员
+
+223
+00:08:11,259 --> 00:08:13,399
+so you can you know like a Hall of Fame
+这样你就能知道像名人堂一样
+
+224
+00:08:13,598 --> 00:08:17,329
+you can list which candidates you think
+您可以列出您认为的候选人
+
+225
+00:08:17,529 --> 00:08:20,449
+should be included and then gives zeros
+应该包括在内，然后给出零
+
+226
+00:08:20,649 --> 00:08:21,860
+basically to the ones you don't think
+基本上是你不认为的
+
+227
+00:08:22,060 --> 00:08:23,660
+should be included so you just vote for
+应该包括在内，所以您只需投票
+
+228
+00:08:23,860 --> 00:08:25,189
+the ones you think should be included
+你认为应该包括的那些
+
+229
+00:08:25,389 --> 00:08:27,218
+not for the ones you don't and then
+不适合那些你不想要的
+
+230
+00:08:27,418 --> 00:08:30,439
+there's some method of counting up and
+有一些计算方法， 
+
+231
+00:08:30,639 --> 00:08:32,328
+either picking just one if we just are
+如果我们只是选一个
+
+232
+00:08:32,528 --> 00:08:34,128
+going to elect one candidate or picking
+选一位候选人或挑选
+
+233
+00:08:34,328 --> 00:08:35,929
+several if we've got to pick memberships
+几个，如果我们必须选择会员资格
+
+234
+00:08:36,129 --> 00:08:38,208
+there's some threshold and so that's
+有一些门槛，所以
+
+235
+00:08:38,408 --> 00:08:40,578
+known as approval voting so these are
+被称为批准投票，所以这些是
+
+236
+00:08:40,778 --> 00:08:42,620
+different methods of making choices and
+不同的选择方法和
+
+237
+00:08:42,820 --> 00:08:43,990
+they're gonna have different properties
+它们将具有不同的属性
+
+238
+00:08:44,190 --> 00:08:48,979
+a set of other voting voting schemes
+一组其他投票表决方案
+
+239
+00:08:49,179 --> 00:08:51,828
+that's done on more kinds of information
+在更多种类的信息上完成
+
+240
+00:08:52,028 --> 00:08:53,259
+ranking
+排行
+
+241
+00:08:53,460 --> 00:08:55,789
+plurality with elimination so what's
+消除后的复数是什么
+
+242
+00:08:55,990 --> 00:08:59,029
+known often as Instant Runoff er single
+通常被称为即时径流
+
+243
+00:08:59,230 --> 00:09:01,039
+transferable vote or transferable voting
+可转让票或可转让票
+
+244
+00:09:01,240 --> 00:09:03,339
+goes by a series of different names and
+带有一系列不同的名称， 
+
+245
+00:09:03,539 --> 00:09:06,319
+that in that case what one does is you
+在那种情况下，你在做什么
+
+246
+00:09:06,519 --> 00:09:08,059
+actually express your whole preference
+真正表达您的整体偏好
+
+247
+00:09:08,259 --> 00:09:10,669
+ordering and so you first we count
+订购，所以您首先我们算一下
+
+248
+00:09:10,870 --> 00:09:12,259
+everybody's favorite outcome
+每个人最喜欢的结果
+
+249
+00:09:12,460 --> 00:09:13,729
+so it's think of everybody voting for
+所以想到每个人都在投票
+
+250
+00:09:13,929 --> 00:09:15,769
+their favorite outcome and if some
+他们最喜欢的结果，如果有的话
+
+251
+00:09:15,970 --> 00:09:18,259
+outcome has a majority it wins so if
+胜负占多数，所以如果
+
+252
+00:09:18,460 --> 00:09:20,029
+somebody gets more than 50% of all the
+某人获得了超过50％的
+
+253
+00:09:20,230 --> 00:09:23,659
+votes then it wins but if nobody has a
+票数，则获胜，但如果没有人
+
+254
+00:09:23,860 --> 00:09:26,299
+majority so if we have say three or four
+多数，所以如果我们说三四个
+
+255
+00:09:26,500 --> 00:09:29,120
+outcomes it could be that we have some
+结果可能是我们有一些
+
+256
+00:09:29,320 --> 00:09:31,849
+candidates that are tied or some no
+并列或没有的候选人
+
+257
+00:09:32,049 --> 00:09:34,009
+candidate got more than a majority and
+候选人获得多数票，并且
+
+258
+00:09:34,210 --> 00:09:36,979
+so what we do then is look at the
+所以我们要做的就是看看
+
+259
+00:09:37,179 --> 00:09:38,679
+outcome with the fewest votes and
+投票最少的结果
+
+260
+00:09:38,879 --> 00:09:41,659
+eliminate it okay so knock out the one
+消除它好吧，所以淘汰一个
+
+261
+00:09:41,860 --> 00:09:44,209
+that has the fewest votes you may need a
+投票最少的人，您可能需要
+
+262
+00:09:44,409 --> 00:09:45,709
+tiebreaking procedure to you know if
+抢七程序，您是否知道
+
+263
+00:09:45,909 --> 00:09:46,939
+there's two that have the fewest votes
+有两个选票最少的
+
+264
+00:09:47,139 --> 00:09:50,359
+so knock one with the fewest votes out
+所以以最少的票数淘汰
+
+265
+00:09:50,559 --> 00:09:54,620
+and then revote so now we've only got a
+然后进行投票，所以现在我们只有一个
+
+266
+00:09:54,820 --> 00:09:57,799
+subset of the candidates left everybody
+候选人的一部分离开了所有人
+
+267
+00:09:58,000 --> 00:09:59,750
+expresses their favorite out of this if
+表达他们的最爱，如果
+
+268
+00:09:59,950 --> 00:10:01,879
+somebody has a majority that's the
+有人占多数
+
+269
+00:10:02,080 --> 00:10:04,969
+winner if not knock another one out okay
+胜利者，如果不把另一个淘汰掉
+
+270
+00:10:05,169 --> 00:10:07,549
+and and so forth and actually there are
+等等，实际上有
+
+271
+00:10:07,750 --> 00:10:09,649
+rules there's variations on this the you
+规则有这个变化，你
+
+272
+00:10:09,850 --> 00:10:12,289
+know French presidential recollection
+知道法国总统的回忆
+
+273
+00:10:12,490 --> 00:10:14,809
+works this way where you first vote and
+在您第一次投票的地方以这种方式工作， 
+
+274
+00:10:15,009 --> 00:10:16,699
+then if nobody wins enough votes in the
+那么如果没有人赢得足够的选票
+
+275
+00:10:16,899 --> 00:10:19,490
+first round then there's a runoff among
+第一轮，然后有一个径流
+
+276
+00:10:19,690 --> 00:10:21,649
+subset of candidates there's a number of
+候选人的子集有很多
+
+277
+00:10:21,850 --> 00:10:22,929
+systems that work this way
+以这种方式工作的系统
+
+278
+00:10:23,129 --> 00:10:25,429
+okay well another one is very
+好吧，另一个非常
+
+279
+00:10:25,629 --> 00:10:27,349
+interesting and widely used what's known
+有趣且用途广泛的已知信息
+
+280
+00:10:27,549 --> 00:10:30,469
+as border rule abort comment how do we
+作为边界规则中止评论我们如何
+
+281
+00:10:30,669 --> 00:10:32,769
+pick outcomes under this in this case
+在这种情况下选择结果
+
+282
+00:10:32,970 --> 00:10:36,529
+you get to give your ranking and so
+你可以给出你的排名等等
+
+283
+00:10:36,730 --> 00:10:38,569
+you're assigning a single number to each
+您正在为每个分配一个数字
+
+284
+00:10:38,769 --> 00:10:41,569
+outcome and so generally if I suppose I
+结果，所以一般来说，如果我想我
+
+285
+00:10:41,769 --> 00:10:44,179
+have a ranking of I like a better than
+我的排名好于
+
+286
+00:10:44,379 --> 00:10:47,779
+be better than C better than T if we had
+如果有的话，比C比T更好
+
+287
+00:10:47,980 --> 00:10:49,789
+four different possible outcomes what I
+四种不同的可能结果
+
+288
+00:10:49,990 --> 00:10:51,709
+would give is I get to give a score of
+我会给一个分数
+
+289
+00:10:51,909 --> 00:10:54,469
+three to my preferred two to my second
+第三至第二
+
+290
+00:10:54,669 --> 00:10:58,549
+preferred one zero and so my most
+喜欢一个零，所以我最喜欢
+
+291
+00:10:58,750 --> 00:11:00,469
+preferred gets three votes this gets to
+首选获得三票，获得
+
+292
+00:11:00,669 --> 00:11:02,089
+one and zero
+一零
+
+293
+00:11:02,289 --> 00:11:04,339
+and now when we look across different
+现在，当我们看到不同
+
+294
+00:11:04,539 --> 00:11:07,139
+individuals we add them all up right so
+个人，我们将它们全部加起来，这样
+
+295
+00:11:07,340 --> 00:11:11,279
+somebody else has DB AC somebody else
+别人有DB AC别人
+
+296
+00:11:11,480 --> 00:11:18,990
+has BC ad etc right so in this case D
+拥有BC广告等权利，因此在这种情况下D 
+
+297
+00:11:19,190 --> 00:11:21,959
+gets three two one zero
+得到三二一零
+
+298
+00:11:22,159 --> 00:11:24,719
+B gets three two one zero
+ B得到三二一零
+
+299
+00:11:24,919 --> 00:11:27,179
+so B gets three votes here two votes
+所以B在这里得到3票2票
+
+300
+00:11:27,379 --> 00:11:30,179
+here two evokes here these going to have
+这里有两个唤起这些
+
+301
+00:11:30,379 --> 00:11:32,729
+seven votes overall and so forth so
+总共7票，依此类推
+
+302
+00:11:32,929 --> 00:11:35,099
+board account will get numbers for each
+董事会账户将获得每个数字
+
+303
+00:11:35,299 --> 00:11:36,779
+one of these things then we count up
+这些事情之一，然后我们算
+
+304
+00:11:36,980 --> 00:11:39,029
+this total number of numbers and the
+这个总数和
+
+305
+00:11:39,230 --> 00:11:41,309
+winner is the one with the most the
+获胜者是最
+
+306
+00:11:41,509 --> 00:11:43,079
+highest score and this is actually going
+最高分，这实际上正在
+
+307
+00:11:43,279 --> 00:11:45,870
+to produce a social welfare ordering
+产生社会福利令
+
+308
+00:11:46,070 --> 00:11:49,019
+right it's going to tell us what's which
+对，这会告诉我们这是什么
+
+309
+00:11:49,220 --> 00:11:51,089
+outcomes are in first place which ones
+结果放在首位
+
+310
+00:11:51,289 --> 00:11:52,620
+are in second place and so forth it's
+位居第二，依此类推
+
+311
+00:11:52,820 --> 00:11:53,939
+actually going to rank all the outcomes
+实际上要对所有结果进行排名
+
+312
+00:11:54,139 --> 00:11:57,509
+and so board account gives us an overall
+因此董事会帐户为我们提供了一个整体
+
+313
+00:11:57,710 --> 00:11:59,339
+ranking and actually this is used in a
+排名，实际上这用于
+
+314
+00:11:59,539 --> 00:12:03,269
+lot of sports evaluations so in the US
+在美国进行了很多运动评估
+
+315
+00:12:03,470 --> 00:12:05,429
+for ranking basketball teams or football
+用于排名篮球队或橄榄球
+
+316
+00:12:05,629 --> 00:12:09,419
+teams and different polls and in a
+团队和不同的民意调查
+
+317
+00:12:09,620 --> 00:12:10,559
+series of different situations where
+一系列不同情况，其中
+
+318
+00:12:10,759 --> 00:12:12,299
+you're trying to rank alternatives you
+您正在尝试对替代品进行排名
+
+319
+00:12:12,500 --> 00:12:14,069
+can give votes and then aggregate those
+可以投票然后汇总那些
+
+320
+00:12:14,269 --> 00:12:16,740
+up and producer ranking another one
+和生产者排名另一个
+
+321
+00:12:16,940 --> 00:12:18,179
+that's very interesting successive
+那是非常有趣的连续
+
+322
+00:12:18,379 --> 00:12:21,209
+elimination you order the alternatives
+消除您订购替代品
+
+323
+00:12:21,409 --> 00:12:23,279
+and then you first have a vote over the
+然后您首先对
+
+324
+00:12:23,480 --> 00:12:27,509
+first two do we prefer A or B the winner
+前两个是A还是B？ 
+
+325
+00:12:27,710 --> 00:12:29,699
+of that it's matched against see the
+与之相对应的是
+
+326
+00:12:29,899 --> 00:12:31,319
+winner of that gets matched against D
+的获胜者与D相匹配
+
+327
+00:12:31,519 --> 00:12:33,029
+the winner of that gets matched against
+的赢家与
+
+328
+00:12:33,230 --> 00:12:34,859
+the and so forth so you order the
+等等，所以您订购
+
+329
+00:12:35,059 --> 00:12:37,889
+alternatives do a pairwise vote and then
+替代方案进行成对投票，然后
+
+330
+00:12:38,090 --> 00:12:41,039
+and do this this actually works often in
+这样做实际上经常在
+
+331
+00:12:41,240 --> 00:12:43,740
+legislatures where we could imagine that
+可以想象的立法机关
+
+332
+00:12:43,940 --> 00:12:46,109
+there was a bill introduced then
+当时有一项法案
+
+333
+00:12:46,309 --> 00:12:48,870
+somebody amended the bill then somebody
+有人修改了法案然后有人
+
+334
+00:12:49,070 --> 00:12:50,219
+put out an amendment to the amendment
+提出修正案
+
+335
+00:12:50,419 --> 00:12:52,979
+and what we would do is first vote
+我们要做的是首先投票
+
+336
+00:12:53,179 --> 00:12:54,929
+whether we do the amendment to the
+我们是否对
+
+337
+00:12:55,129 --> 00:12:57,000
+amendment or just keep the amendment and
+修改或保留修改
+
+338
+00:12:57,200 --> 00:12:59,250
+then the winner of that it's put up
+那么它的赢家
+
+339
+00:12:59,450 --> 00:13:00,809
+against the bill do we want that versus
+我们要账单吗
+
+340
+00:13:01,009 --> 00:13:03,240
+the bill and then finally we asked Bill
+账单，然后我们问了比尔
+
+341
+00:13:03,440 --> 00:13:05,909
+no bill so that's voting by successive
+没有帐单，所以要逐个表决
+
+342
+00:13:06,110 --> 00:13:08,569
+elimination and is often used in many
+消除，经常用于许多
+
+343
+00:13:08,769 --> 00:13:11,399
+legislative processes so you can see
+立法程序，以便您可以看到
+
+344
+00:13:11,600 --> 00:13:14,639
+there's many different ways of voting
+有很多不同的投票方式
+
+345
+00:13:14,840 --> 00:13:17,549
+and choosing alternatives and these are
+并选择替代品，这些是
+
+346
+00:13:17,750 --> 00:13:18,359
+all going to have different properties
+都将具有不同的属性
+
+347
+00:13:18,559 --> 00:13:19,979
+and that's what makes this area so
+这就是使这个区域如此
+
+348
+00:13:20,179 --> 00:13:21,179
+interesting
+有趣
+
+349
+00:13:21,379 --> 00:13:22,919
+there's not a simple way to do things
+没有简单的做事方法
+
+350
+00:13:23,120 --> 00:13:24,179
+there's many different ways to do things
+有很多不同的做事方式
+
+351
+00:13:24,379 --> 00:13:25,919
+they're each going to have pluses and
+他们每个人都有加号， 
+
+352
+00:13:26,120 --> 00:13:27,689
+minuses and so there could be trade-offs
+缺点，因此可能会取舍
+
+353
+00:13:27,889 --> 00:13:30,899
+involved now one important concept that
+现在涉及一个重要的概念
+
+354
+00:13:31,100 --> 00:13:32,639
+we'll be talking about a little bit in
+我们将谈论一些
+
+355
+00:13:32,840 --> 00:13:35,099
+the future is what's known as Condor say
+未来就是所谓的神鹰说
+
+356
+00:13:35,299 --> 00:13:38,870
+consistency and marquis de condorcet
+一致和侯爵
+
+357
+00:13:39,070 --> 00:13:42,990
+defined this centuries ago and the idea
+定义了这个世纪前的想法
+
+358
+00:13:43,190 --> 00:13:45,149
+here is is looking for a candidate
+这是在寻找候选人
+
+359
+00:13:45,350 --> 00:13:47,819
+that's preferred that beats every other
+彼此击败的首选
+
+360
+00:13:48,019 --> 00:13:50,609
+one in a pairwise majority so if you
+一个成对的多数，如果你
+
+361
+00:13:50,809 --> 00:13:54,559
+look you know if we've got a versus B is
+看你知道我们是否有一个B 
+
+362
+00:13:54,759 --> 00:13:56,879
+preferred to be by majority and we look
+倾向于多数票，我们期待
+
+363
+00:13:57,080 --> 00:13:59,549
+at a versus C a is preferred to C by a
+在a与C a相比C在a 
+
+364
+00:13:59,750 --> 00:14:03,329
+majority an A to D so if a beats every
+多数是A到D，所以如果每一个都击败
+
+365
+00:14:03,529 --> 00:14:06,689
+other alternative it has a majority of
+其他替代品
+
+366
+00:14:06,889 --> 00:14:08,879
+votes versus all other ones then that's
+选票与其他所有选票的对比
+
+367
+00:14:09,080 --> 00:14:11,639
+known as a Condorcet winner okay so it's
+被称为Condorcet赢家好吧，所以
+
+368
+00:14:11,840 --> 00:14:13,589
+it's something which majority prefers to
+这是大多数人都喜欢的东西
+
+369
+00:14:13,789 --> 00:14:16,500
+any other alternative and when those
+任何其他选择以及
+
+370
+00:14:16,700 --> 00:14:20,459
+exist then we'll say that a rule is
+存在，那么我们将说一条规则是
+
+371
+00:14:20,659 --> 00:14:21,870
+condors say consistent if a social
+秃鹰说如果社会
+
+372
+00:14:22,070 --> 00:14:24,419
+choice function picks a condor say
+选择功能选择神鹰说
+
+373
+00:14:24,620 --> 00:14:26,309
+winner when there is one okay so that's
+好的，那是胜利者，那就是
+
+374
+00:14:26,509 --> 00:14:28,919
+a nice property that sometimes desired
+有时需要的一个不错的属性
+
+375
+00:14:29,120 --> 00:14:32,819
+of rule and you know there can be a
+规则，你知道可能会有一个
+
+376
+00:14:33,019 --> 00:14:35,579
+cycle so for instance if we had three
+循环，例如，如果我们有三个
+
+377
+00:14:35,779 --> 00:14:39,029
+alternatives person one likes ABC person
+一个喜欢ABC的人
+
+378
+00:14:39,230 --> 00:14:42,439
+two likes BCA person three likes
+二喜欢BCA人三喜欢
+
+379
+00:14:42,639 --> 00:14:48,750
+CA B now you can see here is preferred
+ CA B现在您可以看到这里是首选
+
+380
+00:14:48,950 --> 00:14:52,319
+to be by a majority two people prefer a
+占多数的两个人更喜欢
+
+381
+00:14:52,519 --> 00:14:56,009
+over B B's preferred to see by a
+超过B B的首选
+
+382
+00:14:56,210 --> 00:14:59,879
+majority but C is also preferred to a by
+多数，但C也优于a 
+
+383
+00:15:00,080 --> 00:15:03,479
+a majority so we get a cycle here where
+大多数，所以我们在这里得到一个循环
+
+384
+00:15:03,679 --> 00:15:06,929
+we end up with you know majority rule we
+我们最终以您知道多数统治我们
+
+385
+00:15:07,129 --> 00:15:09,539
+have a beating B but be beating C and C
+击败B但击败C和C 
+
+386
+00:15:09,740 --> 00:15:11,339
+beating a so we can begin to see that
+击败一个，所以我们可以开始看到
+
+387
+00:15:11,539 --> 00:15:13,349
+there's going to be problems with with
+将会有问题
+
+388
+00:15:13,549 --> 00:15:15,089
+voting rules in terms of making sure
+投票规则，以确保
+
+389
+00:15:15,289 --> 00:15:17,699
+that everything's coherent in terms of
+一切都是连贯的
+
+390
+00:15:17,899 --> 00:15:18,990
+the way the society is gonna end up
+社会的结局
+
+391
+00:15:19,190 --> 00:15:21,659
+making a choice and Condor say cycles
+做出选择，神鹰说周期
+
+392
+00:15:21,860 --> 00:15:23,339
+are going to be an important part of
+将成为
+
+393
+00:15:23,539 --> 00:15:24,959
+that it's nice if we have a Condorcet
+如果我们有一个Condorcet很好
+
+394
+00:15:25,159 --> 00:15:25,409
+winner
+优胜者
+
+395
+00:15:25,610 --> 00:15:28,439
+they don't always exist so the next
+他们并不总是存在，所以下一个
+
+396
+00:15:28,639 --> 00:15:30,659
+thing we'll be talking about is is you
+我们要谈论的是你
+
+397
+00:15:30,860 --> 00:15:31,829
+know some of the properties of voting
+了解投票的一些属性
+
+398
+00:15:32,029 --> 00:15:33,629
+rules in more detail and then some more
+规则更详细，然后更多
+
+399
+00:15:33,830 --> 00:15:38,830
+general results on these
+这些的一般结果
+

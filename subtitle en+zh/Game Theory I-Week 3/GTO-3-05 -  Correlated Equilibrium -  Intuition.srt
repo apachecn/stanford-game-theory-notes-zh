@@ -1,0 +1,670 @@
+﻿1
+00:00:00,000 --> 00:00:01,480
+this video will explain to you the
+该视频将向您说明
+
+2
+00:00:01,679 --> 00:00:03,428
+intuition behind a new game theoretic
+新游戏理论背后的直觉
+
+3
+00:00:03,629 --> 00:00:05,710
+solution concept called correlated
+解决方案概念称为相关
+
+4
+00:00:05,910 --> 00:00:09,910
+equilibrium let's think again about the
+平衡让我们再考虑一下
+
+5
+00:00:10,109 --> 00:00:12,550
+battle of the sexes game and let's think
+两性游戏之战，让我们想一想
+
+6
+00:00:12,750 --> 00:00:14,559
+about its Nash equilibria remember
+关于它的纳什均衡记得
+
+7
+00:00:14,759 --> 00:00:16,060
+there's a Nash equilibrium where both
+纳什均衡
+
+8
+00:00:16,260 --> 00:00:18,609
+players play B there's a Nash
+玩家玩B有纳什
+
+9
+00:00:18,809 --> 00:00:20,440
+equilibrium where both players play F
+双方都发挥F的平衡
+
+10
+00:00:20,640 --> 00:00:24,210
+and there's another Nash equilibrium
+还有另一个纳什均衡
+
+11
+00:00:24,410 --> 00:00:27,010
+where both players randomize according
+两位玩家根据
+
+12
+00:00:27,210 --> 00:00:30,760
+to these probabilities and that means
+这些概率，这意味着
+
+13
+00:00:30,960 --> 00:00:32,709
+that all four of the outcomes can happen
+所有四个结果都可能发生
+
+14
+00:00:32,909 --> 00:00:35,619
+so both of these outcomes can happen but
+所以这两种结果都可能发生，但是
+
+15
+00:00:35,820 --> 00:00:39,669
+these ones can happen as well now let's
+这些事情也可以发生现在，让我们
+
+16
+00:00:39,869 --> 00:00:41,709
+think about intuitively what makes the
+直觉地思考什么使
+
+17
+00:00:41,909 --> 00:00:43,419
+most sense to us about the battle of the
+对我们而言，最了解
+
+18
+00:00:43,619 --> 00:00:46,689
+sexes it's really that this outcome
+性别确实是这个结果
+
+19
+00:00:46,890 --> 00:00:49,628
+would happen half the time and this
+会发生一半的时间，这
+
+20
+00:00:49,829 --> 00:00:52,059
+outcome would happen half the time all
+结果会一半都发生
+
+21
+00:00:52,259 --> 00:00:53,529
+right if you and your partner really did
+如果你和你的伴侣真的做到了
+
+22
+00:00:53,729 --> 00:00:55,239
+have different preferences about what to
+对要做什么有不同的偏好
+
+23
+00:00:55,439 --> 00:00:57,459
+do and you wanted to be together you
+你想和你在一起
+
+24
+00:00:57,659 --> 00:00:59,140
+would work it out where you each win
+会算出您每次获胜的地方
+
+25
+00:00:59,340 --> 00:01:01,959
+half the time and something that might
+一半的时间，可能
+
+26
+00:01:02,159 --> 00:01:03,158
+have struck you about battle of the
+打击了你的战斗
+
+27
+00:01:03,359 --> 00:01:04,899
+sexes is it doesn't give us a way to say
+性别是没有给我们一种表达方式
+
+28
+00:01:05,099 --> 00:01:06,879
+that that's a stable outcome and the
+那是一个稳定的结果， 
+
+29
+00:01:07,079 --> 00:01:08,619
+reason why we don't say it's stable is
+我们不说它稳定的原因是
+
+30
+00:01:08,819 --> 00:01:12,039
+that if both of these things can happen
+如果这两种事情都能发生
+
+31
+00:01:12,239 --> 00:01:14,469
+then both players have to be playing
+然后两个玩家都必须玩
+
+32
+00:01:14,670 --> 00:01:16,329
+mixed strategies with full support and
+全面支持下的混合策略
+
+33
+00:01:16,530 --> 00:01:18,609
+that means the MIS coordination actions
+这意味着MIS的协调行动
+
+34
+00:01:18,810 --> 00:01:24,129
+have to be possible as well well here's
+一定也要在这里
+
+35
+00:01:24,329 --> 00:01:25,569
+another example that we can think about
+我们可以考虑的另一个例子
+
+36
+00:01:25,769 --> 00:01:27,099
+there will give us some intuition for
+会给我们一些直觉
+
+37
+00:01:27,299 --> 00:01:31,000
+why the what's really going on here and
+为什么这里真正发生了什么
+
+38
+00:01:31,200 --> 00:01:33,128
+how we can do something about it so this
+我们如何才能做到这一点，所以这
+
+39
+00:01:33,328 --> 00:01:35,259
+is the traffic game so this models the
+是交通游戏，所以这为
+
+40
+00:01:35,459 --> 00:01:36,700
+situation where two cars are coming
+两辆车要来的情况
+
+41
+00:01:36,900 --> 00:01:38,709
+together to an intersection and they
+一起到一个路口，他们
+
+42
+00:01:38,909 --> 00:01:40,179
+have to decide whether to wait for the
+必须决定是否等待
+
+43
+00:01:40,379 --> 00:01:41,829
+other person to go through first or
+别人先经过或
+
+44
+00:01:42,030 --> 00:01:46,119
+whether to just go through well if if
+是否要顺利通过
+
+45
+00:01:46,319 --> 00:01:47,859
+one of them goes and the other one waits
+其中一个去，另一个等待
+
+46
+00:01:48,060 --> 00:01:51,009
+then the one that goes gets the most
+然后去的人得到最大
+
+47
+00:01:51,209 --> 00:01:52,689
+utility and the one that waits gets a
+实用程序和等待的人得到一个
+
+48
+00:01:52,890 --> 00:01:55,179
+bit less utility if they both wait
+如果他们都等的话，实用性会降低
+
+49
+00:01:55,379 --> 00:01:57,789
+they're both strictly less happy because
+他们俩绝对不那么快乐，因为
+
+50
+00:01:57,989 --> 00:01:59,198
+they both waited and they still have to
+他们俩都在等待，他们仍然必须
+
+51
+00:01:59,399 --> 00:02:02,558
+decide what to do if they both go the
+决定如果他们俩都去了该怎么办
+
+52
+00:02:02,759 --> 00:02:04,988
+worst of all things happens because they
+最糟糕的事情发生是因为它们
+
+53
+00:02:05,188 --> 00:02:08,618
+crash into each other so in total we
+撞到对方所以总的来说
+
+54
+00:02:08,818 --> 00:02:12,840
+have two pure strategy equilibria that
+有两个纯策略均衡
+
+55
+00:02:13,039 --> 00:02:14,640
+again asymmetric kind of like in battle
+再次在战斗中不对称
+
+56
+00:02:14,840 --> 00:02:16,739
+of the sexes and of course it's also
+的性别，当然也
+
+57
+00:02:16,938 --> 00:02:17,939
+possible to have a mixed strategy
+可能有混合策略
+
+58
+00:02:18,139 --> 00:02:21,090
+equilibrium here but let's think about
+这里平衡，但让我们考虑一下
+
+59
+00:02:21,289 --> 00:02:22,830
+what would really happen in the world
+世界上到底会发生什么
+
+60
+00:02:23,030 --> 00:02:24,269
+when we have this kind of situation
+当我们有这种情况
+
+61
+00:02:24,468 --> 00:02:26,670
+where we have an intersection and
+我们有一个路口， 
+
+62
+00:02:26,870 --> 00:02:28,140
+there's the possibility that cars might
+汽车可能会
+
+63
+00:02:28,340 --> 00:02:30,959
+collide what we really do is we have a
+碰撞我们真正要做的是
+
+64
+00:02:31,158 --> 00:02:32,759
+traffic light and let's think about what
+交通灯，让我们考虑一下
+
+65
+00:02:32,959 --> 00:02:34,349
+a traffic light means game theoretically
+理论上，交通信号灯意味着游戏
+
+66
+00:02:34,549 --> 00:02:38,099
+it's a fair randomizing device that
+这是一个公平的随机装置
+
+67
+00:02:38,299 --> 00:02:39,959
+recommends actions to the agents it
+向代理商推荐行动
+
+68
+00:02:40,158 --> 00:02:41,939
+tells one of them to go it tells the
+告诉其中一个去吧
+
+69
+00:02:42,139 --> 00:02:43,920
+other one to wait and it's fair in the
+另一个要等待，这是公平的
+
+70
+00:02:44,120 --> 00:02:45,330
+sense that at different times it makes
+感觉在不同的时间
+
+71
+00:02:45,530 --> 00:02:48,179
+different recommendations well the
+不同的建议以及
+
+72
+00:02:48,378 --> 00:02:52,500
+benefits here are that the negative
+好处是负面的
+
+73
+00:02:52,699 --> 00:02:54,689
+payoff outcomes are completely avoided
+完全避免了回报结果
+
+74
+00:02:54,889 --> 00:02:57,509
+we can achieve something fair and in
+我们可以做到公平，公正
+
+75
+00:02:57,709 --> 00:02:59,310
+general although not in this example
+一般，虽然在此示例中不
+
+76
+00:02:59,509 --> 00:03:01,590
+it's possible to end up with a sum of
+最终可能总和
+
+77
+00:03:01,789 --> 00:03:03,420
+social welfare that exceeds that that
+超过那个的社会福利
+
+78
+00:03:03,620 --> 00:03:05,780
+can be achieved in any Nash equilibrium
+可以在任何纳什均衡中实现
+
+79
+00:03:05,979 --> 00:03:09,118
+well we can use the same idea to achieve
+好吧，我们可以使用相同的想法来实现
+
+80
+00:03:09,318 --> 00:03:10,409
+the fair outcome in the battle of the
+战役中的公平结果
+
+81
+00:03:10,609 --> 00:03:12,810
+sexes game so we could have a situation
+性别游戏，所以我们可能会遇到这种情况
+
+82
+00:03:13,009 --> 00:03:14,670
+where the husband and wife flip a coin
+夫妻掷硬币的地方
+
+83
+00:03:14,870 --> 00:03:17,310
+and depending on how the coin comes up
+并取决于硬币如何出现
+
+84
+00:03:17,509 --> 00:03:19,170
+they go together either to the bat
+他们一起去蝙蝠
+
+85
+00:03:19,370 --> 00:03:23,039
+aligner to the football well this is
+很适合足球，这是
+
+86
+00:03:23,239 --> 00:03:24,569
+essentially the idea of a correlated
+本质上是相关的
+
+87
+00:03:24,769 --> 00:03:26,429
+equilibrium the correlated equilibrium
+均衡相关均衡
+
+88
+00:03:26,628 --> 00:03:29,640
+is a randomized assignment of action
+是随机分配的动作
+
+89
+00:03:29,840 --> 00:03:32,189
+recommendations to the agents such that
+给代理商的建议
+
+90
+00:03:32,389 --> 00:03:33,719
+everybody wants to follow the action
+每个人都想跟随行动
+
+91
+00:03:33,919 --> 00:03:36,270
+recommendations so we have some
+建议，所以我们有一些
+
+92
+00:03:36,469 --> 00:03:38,490
+randomizing device that tells me be some
+告诉我随机装置
+
+93
+00:03:38,689 --> 00:03:40,469
+of the time and F some of the time
+的时间和F的一些时间
+
+94
+00:03:40,669 --> 00:03:44,279
+and it's it and in a correlated way
+就是这样，并且以一种相关的方式
+
+95
+00:03:44,479 --> 00:03:46,560
+potentially correlated way tells you be
+潜在相关的方式告诉你
+
+96
+00:03:46,759 --> 00:03:48,179
+some of the time and tells you have some
+有些时候告诉你有一些
+
+97
+00:03:48,378 --> 00:03:51,149
+of the time so flipping a coin where if
+在时间上如此抛硬币如果
+
+98
+00:03:51,348 --> 00:03:52,289
+it's heads we both get the
+我们都得到了
+
+99
+00:03:52,489 --> 00:03:54,509
+recommendation be if it's tails we both
+推荐是如果我们都是尾巴
+
+100
+00:03:54,709 --> 00:03:56,459
+get the recommendation F is a
+得到推荐F是一个
+
+101
+00:03:56,658 --> 00:03:58,020
+randomizing device like this although
+虽然这样的随机装置
+
+102
+00:03:58,219 --> 00:03:59,099
+it's possible for it to be more
+可能会更多
+
+103
+00:03:59,299 --> 00:04:03,509
+complicated and I in principle if it
+复杂，我原则上是否
+
+104
+00:04:03,709 --> 00:04:05,249
+comes up heads and we understand that to
+冒出头，我们了解到
+
+105
+00:04:05,449 --> 00:04:06,179
+mean that we're both getting the
+意味着我们都得到了
+
+106
+00:04:06,378 --> 00:04:08,640
+recommendation B this doesn't compel us
+建议B这不会强迫我们
+
+107
+00:04:08,840 --> 00:04:10,739
+both to go to the ballet we still get to
+都去芭蕾舞，我们仍然要去
+
+108
+00:04:10,938 --> 00:04:12,450
+freely decide how to interpret that
+自由决定如何解释
+
+109
+00:04:12,650 --> 00:04:14,879
+recommendation but it's a correlated
+推荐，但这是相关的
+
+110
+00:04:15,079 --> 00:04:17,278
+equilibrium if neither of us would want
+如果我们两个都不愿意的话
+
+111
+00:04:17,478 --> 00:04:19,020
+to deviate from the recommendation and
+偏离建议
+
+112
+00:04:19,220 --> 00:04:21,120
+you can see in this example with battle
+你可以在这个例子中看到战斗
+
+113
+00:04:21,319 --> 00:04:23,189
+of the sexes that indeed neither of us
+的性别，实际上我们俩都不
+
+114
+00:04:23,389 --> 00:04:25,620
+would want to deviate because if the
+会想偏离，因为如果
+
+115
+00:04:25,819 --> 00:04:26,520
+other one is following
+另一个正在关注
+
+116
+00:04:26,720 --> 00:04:28,980
+recommendation and I deviate then I'm
+建议，我偏离了我
+
+117
+00:04:29,180 --> 00:04:31,139
+just gonna get a payoff of zero instead
+只会得到零的回报
+
+118
+00:04:31,339 --> 00:04:33,240
+of getting a positive payoff so a
+获得正收益的过程
+
+119
+00:04:33,439 --> 00:04:36,270
+correlated equilibrium is any such
+相关均衡就是这样
+
+120
+00:04:36,470 --> 00:04:38,759
+randomized assignment of these possibly
+这些可能的随机分配
+
+121
+00:04:38,959 --> 00:04:40,889
+correlated action recommendations that
+相关的行动建议
+
+122
+00:04:41,089 --> 00:04:43,379
+leaves nobody wanting to deviate it's a
+留下没人想偏离它的
+
+123
+00:04:43,579 --> 00:04:45,060
+generalization of the idea of Nash
+纳什思想的概括
+
+124
+00:04:45,259 --> 00:04:47,610
+equilibrium because if these action
+平衡，因为如果这些动作
+
+125
+00:04:47,810 --> 00:04:49,259
+recommendations are not correlated at
+的建议在以下位置不相关
+
+126
+00:04:49,459 --> 00:04:51,120
+all then we just get back to mixed
+然后我们回到混合状态
+
+127
+00:04:51,319 --> 00:04:52,740
+strategies like we had before so we can
+像以前一样的策略，所以我们可以
+
+128
+00:04:52,939 --> 00:04:54,560
+capture any Nash equilibrium this way
+以此方式捕获任何纳什均衡
+
+129
+00:04:54,759 --> 00:04:57,000
+but we can also get new things like
+但我们也可以得到诸如
+
+130
+00:04:57,199 --> 00:04:59,430
+we've just seen so it's this strict kind
+我们刚刚看到过，所以这是一种严格的要求
+
+131
+00:04:59,629 --> 00:05:02,040
+of weakening of the concept of Nash
+纳什概念的削弱
+
+132
+00:05:02,240 --> 00:05:04,889
+equilibrium and includes more things and
+平衡，包括更多的事物和
+
+133
+00:05:05,089 --> 00:05:07,050
+it can get us these kinds of nice fair
+它可以给我们带来这样的公平
+
+134
+00:05:07,250 --> 00:05:12,250
+outcomes
+结果
+

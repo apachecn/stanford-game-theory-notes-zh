@@ -1,0 +1,1065 @@
+﻿1
+00:00:00,000 --> 00:00:03,188
+I have folks let's take a peek at a game
+我有伙计让我们看一下游戏
+
+2
+00:00:03,388 --> 00:00:05,309
+now where we can begin to see whether
+现在我们可以开始看看是否
+
+3
+00:00:05,509 --> 00:00:07,960
+iterative elimination of strictly
+严格消除迭代
+
+4
+00:00:08,160 --> 00:00:11,519
+dominated strategies has any bite in
+主导策略有任何影响
+
+5
+00:00:11,718 --> 00:00:16,030
+application and in order to do this
+应用程序并为此
+
+6
+00:00:16,230 --> 00:00:18,820
+we're gonna look at an experiment that
+我们要看一个实验
+
+7
+00:00:19,019 --> 00:00:21,550
+was done by Baldwin and Meese in the
+由Baldwin和Meese在
+
+8
+00:00:21,750 --> 00:00:24,129
+late 1970s and they were actually
+ 1970年代后期，实际上
+
+9
+00:00:24,329 --> 00:00:26,079
+looking at social behavior in pigs so
+看猪的社会行为
+
+10
+00:00:26,278 --> 00:00:28,419
+this the players in our game here are
+这是我们游戏中的玩家
+
+11
+00:00:28,618 --> 00:00:32,409
+going to be pigs and there's actually a
+会是猪，实际上有一个
+
+12
+00:00:32,609 --> 00:00:33,579
+sort of an interesting discussion of
+有点有趣的讨论
+
+13
+00:00:33,780 --> 00:00:35,439
+this this comes from Joe Harrington's
+这是乔·哈灵顿的
+
+14
+00:00:35,640 --> 00:00:37,709
+book game strategies and decision-making
+预定游戏策略和决策
+
+15
+00:00:37,909 --> 00:00:43,439
+and the idea is sort of interesting
+这个想法很有意思
+
+16
+00:00:43,640 --> 00:00:46,479
+you've got two pigs in a cage okay so
+你在笼子里有两只猪好吧
+
+17
+00:00:46,679 --> 00:00:49,649
+they're in a cage several meter caged
+他们被关在几米的笼子里
+
+18
+00:00:49,850 --> 00:00:52,659
+one of the pigs is larger than the other
+一只猪比另一只大
+
+19
+00:00:52,859 --> 00:00:55,358
+we call that the dominant Pig or I mean
+我们称主要猪或我的意思是
+
+20
+00:00:55,558 --> 00:00:57,640
+well sorry for the terminology so what
+不好意思，所以该怎么办
+
+21
+00:00:57,840 --> 00:01:00,928
+we'll actually use the word larger Pig
+我们实际上将使用更大的猪这个词
+
+22
+00:01:01,128 --> 00:01:06,759
+and in what they need to do is is food
+他们需要做的就是食物
+
+23
+00:01:06,959 --> 00:01:08,349
+arrives but they need to press a lever
+到达，但他们需要按一下操纵杆
+
+24
+00:01:08,549 --> 00:01:11,109
+to get the food to arrive okay and the
+拿到食物就可以了
+
+25
+00:01:11,310 --> 00:01:14,019
+critical thing is that the lever is on
+关键是杠杆已经打开
+
+26
+00:01:14,219 --> 00:01:16,119
+one side of the cage you go over you
+笼子的一侧，你越过你
+
+27
+00:01:16,319 --> 00:01:18,879
+press the lever and then the food
+按下控制杆，然后按下食物
+
+28
+00:01:19,079 --> 00:01:20,799
+arrives on the opposite side of the cage
+到达笼子的另一侧
+
+29
+00:01:21,000 --> 00:01:23,590
+okay so the pigs are put in a cage the
+好吧，所以把猪放在笼子里
+
+30
+00:01:23,790 --> 00:01:25,509
+cage they learn eventually that if they
+笼子里，他们最终了解到，如果他们
+
+31
+00:01:25,709 --> 00:01:27,640
+hit this lever food appears on the other
+打这个杠杆食物出现在另一个
+
+32
+00:01:27,840 --> 00:01:30,819
+side so what they would have to do is if
+一边，所以他们将要做的是
+
+33
+00:01:31,019 --> 00:01:32,319
+they want to eat they would have to move
+他们想吃东西，他们不得不搬家
+
+34
+00:01:32,519 --> 00:01:33,939
+over a run up to one side of the cage
+越过笼子的一侧
+
+35
+00:01:34,140 --> 00:01:36,278
+hit the lever run back to the other side
+撞到另一边
+
+36
+00:01:36,478 --> 00:01:38,558
+get the food that comes out eat the food
+得到出来的食物吃的食物
+
+37
+00:01:38,759 --> 00:01:40,569
+a few pellets of food then they go back
+几粒食物然后回去
+
+38
+00:01:40,769 --> 00:01:42,579
+hit the lever again run back to the
+再次击中操纵杆
+
+39
+00:01:42,780 --> 00:01:44,549
+other side of the cage get some food
+笼子的另一边吃些食物
+
+40
+00:01:44,750 --> 00:01:47,698
+okay now the difficult part is that
+好吧，现在困难的部分是
+
+41
+00:01:47,899 --> 00:01:51,399
+there are two pigs in the cage so if we
+笼子里有两只猪，所以如果我们
+
+42
+00:01:51,599 --> 00:01:54,939
+put two pigs in the same cage and one is
+将两只猪放在同一个笼子里，一只是
+
+43
+00:01:55,140 --> 00:01:57,909
+larger than when they're both trying to
+比他们俩都想
+
+44
+00:01:58,109 --> 00:02:00,399
+get the food which comes out and and
+得到出来的食物，然后
+
+45
+00:02:00,599 --> 00:02:03,069
+these are pigs the larger one will end
+这些是猪，更大的会结束
+
+46
+00:02:03,269 --> 00:02:06,730
+up getting the food and the smaller one
+拿起食物和较小的食物
+
+47
+00:02:06,930 --> 00:02:08,770
+will get less food okay so that's the
+会减少食物的摄入量，所以这就是
+
+48
+00:02:08,969 --> 00:02:10,600
+basic idea here and then we can analyze
+这里的基本思想，然后我们可以分析
+
+49
+00:02:10,800 --> 00:02:12,819
+this as a game
+这是一个游戏
+
+50
+00:02:13,019 --> 00:02:14,410
+so in particular let's take a look in
+所以特别让我们来看看
+
+51
+00:02:14,610 --> 00:02:16,149
+more detail at how the payoffs work here
+有关收益如何工作的更多详细信息
+
+52
+00:02:16,348 --> 00:02:18,730
+so when the food comes out there's 10
+所以当食物出来的时候有十个
+
+53
+00:02:18,930 --> 00:02:21,099
+units of food and say pellets of food
+食物单位并说食物颗粒
+
+54
+00:02:21,299 --> 00:02:24,160
+that come out and let's look at what the
+出来，让我们看看
+
+55
+00:02:24,360 --> 00:02:27,520
+typical split ends up being if there are
+典型的分裂最终是如果有
+
+56
+00:02:27,719 --> 00:02:30,129
+two pigs in the cage one it's larger one
+关在笼子里的两只猪，一只更大
+
+57
+00:02:30,329 --> 00:02:33,219
+smaller and if the larger one gets to
+较小的，如果较大的
+
+58
+00:02:33,419 --> 00:02:36,789
+the food first then there's basically a
+首先是食物，然后基本上是
+
+59
+00:02:36,989 --> 00:02:40,090
+1 9 split so that means that the small
+ 1 9分裂意味着小
+
+60
+00:02:40,289 --> 00:02:41,530
+pig ends up with just with one pellet
+猪只剩下一粒
+
+61
+00:02:41,729 --> 00:02:44,349
+and the larger pig would end up with 9
+而较大的猪最终会得到9 
+
+62
+00:02:44,549 --> 00:02:49,030
+units of the food so if the large one
+食物的单位，所以如果大一个
+
+63
+00:02:49,229 --> 00:02:50,469
+gets there first it's very hard for the
+首先到达那里对于
+
+64
+00:02:50,669 --> 00:02:52,719
+small one to get anything they tend to
+小家伙得到他们倾向于得到的任何东西
+
+65
+00:02:52,919 --> 00:02:54,730
+get one on average but not close to
+平均得到一个但不接近
+
+66
+00:02:54,930 --> 00:02:57,429
+nothing if the small Pig gets to the
+如果小猪去了就没有
+
+67
+00:02:57,628 --> 00:03:00,129
+food first then they end up with a 4 6
+食物，然后他们最终得到4 6 
+
+68
+00:03:00,329 --> 00:03:04,030
+split ok so then it's 40 60 so the small
+好的，然后是40 60那么小
+
+69
+00:03:04,229 --> 00:03:05,709
+pig still gets less the the bigger
+猪仍然变得越来越少
+
+70
+00:03:05,908 --> 00:03:08,170
+people gets more but the small Pig at
+人们得到更多，但小猪在
+
+71
+00:03:08,370 --> 00:03:10,270
+least has a literally a fighting chance
+至少有一个真正的战斗机会
+
+72
+00:03:10,469 --> 00:03:13,390
+here now if they get to the food at the
+如果他们现在在这里吃饭
+
+73
+00:03:13,590 --> 00:03:18,099
+same time then it's a 3 7 split so the
+同时是3 7分割，所以
+
+74
+00:03:18,299 --> 00:03:22,270
+bigger Pig gets the little more and one
+较大的猪多一点一点
+
+75
+00:03:22,469 --> 00:03:23,860
+other thing is that you know running
+另一件事是你知道跑步
+
+76
+00:03:24,060 --> 00:03:25,659
+over and pressing the lever actually
+并实际按下操纵杆
+
+77
+00:03:25,859 --> 00:03:27,789
+consume some calories so let's take that
+消耗一些卡路里，所以让我们
+
+78
+00:03:27,989 --> 00:03:30,670
+they take it to say two units of food in
+他们说这是两个单位的食物
+
+79
+00:03:30,870 --> 00:03:33,219
+terms of energy ok so so we've got these
+能源条件还可以，所以我们有了这些
+
+80
+00:03:33,419 --> 00:03:35,469
+different splits and so forth so what we
+不同的分裂等等，所以我们
+
+81
+00:03:35,669 --> 00:03:38,890
+can do is write out a simple normal form
+可以做的就是写出一个简单的范式
+
+82
+00:03:39,090 --> 00:03:41,399
+game for that so given all these numbers
+鉴于所有这些数字
+
+83
+00:03:41,598 --> 00:03:45,460
+here's the small pig over here large pig
+这是小猪，这是大猪
+
+84
+00:03:45,659 --> 00:03:47,770
+over here and now they have two choices
+在这里，现在他们有两个选择
+
+85
+00:03:47,969 --> 00:03:50,860
+they can either run over and press the
+他们可以跑过去然后按
+
+86
+00:03:51,060 --> 00:03:54,039
+lever and or they could sit there and
+杠杆，或者他们可以坐在那里
+
+87
+00:03:54,239 --> 00:03:56,020
+sit by the food side and wait for the
+坐在食物边，等待
+
+88
+00:03:56,219 --> 00:03:57,399
+other Pig to press the lever
+其他猪按下操纵杆
+
+89
+00:03:57,598 --> 00:04:00,610
+now if you both go to press the lever
+现在，如果你们两个都去按操纵杆
+
+90
+00:04:00,810 --> 00:04:02,590
+then they get back to the food at the
+然后他们回到那里的食物
+
+91
+00:04:02,789 --> 00:04:04,060
+same time it's going to be a three seven
+同时它将是三七
+
+92
+00:04:04,259 --> 00:04:06,819
+split but it's a three seven split and
+拆分，但这是三七拆分， 
+
+93
+00:04:07,019 --> 00:04:09,340
+then you subtract off two for the cost
+然后你减去两个
+
+94
+00:04:09,539 --> 00:04:11,740
+of running back and forth so they each
+来回奔跑，所以他们每个人
+
+95
+00:04:11,939 --> 00:04:15,460
+lose two units of food so three minus
+失去两份食物，所以减去三分
+
+96
+00:04:15,659 --> 00:04:19,959
+two we get the 1 7 minus 2 we get the 5
+两个我们得到1 7减去2我们得到5 
+
+97
+00:04:20,158 --> 00:04:24,250
+so we end up with 1 5 if they both do it
+因此，如果他们俩都这样做，我们最终得到1 5 
+
+98
+00:04:24,449 --> 00:04:26,170
+at the same time
+与此同时
+
+99
+00:04:26,370 --> 00:04:29,439
+in a situation where say the small pig
+在说小猪的情况下
+
+100
+00:04:29,639 --> 00:04:32,410
+presses the lever and the big pig just
+按下杠杆和大猪只是
+
+101
+00:04:32,610 --> 00:04:34,990
+waits there then it's a 1 9 split but
+等那里然后是1 9拆分，但是
+
+102
+00:04:35,189 --> 00:04:37,360
+the small pig ends up losing two units
+小猪最终损失了两个单位
+
+103
+00:04:37,560 --> 00:04:38,829
+and energy they actually end up with a
+和能量，他们实际上最终以
+
+104
+00:04:39,029 --> 00:04:41,199
+net negative in that situation and so
+在那种情况下净负
+
+105
+00:04:41,399 --> 00:04:42,879
+forth so you can go through and put this
+出来，所以你可以通过并把这个
+
+106
+00:04:43,079 --> 00:04:44,889
+into a normal form game what we end up
+变成普通形式的游戏，我们最终会得到什么
+
+107
+00:04:45,089 --> 00:04:48,310
+with is a simple matrix form 2x2 game
+与是一个简单的矩阵形式的2x2游戏
+
+108
+00:04:48,509 --> 00:04:51,819
+which looks like this okay so we can
+看起来像这样，所以我们可以
+
+109
+00:04:52,019 --> 00:04:53,829
+analyze this game quite simply let's
+简单地分析这个游戏，让我们
+
+110
+00:04:54,029 --> 00:04:56,020
+take it and let's say I analyze it via
+拿它，说我通过分析
+
+111
+00:04:56,220 --> 00:04:57,129
+the iterative elimination of strictly
+严格的迭代消除
+
+112
+00:04:57,329 --> 00:04:59,560
+dominated strategies so what's true in
+主导策略，那么什么是正确的
+
+113
+00:04:59,759 --> 00:05:02,590
+this game well where does anybody have a
+这个游戏很好，有人在哪里
+
+114
+00:05:02,790 --> 00:05:05,439
+strictly dominated strategy the big pig
+严格控制策略的大猪
+
+115
+00:05:05,639 --> 00:05:07,300
+the large Pig doesn't have a strictly
+大猪没有严格
+
+116
+00:05:07,500 --> 00:05:08,680
+dominated strategy they would like to
+他们想主导的策略
+
+117
+00:05:08,879 --> 00:05:11,110
+wait if the other one presses they would
+等对方按一下
+
+118
+00:05:11,310 --> 00:05:13,960
+prefer to press if the other one waits
+如果对方等待，则喜欢按
+
+119
+00:05:14,160 --> 00:05:17,910
+so no domination here but notice that
+所以这里没有统治，但要注意
+
+120
+00:05:18,110 --> 00:05:21,819
+the small pig always gets a higher
+小猪总是更高
+
+121
+00:05:22,019 --> 00:05:26,319
+payoff for versus 1 0 versus minus 1
+相对于1 0与相对于1的回报
+
+122
+00:05:26,519 --> 00:05:30,610
+they would always prefer to wait so in
+他们总是喜欢等
+
+123
+00:05:30,810 --> 00:05:34,840
+this particular situation the small Pig
+这种特殊情况的小猪
+
+124
+00:05:35,040 --> 00:05:36,730
+has a strictly dominated strategy of
+有严格的策略
+
+125
+00:05:36,930 --> 00:05:40,420
+waiting so we should get rid of press as
+等待，所以我们应该摆脱新闻
+
+126
+00:05:40,620 --> 00:05:44,560
+a strategy for the small Pig and once
+小猪的策略，一次
+
+127
+00:05:44,759 --> 00:05:48,189
+we've done that now in what's left the
+我们现在在剩下的
+
+128
+00:05:48,389 --> 00:05:51,100
+Big Pig should press and so what we end
+大猪应该压，所以我们要结束
+
+129
+00:05:51,300 --> 00:05:55,270
+up with is when we iteratively eliminate
+与我们迭代消除时
+
+130
+00:05:55,470 --> 00:05:57,819
+strictly dominated strategies we end up
+最终被严格控制的策略
+
+131
+00:05:58,019 --> 00:05:59,860
+with a prediction that the small pig
+预测那只小猪
+
+132
+00:06:00,060 --> 00:06:03,009
+should wait and the big pig should be
+应该等待，大猪应该
+
+133
+00:06:03,209 --> 00:06:07,150
+the one that presses the lever okay so
+按下杠杆的那一个好吧
+
+134
+00:06:07,350 --> 00:06:09,579
+let's look at how they actually behaved
+让我们看看他们的实际表现
+
+135
+00:06:09,779 --> 00:06:12,340
+the pigs in there in the experiment and
+实验中的猪
+
+136
+00:06:12,540 --> 00:06:14,079
+so what they did here is they gave him
+所以他们在这里所做的就是他们给了他
+
+137
+00:06:14,279 --> 00:06:18,310
+15 minutes of doing this they did 10
+ 15分钟的时间他们做了10 
+
+138
+00:06:18,509 --> 00:06:20,079
+tests where the pigs were alone in the
+测试猪只在哪里
+
+139
+00:06:20,279 --> 00:06:22,600
+cage so the first you ten tests where
+笼子，所以第一个十测试
+
+140
+00:06:22,800 --> 00:06:24,370
+the pig just sits there for 15 minutes
+猪只坐在那里15分钟
+
+141
+00:06:24,569 --> 00:06:26,530
+and learns how to to press the lever and
+并学习如何按下控制杆和
+
+142
+00:06:26,730 --> 00:06:29,439
+get food and then they put the pigs
+得到食物，然后他们放猪
+
+143
+00:06:29,639 --> 00:06:31,960
+together and do another 10 tests each
+一起做另外10个测试
+
+144
+00:06:32,160 --> 00:06:35,920
+for 15 minutes as well okay so what
+ 15分钟也可以
+
+145
+00:06:36,120 --> 00:06:36,968
+they're doing here is this is the
+他们在这里做的就是这个
+
+146
+00:06:37,168 --> 00:06:38,720
+frequency of pushing
+推送频率
+
+147
+00:06:38,920 --> 00:06:43,430
+lever per 15 minutes and we can look at
+每15分钟一杆，我们可以看看
+
+148
+00:06:43,629 --> 00:06:47,329
+what happens when the large pigs are
+当大猪是
+
+149
+00:06:47,529 --> 00:06:50,210
+when the pigs are separated they're both
+当猪分开时，它们都是
+
+150
+00:06:50,410 --> 00:06:53,270
+alone there we see roughly the the large
+一个人在那里，我们大致可以看到
+
+151
+00:06:53,470 --> 00:06:57,079
+pigs going about 75 times per 15 minutes
+猪每15分钟走75次
+
+152
+00:06:57,279 --> 00:06:59,030
+and pressing the lever I mean these pigs
+然后按下操纵杆，我的意思是这些猪
+
+153
+00:06:59,230 --> 00:07:01,189
+are really moving back and forth to get
+真的来回移动以获得
+
+154
+00:07:01,389 --> 00:07:04,030
+the food the small pigs say 70 times
+小猪说的食物70次
+
+155
+00:07:04,230 --> 00:07:06,259
+running back and forth to get the the
+来回奔跑以获得
+
+156
+00:07:06,459 --> 00:07:09,350
+food so they're both if they're left
+食物，如果他们都离开了，他们俩都是
+
+157
+00:07:09,550 --> 00:07:11,090
+alone they go they press the lever they
+他们一个人走他们就按下操纵杆
+
+158
+00:07:11,290 --> 00:07:13,840
+run back and forth if they're together
+他们在一起时来回奔跑
+
+159
+00:07:14,040 --> 00:07:17,420
+then what happens well the prediction
+那么预测会发生什么
+
+160
+00:07:17,620 --> 00:07:19,160
+was that the larger Pig should do the
+是更大的猪应该做的
+
+161
+00:07:19,360 --> 00:07:20,780
+pressing right they should do the
+向右按他们应该做的
+
+162
+00:07:20,980 --> 00:07:24,020
+pressing and these smaller pigs should
+紧迫，这些较小的猪应该
+
+163
+00:07:24,220 --> 00:07:27,770
+do the waiting and indeed how frequently
+等待，实际上是多久一次
+
+164
+00:07:27,970 --> 00:07:29,960
+do they push the lever is the small pigs
+他们推杆是小猪吗
+
+165
+00:07:30,160 --> 00:07:33,800
+very seldomly only 5 times now whereas
+现在很少只有五次
+
+166
+00:07:34,000 --> 00:07:36,199
+the large pigs are doing it about 105
+大猪大约要做105 
+
+167
+00:07:36,399 --> 00:07:38,990
+times so indeed we are see them seeing
+的确如此，我们确实看到他们看到了
+
+168
+00:07:39,189 --> 00:07:43,639
+them pressing and waiting in conjunct it
+他们紧紧地等待着
+
+169
+00:07:43,839 --> 00:07:46,730
+by the theory and in fact the large pics
+通过理论，实际上是大照片
+
+170
+00:07:46,930 --> 00:07:49,040
+are doing more pressing and partly
+在做更多的紧迫和部分
+
+171
+00:07:49,240 --> 00:07:50,990
+possibly because they're getting fewer
+可能是因为他们越来越少
+
+172
+00:07:51,189 --> 00:07:53,900
+pellets out since the small pig is
+因为小猪是
+
+173
+00:07:54,100 --> 00:07:56,090
+sitting nearby and and eating some of
+坐在附近，吃一些
+
+174
+00:07:56,290 --> 00:07:58,069
+the pellets that the large pig is
+大猪的颗粒
+
+175
+00:07:58,269 --> 00:08:02,530
+producing by pressing the levers okay so
+按下杠杆就可以制作
+
+176
+00:08:02,730 --> 00:08:04,879
+what do we learn from this our pigs
+我们从猪身上学到什么
+
+177
+00:08:05,079 --> 00:08:08,360
+rational do they know game theory well
+他们是否很了解博弈论
+
+178
+00:08:08,560 --> 00:08:10,340
+they probably didn't sit down and solve
+他们可能没有坐下来解决
+
+179
+00:08:10,540 --> 00:08:12,860
+the the normal form game and it would
+正常形式的游戏，它将
+
+180
+00:08:13,060 --> 00:08:14,300
+definitely eliminate strictly dominated
+绝对杜绝严格控制
+
+181
+00:08:14,500 --> 00:08:16,370
+strategies but one thing is true is they
+策略，但事实是它们是一回事
+
+182
+00:08:16,569 --> 00:08:18,860
+do learn and they did seem to respond to
+确实学习了，他们似乎确实回应了
+
+183
+00:08:19,060 --> 00:08:22,160
+incentives and in and I think the
+激励措施和在，我认为
+
+184
+00:08:22,360 --> 00:08:23,689
+iterative elimination of strictly
+严格消除迭代
+
+185
+00:08:23,889 --> 00:08:25,420
+dominated strategies is something which
+主导策略是
+
+186
+00:08:25,620 --> 00:08:28,550
+nicely captures learning so you learn
+很好地捕捉学习，让您学习
+
+187
+00:08:28,750 --> 00:08:29,660
+not to play a strictly dominated
+不要扮演严格的统治者
+
+188
+00:08:29,860 --> 00:08:31,730
+strategy right because it's always
+策略正确，因为它总是
+
+189
+00:08:31,930 --> 00:08:32,870
+giving you a lower pay off eventually
+最终给您较低的回报
+
+190
+00:08:33,070 --> 00:08:36,500
+discards such strategies so players
+放弃这样的策略，所以玩家
+
+191
+00:08:36,700 --> 00:08:37,699
+won't be sitting there playing a
+不会坐在那里玩
+
+192
+00:08:37,899 --> 00:08:39,049
+strictly dominated strategy if they ever
+如果他们曾经严格控制策略
+
+193
+00:08:39,250 --> 00:08:40,219
+have some experience with other
+有其他经验
+
+194
+00:08:40,419 --> 00:08:43,278
+strategies once they stop playing knows
+他们停止比赛后的策略知道
+
+195
+00:08:43,479 --> 00:08:46,069
+then you learn not to play strictly
+那么你就会学会不严格地玩
+
+196
+00:08:46,269 --> 00:08:47,329
+dominated strategies out of what remains
+剩下的主导策略
+
+197
+00:08:47,529 --> 00:08:50,509
+so the small pig can learn that it just
+这样小猪就可以知道
+
+198
+00:08:50,710 --> 00:08:51,709
+doesn't pay to run over and press the
+不用花钱跑过去然后按
+
+199
+00:08:51,909 --> 00:08:52,459
+lever because the
+杠杆，因为
+
+200
+00:08:52,659 --> 00:08:54,259
+Pig gets everything so they stopped
+猪得到了一切，所以他们停了下来
+
+201
+00:08:54,460 --> 00:08:55,490
+pressing the lever they just sit there
+按下杠杆，他们就坐在那里
+
+202
+00:08:55,690 --> 00:08:58,309
+and wait and eventually the big pig does
+等一下，最后那头大猪
+
+203
+00:08:58,509 --> 00:09:00,589
+the pressing so you learn not to play
+紧迫，所以你学会不玩
+
+204
+00:09:00,789 --> 00:09:03,259
+strictly dominated strategies out of
+严格控制策略
+
+205
+00:09:03,460 --> 00:09:05,719
+what remains and and so the idea here is
+还有什么，所以这里的想法是
+
+206
+00:09:05,919 --> 00:09:08,750
+that learning evolution survival of the
+学习进化的生存
+
+207
+00:09:08,950 --> 00:09:10,069
+fittest these are powerful game
+优胜劣汰，这些都是强大的游戏
+
+208
+00:09:10,269 --> 00:09:12,439
+theoretic tools and iterative
+理论工具和迭代
+
+209
+00:09:12,639 --> 00:09:13,939
+elimination of strictly strictly
+严格淘汰
+
+210
+00:09:14,139 --> 00:09:16,099
+dominated strategies in games where
+游戏中的主导策略
+
+211
+00:09:16,299 --> 00:09:18,589
+there is some power to these things ends
+这些事情有一定的力量终结
+
+212
+00:09:18,789 --> 00:09:21,049
+up you know making some predictions
+你知道做出一些预测
+
+213
+00:09:21,250 --> 00:09:26,250
+which can be quite powerful
+可能非常强大
+

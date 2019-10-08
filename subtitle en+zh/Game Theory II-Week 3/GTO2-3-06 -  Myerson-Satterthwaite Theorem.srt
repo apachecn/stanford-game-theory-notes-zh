@@ -1,0 +1,2425 @@
+﻿1
+00:00:00,060 --> 00:00:03,009
+okay so we're back again and we're gonna
+好，所以我们又回来了，我们要
+
+2
+00:00:03,209 --> 00:00:04,569
+talk a little bit about what's known as
+谈论一些所谓的
+
+3
+00:00:04,769 --> 00:00:06,309
+the Meyerson Satterthwaite theorem so
+ Meyerson Satterthwaite定理是
+
+4
+00:00:06,509 --> 00:00:07,960
+mark Satterthwaite you've seen his name
+马克·萨特思韦特，你已经看过他的名字
+
+5
+00:00:08,160 --> 00:00:09,519
+on several different theorems now the
+现在根据几个不同的定理
+
+6
+00:00:09,718 --> 00:00:11,380
+muler Satterthwaite Gibbard
+穆勒Satterthwaite Gibbard 
+
+7
+00:00:11,580 --> 00:00:12,640
+Satterthwaite and now the Meyerson
+ Satterthwaite，现在是Meyerson 
+
+8
+00:00:12,839 --> 00:00:15,450
+Satterthwaite theorem and what this
+ Satterthwaite定理和这是什么
+
+9
+00:00:15,650 --> 00:00:20,769
+theorem refers to is trade and it's
+定理是指贸易，它是
+
+10
+00:00:20,969 --> 00:00:22,210
+basically going to say that it's going
+基本上会说它将
+
+11
+00:00:22,410 --> 00:00:24,970
+to be difficult to get efficient trade
+很难获得有效的贸易
+
+12
+00:00:25,170 --> 00:00:30,419
+out with voluntary participation and
+自愿参加
+
+13
+00:00:30,618 --> 00:00:34,719
+when we talked about strikes and so
+当我们谈论罢工等
+
+14
+00:00:34,920 --> 00:00:38,409
+forth at the beginning of last week one
+上周初四
+
+15
+00:00:38,609 --> 00:00:39,849
+thing that's going to be important in
+重要的事情
+
+16
+00:00:40,049 --> 00:00:41,709
+understanding why we might have
+了解我们为什么会有
+
+17
+00:00:41,909 --> 00:00:43,029
+difficulties in getting trade out is
+取得交易的困难是
+
+18
+00:00:43,229 --> 00:00:43,989
+that people could have private
+人们可以有私人的
+
+19
+00:00:44,189 --> 00:00:45,459
+information about their utilities for
+有关其实用程序的信息
+
+20
+00:00:45,659 --> 00:00:48,099
+various exchange of goods so how much am
+各种商品交换多少钱
+
+21
+00:00:48,299 --> 00:00:51,399
+I really willing to work how much to do
+我真的很愿意工作多少
+
+22
+00:00:51,600 --> 00:00:54,969
+do I value a particular job can we
+我看重某项工作吗？ 
+
+23
+00:00:55,170 --> 00:00:56,619
+design a mechanism that always results
+设计一种始终可以实现的机制
+
+24
+00:00:56,820 --> 00:00:58,479
+in efficient trade our strikes
+在高效贸易中，我们的罢工
+
+25
+00:00:58,679 --> 00:01:00,338
+unavoidable that's the basic essence
+不可避免的是基本要素
+
+26
+00:01:00,539 --> 00:01:02,079
+here and the conclusions that we're
+这里和我们得出的结论
+
+27
+00:01:02,280 --> 00:01:03,849
+going to find out of this result are
+要找出这个结果是
+
+28
+00:01:04,049 --> 00:01:06,278
+going to be that if it's not always
+如果不是总是这样的话
+
+29
+00:01:06,478 --> 00:01:08,980
+completely obvious that a trade should
+完全显而易见，交易应该
+
+30
+00:01:09,180 --> 00:01:11,289
+be taking place then it's going to be
+会发生，那将会是
+
+31
+00:01:11,489 --> 00:01:13,689
+impossible to align incentives to get
+无法调整激励措施以获得
+
+32
+00:01:13,890 --> 00:01:15,939
+efficient trade out even just an amazing
+高效的交易，甚至只是一个惊人的
+
+33
+00:01:16,140 --> 00:01:18,189
+incentive compatible way and so we don't
+激励兼容的方式，所以我们不
+
+34
+00:01:18,390 --> 00:01:20,200
+look at the very very simple trade
+看看非常非常简单的交易
+
+35
+00:01:20,400 --> 00:01:23,349
+setting and even in that simple trade
+设置，甚至在那种简单的交易中
+
+36
+00:01:23,549 --> 00:01:24,879
+setting we're going to see that there's
+设置，我们将看到
+
+37
+00:01:25,079 --> 00:01:25,869
+going to be difficulties in getting
+很难获得
+
+38
+00:01:26,069 --> 00:01:28,119
+efficient trade out and that is is
+有效的交易，那就是
+
+39
+00:01:28,319 --> 00:01:30,789
+really a very important and fundamental
+真的非常重要和根本
+
+40
+00:01:30,989 --> 00:01:32,769
+result that comes out of game theory and
+博弈论得出的结果
+
+41
+00:01:32,969 --> 00:01:34,450
+mechanism design in terms of
+机制设计方面
+
+42
+00:01:34,650 --> 00:01:36,219
+understanding why it is that we're going
+了解为什么我们要去
+
+43
+00:01:36,420 --> 00:01:38,319
+to have breakdown in bargaining why it
+讨价还价的原因
+
+44
+00:01:38,519 --> 00:01:39,969
+is that we don't always get efficient
+是我们并不总是有效率
+
+45
+00:01:40,170 --> 00:01:42,519
+outcomes this is really a you know
+结果，这真的是你知道的
+
+46
+00:01:42,719 --> 00:01:45,069
+fundamental insight and that came out of
+基本洞察力
+
+47
+00:01:45,269 --> 00:01:48,759
+this area okay so this it'll be a fairly
+这个区域好，所以这将是一个相当
+
+48
+00:01:48,959 --> 00:01:50,799
+easy one to see to so we're gonna look
+容易看到的，所以我们要看
+
+49
+00:01:51,000 --> 00:01:53,738
+at an exchange of a simple a single unit
+交换一个简单的单个单元
+
+50
+00:01:53,938 --> 00:01:57,250
+of an indivisible good okay so just I've
+不可分割的好吧，所以我
+
+51
+00:01:57,450 --> 00:01:59,859
+got I've got something I've got a car I
+我有东西我有车我
+
+52
+00:02:00,060 --> 00:02:03,039
+want to sell it and I know how much it's
+想卖掉它，我知道多少钱
+
+53
+00:02:03,239 --> 00:02:04,899
+worth to me you know how much it's worth
+对我来说值得，你知道它有多少价值
+
+54
+00:02:05,099 --> 00:02:07,898
+to you and we start haggling okay so
+给你，我们开始讨价还价，所以
+
+55
+00:02:08,098 --> 00:02:10,088
+we're going to haggle over this and in
+我们将对此进行讨价还价
+
+56
+00:02:10,288 --> 00:02:11,980
+particular let's think of the seller the
+特别让我们想到卖方
+
+57
+00:02:12,180 --> 00:02:13,380
+seller has some value
+卖方有一些价值
+
+58
+00:02:13,580 --> 00:02:15,480
+in zero one so we're just going to
+在零，所以我们只是要
+
+59
+00:02:15,680 --> 00:02:17,550
+normalize things to lie in the unit
+使事物归于单位
+
+60
+00:02:17,750 --> 00:02:19,230
+interval but think of this as say that
+间隔，但认为这是说
+
+61
+00:02:19,430 --> 00:02:21,330
+the sellers value for this car they're
+卖家对这辆车的价值
+
+62
+00:02:21,530 --> 00:02:22,560
+not going to give it away from nothing
+不会放弃一切
+
+63
+00:02:22,759 --> 00:02:25,080
+they have some value for how much is it
+他们有多少价值
+
+64
+00:02:25,280 --> 00:02:26,430
+really worth before they're going to be
+在他们成为之前真的很有价值
+
+65
+00:02:26,629 --> 00:02:28,680
+willing to part but the buyer shows up
+愿意分手，但买家出现
+
+66
+00:02:28,879 --> 00:02:30,870
+the buyer has some value for the car as
+买方对汽车有一些价值，因为
+
+67
+00:02:31,069 --> 00:02:31,260
+well
+好
+
+68
+00:02:31,460 --> 00:02:33,930
+theta B and generally we're going to
+ theta B，通常我们要
+
+69
+00:02:34,129 --> 00:02:35,760
+think of this as you know sometimes the
+想到这一点，你知道有时
+
+70
+00:02:35,960 --> 00:02:36,780
+buyer is going to have a higher value
+买家将拥有更高的价值
+
+71
+00:02:36,979 --> 00:02:39,480
+than the seller sometimes they might not
+比卖方有时他们可能不
+
+72
+00:02:39,680 --> 00:02:41,010
+sometimes the buyer might think that the
+有时买家可能会认为
+
+73
+00:02:41,210 --> 00:02:42,750
+car's not worth as much as the seller
+汽车的价值不如卖方
+
+74
+00:02:42,949 --> 00:02:45,810
+thinks it's worth and therefore that it
+认为这是值得的，因此
+
+75
+00:02:46,009 --> 00:02:48,060
+won't be efficient to trade and so we're
+交易效率不高，所以我们
+
+76
+00:02:48,259 --> 00:02:49,500
+in a setting where we've got these two
+在我们拥有这两个的环境中
+
+77
+00:02:49,699 --> 00:02:52,830
+different valuations and now they start
+不同的估值，现在他们开始
+
+78
+00:02:53,030 --> 00:02:55,290
+going through some mechanism haggling
+通过一些机制讨价还价
+
+79
+00:02:55,490 --> 00:02:56,790
+and we want to see what the outcome
+我们想看看结果如何
+
+80
+00:02:56,990 --> 00:02:59,370
+looks like okay let's do a very simple
+看起来不错，让我们做一个非常简单的事情
+
+81
+00:02:59,569 --> 00:03:00,870
+example which will be useful in
+这个例子将在
+
+82
+00:03:01,069 --> 00:03:02,310
+illustrating and actually proving the
+说明并实际证明
+
+83
+00:03:02,509 --> 00:03:05,550
+main theorem here so let's think of a
+这里的主要定理，让我们考虑一个
+
+84
+00:03:05,750 --> 00:03:07,650
+situation where the buyers value can
+买方价值可以达到的情况
+
+85
+00:03:07,849 --> 00:03:10,770
+either be very low point one or high at
+要么是低点一，要么是高点
+
+86
+00:03:10,969 --> 00:03:14,070
+one and the seller can either think that
+一个，卖方可以认为
+
+87
+00:03:14,270 --> 00:03:15,090
+this thing's worthless
+这东西一文不值
+
+88
+00:03:15,289 --> 00:03:17,070
+a value of zero or they're really
+零值或它们实际上是
+
+89
+00:03:17,270 --> 00:03:20,280
+attached to it at point nine okay so
+在第九点附加到它，所以
+
+90
+00:03:20,479 --> 00:03:22,439
+we've got these two values for the buyer
+我们为买家提供了这两个值
+
+91
+00:03:22,639 --> 00:03:25,530
+and two values for the seller and what's
+卖方的两个值是什么
+
+92
+00:03:25,729 --> 00:03:27,060
+true is if we look at different
+诚然，如果我们看不同
+
+93
+00:03:27,259 --> 00:03:29,759
+combinations they could have basically
+他们基本上可以有的组合
+
+94
+00:03:29,959 --> 00:03:33,420
+in all cases except one the buyer's
+在所有情况下，除了一个买方的
+
+95
+00:03:33,620 --> 00:03:36,180
+value is higher than the sellers value
+价值高于卖方价值
+
+96
+00:03:36,379 --> 00:03:38,040
+so in three out of the four cases that
+所以在四种情况中的三种
+
+97
+00:03:38,240 --> 00:03:41,370
+are possible these combinations the so
+这些组合是否可能
+
+98
+00:03:41,569 --> 00:03:43,530
+you know we can think of listing buyers
+你知道我们可以想到上市买家
+
+99
+00:03:43,729 --> 00:03:46,020
+value first then sellers value you could
+首先重视，然后卖方重视
+
+100
+00:03:46,219 --> 00:03:48,890
+have 0.1 zero
+有0.1零
+
+101
+00:03:49,090 --> 00:03:54,630
+we could have 0.1 0.9 we could have 1 0
+我们可以有0.1 0.9我们可以有1 0 
+
+102
+00:03:54,830 --> 00:03:59,310
+or 1.9 so those are the four
+或1.9，那是四个
+
+103
+00:03:59,509 --> 00:04:02,100
+combinations and basically in three of
+组合，基本上是三个
+
+104
+00:04:02,300 --> 00:04:04,530
+these the buyers value is higher than
+这些买家的价值高于
+
+105
+00:04:04,729 --> 00:04:06,840
+the sellers and we should have a
+卖方，我们应该有一个
+
+106
+00:04:07,039 --> 00:04:09,930
+transaction because now there's an
+交易，因为现在有一个
+
+107
+00:04:10,129 --> 00:04:12,689
+efficiency gain in trading the good from
+货物交易效率的提高
+
+108
+00:04:12,889 --> 00:04:15,060
+the seller to the buyer we get a higher
+卖方对买方，我们得到更高
+
+109
+00:04:15,259 --> 00:04:17,158
+utility they can make a payment
+他们可以付款的实用程序
+
+110
+00:04:17,358 --> 00:04:20,038
+there's gains from trade here okay the
+这里的贸易有好处
+
+111
+00:04:20,238 --> 00:04:21,480
+only case where there shouldn't be trade
+只有在不应该交易的情况下
+
+112
+00:04:21,680 --> 00:04:23,968
+is this case where the buyer ends up
+在这种情况下，买方最终
+
+113
+00:04:24,168 --> 00:04:25,528
+having a lower value thinks it's not
+较低的值认为不是
+
+114
+00:04:25,728 --> 00:04:27,000
+very worth very much
+非常值得
+
+115
+00:04:27,199 --> 00:04:28,829
+seller thinks it's worth a lot in that
+卖家认为这很值得
+
+116
+00:04:29,029 --> 00:04:30,090
+case it's better to leave it in the
+最好把它留在
+
+117
+00:04:30,290 --> 00:04:31,980
+sellers hands it's more valuable to the
+卖家之手，这对
+
+118
+00:04:32,180 --> 00:04:33,990
+seller than the buyer okay that's the
+卖方比买方好，那就是
+
+119
+00:04:34,189 --> 00:04:37,259
+setting and let's think of a mechanism
+设置，让我们想到一种机制
+
+120
+00:04:37,459 --> 00:04:39,150
+here so let's suppose that the seller
+在这里，让我们假设卖方
+
+121
+00:04:39,350 --> 00:04:41,460
+gets to name any price okay so this is a
+可以说出任何价格了，所以这是一个
+
+122
+00:04:41,660 --> 00:04:44,460
+simple take-it-or-leave-it offer so the
+简单的“接受”或“离开”提议，因此
+
+123
+00:04:44,660 --> 00:04:46,280
+seller just puts out a price and says
+卖方只是拿出一个价格说
+
+124
+00:04:46,480 --> 00:04:48,660
+here's my advertised price I'm not gonna
+这是我标价的价格
+
+125
+00:04:48,860 --> 00:04:50,490
+listen to anything you either say yes or
+听任何您说是或
+
+126
+00:04:50,689 --> 00:04:52,740
+no at this price okay and the buyer
+不可以这个价格，买家
+
+127
+00:04:52,939 --> 00:04:54,960
+either buys or not at that price so
+要么以该价格购买，要么不以该价格购买
+
+128
+00:04:55,160 --> 00:04:59,430
+let's think of this world and in this
+让我们想起这个世界
+
+129
+00:04:59,629 --> 00:05:03,090
+case let's think of the seller basically
+案例让我们基本上想到卖家
+
+130
+00:05:03,290 --> 00:05:05,730
+should either sell at a price of 0.1 or
+应该以0.1的价格出售，或者
+
+131
+00:05:05,930 --> 00:05:08,550
+or one I mean selling at a price of 0.5
+或一个我的意思是以0.5的价格卖出
+
+132
+00:05:08,750 --> 00:05:10,259
+doesn't make sense if you're the seller
+如果你是卖方，那没有任何意义
+
+133
+00:05:10,459 --> 00:05:13,139
+you could still charge point 6 and the
+您仍然可以充电第6点， 
+
+134
+00:05:13,339 --> 00:05:15,090
+high value buyer would still want to buy
+高价值买家仍想购买
+
+135
+00:05:15,290 --> 00:05:17,910
+it at point 6 rather than 1.5 and the
+它在第6点而不是1.5，并且
+
+136
+00:05:18,110 --> 00:05:19,170
+low value buyer isn't going to want to
+低价值的买家不会想要
+
+137
+00:05:19,370 --> 00:05:20,939
+buy it either of those so once you go
+买那些，所以一旦你去
+
+138
+00:05:21,139 --> 00:05:22,620
+above point 1 you might as well push the
+在第1点以上，您最好按一下
+
+139
+00:05:22,819 --> 00:05:25,110
+price all the way up to 1 and you don't
+价格一直上涨到1，而您却没有
+
+140
+00:05:25,310 --> 00:05:26,850
+want to sit down near 0 you might as
+想坐在0附近，你可能会
+
+141
+00:05:27,050 --> 00:05:28,290
+well push it all the way up to point 1
+一直将其推至第1点
+
+142
+00:05:28,490 --> 00:05:30,360
+okay so we'll presume that the buyer
+好吧，我们假设买家
+
+143
+00:05:30,560 --> 00:05:33,360
+says yes 1 indifferent but modulo some
+说是1漠不关心但取模一些
+
+144
+00:05:33,560 --> 00:05:34,199
+Epsilon
+厄普西隆
+
+145
+00:05:34,399 --> 00:05:35,939
+basically that the seller should be
+基本上，卖方应该
+
+146
+00:05:36,139 --> 00:05:37,949
+saying a price that either pushes up to
+说一个价格，要么推高
+
+147
+00:05:38,149 --> 00:05:40,439
+the point 1 or all the way up to 1 okay
+点1或一直到1好
+
+148
+00:05:40,639 --> 00:05:42,960
+and now when we think about the seller
+现在，当我们考虑卖方时
+
+149
+00:05:43,160 --> 00:05:44,280
+so imagine that the seller actually
+试想一下，卖方实际上
+
+150
+00:05:44,480 --> 00:05:46,530
+thinks the car is worthless but they're
+认为汽车毫无价值，但他们
+
+151
+00:05:46,730 --> 00:05:48,930
+the only one who knows that and the
+唯一知道这一点的人
+
+152
+00:05:49,129 --> 00:05:50,819
+buyers going to show up and now the
+买家将出现，现在
+
+153
+00:05:51,019 --> 00:05:58,379
+seller can post a price and if I post a
+卖家可以发布价格，如果我发布
+
+154
+00:05:58,579 --> 00:06:01,860
+price of 0.1 that's a sale for sure
+ 0.1的价格肯定是一笔销售
+
+155
+00:06:02,060 --> 00:06:05,220
+expected utility point 1 okay so I
+预期效用点1好，所以我
+
+156
+00:06:05,420 --> 00:06:06,780
+charged a low price I'm gonna sell to
+收取了我要卖给的低价
+
+157
+00:06:06,980 --> 00:06:09,780
+both buyers price of 1 I sell at the
+我的两个买方价格都以
+
+158
+00:06:09,980 --> 00:06:11,730
+high price what happens now if the
+高昂的价格，如果现在
+
+159
+00:06:11,930 --> 00:06:14,009
+buyers types are equally likely I'm
+买家类型也很可能
+
+160
+00:06:14,209 --> 00:06:17,370
+gonna sell only to the high type and my
+只会卖给高级客户
+
+161
+00:06:17,569 --> 00:06:19,470
+expected utility is I'm gonna sell at a
+预期的效用是我要在
+
+162
+00:06:19,670 --> 00:06:23,730
+value of 1 when the value is high so the
+值1时该值较高，因此
+
+163
+00:06:23,930 --> 00:06:26,759
+the sellers value from a transaction in
+卖方在以下交易中的价值
+
+164
+00:06:26,959 --> 00:06:30,030
+this case is going to be plus P and then
+这种情况将是加P，然后
+
+165
+00:06:30,230 --> 00:06:32,310
+minus the value of the seller which is 0
+减去卖方的价值0 
+
+166
+00:06:32,509 --> 00:06:34,379
+so they don't give any they don't lose
+所以他们不给任何他们不输的东西
+
+167
+00:06:34,579 --> 00:06:36,120
+anything by giving it away to get plus P
+付出任何就可以得到加P 
+
+168
+00:06:36,319 --> 00:06:38,189
+so in this case they're getting a price
+所以在这种情况下，他们要价
+
+169
+00:06:38,389 --> 00:06:40,379
+of 1 probability 1/2
+ 1的概率1/2 
+
+170
+00:06:40,579 --> 00:06:44,009
+utility of 1/2 okay so what's true here
+ 1/2的效用，那么这里是什么
+
+171
+00:06:44,209 --> 00:06:46,199
+is if you allowed this hour to make it
+是如果你允许这个小时
+
+172
+00:06:46,399 --> 00:06:47,790
+take it or leave it offer they should
+接受它或留下它，他们应该
+
+173
+00:06:47,990 --> 00:06:49,819
+set the price at a high enough level
+将价格定在足够高的水平
+
+174
+00:06:50,019 --> 00:06:53,968
+that you're only going to get trade to
+你只会去交易
+
+175
+00:06:54,168 --> 00:06:56,399
+the high type and so now what we end up
+高类型，所以现在我们结束了
+
+176
+00:06:56,598 --> 00:07:00,119
+with is an inefficiency right so even
+与是低效率的权利，所以即使
+
+177
+00:07:00,319 --> 00:07:04,110
+though the sellers value is zero when
+尽管当
+
+178
+00:07:04,310 --> 00:07:06,660
+the buyers value is 0.1 we're not
+买家价值是0.1我们不是
+
+179
+00:07:06,860 --> 00:07:09,809
+getting a trade okay that's so there's
+得到一个好的交易，所以有
+
+180
+00:07:10,009 --> 00:07:11,489
+where the inefficiencies sometimes the
+有时效率低下的地方
+
+181
+00:07:11,689 --> 00:07:13,079
+buyer has a higher value than the seller
+买方的价值高于卖方
+
+182
+00:07:13,279 --> 00:07:15,689
+and we're not getting trade okay so
+而且我们的交易还不好，所以
+
+183
+00:07:15,889 --> 00:07:17,879
+that's the basic inefficiency so we're
+这是基本的低效率，所以我们
+
+184
+00:07:18,079 --> 00:07:19,528
+better off to set the high price in
+更好地设定高价
+
+185
+00:07:19,728 --> 00:07:21,809
+terms of the seller and we get an
+卖方的条款，我们得到
+
+186
+00:07:22,009 --> 00:07:23,610
+inefficient trade these don't trade even
+低效的交易，这些甚至不交易
+
+187
+00:07:23,810 --> 00:07:26,939
+though they should okay what about other
+虽然他们应该没事其他
+
+188
+00:07:27,139 --> 00:07:30,360
+mechanisms well let's suppose that we
+机制，让我们假设我们
+
+189
+00:07:30,560 --> 00:07:33,689
+sort of forced the seller to somehow
+某种程度上迫使卖方以某种方式
+
+190
+00:07:33,889 --> 00:07:37,740
+charge a lower price or the the that's
+收取较低的价格或
+
+191
+00:07:37,939 --> 00:07:40,679
+you know the the buyer said okay I you
+你知道买家说好吧你
+
+192
+00:07:40,879 --> 00:07:43,649
+know after the fact in that the seller
+知道事实之后，卖方
+
+193
+00:07:43,848 --> 00:07:46,079
+sets this high price of 1 the buyer
+设置此高价1买方
+
+194
+00:07:46,278 --> 00:07:47,939
+comes back and says you know really it's
+回来说你知道这是真的
+
+195
+00:07:48,139 --> 00:07:50,189
+too bad I was the low value buyer you
+太可惜我是低价买家
+
+196
+00:07:50,389 --> 00:07:51,869
+really should have sold it to me I was
+我真的应该把它卖给我
+
+197
+00:07:52,069 --> 00:07:53,550
+willing to pay point 1 you still walk
+愿意支付您仍然走的第1点
+
+198
+00:07:53,750 --> 00:07:56,429
+away with something from for this if
+远离一些东西，如果
+
+199
+00:07:56,629 --> 00:07:58,199
+they're so actually sells when you tell
+当你告诉他们时，它们实际上是在卖
+
+200
+00:07:58,399 --> 00:08:00,360
+them that story then the high value
+他们那个故事那么高价值
+
+201
+00:08:00,560 --> 00:08:02,009
+buyer might as well tell that story
+买家不妨讲这个故事
+
+202
+00:08:02,209 --> 00:08:03,869
+right so the high value buyer is going
+对，所以高价值的买家要去
+
+203
+00:08:04,069 --> 00:08:05,218
+to want to pretend to be the low value
+要假装为低价值
+
+204
+00:08:05,418 --> 00:08:07,079
+buyer and drive the price down to point
+买方并压低价格
+
+205
+00:08:07,278 --> 00:08:09,360
+1 so the basic difficulty in getting
+ 1所以获得的基本困难
+
+206
+00:08:09,560 --> 00:08:11,490
+this is if you're willing to sell at the
+这是如果您愿意在
+
+207
+00:08:11,689 --> 00:08:13,468
+low price to the low buyer the high
+低价向低价买家高价
+
+208
+00:08:13,668 --> 00:08:15,449
+price buyer can try and pretend to be
+价格买方可以尝试假装
+
+209
+00:08:15,649 --> 00:08:17,338
+the low priced buyer and so the
+低价买家，所以
+
+210
+00:08:17,538 --> 00:08:18,899
+incentive compatibility condition is
+激励相容条件为
+
+211
+00:08:19,098 --> 00:08:19,860
+going to mean it's going to be very
+意味着这将是非常
+
+212
+00:08:20,060 --> 00:08:21,990
+difficult to get efficient trade always
+总是很难获得有效的贸易
+
+213
+00:08:22,189 --> 00:08:23,790
+be getting the good to be sold when it
+当它被出售时得到商品
+
+214
+00:08:23,990 --> 00:08:27,929
+when you want it to and not have people
+当你想要它而没有人时
+
+215
+00:08:28,129 --> 00:08:30,269
+try to pretend to be somebody else so
+试着假装别人
+
+216
+00:08:30,468 --> 00:08:32,849
+the mechanism is not going to work if we
+如果我们不这样做，该机制将无法正常工作
+
+217
+00:08:33,049 --> 00:08:35,299
+actually want to get efficient trade out
+其实想得到有效的交易
+
+218
+00:08:35,500 --> 00:08:38,789
+okay so what does the theorem say it
+好，那定理怎么说
+
+219
+00:08:38,990 --> 00:08:41,278
+says that there exists distributions on
+说存在分布
+
+220
+00:08:41,479 --> 00:08:43,740
+the buyers and sellers valuations such
+买卖双方的估价
+
+221
+00:08:43,940 --> 00:08:46,469
+that there is not exist any mechanism
+没有任何机制
+
+222
+00:08:46,669 --> 00:08:48,779
+any mechanism which is going to be
+任何将要成为机制的机制
+
+223
+00:08:48,980 --> 00:08:51,289
+Bayesian instead of compatible which is
+贝叶斯而不是兼容
+
+224
+00:08:51,490 --> 00:08:54,359
+efficient weekly budget balance
+每周有效预算余额
+
+225
+00:08:54,559 --> 00:08:56,849
+and interim individual irrational so if
+和临时的个人非理性，所以如果
+
+226
+00:08:57,049 --> 00:08:58,889
+you want to make the decision of in this
+您想在此做出决定
+
+227
+00:08:59,090 --> 00:09:01,259
+case trading always when you should and
+总是在需要的时候进行案例交易
+
+228
+00:09:01,460 --> 00:09:03,449
+not trading when you shouldn't making
+不应该交易时不进行交易
+
+229
+00:09:03,649 --> 00:09:05,429
+sure that it's weekly budget balance so
+确保这是每周预算余额
+
+230
+00:09:05,629 --> 00:09:11,339
+that the amount that the buyer pays is
+买方支付的金额为
+
+231
+00:09:11,539 --> 00:09:13,199
+at least the amount that the seller gets
+至少卖方获得的金额
+
+232
+00:09:13,399 --> 00:09:17,039
+so we're not having to stick in extra
+所以我们不必坚持
+
+233
+00:09:17,240 --> 00:09:18,359
+money in order to make this thing work
+为了使这个东西起作用而要花钱
+
+234
+00:09:18,559 --> 00:09:21,139
+and its interim individual irrational so
+及其临时的个人非理性
+
+235
+00:09:21,340 --> 00:09:24,809
+individuals don't want to walk away once
+个人不想一次走开
+
+236
+00:09:25,009 --> 00:09:26,969
+they're told their value and told what
+他们被告知自己的价值，并告诉他们什么
+
+237
+00:09:27,169 --> 00:09:28,529
+what they expect to get out of this
+他们期望从中得到什么
+
+238
+00:09:28,730 --> 00:09:30,089
+mechanism they don't want to walk away
+他们不想走开的机制
+
+239
+00:09:30,289 --> 00:09:33,149
+from the mechanism okay so that's the
+从机制还可以，那就是
+
+240
+00:09:33,350 --> 00:09:37,759
+theorem and before we go into the proof
+定理和我们进入证明之前
+
+241
+00:09:37,960 --> 00:09:41,309
+let me say a little bit about why the
+让我说说为什么
+
+242
+00:09:41,509 --> 00:09:43,469
+this first part says there exists
+第一部分说存在
+
+243
+00:09:43,669 --> 00:09:47,339
+distributions for which this is true you
+您认为这是正确的分布
+
+244
+00:09:47,539 --> 00:09:49,319
+there are some situations where you
+在某些情况下，您
+
+245
+00:09:49,519 --> 00:09:51,689
+could get efficient trade okay and let
+可以进行有效的交易，让
+
+246
+00:09:51,889 --> 00:09:53,339
+me just go through one to make clear
+我只是通过一个明确
+
+247
+00:09:53,539 --> 00:09:55,049
+what's going on here suppose that we
+这是怎么回事，假设我们
+
+248
+00:09:55,250 --> 00:09:57,809
+were in situation where the buyers value
+处于买家重视的情况
+
+249
+00:09:58,009 --> 00:10:00,479
+is always above some value of e and the
+总是高于e的某个值，并且
+
+250
+00:10:00,679 --> 00:10:02,969
+sellers value is always below that okay
+卖家的价值总是低于那个还可以
+
+251
+00:10:03,169 --> 00:10:04,919
+so there's some level V and we know that
+所以有一些V级，我们知道
+
+252
+00:10:05,120 --> 00:10:07,259
+buyers always value these cars more and
+买家总是更看重这些车， 
+
+253
+00:10:07,460 --> 00:10:10,769
+sellers always value the cars less well
+卖家总是不太看好汽车
+
+254
+00:10:10,970 --> 00:10:13,049
+indexed with that world there's a simple
+索引到那个世界，有一个简单的
+
+255
+00:10:13,250 --> 00:10:15,689
+mechanism always exchange the good and
+机制总是交换善良和
+
+256
+00:10:15,889 --> 00:10:18,019
+it always exchange it at a price of fee
+它总是以收费的价格交换它
+
+257
+00:10:18,220 --> 00:10:21,389
+okay so the the buyer pays V the seller
+好的，所以买方向卖方支付V 
+
+258
+00:10:21,589 --> 00:10:25,469
+gets V that's going to be strategy proof
+获得V，这将是战略证明
+
+259
+00:10:25,669 --> 00:10:27,569
+it's going to be individually rational
+这将是个人理性的
+
+260
+00:10:27,769 --> 00:10:30,599
+it's going to satisfy budget balance the
+它会满足预算平衡
+
+261
+00:10:30,799 --> 00:10:34,259
+the payments add up to zero so that's a
+付款加起来为零，所以
+
+262
+00:10:34,460 --> 00:10:36,990
+setting where we get all the conditions
+设定我们得到所有条件的地方
+
+263
+00:10:37,190 --> 00:10:38,609
+we want and it's because we know that
+我们想要，这是因为我们知道
+
+264
+00:10:38,809 --> 00:10:40,319
+there always should be trade and we know
+总应该有贸易，我们知道
+
+265
+00:10:40,519 --> 00:10:42,089
+that there's a price that is always
+总有一个价格
+
+266
+00:10:42,289 --> 00:10:43,949
+going to please that all the buyers and
+要取悦所有买家和
+
+267
+00:10:44,149 --> 00:10:47,159
+all of the sellers okay so it's not
+所有的卖家都可以，所以不是
+
+268
+00:10:47,360 --> 00:10:48,419
+going to be that this theorem is true
+这定理是正确的
+
+269
+00:10:48,620 --> 00:10:50,849
+regardless of what distribution is it's
+不管是什么分布
+
+270
+00:10:51,049 --> 00:10:51,599
+going to have to be that these
+必须是这些
+
+271
+00:10:51,799 --> 00:10:53,490
+distributions cross over and that
+分布交叉，那
+
+272
+00:10:53,690 --> 00:10:55,259
+sometimes we want trade and sometimes we
+有时我们想要贸易，有时我们
+
+273
+00:10:55,460 --> 00:10:57,149
+don't and we've looked at an example
+不，我们看了一个例子
+
+274
+00:10:57,350 --> 00:10:59,939
+like that and in fact let's show the
+这样，实际上让我们展示
+
+275
+00:11:00,139 --> 00:11:02,209
+proof based on our example so buyers
+证明基于我们的例子，所以买家
+
+276
+00:11:02,409 --> 00:11:04,709
+values are equally likely to be 0.1 or
+值很可能是0.1或
+
+277
+00:11:04,909 --> 00:11:07,529
+one sellers values are equally likely to
+一个卖家的价值同样有可能
+
+278
+00:11:07,730 --> 00:11:08,199
+be zero or
+为零或
+
+279
+00:11:08,399 --> 00:11:10,599
+point-9 trade should take place for all
+第9点贸易应为所有人
+
+280
+00:11:10,799 --> 00:11:13,359
+combinations of values except point 1.9
+点1.9以外的值的组合
+
+281
+00:11:13,559 --> 00:11:16,359
+in terms of efficient trade and so what
+在有效贸易方面，又如何
+
+282
+00:11:16,559 --> 00:11:17,889
+we can do is just go through the
+我们可以做的就是
+
+283
+00:11:18,089 --> 00:11:20,109
+conditions try to satisfy them and show
+条件试图满足他们并显示
+
+284
+00:11:20,309 --> 00:11:24,789
+that we can't satisfy them in in all the
+我们无法在所有方面满足他们
+
+285
+00:11:24,990 --> 00:11:27,669
+situations what I'm going to do is I'm
+情况下我要做的是
+
+286
+00:11:27,870 --> 00:11:30,159
+going to show the proof for full budget
+将显示完整预算的证明
+
+287
+00:11:30,360 --> 00:11:32,409
+balance not weak budget balance so
+预算余额不弱，因此
+
+288
+00:11:32,610 --> 00:11:34,269
+that's gonna make the proof a little bit
+那会证明一点点
+
+289
+00:11:34,470 --> 00:11:36,849
+easier it's gonna be very easy to extend
+更容易扩展
+
+290
+00:11:37,049 --> 00:11:39,639
+so I will allow you to do that to the
+因此，我将允许您对
+
+291
+00:11:39,839 --> 00:11:43,629
+case where we don't require full budget
+我们不需要全部预算的情况
+
+292
+00:11:43,830 --> 00:11:46,120
+balance and so here what we're going to
+平衡，这就是我们要做的
+
+293
+00:11:46,320 --> 00:11:48,189
+have is trade should take place for all
+所有人都应该进行贸易
+
+294
+00:11:48,389 --> 00:11:49,899
+the combinations except when the buyer
+组合，除非买方
+
+295
+00:11:50,100 --> 00:11:51,370
+and seller values are point one and
+卖方的价值是第一点
+
+296
+00:11:51,570 --> 00:11:54,339
+point nine and that the nice part about
+第九点，关于
+
+297
+00:11:54,539 --> 00:11:56,199
+that just in terms of notation is that
+就符号而言，就是
+
+298
+00:11:56,399 --> 00:11:58,059
+means that we can write payments down in
+意味着我们可以将付款记入
+
+299
+00:11:58,259 --> 00:12:00,309
+terms of our full budget balance just as
+与我们的全部预算余额一样
+
+300
+00:12:00,509 --> 00:12:03,039
+a single price which is this as the
+单个价格是
+
+301
+00:12:03,240 --> 00:12:05,649
+payment made by the buyer and received
+买方付款并收到的付款
+
+302
+00:12:05,850 --> 00:12:07,419
+by the seller so we can think of some
+由卖方，所以我们可以想到一些
+
+303
+00:12:07,620 --> 00:12:09,279
+price as a function of what the buyer
+价格是买方的函数
+
+304
+00:12:09,480 --> 00:12:11,229
+and sellers value is this is the price
+卖家的价值就是这就是价格
+
+305
+00:12:11,429 --> 00:12:13,870
+paid from the buyer to the seller okay
+从买方向买方向卖方付款
+
+306
+00:12:14,070 --> 00:12:16,209
+and week budget balance the thing is now
+和周预算平衡的事情现在
+
+307
+00:12:16,409 --> 00:12:17,919
+you're gonna have two prices one paid by
+您将获得两个价格，其中一个由支付
+
+308
+00:12:18,120 --> 00:12:19,389
+the buyer or the other received by the
+买方或
+
+309
+00:12:19,589 --> 00:12:22,449
+seller and the payment paid by the buyer
+卖方和买方支付的款项
+
+310
+00:12:22,649 --> 00:12:23,828
+is always gonna have to be at least the
+总是至少要
+
+311
+00:12:24,028 --> 00:12:25,599
+the payment received by the seller and
+卖方收到的付款和
+
+312
+00:12:25,799 --> 00:12:27,279
+you'll see we're quite easily that
+你会看到我们很容易
+
+313
+00:12:27,480 --> 00:12:29,769
+that'll bound these things so the thing
+这将约束这些东西
+
+314
+00:12:29,970 --> 00:12:31,240
+we say Anna proof will work through for
+我们说安娜证明将通过
+
+315
+00:12:31,440 --> 00:12:35,979
+that case okay so first thing what has
+这样的话好吧，第一件事是
+
+316
+00:12:36,179 --> 00:12:40,078
+to be true if in the situation where the
+在以下情况下为真
+
+317
+00:12:40,278 --> 00:12:43,979
+values are one in point nine so the the
+值是第九点之一，因此
+
+318
+00:12:44,179 --> 00:12:47,109
+seller has a value of 0.9 buyer has a
+卖方的值为0.9买方的值为
+
+319
+00:12:47,309 --> 00:12:49,089
+value of one by the individual
+一个人的价值
+
+320
+00:12:49,289 --> 00:12:50,828
+rationality of the seller and here we're
+卖方的合理性，我们在这里
+
+321
+00:12:51,028 --> 00:12:52,569
+using ex-post individual rationality in
+在事后运用个人理性
+
+322
+00:12:52,769 --> 00:12:55,209
+this part of the proof its 0.9 and again
+这部分证明是0.9 
+
+323
+00:12:55,409 --> 00:12:57,008
+I'm gonna leave it to you to extend this
+我会留给你扩展
+
+324
+00:12:57,208 --> 00:13:02,500
+to an expected value of the interim
+到中期的期望值
+
+325
+00:13:02,700 --> 00:13:05,078
+individual rationality condition here
+这里的个人理性条件
+
+326
+00:13:05,278 --> 00:13:06,909
+I'll do the ex post version again the
+我将再次发布后期版本
+
+327
+00:13:07,110 --> 00:13:08,589
+extension is fairly straightforward
+扩展相当简单
+
+328
+00:13:08,789 --> 00:13:10,240
+you'll just be working with expected
+您将按预期工作
+
+329
+00:13:10,440 --> 00:13:13,839
+payments instead of actual payments so
+付款而不是实际付款，因此
+
+330
+00:13:14,039 --> 00:13:18,699
+here the payment conditional on high
+这里的付款条件是高
+
+331
+00:13:18,899 --> 00:13:22,009
+valued buyer and high valued sellers at
+尊贵的买家和高价卖家
+
+332
+00:13:22,210 --> 00:13:24,529
+point-9 otherwise the seller doesn't
+第9点，否则卖方不会
+
+333
+00:13:24,730 --> 00:13:29,089
+want to sell it when we see a low valued
+当我们看到低价时想卖掉它
+
+334
+00:13:29,289 --> 00:13:32,240
+buyer and a low valued seller than the
+买家和低价卖家
+
+335
+00:13:32,440 --> 00:13:33,769
+price can't be more than point one
+价格不能超过第一点
+
+336
+00:13:33,970 --> 00:13:35,689
+otherwise the buyer won't want to buy it
+否则买家将不愿购买
+
+337
+00:13:35,889 --> 00:13:37,939
+so individuality means the price in that
+所以个性意味着价格
+
+338
+00:13:38,139 --> 00:13:42,019
+case has to be at the low point one when
+情况必须在最低点
+
+339
+00:13:42,220 --> 00:13:44,959
+we don't have trade so when there's no
+我们没有交易，所以当没有
+
+340
+00:13:45,159 --> 00:13:47,750
+trade the price exchange is going to
+交易价格交换去
+
+341
+00:13:47,950 --> 00:13:49,370
+have to be zero and that's going to have
+必须为零，这将不得不
+
+342
+00:13:49,570 --> 00:13:50,959
+to be true because of the individual
+因为个人而真实
+
+343
+00:13:51,159 --> 00:13:52,219
+rationality constraints of both the
+两者的理性约束
+
+344
+00:13:52,419 --> 00:13:53,359
+buyer and a seller the buyer is not
+买方和卖方不是买方
+
+345
+00:13:53,559 --> 00:13:54,769
+getting anything so it can't be more
+得到任何东西，所以它不能再更多了
+
+346
+00:13:54,970 --> 00:13:59,870
+than zero and the sellers not giving
+大于零，卖家不给
+
+347
+00:14:00,070 --> 00:14:01,879
+anything away so they can't be charged
+一切都走了，所以他们不能收费
+
+348
+00:14:02,080 --> 00:14:04,099
+anything either so the the price is
+任何东西，所以价格是
+
+349
+00:14:04,299 --> 00:14:06,258
+going to have to be zero in a case where
+在以下情况下必须为零
+
+350
+00:14:06,458 --> 00:14:08,750
+we have no trade and so now we've got
+我们没有交易，所以现在我们有了
+
+351
+00:14:08,950 --> 00:14:11,059
+three conditions on three of the prices
+价格的三个条件
+
+352
+00:14:11,259 --> 00:14:13,849
+and what we want to do is fill in the
+而我们要做的是填写
+
+353
+00:14:14,049 --> 00:14:16,669
+fourth price okay so now what we need to
+第四价格好，所以现在我们需要
+
+354
+00:14:16,870 --> 00:14:18,799
+do is we've got individuation how are
+我们要做的是个性化
+
+355
+00:14:19,000 --> 00:14:20,839
+you satisfied for three of the prices we
+您对我们的三个价格感到满意
+
+356
+00:14:21,039 --> 00:14:22,099
+want to make sure we're going to give an
+想要确保我们要给
+
+357
+00:14:22,299 --> 00:14:24,109
+individual rationality here well that's
+这里的个人理性是
+
+358
+00:14:24,309 --> 00:14:25,789
+going to be easy any price between zero
+零之间的任何价格都将变得容易
+
+359
+00:14:25,990 --> 00:14:26,990
+and one will be individually rational
+一个人将是个人理性的
+
+360
+00:14:27,190 --> 00:14:29,839
+the difficulty is going to be to get the
+困难将是获得
+
+361
+00:14:30,039 --> 00:14:31,578
+incentive compatibility condition to
+激励相容条件
+
+362
+00:14:31,778 --> 00:14:34,639
+hold okay so now we want to check what's
+保持良好，所以现在我们要检查什么
+
+363
+00:14:34,839 --> 00:14:36,889
+going to be true so that that people
+是真实的，以便那个人
+
+364
+00:14:37,089 --> 00:14:38,809
+want to tell us what their actual values
+想告诉我们他们的实际价值
+
+365
+00:14:39,009 --> 00:14:41,779
+are okay so instead of compatibility for
+可以，所以与其兼容
+
+366
+00:14:41,980 --> 00:14:44,299
+the seller of type zero not wanting to
+类型为零的卖方不想
+
+367
+00:14:44,500 --> 00:14:47,000
+pretend to be 0.9 type let's go through
+假装为0.9类型，让我们来看一下
+
+368
+00:14:47,200 --> 00:14:50,990
+that if I actually truthfully say that
+如果我真的如实地说
+
+369
+00:14:51,190 --> 00:14:52,729
+I'm a type zero what am I going to get
+我是零类型我会得到什么
+
+370
+00:14:52,929 --> 00:14:55,129
+well half the time I'm going to be faced
+一半的时间我要面对
+
+371
+00:14:55,330 --> 00:14:59,479
+with a buyer of type one half the time
+与一半类型的买家一起
+
+372
+00:14:59,679 --> 00:15:01,939
+I'm faced with a buyer of type point one
+我遇到一个第一类的买家
+
+373
+00:15:02,139 --> 00:15:05,628
+so my expected utility is going to be a
+所以我期望的实用程序将是
+
+374
+00:15:05,828 --> 00:15:09,469
+bridge of those two prices and it has to
+这两个价格的桥梁，它必须
+
+375
+00:15:09,669 --> 00:15:12,049
+be better than me pretending that I'm a
+比我假装自己更好
+
+376
+00:15:12,250 --> 00:15:14,328
+point nine type so alternatively I could
+点九型，所以我可以
+
+377
+00:15:14,528 --> 00:15:15,649
+pretend that I'm a point nine type
+假装我是九点型
+
+378
+00:15:15,850 --> 00:15:17,659
+instead and these would be the prices I
+相反，这些将是我的价格
+
+379
+00:15:17,860 --> 00:15:23,000
+would get okay so in that situation we
+会好起来的，所以在那种情况下，我们
+
+380
+00:15:23,200 --> 00:15:25,639
+can ask and I have a no value for the
+可以问，我没有任何价值
+
+381
+00:15:25,839 --> 00:15:26,870
+good so it doesn't really matter in
+很好，所以在里面并不重要
+
+382
+00:15:27,070 --> 00:15:29,059
+terms of what where the good goes so in
+善举何以如此
+
+383
+00:15:29,259 --> 00:15:30,859
+this case this turns out to be the
+这种情况原来是
+
+384
+00:15:31,059 --> 00:15:32,809
+incentive compatibility condition let's
+激励相容条件让我们
+
+385
+00:15:33,009 --> 00:15:36,000
+check what that implies so
+检查这意味着什么
+
+386
+00:15:36,200 --> 00:15:40,589
+by one two and three we have bounds on
+一二三
+
+387
+00:15:40,789 --> 00:15:44,279
+how low this price can be how high this
+这个价格可以低到多少
+
+388
+00:15:44,480 --> 00:15:46,109
+price can be and we know exactly what
+价格可以，我们确切知道
+
+389
+00:15:46,309 --> 00:15:48,599
+this price is so we know that this one
+这个价格是，所以我们知道这一个
+
+390
+00:15:48,799 --> 00:15:51,750
+this last one has to be zero we know
+我们知道这最后一个必须为零
+
+391
+00:15:51,950 --> 00:15:55,828
+that this one is the point one point
+那一点就是一点
+
+392
+00:15:56,028 --> 00:15:59,099
+nine is at least point nine and this one
+九至少是点九，而这一点
+
+393
+00:15:59,299 --> 00:16:02,459
+is at most point one and so in terms of
+最多是第一点，因此
+
+394
+00:16:02,659 --> 00:16:05,370
+an inequality we know that this over all
+不平等，我们知道这一切
+
+395
+00:16:05,570 --> 00:16:08,250
+and multiplying through by the two p10
+然后乘以两个p10 
+
+396
+00:16:08,450 --> 00:16:09,959
+plus point one has to be greater than
+加点必须大于
+
+397
+00:16:10,159 --> 00:16:13,500
+equal to 0.9 points plus zero okay so we
+等于0.9点加零好，所以我们
+
+398
+00:16:13,700 --> 00:16:15,689
+can take what we know from one two and
+可以从一二中得到我们所知道的
+
+399
+00:16:15,889 --> 00:16:18,269
+three plug them in here on in terms of
+三个将它们插入此处
+
+400
+00:16:18,470 --> 00:16:19,620
+bounds given that we have the inequality
+假设我们有不等式
+
+401
+00:16:19,820 --> 00:16:21,689
+pointing from the left to the right and
+从左到右指向
+
+402
+00:16:21,889 --> 00:16:25,258
+that tells us then that p10 has to be at
+然后告诉我们p10必须位于
+
+403
+00:16:25,458 --> 00:16:28,258
+least point eight okay so in order to
+至少要点八点好，这样才能
+
+404
+00:16:28,458 --> 00:16:29,878
+make sure that the seller doesn't want
+确保卖方不想要
+
+405
+00:16:30,078 --> 00:16:31,409
+to pretend they have the high value when
+假装他们有很高的价值
+
+406
+00:16:31,610 --> 00:16:33,679
+they really have the low value the price
+他们真的很便宜
+
+407
+00:16:33,879 --> 00:16:36,240
+is gonna have to be at least point eight
+至少要到八点
+
+408
+00:16:36,440 --> 00:16:38,339
+when they have the low value and the
+当它们的价值低而
+
+409
+00:16:38,539 --> 00:16:42,679
+other the buyer has the high value okay
+其他买家有高价好吗
+
+410
+00:16:42,879 --> 00:16:45,539
+do the same incentive compatibility with
+与...做相同的激励兼容性
+
+411
+00:16:45,740 --> 00:16:48,508
+the buyer being a high value not wanting
+买家是高价值的，不想要
+
+412
+00:16:48,708 --> 00:16:49,709
+to pretend that they have a low value
+假装他们的价值很低
+
+413
+00:16:49,909 --> 00:16:52,469
+not trying to drive the price down and
+不试图压低价格， 
+
+414
+00:16:52,669 --> 00:16:54,389
+basically this is going to be a reverse
+基本上这将是相反的
+
+415
+00:16:54,589 --> 00:16:56,189
+kind of calculation of the same thing
+对同一事物的某种计算
+
+416
+00:16:56,389 --> 00:16:58,859
+and given all the symmetry here it's not
+考虑到这里所有的对称性
+
+417
+00:16:59,059 --> 00:17:00,179
+going to be surprising you can work
+你可以工作会很惊讶
+
+418
+00:17:00,379 --> 00:17:02,339
+through the details do exactly the same
+通过细节做完全一样
+
+419
+00:17:02,539 --> 00:17:04,680
+kind of calculation and what do you end
+怎样的计算，你要结束什么
+
+420
+00:17:04,880 --> 00:17:07,200
+up with one two and three now we're
+现在一二三
+
+421
+00:17:07,400 --> 00:17:11,039
+going to imply that this price has a cap
+暗示这个价格有上限
+
+422
+00:17:11,240 --> 00:17:15,059
+of point two okay so the seller has to
+第二点还可以，因此卖方必须
+
+423
+00:17:15,259 --> 00:17:17,460
+be getting at least a price of 0.8 the
+至少获得0.8的价格
+
+424
+00:17:17,660 --> 00:17:19,409
+buyer can't be seeing a price of more
+买家看不到更高的价格
+
+425
+00:17:19,609 --> 00:17:22,079
+than point two well it's going to be
+比第二点好
+
+426
+00:17:22,279 --> 00:17:23,819
+difficult to find a price which is at
+很难找到一个价格
+
+427
+00:17:24,019 --> 00:17:25,888
+least point eight and also no more than
+最少八点
+
+428
+00:17:26,088 --> 00:17:27,930
+point two at the same time that's
+同时指出两个
+
+429
+00:17:28,130 --> 00:17:31,229
+impossible so that's the end of the
+不可能，所以这就是结束
+
+430
+00:17:31,429 --> 00:17:33,960
+proof basically once we put in the
+基本上，一旦我们放入
+
+431
+00:17:34,160 --> 00:17:35,789
+individual rationality conditions then
+那么个人的合理性条件
+
+432
+00:17:35,990 --> 00:17:37,409
+the incentive compatibility conditions
+激励相容条件
+
+433
+00:17:37,609 --> 00:17:38,430
+are going to say the price has to be
+要说的是价格必须是
+
+434
+00:17:38,630 --> 00:17:40,889
+pretty high to keep the seller honest
+很高，可以保证卖方诚实
+
+435
+00:17:41,089 --> 00:17:42,779
+and the price gonna have to be very low
+价格必须非常低
+
+436
+00:17:42,980 --> 00:17:44,940
+to keep the buyer honest can't do that
+保持买家诚实不能这样做
+
+437
+00:17:45,140 --> 00:17:46,979
+at the same time no price is going to
+同时没有价格
+
+438
+00:17:47,179 --> 00:17:48,569
+work so incentive competitive
+工作，激励竞争
+
+439
+00:17:48,769 --> 00:17:51,059
+puts individuality plus having trade
+注重个性加上贸易
+
+440
+00:17:51,259 --> 00:17:53,609
+exactly in the right situations is going
+恰恰在正确的情况下
+
+441
+00:17:53,809 --> 00:17:57,569
+to be impossible so in terms of summary
+不可能，所以就总结而言
+
+442
+00:17:57,769 --> 00:17:58,740
+what have we learned
+我们学到了什么
+
+443
+00:17:58,940 --> 00:18:00,710
+private information about values
+有关价值的私人信息
+
+444
+00:18:00,910 --> 00:18:02,909
+necessitates some inefficiencies and
+导致效率低下， 
+
+445
+00:18:03,109 --> 00:18:05,190
+voluntary trade and at least two sort of
+自愿贸易和至少两种
+
+446
+00:18:05,390 --> 00:18:07,529
+basic tension between incentives and
+激励措施与
+
+447
+00:18:07,730 --> 00:18:10,589
+efficiency and and and this is really
+效率，而这确实是
+
+448
+00:18:10,789 --> 00:18:12,779
+impossible to get around and one thing
+不可能到处走一件事
+
+449
+00:18:12,980 --> 00:18:14,129
+to emphasize here and this is sort of
+在这里强调，这有点
+
+450
+00:18:14,329 --> 00:18:15,629
+the power of the revelation theorem
+启示定理的力量
+
+451
+00:18:15,829 --> 00:18:17,700
+think of any mechanism you you would
+想想你会采用的任何机制
+
+452
+00:18:17,900 --> 00:18:20,099
+want right think of any mechanism if
+想正确地考虑任何机制，如果
+
+453
+00:18:20,299 --> 00:18:23,159
+that mechanism somehow has equilibrium
+该机制某种程度上具有平衡
+
+454
+00:18:23,359 --> 00:18:25,200
+that leads to efficient trade we can
+导致有效的贸易，我们可以
+
+455
+00:18:25,400 --> 00:18:26,909
+write that mechanism as a direct
+将该机制写为直接机制
+
+456
+00:18:27,109 --> 00:18:30,509
+mechanism and so the proof here says no
+机制，所以这里的证明说不
+
+457
+00:18:30,710 --> 00:18:32,579
+matter what's going on you know
+不管发生了什么，你知道
+
+458
+00:18:32,779 --> 00:18:34,529
+throughout this mechanism it's going to
+在整个机制中， 
+
+459
+00:18:34,730 --> 00:18:35,789
+be impossible to write anything down
+不可能写下任何东西
+
+460
+00:18:35,990 --> 00:18:38,129
+that's gonna have the desired properties
+这将具有所需的属性
+
+461
+00:18:38,329 --> 00:18:39,809
+of always trading when you want to and
+在需要时总是进行交易
+
+462
+00:18:40,009 --> 00:18:41,909
+being instead of compatible people are
+而不是兼容的人是
+
+463
+00:18:42,109 --> 00:18:44,579
+gonna tend to lie and that's gonna lead
+会撒谎，这会导致
+
+464
+00:18:44,779 --> 00:18:46,829
+to some inefficient trades and and not
+一些低效率的交易，而不是
+
+465
+00:18:47,029 --> 00:18:49,889
+having things not happen when you want
+当你想要的时候事情不会发生
+
+466
+00:18:50,089 --> 00:18:52,200
+them to and you know this begins to
+他们去，你知道这开始
+
+467
+00:18:52,400 --> 00:18:54,480
+explain this question of why do we have
+解释为什么我们有这个问题
+
+468
+00:18:54,680 --> 00:18:56,250
+strikes you know why do we have
+罢工你知道我们为什么有
+
+469
+00:18:56,450 --> 00:18:56,970
+breakdowns
+细目
+
+470
+00:18:57,170 --> 00:18:58,559
+why don't we always come to an agreement
+为什么我们不总是达成协议
+
+471
+00:18:58,759 --> 00:19:00,269
+and you can ask yourself you know if you
+你可以问问自己你是否知道
+
+472
+00:19:00,470 --> 00:19:01,919
+ever walked away from a bargain when you
+曾经从讨价还价中走出来
+
+473
+00:19:02,119 --> 00:19:03,450
+thought that a trade might really be
+以为交易可能真的是
+
+474
+00:19:03,650 --> 00:19:05,430
+possible so sometimes we're going to be
+可能，所以有时我们会
+
+475
+00:19:05,630 --> 00:19:07,019
+forced to leave things on the table and
+被迫把东西放在桌子上， 
+
+476
+00:19:07,220 --> 00:19:10,099
+that's that's a powerful result and
+那是一个有力的结果， 
+
+477
+00:19:10,299 --> 00:19:13,680
+understanding this is really important
+了解这一点非常重要
+
+478
+00:19:13,880 --> 00:19:15,299
+and sort of understanding why some
+并理解为什么有些
+
+479
+00:19:15,500 --> 00:19:17,669
+inefficiency exists in the world and why
+世界上存在效率低下的原因
+
+480
+00:19:17,869 --> 00:19:18,839
+we're going to have difficulties getting
+我们将很难获得
+
+481
+00:19:19,039 --> 00:19:20,879
+around them to the extent that people
+在人们周围
+
+482
+00:19:21,079 --> 00:19:22,409
+have private information about their
+有关于他们的私人信息
+
+483
+00:19:22,609 --> 00:19:25,169
+willingness to do something that's going
+愿意做某事
+
+484
+00:19:25,369 --> 00:19:27,899
+to be difficult to overcome in in
+难以克服
+
+485
+00:19:28,099 --> 00:19:33,099
+getting full efficiency
+获得充分的效率
+

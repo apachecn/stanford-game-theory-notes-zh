@@ -1,0 +1,870 @@
+﻿1
+00:00:00,060 --> 00:00:01,509
+in this video we're going to look at how
+在本视频中，我们将探讨
+
+2
+00:00:01,709 --> 00:00:04,089
+to define utility in infinitely repeated
+无限重复地定义效用
+
+3
+00:00:04,290 --> 00:00:08,649
+games so remember that the way that an
+游戏，所以请记住
+
+4
+00:00:08,849 --> 00:00:10,780
+infinitely repeated game works is that
+无限重复的游戏作品是
+
+5
+00:00:10,980 --> 00:00:12,700
+we have some stage game which is a
+我们有一些舞台游戏
+
+6
+00:00:12,900 --> 00:00:15,760
+normal form game and the players
+普通形式的游戏和玩家
+
+7
+00:00:15,960 --> 00:00:17,620
+repeatedly played this same game over
+反复玩过同一游戏
+
+8
+00:00:17,820 --> 00:00:20,019
+and over again and what that means is
+一遍又一遍，这意味着
+
+9
+00:00:20,219 --> 00:00:23,909
+each player gets a sequence of payoffs
+每个玩家都有一系列的回报
+
+10
+00:00:24,109 --> 00:00:26,829
+let's say player AI gets the sequence
+假设玩家AI获得了序列
+
+11
+00:00:27,028 --> 00:00:29,109
+are one in the first repetition are two
+在第一次重复中是两个
+
+12
+00:00:29,309 --> 00:00:31,870
+in the second repetition are three just
+在第二次重复中，三个
+
+13
+00:00:32,070 --> 00:00:33,820
+on and on infinitely so we have this
+持续不断，所以我们有这个
+
+14
+00:00:34,020 --> 00:00:36,219
+infinite sequence of real values which
+实数的无限序列
+
+15
+00:00:36,420 --> 00:00:37,928
+are the payoffs that this player has
+是该玩家的收益
+
+16
+00:00:38,128 --> 00:00:40,059
+gotten but if we want to reason about
+得到了，但如果我们想推理一下
+
+17
+00:00:40,259 --> 00:00:41,919
+this game we can't really reason using
+这个游戏我们真的不能使用
+
+18
+00:00:42,119 --> 00:00:43,599
+utility theory of an infinite sequence
+无限序列的效用理论
+
+19
+00:00:43,799 --> 00:00:45,969
+we instead have to take this sequence
+相反，我们必须按照这个顺序
+
+20
+00:00:46,170 --> 00:00:47,559
+and turn it into a single number that
+并将其转换为一个数字
+
+21
+00:00:47,759 --> 00:00:49,959
+talks about the utility that the player
+谈论播放器的实用程序
+
+22
+00:00:50,159 --> 00:00:52,140
+has for having played this sequence and
+已经玩过这个顺序了
+
+23
+00:00:52,340 --> 00:00:54,969
+so how do we do that what's the right
+那么我们该怎么做才是正确的
+
+24
+00:00:55,170 --> 00:00:58,239
+way of thinking about that so the first
+这样思考的方式，所以第一个
+
+25
+00:00:58,439 --> 00:01:00,099
+thing to notice is that previous things
+需要注意的是以前的事情
+
+26
+00:01:00,299 --> 00:01:01,719
+that we've learned about game theory
+我们已经了解了博弈论
+
+27
+00:01:01,920 --> 00:01:03,070
+aren't going to be sufficient to answer
+不足以回答
+
+28
+00:01:03,270 --> 00:01:05,289
+this question so you might wonder if we
+这个问题，所以您可能想知道我们是否
+
+29
+00:01:05,489 --> 00:01:07,000
+can take this infinitely repeated game
+可以参加这个无限重复的游戏
+
+30
+00:01:07,200 --> 00:01:09,250
+and just write it an extensive form and
+然后将其写成广泛的形式
+
+31
+00:01:09,450 --> 00:01:11,590
+of course we can't and the reason is
+我们当然不能，原因是
+
+32
+00:01:11,790 --> 00:01:13,869
+that the extensive form would be
+广泛的形式是
+
+33
+00:01:14,069 --> 00:01:15,759
+infinitely deep we would never get to a
+无限深，我们将永远不会
+
+34
+00:01:15,959 --> 00:01:17,349
+leaf node where we could write a payoff
+我们可以写收益的叶节点
+
+35
+00:01:17,549 --> 00:01:21,039
+and so that won't help us you might also
+这样对我们没有帮助，您可能也
+
+36
+00:01:21,239 --> 00:01:23,049
+just wonder can we sum up the sequence
+只是想知道我们可以总结一下顺序
+
+37
+00:01:23,250 --> 00:01:25,509
+of payoffs and just say that my utility
+回报，只是说我的效用
+
+38
+00:01:25,709 --> 00:01:29,319
+is the the sum of these values and the
+是这些值的总和
+
+39
+00:01:29,519 --> 00:01:30,609
+problem is that that some can be
+问题是，有些可以
+
+40
+00:01:30,810 --> 00:01:33,459
+unbounded because if for example every
+无界的，因为例如
+
+41
+00:01:33,659 --> 00:01:35,500
+payoff I get is positive then I'm gonna
+我得到的回报是正数，那么我要
+
+42
+00:01:35,700 --> 00:01:38,679
+have some unbounded amount of utility at
+拥有无限的效用
+
+43
+00:01:38,879 --> 00:01:40,329
+the end and so that that's not going to
+结束，所以这不会
+
+44
+00:01:40,530 --> 00:01:41,590
+work for me I want to have finite
+为我工作我想要有限
+
+45
+00:01:41,790 --> 00:01:45,609
+utilities so instead there are two
+实用程序，所以有两个
+
+46
+00:01:45,810 --> 00:01:47,319
+canonical ways that this gets defined
+定义的规范方法
+
+47
+00:01:47,519 --> 00:01:48,819
+and I'll tell you about both of them in
+我会在这件事上告诉你
+
+48
+00:01:49,019 --> 00:01:52,119
+this video so here's the first one so
+这个视频，所以这是第一个
+
+49
+00:01:52,319 --> 00:01:54,009
+the first thing says let me look
+第一件事说让我看
+
+50
+00:01:54,209 --> 00:01:56,409
+intuitively at my average payoff over
+凭直觉，我的平均收益超过
+
+51
+00:01:56,609 --> 00:01:59,349
+this sequence now the average payoff of
+现在这个序列的平均收益为
+
+52
+00:01:59,549 --> 00:02:00,730
+a sequence is also not well-defined
+序列也没有明确定义
+
+53
+00:02:00,930 --> 00:02:02,829
+because of course the way I take your
+因为我当然以你的方式
+
+54
+00:02:03,030 --> 00:02:04,750
+average is I sum everything up and then
+平均来说，我把所有东西都加起来
+
+55
+00:02:04,950 --> 00:02:06,459
+I divide it by the number of things and
+我将其除以事物的数量， 
+
+56
+00:02:06,659 --> 00:02:08,320
+we've already seen that this sum can be
+我们已经看到，这笔款项可以是
+
+57
+00:02:08,520 --> 00:02:09,910
+unbounded the number of things is
+事物的数量是无限的
+
+58
+00:02:10,110 --> 00:02:11,560
+unbounded as well so I would have
+无界的，所以我会
+
+59
+00:02:11,759 --> 00:02:12,469
+infinity divided
+无限除
+
+60
+00:02:12,669 --> 00:02:14,000
+infinity which wouldn't help me out here
+无穷无尽，这对我没有帮助
+
+61
+00:02:14,199 --> 00:02:16,640
+but what I can do instead is to look at
+但我能做的就是看
+
+62
+00:02:16,840 --> 00:02:18,530
+the limit of finite averages as the
+有限平均数的极限为
+
+63
+00:02:18,729 --> 00:02:20,570
+averages get longer and longer so what I
+平均数越来越长，所以我
+
+64
+00:02:20,770 --> 00:02:23,000
+can say is let me look at an average
+可以说是让我看一个平均值
+
+65
+00:02:23,199 --> 00:02:25,850
+over the first K things in my sequence
+在我序列中的前K个事物中
+
+66
+00:02:26,050 --> 00:02:28,670
+and then let me take the limit of this
+然后让我限制一下
+
+67
+00:02:28,870 --> 00:02:32,270
+average as K goes to infinity and it
+当K达到无穷大时，它的平均值
+
+68
+00:02:32,469 --> 00:02:33,920
+turns out actually technically this
+实际上从技术上证明了这一点
+
+69
+00:02:34,120 --> 00:02:35,780
+isn't always well-defined it's almost
+并不总是很明确，几乎
+
+70
+00:02:35,979 --> 00:02:37,280
+always well-defined and there's an easy
+总是定义明确，并且很容易
+
+71
+00:02:37,479 --> 00:02:38,539
+fix that we can do to this definition
+修正我们可以对此定义进行的操作
+
+72
+00:02:38,739 --> 00:02:40,819
+that I've left out here to keep it from
+我已经留在这里，以防止它
+
+73
+00:02:41,019 --> 00:02:43,130
+getting too technical but in cases where
+变得过于技术化，但在某些情况下
+
+74
+00:02:43,330 --> 00:02:44,060
+this is well-defined
+这是明确的
+
+75
+00:02:44,259 --> 00:02:47,360
+this is the right thing to do so and and
+这是正确的做法，并且
+
+76
+00:02:47,560 --> 00:02:48,350
+everything we'll talk about in this
+我们将在此谈论的一切
+
+77
+00:02:48,550 --> 00:02:50,569
+course it'll be well-defined so so this
+当然，它会被很好地定义，所以这
+
+78
+00:02:50,769 --> 00:02:52,700
+is the defined as the average reward
+被定义为平均奖励
+
+79
+00:02:52,900 --> 00:02:54,230
+that the planner gets over the infinite
+计划者克服了无限
+
+80
+00:02:54,430 --> 00:02:56,590
+sequence and this gives us one number
+序列，这给了我们一个数字
+
+81
+00:02:56,789 --> 00:02:58,580
+the reason we have a second definition
+我们有第二个定义的原因
+
+82
+00:02:58,780 --> 00:03:00,830
+is that there's something kind of
+是某种东西
+
+83
+00:03:01,030 --> 00:03:02,060
+counterintuitive about the average
+关于平均数的直觉
+
+84
+00:03:02,259 --> 00:03:05,000
+reward let me put it back up the reason
+奖励让我把它备份的原因
+
+85
+00:03:05,199 --> 00:03:06,349
+that it's kind of counterintuitive is
+这有点违反直觉的是
+
+86
+00:03:06,549 --> 00:03:09,980
+that if I get some bad payoff for a
+如果我得到了一些不好的回报
+
+87
+00:03:10,180 --> 00:03:11,480
+finite amount of time let's say for the
+有限的时间让我们说
+
+88
+00:03:11,680 --> 00:03:13,460
+first hundred thousand iterations I get
+我得到的前十万次迭代
+
+89
+00:03:13,659 --> 00:03:15,939
+a payoff of negative a million and then
+负一百万的回报，然后
+
+90
+00:03:16,139 --> 00:03:18,560
+for the rest of time after that I get
+在那之后的剩余时间里
+
+91
+00:03:18,759 --> 00:03:21,439
+some good payoff let's say one unit of
+可以说一个好回报
+
+92
+00:03:21,639 --> 00:03:23,930
+utility then the limit of the means
+效用然后是手段的极限
+
+93
+00:03:24,129 --> 00:03:28,759
+would be one because the the negative
+将会是一个，因为负面的
+
+94
+00:03:28,959 --> 00:03:30,110
+payoff that I got at the beginning was
+我一开始得到的回报是
+
+95
+00:03:30,310 --> 00:03:31,879
+only for a finite amount of time and it
+只在有限的时间内
+
+96
+00:03:32,079 --> 00:03:33,650
+washes out in the average if I go long
+如果我走多久，平均会被洗掉
+
+97
+00:03:33,849 --> 00:03:36,319
+enough out into the future and well
+足够远的将来
+
+98
+00:03:36,519 --> 00:03:37,909
+that's what the math says but that
+这就是数学所说的，但是
+
+99
+00:03:38,109 --> 00:03:39,950
+doesn't always model what we want to to
+并不总是为我们想要的模型
+
+100
+00:03:40,150 --> 00:03:41,360
+really reason about because we have an
+真正原因是因为我们有一个
+
+101
+00:03:41,560 --> 00:03:43,659
+intuition that payoffs that you get it
+直觉使你得到回报
+
+102
+00:03:43,859 --> 00:03:46,460
+early on are kind of more important than
+早于比
+
+103
+00:03:46,659 --> 00:03:48,259
+payoffs that you get really far into the
+您获得的收益确实很大
+
+104
+00:03:48,459 --> 00:03:50,750
+future so if we want to have a model of
+未来，所以如果我们想要一个模型
+
+105
+00:03:50,949 --> 00:03:52,969
+utility that has that property we need
+具有我们需要的属性的实用程序
+
+106
+00:03:53,169 --> 00:03:55,310
+to say that different payoffs matter
+说不同的收益很重要
+
+107
+00:03:55,509 --> 00:03:58,520
+differently so it's more important to me
+不同，所以对我来说更重要
+
+108
+00:03:58,719 --> 00:04:00,650
+to get a good payoff in the first
+在第一时间获得良好的回报
+
+109
+00:04:00,849 --> 00:04:02,420
+iteration than to get one in the
+迭代比获得之一
+
+110
+00:04:02,620 --> 00:04:04,520
+millionth iteration and the way that I
+第百万次迭代以及我的方式
+
+111
+00:04:04,719 --> 00:04:06,830
+can model that is by saying my payoffs
+可以通过说我的收益来建模
+
+112
+00:04:07,030 --> 00:04:09,379
+are multiplied by some discount factor
+乘以一些折扣系数
+
+113
+00:04:09,579 --> 00:04:12,050
+so my discount factor talks about my
+所以我的折扣因素是关于我的
+
+114
+00:04:12,250 --> 00:04:14,960
+value for payoffs at different times so
+在不同时间的回报价值
+
+115
+00:04:15,159 --> 00:04:17,778
+my discount factor beta is some value
+我的折现系数beta有一定价值
+
+116
+00:04:17,978 --> 00:04:21,199
+strictly between 0 & 1 and you can sort
+严格在0和1之间，您可以排序
+
+117
+00:04:21,399 --> 00:04:22,338
+of think of it like an interest rate
+想像是利率
+
+118
+00:04:22,538 --> 00:04:26,000
+it's saying you know with money if
+就是说你知道有钱
+
+119
+00:04:26,199 --> 00:04:29,000
+I wanted to tell somebody that I'm gonna
+我想告诉某人我要
+
+120
+00:04:29,199 --> 00:04:31,930
+pay them a hundred dollars in a year
+一年付一百美元
+
+121
+00:04:32,129 --> 00:04:35,090
+they would value that at less than a
+他们会认为该价格低于
+
+122
+00:04:35,290 --> 00:04:39,770
+hundred dollars today and so and the
+今天一百美元等等
+
+123
+00:04:39,970 --> 00:04:41,389
+amount by which they would value it less
+他们将其贬值的金额
+
+124
+00:04:41,589 --> 00:04:43,040
+today kind of corresponds to the
+今天的对应于
+
+125
+00:04:43,240 --> 00:04:45,439
+interest rate and that's kind of exactly
+利率，这恰好是
+
+126
+00:04:45,639 --> 00:04:47,180
+what's going on in the math here so what
+数学在这里发生了什么
+
+127
+00:04:47,379 --> 00:04:50,420
+I'm saying here is that my utility for
+我是说我的工具
+
+128
+00:04:50,620 --> 00:04:53,270
+this stream of payoffs this stream of
+这股回报之流
+
+129
+00:04:53,470 --> 00:04:56,090
+ours the stream of payoffs is weighted
+我们的收益流是加权的
+
+130
+00:04:56,290 --> 00:04:59,930
+by the discount factor ^ which path in
+通过折现因子^哪条路径
+
+131
+00:05:00,129 --> 00:05:02,980
+the sequence it is so I'm going to
+这是顺序，所以我要
+
+132
+00:05:03,180 --> 00:05:06,980
+discount each payoff successively so the
+依次贴现每个收益，因此
+
+133
+00:05:07,180 --> 00:05:07,790
+first one it's going to have the
+第一个将有
+
+134
+00:05:07,990 --> 00:05:10,100
+discount factor applied once the second
+每秒应用一次折扣系数
+
+135
+00:05:10,300 --> 00:05:11,420
+one is going to have the discount factor
+一个将有折扣因素
+
+136
+00:05:11,620 --> 00:05:12,800
+applied twice so I'm going to get the
+申请了两次，所以我要去
+
+137
+00:05:13,000 --> 00:05:15,199
+discount factor squared and so on all
+折扣系数平方等
+
+138
+00:05:15,399 --> 00:05:16,790
+the way through the sequence so each of
+通过序列的方式，所以每个
+
+139
+00:05:16,990 --> 00:05:18,410
+them is going to be diminished but each
+他们将减少，但每个
+
+140
+00:05:18,610 --> 00:05:19,819
+of them is still going to matter and
+他们中的仍然很重要， 
+
+141
+00:05:20,019 --> 00:05:21,710
+there are two ways we can think about
+我们可以考虑两种方法
+
+142
+00:05:21,910 --> 00:05:23,930
+what the discount factor means so the
+折扣因素意味着什么
+
+143
+00:05:24,129 --> 00:05:25,460
+first is kind of the interpretation that
+首先是那种解释
+
+144
+00:05:25,660 --> 00:05:27,470
+I've been telling you so far but the
+到目前为止，我一直在告诉您，但是
+
+145
+00:05:27,670 --> 00:05:29,540
+agent just cares more about the near
+特工只是在乎附近
+
+146
+00:05:29,740 --> 00:05:32,060
+term than the long term there's another
+远比长期而言
+
+147
+00:05:32,259 --> 00:05:33,770
+definition which is different but
+定义不同但
+
+148
+00:05:33,970 --> 00:05:35,150
+mathematically are the same so it's
+数学上是一样的，所以
+
+149
+00:05:35,350 --> 00:05:37,370
+interesting to think about and that is
+想起来很有趣，那就是
+
+150
+00:05:37,569 --> 00:05:39,650
+that the agent really is the agent we
+那个代理商真的是我们的代理商
+
+151
+00:05:39,850 --> 00:05:41,569
+just talked about in the average reward
+刚刚在平均奖励中谈到
+
+152
+00:05:41,769 --> 00:05:43,370
+case cares just as much about every
+案件在乎每个人
+
+153
+00:05:43,569 --> 00:05:46,189
+payoff but with some probability the
+回报，但有可能
+
+154
+00:05:46,389 --> 00:05:48,590
+probability actually 1 minus beta the
+概率实际上是1减去beta 
+
+155
+00:05:48,790 --> 00:05:50,780
+game will end in every given round so
+游戏将在每个给定回合中结束，因此
+
+156
+00:05:50,980 --> 00:05:53,240
+our game is not necessarily infinitely
+我们的游戏不一定是无限的
+
+157
+00:05:53,439 --> 00:05:54,980
+repeated it's sort of potentially
+重复它有点潜在
+
+158
+00:05:55,180 --> 00:05:56,720
+infinitely repeated but every time we
+无限重复，但每次我们
+
+159
+00:05:56,920 --> 00:05:58,490
+play the game we're gonna flip a coin
+玩我们要掷硬币的游戏
+
+160
+00:05:58,689 --> 00:06:01,759
+and with probability 1 minus beta the
+并以1减去beta的概率
+
+161
+00:06:01,959 --> 00:06:03,350
+game is going to just end and with
+游戏即将结束， 
+
+162
+00:06:03,550 --> 00:06:05,449
+probability beta the game is going to
+游戏的概率beta 
+
+163
+00:06:05,649 --> 00:06:07,670
+continue and what that means is that
+继续，那是什么意思
+
+164
+00:06:07,870 --> 00:06:10,129
+here we be talking about my expected
+在这里，我们正在谈论我的期望
+
+165
+00:06:10,329 --> 00:06:12,530
+reward in the game because there's a a
+在游戏中奖励，因为有一个
+
+166
+00:06:12,730 --> 00:06:14,270
+beta chance that I'll go to the next
+ Beta机会，我会去下一个
+
+167
+00:06:14,470 --> 00:06:16,040
+round there's a beta squared chance that
+大约有一个beta平方的机会
+
+168
+00:06:16,240 --> 00:06:18,110
+I'm gonna go two rounds forward the beta
+我要进行两轮测试
+
+169
+00:06:18,310 --> 00:06:19,610
+cube chance I'm gonna go three rounds
+我要去三回合的机会
+
+170
+00:06:19,810 --> 00:06:21,650
+forward and so on so that means my
+前进等等，这意味着我
+
+171
+00:06:21,850 --> 00:06:23,990
+expected utility in this game would
+在这个游戏中的预期效用
+
+172
+00:06:24,189 --> 00:06:27,199
+would just be the same formula and
+将只是相同的公式， 
+
+173
+00:06:27,399 --> 00:06:29,689
+that's it for defining utility in these
+就是在这些中定义实用程序
+
+174
+00:06:29,889 --> 00:06:34,889
+games thanks very much
+游戏非常感谢
+

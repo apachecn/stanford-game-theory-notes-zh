@@ -1,0 +1,360 @@
+﻿1
+00:00:00,210 --> 00:00:03,009
+we will be talking about self-interested
+我们将谈论自私的
+
+2
+00:00:03,209 --> 00:00:04,658
+agents and their interactions
+代理及其互动
+
+3
+00:00:04,859 --> 00:00:07,149
+so let's first speak about what we mean
+所以我们先说说我们的意思
+
+4
+00:00:07,349 --> 00:00:14,290
+by self-interested agents we don't mean
+对于自私的经纪人，我们并不是说
+
+5
+00:00:14,490 --> 00:00:17,829
+necessarily that agents are adversarial
+必然是代理商具有对抗性
+
+6
+00:00:18,028 --> 00:00:21,010
+or don't care about what happened to
+或不在乎发生了什么
+
+7
+00:00:21,210 --> 00:00:24,220
+other agents what we mean by that is
+其他代理商，我们的意思是
+
+8
+00:00:24,420 --> 00:00:26,318
+that agents have opinions have
+代理商有意见
+
+9
+00:00:26,518 --> 00:00:28,949
+preferences and so there's some
+偏好，所以有一些
+
+10
+00:00:29,149 --> 00:00:31,568
+description of the world how the world
+世界的描述世界如何
+
+11
+00:00:31,768 --> 00:00:33,518
+could be and in different descriptions
+可能是并且在不同的描述中
+
+12
+00:00:33,719 --> 00:00:36,669
+the agents have different preferences
+代理商有不同的偏好
+
+13
+00:00:36,869 --> 00:00:39,608
+and different utilities as we'll say and
+以及我们将要说的不同的实用程序
+
+14
+00:00:39,808 --> 00:00:43,329
+so what we mean by utility function is a
+所以我们所说的效用函数是
+
+15
+00:00:43,530 --> 00:00:47,619
+mathematical measure that tells you how
+告诉你如何的数学测量
+
+16
+00:00:47,820 --> 00:00:50,709
+much the agents likes or does not like a
+代理商非常喜欢或不喜欢
+
+17
+00:00:50,909 --> 00:00:52,119
+given situation
+给定情况
+
+18
+00:00:52,320 --> 00:00:57,428
+it describes not only their attitude
+它不仅描述了他们的态度
+
+19
+00:00:57,628 --> 00:01:00,279
+towards a definite of events so for
+对于一定的事件，所以
+
+20
+00:01:00,479 --> 00:01:02,198
+example tomorrow the temperature will be
+明天的温度将是
+
+21
+00:01:02,399 --> 00:01:07,988
+exactly 25 degrees centigrade but but in
+正好25摄氏度，但
+
+22
+00:01:08,188 --> 00:01:09,730
+fact it will describe the preferences
+实际上它将描述偏好
+
+23
+00:01:09,930 --> 00:01:15,129
+towards a distribution of such outcomes
+分配这样的结果
+
+24
+00:01:15,329 --> 00:01:18,039
+so it really captures their attitude
+所以这真的抓住了他们的态度
+
+25
+00:01:18,239 --> 00:01:21,399
+towards uncertainty about events so for
+对事件的不确定性
+
+26
+00:01:21,599 --> 00:01:26,200
+example if I tell you that it will be 25
+例如，如果我告诉你它将是25 
+
+27
+00:01:26,400 --> 00:01:30,069
+degrees with probability 0.7 and 24
+度为0.7和24 
+
+28
+00:01:30,269 --> 00:01:33,308
+degrees with probability 0.3 you might
+度，概率为0.3，您可能
+
+29
+00:01:33,509 --> 00:01:35,500
+have an opinion about how much you like
+对你喜欢多少有意见
+
+30
+00:01:35,700 --> 00:01:38,399
+that versus some other distribution and
+与其他发行版相比， 
+
+31
+00:01:38,599 --> 00:01:42,429
+the decision theoretic approach which is
+决策理论方法是
+
+32
+00:01:42,629 --> 00:01:45,759
+what underlies modern game theory says
+现代博弈论的基础是什么
+
+33
+00:01:45,959 --> 00:01:47,469
+that you're going to try to act in the
+你将要尝试采取行动
+
+34
+00:01:47,670 --> 00:01:50,528
+way that maximizes your expected or
+最大化您的预期或
+
+35
+00:01:50,728 --> 00:01:54,640
+average utility and so this is a concept
+平均效用，所以这是一个概念
+
+36
+00:01:54,840 --> 00:01:59,439
+we need to get comfortable with and and
+我们需要对and和
+
+37
+00:01:59,640 --> 00:02:02,230
+it's not obvious that one would want to
+人们是否愿意
+
+38
+00:02:02,430 --> 00:02:06,128
+use such an approach so for example we
+使用这种方法，例如
+
+39
+00:02:06,328 --> 00:02:08,800
+are going to look at a single dimension
+将要看一个单一的维度
+
+40
+00:02:09,000 --> 00:02:11,170
+so your preferences will
+所以你的喜好会
+
+41
+00:02:11,370 --> 00:02:15,849
+all beyond a scale as we'll see the
+一切都超出规模，我们将看到
+
+42
+00:02:16,049 --> 00:02:17,920
+scale that is not that important unlike
+规模不那么重要
+
+43
+00:02:18,120 --> 00:02:19,750
+probabilities utilities don't have to
+概率实用程序不必
+
+44
+00:02:19,949 --> 00:02:22,810
+lie in the 0-1 scale but they will lie
+说谎在0-1规模，但他们会说谎
+
+45
+00:02:23,009 --> 00:02:26,830
+on a linear dimension and maybe maybe
+在线性维度上，也许
+
+46
+00:02:27,030 --> 00:02:29,860
+that's inappropriate or for example you
+那是不合适的，例如你
+
+47
+00:02:30,060 --> 00:02:32,950
+might have some level of wealth and some
+可能有一定程度的财富和一些
+
+48
+00:02:33,150 --> 00:02:37,270
+degree of health and for a certain level
+健康程度和一定水平
+
+49
+00:02:37,469 --> 00:02:41,679
+of of each one you'll have some some
+每一个中，您都会有一些
+
+50
+00:02:41,878 --> 00:02:46,179
+some some notion of well-being but is it
+一些关于幸福的概念，但这是
+
+51
+00:02:46,378 --> 00:02:48,670
+appropriate to put the two together and
+适合将两者放在一起
+
+52
+00:02:48,870 --> 00:02:50,439
+have a single scale you might you might
+有一个单一的规模，你可能会
+
+53
+00:02:50,639 --> 00:02:54,819
+question that similarly why is looking
+同样为什么要看的问题
+
+54
+00:02:55,019 --> 00:02:56,649
+at the expected value when you're
+当您处于期望值时
+
+55
+00:02:56,848 --> 00:02:58,659
+looking at your uncertainty while
+看着你的不确定性
+
+56
+00:02:58,859 --> 00:03:00,939
+looking at the expected value an
+看期望值
+
+57
+00:03:01,139 --> 00:03:02,860
+appropriate way to capture your attitude
+捕捉态度的适当方法
+
+58
+00:03:03,060 --> 00:03:07,330
+and so these are not trivial statements
+所以这些不是琐碎的陈述
+
+59
+00:03:07,530 --> 00:03:10,209
+and in fact are not tautological they
+而且实际上不是重言式的
+
+60
+00:03:10,408 --> 00:03:13,569
+make a subjective claim but there's a
+提出主观主张，但有一个
+
+61
+00:03:13,769 --> 00:03:16,599
+very long tradition and maybe the most
+悠久的传统，也许是最悠久的
+
+62
+00:03:16,799 --> 00:03:20,319
+famous reference is to phenomena
+著名的参考是现象
+
+63
+00:03:20,519 --> 00:03:26,560
+Morgenstern simul book on on which is
+ Morgenstern simul上的书是
+
+64
+00:03:26,759 --> 00:03:28,179
+really in some ways the introduction to
+确实在某种程度上介绍了
+
+65
+00:03:28,378 --> 00:03:31,000
+modern day in game theory that derives
+博弈论中的现代派生
+
+66
+00:03:31,199 --> 00:03:34,990
+the these utility function from more
+这些实用功能更多
+
+67
+00:03:35,189 --> 00:03:38,649
+basic assumptions one makes and we won't
+一个基本假设，我们不会
+
+68
+00:03:38,848 --> 00:03:40,990
+go into that but we just wanted to flag
+进入那个，但是我们只想标记
+
+69
+00:03:41,189 --> 00:03:43,840
+this issue as something that will
+这个问题会
+
+70
+00:03:44,039 --> 00:03:48,550
+underlie everything we say about game
+成为我们谈论游戏的基础
+
+71
+00:03:48,750 --> 00:03:51,340
+theory and which really underlies one
+理论，这实际上是一个基础
+
+72
+00:03:51,539 --> 00:03:56,539
+game theory
+博弈论
+

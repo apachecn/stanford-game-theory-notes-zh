@@ -1,0 +1,480 @@
+﻿1
+00:00:00,000 --> 00:00:02,889
+hi folks its Matt again and now we're
+嗨，大家好，Matt，现在我们
+
+2
+00:00:03,089 --> 00:00:04,509
+ready to start solving games and making
+准备开始解决游戏和制作
+
+3
+00:00:04,710 --> 00:00:06,519
+some predictions of how people will play
+关于人们如何玩的一些预测
+
+4
+00:00:06,719 --> 00:00:08,500
+in different settings and so we're
+在不同的设置中，所以我们
+
+5
+00:00:08,699 --> 00:00:11,859
+talking right now about Nash equilibrium
+现在谈论纳什均衡
+
+6
+00:00:12,058 --> 00:00:14,950
+which is one probably the most basic and
+这可能是最基本的
+
+7
+00:00:15,150 --> 00:00:17,260
+standard solution concept of all in all
+全部的标准解决方案概念
+
+8
+00:00:17,460 --> 00:00:19,600
+of game theory it's named after John
+博弈论的名字，以约翰命名
+
+9
+00:00:19,800 --> 00:00:21,310
+Nash who was a mathematician at
+纳什（Nash）是数学家
+
+10
+00:00:21,510 --> 00:00:23,470
+Princeton and actually some years back
+普林斯顿，实际上几年前
+
+11
+00:00:23,670 --> 00:00:25,329
+won the Nobel Prize for his work on this
+他在这方面的工作获得了诺贝尔奖
+
+12
+00:00:25,528 --> 00:00:28,510
+subject and it's a very basic and
+主题，这是一个非常基本的
+
+13
+00:00:28,710 --> 00:00:31,329
+fundamental concept and in order to sort
+基本概念和排序
+
+14
+00:00:31,528 --> 00:00:33,070
+of motivate it let's let's start by just
+激励它，让我们从一开始就开始
+
+15
+00:00:33,270 --> 00:00:38,349
+talking through some a particular game
+通过特定游戏进行交谈
+
+16
+00:00:38,549 --> 00:00:41,320
+that was described and invented by
+被描述和发明的
+
+17
+00:00:41,520 --> 00:00:45,189
+another famous person so this is John
+另一个名人，所以这是约翰
+
+18
+00:00:45,390 --> 00:00:48,219
+Kane John Maynard Keynes beauty contest
+凯恩·约翰·梅纳德·凯恩斯选美大赛
+
+19
+00:00:48,420 --> 00:00:51,998
+game so what's the idea here so let's
+游戏，这是什么主意，让我们
+
+20
+00:00:52,198 --> 00:00:53,919
+let's think of a basic situation that
+让我们考虑一个基本情况
+
+21
+00:00:54,119 --> 00:00:57,038
+you might be interested in and this was
+您可能对此感兴趣，这是
+
+22
+00:00:57,238 --> 00:00:58,658
+one that Keynes described in some detail
+凯恩斯对此进行了详细描述
+
+23
+00:00:58,859 --> 00:01:01,419
+so the idea was you have a stock you're
+所以想法是你有一只股票
+
+24
+00:01:01,619 --> 00:01:04,388
+holding on to it and the stock price is
+坚持下去，股价就是
+
+25
+00:01:04,588 --> 00:01:07,090
+rising that's great you're an investor
+上升那太好了，您是投资者
+
+26
+00:01:07,290 --> 00:01:08,769
+you're trying to make profits off of
+你试图从中获利
+
+27
+00:01:08,969 --> 00:01:12,278
+your your stock holdings and you begin
+您的库存量，然后开始
+
+28
+00:01:12,478 --> 00:01:13,869
+to believe that maybe the stock is too
+相信也许股票也是如此
+
+29
+00:01:14,069 --> 00:01:15,849
+high to be justified by the value of the
+高要由价值来证明
+
+30
+00:01:16,049 --> 00:01:17,799
+company so you're thinking that it's
+公司，所以您认为这是
+
+31
+00:01:18,000 --> 00:01:19,599
+possible that this stock is overvalued
+这只股票可能被高估了
+
+32
+00:01:19,799 --> 00:01:22,209
+maybe there's a bubble in the market and
+也许市场上有泡沫， 
+
+33
+00:01:22,409 --> 00:01:24,629
+you're starting to think about selling
+您开始考虑出售
+
+34
+00:01:24,829 --> 00:01:27,308
+okay well you'd like to sell it but
+好吧，你想卖掉它，但是
+
+35
+00:01:27,509 --> 00:01:28,840
+you'd like to wait until the price is at
+您想等到价格在
+
+36
+00:01:29,040 --> 00:01:31,090
+its peak right so you'd want to wait
+它的峰值合适，所以您想等待
+
+37
+00:01:31,290 --> 00:01:33,009
+until the price was just where it's
+直到价格刚好在
+
+38
+00:01:33,209 --> 00:01:35,909
+going to hit its maximum before you sold
+在您卖出之前将达到最高
+
+39
+00:01:36,109 --> 00:01:37,959
+so you wanted to get out of the market
+所以你想退出市场
+
+40
+00:01:38,159 --> 00:01:40,539
+just before the other investors do so
+就在其他投资者这样做之前
+
+41
+00:01:40,739 --> 00:01:41,950
+this is a game where now you have to
+这是一个游戏，现在您必须
+
+42
+00:01:42,150 --> 00:01:43,390
+predict what other people think about
+预测别人的想法
+
+43
+00:01:43,590 --> 00:01:45,189
+the stock price and and what they're
+股票价格以及它们的含义
+
+44
+00:01:45,390 --> 00:01:46,778
+going to do and when they want to get
+去做，什么时候想得到
+
+45
+00:01:46,978 --> 00:01:50,168
+out so how will they act how should you
+出来，他们将如何行动，你应该如何
+
+46
+00:01:50,368 --> 00:01:53,049
+respond to that so this is the basic
+对此做出回应，这是最基本的
+
+47
+00:01:53,250 --> 00:01:55,149
+ingredients of Nash equilibrium are
+纳什均衡的成分是
+
+48
+00:01:55,349 --> 00:01:57,009
+going to be having some prediction of
+会有一些预测
+
+49
+00:01:57,209 --> 00:01:58,778
+what other players are doing and then
+其他玩家在做什么，然后
+
+50
+00:01:58,978 --> 00:02:00,579
+choosing the optimal strategy in
+选择最佳策略
+
+51
+00:02:00,780 --> 00:02:01,959
+response to that so these are they're
+回应，所以这些是
+
+52
+00:02:02,159 --> 00:02:03,579
+going to be two key ingredients that we
+将成为我们的两个关键要素
+
+53
+00:02:03,780 --> 00:02:07,000
+have so there's a very stylized version
+有一个非常程式化的版本
+
+54
+00:02:07,200 --> 00:02:09,880
+of this which is known as the the Keynes
+这就是凯恩斯
+
+55
+00:02:10,080 --> 00:02:12,850
+beauty contest game where did it come
+选美比赛是哪里来的
+
+56
+00:02:13,050 --> 00:02:13,600
+from
+从
+
+57
+00:02:13,800 --> 00:02:17,140
+actually Keynes described the there was
+实际上凯恩斯描述了
+
+58
+00:02:17,340 --> 00:02:22,950
+a newspaper in the in England that had a
+英格兰的一家报纸
+
+59
+00:02:23,150 --> 00:02:26,500
+contest where players had to guess which
+比赛中玩家必须猜测哪个
+
+60
+00:02:26,699 --> 00:02:32,290
+picture of several women other readers
+其他读者的几个女人的照片
+
+61
+00:02:32,490 --> 00:02:36,460
+would think was the the the most
+会认为是最
+
+62
+00:02:36,659 --> 00:02:38,290
+attractive one so it wasn't to guess
+有吸引力的一个，所以不用猜测
+
+63
+00:02:38,490 --> 00:02:39,910
+what you thought but what you thought
+你在想什么，但你在想什么
+
+64
+00:02:40,110 --> 00:02:43,620
+other people were thinking so Keynes
+其他人在想，所以凯恩斯
+
+65
+00:02:43,819 --> 00:02:47,290
+likened investing to this you it's not
+比作投资，这不是
+
+66
+00:02:47,490 --> 00:02:49,900
+only what you think of this the stock
+只有您对此的看法
+
+67
+00:02:50,099 --> 00:02:51,340
+but what you think other people are
+但是你认为别人是什么
+
+68
+00:02:51,539 --> 00:02:52,540
+thinking about the stock that's
+考虑那只股票
+
+69
+00:02:52,740 --> 00:02:54,130
+important and driving your decisions
+重要并推动您的决策
+
+70
+00:02:54,330 --> 00:02:57,280
+okay so this now is represented by a
+好吧，现在以
+
+71
+00:02:57,479 --> 00:02:59,530
+very simple game that is is played by
+玩的非常简单的游戏
+
+72
+00:02:59,729 --> 00:03:02,230
+many people so what's this game look
+很多人，所以这个游戏看起来像什么
+
+73
+00:03:02,430 --> 00:03:06,400
+like each person gets to name an integer
+就像每个人都用一个整数命名
+
+74
+00:03:06,599 --> 00:03:08,890
+between 1 and 100 ok so you get to pick
+在1到100 ok之间，所以您可以选择
+
+75
+00:03:09,090 --> 00:03:11,230
+a number between 1 and 100 s to be an
+ 1到100秒之间的数字是一个
+
+76
+00:03:11,430 --> 00:03:15,340
+integer so 1 2 3 etc players are going
+整数，所以1 2 3等玩家进行
+
+77
+00:03:15,539 --> 00:03:17,800
+to move simultaneously and the player
+与玩家同时移动
+
+78
+00:03:18,000 --> 00:03:19,900
+who names the integer that's closest to
+谁命名最接近的整数
+
+79
+00:03:20,099 --> 00:03:23,020
+two-thirds of the average integer wins a
+平均整数的三分之二赢得
+
+80
+00:03:23,219 --> 00:03:25,900
+prize and the other players get nothing
+奖，其他玩家一无所获
+
+81
+00:03:26,099 --> 00:03:28,509
+so to win this game you have to get you
+所以要赢得这场比赛，你必须让你
+
+82
+00:03:28,709 --> 00:03:32,050
+have to guess the average and then 2/3
+必须猜测平均值，然后再2/3 
+
+83
+00:03:32,250 --> 00:03:34,120
+of it right so you want to be right at
+它是正确的，所以你想在正确
+
+84
+00:03:34,319 --> 00:03:36,280
+2/3 of whatever the average guess is so
+平均猜测的2/3 
+
+85
+00:03:36,479 --> 00:03:39,520
+a little bit below the average guess if
+比平均猜测低一点
+
+86
+00:03:39,719 --> 00:03:41,289
+there's two people that happen to hit
+有两个人碰巧
+
+87
+00:03:41,489 --> 00:03:43,240
+the same integer that it's the the right
+正确的整数
+
+88
+00:03:43,439 --> 00:03:46,090
+one then ties are going to be broken
+一个然后领带将被打破
+
+89
+00:03:46,289 --> 00:03:47,890
+uniformly at random so we'll just flip a
+均匀地随机分布，所以我们只需要翻转一个
+
+90
+00:03:48,090 --> 00:03:49,710
+coin or if there's three people will
+硬币，或者如果有三个人
+
+91
+00:03:49,909 --> 00:03:54,520
+roll a dice a three-sided die etc okay
+掷骰子，三面骰子等
+
+92
+00:03:54,719 --> 00:03:57,789
+so how would you play this game you have
+所以你会怎么玩这个游戏
+
+93
+00:03:57,989 --> 00:03:58,930
+to think about what other players are
+考虑其他玩家
+
+94
+00:03:59,129 --> 00:04:01,600
+going to do and then forecast what you
+去做，然后预测你
+
+95
+00:04:01,800 --> 00:04:04,120
+think the best integer is in a response
+认为最好的整数在响应中
+
+96
+00:04:04,319 --> 00:04:09,319
+to that
+那个
+

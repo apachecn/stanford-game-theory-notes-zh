@@ -1,0 +1,835 @@
+﻿1
+00:00:00,110 --> 00:00:04,509
+let us now revisit the solution concept
+现在让我们重新审视解决方案概念
+
+2
+00:00:04,710 --> 00:00:09,010
+for extensive form games and let's start
+进行广泛的形式游戏，让我们开始吧
+
+3
+00:00:09,210 --> 00:00:16,510
+by doing it let's start by looking at
+通过这样做，让我们开始看
+
+4
+00:00:16,710 --> 00:00:21,370
+the following example in this game there
+下面这个游戏中的例子
+
+5
+00:00:21,570 --> 00:00:24,489
+are a number of Nash equilibria and here
+有一些纳什均衡，这里
+
+6
+00:00:24,689 --> 00:00:30,850
+is one of them BH see what is BH play
+是其中之一BH看到BH玩什么
+
+7
+00:00:31,050 --> 00:00:33,549
+one goes down here and down here
+一个人在这里和这里下来
+
+8
+00:00:33,750 --> 00:00:38,079
+whereas player two goes down here and
+而第二个玩家在这里下来
+
+9
+00:00:38,280 --> 00:00:41,948
+down here under this strategy profile of
+在此的战略概况下
+
+10
+00:00:42,149 --> 00:00:45,038
+course the outcome of the game is this
+当然，游戏的结果是这样
+
+11
+00:00:45,238 --> 00:00:48,878
+one and the payoff to both players is
+一个，两个玩家的收益是
+
+12
+00:00:49,079 --> 00:00:50,219
+five
+五
+
+13
+00:00:50,420 --> 00:00:52,570
+let's first convince ourselves that this
+首先让我们说服自己
+
+14
+00:00:52,770 --> 00:00:55,599
+is indeed a Nash equilibrium so let's
+确实是纳什均衡，所以让我们
+
+15
+00:00:55,799 --> 00:00:57,969
+hold players one strategy fixed and see
+固定玩家一项策略，看看
+
+16
+00:00:58,170 --> 00:01:00,248
+if player two can profitably deviate
+如果玩家二可以有利地偏离
+
+17
+00:01:00,448 --> 00:01:04,748
+from their current response well what
+从他们目前的反应来看
+
+18
+00:01:04,948 --> 00:01:09,609
+can they do they can say here I will
+他们可以做到吗，我可以在这里说
+
+19
+00:01:09,810 --> 00:01:13,509
+instead of going C I would go D they
+而不是去CI会去D他们
+
+20
+00:01:13,709 --> 00:01:15,819
+could say that but that would an impact
+可以这么说，但这会产生影响
+
+21
+00:01:16,019 --> 00:01:18,340
+the outcome at all given that player two
+给那个玩家两个，结果
+
+22
+00:01:18,540 --> 00:01:21,129
+is going down B and so that's not a
+沿着B下降，所以这不是一个
+
+23
+00:01:21,329 --> 00:01:22,778
+profitable deviation wouldn't change
+盈利偏差不会改变
+
+24
+00:01:22,978 --> 00:01:26,340
+their payoff the path to player two and
+他们获得第二名玩家的收益， 
+
+25
+00:01:26,540 --> 00:01:28,899
+the other thing they could do is say I'm
+他们可以做的另一件事是说我
+
+26
+00:01:29,099 --> 00:01:32,709
+going to go down this this way but that
+这样下去，但是那
+
+27
+00:01:32,909 --> 00:01:34,390
+would in fact worsen their payoff
+实际上会恶化他们的收益
+
+28
+00:01:34,590 --> 00:01:36,549
+because they would end up here with a
+因为他们最终会在这里
+
+29
+00:01:36,750 --> 00:01:38,378
+payoff of zero rather than the Pfizer
+零回报而不是辉瑞
+
+30
+00:01:38,578 --> 00:01:41,168
+getting so player 2 cannot profitably
+让玩家2无法获利
+
+31
+00:01:41,368 --> 00:01:44,619
+deviate from their current strategy what
+偏离他们目前的策略是什么
+
+32
+00:01:44,819 --> 00:01:48,698
+apply what about player player one can
+适用于玩家玩家可以做什么
+
+33
+00:01:48,899 --> 00:01:51,579
+they profitably deviate well what could
+他们有利可图地偏离了什么
+
+34
+00:01:51,780 --> 00:01:54,459
+they do they could say okay rather than
+他们会说可以，而不是说
+
+35
+00:01:54,659 --> 00:01:59,198
+go B I'll go a but then they will get a
+去B我会去a但然后他们会得到a 
+
+36
+00:01:59,399 --> 00:02:01,179
+payoff of three rather than the Pfizer
+三分而不是辉瑞的回报
+
+37
+00:02:01,379 --> 00:02:03,909
+getting that not profitable and they
+得到不赚钱，他们
+
+38
+00:02:04,109 --> 00:02:07,569
+could also say I'm going to go down G
+还可以说我要去G 
+
+39
+00:02:07,769 --> 00:02:08,910
+over here
+在这里
+
+40
+00:02:09,110 --> 00:02:11,880
+but given that player 2 is going down e
+但鉴于玩家2的失败率e 
+
+41
+00:02:12,080 --> 00:02:14,460
+that wouldn't matter though in any case
+无论如何都没关系
+
+42
+00:02:14,659 --> 00:02:17,730
+end up in this this outcome of the path
+最终在这条路的这个结局中
+
+43
+00:02:17,930 --> 00:02:20,219
+of 5 and so that's not profitable
+的5，所以没有利润
+
+44
+00:02:20,419 --> 00:02:23,100
+deviation either so neither player has a
+要么偏差，要么没有球员有
+
+45
+00:02:23,300 --> 00:02:24,900
+profitable deviation then by definition
+然后根据定义获利偏差
+
+46
+00:02:25,099 --> 00:02:28,920
+it's a Nash equilibrium but there's
+这是纳什均衡，但有
+
+47
+00:02:29,120 --> 00:02:31,560
+something a little disturbing about this
+对此有些困扰
+
+48
+00:02:31,759 --> 00:02:34,320
+equilibrium let's clear the slides it's
+平衡让我们清除幻灯片
+
+49
+00:02:34,520 --> 00:02:36,840
+a little less messy and let's again
+少一点混乱，让我们再次
+
+50
+00:02:37,039 --> 00:02:39,570
+write down the strategy for player 1
+写下玩家1的策略
+
+51
+00:02:39,770 --> 00:02:44,910
+going be H and let's focus on Indy on
+成为H，让我们专注于Indy 
+
+52
+00:02:45,110 --> 00:02:46,759
+this node right there
+这个节点就在那里
+
+53
+00:02:46,959 --> 00:02:53,730
+why would player 1 actually do H because
+为什么玩家1实际上会做H，因为
+
+54
+00:02:53,930 --> 00:02:56,610
+G dominated the G they get a pair of 2
+ G统治了G他们得到了一对2 
+
+55
+00:02:56,810 --> 00:03:00,660
+rather than 1 and so even though it did
+而不是1，所以即使它确实
+
+56
+00:03:00,860 --> 00:03:01,830
+lead to a Nash equilibrium there's
+导致纳什均衡
+
+57
+00:03:02,030 --> 00:03:04,350
+something a little troubling about it
+有点困扰
+
+58
+00:03:04,550 --> 00:03:08,550
+and the way to understand it is by
+而了解它的方法是
+
+59
+00:03:08,750 --> 00:03:11,969
+claiming that they would go down H here
+声称他们会在这里H下
+
+60
+00:03:12,169 --> 00:03:14,580
+play 1 is threatening player 2 and
+第一局威胁第二局玩家， 
+
+61
+00:03:14,780 --> 00:03:17,130
+telling him listen do not consider going
+告诉他听着不要考虑去
+
+62
+00:03:17,330 --> 00:03:18,689
+down here because I'm going to go down
+在这里，因为我要下去
+
+63
+00:03:18,889 --> 00:03:21,390
+here therefore and you would get a zero
+因此，在这里您将得到零
+
+64
+00:03:21,590 --> 00:03:23,580
+so you'd better go here and get a 5 is
+所以你最好去这里得到5分
+
+65
+00:03:23,780 --> 00:03:26,340
+what player 1 saying is saying to player
+玩家1对玩家说的是什么
+
+66
+00:03:26,539 --> 00:03:29,330
+2 but this is stretch is not credible
+ 2，但是这是不可靠的
+
+67
+00:03:29,530 --> 00:03:33,680
+because after all player 2 said
+因为毕竟玩家2说
+
+68
+00:03:33,879 --> 00:03:37,500
+player 1 says that but in fact it would
+玩家1说，但实际上
+
+69
+00:03:37,699 --> 00:03:39,270
+not be in their interests I believe that
+我相信不符合他们的利益
+
+70
+00:03:39,469 --> 00:03:41,840
+player 1 actually would go down here and
+玩家1实际上会在这里下场
+
+71
+00:03:42,039 --> 00:03:45,480
+so how do we capture this in a formal
+那么我们如何在正式形式中
+
+72
+00:03:45,680 --> 00:03:47,430
+definition that brings us to the notion
+将我们带入概念的定义
+
+73
+00:03:47,629 --> 00:03:50,280
+of sub game perfect equilibria or sub
+子游戏完美均衡或子
+
+74
+00:03:50,479 --> 00:03:53,069
+game perfection so let's first define
+游戏完美，让我们先定义一下
+
+75
+00:03:53,269 --> 00:03:55,950
+the sub game it's a very obvious notion
+子游戏是一个非常明显的概念
+
+76
+00:03:56,150 --> 00:04:00,600
+a looking at some node in the game node
+看游戏节点中的某个节点
+
+77
+00:04:00,800 --> 00:04:03,810
+H the sub game of G rooted at H is a
+ H植根于H的G的子游戏是
+
+78
+00:04:04,009 --> 00:04:06,660
+restricted restriction of H to this to
+ H对此的限制
+
+79
+00:04:06,860 --> 00:04:10,620
+the descendants from from that from that
+从那个的后代
+
+80
+00:04:10,819 --> 00:04:15,840
+node and similarly what are the set of
+节点，类似的是什么
+
+81
+00:04:16,040 --> 00:04:18,060
+all sub games of G well look at all the
+ G的所有子游戏都很好看
+
+82
+00:04:18,259 --> 00:04:20,449
+nodes in G
+ G中的节点
+
+83
+00:04:20,649 --> 00:04:26,389
+the set of all sub games is simply all
+所有子游戏的集合就是全部
+
+84
+00:04:26,589 --> 00:04:28,939
+the sub game routine at some node in G
+ G中某个节点的子游戏例程
+
+85
+00:04:29,139 --> 00:04:36,680
+and so a national Librium is a sub game
+因此，国家图书馆是一个子游戏
+
+86
+00:04:36,879 --> 00:04:41,600
+perfect if it's restriction to every sub
+如果对每个子项都有限制，则完美
+
+87
+00:04:41,800 --> 00:04:43,790
+game is also a Nash equilibrium for that
+博弈也是那什纳什均衡
+
+88
+00:04:43,990 --> 00:04:48,230
+that sub game so if for example we go to
+该子游戏，例如，如果我们去
+
+89
+00:04:48,430 --> 00:04:51,079
+the previous slide and we consider again
+上一张幻灯片，我们再次考虑
+
+90
+00:04:51,279 --> 00:04:54,139
+clearing the slide for a second and if
+清除幻灯片一秒钟，如果
+
+91
+00:04:54,339 --> 00:05:00,230
+we look at the national erbium b h c e
+我们看一下国家b 
+
+92
+00:05:00,430 --> 00:05:04,040
+and we decide to Nash equilibrium but
+然后我们决定达到纳什均衡
+
+93
+00:05:04,240 --> 00:05:07,699
+among the sub games of this game the
+在这个游戏的子游戏中
+
+94
+00:05:07,899 --> 00:05:11,360
+subtrees of this tree of this tree is
+这棵树的这棵树的子树是
+
+95
+00:05:11,560 --> 00:05:13,939
+this sub tree so here's a sub game it's
+这个子树，所以这是一个子游戏
+
+96
+00:05:14,139 --> 00:05:15,968
+a game of a single player player 1 and
+单人游戏1和
+
+97
+00:05:16,168 --> 00:05:19,819
+the restriction of this Nash equilibrium
+纳什均衡的限制
+
+98
+00:05:20,019 --> 00:05:23,778
+is simply that's action of going H but
+简直就是走H的动作， 
+
+99
+00:05:23,978 --> 00:05:25,999
+this is not an equilibrium in this very
+这不是一个平衡
+
+100
+00:05:26,199 --> 00:05:28,730
+simple tree because there's a profitable
+简单的树，因为有一个有利可图的
+
+101
+00:05:28,930 --> 00:05:32,449
+deviation to G for the player and so
+玩家的G偏差等等
+
+102
+00:05:32,649 --> 00:05:34,218
+while the to Nashville above the whole
+而到纳什维尔最重要的是
+
+103
+00:05:34,418 --> 00:05:38,749
+tree is restriction to the sub tree here
+树是对子树的限制
+
+104
+00:05:38,949 --> 00:05:40,249
+is not a Nash equilibrium
+不是纳什均衡
+
+105
+00:05:40,449 --> 00:05:42,350
+and therefore this Nash equilibrium is
+因此，纳什均衡是
+
+106
+00:05:42,550 --> 00:05:52,550
+not a sub game perfect and so so we see
+不是完美的子游戏，所以我们看到了
+
+107
+00:05:52,750 --> 00:05:54,588
+that in fact that captures the intuition
+实际上捕捉到了直觉
+
+108
+00:05:54,788 --> 00:05:58,310
+of non-credible threat and notice also
+不可信任的威胁，并且还应注意
+
+109
+00:05:58,509 --> 00:06:01,550
+that one special case of the sub tree is
+子树的一种特殊情况是
+
+110
+00:06:01,750 --> 00:06:04,629
+the entire tree so sub game perfect
+整棵树，所以子游戏完美
+
+111
+00:06:04,829 --> 00:06:06,680
+equilibrium has got to also be a
+平衡也必须是
+
+112
+00:06:06,879 --> 00:06:12,290
+national ribbon so let's test our
+国家功能区，所以让我们测试一下
+
+113
+00:06:12,490 --> 00:06:13,730
+understanding of this concept a little
+对这个概念有一点了解
+
+114
+00:06:13,930 --> 00:06:16,040
+bit let's look at this tree and ask
+让我们看看这棵树，问一下
+
+115
+00:06:16,240 --> 00:06:19,040
+ourselves what are some of the sub game
+我们自己是什么子游戏
+
+116
+00:06:19,240 --> 00:06:21,920
+perfect equilibria there for example how
+那里有完美的平衡
+
+117
+00:06:22,120 --> 00:06:28,550
+about a g CF well the claim is this in
+关于ag CF的说法是
+
+118
+00:06:28,750 --> 00:06:31,670
+fact is sub being perfect now why is
+现在事实是完美的，为什么是
+
+119
+00:06:31,870 --> 00:06:34,399
+that what is a
+那是什么
+
+120
+00:06:34,598 --> 00:06:44,899
+G C and F so that gives you this outcome
+ GC和F，以便为您提供这种结果
+
+121
+00:06:45,098 --> 00:06:48,709
+over here and you can check there's no
+在这里，你可以检查没有
+
+122
+00:06:48,908 --> 00:06:51,019
+profitable deviation but you can also
+有利可图的偏差，但您也可以
+
+123
+00:06:51,218 --> 00:06:53,778
+ask in all the sub games is there
+在所有子游戏中询问
+
+124
+00:06:53,978 --> 00:06:56,718
+profitable deviation well let's look at
+有利可图的偏差让我们来看一下
+
+125
+00:06:56,918 --> 00:06:59,209
+some of the sub games well for example
+例如一些子游戏
+
+126
+00:06:59,408 --> 00:07:05,600
+here there is a the stevie ation over
+这里有一个方向
+
+127
+00:07:05,800 --> 00:07:07,579
+here but that would not be profitable
+在这里，但那不会有利可图
+
+128
+00:07:07,778 --> 00:07:09,230
+for pair two because they would go down
+对于第二对，因为他们会下去
+
+129
+00:07:09,430 --> 00:07:16,809
+from eight to three now but over here is
+现在是八点到三点
+
+130
+00:07:17,009 --> 00:07:19,699
+their profitable deviation for example
+例如他们的利润偏差
+
+131
+00:07:19,899 --> 00:07:25,459
+two player two not really because if
+两个玩家两个不是真的，因为
+
+132
+00:07:25,658 --> 00:07:27,319
+they deviate it over here they would end
+他们在这里偏离它会结束
+
+133
+00:07:27,519 --> 00:07:29,028
+up with a five random the ten they're
+用五个随机数十个
+
+134
+00:07:29,228 --> 00:07:33,978
+getting how about over here is their
+他们在这里过得如何
+
+135
+00:07:34,178 --> 00:07:36,528
+profitable deviation and this note to
+有利可图的偏差和此注释
+
+136
+00:07:36,728 --> 00:07:39,468
+the agent one well no because if they
+该代理人很好，因为他们
+
+137
+00:07:39,668 --> 00:07:41,929
+deviate they would get one rather than
+偏离他们会得到一个而不是
+
+138
+00:07:42,129 --> 00:07:46,399
+two so in all sub games the restriction
+在所有子游戏中有两个限制
+
+139
+00:07:46,598 --> 00:07:49,429
+of the strategy profile to that sub game
+该子游戏的策略配置文件
+
+140
+00:07:49,629 --> 00:07:54,709
+is still a Nash equilibrium and a GCF is
+仍然是纳什均衡，GCF是
+
+141
+00:07:54,908 --> 00:07:56,269
+in fact a sub game perfect Nash
+实际上是一个完美的纳什子游戏
+
+142
+00:07:56,468 --> 00:08:03,439
+equilibrium how about bhce well the
+平衡怎么样？ 
+
+143
+00:08:03,639 --> 00:08:06,949
+claim is that it's not well let's first
+声称这不是很好，让我们先
+
+144
+00:08:07,149 --> 00:08:13,309
+write down the strategy bh b h and c e
+写下策略bh bh和ce 
+
+145
+00:08:13,509 --> 00:08:17,329
+and this is not sub game perfect for the
+这不是子游戏的完美选择
+
+146
+00:08:17,528 --> 00:08:21,160
+reasons we saw before we saw that in
+我们看到之前的原因
+
+147
+00:08:21,360 --> 00:08:26,540
+this sub game right here there is a
+这个子游戏在这里有一个
+
+148
+00:08:26,740 --> 00:08:28,480
+profitable deviation for player one
+玩家一的盈利偏差
+
+149
+00:08:28,680 --> 00:08:31,609
+namely to deviate over here and get to
+即偏离这里并到达
+
+150
+00:08:31,809 --> 00:08:34,549
+rather than one and so it's not that
+而不是一个，所以不是那个
+
+151
+00:08:34,750 --> 00:08:37,639
+being perfect and in fact for the same
+是完美的，实际上是一样的
+
+152
+00:08:37,839 --> 00:08:42,618
+reason a HCF will not be sub game
+ HCF不会成为子游戏的原因
+
+153
+00:08:42,818 --> 00:08:46,429
+perfect let's write down what a h CF is
+完美，让我们写下什么是CF 
+
+154
+00:08:46,629 --> 00:08:53,779
+a h CF you can check that it's a Nash
+啊CF你可以检查一下那是纳什
+
+155
+00:08:53,980 --> 00:08:59,120
+equilibrium but it is a nut sub game
+平衡，但这是一个疯狂的子博弈
+
+156
+00:08:59,320 --> 00:09:05,289
+perfect again this sub game here is
+再次完美，这里的子游戏是
+
+157
+00:09:05,490 --> 00:09:07,699
+allows for profitable deviation on the
+允许在
+
+158
+00:09:07,899 --> 00:09:10,909
+part of the player one so even though
+即使是玩家的一部分
+
+159
+00:09:11,110 --> 00:09:13,219
+it's what's called off path even though
+这就是所谓的偏路
+
+160
+00:09:13,419 --> 00:09:16,009
+player 1 makes sure that him that he
+玩家1确保他
+
+161
+00:09:16,210 --> 00:09:19,849
+never gets to visit this node by going
+永远不会去访问这个节点
+
+162
+00:09:20,049 --> 00:09:22,729
+down here even so it's not like perfect
+即使在这里也不是很完美
+
+163
+00:09:22,929 --> 00:09:26,689
+because had he gotten here he would not
+因为他到了这里他不会
+
+164
+00:09:26,889 --> 00:09:28,129
+have done what he claims he would have
+已经完成了他声称的目标
+
+165
+00:09:28,330 --> 00:09:33,529
+done and that gives us a good sense for
+完成，这使我们对
+
+166
+00:09:33,730 --> 00:09:34,699
+what is sub game perfect Nash
+什么是子游戏完美纳什
+
+167
+00:09:34,899 --> 00:09:39,899
+equilibrium is
+平衡是
+

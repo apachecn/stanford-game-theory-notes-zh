@@ -1,0 +1,435 @@
+﻿1
+00:00:00,060 --> 00:00:02,228
+in this video we're going to look at
+在这个视频中，我们将要看
+
+2
+00:00:02,428 --> 00:00:04,929
+some additional solution concepts other
+其他一些解决方案概念
+
+3
+00:00:05,129 --> 00:00:07,149
+than the Nash equilibrium so these are
+比纳什均衡，所以这些是
+
+4
+00:00:07,349 --> 00:00:10,120
+different ways of talking about which
+不同的谈论方式
+
+5
+00:00:10,320 --> 00:00:12,189
+outcomes of a game make sense from a
+游戏的结果从
+
+6
+00:00:12,388 --> 00:00:16,539
+game theoretic perspective first of all
+博弈论的观点
+
+7
+00:00:16,739 --> 00:00:18,400
+I want to talk about a solution concept
+我想谈一谈解决方案的概念
+
+8
+00:00:18,600 --> 00:00:20,739
+called iterated removal of dominated
+称为反复删除主导
+
+9
+00:00:20,939 --> 00:00:24,249
+strategies and I want to illustrate this
+策略，我想说明一下
+
+10
+00:00:24,449 --> 00:00:27,190
+by the example of grace shown in this
+以这个例子中的恩典为例
+
+11
+00:00:27,390 --> 00:00:30,280
+picture here who decided to jump out of
+决定跳出图片的人
+
+12
+00:00:30,480 --> 00:00:33,239
+a plane to celebrate her 91st birthday
+一架庆祝她91岁生日的飞机
+
+13
+00:00:33,439 --> 00:00:36,189
+so I want to think about a game between
+所以我想考虑一下
+
+14
+00:00:36,390 --> 00:00:39,159
+Grace and the guy that she chose to
+格蕾丝和她选择的那个人
+
+15
+00:00:39,359 --> 00:00:41,858
+strap herself to who you can also see in
+把自己绑在你也可以看到的人身上
+
+16
+00:00:42,058 --> 00:00:45,669
+the picture and in particular I want to
+图片，尤其是我想
+
+17
+00:00:45,869 --> 00:00:47,829
+think about his decision of whether to
+考虑他的决定是否
+
+18
+00:00:48,030 --> 00:00:51,338
+pack the parachute safely or not and her
+降落伞是否安全打包，她
+
+19
+00:00:51,539 --> 00:00:54,909
+decision about whether to jump out of
+关于是否跳出的决定
+
+20
+00:00:55,109 --> 00:00:58,628
+the plane or not now in principle she
+原则上她现在还是不在飞机上
+
+21
+00:00:58,829 --> 00:01:01,268
+might worry that he would choose not to
+可能会担心他会选择不
+
+22
+00:01:01,469 --> 00:01:03,489
+pack the parachute safely and she would
+安全地打包降落伞，她会
+
+23
+00:01:03,689 --> 00:01:05,560
+choose to jump out of the plane and if
+选择跳出飞机，如果
+
+24
+00:01:05,760 --> 00:01:07,659
+that were to happen then she would never
+那将要发生，那么她将永远不会
+
+25
+00:01:07,859 --> 00:01:10,750
+get to celebrate her 92nd birthday but
+庆祝她的92岁生日， 
+
+26
+00:01:10,950 --> 00:01:13,980
+you can see in fact she did choose and
+你可以看到事实上她确实选择了
+
+27
+00:01:14,180 --> 00:01:16,750
+indeed she landed safely and her choice
+的确，她安全着陆并且选择
+
+28
+00:01:16,950 --> 00:01:17,558
+was a good one
+是一个好人
+
+29
+00:01:17,759 --> 00:01:19,539
+so how was she able to reason that this
+所以她怎么能推理出
+
+30
+00:01:19,739 --> 00:01:22,000
+was sensible well if she looked at the
+如果她看着
+
+31
+00:01:22,200 --> 00:01:23,859
+payoffs of the game she would see that
+游戏的收益，她会看到
+
+32
+00:01:24,060 --> 00:01:27,269
+that this guy let's call him Bruce
+这个家伙叫他布鲁斯
+
+33
+00:01:27,469 --> 00:01:30,250
+Bruce's action of not packing the
+布鲁斯不包装行李箱的行为
+
+34
+00:01:30,450 --> 00:01:32,950
+parachute safely was very bad not only
+安全降落伞不仅非常糟糕
+
+35
+00:01:33,150 --> 00:01:35,649
+for grace but also for himself in fact
+为了恩典，也为了自己
+
+36
+00:01:35,849 --> 00:01:39,549
+it was a dominated strategy and knowing
+这是一个主导的策略，并且知道
+
+37
+00:01:39,750 --> 00:01:42,789
+that he's rational grace reasoned that
+他的理性宽限理由
+
+38
+00:01:42,989 --> 00:01:44,948
+he would never play a dominated strategy
+他永远不会扮演主导策略
+
+39
+00:01:45,149 --> 00:01:47,709
+and so she was able to change the game
+这样她就能改变比赛
+
+40
+00:01:47,909 --> 00:01:49,959
+by removing this dominated strategy and
+通过删除这一主导策略， 
+
+41
+00:01:50,159 --> 00:01:53,230
+instead to reason that she only had to
+而是说她只需要
+
+42
+00:01:53,430 --> 00:01:55,329
+care about the remainder of the game in
+在乎游戏的其余部分
+
+43
+00:01:55,530 --> 00:01:57,189
+which his dominated strategies didn't
+他的主导策略没有
+
+44
+00:01:57,390 --> 00:01:59,980
+exist this is the idea of iterated
+存在，这是迭代的想法
+
+45
+00:02:00,180 --> 00:02:02,140
+removal of dominated strategies which
+删除主导策略
+
+46
+00:02:02,340 --> 00:02:05,308
+you'll hear about more formally later
+您稍后会听到更多正式消息
+
+47
+00:02:05,509 --> 00:02:07,808
+secondly I'd like to revisit our
+其次，我想回顾一下我们的
+
+48
+00:02:08,008 --> 00:02:11,289
+question of soccer goal kicking and I'd
+踢足球的问题，我会
+
+49
+00:02:11,489 --> 00:02:13,390
+like to ask is it really the
+想问的是真的吗
+
+50
+00:02:13,590 --> 00:02:17,350
+is that when a player prepares to take a
+是当玩家准备接受
+
+51
+00:02:17,550 --> 00:02:19,990
+penalty kick he's really solving for the
+罚球，他真的解决了
+
+52
+00:02:20,189 --> 00:02:21,880
+Nash equilibrium now we did see
+纳什均衡现在我们确实看到了
+
+53
+00:02:22,080 --> 00:02:23,950
+experimental evidence that shows that
+实验证据表明
+
+54
+00:02:24,150 --> 00:02:25,929
+the Nash equilibrium is a pretty good
+纳什均衡是相当不错的
+
+55
+00:02:26,128 --> 00:02:28,270
+description of what actually happens in
+实际发生的情况的描述
+
+56
+00:02:28,469 --> 00:02:30,399
+these situations but is it the case that
+这些情况，但事实是
+
+57
+00:02:30,598 --> 00:02:32,439
+the players are really thinking about
+玩家们真的在考虑
+
+58
+00:02:32,639 --> 00:02:34,630
+the idea of Nash equilibrium that
+纳什均衡的思想
+
+59
+00:02:34,830 --> 00:02:36,849
+doesn't seem right it seems like the
+似乎不正确，好像
+
+60
+00:02:37,049 --> 00:02:38,890
+players are thinking about how best to
+玩家正在考虑如何最好地
+
+61
+00:02:39,090 --> 00:02:41,890
+kick the ball into the goal in order to
+将球踢入球门以
+
+62
+00:02:42,090 --> 00:02:43,899
+hurt the other guy as much as possible
+尽可能伤害另一个人
+
+63
+00:02:44,098 --> 00:02:47,770
+or in order to do as well for themselves
+或者为了自己做得好
+
+64
+00:02:47,969 --> 00:02:50,950
+as possible it turns out that this isn't
+事实证明这不是
+
+65
+00:02:51,150 --> 00:02:53,500
+an accident in the case of zero-sum
+零和的情况下发生事故
+
+66
+00:02:53,699 --> 00:02:56,770
+games these three ideas doing as well
+游戏这三个想法也做得很好
+
+67
+00:02:56,969 --> 00:02:59,170
+for yourself as possible hurting the
+为自己尽可能的伤害
+
+68
+00:02:59,370 --> 00:03:00,879
+other player as much as possible and
+尽可能多的其他玩家
+
+69
+00:03:01,079 --> 00:03:04,060
+being in Nash equilibrium all turn out
+处于纳什均衡状态
+
+70
+00:03:04,259 --> 00:03:08,860
+to coincide finally I want to revisit
+恰好最后我想重温
+
+71
+00:03:09,060 --> 00:03:12,368
+the battle of the sexes and ask is it
+性别之战，问是
+
+72
+00:03:12,568 --> 00:03:14,710
+really the case that as we saw before
+确实如我们之前所见
+
+73
+00:03:14,909 --> 00:03:16,480
+with the Nash equilibria of this game
+这场比赛的纳什均衡
+
+74
+00:03:16,680 --> 00:03:19,509
+were doomed either to an unfair outcome
+注定要么得到不公平的结果
+
+75
+00:03:19,709 --> 00:03:21,219
+where one member of the couple always
+一对夫妻中总是有一个
+
+76
+00:03:21,419 --> 00:03:23,860
+gets their preferred activity or a miss
+得到他们喜欢的活动或错过
+
+77
+00:03:24,060 --> 00:03:27,219
+coordination where sometimes the the two
+有时两者在哪里协调
+
+78
+00:03:27,419 --> 00:03:28,599
+members of the couple end up doing
+这对夫妇的成员最终做
+
+79
+00:03:28,799 --> 00:03:31,330
+different activities it doesn't seem
+似乎没有不同的活动
+
+80
+00:03:31,530 --> 00:03:33,219
+like this is a good model of how people
+像这样是人们如何做的好榜样
+
+81
+00:03:33,419 --> 00:03:35,530
+really do solve disputes like this
+确实确实解决了这样的纠纷
+
+82
+00:03:35,729 --> 00:03:37,750
+between themselves so I want to think
+彼此之间，所以我想
+
+83
+00:03:37,949 --> 00:03:39,490
+about a new solution concept called
+关于一个称为“ 
+
+84
+00:03:39,689 --> 00:03:42,789
+correlated equilibrium in which we don't
+相关均衡，我们不这样做
+
+85
+00:03:42,989 --> 00:03:44,530
+have this problem and were able to
+有这个问题，并能够
+
+86
+00:03:44,729 --> 00:03:46,599
+achieve fairness without miss
+公平无误
+
+87
+00:03:46,799 --> 00:03:51,799
+coordination
+协调
+

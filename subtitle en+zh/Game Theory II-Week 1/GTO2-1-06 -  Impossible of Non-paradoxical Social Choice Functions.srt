@@ -1,0 +1,625 @@
+﻿1
+00:00:00,060 --> 00:00:01,929
+in this lecture we'll speak about social
+在本讲座中，我们将谈论社交
+
+2
+00:00:02,129 --> 00:00:04,750
+choice functions the most famous
+选择功能最著名
+
+3
+00:00:04,950 --> 00:00:08,229
+impossibility results pertain to social
+不可能结果与社会有关
+
+4
+00:00:08,429 --> 00:00:10,630
+welfare function and in particular the
+福利功能，尤其是
+
+5
+00:00:10,830 --> 00:00:14,140
+arrows impossibility theorem is widely
+箭头不可能定理广泛
+
+6
+00:00:14,339 --> 00:00:17,220
+known and we have discussed that before
+已知，我们之前已经讨论过
+
+7
+00:00:17,420 --> 00:00:22,690
+now it might be thought that the problem
+现在可能会认为问题出在
+
+8
+00:00:22,890 --> 00:00:24,699
+lies in the fact that social welfare
+在于社会福利
+
+9
+00:00:24,899 --> 00:00:27,879
+functions require you to specify as an
+函数需要您指定为
+
+10
+00:00:28,079 --> 00:00:29,949
+output of the process and entire
+过程和整个过程的输出
+
+11
+00:00:30,149 --> 00:00:32,500
+ordering and that might be highly
+订购，这可能是高度
+
+12
+00:00:32,700 --> 00:00:34,299
+constraining but if you only need it to
+约束，但是如果您只需要它
+
+13
+00:00:34,500 --> 00:00:37,570
+pick a winner as does a social choice
+选择优胜者，社会选择也一样
+
+14
+00:00:37,770 --> 00:00:40,469
+function then you would escape these
+功能，那么您将逃脱这些
+
+15
+00:00:40,670 --> 00:00:44,858
+paradoxes it turns out that the answer
+矛盾的是，答案
+
+16
+00:00:45,058 --> 00:00:47,108
+is no but first we need to sort of
+不是，但是首先我们需要
+
+17
+00:00:47,308 --> 00:00:49,178
+redefine our criteria a little bit
+重新定义我们的标准
+
+18
+00:00:49,378 --> 00:00:52,928
+because the notions of Pareto efficiency
+因为帕累托效率的概念
+
+19
+00:00:53,128 --> 00:00:56,259
+and independence of irrelevant
+与无关无关
+
+20
+00:00:56,460 --> 00:00:58,959
+alternatives just aren't well-defined in
+替代品的定义不明确
+
+21
+00:00:59,159 --> 00:01:02,248
+the context of a social choice function
+社会选择功能的背景
+
+22
+00:01:02,448 --> 00:01:04,810
+but we will see that there are closely
+但我们会发现
+
+23
+00:01:05,010 --> 00:01:08,619
+related notions that are well defined so
+定义明确的相关概念
+
+24
+00:01:08,819 --> 00:01:10,988
+let's first define weak Pareto
+首先定义弱帕累托
+
+25
+00:01:11,188 --> 00:01:11,649
+efficiency
+效率
+
+26
+00:01:11,849 --> 00:01:14,230
+and we'll say that a software choice
+我们会说软件选择
+
+27
+00:01:14,430 --> 00:01:18,209
+function C is weakly Pareto efficient if
+函数C弱于帕累托效率
+
+28
+00:01:18,409 --> 00:01:22,799
+essentially it never elects a dominated
+从根本上说，它从不选举一个被统治者
+
+29
+00:01:23,000 --> 00:01:31,649
+outcome or candidate so if there is a a
+结果或候选人，如果有的话
+
+30
+00:01:31,849 --> 00:01:35,738
+candidate o - such that there is some
+候选o-这样有一些
+
+31
+00:01:35,938 --> 00:01:38,918
+other candidate or one that is always
+其他候选人或永远是
+
+32
+00:01:39,118 --> 00:01:42,128
+preferred to Oh - by every by every
+喜欢哦-每个人一个
+
+33
+00:01:42,328 --> 00:01:45,250
+voter then the weaker candidate Oh -
+选民再弱者候选人哦- 
+
+34
+00:01:45,450 --> 00:01:47,439
+would never be elected seems like a
+永远不会当选似乎
+
+35
+00:01:47,640 --> 00:01:49,448
+reasonable criterion and we'll call that
+合理的标准，我们称之为
+
+36
+00:01:49,649 --> 00:01:55,859
+weak Pareto efficiency in place of
+帕累托效率低下
+
+37
+00:01:56,060 --> 00:01:57,939
+independent of irrelevant alternative
+独立于无关的选择
+
+38
+00:01:58,140 --> 00:01:59,859
+the alternative will have the notion of
+替代方案将具有
+
+39
+00:02:00,060 --> 00:02:03,340
+monotonicity and informally as I written
+单调性和我写的非正式
+
+40
+00:02:03,540 --> 00:02:06,849
+here at the at the bottom it says that
+在底部的底部说
+
+41
+00:02:07,049 --> 00:02:12,160
+if you have a winner if we increase the
+如果您有赢家，如果我们增加
+
+42
+00:02:12,360 --> 00:02:12,939
+support
+支持
+
+43
+00:02:13,139 --> 00:02:16,540
+for that candidate they would still
+对于那个候选人，他们仍然会
+
+44
+00:02:16,740 --> 00:02:19,830
+remain a winner so formally speaking
+如此正式地保持赢家
+
+45
+00:02:20,030 --> 00:02:22,870
+will say that the subject response is
+会说主题回应是
+
+46
+00:02:23,069 --> 00:02:27,700
+monotonic if we if we take any candidate
+如果我们接受任何候选人，则单调
+
+47
+00:02:27,900 --> 00:02:32,439
+oh and an infestation for any preference
+哦，还有什么偏爱
+
+48
+00:02:32,639 --> 00:02:33,219
+profile
+轮廓
+
+49
+00:02:33,419 --> 00:02:37,210
+this one over here if under this
+如果在这个下面
+
+50
+00:02:37,409 --> 00:02:41,830
+preference profile always selected then
+然后总是选择首选项配置文件
+
+51
+00:02:42,030 --> 00:02:44,080
+if we look at any other preference
+如果我们看看其他任何偏好
+
+52
+00:02:44,280 --> 00:02:48,040
+profile if it has the property that for
+配置文件，如果它具有
+
+53
+00:02:48,240 --> 00:02:51,310
+every agent and every other outcome Oh
+每一个特工和每一个其他的结果哦
+
+54
+00:02:51,509 --> 00:02:56,860
+prime if under the original preference
+如果在原始偏好下为素数
+
+55
+00:02:57,060 --> 00:03:00,730
+Oh was preferred to O prime which is
+哦比O素好
+
+56
+00:03:00,930 --> 00:03:05,320
+also under the new preference so one the
+在新的偏好下，所以一个
+
+57
+00:03:05,520 --> 00:03:08,259
+that original winner Oh never lost
+原来的赢家哦，永不丢失
+
+58
+00:03:08,459 --> 00:03:11,050
+support maybe only gained support then
+支持可能只是获得支持
+
+59
+00:03:11,250 --> 00:03:12,789
+under those condition it better be the
+在这种情况下，最好是
+
+60
+00:03:12,989 --> 00:03:15,039
+case that on the new preference order in
+在新的优先顺序上的情况
+
+61
+00:03:15,239 --> 00:03:18,490
+which Oh only got more support it would
+哦，只会得到更多的支持
+
+62
+00:03:18,689 --> 00:03:21,150
+still be the so for choice the winner
+仍然是获胜者的选择
+
+63
+00:03:21,349 --> 00:03:26,060
+again a reasonable property to require
+再次需要合理的财产
+
+64
+00:03:27,799 --> 00:03:30,689
+the last notion of dictatorship are
+独裁的最后一个概念是
+
+65
+00:03:30,889 --> 00:03:34,060
+similar to what you see in social
+类似于您在社交中看到的
+
+66
+00:03:34,259 --> 00:03:36,099
+welfare simply says that C is
+福利只是说C是
+
+67
+00:03:36,299 --> 00:03:39,520
+dictatorial if there's some agents whose
+是否有一些代理人
+
+68
+00:03:39,719 --> 00:03:43,439
+top choice is always the social choice
+最高的选择永远是社会的选择
+
+69
+00:03:43,639 --> 00:03:45,759
+this is the bad news
+这是个坏消息
+
+70
+00:03:45,959 --> 00:03:49,390
+the molar status weight theorem tells us
+摩尔状态权重定理告诉我们
+
+71
+00:03:49,590 --> 00:03:53,590
+that we can't have all three so if a
+我们不能同时拥有这三个，所以如果一个
+
+72
+00:03:53,789 --> 00:03:54,939
+social choice function is Pareto
+社会选择功能是帕累托
+
+73
+00:03:55,139 --> 00:03:57,430
+efficient and monotonic it must be
+高效且单调的
+
+74
+00:03:57,629 --> 00:04:02,590
+dictatorial and so after all social
+独裁的，所以毕竟是社会的
+
+75
+00:04:02,789 --> 00:04:05,230
+choice functions aren't more benign the
+选择功能不是更好
+
+76
+00:04:05,430 --> 00:04:09,599
+social welfare function and we won't go
+社会福利功能，我们不会去
+
+77
+00:04:09,799 --> 00:04:12,849
+through the proof but the intuition is
+通过证明，但直觉是
+
+78
+00:04:13,049 --> 00:04:18,718
+that in order to determine the relative
+为了确定相对
+
+79
+00:04:18,918 --> 00:04:21,218
+ordering among candidates we need to
+我们需要在候选人中排序
+
+80
+00:04:21,418 --> 00:04:25,310
+sort of probe it everywhere and
+到处都有探测
+
+81
+00:04:26,699 --> 00:04:30,430
+and if we probe it enough we'll get the
+如果我们对其进行足够的研究，我们将获得
+
+82
+00:04:30,629 --> 00:04:32,139
+entire social social welfare function
+整个社会的社会福利职能
+
+83
+00:04:32,339 --> 00:04:38,139
+and since the since the function social
+自从功能社会以来
+
+84
+00:04:38,339 --> 00:04:40,180
+choice function must be defined for all
+必须为所有定义选择功能
+
+85
+00:04:40,379 --> 00:04:43,420
+inputs as we vary the inputs we can find
+输入，因为我们改变了我们可以找到的输入
+
+86
+00:04:43,620 --> 00:04:46,449
+the total software for ordering so in
+订购总软件
+
+87
+00:04:46,649 --> 00:04:48,910
+fact or we can use a social choice
+事实，或者我们可以使用社会选择
+
+88
+00:04:49,110 --> 00:04:52,300
+function to recover the social welfare
+恢复社会福利的功能
+
+89
+00:04:52,500 --> 00:04:54,879
+fact that the intuition behind the proof
+事实上，证明背后的直觉
+
+90
+00:04:55,079 --> 00:05:01,569
+and why social drug functions are as may
+以及为什么社会毒品功能如此
+
+91
+00:05:01,769 --> 00:05:05,770
+be counterintuitive or complicated and
+违反直觉或复杂
+
+92
+00:05:05,970 --> 00:05:09,520
+social welfare functions now just two
+社会福利职能现在只有两个
+
+93
+00:05:09,720 --> 00:05:13,990
+tests on tuition again let's consider an
+再次进行学费测试让我们考虑
+
+94
+00:05:14,189 --> 00:05:16,449
+example and let's take for allottee
+例子，让我们来分配
+
+95
+00:05:16,649 --> 00:05:20,280
+which perhaps on the face of it might
+也许从表面上看
+
+96
+00:05:20,480 --> 00:05:23,050
+contradict the malar shadows weight
+与黄斑阴影的重量矛盾
+
+97
+00:05:23,250 --> 00:05:26,860
+theorem clearly poor allottee is Pareto
+定理显然是可怜的分配者是帕累托
+
+98
+00:05:27,060 --> 00:05:29,920
+efficient in other words if everybody
+换句话说，如果每个人都有效
+
+99
+00:05:30,120 --> 00:05:32,829
+prefers some candidate to a another
+偏爱某个候选人
+
+100
+00:05:33,029 --> 00:05:34,600
+candidate that other weaker candidate
+那个其他较弱的候选人
+
+101
+00:05:34,800 --> 00:05:36,790
+will never be the choice and it's
+永远不会是选择，这是
+
+102
+00:05:36,990 --> 00:05:40,840
+founded dictatorial obviously so the
+成立专政显然是这样
+
+103
+00:05:41,040 --> 00:05:44,189
+theorem says it cannot be monotonic
+定理说它不能单调
+
+104
+00:05:44,389 --> 00:05:45,879
+intuitive you might think it is
+直观的你可能会认为是
+
+105
+00:05:46,079 --> 00:05:48,990
+monotonic but here's a counter example
+单调的，但这是一个反例
+
+106
+00:05:49,189 --> 00:05:54,939
+so here are these seven agents and there
+所以这是这七个特工
+
+107
+00:05:55,139 --> 00:06:01,150
+are three preference profiles the three
+是三个偏好配置文件，三个
+
+108
+00:06:01,350 --> 00:06:05,490
+of the agent prefer A to B to C etc and
+的代理商更喜欢A而不是B而不是C等，并且
+
+109
+00:06:05,689 --> 00:06:09,009
+clearly then a would be the winner under
+显然，那么a将是下一个赢家
+
+110
+00:06:09,209 --> 00:06:12,220
+poor ality because three agents would
+差劲，因为三个特工会
+
+111
+00:06:12,420 --> 00:06:17,350
+vote for a now what happens if we go and
+现在投票，如果我们去
+
+112
+00:06:17,550 --> 00:06:26,370
+we modify this we modify this preference
+我们修改此，我们修改此首选项
+
+113
+00:06:26,569 --> 00:06:31,329
+to this preference we simply make a
+为此，我们只需
+
+114
+00:06:31,529 --> 00:06:35,740
+situation bitter C was preferred to a
+情况C比C偏爱
+
+115
+00:06:35,939 --> 00:06:37,840
+originally and now a is preferred to C
+最初，现在A优于C 
+
+116
+00:06:38,040 --> 00:06:39,910
+and all other preferences
+和所有其他偏好
+
+117
+00:06:40,110 --> 00:06:44,110
+to a remain the same so clear surely you
+保持不变，所以请确保您清楚
+
+118
+00:06:44,310 --> 00:06:47,980
+would say a as is doing as well as it
+会说做得很好
+
+119
+00:06:48,180 --> 00:06:50,319
+would have done originally and
+本来可以做到的， 
+
+120
+00:06:50,519 --> 00:06:51,759
+monotonicity would say that your
+单调性表示您
+
+121
+00:06:51,959 --> 00:06:53,410
+children the winner but clearly in this
+孩子赢家，但显然
+
+122
+00:06:53,610 --> 00:06:56,319
+case they're not four agents were voting
+如果他们不是四个特工在投票
+
+123
+00:06:56,519 --> 00:06:59,290
+for B versus only three for a so B would
+对于B来说，只有三个
+
+124
+00:06:59,490 --> 00:07:02,290
+be the winner now so plurality is not
+现在成为赢家，所以不是多元化
+
+125
+00:07:02,490 --> 00:07:07,490
+monotonic
+单调的
+

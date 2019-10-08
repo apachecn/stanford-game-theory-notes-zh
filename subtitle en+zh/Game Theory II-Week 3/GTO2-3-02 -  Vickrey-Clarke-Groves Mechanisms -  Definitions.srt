@@ -1,0 +1,2135 @@
+﻿1
+00:00:00,000 --> 00:00:03,129
+hi folks so this is Matt again and we
+大家好，再次是Matt，我们
+
+2
+00:00:03,330 --> 00:00:04,719
+are now going to talk about Vickrey
+现在要谈论维克瑞
+
+3
+00:00:04,919 --> 00:00:09,310
+Clark groves mechanisms or VCG
+克拉克格罗夫机制或VCG 
+
+4
+00:00:09,509 --> 00:00:13,089
+mechanisms and these have become one of
+机制，这些已成为其中的一种
+
+5
+00:00:13,289 --> 00:00:15,999
+the most well studied set of mechanisms
+研究最深入的机制
+
+6
+00:00:16,199 --> 00:00:18,579
+in game theory and with good reason they
+在博弈论中，并且有充分的理由，他们
+
+7
+00:00:18,778 --> 00:00:20,800
+have wonderful properties some very
+有一些非常好的特性
+
+8
+00:00:21,000 --> 00:00:23,079
+interesting properties and let's talk a
+有趣的属性，让我们来谈谈
+
+9
+00:00:23,278 --> 00:00:24,999
+little bit about the kinds of positive
+关于积极的一点点
+
+10
+00:00:25,199 --> 00:00:26,470
+results will get now out of these
+结果将从这些中得到
+
+11
+00:00:26,670 --> 00:00:28,120
+mechanisms before we go into the
+在我们进入
+
+12
+00:00:28,320 --> 00:00:30,489
+detailed definitions and so forth so
+详细定义等等
+
+13
+00:00:30,689 --> 00:00:33,009
+we're going to work in a quasi linear
+我们将以准线性方式工作
+
+14
+00:00:33,210 --> 00:00:35,799
+setting and we're going to work here
+设置，我们将在这里工作
+
+15
+00:00:36,000 --> 00:00:38,349
+remember now we have look at direct
+记得现在我们看看直接
+
+16
+00:00:38,549 --> 00:00:41,108
+mechanisms where you society will have a
+你的社会将有一个机制
+
+17
+00:00:41,308 --> 00:00:43,509
+choice rule and the payment rule based
+选择规则和付款规则
+
+18
+00:00:43,710 --> 00:00:46,750
+on what preferences people report to the
+人们向哪些方面报告
+
+19
+00:00:46,950 --> 00:00:49,570
+mechanism and the nice thing about VCG
+机制和VCG的好处
+
+20
+00:00:49,770 --> 00:00:50,919
+mechanisms Vickery Clark groves
+机制维克·克拉克树林
+
+21
+00:00:51,119 --> 00:00:53,378
+mechanisms is that they will have truth
+机制是，他们将拥有真理
+
+22
+00:00:53,579 --> 00:00:55,989
+as a dominant strategy so people won't
+作为主要策略，因此人们不会
+
+23
+00:00:56,189 --> 00:00:56,890
+have to worry about what other
+还要担心其他
+
+24
+00:00:57,090 --> 00:00:59,498
+individuals are doing regardless of what
+个人在做什么，不管
+
+25
+00:00:59,698 --> 00:01:01,809
+their preferences are the best thing
+他们的喜好是最好的
+
+26
+00:01:02,009 --> 00:01:03,369
+they can do in terms of maximizing your
+他们可以做到最大程度地
+
+27
+00:01:03,570 --> 00:01:06,129
+utility is to tell the truth and this
+实用是说实话
+
+28
+00:01:06,329 --> 00:01:08,168
+mechanism is also going to choose
+机制也要选择
+
+29
+00:01:08,368 --> 00:01:11,980
+efficient axis so choices here mean the
+有效轴，因此这里的选择意味着
+
+30
+00:01:12,180 --> 00:01:13,929
+one we choose when we think about which
+当我们考虑哪个时，我们选择一个
+
+31
+00:01:14,129 --> 00:01:17,289
+x and x maximizes the overall total sum
+ x和x使总和最大化
+
+32
+00:01:17,489 --> 00:01:19,689
+of utilities in a society it's going to
+社会中的公用事业
+
+33
+00:01:19,890 --> 00:01:22,028
+pick those so it's not that it might not
+选择那些，所以不是不是
+
+34
+00:01:22,228 --> 00:01:24,189
+be efficient in terms of making all the
+在使所有
+
+35
+00:01:24,390 --> 00:01:26,289
+payments balanced but it's going to make
+付款平衡，但这将使
+
+36
+00:01:26,489 --> 00:01:28,750
+efficient choices okay now these
+高效的选择，现在这些
+
+37
+00:01:28,950 --> 00:01:31,179
+mechanisms in terms of the history of
+机制的历史
+
+38
+00:01:31,379 --> 00:01:33,668
+this victory was the first to define
+这场胜利是第一个定义
+
+39
+00:01:33,868 --> 00:01:35,558
+these in an auction setting so this is
+这些是在拍卖设置中，所以这是
+
+40
+00:01:35,759 --> 00:01:37,778
+going to have a close relationship to
+将会与
+
+41
+00:01:37,978 --> 00:01:39,429
+second price auctions and basically
+第二价格拍卖，基本上
+
+42
+00:01:39,629 --> 00:01:41,349
+generalizes second price auctions to a
+将第二次价格拍卖概括为
+
+43
+00:01:41,549 --> 00:01:43,808
+more general class of auctions known as
+更一般的拍卖类别称为
+
+44
+00:01:44,009 --> 00:01:45,808
+victory auctions in the auction setting
+拍卖场中的胜利拍卖
+
+45
+00:01:46,009 --> 00:01:51,219
+Clarke then generalized that to a more
+克拉克然后将其推广到更多
+
+46
+00:01:51,420 --> 00:01:54,099
+general set class of settings and
+一般设置类别的设置和
+
+47
+00:01:54,299 --> 00:01:55,929
+defined what was known as the pivotal
+定义了所谓的关键
+
+48
+00:01:56,129 --> 00:01:57,640
+mechanism which is a special class of
+机制是一类特殊的
+
+49
+00:01:57,840 --> 00:01:59,500
+these mechanisms and then groves gave
+这些机制，然后格罗夫给了
+
+50
+00:01:59,700 --> 00:02:01,569
+basically the class of all such
+基本上所有此类
+
+51
+00:02:01,769 --> 00:02:03,819
+mechanisms and and there's some nice
+机制，还有一些不错的
+
+52
+00:02:04,019 --> 00:02:06,069
+properties of a more general class of
+更一般类别的属性
+
+53
+00:02:06,269 --> 00:02:08,759
+these and so we'll look at these in
+这些，所以我们将在
+
+54
+00:02:08,959 --> 00:02:11,219
+in more detail the nice thing is we're
+更详细的是，我们
+
+55
+00:02:11,419 --> 00:02:12,599
+going to dominant strategies and
+采取主导策略， 
+
+56
+00:02:12,799 --> 00:02:15,929
+efficient choices and the quasi
+有效的选择和准
+
+57
+00:02:16,128 --> 00:02:17,849
+linearity is going to be critical here
+线性度在这里至关重要
+
+58
+00:02:18,049 --> 00:02:20,099
+and making sure everything works and so
+并确保一切正常
+
+59
+00:02:20,299 --> 00:02:23,340
+we're looking at private values so
+我们正在考虑私人价值，因此
+
+60
+00:02:23,539 --> 00:02:25,679
+conditional utility independence in
+有条件效用独立性
+
+61
+00:02:25,878 --> 00:02:29,039
+general and we'll be looking at settings
+一般，我们将研究设置
+
+62
+00:02:29,239 --> 00:02:34,349
+where we have a quasi linearity is going
+我们有一个准线性的地方
+
+63
+00:02:34,549 --> 00:02:38,189
+to make things go for us okay in under
+使事情顺利进行下去
+
+64
+00:02:38,389 --> 00:02:40,020
+you know some particular settings we'll
+你知道一些特殊的设置
+
+65
+00:02:40,219 --> 00:02:41,640
+be able to get additional things like a
+能够获得诸如
+
+66
+00:02:41,840 --> 00:02:43,530
+week budget balance condition interim
+周预算余额状况临时
+
+67
+00:02:43,729 --> 00:02:45,659
+individual rationality other kinds of
+个人理性其他
+
+68
+00:02:45,859 --> 00:02:48,980
+nice things coming out but more
+好东西出来了，但更多
+
+69
+00:02:49,180 --> 00:02:52,679
+basically the the key ingredients here
+基本上这里的关键成分
+
+70
+00:02:52,878 --> 00:02:54,170
+are going to be dominant strategies and
+将成为主导策略， 
+
+71
+00:02:54,370 --> 00:02:56,759
+efficiencies ok so let's start with a
+效率不错，让我们从
+
+72
+00:02:56,959 --> 00:02:58,530
+general class of these mechanisms which
+这些机制的一般类别
+
+73
+00:02:58,729 --> 00:03:01,349
+are known as growth mechanisms I'm after
+被称为我追求的成长机制
+
+74
+00:03:01,549 --> 00:03:04,110
+Ted groves and so we're looking at
+泰德·格罗夫，所以我们在看
+
+75
+00:03:04,310 --> 00:03:06,300
+direct mechanisms so this is going to be
+直接机制，所以这将是
+
+76
+00:03:06,500 --> 00:03:08,039
+making a choice out of whatever our X
+从X做出选择
+
+77
+00:03:08,239 --> 00:03:11,629
+set is and then the peas are going to be
+设置是，然后豌豆将是
+
+78
+00:03:11,829 --> 00:03:15,539
+the P is going to be in RN again right
+ P将再次进入RN 
+
+79
+00:03:15,739 --> 00:03:17,460
+so it's telling a payment for each of
+所以它告诉每个人都付款
+
+80
+00:03:17,659 --> 00:03:21,090
+the individuals and the interesting
+个人和有趣
+
+81
+00:03:21,289 --> 00:03:22,590
+thing about a growers mechanism is it
+关于种植者机制的事情是
+
+82
+00:03:22,789 --> 00:03:23,819
+grows mechanism is going to be any
+增长机制将是任何
+
+83
+00:03:24,019 --> 00:03:27,300
+mechanism of the following sort look at
+以下排序机制
+
+84
+00:03:27,500 --> 00:03:30,420
+the announced utility functions each
+每个公布的实用程序功能
+
+85
+00:03:30,620 --> 00:03:32,129
+person is telling us now what's their
+人正在告诉我们他们是什么
+
+86
+00:03:32,329 --> 00:03:33,929
+evaluation function that's the their
+评估功能就是他们的
+
+87
+00:03:34,128 --> 00:03:36,060
+private information so we get these
+私人信息，所以我们得到这些
+
+88
+00:03:36,259 --> 00:03:39,300
+announcements so people are telling us V
+公告，所以人们告诉我们V 
+
+89
+00:03:39,500 --> 00:03:42,868
+hat 1 through V hat n which are telling
+帽子1到V帽子n 
+
+90
+00:03:43,068 --> 00:03:44,330
+us how do they value the different
+我们如何看待与众不同
+
+91
+00:03:44,530 --> 00:03:48,659
+alternatives so society first of all is
+替代品，所以社会首先是
+
+92
+00:03:48,859 --> 00:03:50,640
+going to make a choice which maximizes
+将做出最大化选择
+
+93
+00:03:50,840 --> 00:03:52,649
+the total sum of those if that's unique
+这些的总和（如果唯一） 
+
+94
+00:03:52,848 --> 00:03:54,509
+then that ties this thing down exactly
+然后把这个东西精确地绑在一起
+
+95
+00:03:54,709 --> 00:03:56,399
+sometimes there could be ties it's going
+有时可能会有联系
+
+96
+00:03:56,598 --> 00:03:58,080
+to always pick something which is best
+总是选择最好的东西
+
+97
+00:03:58,280 --> 00:03:59,459
+for society in terms of overall
+对于社会而言
+
+98
+00:03:59,658 --> 00:04:02,520
+maximization then the key thing here is
+最大化，那么这里的关键是
+
+99
+00:04:02,719 --> 00:04:05,129
+going to be the payment rule and what's
+将成为付款规则，这是什么
+
+100
+00:04:05,329 --> 00:04:07,499
+the payment rule going to look like the
+付款规则看起来像
+
+101
+00:04:07,699 --> 00:04:09,709
+payment rule for a given individual is
+给定个人的付款规则是
+
+102
+00:04:09,908 --> 00:04:13,110
+going to be something which is going to
+将会成为
+
+103
+00:04:13,310 --> 00:04:18,538
+depend on what the sum function of what
+取决于什么的和函数
+
+104
+00:04:18,738 --> 00:04:22,110
+the other individuals announced so minus
+其他人宣布减
+
+105
+00:04:22,310 --> 00:04:23,100
+I meaning
+我的意思是
+
+106
+00:04:23,300 --> 00:04:26,699
+the vector of utility functions
+效用函数的向量
+
+107
+00:04:26,899 --> 00:04:28,170
+announced by the other individuals other
+由其他人宣布
+
+108
+00:04:28,370 --> 00:04:33,240
+than I and it's also going to have a
+比我，它也将有一个
+
+109
+00:04:33,439 --> 00:04:37,439
+part here will subtract off the sum of
+这里的部分将减去总和
+
+110
+00:04:37,639 --> 00:04:40,759
+the announced valuation functions
+宣布的估值功能
+
+111
+00:04:40,959 --> 00:04:44,639
+evaluated at the chosen alternative by
+在选定的替代条件下进行评估
+
+112
+00:04:44,839 --> 00:04:45,480
+society
+社会
+
+113
+00:04:45,680 --> 00:04:47,999
+okay so society makes a choice we look
+好吧，社会让我们做出选择
+
+114
+00:04:48,199 --> 00:04:49,949
+at how much does everyone else get you
+其他人能给你多少
+
+115
+00:04:50,149 --> 00:04:52,170
+in terms of utility for that we can add
+在实用性方面，我们可以添加
+
+116
+00:04:52,370 --> 00:04:54,028
+in some some other thing that doesn't
+在某些其他事情上
+
+117
+00:04:54,228 --> 00:04:55,800
+depend on that given individual so
+取决于那个给定的个人
+
+118
+00:04:56,000 --> 00:04:57,240
+sometimes it's going to be useful to add
+有时添加会很有用
+
+119
+00:04:57,439 --> 00:04:58,468
+in other things and we'll talk about
+在其他方面，我们将谈论
+
+120
+00:04:58,668 --> 00:05:00,930
+that in a moment anything which has this
+一会儿，任何有这个的
+
+121
+00:05:01,129 --> 00:05:03,629
+structure to it is known as a grove's
+它的结构被称为树丛
+
+122
+00:05:03,829 --> 00:05:06,149
+mechanism it's as a particular class of
+机制是作为一类特殊的
+
+123
+00:05:06,348 --> 00:05:08,399
+mechanisms sometimes these are referred
+有时提到这些机制
+
+124
+00:05:08,598 --> 00:05:12,990
+to as VCG mechanisms that name has more
+作为VCG机制，该名称具有更多
+
+125
+00:05:13,189 --> 00:05:15,270
+recently been used to look at a
+最近用来看一个
+
+126
+00:05:15,470 --> 00:05:17,338
+situation with a very specific payment
+付款非常具体的情况
+
+127
+00:05:17,538 --> 00:05:20,218
+rule here and we'll talk about that in a
+统治这里，我们将在
+
+128
+00:05:20,418 --> 00:05:22,230
+moment but this is a general class of
+现在，但这是
+
+129
+00:05:22,430 --> 00:05:25,860
+Grove's mechanisms okay so now let's
+格罗夫的机制还不错，现在让我们
+
+130
+00:05:26,060 --> 00:05:27,930
+look at Vickery Clark groves mechanisms
+看看维格里·克拉克（Vickery Clark）的小树林机制
+
+131
+00:05:28,129 --> 00:05:31,889
+a special class which is also these go
+一个特殊的班级，这些也是
+
+132
+00:05:32,089 --> 00:05:32,968
+by different names and different
+用不同的名字和不同的
+
+133
+00:05:33,168 --> 00:05:34,709
+literature's on the economics literature
+经济学文献
+
+134
+00:05:34,908 --> 00:05:36,718
+this was really known as a pivotal
+这真的被称为关键
+
+135
+00:05:36,918 --> 00:05:38,579
+mechanism in part of the computer
+部分计算机的机制
+
+136
+00:05:38,779 --> 00:05:40,019
+science literature and the game theories
+科学文学与博弈论
+
+137
+00:05:40,218 --> 00:05:41,490
+literature more generally it's becoming
+文学更普遍地
+
+138
+00:05:41,689 --> 00:05:44,218
+known as victory VCG mechanism
+被称为胜利VCG机制
+
+139
+00:05:44,418 --> 00:05:46,709
+sometimes VCG is used to look at the
+有时会使用VCG来查看
+
+140
+00:05:46,908 --> 00:05:49,019
+broader class but what's specialized
+更广泛的阶层，但有什么专长
+
+141
+00:05:49,218 --> 00:05:51,300
+here is if you remember that each
+如果您还记得每个
+
+142
+00:05:51,500 --> 00:05:53,670
+function we had so we had an H function
+我们有一个H函数
+
+143
+00:05:53,870 --> 00:05:59,999
+H I of V hat - I that function now takes
+ V hat的HI-该功能现在需要
+
+144
+00:06:00,199 --> 00:06:02,218
+a very specific form in that specific
+特定形式的非常特定的形式
+
+145
+00:06:02,418 --> 00:06:05,249
+form in particular is one where what we
+形式尤其是其中一种
+
+146
+00:06:05,449 --> 00:06:10,370
+do is pick something which maximizes the
+要做的就是挑选能最大化
+
+147
+00:06:10,569 --> 00:06:13,889
+sum of everyone else's utility so what
+其他人的效用之和
+
+148
+00:06:14,089 --> 00:06:18,889
+would society choose if I were ignored
+社会会选择我是否被忽略
+
+149
+00:06:19,089 --> 00:06:21,629
+and then look at the total sum of
+然后看一下
+
+150
+00:06:21,829 --> 00:06:22,920
+utilities that would come out of that
+从中得出的实用程序
+
+151
+00:06:23,120 --> 00:06:25,829
+and compare that to what people get when
+并将其与人们何时得到的
+
+152
+00:06:26,029 --> 00:06:28,079
+I is taken into account right so this is
+我被认为是正确的，所以这是
+
+153
+00:06:28,279 --> 00:06:32,160
+the choice that's made when I is being
+当我被做的时候做出的选择
+
+154
+00:06:32,360 --> 00:06:34,319
+accounted for this is the choice that
+占这是选择
+
+155
+00:06:34,519 --> 00:06:36,870
+would be made if we ignore die
+如果我们忽略死亡将被制造
+
+156
+00:06:37,069 --> 00:06:39,600
+and this pivotal mechanism what it does
+这个关键机制的作用
+
+157
+00:06:39,800 --> 00:06:41,759
+in terms of eyes payment is say how much
+眼睛支付说多少
+
+158
+00:06:41,959 --> 00:06:44,129
+would everyone get if you ignored you
+如果你忽略了你，每个人都会得到
+
+159
+00:06:44,329 --> 00:06:46,650
+how much does everyone else get if we
+如果我们每个人都能得到多少
+
+160
+00:06:46,850 --> 00:06:49,439
+take you into account this is generally
+考虑到你这通常
+
+161
+00:06:49,639 --> 00:06:52,350
+going to be a lower number right this is
+将会是一个较低的数字，对，这是
+
+162
+00:06:52,550 --> 00:06:53,400
+going to have to be a lower number
+一定要少一些
+
+163
+00:06:53,600 --> 00:06:55,379
+people can't be made better off by
+人们无法通过改善而变得更好
+
+164
+00:06:55,579 --> 00:06:58,350
+including I in terms of the decision all
+包括我在内的所有决定
+
+165
+00:06:58,550 --> 00:07:00,329
+that can do is distort things away from
+可以做的是使事物远离
+
+166
+00:07:00,529 --> 00:07:01,770
+the overall Maximizer for these
+这些的整体最大化器
+
+167
+00:07:01,970 --> 00:07:05,340
+individuals so this number is generally
+个人，所以这个数字通常是
+
+168
+00:07:05,540 --> 00:07:09,449
+going to be a non negative number so
+将是一个非负数，所以
+
+169
+00:07:09,649 --> 00:07:12,689
+this will be a payment that different
+这将是不同的付款
+
+170
+00:07:12,889 --> 00:07:16,400
+individuals will be making into the
+个人将融入
+
+171
+00:07:16,600 --> 00:07:19,050
+society okay
+社会还可以
+
+172
+00:07:19,250 --> 00:07:22,860
+so let's have a look at what we end up
+让我们来看看最终的结果
+
+173
+00:07:23,060 --> 00:07:27,710
+with here and so we've got this
+在这里，所以我们有这个
+
+174
+00:07:27,910 --> 00:07:30,960
+structure on something which maximizes
+在最大化的东西上的结构
+
+175
+00:07:31,160 --> 00:07:33,180
+overall utility and a particular payment
+整体效用和特定的付款
+
+176
+00:07:33,379 --> 00:07:35,900
+scheme and so what you get paid is
+计划，所以您得到的是
+
+177
+00:07:36,100 --> 00:07:38,310
+everyone's utility under the allocation
+每个人的效用分配下
+
+178
+00:07:38,509 --> 00:07:41,879
+that's actually chosen except your own
+实际上是您自己选择的
+
+179
+00:07:42,079 --> 00:07:44,819
+you get that as the direct utility and
+您将其作为直接实用程序，并且
+
+180
+00:07:45,019 --> 00:07:47,370
+then you get charged everybody's utility
+那么你就被指控每个人的公用事业
+
+181
+00:07:47,569 --> 00:07:50,490
+so when we take off this minus P I what
+所以当我们减去这个负PI时
+
+182
+00:07:50,689 --> 00:07:52,530
+you're going to be charged is how much
+你要收费的是多少
+
+183
+00:07:52,730 --> 00:07:55,500
+everyone else would have gotten in this
+其他人都会陷入困境
+
+184
+00:07:55,699 --> 00:07:59,490
+world where they didn't have to take you
+他们不必带你去的世界
+
+185
+00:07:59,689 --> 00:08:01,680
+into account less what they're getting
+考虑少他们得到的
+
+186
+00:08:01,879 --> 00:08:02,879
+in the world where they do have to take
+在他们必须采取的世界
+
+187
+00:08:03,079 --> 00:08:05,400
+you into account and so we can think of
+您考虑在内，所以我们可以想到
+
+188
+00:08:05,600 --> 00:08:07,350
+this as the social cost of an individual
+这是个人的社会成本
+
+189
+00:08:07,550 --> 00:08:12,900
+I right so this is social cost of I what
+我是对的，所以这是我的社会成本
+
+190
+00:08:13,100 --> 00:08:15,300
+does that mean that means having I
+那是否意味着有我
+
+191
+00:08:15,500 --> 00:08:18,360
+present imposes some change in utility
+目前对实用程序造成了一些改变
+
+192
+00:08:18,560 --> 00:08:21,120
+for the other individuals individuals
+对于其他个人
+
+193
+00:08:21,319 --> 00:08:24,689
+are paying their social cost okay who
+付出他们的社会成本好吗
+
+194
+00:08:24,889 --> 00:08:27,030
+pay zero in this world well people who
+在这个世界上付出零
+
+195
+00:08:27,230 --> 00:08:28,920
+end up not affecting the outcome at all
+最终根本不影响结果
+
+196
+00:08:29,120 --> 00:08:31,350
+so the presence or non presence their
+所以他们的存在或不存在
+
+197
+00:08:31,550 --> 00:08:33,088
+announcement of their utility function
+公布其效用功能
+
+198
+00:08:33,288 --> 00:08:38,069
+didn't affect things overall um so who
+总体上没有影响事情，所以谁
+
+199
+00:08:38,269 --> 00:08:39,199
+pays more than zero
+支付多于零
+
+200
+00:08:39,399 --> 00:08:42,419
+pivotal agents who make things worse by
+使事情变得更糟的关键人物
+
+201
+00:08:42,620 --> 00:08:45,569
+existing so there are situations where
+存在，所以在某些情况下
+
+202
+00:08:45,769 --> 00:08:47,759
+the fact that they existed actually
+他们实际上存在的事实
+
+203
+00:08:47,960 --> 00:08:49,589
+change the outcome in a way that made
+以某种方式改变结果
+
+204
+00:08:49,789 --> 00:08:50,500
+the individuals were
+个人是
+
+205
+00:08:50,700 --> 00:08:53,769
+Soph who winds up getting paid while
+索菲（Soph）最终获得报酬
+
+206
+00:08:53,970 --> 00:08:56,529
+people can in some circumstances under
+人们在某些情况下可以
+
+207
+00:08:56,730 --> 00:08:58,750
+some of these mechanisms gets paid by by
+其中一些机制由以下机构支付
+
+208
+00:08:58,950 --> 00:09:00,429
+making things better off for other
+使事情变得更好
+
+209
+00:09:00,629 --> 00:09:03,819
+individuals okay one nice thing about
+个人还好，关于
+
+210
+00:09:04,019 --> 00:09:07,929
+these mechanisms and the the beauty of
+这些机制和美丽的
+
+211
+00:09:08,129 --> 00:09:09,939
+these mechanisms is that truth-telling
+这些机制就是说真话
+
+212
+00:09:10,139 --> 00:09:11,799
+is going to be a dominant strategy under
+将成为下一个主导策略
+
+213
+00:09:12,000 --> 00:09:13,870
+any growth mechanism including the
+任何增长机制，包括
+
+214
+00:09:14,070 --> 00:09:15,579
+pivotal mechanism are these BCG
+这些BCG是关键机制
+
+215
+00:09:15,779 --> 00:09:18,729
+mechanisms so when we have this basic
+机制，所以当我们有这个基本
+
+216
+00:09:18,929 --> 00:09:22,299
+form the theorem tells us that truth is
+定理告诉我们真理是
+
+217
+00:09:22,500 --> 00:09:25,089
+a dominant strategy and let's go through
+主导策略，让我们经历一下
+
+218
+00:09:25,289 --> 00:09:26,709
+that so we'll first go through this
+那我们先来看看
+
+219
+00:09:26,909 --> 00:09:27,789
+theorem and then we'll talk about a
+定理，然后我们将讨论
+
+220
+00:09:27,990 --> 00:09:29,829
+converse near-miss as basically if you
+几乎像你这样交谈未遂
+
+221
+00:09:30,029 --> 00:09:32,049
+want truth to be a dominant strategy in
+希望真理成为主流策略
+
+222
+00:09:32,250 --> 00:09:33,539
+these settings with quasi linear
+这些设置与准线性
+
+223
+00:09:33,740 --> 00:09:37,389
+preferences and private values it's
+偏好和私人价值观
+
+224
+00:09:37,590 --> 00:09:38,919
+going to have to be a growth mechanism
+必须成为一种增长机制
+
+225
+00:09:39,120 --> 00:09:40,809
+so these mechanisms will be dominant
+因此这些机制将占主导地位
+
+226
+00:09:41,009 --> 00:09:44,799
+strategy and basically in this setting
+策略，基本上在这种情况下
+
+227
+00:09:45,000 --> 00:09:47,409
+they will be the only dominant strategy
+他们将是唯一的主导策略
+
+228
+00:09:47,610 --> 00:09:50,529
+mechanisms that result in inefficient X
+导致X效率低下的机制
+
+229
+00:09:50,730 --> 00:09:52,419
+choices okay
+选择还可以
+
+230
+00:09:52,620 --> 00:09:55,179
+so let's have a look at this so let's
+让我们来看看这个，让我们
+
+231
+00:09:55,379 --> 00:09:57,069
+look at to try and see why this theorem
+看一下尝试看看为什么这个定理
+
+232
+00:09:57,269 --> 00:10:00,189
+is true let's think of what i's problem
+是真的，让我想想我的问题
+
+233
+00:10:00,389 --> 00:10:02,979
+is so what they're getting is they're
+所以他们得到的是
+
+234
+00:10:03,179 --> 00:10:05,649
+getting this is their true utility VI
+得到这个才是他们真正的工具VI 
+
+235
+00:10:05,850 --> 00:10:07,809
+and they're thinking about what they
+他们在想他们
+
+236
+00:10:08,009 --> 00:10:10,299
+should announce right so I is choosing
+应该宣布正确，所以我选择
+
+237
+00:10:10,500 --> 00:10:12,669
+what what function should I tell the
+我应该告诉什么功能
+
+238
+00:10:12,870 --> 00:10:15,149
+mechanism that I have in terms of my
+就我而言的机制
+
+239
+00:10:15,350 --> 00:10:18,009
+utility function so that's going to
+实用程序功能，以便
+
+240
+00:10:18,210 --> 00:10:19,839
+affect the outcome and it's going to
+影响结果，它将
+
+241
+00:10:20,039 --> 00:10:22,509
+affect the price and this is their
+影响价格，这是他们的
+
+242
+00:10:22,710 --> 00:10:24,069
+overall utility so they want to choose
+整体实用性，所以他们想选择
+
+243
+00:10:24,269 --> 00:10:26,469
+the announcement to maximize the utility
+最大限度地发挥效用的公告
+
+244
+00:10:26,669 --> 00:10:28,839
+function so let's have a look at the
+功能，让我们来看看
+
+245
+00:10:29,039 --> 00:10:30,789
+groves mechanism substitute in for this
+格罗夫斯机制代替了这一点
+
+246
+00:10:30,990 --> 00:10:33,429
+and then see what people's incentives
+然后看看人们的动机是什么
+
+247
+00:10:33,629 --> 00:10:34,389
+are in that world
+在那个世界上
+
+248
+00:10:34,590 --> 00:10:38,109
+so under groves mechanism your payment
+所以在格罗夫机制下您的付款
+
+249
+00:10:38,309 --> 00:10:40,839
+rule looks like this so it looks like an
+规则看起来像这样，所以看起来像
+
+250
+00:10:41,039 --> 00:10:43,089
+H I minus the V hat and when we take the
+ HI减去V帽，当我们拿
+
+251
+00:10:43,289 --> 00:10:44,769
+minus of the overall thing we end up
+减去整体的结果
+
+252
+00:10:44,970 --> 00:10:49,929
+with this so uh there should be an I
+有了这个，所以应该有一个我
+
+253
+00:10:50,129 --> 00:10:53,349
+here subscript I so when we look at that
+我在这里下标，所以当我们看那个
+
+254
+00:10:53,549 --> 00:10:55,419
+payment scheme the individual is
+个人的付款方式
+
+255
+00:10:55,620 --> 00:10:58,870
+choosing this to maximize their overall
+选择这个来最大化他们的整体
+
+256
+00:10:59,070 --> 00:11:01,839
+utility um so first of all notice that
+实用程序，所以首先请注意
+
+257
+00:11:02,039 --> 00:11:04,449
+this thing does not depend on V hat I
+这个东西不取决于我的帽子
+
+258
+00:11:04,649 --> 00:11:06,849
+so maximizing net is equivalent to
+所以最大化净额等于
+
+259
+00:11:07,049 --> 00:11:08,620
+maximizing this when we ignore it okay
+当我们忽略它时可以最大化它
+
+260
+00:11:08,820 --> 00:11:11,319
+so now we've boiled this problem down to
+所以现在我们把这个问题归结为
+
+261
+00:11:11,519 --> 00:11:12,729
+solving this problem
+解决这个问题
+
+262
+00:11:12,929 --> 00:11:17,370
+okay so maximize VI of the chosen
+好吧，所以最大化所选VI 
+
+263
+00:11:17,570 --> 00:11:19,269
+alternative is a function of what you
+替代的是你所要的功能
+
+264
+00:11:19,470 --> 00:11:22,539
+announce plus the other peopls announced
+宣布加上宣布的其他人
+
+265
+00:11:22,740 --> 00:11:24,909
+utilities okay now one thing to notice
+实用程序现在可以注意一件事
+
+266
+00:11:25,110 --> 00:11:26,889
+is this begins to look like you're just
+这开始看起来像你只是
+
+267
+00:11:27,090 --> 00:11:29,049
+trying to maximize the overall sum of
+试图使...的总和最大化
+
+268
+00:11:29,250 --> 00:11:30,609
+utilities where yours is the truthful
+实用的实用工具
+
+269
+00:11:30,809 --> 00:11:33,370
+and then everyone else's is what the
+然后其他人的是
+
+270
+00:11:33,570 --> 00:11:35,919
+announced one is so I would like to
+宣布一个，所以我想
+
+271
+00:11:36,120 --> 00:11:38,589
+choose a glute declaration which would
+选择一份简短的声明
+
+272
+00:11:38,789 --> 00:11:41,859
+lead to lead the mechanism to pick an
+导致牵头机制
+
+273
+00:11:42,059 --> 00:11:44,289
+outcome which is going to maximize this
+结果将最大化
+
+274
+00:11:44,490 --> 00:11:47,469
+overall thing right so what you'd like
+总体来说是正确的，所以您想要什么
+
+275
+00:11:47,669 --> 00:11:50,439
+to do is choose a V hat I that will lead
+要做的是选择我会领导的V型帽
+
+276
+00:11:50,639 --> 00:11:52,120
+the mechanism to make a choice which
+做出选择的机制
+
+277
+00:11:52,320 --> 00:11:54,759
+solves this problem okay so if we go
+解决这个问题好吧，如果我们去
+
+278
+00:11:54,960 --> 00:11:56,109
+back and look at this problem
+回来看看这个问题
+
+279
+00:11:56,309 --> 00:11:58,959
+maximizing overall the V hat I is
+使我的V帽总体上最大化
+
+280
+00:11:59,159 --> 00:12:01,809
+equivalent to saying let's try and get
+相当于说让我们尝试获得
+
+281
+00:12:02,009 --> 00:12:05,559
+the mechanism to choose an X which will
+选择X的机制
+
+282
+00:12:05,759 --> 00:12:08,289
+maximize this overall if the if that
+如果可以的话，将整体最大化
+
+283
+00:12:08,490 --> 00:12:10,269
+declaration gets an X that which
+声明得到一个X 
+
+284
+00:12:10,470 --> 00:12:11,979
+maximizes this then that's certainly
+最大化这个，那肯定是
+
+285
+00:12:12,179 --> 00:12:13,959
+doing it as well as possible
+尽可能做到最好
+
+286
+00:12:14,159 --> 00:12:16,629
+now remember under a Grove's mechanism
+现在记得在格罗夫的机制下
+
+287
+00:12:16,830 --> 00:12:20,229
+the X of the V hat I is something which
+ V形帽子的X我是
+
+288
+00:12:20,429 --> 00:12:23,259
+mark maximizes exactly the sum where
+标记精确地使总和最大化
+
+289
+00:12:23,460 --> 00:12:25,149
+what you've done is put in your
+您所做的已放入您的
+
+290
+00:12:25,350 --> 00:12:27,879
+announced utility if you want to get
+宣布实用程序，如果您想获得
+
+291
+00:12:28,080 --> 00:12:30,039
+them to to do it with respect to your
+他们这样做是为了尊重您
+
+292
+00:12:30,240 --> 00:12:33,189
+true utility then the way in which to do
+真正的实用工具，然后做的方式
+
+293
+00:12:33,389 --> 00:12:35,109
+this is to have your announced utility
+这是您宣布的实用程序
+
+294
+00:12:35,309 --> 00:12:38,529
+be equal to your your true utility and
+等于您的真正效用，并且
+
+295
+00:12:38,730 --> 00:12:40,659
+then they'll be maximizing exactly the
+那么他们将完全最大化
+
+296
+00:12:40,860 --> 00:12:41,889
+function that you want them to be
+您希望他们成为的功能
+
+297
+00:12:42,090 --> 00:12:45,129
+maximizing and that means that truth is
+最大化，这意味着真理是
+
+298
+00:12:45,330 --> 00:12:47,679
+a dominant strategy right so the girls
+占主导地位的策略，所以女孩
+
+299
+00:12:47,879 --> 00:12:49,269
+mechanism will choose X in a way that
+机制将以以下方式选择X 
+
+300
+00:12:49,470 --> 00:12:50,679
+solves this maximization problem
+解决了这个最大化问题
+
+301
+00:12:50,879 --> 00:12:53,729
+precisely when V hat is equal to VI
+正好在V hat等于VI 
+
+302
+00:12:53,929 --> 00:12:55,899
+therefore truth is a dominant strategy
+因此，真理是主导策略
+
+303
+00:12:56,100 --> 00:12:59,740
+so this is a a this deceivingly simple
+所以这是一个看似简单的
+
+304
+00:12:59,940 --> 00:13:02,199
+proof so it takes a while to go back
+证明，所以需要一段时间才能返回
+
+305
+00:13:02,399 --> 00:13:04,719
+through this convince yourself it's true
+通过说服自己，这是真的
+
+306
+00:13:04,919 --> 00:13:08,139
+but the basic idea here is the payment
+但这里的基本思想是付款
+
+307
+00:13:08,340 --> 00:13:11,669
+that a given individuals have has is
+给定的个人拥有的是
+
+308
+00:13:11,870 --> 00:13:13,949
+essentially what everyone else's
+本质上是其他人的
+
+309
+00:13:14,149 --> 00:13:16,329
+announced utility function is and
+宣布的效用函数为
+
+310
+00:13:16,529 --> 00:13:17,919
+whether those are truth
+这些是否真实
+
+311
+00:13:18,120 --> 00:13:20,108
+or not from their perspective what
+从他们的角度来看
+
+312
+00:13:20,308 --> 00:13:22,448
+they're getting in terms of an outcome
+他们正在取得结果
+
+313
+00:13:22,649 --> 00:13:26,258
+is something which then maximizes the
+然后可以最大化
+
+314
+00:13:26,458 --> 00:13:28,628
+overall total sum of utilities because
+公用事业的总和，因为
+
+315
+00:13:28,828 --> 00:13:30,248
+what they're doing is maximizing their
+他们正在做的是最大化他们的
+
+316
+00:13:30,448 --> 00:13:32,349
+true utility plus what other people have
+真正的效用加上其他人拥有的
+
+317
+00:13:32,549 --> 00:13:34,568
+told the mechanism their utility
+告诉该机制其效用
+
+318
+00:13:34,769 --> 00:13:36,188
+functions look like and by being
+功能看起来像是
+
+319
+00:13:36,389 --> 00:13:37,779
+truthful they get an outcome which
+说实话，他们得到的结果
+
+320
+00:13:37,980 --> 00:13:40,419
+maximizes that overall total sum which
+使总的总和最大化
+
+321
+00:13:40,620 --> 00:13:42,758
+indeed is the best they can do in terms
+就他们而言，确实是最好的
+
+322
+00:13:42,958 --> 00:13:44,979
+of maximizing their utility given this
+鉴于此，最大化其效用
+
+323
+00:13:45,179 --> 00:13:47,618
+payment rule so the nice thing about
+付款规则，关于
+
+324
+00:13:47,818 --> 00:13:50,078
+these VCG mechanisms or in general two
+这些VCG机制，或者通常是两种
+
+325
+00:13:50,278 --> 00:13:52,928
+groves mechanisms is they align the
+格罗夫机制是他们对齐
+
+326
+00:13:53,129 --> 00:13:55,089
+individuals and sent 'iv with the
+个人，并与
+
+327
+00:13:55,289 --> 00:13:57,308
+society's incentives by making sure that
+通过确保
+
+328
+00:13:57,509 --> 00:14:00,548
+the payment rule accounts for what their
+付款规则说明了他们的
+
+329
+00:14:00,749 --> 00:14:05,048
+decision choice is what the impact of
+决策选择有什么影响
+
+330
+00:14:05,249 --> 00:14:07,118
+their announcement is on everyone else's
+他们的公告在其他人的
+
+331
+00:14:07,318 --> 00:14:11,349
+utility okay um now the uniqueness of
+实用程序好吧，现在的唯一性
+
+332
+00:14:11,549 --> 00:14:14,048
+these things in terms of being the
+这些东西是作为
+
+333
+00:14:14,249 --> 00:14:16,178
+converse theorem there's a theorem by
+逆定理有一个定理是
+
+334
+00:14:16,379 --> 00:14:20,469
+Greene in the fall from the late 1970s
+从1970年代后期开始秋天的格林
+
+335
+00:14:20,669 --> 00:14:24,548
+or the 80s which then says that there's
+或80年代然后说
+
+336
+00:14:24,749 --> 00:14:28,178
+a converse here so suppose that that for
+在这里相反，所以假设
+
+337
+00:14:28,379 --> 00:14:34,298
+any utility function it's so each
+任何效用函数都是这样
+
+338
+00:14:34,499 --> 00:14:36,279
+individual could have any possible
+个人可能有任何可能
+
+339
+00:14:36,480 --> 00:14:39,779
+utility function over the public
+公众的效用函数
+
+340
+00:14:39,980 --> 00:14:43,709
+decision or the non-monetary decision so
+决定还是非货币决定
+
+341
+00:14:43,909 --> 00:14:46,448
+domain is going to be rich in a very
+领域将非常丰富
+
+342
+00:14:46,649 --> 00:14:48,008
+particular sense that people could have
+人们可能有的特殊感觉
+
+343
+00:14:48,208 --> 00:14:52,628
+any possible utility ordering a utility
+订购实用程序的任何可能的实用程序
+
+344
+00:14:52,828 --> 00:14:54,728
+function over the set of alternatives
+在选择集上起作用
+
+345
+00:14:54,928 --> 00:14:57,899
+then we'll say that a mechanism that's
+那么我们会说一种机制
+
+346
+00:14:58,100 --> 00:15:03,938
+efficient so it's choosing a decision as
+高效，所以它选择一个决策
+
+347
+00:15:04,139 --> 00:15:05,289
+a function of the announced preferences
+公布的偏好的功能
+
+348
+00:15:05,490 --> 00:15:09,149
+which maximizes the overall utility
+最大化整体效用
+
+349
+00:15:09,350 --> 00:15:11,409
+that's going to have truthful reporting
+这将有如实的报告
+
+350
+00:15:11,610 --> 00:15:13,928
+as a dominant strategy for all agents
+作为所有代理商的主要策略
+
+351
+00:15:14,129 --> 00:15:17,289
+and preferences only if it's a growth
+和偏好，只有在增长的情况下
+
+352
+00:15:17,490 --> 00:15:20,048
+mechanism so the payment rule has to
+机制，因此付款规则必须
+
+353
+00:15:20,249 --> 00:15:22,328
+look like what we said in terms of a
+看起来就像我们所说的
+
+354
+00:15:22,528 --> 00:15:24,639
+growth mechanism that's the only way
+唯一的增长机制
+
+355
+00:15:24,839 --> 00:15:27,428
+that you can be truthful for all
+你可以为所有人诚实
+
+356
+00:15:27,629 --> 00:15:31,209
+possible announcements
+可能的公告
+
+357
+00:15:31,409 --> 00:15:33,938
+of preferences so not only are the
+偏好，所以不仅
+
+358
+00:15:34,139 --> 00:15:36,399
+groves mechanisms dominant-strategy
+格罗夫斯机制主导策略
+
+359
+00:15:36,599 --> 00:15:38,709
+incentive compatible but if we require
+激励兼容，但如果我们需要
+
+360
+00:15:38,909 --> 00:15:40,718
+efficient outcomes these are the only
+有效的结果，这是唯一的
+
+361
+00:15:40,918 --> 00:15:44,918
+ones that work okay so I won't prove
+可以的，所以我不会证明
+
+362
+00:15:45,119 --> 00:15:46,778
+this explicitly the proof is actually
+这显然是证明
+
+363
+00:15:46,979 --> 00:15:48,968
+fairly straightforward you can find a
+很简单，你可以找到一个
+
+364
+00:15:49,168 --> 00:15:51,608
+version in a survey I wrote on mechanism
+我写的关于机制的调查中的版本
+
+365
+00:15:51,808 --> 00:15:55,178
+design on my website but in terms of
+在我的网站上设计，但在
+
+366
+00:15:55,379 --> 00:15:57,338
+summary here so far what have we got
+到目前为止，这里总结
+
+367
+00:15:57,538 --> 00:16:00,368
+groves mechanisms and a special class of
+格罗夫机制和一类特殊的
+
+368
+00:16:00,568 --> 00:16:02,438
+those the pivotal mechanisms or VCG
+那些关键的机制或VCG 
+
+369
+00:16:02,639 --> 00:16:05,198
+mechanisms have really nice properties
+机制具有非常好的特性
+
+370
+00:16:05,399 --> 00:16:07,538
+in terms of incentives truth is always a
+就激励而言，真理永远是
+
+371
+00:16:07,739 --> 00:16:09,458
+dominant strategy
+主导策略
+
+372
+00:16:09,658 --> 00:16:11,968
+the agents payments rules basically
+代理商付款原则
+
+373
+00:16:12,168 --> 00:16:15,639
+align their incentives with the society
+使他们的激励措施与社会保持一致
+
+374
+00:16:15,839 --> 00:16:17,889
+in terms of making sure that they're
+确保他们是
+
+375
+00:16:18,089 --> 00:16:19,718
+taking into account their impact on
+考虑到它们对
+
+376
+00:16:19,918 --> 00:16:22,448
+other individuals preferences and
+其他个人的喜好和
+
+377
+00:16:22,649 --> 00:16:26,258
+utilities and therefore we end up with
+实用程序，因此我们最终得到
+
+378
+00:16:26,458 --> 00:16:28,688
+efficient outcome choices so that
+有效的结果选择，以便
+
+379
+00:16:28,889 --> 00:16:30,818
+internalized leads people to internalize
+内部化导致人们内部化
+
+380
+00:16:31,019 --> 00:16:32,498
+the externalities and leads to an
+外部性并导致
+
+381
+00:16:32,698 --> 00:16:36,758
+efficient choices over the XS now one
+现在比XS更有效的选择之一
+
+382
+00:16:36,958 --> 00:16:39,008
+thing that is also important to
+对...也很重要的事情
+
+383
+00:16:39,208 --> 00:16:43,838
+emphasize is that it might be that these
+强调的是，可能是这些
+
+384
+00:16:44,038 --> 00:16:46,658
+mechanisms are not overall efficient in
+机制在
+
+385
+00:16:46,859 --> 00:16:48,308
+the sense that we might have to charge
+我们可能必须充电的感觉
+
+386
+00:16:48,509 --> 00:16:51,278
+the agents money in order to get this to
+代理商的钱是为了得到这个
+
+387
+00:16:51,479 --> 00:16:54,399
+work so it could be that the sum of the
+工作，所以可能是
+
+388
+00:16:54,600 --> 00:16:56,158
+payments the pis
+支付pis 
+
+389
+00:16:56,359 --> 00:16:59,858
+is greater than zero so that means that
+大于零，这意味着
+
+390
+00:17:00,058 --> 00:17:01,418
+people are making a bunch of payments
+人们正在付款
+
+391
+00:17:01,619 --> 00:17:05,438
+into the society and we're not giving
+进入社会，我们没有付出
+
+392
+00:17:05,638 --> 00:17:07,419
+them all back to the society so either
+他们都回到了社会，所以要么
+
+393
+00:17:07,619 --> 00:17:08,888
+we have to funnel them off to somebody
+我们必须将它们集中到某人
+
+394
+00:17:09,088 --> 00:17:10,328
+who's not involved in any of the
+谁不参与任何
+
+395
+00:17:10,528 --> 00:17:12,729
+decision product process or we're going
+决定产品流程或我们要去
+
+396
+00:17:12,929 --> 00:17:14,348
+to have to burn that if we try and give
+如果我们尝试付出就必须燃烧掉
+
+397
+00:17:14,548 --> 00:17:17,769
+it back that could change the incentives
+回来可能会改变激励措施
+
+398
+00:17:17,970 --> 00:17:20,289
+that we've just aligned so nicely so the
+我们调整得很好，所以
+
+399
+00:17:20,490 --> 00:17:22,358
+part of the issue about this is we've we
+关于这个问题的一部分是我们
+
+400
+00:17:22,558 --> 00:17:23,799
+put these payment rules in which an
+将这些付款规则放在其中
+
+401
+00:17:24,000 --> 00:17:26,049
+align incentives very nicely but in
+很好地调整激励措施，但是
+
+402
+00:17:26,250 --> 00:17:27,878
+order to do that we might have to be
+为了做到这一点，我们可能必须
+
+403
+00:17:28,078 --> 00:17:29,588
+charging agents a lot in terms of what
+收费代理很多
+
+404
+00:17:29,788 --> 00:17:32,229
+their impact on this society is and in
+他们对这个社会的影响是
+
+405
+00:17:32,429 --> 00:17:36,308
+order to get things to balance we might
+为了使事情平衡，我们可能
+
+406
+00:17:36,509 --> 00:17:38,409
+have to give up some some nice
+必须放弃一些好
+
+407
+00:17:38,609 --> 00:17:41,529
+conditions that we'd want so nice thing
+我们想要的好东西的条件
+
+408
+00:17:41,730 --> 00:17:43,119
+about these mechanisms dominant
+这些机制占主导地位
+
+409
+00:17:43,319 --> 00:17:44,438
+strategies and that's why they've been
+策略，这就是为什么他们一直
+
+410
+00:17:44,638 --> 00:17:45,578
+studied so extensively
+研究如此广泛
+
+411
+00:17:45,778 --> 00:17:47,558
+there's a number of settings where they
+他们有很多设置
+
+412
+00:17:47,759 --> 00:17:51,418
+form nice benchmarks and have really a
+形成不错的基准，并且确实具有
+
+413
+00:17:51,618 --> 00:17:53,798
+long list of nice properties there are
+不错的属性的清单很长
+
+414
+00:17:53,999 --> 00:17:55,568
+other settings where they serve as a
+其他设置作为
+
+415
+00:17:55,769 --> 00:17:57,068
+benchmark and don't satisfy all the
+基准，并不能满足所有
+
+416
+00:17:57,269 --> 00:17:59,678
+conditions we'd want and that generally
+我们想要的条件，通常
+
+417
+00:17:59,878 --> 00:18:02,288
+has to do with the the balanced kinds of
+与平衡的种类有关
+
+418
+00:18:02,489 --> 00:18:05,769
+conditions of the payments and the the
+付款条件和
+
+419
+00:18:05,969 --> 00:18:07,119
+idea that sometimes people will be
+有时人们会
+
+420
+00:18:07,319 --> 00:18:10,358
+charged even if they would rather not
+即使他们宁愿不收费
+
+421
+00:18:10,558 --> 00:18:12,068
+participate in the mechanism so we might
+参与该机制，因此我们可能
+
+422
+00:18:12,269 --> 00:18:12,938
+want to think about it the
+想想一下
+
+423
+00:18:13,138 --> 00:18:14,500
+directionality conditions balance
+方向性条件平衡
+
+424
+00:18:14,700 --> 00:18:16,328
+conditions and other kinds of things so
+条件和其他种类的东西
+
+425
+00:18:16,528 --> 00:18:17,379
+we'll take a look at these in more
+我们将在更多内容中进行介绍
+
+426
+00:18:17,579 --> 00:18:19,509
+detail and context and that'll be our
+细节和背景，这将是我们的
+
+427
+00:18:19,710 --> 00:18:24,710
+next thing up
+下一件事
+

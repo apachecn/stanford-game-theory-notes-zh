@@ -1,0 +1,670 @@
+﻿1
+00:00:00,030 --> 00:00:01,840
+this video is going to define
+这部影片将要定义
+
+2
+00:00:02,040 --> 00:00:05,049
+coalitional games and explain what
+联盟游戏并解释什么
+
+3
+00:00:05,250 --> 00:00:07,530
+they're used for
+他们用于
+
+4
+00:00:07,730 --> 00:00:10,540
+so coalitional games unlike the non
+所以联盟游戏不像非
+
+5
+00:00:10,740 --> 00:00:11,919
+cooperative games that we've talked
+我们谈论过的合作游戏
+
+6
+00:00:12,119 --> 00:00:15,069
+about so far don't model individual
+到目前为止，不要为个人建模
+
+7
+00:00:15,269 --> 00:00:17,350
+agents taking actions instead they think
+代理商采取行动，反而他们认为
+
+8
+00:00:17,550 --> 00:00:19,890
+about groups of agents acting together
+关于一群特工一起行动
+
+9
+00:00:20,089 --> 00:00:23,890
+so the idea is going to be that we think
+所以我们的想法是
+
+10
+00:00:24,089 --> 00:00:26,499
+about a set of agents and ask about what
+关于一组代理，并询问什么
+
+11
+00:00:26,699 --> 00:00:28,720
+coalitions could form what groups of
+联盟可以形成什么团体
+
+12
+00:00:28,920 --> 00:00:30,460
+agents could choose to work together and
+特工可以选择一起工作
+
+13
+00:00:30,660 --> 00:00:33,549
+to do that we're going to define how
+为此，我们将定义如何
+
+14
+00:00:33,750 --> 00:00:35,679
+well each different group of agents is
+每个不同的代理商群体
+
+15
+00:00:35,880 --> 00:00:39,849
+able to do for itself now in particular
+现在能够自己做
+
+16
+00:00:40,049 --> 00:00:42,369
+in a coalitional game we're not going to
+在联盟游戏中，我们不会
+
+17
+00:00:42,570 --> 00:00:46,239
+think about how the agents individually
+考虑一下代理商如何单独
+
+18
+00:00:46,439 --> 00:00:48,659
+divide work up within the coalition or
+在联盟内部划分工作或
+
+19
+00:00:48,859 --> 00:00:51,189
+how it is that they coordinate with each
+他们如何与每个人协调
+
+20
+00:00:51,390 --> 00:00:53,829
+other in order to form a coalition we're
+为了组成一个联盟，我们
+
+21
+00:00:54,030 --> 00:00:55,678
+going to take all of that as given and
+将所有这些都视为给定的
+
+22
+00:00:55,878 --> 00:00:58,748
+instead just think about how the
+而是考虑一下
+
+23
+00:00:58,948 --> 00:01:01,358
+coalition does all together what kinds
+联盟一起做什么
+
+24
+00:01:01,558 --> 00:01:06,009
+of payoffs they're able to achieve we're
+他们能够实现的回报
+
+25
+00:01:06,209 --> 00:01:07,840
+going to begin by making an assumption
+首先要做一个假设
+
+26
+00:01:08,040 --> 00:01:10,259
+that it's called transferable utility
+被称为可转移的实用程序
+
+27
+00:01:10,459 --> 00:01:13,390
+what this assumption means is that it's
+这个假设的意思是
+
+28
+00:01:13,590 --> 00:01:15,640
+possible for a coalition to redistribute
+联盟有可能重新分配
+
+29
+00:01:15,840 --> 00:01:17,859
+the value that it's able to achieve
+它能够实现的价值
+
+30
+00:01:18,060 --> 00:01:21,640
+arbitrarily among its members so for
+在其成员中任意
+
+31
+00:01:21,840 --> 00:01:24,250
+example if the coalition is paid its
+例如，如果联盟获得报酬
+
+32
+00:01:24,450 --> 00:01:26,890
+value and money it would be possible to
+价值和金钱，将有可能
+
+33
+00:01:27,090 --> 00:01:29,019
+divide up that money and make side
+分配那笔钱并赚钱
+
+34
+00:01:29,219 --> 00:01:31,899
+payments among the members in any way in
+会员之间以任何方式付款
+
+35
+00:01:32,099 --> 00:01:34,299
+general what this assumption amounts to
+通常，这个假设等于
+
+36
+00:01:34,500 --> 00:01:37,028
+is that we'll be able to assign some
+是我们可以分配一些
+
+37
+00:01:37,228 --> 00:01:39,099
+single value as the payoff to a
+单一价值作为收益
+
+38
+00:01:39,299 --> 00:01:41,349
+coalition and trust that it can be
+联盟和信任它可以
+
+39
+00:01:41,549 --> 00:01:45,618
+arbitrarily divided up among the members
+在成员之间任意分配
+
+40
+00:01:46,069 --> 00:01:48,759
+under this assumption here's how we can
+在这种假设下，我们可以
+
+41
+00:01:48,959 --> 00:01:51,969
+define a coalitional game a coalitional
+定义一个联盟游戏，一个联盟
+
+42
+00:01:52,170 --> 00:01:57,099
+game has two parts n and V where as in
+游戏分为n和V两部分，其中
+
+43
+00:01:57,299 --> 00:01:58,390
+the previous models we've thought about
+我们之前考虑过的模型
+
+44
+00:01:58,590 --> 00:02:01,390
+before n is just a finite set of players
+在n只是有限的一组玩家之前
+
+45
+00:02:01,590 --> 00:02:03,939
+and we'll again index this by eye when
+我们将再次通过肉眼索引
+
+46
+00:02:04,140 --> 00:02:05,528
+we want to talk about individual players
+我们想谈谈个人玩家
+
+47
+00:02:05,728 --> 00:02:10,419
+in the set and the kind of acts like our
+在场景和像我们这样的行为中
+
+48
+00:02:10,618 --> 00:02:12,850
+utility function for a coalitional game
+联合游戏的效用函数
+
+49
+00:02:13,050 --> 00:02:16,900
+it says for every subset of the players
+它说，对于每个玩家子集
+
+50
+00:02:17,099 --> 00:02:20,290
+s so for every coalition s that could
+对于每个可能的联盟
+
+51
+00:02:20,490 --> 00:02:22,510
+form up to and including all of the
+构成并包括所有
+
+52
+00:02:22,710 --> 00:02:27,040
+players in the game what is the payoff V
+玩家在游戏中的收益是多少
+
+53
+00:02:27,240 --> 00:02:30,719
+of s that the coalition can achieve and
+联盟可以实现的
+
+54
+00:02:30,919 --> 00:02:33,400
+this of course will allow the coalition
+这当然会允许联盟
+
+55
+00:02:33,599 --> 00:02:37,540
+to divide up among its members will make
+在其成员之间进行划分将使
+
+56
+00:02:37,740 --> 00:02:41,050
+a normalizing assumption that the value
+归一化的假设
+
+57
+00:02:41,250 --> 00:02:48,160
+of the empty set is zero there are two
+空集为零有两个
+
+58
+00:02:48,360 --> 00:02:50,590
+typical questions that we want to ask
+我们想问的典型问题
+
+59
+00:02:50,789 --> 00:02:52,719
+using coalitional game theory the two
+用联盟博弈论两个
+
+60
+00:02:52,919 --> 00:02:55,480
+kind of fundamental questions the first
+第一种基本问题
+
+61
+00:02:55,680 --> 00:02:58,840
+is which coalition makes sense to form
+哪个联盟才有意义
+
+62
+00:02:59,039 --> 00:03:01,300
+which coalition would would like to form
+哪个联盟想成立
+
+63
+00:03:01,500 --> 00:03:05,410
+in this game and secondly once we know
+在这个游戏中，第二，一旦我们知道
+
+64
+00:03:05,610 --> 00:03:07,960
+which coalition will form how should the
+哪个联盟将形成
+
+65
+00:03:08,159 --> 00:03:10,600
+coalition divide its payoff amongst all
+联盟将收益分配给所有人
+
+66
+00:03:10,800 --> 00:03:14,800
+of the people in the coalition now we're
+联盟中的人现在
+
+67
+00:03:15,000 --> 00:03:16,420
+not going to spend very much effort
+不会花很多力气
+
+68
+00:03:16,620 --> 00:03:18,490
+thinking about the first question it's
+考虑第一个问题
+
+69
+00:03:18,689 --> 00:03:20,140
+usually going to be the case that the
+通常情况下， 
+
+70
+00:03:20,340 --> 00:03:22,840
+answer is the so-called grand coalition
+答案就是所谓的大联盟
+
+71
+00:03:23,039 --> 00:03:26,469
+which means everybody so usually all of
+这意味着每个人通常都
+
+72
+00:03:26,669 --> 00:03:29,250
+the agents will agree to work together
+代理商将同意一起工作
+
+73
+00:03:29,449 --> 00:03:32,320
+however sometimes in order to guarantee
+但是有时为了保证
+
+74
+00:03:32,520 --> 00:03:34,420
+that this would be true we have to be
+这是真的，我们必须
+
+75
+00:03:34,620 --> 00:03:36,070
+careful about thinking about how the
+仔细考虑如何
+
+76
+00:03:36,270 --> 00:03:38,110
+coalition will divide its payoffs among
+联盟将把收益分配给
+
+77
+00:03:38,310 --> 00:03:43,450
+its members in particular here's a kind
+它的成员特别是一种
+
+78
+00:03:43,650 --> 00:03:46,300
+of game that that helps us to think
+有助于我们思考的游戏
+
+79
+00:03:46,500 --> 00:03:49,180
+about the first question we say that a
+关于第一个问题，我们说一个
+
+80
+00:03:49,379 --> 00:03:52,320
+coalitional game is super additive if
+联盟博弈是超级加法，如果
+
+81
+00:03:52,520 --> 00:03:55,600
+for all pairs of coalition's s and T
+对于联盟的所有T和T 
+
+82
+00:03:55,800 --> 00:03:59,410
+which are both strict subsets of n if
+如果n都是n的严格子集
+
+83
+00:03:59,610 --> 00:04:01,780
+the intersection between these two
+这两者之间的交集
+
+84
+00:04:01,979 --> 00:04:04,750
+coalition's is empty which means these
+联盟是空的，这意味着
+
+85
+00:04:04,949 --> 00:04:07,660
+two coalition's involve entirely
+两个联盟完全参与
+
+86
+00:04:07,860 --> 00:04:11,590
+different sets of agents then if we make
+如果我们做不同的代理商
+
+87
+00:04:11,789 --> 00:04:15,370
+a new coalition S Union T that combines
+结合了新的联盟S Union T 
+
+88
+00:04:15,569 --> 00:04:18,670
+these two coalition's together the value
+这两个联盟的价值
+
+89
+00:04:18,870 --> 00:04:21,579
+of this larger coalition is at least as
+这个更大的联盟至少
+
+90
+00:04:21,779 --> 00:04:24,550
+big as the sum of the values of the two
+与两者之和大
+
+91
+00:04:24,750 --> 00:04:26,030
+coalition's independent
+联盟的独立
+
+92
+00:04:26,230 --> 00:04:30,090
+so in other words if I make a bigger
+换句话说，如果我做一个更大的
+
+93
+00:04:30,290 --> 00:04:32,550
+coalition out of two independent
+两个独立联盟
+
+94
+00:04:32,750 --> 00:04:35,069
+coalition's the value of that bigger
+联盟的价值更大
+
+95
+00:04:35,269 --> 00:04:37,620
+coalition is always at least as big as
+联盟总是至少与
+
+96
+00:04:37,819 --> 00:04:40,110
+the some of the values that those two
+那两个的一些价值
+
+97
+00:04:40,310 --> 00:04:42,030
+independent coalition's were able to get
+独立联盟的能够
+
+98
+00:04:42,230 --> 00:04:43,160
+on their own
+他们自己
+
+99
+00:04:43,360 --> 00:04:46,319
+this assumption makes sense if it's
+如果这个假设是合理的
+
+100
+00:04:46,519 --> 00:04:48,389
+possible for coalition's to always work
+联盟永远可以工作的可能
+
+101
+00:04:48,589 --> 00:04:50,250
+without interfering with each other and
+而不互相干扰
+
+102
+00:04:50,449 --> 00:04:52,829
+this is often an assumption that we make
+这通常是我们做的一个假设
+
+103
+00:04:53,029 --> 00:04:54,319
+in a coalitional game
+在联合游戏中
+
+104
+00:04:54,519 --> 00:04:57,930
+notice that this super additive 'ti
+注意，这种超级添加剂
+
+105
+00:04:58,129 --> 00:04:59,939
+assumption implies that the highest
+假设意味着最高
+
+106
+00:05:00,139 --> 00:05:01,620
+payoff of all at least the weekly
+至少每周一次的回报
+
+107
+00:05:01,819 --> 00:05:03,689
+highest payoff of all is achieved by the
+最高的回报是通过
+
+108
+00:05:03,889 --> 00:05:06,240
+grand coalition so when we're thinking
+大联盟，所以当我们在思考
+
+109
+00:05:06,439 --> 00:05:08,639
+about a super additive game it's natural
+关于超级加法游戏，这很自然
+
+110
+00:05:08,839 --> 00:05:10,139
+to think that the grand coalition would
+认为大联盟会
+
+111
+00:05:10,339 --> 00:05:16,350
+want to form so in answer to the first
+想要形成以回应第一个
+
+112
+00:05:16,550 --> 00:05:17,520
+of the questions that I talked about
+我谈论的问题中
+
+113
+00:05:17,720 --> 00:05:19,980
+before we're going to tend to assume
+在我们倾向于假设之前
+
+114
+00:05:20,180 --> 00:05:22,889
+that the grand coalition forms and we're
+大联盟形成，我们
+
+115
+00:05:23,089 --> 00:05:24,629
+going to focus on this second question
+将专注于第二个问题
+
+116
+00:05:24,829 --> 00:05:27,270
+of how the coalition ought to divide its
+联盟应该如何划分其
+
+117
+00:05:27,470 --> 00:05:29,629
+payoff now
+现在还清
+
+118
+00:05:29,829 --> 00:05:32,670
+it's reasonable to wonder what I mean
+想知道我的意思是合理的
+
+119
+00:05:32,870 --> 00:05:34,379
+when I say how it ought to divide its
+当我说应该如何划分
+
+120
+00:05:34,579 --> 00:05:36,509
+payoff that kind of depends on what the
+这种收益取决于
+
+121
+00:05:36,709 --> 00:05:39,270
+Coalition is trying to achieve and we're
+联盟正在努力实现目标，我们正在
+
+122
+00:05:39,470 --> 00:05:42,449
+going to consider two different ways of
+将考虑两种不同的方式
+
+123
+00:05:42,649 --> 00:05:46,500
+answering that question the first is how
+首先回答这个问题
+
+124
+00:05:46,699 --> 00:05:49,170
+it ought to divide its payoff if what
+它应该分摊收益，如果
+
+125
+00:05:49,370 --> 00:05:53,100
+it's concerned with is fairness secondly
+其次是公平
+
+126
+00:05:53,300 --> 00:05:55,680
+we might instead wonder about how it
+我们可能反而想知道它如何
+
+127
+00:05:55,879 --> 00:05:57,750
+ought to divide its payoff if what it's
+应该将收益分成两部分
+
+128
+00:05:57,949 --> 00:06:00,600
+concerned about is stability by which we
+关注的是我们的稳定性
+
+129
+00:06:00,800 --> 00:06:03,240
+mean everybody would be willing to form
+意味着每个人都愿意形成
+
+130
+00:06:03,439 --> 00:06:05,160
+the coalition rather than instead
+联盟而不是
+
+131
+00:06:05,360 --> 00:06:07,468
+forming smaller coalition's because they
+形成较小的联盟，因为他们
+
+132
+00:06:07,668 --> 00:06:09,150
+might be able to achieve higher value
+也许能够实现更高的价值
+
+133
+00:06:09,350 --> 00:06:11,968
+for themselves and we'll look at all of
+为自己，我们将研究所有
+
+134
+00:06:12,168 --> 00:06:17,168
+this in the videos that follow
+在接下来的视频中
+

@@ -1,0 +1,290 @@
+﻿1
+00:00:00,000 --> 00:00:02,139
+this video is going to introduce the
+该视频将介绍
+
+2
+00:00:02,339 --> 00:00:04,359
+idea of mixed strategies and explain why
+混合策略的想法并解释原因
+
+3
+00:00:04,559 --> 00:00:08,770
+they're important to Nash equilibria so
+它们对纳什均衡很重要，所以
+
+4
+00:00:08,970 --> 00:00:10,180
+the example that I want to think about
+我想想的例子
+
+5
+00:00:10,380 --> 00:00:14,500
+here is the United Nations setting up
+这是联合国的设置
+
+6
+00:00:14,699 --> 00:00:17,890
+checkpoints to defend against terrorist
+防御恐怖分子的检查站
+
+7
+00:00:18,089 --> 00:00:21,940
+attacks at a port in Somalia and you can
+袭击索马里的一个港口，你可以
+
+8
+00:00:22,140 --> 00:00:26,649
+see that what happens is they they place
+看看发生什么事了
+
+9
+00:00:26,849 --> 00:00:28,749
+a checkpoint on the road they stop all
+他们在路上阻止所有的检查站
+
+10
+00:00:28,949 --> 00:00:31,749
+cars like this taxi here and they go
+像这样的出租车在这里的车，他们去
+
+11
+00:00:31,949 --> 00:00:33,219
+through the contents of the car to make
+通过汽车的内容来制作
+
+12
+00:00:33,420 --> 00:00:34,538
+sure that it doesn't contain any
+确保它不包含任何
+
+13
+00:00:34,738 --> 00:00:36,928
+explosives or other dangerous materials
+炸药或其他危险材料
+
+14
+00:00:37,128 --> 00:00:39,820
+now let's think about this situation as
+现在让我们考虑这种情况
+
+15
+00:00:40,020 --> 00:00:42,820
+a game so there are a variety of
+一个游戏，所以有各种各样的
+
+16
+00:00:43,020 --> 00:00:45,579
+different roads that the UN could choose
+联合国可以选择的不同道路
+
+17
+00:00:45,780 --> 00:00:48,189
+to set up its checkpoint on every hour
+每小时设置其检查点
+
+18
+00:00:48,390 --> 00:00:54,549
+and for each one of those roads the the
+对于其中的每条道路， 
+
+19
+00:00:54,750 --> 00:00:58,588
+potential attacker could decide to
+潜在的攻击者可以决定
+
+20
+00:00:58,789 --> 00:01:01,928
+attack that road and if it's the case
+攻击那条路，如果是这样
+
+21
+00:01:02,128 --> 00:01:05,379
+that the defender defended that road and
+捍卫者捍卫了这条路， 
+
+22
+00:01:05,579 --> 00:01:07,329
+the attacker attacks it then the
+攻击者攻击它，然后
+
+23
+00:01:07,530 --> 00:01:09,579
+attacker gets a large negative payoff
+攻击者获得了巨大的负收益
+
+24
+00:01:09,780 --> 00:01:11,379
+because they're captured and their
+因为他们被捕获了
+
+25
+00:01:11,579 --> 00:01:14,230
+attack is not successful if on the other
+如果对方攻击不成功
+
+26
+00:01:14,430 --> 00:01:16,918
+hand the attacker attacks any other road
+攻击者攻击其他道路
+
+27
+00:01:17,118 --> 00:01:20,409
+then the attack is successful and then
+然后攻击成功，然后
+
+28
+00:01:20,609 --> 00:01:22,599
+the utility of the attacker depends on
+攻击者的效用取决于
+
+29
+00:01:22,799 --> 00:01:24,849
+the value of the target that was
+目标的价值是
+
+30
+00:01:25,049 --> 00:01:28,750
+attacked and wasn't defended now it's
+被攻击，现在没有被捍卫
+
+31
+00:01:28,950 --> 00:01:31,869
+pretty clear that if the UN were to
+很清楚，如果联合国要
+
+32
+00:01:32,069 --> 00:01:34,418
+commit to any deterministic strategy if
+致力于任何确定性策略，如果
+
+33
+00:01:34,618 --> 00:01:36,399
+they were to choose their action in any
+他们将在任何情况下选择自己的行动
+
+34
+00:01:36,599 --> 00:01:38,980
+deterministic way things are going to go
+确定性的方式
+
+35
+00:01:39,180 --> 00:01:41,649
+pretty badly for them because the
+对他们来说非常糟糕，因为
+
+36
+00:01:41,849 --> 00:01:43,808
+defender asserting the attacker would be
+声称攻击者是
+
+37
+00:01:44,009 --> 00:01:45,308
+able to look at what they're doing then
+然后可以看看他们在做什么
+
+38
+00:01:45,509 --> 00:01:47,259
+they'd be able to watch for a while see
+他们可以看一会儿
+
+39
+00:01:47,459 --> 00:01:49,090
+what strategy the UN is following and
+联合国正在采取什么策略？ 
+
+40
+00:01:49,290 --> 00:01:50,890
+then attack something different and
+然后攻击不同的东西
+
+41
+00:01:51,090 --> 00:01:53,558
+attacks would always be successful so it
+攻击将永远是成功的，所以它
+
+42
+00:01:53,759 --> 00:01:55,238
+must be that this is not really how
+必须是这不是真的
+
+43
+00:01:55,438 --> 00:01:58,119
+checkpoints get set up and indeed what
+建立检查点，实际上是什么
+
+44
+00:01:58,319 --> 00:02:00,399
+really happens is that the checkpoints
+真正发生的是检查站
+
+45
+00:02:00,599 --> 00:02:02,619
+are set up in a randomized way so that
+以随机方式设置，以便
+
+46
+00:02:02,819 --> 00:02:04,778
+even if the attacker is watched for a
+即使攻击者受到监视
+
+47
+00:02:04,978 --> 00:02:07,179
+while and figure out what the randomized
+一会儿，弄清楚什么是随机的
+
+48
+00:02:07,379 --> 00:02:10,240
+strategy is they're not able to know on
+策略是他们不知道
+
+49
+00:02:10,439 --> 00:02:12,368
+a given hour where the checkpoints are
+给定小时内检查点所在的位置
+
+50
+00:02:12,568 --> 00:02:13,320
+going to be
+将
+
+51
+00:02:13,520 --> 00:02:16,080
+and this means that their value of an
+这意味着他们的价值
+
+52
+00:02:16,280 --> 00:02:18,990
+attack is limited so the Nash
+攻击是有限的，所以纳什
+
+53
+00:02:19,189 --> 00:02:21,120
+equilibrium of a game like this is going
+像这样的游戏平衡
+
+54
+00:02:21,319 --> 00:02:23,790
+to involve the defender defending in a
+让辩护人参与
+
+55
+00:02:23,990 --> 00:02:26,040
+randomized way like this and this kind
+像这样的随机方式
+
+56
+00:02:26,240 --> 00:02:28,110
+of a randomized strategy is called a
+的随机策略称为
+
+57
+00:02:28,310 --> 00:02:30,510
+mixed strategy and that's going to be
+混合策略，这将是
+
+58
+00:02:30,710 --> 00:02:35,710
+the topic of the next sequence of videos
+下一段视频的主题
+

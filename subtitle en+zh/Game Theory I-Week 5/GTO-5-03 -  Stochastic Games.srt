@@ -1,0 +1,525 @@
+﻿1
+00:00:00,060 --> 00:00:02,829
+let's now speak briefly about stochastic
+现在让我们简要地谈论一下随机
+
+2
+00:00:03,029 --> 00:00:08,080
+games this is a topic that lends itself
+游戏这是一个适合自己的话题
+
+3
+00:00:08,279 --> 00:00:11,859
+to a very long discussion and quite a
+经过很长时间的讨论， 
+
+4
+00:00:12,058 --> 00:00:16,240
+complicated one but we'll touch on the
+复杂的一个，但我们将涉及
+
+5
+00:00:16,440 --> 00:00:19,499
+main points and position it to the
+要点并定位到
+
+6
+00:00:19,699 --> 00:00:22,600
+landscape of topics we're discussing and
+我们正在讨论的主题以及
+
+7
+00:00:22,800 --> 00:00:24,970
+so the strategy the striking point are
+所以策略的重点是
+
+8
+00:00:25,170 --> 00:00:27,730
+repeated games as we know a repeated
+我们知道重复的游戏
+
+9
+00:00:27,929 --> 00:00:31,390
+game is simply a game in normal form for
+游戏只是一种普通形式的游戏
+
+10
+00:00:31,589 --> 00:00:33,640
+example that will repeat over and over
+这个例子会一遍又一遍地重复
+
+11
+00:00:33,840 --> 00:00:37,599
+again for example we play prisoner's
+再例如，我们扮演囚犯
+
+12
+00:00:37,799 --> 00:00:40,839
+dilemma once twice three times maybe
+两次困境两次，也许
+
+13
+00:00:41,039 --> 00:00:42,518
+finite time maybe an infinite number of
+有限的时间也许是无限的
+
+14
+00:00:42,719 --> 00:00:44,678
+time then we accumulate all the rewards
+时间，然后我们积累所有的奖励
+
+15
+00:00:44,878 --> 00:00:47,369
+all the time to sum over all rewards
+一直在总结所有奖励
+
+16
+00:00:47,570 --> 00:00:49,899
+stochastic gamely is a generalization of
+随机博弈是对
+
+17
+00:00:50,100 --> 00:00:53,619
+it where we play games repeatedly but
+它是我们反复玩游戏的地方，但是
+
+18
+00:00:53,820 --> 00:00:56,439
+not necessarily the same game so we play
+不一定是同一游戏，所以我们玩
+
+19
+00:00:56,640 --> 00:00:59,768
+a game depending on how we played that
+取决于我们如何玩的游戏
+
+20
+00:00:59,969 --> 00:01:01,809
+game let's say prisoner's dilemma we
+游戏让我们说囚徒的困境
+
+21
+00:01:02,009 --> 00:01:04,629
+each got some payoff but depending on
+每个人都有一些回报，但取决于
+
+22
+00:01:04,829 --> 00:01:06,869
+how we play the game we also probable
+我们如何玩游戏，我们也可能
+
+23
+00:01:07,069 --> 00:01:08,769
+probabilistically transition to some
+概率性地过渡到一些
+
+24
+00:01:08,969 --> 00:01:13,179
+other game play that in turn and the
+依次进行的其他游戏和
+
+25
+00:01:13,379 --> 00:01:17,109
+process continues a graphical way to
+过程继续以图形方式
+
+26
+00:01:17,310 --> 00:01:20,230
+look at it is here if if this here is a
+看这是这里，如果这是一个
+
+27
+00:01:20,430 --> 00:01:23,259
+repeated game where you play the same
+重复游戏，您玩同样的游戏
+
+28
+00:01:23,459 --> 00:01:26,079
+game over and over again here you play
+在这里玩一遍又一遍的游戏
+
+29
+00:01:26,280 --> 00:01:30,730
+the game and then if you happen to play
+游戏，然后如果您碰巧玩
+
+30
+00:01:30,930 --> 00:01:33,789
+this your transition to this game if you
+这是您向该游戏的过渡，如果您
+
+31
+00:01:33,989 --> 00:01:35,349
+happen to just play this you maybe
+碰巧只是玩这个，你也许
+
+32
+00:01:35,549 --> 00:01:37,628
+transition to the same game if you play
+如果您玩的话，过渡到同一个游戏
+
+33
+00:01:37,828 --> 00:01:39,429
+this you change your transition here if
+如果你改变这里的过渡
+
+34
+00:01:39,629 --> 00:01:40,689
+you play this maybe you'll play this
+你玩这个也许你会玩这个
+
+35
+00:01:40,890 --> 00:01:44,198
+game again and so on from each game you
+再玩一次，依此类推
+
+36
+00:01:44,399 --> 00:01:47,890
+transition probabilistically to toe it
+概率过渡到脚趾
+
+37
+00:01:48,090 --> 00:01:51,959
+to other games this is a stochastic game
+对其他游戏来说这是一个随机的游戏
+
+38
+00:01:52,159 --> 00:01:55,750
+formally speaking it's it's the
+正式来说是
+
+39
+00:01:55,950 --> 00:01:57,759
+following tuple it's a lot of notation
+以下元组有很多符号
+
+40
+00:01:57,959 --> 00:02:01,689
+but the concept is exactly so we have is
+但是这个概念正是我们所拥有的
+
+41
+00:02:01,890 --> 00:02:06,488
+a finite set of states Q we have a set
+有限的一组状态Q我们有一组
+
+42
+00:02:06,688 --> 00:02:11,340
+of players we have a set of actions
+我们有一系列行动
+
+43
+00:02:11,539 --> 00:02:13,660
+where
+哪里
+
+44
+00:02:13,860 --> 00:02:17,680
+actions are available to two specific
+有两个特定的操作可用
+
+45
+00:02:17,879 --> 00:02:20,620
+players of a sub I is the action
+子我是玩家的动作
+
+46
+00:02:20,819 --> 00:02:25,390
+available player I and then we have two
+可用的球员我，然后我们有两个
+
+47
+00:02:25,590 --> 00:02:29,650
+two functions we have the transition
+我们有两个功能过渡
+
+48
+00:02:29,849 --> 00:02:31,660
+probability function so depending on the
+概率函数，因此取决于
+
+49
+00:02:31,860 --> 00:02:35,130
+state were in and on the actions we took
+陈述我们采取的行动
+
+50
+00:02:35,330 --> 00:02:38,530
+we move to each of any of the other
+我们移到其他任何一个
+
+51
+00:02:38,729 --> 00:02:41,110
+states or the very same state with a
+状态或与一个状态完全相同的状态
+
+52
+00:02:41,310 --> 00:02:43,660
+certain probability as governed by this
+受此约束的特定概率
+
+53
+00:02:43,860 --> 00:02:50,320
+probability distribution and and
+概率分布和
+
+54
+00:02:50,520 --> 00:02:53,770
+similarly a reward is the reward
+同样，奖励就是奖励
+
+55
+00:02:53,969 --> 00:02:57,580
+function which tells us if in a certain
+告诉我们如果
+
+56
+00:02:57,780 --> 00:03:00,010
+State a certain action profile was taken
+说明采取了某种行动
+
+57
+00:03:00,210 --> 00:03:03,000
+by the agents then this is a reward to
+由代理商，那么这是对
+
+58
+00:03:03,199 --> 00:03:06,430
+to that particular agent to eat each of
+给那个特工吃
+
+59
+00:03:06,629 --> 00:03:08,920
+the agents so our sub I is a reward to
+代理商，所以我们的子我是对
+
+60
+00:03:09,120 --> 00:03:12,960
+two agent I that's the formal definition
+我是正式的两个代理人
+
+61
+00:03:13,159 --> 00:03:15,580
+notice that it's sort of assumes
+请注意，这是一种假设
+
+62
+00:03:15,780 --> 00:03:18,250
+implicitly that you have the same action
+暗含你有相同的动作
+
+63
+00:03:18,449 --> 00:03:24,520
+spaces here but you could define it
+这里有空格，但您可以定义它
+
+64
+00:03:24,719 --> 00:03:26,380
+otherwise it simply would involve more
+否则，它将涉及更多
+
+65
+00:03:26,580 --> 00:03:27,990
+notations or nothing inherently
+表示法或本来就不存在
+
+66
+00:03:28,189 --> 00:03:30,789
+important about the action spaces being
+关于动作空间很重要
+
+67
+00:03:30,989 --> 00:03:32,500
+the same in the different games within
+在不同的游戏中相同
+
+68
+00:03:32,699 --> 00:03:36,550
+this stochastic game so just a few final
+这个随机的游戏，所以最后几场
+
+69
+00:03:36,750 --> 00:03:39,520
+comments on it first of all as we as we
+首先像我们一样评论它
+
+70
+00:03:39,719 --> 00:03:42,100
+saw this obviously general generalizes
+看到这显然可以概括
+
+71
+00:03:42,300 --> 00:03:44,710
+the notion of a repeated game but it
+重复游戏的概念，但它
+
+72
+00:03:44,909 --> 00:03:47,469
+also generalizes the notion of an MDP or
+也概括了MDP或
+
+73
+00:03:47,669 --> 00:03:51,939
+a Markov decision process if a if a
+马尔可夫决策过程，如果
+
+74
+00:03:52,139 --> 00:03:54,009
+sarcastic game if a repeated game is a
+如果重复的游戏是一个讽刺游戏
+
+75
+00:03:54,209 --> 00:03:57,090
+stochastic game with only one game a
+一个只有一个游戏的随机游戏
+
+76
+00:03:57,289 --> 00:04:00,910
+Markov decision process on MVP is a game
+ MVP的马尔可夫决策过程是一个游戏
+
+77
+00:04:01,110 --> 00:04:04,390
+with only one player and so you have
+只有一个玩家，所以你有
+
+78
+00:04:04,590 --> 00:04:08,770
+States there where the agents take agent
+代理商所在的国家
+
+79
+00:04:08,969 --> 00:04:11,620
+takes an action receives a remediate
+采取行动得到补救
+
+80
+00:04:11,819 --> 00:04:13,920
+reward and probably move to some other
+奖励并可能转移到其他人
+
+81
+00:04:14,120 --> 00:04:16,900
+state and the only difference is that he
+状态，唯一的区别是他
+
+82
+00:04:17,100 --> 00:04:20,230
+is the only actor in the setting I
+是背景中我唯一的演员
+
+83
+00:04:20,430 --> 00:04:22,240
+mentioned this because well empty peas
+提到这个是因为豌豆很好
+
+84
+00:04:22,439 --> 00:04:24,680
+have been studied
+已经研究过
+
+85
+00:04:24,879 --> 00:04:27,860
+naturally in a variety of disciplines
+自然地在各种学科中
+
+86
+00:04:28,060 --> 00:04:30,139
+from optimization to computer science to
+从优化到计算机科学，再到
+
+87
+00:04:30,339 --> 00:04:34,400
+pure math and beyond but also these two
+纯粹的数学，以及超越这两个
+
+88
+00:04:34,600 --> 00:04:37,370
+perspectives of generalization repeated
+泛化观点重复
+
+89
+00:04:37,569 --> 00:04:41,050
+games and of MVPs give you a sense for
+游戏和MVP可以带给您
+
+90
+00:04:41,250 --> 00:04:44,030
+the theory and investigations into
+理论与研究
+
+91
+00:04:44,230 --> 00:04:47,240
+stochastic games so from repeated games
+重复游戏中的随机游戏
+
+92
+00:04:47,439 --> 00:04:52,129
+we inherit the definitions of different
+我们继承了不同的定义
+
+93
+00:04:52,329 --> 00:04:53,810
+ways of the aggregating rewards over
+汇总奖励的方式
+
+94
+00:04:54,009 --> 00:04:57,740
+time you can have limited average
+有限的平均时间
+
+95
+00:04:57,939 --> 00:05:01,389
+rewards future discounted rewards
+奖励未来的折扣奖励
+
+96
+00:05:01,589 --> 00:05:05,829
+whereas from the literature on
+而根据文献
+
+97
+00:05:06,029 --> 00:05:11,180
+optimization and on MVPs we get notions
+优化，在MVP上我们有了概念
+
+98
+00:05:11,379 --> 00:05:17,180
+such as stationarity and Markovian
+例如平稳性和马尔可夫式
+
+99
+00:05:17,379 --> 00:05:20,329
+strategies these have to do with we also
+这些与我们有关的策略
+
+100
+00:05:20,529 --> 00:05:22,370
+have notions of reach ability about the
+有关于
+
+101
+00:05:22,569 --> 00:05:24,079
+structure of the underlying transition
+基本过渡的结构
+
+102
+00:05:24,279 --> 00:05:26,569
+probability and so again these are
+概率，这些又是
+
+103
+00:05:26,769 --> 00:05:28,970
+issues that are involved that we won't
+我们不会涉及的问题
+
+104
+00:05:29,170 --> 00:05:33,620
+get to into more in this lecture but at
+在本讲座中深入了解，但在
+
+105
+00:05:33,819 --> 00:05:38,819
+least we flagged their existence
+至少我们标记了它们的存在
+

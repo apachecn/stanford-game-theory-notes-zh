@@ -1,0 +1,600 @@
+﻿1
+00:00:00,030 --> 00:00:02,738
+so here is an alternative definition of
+所以这是对
+
+2
+00:00:02,939 --> 00:00:05,408
+Asian games that is essentially
+从本质上讲，亚洲运动会
+
+3
+00:00:05,609 --> 00:00:09,100
+identical mathematically but presented
+数学上相同但呈现
+
+4
+00:00:09,300 --> 00:00:14,740
+differently it's based on types or more
+根据类型或更多而不同
+
+5
+00:00:14,939 --> 00:00:19,060
+fully epistemic types and the type of
+完全认识的类型和类型
+
+6
+00:00:19,260 --> 00:00:22,419
+the agent is supposed to capture
+该代理应该捕获
+
+7
+00:00:22,618 --> 00:00:24,489
+everything that's private information to
+所有的私人信息
+
+8
+00:00:24,689 --> 00:00:29,589
+the agents so if you look at you know
+代理商，所以如果你看着你知道
+
+9
+00:00:29,789 --> 00:00:32,948
+the first definition of Asian game that
+亚洲游戏的第一个定义是
+
+10
+00:00:33,149 --> 00:00:35,890
+we saw having to do with certainty about
+我们看到与确定有关
+
+11
+00:00:36,090 --> 00:00:38,768
+types and the common pryor then the type
+类型和普通的pryor然后类型
+
+12
+00:00:38,969 --> 00:00:42,579
+of the agent was her private signal that
+她的私人信号是
+
+13
+00:00:42,780 --> 00:00:46,390
+is the information set in which the the
+是其中的信息集
+
+14
+00:00:46,590 --> 00:00:52,079
+get chosen game lies as well as
+被选择的游戏谎言以及
+
+15
+00:00:52,280 --> 00:00:54,959
+everything that emanates from it namely
+由此产生的一切
+
+16
+00:00:55,159 --> 00:00:57,608
+her beliefs about what the possible
+她对可能的信念
+
+17
+00:00:57,808 --> 00:00:59,529
+information of the other agents are and
+其他代理商的信息是和
+
+18
+00:00:59,729 --> 00:01:00,759
+information of the other agent about
+其他代理商的有关信息
+
+19
+00:01:00,960 --> 00:01:03,929
+yourself and so forth so all of that is
+自己等等，所有这些都是
+
+20
+00:01:04,129 --> 00:01:07,238
+folded into the notion of a type so
+折叠成一个类型的概念
+
+21
+00:01:07,438 --> 00:01:09,340
+that's mathematically very convenient
+从数学上讲这很方便
+
+22
+00:01:09,540 --> 00:01:12,659
+packing all this information into a type
+将所有这些信息打包成一个类型
+
+23
+00:01:12,859 --> 00:01:15,459
+formally speaking then the Bayesian game
+正式来说贝叶斯博弈
+
+24
+00:01:15,659 --> 00:01:19,558
+is defined as follows it's defined as
+定义如下
+
+25
+00:01:19,759 --> 00:01:24,369
+this tuple that is as follows we have a
+这个元组如下
+
+26
+00:01:24,569 --> 00:01:27,789
+set of agents we have the actions
+我们有行动的代理人集合
+
+27
+00:01:27,989 --> 00:01:29,709
+available to the agent so now we don't
+提供给代理商，所以现在我们不
+
+28
+00:01:29,909 --> 00:01:32,230
+have sets of games we have very directly
+有几组游戏我们非常直接
+
+29
+00:01:32,430 --> 00:01:34,168
+the actions available to the agent and
+代理可用的操作和
+
+30
+00:01:34,368 --> 00:01:37,750
+now we have the type this abstract
+现在我们有这个抽象的类型
+
+31
+00:01:37,950 --> 00:01:39,969
+mathematical object that care that
+关心那个的数学对象
+
+32
+00:01:40,170 --> 00:01:42,189
+captures the private information of the
+捕获的私人信息
+
+33
+00:01:42,390 --> 00:01:45,369
+agents so we have a type for each agent
+代理商，所以我们为每个代理商都有一个类型
+
+34
+00:01:45,569 --> 00:01:49,840
+and we have a common prior as B as in
+我们有一个共同的先验B 
+
+35
+00:01:50,040 --> 00:01:53,799
+the first definition of games we have a
+游戏的第一个定义是
+
+36
+00:01:54,000 --> 00:01:55,750
+common prior but now it's not over games
+以前很常见，但现在还没有结束
+
+37
+00:01:55,950 --> 00:01:59,439
+it's over types so agent each agent had
+这是类型，所以每个代理都有代理
+
+38
+00:01:59,640 --> 00:02:04,238
+the type and that prior is common the
+类型和先验是常见的
+
+39
+00:02:04,438 --> 00:02:06,899
+type is chosen according to a
+类型根据选择
+
+40
+00:02:07,099 --> 00:02:09,460
+probability distribution that's commonly
+通常的概率分布
+
+41
+00:02:09,659 --> 00:02:12,610
+known by all the agents and each agent
+所有代理商和每个代理商都知道
+
+42
+00:02:12,810 --> 00:02:13,240
+knows
+知道
+
+43
+00:02:13,439 --> 00:02:15,850
+type therefore they also have a
+因此，他们也有一个
+
+44
+00:02:16,050 --> 00:02:17,950
+posterior about the type of the other
+关于其他类型的后验
+
+45
+00:02:18,150 --> 00:02:21,130
+agents and beliefs about what the other
+代理人和其他人的信念
+
+46
+00:02:21,330 --> 00:02:22,750
+agents might believe it about their own
+特工可能会相信自己
+
+47
+00:02:22,949 --> 00:02:26,140
+type and so on and so forth this is the
+类型，依此类推，这就是
+
+48
+00:02:26,340 --> 00:02:28,450
+type of the agents and we have the
+代理商的类型，我们有
+
+49
+00:02:28,650 --> 00:02:33,340
+utility function now depend not only are
+实用功能现在不仅取决于
+
+50
+00:02:33,539 --> 00:02:36,100
+the actions taken by the agents but of
+代理商采取的行动，但
+
+51
+00:02:36,300 --> 00:02:40,830
+their type that's the formal definition
+他们的类型就是正式定义
+
+52
+00:02:41,030 --> 00:02:45,280
+again it's mathematically in something
+再次从数学上讲
+
+53
+00:02:45,479 --> 00:02:47,980
+very simple but the intuition is
+很简单，但直觉是
+
+54
+00:02:48,180 --> 00:02:50,469
+complicated because the notion of a type
+复杂，因为类型的概念
+
+55
+00:02:50,669 --> 00:02:53,650
+packs into it a lot of things so let's
+包装了很多东西，所以让我们
+
+56
+00:02:53,849 --> 00:02:56,389
+see it in action
+看到它在行动
+
+57
+00:02:57,409 --> 00:03:02,230
+consider this game that we saw when we
+考虑一下我们看到的这个游戏
+
+58
+00:03:02,430 --> 00:03:05,939
+discussed the first definition of
+讨论了第一个定义
+
+59
+00:03:06,139 --> 00:03:10,630
+evasion games again we had four possible
+再次进行回避游戏，我们有四种可能
+
+60
+00:03:10,830 --> 00:03:14,830
+games being played chosen by at random
+随机选择的正在玩的游戏
+
+61
+00:03:15,030 --> 00:03:18,790
+by nature according to this prior and we
+根据这个先天的本质，我们
+
+62
+00:03:18,990 --> 00:03:22,830
+all we had the private signals that the
+我们所有的私人信号都表明
+
+63
+00:03:23,030 --> 00:03:25,480
+information sets that the agents found
+代理商发现的信息集
+
+64
+00:03:25,680 --> 00:03:28,750
+themselves in here is the type
+自己在这里是类型
+
+65
+00:03:28,949 --> 00:03:31,630
+perspective on this so what are the
+对此的观点是什么
+
+66
+00:03:31,830 --> 00:03:33,790
+actions available to agents very simply
+代理可以轻松执行的操作
+
+67
+00:03:33,990 --> 00:03:39,000
+the row agent has the up or down action
+行代理具有向上或向下操作
+
+68
+00:03:39,199 --> 00:03:42,039
+actions and the column agents have the
+操作和列代理具有
+
+69
+00:03:42,239 --> 00:03:45,670
+left-to-right actions that pay off
+从左到右的行动有回报
+
+70
+00:03:45,870 --> 00:03:48,580
+however will depend on their type so
+但是将取决于它们的类型，所以
+
+71
+00:03:48,780 --> 00:03:50,980
+let's let's look for example what
+让我们来看例如
+
+72
+00:03:51,180 --> 00:03:53,860
+happens here so what is the payoff when
+发生在这里，那么什么是回报
+
+73
+00:03:54,060 --> 00:03:57,689
+the agent the raw agent plays up and the
+代理，原始代理出现，并且
+
+74
+00:03:57,889 --> 00:04:01,509
+column player plays lift well that
+专栏运动员发挥良好， 
+
+75
+00:04:01,709 --> 00:04:05,830
+depends if the type of the agents is
+取决于代理商的类型是
+
+76
+00:04:06,030 --> 00:04:08,259
+this one or what is the type the type
+这一种还是什么类型
+
+77
+00:04:08,459 --> 00:04:12,100
+corresponds now to this information that
+现在对应于该信息， 
+
+78
+00:04:12,300 --> 00:04:16,449
+they have and the type of the second
+他们有和第二种
+
+79
+00:04:16,649 --> 00:04:22,660
+player is this well what the path then
+玩家好在那走什么路
+
+80
+00:04:22,860 --> 00:04:25,329
+well the path corresponds now to this
+路径现在与此对应
+
+81
+00:04:25,529 --> 00:04:26,840
+cell right there
+那里的细胞
+
+82
+00:04:27,040 --> 00:04:29,509
+is what happens when they play up and
+当他们玩耍时会发生什么
+
+83
+00:04:29,709 --> 00:04:35,180
+left and so you get 2 and 0 when the
+左，所以当得到2和0时
+
+84
+00:04:35,379 --> 00:04:39,500
+types are as they are let's take some
+类型是一样，让我们​​来一些
+
+85
+00:04:39,699 --> 00:04:42,620
+other random example here is clear the
+其他随机示例在这里很明显
+
+86
+00:04:42,819 --> 00:04:45,230
+slide let's take some rather rather
+幻灯片让我们采取一些宁可
+
+87
+00:04:45,430 --> 00:04:50,600
+example here clearing the slide and let
+这里的示例清除幻灯片，然后让
+
+88
+00:04:50,800 --> 00:04:58,210
+us look for example at down and left
+我们看一下向下和向左
+
+89
+00:04:58,410 --> 00:05:04,250
+when the types are these well what is
+当这些类型很好的时候
+
+90
+00:05:04,449 --> 00:05:06,560
+the what are the what what are the what
+什么是什么什么是什么
+
+91
+00:05:06,759 --> 00:05:10,220
+are the types so the type is sick is
+是类型，所以类型是生病的是
+
+92
+00:05:10,420 --> 00:05:15,439
+this one right here so the this is the
+这个就在这里，这是
+
+93
+00:05:15,639 --> 00:05:18,470
+information available to the first agent
+第一代理人可获得的信息
+
+94
+00:05:18,670 --> 00:05:22,460
+the second agent has this information
+第二个代理商有此信息
+
+95
+00:05:22,660 --> 00:05:25,850
+available to her which means that this
+向她提供这意味着
+
+96
+00:05:26,050 --> 00:05:31,600
+right here is the game being played and
+在这里是正在玩的游戏， 
+
+97
+00:05:31,800 --> 00:05:35,660
+what is DL DL means that we're playing
+ DL DL是什么意思我们在玩
+
+98
+00:05:35,860 --> 00:05:38,270
+down and lifts there will be this one
+向下并举起会有这个
+
+99
+00:05:38,470 --> 00:05:40,579
+and therefore the payoff will be
+因此，回报将是
+
+100
+00:05:40,779 --> 00:05:46,520
+correspondingly 0 and 0 so you can look
+分别对应0和0，所以您可以看一下
+
+101
+00:05:46,720 --> 00:05:49,310
+at other examples and figure out what
+在其他例子中，找出什么
+
+102
+00:05:49,509 --> 00:05:55,490
+the type based formulation means by just
+基于类型的表述意味着
+
+103
+00:05:55,689 --> 00:05:58,310
+taking some random row here and figuring
+在这里采取一些随机行并计算
+
+104
+00:05:58,509 --> 00:06:04,930
+out why the row is the way it is the
+找出为什么行是这样的
+
+105
+00:06:05,129 --> 00:06:09,230
+last thing to say here before we move on
+在我们继续之前要在这里说的最后一件事
+
+106
+00:06:09,430 --> 00:06:12,290
+to analysis is that in this particular
+要分析的是
+
+107
+00:06:12,490 --> 00:06:17,750
+example by fixing the type you ended up
+通过修复最终类型的示例
+
+108
+00:06:17,949 --> 00:06:22,310
+with a very specific game and this is a
+一个非常具体的游戏，这是一个
+
+109
+00:06:22,509 --> 00:06:26,750
+complicated topic where in fact if you
+复杂的话题实际上，如果您
+
+110
+00:06:26,949 --> 00:06:29,689
+wanted to map it uncertainty over games
+想将不确定性映射到游戏上
+
+111
+00:06:29,889 --> 00:06:31,819
+you may not have unique game and you
+您可能没有独特的游戏，而您
+
+112
+00:06:32,019 --> 00:06:33,860
+need to look at the set of games and the
+需要看一组游戏和
+
+113
+00:06:34,060 --> 00:06:35,220
+expectation there
+那里的期望
+
+114
+00:06:35,420 --> 00:06:38,930
+but I'm just flanging this as a topic
+但我只是把它当作主题
+
+115
+00:06:39,129 --> 00:06:41,340
+what we discussed will give you a good
+我们讨论的内容将为您带来好处
+
+116
+00:06:41,540 --> 00:06:43,590
+handle on the two formulations of
+处理以下两个公式
+
+117
+00:06:43,790 --> 00:06:45,689
+Bayesian games the explicit from a
+贝叶斯游戏从
+
+118
+00:06:45,889 --> 00:06:49,410
+listing of games and a common prior over
+游戏清单和共同的优先权
+
+119
+00:06:49,610 --> 00:06:51,930
+them and a partition structure for the
+他们和一个分区结构
+
+120
+00:06:52,129 --> 00:06:57,129
+agents or the type based formulation
+剂或基于类型的配方
+

@@ -1,0 +1,940 @@
+﻿1
+00:00:00,000 --> 00:00:01,330
+this video is going to tell you about
+这部影片将告诉您
+
+2
+00:00:01,530 --> 00:00:05,270
+the concept of purrito optimality
+最优性概念
+
+3
+00:00:06,950 --> 00:00:09,160
+so far we've thought about some
+到目前为止，我们已经考虑过一些
+
+4
+00:00:09,359 --> 00:00:11,649
+canonical games from game theory and
+从博弈论和
+
+5
+00:00:11,849 --> 00:00:14,680
+we've thought about how to play them but
+我们已经考虑过如何玩，但是
+
+6
+00:00:14,880 --> 00:00:16,510
+we've really been taking the players
+我们真的一直在吸引球员
+
+7
+00:00:16,710 --> 00:00:18,190
+perspective we've been thinking about
+我们一直在思考的观点
+
+8
+00:00:18,390 --> 00:00:20,050
+what what is the right thing to do in a
+什么是正确的事情要做
+
+9
+00:00:20,250 --> 00:00:23,530
+game now I'd like to instead step back
+现在我想退后一步
+
+10
+00:00:23,730 --> 00:00:25,269
+and think about the games from the
+并从中考虑游戏
+
+11
+00:00:25,469 --> 00:00:26,949
+perspective of kind of an outside
+外在的观点
+
+12
+00:00:27,149 --> 00:00:29,919
+observer looking in and trying to judge
+观察者，试图判断
+
+13
+00:00:30,118 --> 00:00:32,979
+what's happening and the question that
+发生了什么，问题是
+
+14
+00:00:33,179 --> 00:00:35,948
+I'd like to ask is is there a sense in
+我想问一下
+
+15
+00:00:36,149 --> 00:00:37,928
+which I can say that some outcomes of a
+我可以说， 
+
+16
+00:00:38,128 --> 00:00:42,229
+game are better than other outcomes
+游戏胜过其他结果
+
+17
+00:00:42,799 --> 00:00:44,979
+actually like I'd like to encourage you
+其实就像我想鼓励你
+
+18
+00:00:45,179 --> 00:00:46,959
+to pause the video at this point and
+此时暂停视频，然后
+
+19
+00:00:47,159 --> 00:00:49,390
+just think about this for yourself see
+自己想想看
+
+20
+00:00:49,590 --> 00:00:51,489
+if you can come up with an answer before
+如果你能想出一个答案
+
+21
+00:00:51,689 --> 00:00:57,939
+I tell you what my answer is well let me
+我告诉你我的答案很好，让我
+
+22
+00:00:58,140 --> 00:01:00,998
+give you a bit of a hint um you can't
+给你一些提示，你不能
+
+23
+00:01:01,198 --> 00:01:03,338
+say that one agents interests are more
+说一个代理商的利益更大
+
+24
+00:01:03,539 --> 00:01:05,019
+important than another agents interests
+比另一个代理商的利益重要
+
+25
+00:01:05,219 --> 00:01:07,810
+because I don't know how important the
+因为我不知道
+
+26
+00:01:08,010 --> 00:01:09,909
+different agents are and actually it
+实际上是不同的代理商
+
+27
+00:01:10,109 --> 00:01:12,700
+turns out I can't even say what scales
+原来我什至不敢说什么尺度
+
+28
+00:01:12,900 --> 00:01:15,189
+their utilities are expressed in there
+他们的效用在那儿表达
+
+29
+00:01:15,390 --> 00:01:16,988
+isn't necessarily a common scale for
+不一定是
+
+30
+00:01:17,188 --> 00:01:18,668
+utility between the different agents and
+不同代理商之间的效用
+
+31
+00:01:18,868 --> 00:01:23,039
+so in a sense the the problem of
+所以从某种意义上说
+
+32
+00:01:23,239 --> 00:01:25,778
+evaluating an outcome of a game is kind
+评估游戏的结果很友善
+
+33
+00:01:25,978 --> 00:01:28,058
+of like trying to find the payoff
+就像试图找到回报
+
+34
+00:01:28,259 --> 00:01:30,128
+maximizing outcome when I'm going to be
+当我要做的时候最大化结果
+
+35
+00:01:30,328 --> 00:01:32,140
+paid an amount in different currencies
+支付了不同货币的金额
+
+36
+00:01:32,340 --> 00:01:34,000
+and I don't know what these currencies
+我不知道这些货币是什么
+
+37
+00:01:34,200 --> 00:01:37,149
+are so you can kind of think of the
+这样您就可以想到
+
+38
+00:01:37,349 --> 00:01:38,859
+outcome of a game as an outside observer
+游戏作为外部观察者的结果
+
+39
+00:01:39,060 --> 00:01:41,349
+just interested in kind of social good
+只对某种社会公益感兴趣
+
+40
+00:01:41,549 --> 00:01:43,679
+of the participants as kind of being
+参与者的存在
+
+41
+00:01:43,879 --> 00:01:47,140
+like I'm an outcome where I get pay or
+就像我得到报酬的结果
+
+42
+00:01:47,340 --> 00:01:50,980
+once pay player ones payoff in currency
+一次以货币支付玩家的收益
+
+43
+00:01:51,180 --> 00:01:53,140
+one and I get player two's payoff in
+一个，我得到第二个玩家的收益
+
+44
+00:01:53,340 --> 00:01:55,359
+currency two and nobody can tell me what
+货币二，没人能告诉我
+
+45
+00:01:55,560 --> 00:01:56,948
+the exchange rate is between currency
+汇率在货币之间
+
+46
+00:01:57,149 --> 00:01:59,649
+one and currency two now that I've made
+我现在做了一个和第二种货币
+
+47
+00:01:59,849 --> 00:02:01,899
+this a little bit more concrete let me
+这更具体一点让我
+
+48
+00:02:02,099 --> 00:02:04,090
+again invite you to think about whether
+再次邀请您考虑
+
+49
+00:02:04,290 --> 00:02:06,459
+there's a way that I can identify
+有一种我可以识别的方法
+
+50
+00:02:06,659 --> 00:02:08,860
+outcomes that I would prefer one to
+我想要一个的结果
+
+51
+00:02:09,060 --> 00:02:11,270
+another
+另一个
+
+52
+00:02:12,769 --> 00:02:14,950
+well here's here's a way we can make
+好，这是我们可以做的一种方法
+
+53
+00:02:15,150 --> 00:02:17,530
+this work we can't do it all the time
+这项工作我们不能一直做到
+
+54
+00:02:17,729 --> 00:02:22,569
+but sometimes there's an outcome oh that
+但是有时候会有结果哦
+
+55
+00:02:22,769 --> 00:02:24,580
+is at least as good for everybody
+至少对每个人都一样
+
+56
+00:02:24,780 --> 00:02:28,868
+as some other outcome Oh prime remember
+作为其他结果哦，主要记得
+
+57
+00:02:29,068 --> 00:02:30,550
+an outcome is like a cell of the matrix
+结果就像矩阵的一个单元
+
+58
+00:02:30,750 --> 00:02:34,740
+game so I've got this matrix game and
+游戏，所以我有这个矩阵游戏， 
+
+59
+00:02:34,939 --> 00:02:40,360
+there's some outcome Oh which is at
+会有一些结果哦
+
+60
+00:02:40,560 --> 00:02:42,460
+least as good for everybody as some
+至少对每个人都一样
+
+61
+00:02:42,659 --> 00:02:47,189
+other outcome Oh Prime and furthermore
+其他结果哦总理和此外
+
+62
+00:02:47,389 --> 00:02:50,890
+there's some agent who strictly prefers
+有些经纪人严格喜欢
+
+63
+00:02:51,090 --> 00:02:56,469
+Oh to Oprah well in that case I should
+噢，那对奥普拉我应该
+
+64
+00:02:56,669 --> 00:02:58,509
+be so so they let me actually make an
+是这样，所以他们让我实际上
+
+65
+00:02:58,709 --> 00:03:01,810
+example of this so Oh might be that
+这样的例子，哦可能是
+
+66
+00:03:02,009 --> 00:03:05,379
+player one gets seven units of utility
+玩家一获得七个单位的效用
+
+67
+00:03:05,579 --> 00:03:11,020
+and player two gets eight and Oh prime
+玩家二获得八，素数
+
+68
+00:03:11,219 --> 00:03:13,840
+might be that player one gets seven
+可能是一名选手获得了七分
+
+69
+00:03:14,039 --> 00:03:16,719
+units of utility and player two gets two
+效用和玩家两个获得两个
+
+70
+00:03:16,919 --> 00:03:20,409
+units of utility in this case oh is at
+在这种情况下，实用单位是
+
+71
+00:03:20,609 --> 00:03:23,069
+least as good for everybody and it's
+至少对每个人都一样，这是
+
+72
+00:03:23,269 --> 00:03:25,450
+because it's equal for player one and
+因为这对玩家一是平等的
+
+73
+00:03:25,650 --> 00:03:28,810
+it's strictly better for somebody it's
+绝对对某人更好
+
+74
+00:03:29,009 --> 00:03:31,800
+strictly better for player two so in
+严格来说对第二个玩家更好
+
+75
+00:03:32,000 --> 00:03:34,960
+this case it seems reasonable to say
+这种情况下似乎可以说合理
+
+76
+00:03:35,159 --> 00:03:37,240
+that an outside observer should feel
+外部观察者应该感觉到的
+
+77
+00:03:37,439 --> 00:03:39,368
+that outcome oh is better than outcome
+那个结果比结果好
+
+78
+00:03:39,568 --> 00:03:43,569
+Oprah and technically the way we say
+奥普拉（Oprah）以及我们所说的方式
+
+79
+00:03:43,769 --> 00:03:45,969
+this is that outcome Oh purrito
+这就是那个结果哦purrito 
+
+80
+00:03:46,169 --> 00:03:52,420
+dominates Oh prime well now I can define
+我现在可以定义主宰哦
+
+81
+00:03:52,620 --> 00:03:54,868
+this concept of Pareto optimality an
+帕累托最优的概念
+
+82
+00:03:55,068 --> 00:03:59,770
+outcome Oh star is purrito optimal if it
+结果如果它是星形的，那么星形是最优的
+
+83
+00:03:59,969 --> 00:04:03,069
+isn't purrito dominated by anything so
+并不是purrito主导任何事情
+
+84
+00:04:03,269 --> 00:04:05,500
+but that's kind of a hard definition
+但这有点很难定义
+
+85
+00:04:05,699 --> 00:04:07,180
+because it's defined in negative terms
+因为它是负面定义
+
+86
+00:04:07,379 --> 00:04:09,879
+let me say it again an outcome Oh star
+让我再说一遍结果哦，明星
+
+87
+00:04:10,079 --> 00:04:20,889
+is pretty optimistic and so let's test
+非常乐观，所以让我们测试
+
+88
+00:04:21,089 --> 00:04:22,959
+our understanding of this definition by
+我们对这个定义的理解是
+
+89
+00:04:23,158 --> 00:04:24,879
+asking a couple of questions
+问几个问题
+
+90
+00:04:25,079 --> 00:04:27,699
+is it possible for a game to have more
+游戏是否有可能拥有更多
+
+91
+00:04:27,899 --> 00:04:29,939
+than one Pareto optimal outcome as
+比一个帕累托最优结果
+
+92
+00:04:30,139 --> 00:04:31,749
+always let me encourage you to think
+总是让我鼓励你思考
+
+93
+00:04:31,949 --> 00:04:33,759
+about this for a second before I answer
+在我回答之前大约一秒钟
+
+94
+00:04:33,959 --> 00:04:40,269
+it of course it is because it's possible
+当然是因为有可能
+
+95
+00:04:40,468 --> 00:04:41,769
+for two outcomes
+有两个结果
+
+96
+00:04:41,968 --> 00:04:44,619
+- neither predominate each other if for
+ -两者都不占优势
+
+97
+00:04:44,819 --> 00:04:46,989
+example all payoffs in the game are the
+例如游戏中的所有收益都是
+
+98
+00:04:47,189 --> 00:04:50,050
+same if I have a game where everyone
+如果我有一个游戏，每个人都一样
+
+99
+00:04:50,250 --> 00:04:51,730
+gets a payoff of one no matter what
+无论如何都会得到回报
+
+100
+00:04:51,930 --> 00:04:53,410
+happens then
+然后发生
+
+101
+00:04:53,610 --> 00:04:55,269
+nothing dominates anything else because
+没有什么能统治其他任何事情，因为
+
+102
+00:04:55,468 --> 00:04:57,459
+domination requires somebody to strictly
+统治需要有人严格
+
+103
+00:04:57,658 --> 00:05:00,069
+prefer something to something else so
+偏爱其他东西，所以
+
+104
+00:05:00,269 --> 00:05:01,480
+this game has more than one pretty
+这个游戏有多个
+
+105
+00:05:01,680 --> 00:05:06,910
+optimal outcome something else I can ask
+最佳结果我还有其他要求
+
+106
+00:05:07,110 --> 00:05:09,550
+is does every game have at least one
+每个游戏至少都有一个
+
+107
+00:05:09,750 --> 00:05:11,740
+Pareto optimal outcome or is it possible
+帕累托最优结果或是否可能
+
+108
+00:05:11,939 --> 00:05:14,160
+that just nothing will be fredo optimal
+没有什么是最佳的
+
+109
+00:05:14,360 --> 00:05:17,980
+well well let you think about it for a
+好吧，让你考虑一下
+
+110
+00:05:18,180 --> 00:05:21,699
+second but the answer is yes every game
+第二，但答案是每场比赛都是
+
+111
+00:05:21,899 --> 00:05:23,649
+has to have at least one Pareto optimal
+必须至少有一个帕累托最优
+
+112
+00:05:23,848 --> 00:05:30,069
+outcome this is easy to see because in
+结果很容易看到，因为
+
+113
+00:05:30,269 --> 00:05:32,559
+order for something to not be pre to
+命令某事不被pre 
+
+114
+00:05:32,759 --> 00:05:34,420
+optimal it has to be dominated by
+最佳，它必须由
+
+115
+00:05:34,620 --> 00:05:40,569
+something else so in order for there to
+所以别的东西，以便在那里
+
+116
+00:05:40,769 --> 00:05:42,809
+be no pre to optimal outcomes in a game
+不能在游戏中获得最佳结果
+
+117
+00:05:43,009 --> 00:05:45,699
+we would need to have a cycle in pre
+我们需要先进行一个循环
+
+118
+00:05:45,899 --> 00:05:48,218
+dough dominance we would need to have it
+面团主导地位，我们需要拥有它
+
+119
+00:05:48,418 --> 00:05:50,079
+be the case that everything is preload
+一切都是预载的情况
+
+120
+00:05:50,278 --> 00:05:52,319
+dominated by something different and
+以不同的东西为主
+
+121
+00:05:52,519 --> 00:05:54,550
+it's pretty easy to persuade yourself
+说服自己很容易
+
+122
+00:05:54,750 --> 00:05:56,800
+that we can't have cycles with Pareto
+我们无法与帕累托有周期
+
+123
+00:05:57,000 --> 00:05:58,749
+dominance the reason we can't have
+主导我们无法拥有的原因
+
+124
+00:05:58,949 --> 00:06:01,360
+cycles is just the way the period of
+周期只是周期的方式
+
+125
+00:06:01,560 --> 00:06:05,139
+dominance is defined that in order for
+主导地位的定义是为了
+
+126
+00:06:05,338 --> 00:06:06,429
+something to be pretty to dominate it
+漂亮的东西来统治它
+
+127
+00:06:06,629 --> 00:06:08,050
+has to be at least as good for everybody
+必须至少对每个人都一样
+
+128
+00:06:08,250 --> 00:06:10,259
+and strictly preferred by somebody and
+并被某人严格首选
+
+129
+00:06:10,459 --> 00:06:12,399
+I'll leave this to you to think about
+我留给你考虑
+
+130
+00:06:12,598 --> 00:06:15,160
+but but that definition implies that
+但是这个定义意味着
+
+131
+00:06:15,360 --> 00:06:16,778
+there can't be cycles in the period or
+该期间不能有周期，或者
+
+132
+00:06:16,978 --> 00:06:21,610
+dominance relationship so finally let's
+优势关系，所以最后让我们
+
+133
+00:06:21,810 --> 00:06:23,350
+look at our example games that we've
+看一下我们的示例游戏
+
+134
+00:06:23,550 --> 00:06:25,420
+thought about and identify preeto
+考虑并确定先例
+
+135
+00:06:25,620 --> 00:06:27,550
+optimal outcomes and in each case I
+最佳结果，在每种情况下我
+
+136
+00:06:27,750 --> 00:06:28,718
+won't say this every time but I
+我不会每次都这样说
+
+137
+00:06:28,918 --> 00:06:30,730
+encourage you to pause the video when
+鼓励您在以下情况下暂停视频
+
+138
+00:06:30,930 --> 00:06:32,649
+I've put up a game think for yourself
+我已经为自己准备了一个游戏
+
+139
+00:06:32,848 --> 00:06:34,028
+about what the pre doe optimal outcomes
+关于事前最佳结果
+
+140
+00:06:34,228 --> 00:06:36,899
+are and then I'll identify them for you
+是，然后我会为您识别它们
+
+141
+00:06:37,098 --> 00:06:38,710
+so first of all we have
+所以首先我们有
+
+142
+00:06:38,910 --> 00:06:43,360
+coordination game and here these two
+协调游戏，这两个
+
+143
+00:06:43,560 --> 00:06:48,670
+outcomes are both pretty optimal in the
+结果在
+
+144
+00:06:48,870 --> 00:06:52,660
+battle of the sexes game these two
+两性游戏之战
+
+145
+00:06:52,860 --> 00:06:54,610
+outcomes again are pre to optimal the
+结果再次是最佳的
+
+146
+00:06:54,810 --> 00:06:56,410
+change in payoffs here doesn't doesn't
+回报的变化这里不是
+
+147
+00:06:56,610 --> 00:07:00,490
+make a difference in the matching
+在匹配中有所作为
+
+148
+00:07:00,689 --> 00:07:03,370
+pennies game this one's a bit trickier
+便士游戏，这个有点棘手
+
+149
+00:07:03,569 --> 00:07:07,339
+I'll let you think about it for a minute
+我让你考虑一下
+
+150
+00:07:08,540 --> 00:07:12,720
+every outcome is pre to optimal because
+每个结果都是最优的，因为
+
+151
+00:07:12,920 --> 00:07:16,290
+there's no pair of outcomes where
+没有一对结果
+
+152
+00:07:16,490 --> 00:07:20,379
+everybody likes them equal likes the two
+每个人都喜欢他们，平等地喜欢两个
+
+153
+00:07:20,579 --> 00:07:22,030
+outcomes equally well there's always
+结果同样好，总有
+
+154
+00:07:22,230 --> 00:07:24,009
+kind of a strict trade-off that happens
+发生一种严格的权衡
+
+155
+00:07:24,209 --> 00:07:26,230
+because the game is zero-sum and this is
+因为游戏是零和，这是
+
+156
+00:07:26,430 --> 00:07:29,100
+generally true of zero-sum games that
+零和游戏通常适用于
+
+157
+00:07:29,300 --> 00:07:31,389
+every outcome in a zero-sum game is
+零和博弈中的每个结果都是
+
+158
+00:07:31,589 --> 00:07:36,520
+going to be pretty optimal finally here
+最终将变得非常理想
+
+159
+00:07:36,720 --> 00:07:39,270
+we have the prisoner's dilemma game and
+我们有囚犯的困境游戏， 
+
+160
+00:07:39,470 --> 00:07:44,210
+let me also let you think about this one
+让我也让你考虑一下
+
+161
+00:07:44,600 --> 00:07:47,740
+turns out here all but one outcome is
+事实证明，除了一个结果是
+
+162
+00:07:47,939 --> 00:07:52,210
+Preto optimal this outcome is not pretty
+ Preto最优，这种结果并不理想
+
+163
+00:07:52,410 --> 00:07:54,310
+optimal because it is pretty dominated
+最佳，因为它相当主导
+
+164
+00:07:54,509 --> 00:08:00,218
+by this outcome and now I'm ready to
+通过这个结果，现在我准备好了
+
+165
+00:08:00,418 --> 00:08:01,689
+give you a punchline that we've been
+给你一个我们已经
+
+166
+00:08:01,889 --> 00:08:04,060
+building to for a while about the
+建造一段时间
+
+167
+00:08:04,259 --> 00:08:06,790
+prisoner's dilemma game here's why the
+囚徒困境游戏，这就是为什么
+
+168
+00:08:06,990 --> 00:08:10,000
+prisoner's dilemma is such a dilemma the
+囚徒困境就是这样的困境
+
+169
+00:08:10,199 --> 00:08:11,740
+Nash equilibrium of the prisoner's
+纳什均衡的囚犯
+
+170
+00:08:11,939 --> 00:08:14,920
+dilemma is which in fact is a Nash
+困境实际上是纳什
+
+171
+00:08:15,120 --> 00:08:17,740
+equilibrium in dominant strategies so
+优势策略中的均衡
+
+172
+00:08:17,939 --> 00:08:19,060
+it's the strongest kind of Nash
+这是最强的纳什
+
+173
+00:08:19,259 --> 00:08:21,910
+equilibrium there is then that there's a
+平衡，那么有一个
+
+174
+00:08:22,110 --> 00:08:24,819
+Nash equilibrium in this game in fact
+纳什均衡实际上在这个游戏中
+
+175
+00:08:25,019 --> 00:08:26,560
+everybody should play this equilibrium
+每个人都应该发挥这种平衡
+
+176
+00:08:26,759 --> 00:08:29,560
+even without thinking about even without
+即使没有考虑
+
+177
+00:08:29,759 --> 00:08:30,639
+knowing what the other person is going
+知道对方在做什么
+
+178
+00:08:30,839 --> 00:08:32,829
+to do I can be sure that I should play
+我可以确定我应该玩
+
+179
+00:08:33,029 --> 00:08:35,759
+my strict dominant strategy in this game
+我在这场比赛中的严格统治策略
+
+180
+00:08:35,960 --> 00:08:39,218
+get to this outcome and that is the only
+得到这个结果，那是唯一的
+
+181
+00:08:39,418 --> 00:08:41,319
+non Pareto optimal outcome in this game
+此游戏中的非帕累托最优结果
+
+182
+00:08:41,519 --> 00:08:44,319
+so almost everything in this game is
+所以这个游戏中几乎所有的东西都是
+
+183
+00:08:44,519 --> 00:08:46,449
+kind of good from a social perspective
+从社会的角度看是一种善
+
+184
+00:08:46,649 --> 00:08:49,929
+and the only other thing in the game is
+而游戏中唯一的另一件事是
+
+185
+00:08:50,129 --> 00:08:52,179
+the thing that we strongly predict ought
+我们强烈预测的事情应该
+
+186
+00:08:52,379 --> 00:08:52,839
+to
+至
+
+187
+00:08:53,039 --> 00:08:54,459
+so that's why we think the prisoner's
+这就是为什么我们认为囚犯的
+
+188
+00:08:54,659 --> 00:08:59,659
+dilemma is such a dilemma
+困境就是这样的困境
+

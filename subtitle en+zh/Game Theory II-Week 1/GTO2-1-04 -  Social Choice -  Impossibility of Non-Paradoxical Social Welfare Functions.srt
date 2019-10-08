@@ -1,0 +1,655 @@
+﻿1
+00:00:00,000 --> 00:00:02,738
+this video is going to tell you at a
+该视频将在
+
+2
+00:00:02,939 --> 00:00:06,609
+high level probably the most important
+高水平可能是最重要的
+
+3
+00:00:06,809 --> 00:00:08,020
+and surprising thing that we have to
+和我们必须要做的令人惊讶的事情
+
+4
+00:00:08,220 --> 00:00:10,569
+tell you about social choice which is
+告诉你关于社会选择的
+
+5
+00:00:10,769 --> 00:00:14,740
+that it's impossible to come up with any
+不可能提出任何
+
+6
+00:00:14,939 --> 00:00:16,659
+social welfare function which is
+社会福利功能是
+
+7
+00:00:16,859 --> 00:00:20,499
+sensible in a particular formal way so
+以一种特殊的正式方式明智
+
+8
+00:00:20,699 --> 00:00:22,120
+first of all let's remember what a
+首先，让我们记住
+
+9
+00:00:22,320 --> 00:00:24,609
+social welfare function is a social
+社会福利功能是一种社会
+
+10
+00:00:24,809 --> 00:00:27,609
+welfare function is a voting rule where
+福利功能是一种投票规则
+
+11
+00:00:27,809 --> 00:00:30,399
+every agent tells me a set of
+每个经纪人都告诉我一套
+
+12
+00:00:30,599 --> 00:00:33,250
+preferences so gives me a total ordering
+偏好，所以给了我一个整体的顺序
+
+13
+00:00:33,450 --> 00:00:35,829
+over all of the choices that we have to
+在我们必须要做的所有选择中
+
+14
+00:00:36,030 --> 00:00:38,878
+make over all of the candidates and
+弥补所有候选人
+
+15
+00:00:39,079 --> 00:00:40,869
+getting this whole set of different
+得到这整套不同的
+
+16
+00:00:41,070 --> 00:00:42,459
+rankings from all of the different
+来自所有不同的排名
+
+17
+00:00:42,659 --> 00:00:44,349
+agents the Social Welfare function gives
+代理商的社会福利功能
+
+18
+00:00:44,549 --> 00:00:47,378
+me back a single ranking which is the
+我回到一个单一的排名是
+
+19
+00:00:47,579 --> 00:00:51,428
+social choice so so think about voting
+社会选择，所以考虑投票
+
+20
+00:00:51,628 --> 00:00:53,498
+over a set of candidates everyone has
+每个人都有一套候选人
+
+21
+00:00:53,698 --> 00:00:54,998
+preferences over all the candidates that
+对所有候选人的偏好
+
+22
+00:00:55,198 --> 00:00:56,858
+we're going to vote over and getting
+我们将投票并获得
+
+23
+00:00:57,058 --> 00:00:59,559
+back a single ranking but that is the
+返回单个排名，但这是
+
+24
+00:00:59,759 --> 00:01:00,969
+kind of aggregate ranking for all the
+所有类别的总排名
+
+25
+00:01:01,170 --> 00:01:03,788
+agents so what would we want such a
+代理商，那么我们想要这样一个
+
+26
+00:01:03,988 --> 00:01:05,469
+ranking to do what would it look like
+排名做什么样
+
+27
+00:01:05,670 --> 00:01:08,799
+for such a ranking to do a good job well
+这样的排名才能做好
+
+28
+00:01:09,000 --> 00:01:10,299
+here's one thing that seems pretty
+这是一件看起来很漂亮的东西
+
+29
+00:01:10,500 --> 00:01:11,918
+obvious that such a ranking function
+显然，这种排名功能
+
+30
+00:01:12,118 --> 00:01:15,159
+should do well say that a ranking for a
+应该说一个
+
+31
+00:01:15,359 --> 00:01:17,619
+social welfare function W is purrito
+社会福利函数W是purrito 
+
+32
+00:01:17,819 --> 00:01:21,129
+efficient if any time it's the case that
+有效率的话
+
+33
+00:01:21,329 --> 00:01:23,500
+all of the agents agree on the ordering
+所有代理商都同意订购
+
+34
+00:01:23,700 --> 00:01:26,109
+of two outcomes if everyone thinks that
+如果每个人都认为这两个结果
+
+35
+00:01:26,310 --> 00:01:28,450
+candidate a is better than candidate B
+候选人a胜过候选人B 
+
+36
+00:01:28,650 --> 00:01:31,590
+then the social welfare function also
+然后社会福利功能
+
+37
+00:01:31,790 --> 00:01:33,869
+agrees about that part of the ordering
+同意订购的那部分
+
+38
+00:01:34,069 --> 00:01:36,219
+so it might it might say all kinds of
+所以它可能会说各种
+
+39
+00:01:36,420 --> 00:01:38,469
+other things about candidates C D and E
+关于候选CD和E的其他内容
+
+40
+00:01:38,670 --> 00:01:40,808
+but if everybody thinks that a is better
+但是如果每个人都认为a更好
+
+41
+00:01:41,009 --> 00:01:42,878
+than B then the social welfare function
+比B那么社会福利功能
+
+42
+00:01:43,078 --> 00:01:44,799
+also is going to tell us that a is
+也要告诉我们a是
+
+43
+00:01:45,000 --> 00:01:46,750
+better than B it's gonna put a somewhere
+比B还好
+
+44
+00:01:46,950 --> 00:01:49,299
+higher in the ranking than B so and
+排名高于B，因此
+
+45
+00:01:49,500 --> 00:01:51,219
+that's all we're requiring by Pareto
+这就是帕累托所需要的
+
+46
+00:01:51,420 --> 00:01:53,918
+efficiency we're just saying only in the
+效率，我们只是在说
+
+47
+00:01:54,118 --> 00:01:56,049
+case when everybody agrees absolutely
+每个人都绝对同意的情况
+
+48
+00:01:56,250 --> 00:01:57,789
+everybody agrees the social welfare
+每个人都同意社会福利
+
+49
+00:01:57,989 --> 00:02:00,518
+function has to rank in the appropriate
+功能必须排在适当的位置
+
+50
+00:02:00,718 --> 00:02:05,319
+way a second thing we might want is what
+我们可能想要的第二件事是
+
+51
+00:02:05,519 --> 00:02:06,698
+we call independence of irrelevant
+我们称无关的独立性
+
+52
+00:02:06,899 --> 00:02:10,149
+alternatives so we'll say that a social
+替代方案，所以我们说
+
+53
+00:02:10,348 --> 00:02:11,920
+welfare function is independent of
+福利功能独立于
+
+54
+00:02:12,120 --> 00:02:13,280
+irrelevant alternatives
+不相关的选择
+
+55
+00:02:13,479 --> 00:02:16,759
+if the way that I rank between a and B
+如果我在A和B之间的排名方式
+
+56
+00:02:16,959 --> 00:02:19,189
+only depends on the way that all of the
+只取决于所有
+
+57
+00:02:19,389 --> 00:02:22,490
+individual agents ranked a and B so if I
+个体代理商排名a和B，所以如果我
+
+58
+00:02:22,689 --> 00:02:24,469
+want to decide in the social ordering
+想决定社会秩序
+
+59
+00:02:24,669 --> 00:02:27,890
+how it is that that I compare a to B I
+我将BI与BI进行比较的方式
+
+60
+00:02:28,090 --> 00:02:30,679
+should do that only by looking at how
+应该只看如何
+
+61
+00:02:30,878 --> 00:02:33,950
+all of the individual agents relatively
+所有个体代理相对
+
+62
+00:02:34,150 --> 00:02:36,770
+ranked a to B so I shouldn't care about
+将A排名为B，所以我不在乎
+
+63
+00:02:36,969 --> 00:02:39,649
+how everyone felt about a and C or about
+每个人对a和C或大概的感觉
+
+64
+00:02:39,848 --> 00:02:42,050
+B and D I should just look at the a B
+ B和DI应该只看a B 
+
+65
+00:02:42,250 --> 00:02:43,580
+rankings for everyone and that should
+每个人的排名，应该
+
+66
+00:02:43,780 --> 00:02:45,830
+tell me how the social welfare function
+告诉我社会福利的功能
+
+67
+00:02:46,030 --> 00:02:51,800
+ranks between a and B finally I'll say
+最终在a和B之间排名
+
+68
+00:02:52,000 --> 00:02:53,480
+that a social welfare function has a
+社会福利功能具有
+
+69
+00:02:53,680 --> 00:02:56,860
+dictator if there exists a single agent
+独裁者是否存在单个代理
+
+70
+00:02:57,060 --> 00:02:59,899
+whose preferences we always just return
+我们总是会返回谁的偏好
+
+71
+00:03:00,098 --> 00:03:02,689
+as the social ordering so in other words
+换句话说就是社会秩序
+
+72
+00:03:02,889 --> 00:03:04,399
+if I've got n different agents and they
+如果我有n个不同的代理商，他们
+
+73
+00:03:04,598 --> 00:03:06,560
+always give me some kind of order in and
+总是给我某种命令
+
+74
+00:03:06,759 --> 00:03:09,349
+I just say you know what I only care
+我只是说你知道我只在乎
+
+75
+00:03:09,549 --> 00:03:11,629
+about agent 3 everybody else it just
+关于特工3其他所有人
+
+76
+00:03:11,829 --> 00:03:13,129
+doesn't matter what you tell me I'm
+你告诉我我没关系
+
+77
+00:03:13,329 --> 00:03:14,509
+gonna throw it in the garbage I'm not
+要把它扔进垃圾桶，我不是
+
+78
+00:03:14,709 --> 00:03:15,980
+gonna think about it at all I'm just
+我会想一想
+
+79
+00:03:16,180 --> 00:03:18,020
+gonna give you back agent 3 and I've
+会给你特工3，我已经
+
+80
+00:03:18,219 --> 00:03:20,360
+decided in advance who agent 3 is it's
+事先确定谁是代理商3 
+
+81
+00:03:20,560 --> 00:03:22,490
+always gonna be the same guy that's what
+永远都是同一个人，这就是
+
+82
+00:03:22,689 --> 00:03:23,599
+it means for a social welfare function
+对社会福利功能意味着
+
+83
+00:03:23,799 --> 00:03:26,300
+to have a dictator now it's kind of
+现在有一个独裁者
+
+84
+00:03:26,500 --> 00:03:27,710
+terrible for a social welfare function
+糟糕的社会福利功能
+
+85
+00:03:27,909 --> 00:03:29,840
+to have a dictator because it means that
+有一个独裁者，因为这意味着
+
+86
+00:03:30,039 --> 00:03:31,399
+it's not aggregating in any meaningful
+它没有聚集在任何有意义的地方
+
+87
+00:03:31,598 --> 00:03:34,069
+way it's just always reporting back what
+只是总是报告什么
+
+88
+00:03:34,269 --> 00:03:37,759
+one person thanks notice that a social
+一个人感谢通知， 
+
+89
+00:03:37,959 --> 00:03:39,080
+welfare function that does have a
+福利功能确实具有
+
+90
+00:03:39,280 --> 00:03:41,149
+dictator trivially satisfies
+独裁者平凡地满足
+
+91
+00:03:41,348 --> 00:03:42,469
+independence of irrelevant alternatives
+不相关选择的独立性
+
+92
+00:03:42,669 --> 00:03:46,039
+and Pareto efficiency because prudhoe
+和帕累托效率，因为普拉德霍
+
+93
+00:03:46,239 --> 00:03:48,618
+efficiency says anytime everybody agrees
+效率表示任何人都同意
+
+94
+00:03:48,818 --> 00:03:50,118
+the social welfare function has to do
+社会福利职能必须要做
+
+95
+00:03:50,318 --> 00:03:52,368
+the right thing and when everybody
+正确的事情，当每个人
+
+96
+00:03:52,568 --> 00:03:54,439
+agrees in particular the dictator also
+特别同意独裁者
+
+97
+00:03:54,639 --> 00:03:56,780
+agreed so so we would get free -
+同意，所以我们可以免费- 
+
+98
+00:03:56,979 --> 00:03:59,868
+efficiency for free likewise we would
+免费的效率我们同样会
+
+99
+00:04:00,068 --> 00:04:00,800
+get independence of irrelevant
+获得无关的独立性
+
+100
+00:04:01,000 --> 00:04:03,560
+alternatives for free because we're only
+免费的替代品，因为我们只是
+
+101
+00:04:03,759 --> 00:04:05,749
+gonna care about the dictators a B
+要关心独裁者A B 
+
+102
+00:04:05,949 --> 00:04:08,420
+rankings in order to decide the a B
+排名以决定A B 
+
+103
+00:04:08,620 --> 00:04:10,429
+ranking and and so we're not looking at
+排名，所以我们不在看
+
+104
+00:04:10,628 --> 00:04:11,960
+anything else from any of the other
+其他任何东西
+
+105
+00:04:12,159 --> 00:04:14,780
+agents so so we see we can satisfy our
+代理商，所以我们看到我们可以满足我们的要求
+
+106
+00:04:14,979 --> 00:04:17,629
+two properties from a dictatorial social
+独裁社会的两个属性
+
+107
+00:04:17,829 --> 00:04:20,180
+welfare function but dictatorial social
+福利功能但独裁社会
+
+108
+00:04:20,379 --> 00:04:21,860
+welfare functions are pretty undesirable
+福利功能非常不可取
+
+109
+00:04:22,060 --> 00:04:25,620
+to us well here's the punchline
+对我们来说这是重点
+
+110
+00:04:25,819 --> 00:04:29,220
+Kenneth arrow in 1951 famously proved
+ 1951年的肯尼斯·阿斯（Kenneth Arrow）著名
+
+111
+00:04:29,420 --> 00:04:31,889
+the following theorem any social welfare
+以下定理任何社会福利
+
+112
+00:04:32,089 --> 00:04:34,829
+function over three or more outcomes so
+作用于三个或更多结果，因此
+
+113
+00:04:35,029 --> 00:04:37,079
+candidates in elections that have more
+选举中候选人更多
+
+114
+00:04:37,279 --> 00:04:40,020
+than two candidates that is pre to
+比两名候选人
+
+115
+00:04:40,220 --> 00:04:42,090
+efficient and independent of irrelevant
+高效且无关紧要
+
+116
+00:04:42,290 --> 00:04:45,780
+alternatives must be dictatorial so in
+替代品必须是独裁的，因此在
+
+117
+00:04:45,980 --> 00:04:47,819
+other words these these two things that
+换句话说，这两件事
+
+118
+00:04:48,019 --> 00:04:49,590
+that seem very natural that we would
+看起来我们很自然
+
+119
+00:04:49,790 --> 00:04:52,079
+want free to efficiency and independence
+想要自由高效和独立
+
+120
+00:04:52,279 --> 00:04:54,240
+of irrelevant alternatives are so
+无关的替代品是这样
+
+121
+00:04:54,439 --> 00:04:55,740
+constraining on the set of social
+约束社会
+
+122
+00:04:55,939 --> 00:04:57,569
+welfare functions that they imply that
+他们暗示的福利功能
+
+123
+00:04:57,769 --> 00:04:58,949
+we would have to have a dictatorial
+我们将不得不独裁
+
+124
+00:04:59,149 --> 00:05:02,100
+social welfare function since we can't
+社会福利功能，因为我们不能
+
+125
+00:05:02,300 --> 00:05:04,170
+possibly live with a dictatorial social
+可能与独裁者生活在一起
+
+126
+00:05:04,370 --> 00:05:06,150
+welfare function what that really means
+福利功能的真正含义
+
+127
+00:05:06,350 --> 00:05:08,460
+is that we have to give up either pre
+是我们必须放弃
+
+128
+00:05:08,660 --> 00:05:10,710
+doe efficiency or independence of
+能源效率或独立性
+
+129
+00:05:10,910 --> 00:05:12,810
+irrelevant alternatives and that's
+无关的选择，那就是
+
+130
+00:05:13,009 --> 00:05:14,100
+pretty bad news because these are both
+坏消息是因为这两个都是
+
+131
+00:05:14,300 --> 00:05:19,300
+pretty natural things
+很自然的东西
+

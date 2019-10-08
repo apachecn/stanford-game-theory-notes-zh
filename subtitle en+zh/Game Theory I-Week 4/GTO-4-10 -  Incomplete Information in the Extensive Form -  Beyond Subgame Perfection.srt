@@ -1,0 +1,1475 @@
+﻿1
+00:00:00,210 --> 00:00:03,218
+hi folks so it's Matt again and we are
+大家好，再次是Matt，我们是
+
+2
+00:00:03,419 --> 00:00:06,118
+now going to talk a little bit about
+现在要谈一点
+
+3
+00:00:06,318 --> 00:00:09,580
+solving extensive forum games with
+解决与广泛的论坛游戏
+
+4
+00:00:09,779 --> 00:00:10,839
+incomplete information and moving a
+不完整的信息和移动
+
+5
+00:00:11,039 --> 00:00:12,490
+little bit beyond sub game perfection
+超越子游戏的完美点滴
+
+6
+00:00:12,689 --> 00:00:14,889
+and this is just to give you some
+这只是给你一些
+
+7
+00:00:15,089 --> 00:00:16,839
+impression of stuff that's out there in
+里面有东西的印象
+
+8
+00:00:17,039 --> 00:00:18,429
+game theory we're not going to spend too
+博弈论，我们也不会花费
+
+9
+00:00:18,629 --> 00:00:19,690
+much time on this but I'll give you a
+很多时间，但我会给你一个
+
+10
+00:00:19,890 --> 00:00:24,159
+flavor of it and you know the idea of
+它的味道，你知道的想法
+
+11
+00:00:24,359 --> 00:00:26,560
+solving these kinds of games with is
+解决这些游戏是
+
+12
+00:00:26,760 --> 00:00:29,379
+that it makes things difficult is no sub
+它使事情变得困难不是没有子
+
+13
+00:00:29,579 --> 00:00:31,919
+game perfection and backward induction
+游戏完美与向后归纳
+
+14
+00:00:32,119 --> 00:00:35,259
+had a lot of bite in games with complete
+完全喜欢游戏
+
+15
+00:00:35,460 --> 00:00:38,070
+information because we could analyze
+信息，因为我们可以分析
+
+16
+00:00:38,270 --> 00:00:39,878
+parts of the tree there were a lot of
+树的一部分有很多
+
+17
+00:00:40,079 --> 00:00:41,829
+sub games figure out what's going on in
+子游戏找出正在发生的事情
+
+18
+00:00:42,030 --> 00:00:44,259
+that and that would tell us then we
+那，那会告诉我们，然后我们
+
+19
+00:00:44,460 --> 00:00:46,239
+could simplify that and that gives us an
+可以简化这一点，这给了我们一个
+
+20
+00:00:46,439 --> 00:00:47,588
+idea of what's going to happen other
+其他会发生什么的想法
+
+21
+00:00:47,789 --> 00:00:49,239
+parts of the game with incomplete
+游戏中不完整的部分
+
+22
+00:00:49,439 --> 00:00:51,669
+information there's no proper sub game
+信息，没有适当的子游戏
+
+23
+00:00:51,869 --> 00:00:54,009
+so players don't really know exactly
+所以玩家并不十分清楚
+
+24
+00:00:54,210 --> 00:00:57,038
+which node they're at in a game and that
+他们在游戏中位于哪个节点，以及
+
+25
+00:00:57,238 --> 00:00:58,899
+can be difficult so there may not be
+可能很难，所以可能没有
+
+26
+00:00:59,100 --> 00:01:04,028
+many proper sub games so the the basic
+许多适当的子游戏，所以基本
+
+27
+00:01:04,228 --> 00:01:05,528
+reasoning doesn't apply sub game
+推理不适用于子游戏
+
+28
+00:01:05,728 --> 00:01:07,238
+perfection does not apply directly in a
+完美并不直接适用于
+
+29
+00:01:07,438 --> 00:01:09,849
+lot of games doesn't have much bite but
+很多游戏咬的不多，但是
+
+30
+00:01:10,049 --> 00:01:11,528
+there are ways of extending the
+有一些方法可以扩展
+
+31
+00:01:11,728 --> 00:01:13,209
+reasoning so there are ways to take the
+推理，所以有办法采取
+
+32
+00:01:13,409 --> 00:01:15,009
+same kind of credibility ideas that were
+与以前一样的信誉理念
+
+33
+00:01:15,209 --> 00:01:16,869
+behind sub game perfection and apply
+完善子游戏并申请
+
+34
+00:01:17,069 --> 00:01:18,789
+them in these kinds of games so we'll
+他们在这类游戏中，所以我们将
+
+35
+00:01:18,989 --> 00:01:20,799
+just take a peek at that and just give
+偷看一下就给
+
+36
+00:01:21,000 --> 00:01:23,619
+you a taste of it but we're not going to
+您尝一尝，但我们不会
+
+37
+00:01:23,819 --> 00:01:26,409
+go into it in too much depth ok so let's
+深入其中，好吧，让我们
+
+38
+00:01:26,609 --> 00:01:30,759
+look at a simple game and this game is
+看一个简单的游戏，这个游戏是
+
+39
+00:01:30,959 --> 00:01:36,278
+one where it's an entry decision by one
+一个由一个人决定的进入
+
+40
+00:01:36,478 --> 00:01:41,890
+say one firm player one so they have a
+说一个坚定的球员，所以他们有一个
+
+41
+00:01:42,090 --> 00:01:44,439
+decision of either E or n so think of E
+ E或n的决定，所以想想E 
+
+42
+00:01:44,640 --> 00:01:49,090
+as enter n is not and player 2 as
+因为输入n不是，而玩家2为
+
+43
+00:01:49,290 --> 00:01:52,209
+another firm say in a market so they're
+另一家公司在市场上说，所以他们
+
+44
+00:01:52,409 --> 00:01:54,128
+already in a marketplace selling a
+已经在市场上出售
+
+45
+00:01:54,328 --> 00:01:56,500
+particular good and from one's deciding
+特别好的，由个人决定
+
+46
+00:01:56,700 --> 00:01:57,969
+should I enter into this market and
+我应该进入这个市场并且
+
+47
+00:01:58,170 --> 00:02:00,099
+compete with the other firm okay so I've
+与其他公司竞争好吧，所以我已经
+
+48
+00:02:00,299 --> 00:02:01,209
+offered it you know there's a coffee
+提供它，你知道那里有咖啡
+
+49
+00:02:01,409 --> 00:02:03,219
+shop open on a particular corner there's
+在特定角落开的商店
+
+50
+00:02:03,420 --> 00:02:04,808
+somebody else thinking okay should I
+有人认为我应该
+
+51
+00:02:05,009 --> 00:02:07,418
+enter right across the street and have a
+进入马路对面，有一个
+
+52
+00:02:07,618 --> 00:02:10,689
+competing coffee shop so from one is now
+竞争的咖啡店，所以从现在开始
+
+53
+00:02:10,889 --> 00:02:12,520
+thinking about entering from
+考虑从
+
+54
+00:02:12,719 --> 00:02:14,740
+- is already there and the question is
+ -已经在那里，问题是
+
+55
+00:02:14,939 --> 00:02:18,100
+what happens once they affirm one
+他们确认一个后会发生什么
+
+56
+00:02:18,300 --> 00:02:20,890
+entered so if in terms of payoffs here
+在这里输入，因此就收益而言
+
+57
+00:02:21,090 --> 00:02:24,520
+if firm 1 does not enter if this player
+如果公司1没有进入，如果这个玩家
+
+58
+00:02:24,719 --> 00:02:27,040
+does not enter player 1 gets 0 and
+不进入玩家1得到0并且
+
+59
+00:02:27,240 --> 00:02:34,480
+player 2 ends up getting 2 so the payoff
+玩家2最终得到2，所以收益
+
+60
+00:02:34,680 --> 00:02:37,960
+for player 2 here is 2 if firm 1 does
+对于玩家2，如果公司1这样做，则此处为2 
+
+61
+00:02:38,159 --> 00:02:39,580
+not enter and that's that's true either
+不输入，那是真的
+
+62
+00:02:39,780 --> 00:02:41,980
+way it happens if firm 1 doesn't enter
+如果公司1没有进入，它将如何发生
+
+63
+00:02:42,180 --> 00:02:48,340
+and then if firm 1 enters then the
+然后如果公司1进入
+
+64
+00:02:48,539 --> 00:02:51,790
+payoffs depend on whether the the
+收益取决于
+
+65
+00:02:51,990 --> 00:02:55,030
+incumbent coffeeshops a is 1 that's
+现有咖啡店的a是1 
+
+66
+00:02:55,229 --> 00:02:58,719
+going to fight so f stands for fight or
+要去战斗，所以代表战斗或
+
+67
+00:02:58,919 --> 00:03:02,110
+a for acquiesce so basically they can
+一个默认的，所以基本上他们可以
+
+68
+00:03:02,310 --> 00:03:03,880
+either say ok look live and let live
+要么说好看活着，要么活着
+
+69
+00:03:04,080 --> 00:03:05,620
+we'll have to coffeeshops we lose some
+我们不得不去咖啡店，我们损失了一些
+
+70
+00:03:05,819 --> 00:03:08,140
+of our business or we can go toe to toe
+我们的业务，或者我们可以从头到脚
+
+71
+00:03:08,340 --> 00:03:11,370
+by offering special coupons discounts
+通过提供特别优惠券折扣
+
+72
+00:03:11,569 --> 00:03:13,689
+we're going to make this miserable for
+我们将使这个痛苦
+
+73
+00:03:13,889 --> 00:03:16,480
+the other for the other company and so
+另一个给其他公司等等
+
+74
+00:03:16,680 --> 00:03:18,160
+the payoffs actually depend on whether
+收益实际上取决于
+
+75
+00:03:18,360 --> 00:03:21,759
+firm 2 fights or not and moreover the
+厂商2是否打架，而且
+
+76
+00:03:21,959 --> 00:03:24,250
+the incomplete information here is about
+这里不完整的信息是关于
+
+77
+00:03:24,449 --> 00:03:31,390
+the strength how good player 1 is so
+玩家1的实力如何
+
+78
+00:03:31,590 --> 00:03:33,450
+they could be a strong player
+他们可以成为一个强大的球员
+
+79
+00:03:33,650 --> 00:03:36,189
+probability 1/2 or they could be a weak
+ 1/2的概率，否则可能会很弱
+
+80
+00:03:36,389 --> 00:03:38,770
+player so the note up here is a move by
+玩家，所以这里的音符是由
+
+81
+00:03:38,969 --> 00:03:41,890
+nature so nature moves first randomly
+自然，所以自然首先会随机移动
+
+82
+00:03:42,090 --> 00:03:44,200
+picks whether player 1 is strong or not
+选择玩家1是否强壮
+
+83
+00:03:44,400 --> 00:03:46,930
+strong or weak so with probability 1/2
+强或弱，所以概率为1/2 
+
+84
+00:03:47,129 --> 00:03:48,580
+they pick a strong player with
+他们选择了一个强大的球员
+
+85
+00:03:48,780 --> 00:03:50,110
+probability 1/2 they pick a weak player
+他们选择弱者的概率为1/2 
+
+86
+00:03:50,310 --> 00:03:54,250
+and player 1 gets to see the outcome of
+玩家1会看到
+
+87
+00:03:54,449 --> 00:03:56,710
+that so player 1 this new coffee shop I
+玩家1这家新的咖啡店
+
+88
+00:03:56,909 --> 00:03:58,509
+know whether I've got really good coffee
+知道我是否真的有好咖啡
+
+89
+00:03:58,709 --> 00:04:03,039
+or not player 2 doesn't know what the
+还是玩家2不知道
+
+90
+00:04:03,239 --> 00:04:05,740
+quality of firm 1 is when firm 1 enters
+公司1的质量是公司1进入的时间
+
+91
+00:04:05,939 --> 00:04:09,310
+so a firm 1 is a strong one or from one
+因此，企业1是强者或来自强者
+
+92
+00:04:09,509 --> 00:04:11,530
+is the weak one player 2 cannot
+是一名弱者2不能
+
+93
+00:04:11,729 --> 00:04:13,300
+distinguish between those two different
+区分这两个不同
+
+94
+00:04:13,500 --> 00:04:14,590
+situations and that's why we have these
+情况，这就是为什么我们有这些
+
+95
+00:04:14,789 --> 00:04:17,020
+informations that connected here ok so
+在这里连接的信息还可以
+
+96
+00:04:17,220 --> 00:04:18,300
+that's the structure of the game and
+这就是游戏的结构， 
+
+97
+00:04:18,500 --> 00:04:20,620
+basically where is the strong and weak
+基本上强者和弱者在哪里
+
+98
+00:04:20,819 --> 00:04:23,949
+manifest itself in terms of payoffs it
+体现自己的回报
+
+99
+00:04:24,149 --> 00:04:26,110
+manifests itself in terms of
+表现为
+
+100
+00:04:26,310 --> 00:04:28,870
+is what happens if firm 2 fights so firm
+如果公司2打得这么坚定，会发生什么
+
+101
+00:04:29,069 --> 00:04:33,550
+2 fights a strong firm 1 they both get
+ 2打强公司1他们俩都得到
+
+102
+00:04:33,750 --> 00:04:36,480
+-1 so they both lose if firm 1 is strong
+ -1，所以如果公司1强大，他们都会输
+
+103
+00:04:36,680 --> 00:04:39,490
+from 2 fights that's going to be costly
+来自2场战斗，这将是昂贵的
+
+104
+00:04:39,689 --> 00:04:42,069
+for both of them if firm or firm 2
+对于他们两个，如果是坚定的或坚定的2 
+
+105
+00:04:42,269 --> 00:04:46,360
+fights a weak entrant then from 2 gets 0
+与弱者竞争，然后从2变为0 
+
+106
+00:04:46,560 --> 00:04:50,050
+and from one gets -2 so weakness means
+而从一得到-2，所以弱点意味着
+
+107
+00:04:50,250 --> 00:04:54,639
+that they're do less well in fighting we
+他们在对抗我们方面表现不佳
+
+108
+00:04:54,839 --> 00:04:56,560
+can also in this particular game have a
+也可以在这个特定的游戏中
+
+109
+00:04:56,759 --> 00:05:00,550
+situation here where where the firm 1
+这里的情况在哪里坚定1 
+
+110
+00:05:00,750 --> 00:05:03,879
+the weak version of firm 1 even if if
+即使公司1的弱版本
+
+111
+00:05:04,079 --> 00:05:05,680
+firm 2 is accommodating is eventually
+商号2最终容纳
+
+112
+00:05:05,879 --> 00:05:06,939
+going to go out of business they're just
+即将倒闭，他们只是
+
+113
+00:05:07,139 --> 00:05:08,379
+that you know they've got really lousy
+你知道他们真的很烂
+
+114
+00:05:08,579 --> 00:05:10,810
+coffee they're not going to make it okay
+咖啡，他们不会让它好起来的
+
+115
+00:05:11,009 --> 00:05:12,579
+so let's try and analyze this game using
+因此，我们尝试使用
+
+116
+00:05:12,779 --> 00:05:15,730
+sub game perfect well with sub game
+子游戏与子游戏完美搭配
+
+117
+00:05:15,930 --> 00:05:18,340
+perfection there's actually many
+完美有很多
+
+118
+00:05:18,540 --> 00:05:21,310
+equilibria of this game and part of the
+此游戏的平衡和部分
+
+119
+00:05:21,509 --> 00:05:22,960
+problem is that when we're trying to
+问题是当我们试图
+
+120
+00:05:23,160 --> 00:05:24,160
+look at sub games
+看子游戏
+
+121
+00:05:24,360 --> 00:05:27,218
+we can't just chop off this part and say
+我们不能只砍掉这部分然后说
+
+122
+00:05:27,418 --> 00:05:29,620
+it's a sub game because it's not this
+这是一个子游戏，因为不是
+
+123
+00:05:29,819 --> 00:05:31,389
+node is connected to this node for
+节点连接到该节点
+
+124
+00:05:31,589 --> 00:05:32,650
+player 2 they're not sure whether
+玩家2他们不确定是否
+
+125
+00:05:32,850 --> 00:05:35,259
+they're over here or over here so we
+他们在这里或这里，所以我们
+
+126
+00:05:35,459 --> 00:05:37,810
+can't chop off this small pieces and
+不能砍掉这小块， 
+
+127
+00:05:38,009 --> 00:05:39,490
+essentially the only sub game is the
+本质上唯一的子游戏是
+
+128
+00:05:39,689 --> 00:05:41,770
+whole game so the only sub game in this
+整个游戏，所以这是唯一的子游戏
+
+129
+00:05:41,970 --> 00:05:44,259
+game is the whole game and so sub game
+游戏是整个游戏，所以子游戏
+
+130
+00:05:44,459 --> 00:05:45,819
+perfection is just the same as Nash
+完美与纳什相同
+
+131
+00:05:46,019 --> 00:05:48,400
+equilibrium in this game so if we're
+在这个游戏中保持平衡，所以如果我们
+
+132
+00:05:48,600 --> 00:05:50,139
+looking at Nash equilibria let's look
+看着纳什均衡让我们看看
+
+133
+00:05:50,339 --> 00:05:53,410
+for a couple of them let's take a peek
+对于其中的一些，让我们来看看
+
+134
+00:05:53,610 --> 00:05:56,680
+at one where firm 1 does not enter right
+在公司1没有进入右边的地方
+
+135
+00:05:56,879 --> 00:05:59,610
+so no matter what firm 1 does not enter
+所以无论哪个公司1都不进入
+
+136
+00:05:59,810 --> 00:06:02,949
+whether they're strong or weak and firm
+他们强弱还是坚定
+
+137
+00:06:03,149 --> 00:06:06,730
+2 plans on fighting ok so firm 2 says
+ 2战斗的计划好那么坚定2说
+
+138
+00:06:06,930 --> 00:06:08,670
+I'm going to fight you if you enter and
+如果你进入我会和你战斗
+
+139
+00:06:08,870 --> 00:06:11,379
+from 1 says oh that's bad I'm going to
+从1开始说哦，那很糟糕，我要
+
+140
+00:06:11,579 --> 00:06:14,860
+get negative payoffs therefore they
+得到负收益，因此他们
+
+141
+00:06:15,060 --> 00:06:17,199
+don't enter okay so that's one Nash
+输入不好，那是纳什之一
+
+142
+00:06:17,399 --> 00:06:22,509
+equilibrium a Nash equilibrium is one if
+如果，纳什均衡为1 
+
+143
+00:06:22,709 --> 00:06:24,790
+they're strong they don't enter if
+他们很坚强，如果
+
+144
+00:06:24,990 --> 00:06:28,650
+they're weak they don't enter and from 2
+他们很弱，他们没有进入，从2 
+
+145
+00:06:28,850 --> 00:06:31,360
+only has one information set and if they
+只有一个信息集，如果他们
+
+146
+00:06:31,560 --> 00:06:34,889
+fight right so that's a Nash equilibrium
+争取正确，那是纳什均衡
+
+147
+00:06:35,089 --> 00:06:38,170
+ok it's also sub game perfection given
+好吧，这也是子游戏的完美
+
+148
+00:06:38,370 --> 00:06:39,249
+its sub game there's no
+它的子游戏没有
+
+149
+00:06:39,449 --> 00:06:41,889
+sub-game in this what's strange about
+子游戏这有什么奇怪的
+
+150
+00:06:42,089 --> 00:06:44,079
+that equilibrium what's strange about
+那个平衡有什么奇怪的
+
+151
+00:06:44,278 --> 00:06:46,359
+that equilibrium is if you look at the
+那个平衡就是，如果你看
+
+152
+00:06:46,559 --> 00:06:49,540
+fight decision of player two the fight
+选手二的战斗决定
+
+153
+00:06:49,740 --> 00:06:54,579
+decision is essentially a dominated
+决定本质上是决定性的
+
+154
+00:06:54,778 --> 00:06:56,679
+strategy in the sense that it gives
+从某种意义上讲，策略
+
+155
+00:06:56,879 --> 00:06:59,139
+minus one if the player is strong
+如果玩家强壮，则减一
+
+156
+00:06:59,338 --> 00:07:01,079
+compared to one if they were acquiescing
+相比之下，如果他们是默认的
+
+157
+00:07:01,278 --> 00:07:05,319
+and zero if it's against a weak whereas
+如果是弱者则为零，而
+
+158
+00:07:05,519 --> 00:07:07,749
+one if they acquiesced so no matter what
+如果他们默认，那么无论如何
+
+159
+00:07:07,949 --> 00:07:13,629
+the type of the the firm play two should
+公司打两个的类型应该
+
+160
+00:07:13,829 --> 00:07:15,939
+really equius right they get a higher
+真正平等，他们得到了更高
+
+161
+00:07:16,139 --> 00:07:20,949
+payoff from that so this is somehow not
+从中得到回报，所以这不知何故
+
+162
+00:07:21,149 --> 00:07:25,239
+credible so we're losing credibility but
+可信，所以我们正在失去可信度，但是
+
+163
+00:07:25,439 --> 00:07:27,610
+it's it's still consistent with Nash if
+如果它仍然与纳什保持一致
+
+164
+00:07:27,810 --> 00:07:29,259
+player one really believes firm 2 is
+玩家一真的相信公司2是
+
+165
+00:07:29,459 --> 00:07:31,299
+going to fight and that's fine and if
+去打架，那很好，如果
+
+166
+00:07:31,499 --> 00:07:33,910
+player 1 really never enters well player
+玩家1确实从不进入好玩家
+
+167
+00:07:34,110 --> 00:07:35,468
+2 can say they're going to fight and
+ 2可以说他们要战斗， 
+
+168
+00:07:35,668 --> 00:07:38,588
+they never have to so that following
+他们永远不必这样
+
+169
+00:07:38,788 --> 00:07:40,449
+that strategy doesn't hurt them in a
+这种策略不会在一个
+
+170
+00:07:40,649 --> 00:07:41,588
+sense that they're going to get the two
+感觉他们会得到两个
+
+171
+00:07:41,788 --> 00:07:44,290
+no matter what and so they don't need to
+不管是什么，所以他们不需要
+
+172
+00:07:44,490 --> 00:07:46,899
+deviate away from F if they're never
+如果他们永远不会偏离F 
+
+173
+00:07:47,098 --> 00:07:50,319
+called on to move ok so that's that's a
+呼吁移动确定，所以那是一个
+
+174
+00:07:50,519 --> 00:07:53,889
+Nash but the the what if here the off
+纳什，但如果在这里怎么办
+
+175
+00:07:54,088 --> 00:07:56,468
+the equilibrium path behavior of player
+玩家的均衡路径行为
+
+176
+00:07:56,668 --> 00:07:58,480
+two claiming they're going to fight is
+两个声称他们要战斗的是
+
+177
+00:07:58,680 --> 00:08:02,790
+not really credible in this game so um
+在这个游戏中不太可靠
+
+178
+00:08:02,990 --> 00:08:05,459
+what if firm 2 was going to acquiesce
+如果公司2要默认怎么办
+
+179
+00:08:05,658 --> 00:08:08,559
+right so there's another strategy where
+对，所以还有另一种策略
+
+180
+00:08:08,759 --> 00:08:16,420
+we're for two for two we imagine them
+我们两个人两个，我们想象他们
+
+181
+00:08:16,620 --> 00:08:19,600
+acquiescing so what should one do well
+默许，所以一个人应该做得好
+
+182
+00:08:19,800 --> 00:08:25,350
+if one then is strong they should enter
+如果有人那么强，他们应该进入
+
+183
+00:08:25,550 --> 00:08:28,088
+they get a payoff of 1 here 0 if they
+如果他们在这里得到1的回报0 
+
+184
+00:08:28,288 --> 00:08:31,088
+don't if they're weak what should they
+如果他们很弱就不要
+
+185
+00:08:31,288 --> 00:08:34,299
+do if they're weak well they shouldn't
+如果他们软弱无能，那就不应该这样做
+
+186
+00:08:34,500 --> 00:08:36,008
+enter right because they get a minus 1
+输入正确，因为他们得到负1 
+
+187
+00:08:36,208 --> 00:08:39,789
+here is 0 here so we should not enter ok
+这里是0，所以我们不应该输入ok 
+
+188
+00:08:39,990 --> 00:08:43,879
+this is another Nash equilibrium
+这是另一个纳什均衡
+
+189
+00:08:45,740 --> 00:08:48,149
+and in some sense it's a more credible
+从某种意义上讲，这是更可信的
+
+190
+00:08:48,350 --> 00:08:50,309
+Nash equilibrium because in this
+纳什均衡，因为在此
+
+191
+00:08:50,509 --> 00:08:55,828
+situation firm 2 is called on 2 to move
+情况公司2被要求2移动
+
+192
+00:08:56,028 --> 00:08:58,559
+they're actually doing a best response
+他们实际上在做出最好的反应
+
+193
+00:08:58,759 --> 00:09:00,839
+so they're following a best responsive
+因此他们正在采取最佳的回应
+
+194
+00:09:01,039 --> 00:09:04,500
+acquiescing and firm 1 is doing the best
+默许和坚定1做到最好
+
+195
+00:09:04,700 --> 00:09:06,269
+it can if it's strong it's entering if
+如果它很强就可以进入
+
+196
+00:09:06,470 --> 00:09:08,578
+it's weak it's not and this whole thing
+它很弱，不是，这整个事情
+
+197
+00:09:08,778 --> 00:09:11,490
+hangs together as another Nash
+挂在一起作为另一个纳什
+
+198
+00:09:11,690 --> 00:09:13,649
+equilibrium so here there's a couple of
+平衡，所以这里有几个
+
+199
+00:09:13,850 --> 00:09:15,799
+Nash equilibria there's actually more
+纳什均衡实际上还有更多
+
+200
+00:09:16,000 --> 00:09:18,990
+where you have firm 2 doing some mixing
+你在公司2做一些混音的地方
+
+201
+00:09:19,190 --> 00:09:21,599
+and then firm 1 staying out in some
+然后公司1留在一些
+
+202
+00:09:21,799 --> 00:09:23,669
+circumstances and not in others it
+情况而不是其他情况
+
+203
+00:09:23,870 --> 00:09:25,620
+depends on the particular mixtures you
+取决于您的特定混合物
+
+204
+00:09:25,820 --> 00:09:27,029
+work out so there's actually a lot of
+算出来，所以实际上有很多
+
+205
+00:09:27,230 --> 00:09:31,979
+Nash equilibria to this game and so when
+纳什均衡到这场比赛，所以什么时候
+
+206
+00:09:32,179 --> 00:09:36,419
+we when we want to analyze this sub-game
+我们当我们想分析这个子游戏时
+
+207
+00:09:36,620 --> 00:09:38,578
+perfection corresponds with Nash it
+完美与纳什相对应
+
+208
+00:09:38,778 --> 00:09:40,109
+doesn't give us much bite in terms of
+并没有给我们很大的帮助
+
+209
+00:09:40,309 --> 00:09:43,139
+picking out one or another but one idea
+挑选一个或另一个但一个主意
+
+210
+00:09:43,339 --> 00:09:46,019
+behind doing this and analyzing these
+这样做并分析这些背后
+
+211
+00:09:46,220 --> 00:09:49,769
+games is to try and build in the idea
+游戏是要尝试建立想法
+
+212
+00:09:49,970 --> 00:09:53,279
+behind sub liam confection in terms of
+在亚利亚甜品后面
+
+213
+00:09:53,480 --> 00:09:55,500
+sequential rationality and so there are
+顺序合理性等
+
+214
+00:09:55,700 --> 00:09:57,089
+equilibrium concepts that explicitly
+明确的均衡概念
+
+215
+00:09:57,289 --> 00:09:59,490
+model players beliefs about where they
+模型玩家对他们在哪里的信念
+
+216
+00:09:59,690 --> 00:10:01,109
+are in a tree for every information set
+对于每个信息集都在树上
+
+217
+00:10:01,309 --> 00:10:04,258
+and there's two solution concepts in
+在其中有两个解决方案概念
+
+218
+00:10:04,458 --> 00:10:06,000
+particular known as sequential
+特别称为顺序
+
+219
+00:10:06,200 --> 00:10:08,309
+equilibrium and perfect Bayesian
+平衡和完美贝叶斯
+
+220
+00:10:08,509 --> 00:10:10,740
+equilibrium that have key features where
+具有关键特征的均衡
+
+221
+00:10:10,940 --> 00:10:14,008
+they have players as part of the
+他们有球员作为
+
+222
+00:10:14,208 --> 00:10:16,198
+equilibrium you specify what the beliefs
+平衡你指定什么信念
+
+223
+00:10:16,399 --> 00:10:18,569
+of the players are and it should be that
+的球员是，应该是
+
+224
+00:10:18,769 --> 00:10:20,219
+the beliefs are not contradicted by the
+信念与
+
+225
+00:10:20,419 --> 00:10:22,709
+actual play of the game and players best
+游戏的实际玩法和玩家最佳
+
+226
+00:10:22,909 --> 00:10:25,559
+respond to those beliefs so you have
+回应这些信念，所以你有
+
+227
+00:10:25,759 --> 00:10:28,289
+best respondent and and so forth but you
+最佳答复者，依此类推，但是您
+
+228
+00:10:28,490 --> 00:10:31,439
+also make a requirement that the police
+还要求警察
+
+229
+00:10:31,639 --> 00:10:32,819
+aren't contradicted by the actual play
+与实际玩法并不矛盾
+
+230
+00:10:33,019 --> 00:10:35,519
+of a game and players have to best
+游戏中，玩家必须做到最好
+
+231
+00:10:35,720 --> 00:10:37,948
+respond to their beliefs even off the
+即使在
+
+232
+00:10:38,149 --> 00:10:40,229
+equilibrium path and that's going to
+平衡路径，这将
+
+233
+00:10:40,429 --> 00:10:42,990
+have bite in this game so if we look at
+咬了这个游戏，所以如果我们看看
+
+234
+00:10:43,190 --> 00:10:45,089
+this game again and we require that
+再次玩这个游戏，我们要求
+
+235
+00:10:45,289 --> 00:10:46,620
+players have beliefs at different
+玩家对不同的信念
+
+236
+00:10:46,820 --> 00:10:48,899
+information sets so here what we would
+信息集，所以在这里我们会
+
+237
+00:10:49,100 --> 00:10:51,029
+have to have is now player two has to
+现在必须拥有的是第二个玩家
+
+238
+00:10:51,230 --> 00:10:52,529
+say what's the probability that I'm here
+说我在这里的几率
+
+239
+00:10:52,730 --> 00:10:54,419
+what's the probability that I'm here so
+我在这里的概率是多少
+
+240
+00:10:54,620 --> 00:10:56,699
+they have some beliefs but notice in
+他们有一些信仰，但注意
+
+241
+00:10:56,899 --> 00:10:58,949
+this game no matter what those beliefs
+这个游戏不管那些信念
+
+242
+00:10:59,149 --> 00:11:03,000
+are they should always acquiesce right
+他们应该总是默许吗
+
+243
+00:11:03,200 --> 00:11:04,979
+so once we give player two beliefs here
+所以一旦我们给玩家两种信念
+
+244
+00:11:05,179 --> 00:11:06,329
+and say they have to best respond to
+说他们必须最好地回应
+
+245
+00:11:06,529 --> 00:11:09,569
+their beliefs in in any any node where
+他们对任何节点的信仰
+
+246
+00:11:09,769 --> 00:11:12,120
+they have beliefs then that ties down
+他们有信念，然后联系在一起
+
+247
+00:11:12,320 --> 00:11:14,789
+and says okay it player two has to
+并说第二个玩家必须
+
+248
+00:11:14,990 --> 00:11:18,779
+equius then for player one if player two
+如果玩家2，则等于玩家1 
+
+249
+00:11:18,980 --> 00:11:22,169
+is a quiescing player one is strong they
+是一个安静的球员，他们很强大
+
+250
+00:11:22,370 --> 00:11:25,229
+should definitely enter if player two is
+如果玩家2是
+
+251
+00:11:25,429 --> 00:11:28,949
+weak they should definitely not enter so
+弱者绝对不应该这样进入
+
+252
+00:11:29,149 --> 00:11:31,079
+we end up with a unique prediction in
+我们最终得到了一个独特的预测
+
+253
+00:11:31,279 --> 00:11:31,769
+this game
+这个游戏
+
+254
+00:11:31,970 --> 00:11:33,629
+whereas with sub game perfection there
+而随着子游戏的完善
+
+255
+00:11:33,830 --> 00:11:38,609
+were many so the idea here is we have
+有很多，所以这里的想法是
+
+256
+00:11:38,809 --> 00:11:40,589
+these extra impositions that players
+这些额外的强加给玩家
+
+257
+00:11:40,789 --> 00:11:42,329
+have beliefs first of all they're not
+首先有信念他们不是
+
+258
+00:11:42,529 --> 00:11:44,579
+contradicted so it has to be that what
+矛盾的，所以必须是什么
+
+259
+00:11:44,779 --> 00:11:46,679
+they're believing is consistent with the
+他们认为与
+
+260
+00:11:46,879 --> 00:11:50,350
+way that other players are playing and
+其他玩家的游戏方式
+
+261
+00:11:50,440 --> 00:11:52,889
+players should best respond to their
+玩家最好对他们的反应
+
+262
+00:11:53,090 --> 00:11:55,589
+beliefs which is imposing credibility at
+信念强加于
+
+263
+00:11:55,789 --> 00:11:59,490
+every information set in the game okay
+游戏中设置的所有信息都可以
+
+264
+00:11:59,690 --> 00:12:02,009
+so this makes it you know ends up making
+所以这让你知道最终
+
+265
+00:12:02,210 --> 00:12:04,079
+a lot of predictions in these kinds of
+这些类型的很多预测
+
+266
+00:12:04,279 --> 00:12:06,750
+games and the date you know the
+游戏和您知道的日期
+
+267
+00:12:06,950 --> 00:12:08,759
+challenges here we see with incomplete
+我们在这里看到的挑战并不完整
+
+268
+00:12:08,960 --> 00:12:10,500
+information there may not be proper sub
+信息可能没有正确的子
+
+269
+00:12:10,700 --> 00:12:12,679
+games the ideas of sequential
+游戏顺序的想法
+
+270
+00:12:12,879 --> 00:12:15,269
+rationality can be extended but they
+理性可以扩展，但是他们
+
+271
+00:12:15,470 --> 00:12:18,149
+require extra layers of solution
+需要额外的解决方案
+
+272
+00:12:18,350 --> 00:12:21,240
+concepts and you know once we do this
+概念，一旦执行此操作，您就会知道
+
+273
+00:12:21,440 --> 00:12:23,759
+we're also layering on a lot more than
+我们还不仅仅局限于
+
+274
+00:12:23,960 --> 00:12:25,500
+we had before and we've seen sub game
+我们以前有过，我们看过子游戏
+
+275
+00:12:25,700 --> 00:12:26,879
+perfection already can be quite
+完美已经可以相当
+
+276
+00:12:27,080 --> 00:12:29,219
+demanding of players here now they also
+现在这里的球员要求很高
+
+277
+00:12:29,419 --> 00:12:31,799
+have to be very good at inferring things
+必须非常善于推断事物
+
+278
+00:12:32,000 --> 00:12:35,250
+based on where they are but when you
+根据他们在哪里，但是当你
+
+279
+00:12:35,450 --> 00:12:36,629
+begin to see things like professional
+开始看到像专业的东西
+
+280
+00:12:36,830 --> 00:12:39,259
+poker players playing they're very much
+玩扑克的人很多
+
+281
+00:12:39,460 --> 00:12:40,889
+going through these kinds of
+经历这些
+
+282
+00:12:41,090 --> 00:12:44,069
+calculations so if another player raised
+计算，所以如果另一个玩家加注
+
+283
+00:12:44,269 --> 00:12:46,469
+a bet what does that mean about what
+打赌这意味着什么
+
+284
+00:12:46,669 --> 00:12:50,339
+their hand is likely to be should I be
+他们的手很可能是我
+
+285
+00:12:50,539 --> 00:12:51,899
+you know what should I do under
+你知道我该怎么办
+
+286
+00:12:52,100 --> 00:12:53,009
+different circumstances if I have a
+如果我有一个不同的情况
+
+287
+00:12:53,210 --> 00:12:55,229
+strong hand should I call should I raise
+我应该加注吗？ 
+
+288
+00:12:55,429 --> 00:12:58,589
+there and and so forth so what's going
+那里等等，这是怎么回事
+
+289
+00:12:58,789 --> 00:13:00,419
+on in this kinds of solution concepts
+在这种解决方案概念中
+
+290
+00:13:00,620 --> 00:13:03,059
+nonetheless are
+尽管如此
+
+291
+00:13:03,259 --> 00:13:05,279
+are very well-suited to analyzing
+非常适合分析
+
+292
+00:13:05,480 --> 00:13:08,309
+specific kinds of games so there's a lot
+特定类型的游戏，所以有很多
+
+293
+00:13:08,509 --> 00:13:11,219
+more to study even beyond the scope of
+甚至超出了研究范围
+
+294
+00:13:11,419 --> 00:13:13,889
+this course but these are fascinating
+这门课，但是这些很有趣
+
+295
+00:13:14,090 --> 00:13:19,090
+games to begin to wrap your head around
+游戏开始缠住你的头
+

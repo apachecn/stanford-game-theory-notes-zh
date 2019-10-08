@@ -1,0 +1,1530 @@
+﻿1
+00:00:00,050 --> 00:00:02,198
+this lecture is going to introduce the
+本讲座将介绍
+
+2
+00:00:02,399 --> 00:00:05,979
+idea of mixed strategies and extend our
+混合策略的想法并扩展我们的
+
+3
+00:00:06,179 --> 00:00:08,140
+previous concept of Nash equilibrium to
+纳什均衡的先前概念
+
+4
+00:00:08,339 --> 00:00:12,069
+this new definition let's begin by
+这个新定义让我们开始
+
+5
+00:00:12,269 --> 00:00:14,609
+looking at the matching pennies game
+看配套的便士游戏
+
+6
+00:00:14,808 --> 00:00:16,600
+recall that it would be a pretty bad
+回想起来那将是非常糟糕的
+
+7
+00:00:16,800 --> 00:00:18,699
+idea to play any deterministic strategy
+发挥任何确定性策略的想法
+
+8
+00:00:18,899 --> 00:00:21,879
+in this game for example if player two
+在这个游戏中，例如，如果玩家2 
+
+9
+00:00:22,079 --> 00:00:25,568
+were to play heads then player one would
+玩头，然后玩家一会
+
+10
+00:00:25,768 --> 00:00:27,429
+want to respond by playing heads to get
+想要通过努力获得回应
+
+11
+00:00:27,629 --> 00:00:30,489
+a payoff of one meaning that player two
+收益为一意味着第二个玩家
+
+12
+00:00:30,689 --> 00:00:33,219
+would prefer to change details so that
+希望更改详细信息，以便
+
+13
+00:00:33,420 --> 00:00:36,579
+he can get this payoff of 1 meaning that
+他可以获得1的收益
+
+14
+00:00:36,780 --> 00:00:38,589
+player 1 would prefer to change to tails
+玩家1希望改成尾巴
+
+15
+00:00:38,789 --> 00:00:42,839
+so he can get this payoff of 1 meaning
+所以他可以获得1的收益
+
+16
+00:00:43,039 --> 00:00:46,599
+that player 2 would prefer to change
+该玩家2希望更改
+
+17
+00:00:46,799 --> 00:00:49,979
+back to heads to get this payoff of 1
+回到头来获得1的收益
+
+18
+00:00:50,179 --> 00:00:52,209
+meaning that player 1 would prefer to
+表示玩家1更愿意
+
+19
+00:00:52,409 --> 00:00:54,428
+change back to heads as well to get this
+换回头来得到这个
+
+20
+00:00:54,628 --> 00:00:56,678
+payoff of 1 where we started and so you
+我们开始的1的回报，所以您
+
+21
+00:00:56,878 --> 00:00:58,989
+can see there is kind of a cycle where
+可以看到有一个循环
+
+22
+00:00:59,189 --> 00:01:01,088
+we just bounced around between the
+我们只是在
+
+23
+00:01:01,289 --> 00:01:04,769
+different cells of this game matrix and
+此游戏矩阵的不同单元格以及
+
+24
+00:01:04,969 --> 00:01:07,629
+essentially argued that no pair of
+本质上说，没有一对
+
+25
+00:01:07,829 --> 00:01:09,700
+deterministic strategies works for both
+确定性策略对两者都有效
+
+26
+00:01:09,900 --> 00:01:14,140
+players so what does work for both
+玩家，那么什么对双方都有效
+
+27
+00:01:14,340 --> 00:01:17,379
+players well essentially it does make
+玩家基本上可以做到
+
+28
+00:01:17,579 --> 00:01:19,869
+sense for players to confuse each other
+玩家相互混淆的感觉
+
+29
+00:01:20,069 --> 00:01:22,349
+by choosing to play randomly so
+通过选择随机播放
+
+30
+00:01:22,549 --> 00:01:24,759
+intuitively instead of saying I'm going
+凭直觉而不是说我要去
+
+31
+00:01:24,959 --> 00:01:26,259
+to commit to playing heads or I'm going
+致力于发挥作用，否则我要走了
+
+32
+00:01:26,459 --> 00:01:28,569
+to commit to playing tails I can say I'm
+致力于打尾巴，我可以说我
+
+33
+00:01:28,769 --> 00:01:30,219
+going to commit to flipping this coin
+打算投掷这枚硬币
+
+34
+00:01:30,420 --> 00:01:34,119
+and playing whatever side comes up so
+并发挥任何方面，所以
+
+35
+00:01:34,319 --> 00:01:36,778
+let's try to make this idea formal
+让我们尝试使这个想法正式化
+
+36
+00:01:36,978 --> 00:01:39,128
+before we talked about the idea of pure
+在我们谈论纯粹的想法之前
+
+37
+00:01:39,328 --> 00:01:41,409
+strategies which we just equated to
+我们刚才等同的策略
+
+38
+00:01:41,609 --> 00:01:44,230
+playing actions now let's think of
+现在让我们想起玩游戏
+
+39
+00:01:44,430 --> 00:01:45,519
+things in terms of probability
+事物的概率
+
+40
+00:01:45,719 --> 00:01:47,829
+distributions so let's say that a
+分布，所以说
+
+41
+00:01:48,030 --> 00:01:50,590
+strategy for an agent is any probability
+代理商的策略是任何可能性
+
+42
+00:01:50,790 --> 00:01:52,778
+distribution over the actions that the
+分布在
+
+43
+00:01:52,978 --> 00:01:55,599
+player has available to him and a pure
+玩家可以使用他的纯
+
+44
+00:01:55,799 --> 00:01:58,539
+strategy then is the special case where
+策略就是特殊情况
+
+45
+00:01:58,739 --> 00:02:00,730
+I play only one action with positive
+我只打一个积极的动作
+
+46
+00:02:00,930 --> 00:02:04,869
+probability a mixed strategy says I'm
+混合策略说我很可能
+
+47
+00:02:05,069 --> 00:02:07,238
+just going to play more than one action
+只是要玩多个动作
+
+48
+00:02:07,438 --> 00:02:09,070
+with positive probability there there
+那里的可能性很大
+
+49
+00:02:09,270 --> 00:02:10,808
+might be a couple of different actions
+可能是几个不同的动作
+
+50
+00:02:11,008 --> 00:02:13,270
+that I assign positive probability
+我分配正概率
+
+51
+00:02:13,469 --> 00:02:15,210
+like in my example with matching pennies
+就像在我的例子中一样
+
+52
+00:02:15,409 --> 00:02:20,140
+I'm going to call the support of my
+我要打电话给我的支持
+
+53
+00:02:20,340 --> 00:02:22,390
+mixed strategy the set of actions that
+混合策略
+
+54
+00:02:22,590 --> 00:02:24,850
+get positive probability so for example
+得到正概率，例如
+
+55
+00:02:25,050 --> 00:02:26,050
+when I flip a coin when I'm playing
+当我玩游戏时抛硬币
+
+56
+00:02:26,250 --> 00:02:28,180
+matching pennies both heads and tails
+匹配头和尾的便士
+
+57
+00:02:28,379 --> 00:02:29,890
+are in the support of my mixed strategy
+支持我的混合策略
+
+58
+00:02:30,090 --> 00:02:34,360
+my support is the set heads tails I'm
+我的支持是固定的尾巴
+
+59
+00:02:34,560 --> 00:02:36,400
+going to define the set of all
+要定义所有的集合
+
+60
+00:02:36,599 --> 00:02:40,300
+strategies for an agent I to be capital
+代理人我成为资本的策略
+
+61
+00:02:40,500 --> 00:02:44,560
+S sub I and I'm going to define the set
+ S sub I，我要定义集合
+
+62
+00:02:44,759 --> 00:02:47,560
+of all strategy profiles capital S to be
+所有策略配置文件中的资本S 
+
+63
+00:02:47,759 --> 00:02:49,870
+the Cartesian product of these strategy
+这些策略的笛卡尔积
+
+64
+00:02:50,069 --> 00:02:55,660
+sets for the different agents now I have
+为不同的代理商设置了
+
+65
+00:02:55,860 --> 00:02:57,490
+the problem that I've elaborated my
+我阐述了我的问题
+
+66
+00:02:57,689 --> 00:03:00,010
+definition of strategies in the game to
+游戏中策略的定义
+
+67
+00:03:00,210 --> 00:03:02,320
+include not just this finite set of
+不仅包括这个有限的
+
+68
+00:03:02,520 --> 00:03:04,689
+things players can do but this infinite
+玩家可以做的事情，但是无限
+
+69
+00:03:04,889 --> 00:03:06,400
+set of all of the probability
+所有概率的集合
+
+70
+00:03:06,599 --> 00:03:10,000
+distributions over these finite sets the
+这些有限集的分布
+
+71
+00:03:10,199 --> 00:03:11,830
+reason this is a problem is I only have
+原因是我只有
+
+72
+00:03:12,030 --> 00:03:14,620
+a utility definition for action profiles
+动作配置文件的实用程序定义
+
+73
+00:03:14,819 --> 00:03:16,840
+and now I'm allowing things to happen
+现在我允许事情发生
+
+74
+00:03:17,039 --> 00:03:20,350
+that I don't have utilities for that is
+我没有实用程序是
+
+75
+00:03:20,550 --> 00:03:22,570
+to say I can't just read a number out of
+说我不能只读一个数字
+
+76
+00:03:22,770 --> 00:03:25,390
+the game matrix to figure out how happy
+游戏矩阵来找出幸福感
+
+77
+00:03:25,590 --> 00:03:27,370
+the players are when something happens
+玩家在发生某事时
+
+78
+00:03:27,569 --> 00:03:31,240
+because under a mixed strategy with
+因为在混合策略下
+
+79
+00:03:31,439 --> 00:03:34,120
+support of size greater than one I won't
+支持的尺寸大于我不会的尺寸
+
+80
+00:03:34,319 --> 00:03:35,650
+always end up in the same cell of the
+总是以相同的单元格结束
+
+81
+00:03:35,849 --> 00:03:40,150
+matrix so I can extend my definition of
+矩阵，所以我可以扩展我的定义
+
+82
+00:03:40,349 --> 00:03:42,580
+utility here by leveraging the idea of
+通过利用
+
+83
+00:03:42,780 --> 00:03:45,250
+expected utility from decision theory so
+决策理论的预期效用
+
+84
+00:03:45,449 --> 00:03:47,469
+these equations explain what this means
+这些等式解释了这意味着什么
+
+85
+00:03:47,669 --> 00:03:49,840
+it looks a lot more complicated than it
+它看起来比它复杂得多
+
+86
+00:03:50,039 --> 00:03:50,160
+is
+是
+
+87
+00:03:50,360 --> 00:03:52,990
+so what I'm saying here is that i's
+所以我在这里说的是
+
+88
+00:03:53,189 --> 00:03:56,560
+utility under mixed strategy profile s
+混合策略配置文件下的效用
+
+89
+00:03:56,759 --> 00:04:00,910
+where little s is some element of the
+其中小s是
+
+90
+00:04:01,110 --> 00:04:02,980
+set of all possible mixed strategy
+所有可能的混合策略的集合
+
+91
+00:04:03,180 --> 00:04:09,400
+profiles bigass is equal to the sum over
+轮廓bigass等于总和
+
+92
+00:04:09,599 --> 00:04:12,009
+all action profiles in the game you can
+您可以在游戏中的所有动作配置文件
+
+93
+00:04:12,209 --> 00:04:15,250
+kind of think of this intuitively as the
+直觉上认为这是
+
+94
+00:04:15,449 --> 00:04:20,348
+sum over all of the cells in the normal
+正常中所有单元的总和
+
+95
+00:04:20,548 --> 00:04:24,240
+form of the game where I take the
+我参加的比赛形式
+
+96
+00:04:24,439 --> 00:04:26,170
+utility
+效用
+
+97
+00:04:26,370 --> 00:04:30,430
+of each cell and I multiply it by the
+的每个单元格，我乘以
+
+98
+00:04:30,629 --> 00:04:31,990
+probability that that cell will be
+该单元格将成为的概率
+
+99
+00:04:32,189 --> 00:04:34,150
+reached in the given mixed strategy the
+在给定的混合策略中达到
+
+100
+00:04:34,350 --> 00:04:35,759
+probability of getting two cell a
+获得两个像元的概率
+
+101
+00:04:35,959 --> 00:04:38,379
+strategy profile a as a reaction profile
+策略配置文件a作为反应配置文件
+
+102
+00:04:38,579 --> 00:04:42,430
+a given strategy profile else and then
+给定的策略配置文件，然后
+
+103
+00:04:42,629 --> 00:04:43,960
+of course I need to define what this
+当然，我需要定义什么
+
+104
+00:04:44,160 --> 00:04:46,749
+probability actually is and that's given
+概率实际上就是这样
+
+105
+00:04:46,949 --> 00:04:48,730
+here the probability that I'll get to a
+这是我到达
+
+106
+00:04:48,930 --> 00:04:52,300
+given action profile given a strategy
+给定行动方案给定策略
+
+107
+00:04:52,500 --> 00:04:55,569
+profile S is just the product of the
+配置文件S只是
+
+108
+00:04:55,769 --> 00:04:58,240
+probability of each player playing his
+每个玩家玩他的概率
+
+109
+00:04:58,439 --> 00:05:01,778
+part of that action profile so in for
+该操作资料的一部分，因此
+
+110
+00:05:01,978 --> 00:05:06,850
+example if this player was playing with
+例如，如果该玩家正在玩
+
+111
+00:05:07,050 --> 00:05:10,480
+probability point five on each action
+每个动作的概率点为5 
+
+112
+00:05:10,680 --> 00:05:14,350
+and this player was playing with
+和这个玩家一起玩
+
+113
+00:05:14,550 --> 00:05:20,259
+probability point five then the
+概率点五然后
+
+114
+00:05:20,459 --> 00:05:22,028
+probability that I would get to this
+我会做到这一点的可能性
+
+115
+00:05:22,228 --> 00:05:26,259
+cell is 0.25 this action profile arises
+单元格为0.25，此操作配置文件出现
+
+116
+00:05:26,459 --> 00:05:29,710
+with probability 0.25 because this thing
+概率为0.25，因为这件事
+
+117
+00:05:29,910 --> 00:05:31,689
+happens half the time and this thing
+发生一半的时间，这件事
+
+118
+00:05:31,889 --> 00:05:33,610
+happens half the time and so we have to
+发生一半的时间，所以我们必须
+
+119
+00:05:33,810 --> 00:05:34,660
+multiply those two probabilities
+将这两个概率相乘
+
+120
+00:05:34,860 --> 00:05:37,270
+together to get the joint probability of
+一起得到
+
+121
+00:05:37,470 --> 00:05:40,420
+this action profile so that's that's
+这个动作资料，就是这样
+
+122
+00:05:40,620 --> 00:05:43,270
+what this definition here is saying so
+这个定义在说什么
+
+123
+00:05:43,470 --> 00:05:46,270
+in total my utility for a strategy
+总的来说，我的策略实用性
+
+124
+00:05:46,470 --> 00:05:49,540
+profile is my expected utility taking an
+个人资料是我期望的实用程序
+
+125
+00:05:49,740 --> 00:05:51,910
+expectation over all of the action
+对所有行动的期望
+
+126
+00:05:52,110 --> 00:05:55,300
+profiles in the support of that strategy
+支持该策略的配置文件
+
+127
+00:05:55,500 --> 00:05:57,670
+profile and weighting each of them by
+分别对它们进行配置并加权
+
+128
+00:05:57,870 --> 00:05:59,290
+the probability that that action profile
+该动作描述的概率
+
+129
+00:05:59,490 --> 00:06:03,460
+would actually arise well now that I've
+现在我已经可以很好地成长了
+
+130
+00:06:03,660 --> 00:06:08,110
+defined what strategies are I can go
+确定我可以采取的策略
+
+131
+00:06:08,310 --> 00:06:09,910
+back to my definitions of best response
+回到我对最佳回应的定义
+
+132
+00:06:10,110 --> 00:06:13,300
+and Nash equilibrium and basically they
+和纳什均衡，基本上
+
+133
+00:06:13,500 --> 00:06:15,129
+work the way they did before except I
+除了我之前，他们像以前一样工作
+
+134
+00:06:15,329 --> 00:06:19,420
+change all of the A's to asses so so
+将所有A都更改为资产
+
+135
+00:06:19,620 --> 00:06:20,230
+that means I have to write these
+这意味着我必须写这些
+
+136
+00:06:20,430 --> 00:06:21,699
+definitions again and I'll go through
+再次定义，我将讲解
+
+137
+00:06:21,899 --> 00:06:23,800
+them again but conceptually if you
+他们再次，但从概念上讲，如果你
+
+138
+00:06:24,000 --> 00:06:25,629
+understood what best response and Nash
+了解什么是最佳反应，纳什
+
+139
+00:06:25,829 --> 00:06:27,730
+equilibrium meant in the case of actions
+平衡意味着采取行动
+
+140
+00:06:27,930 --> 00:06:31,360
+then everything will work again so I
+然后一切都会恢复正常，所以我
+
+141
+00:06:31,560 --> 00:06:36,850
+will say that a strategy s star I is an
+会说我是策略明星
+
+142
+00:06:37,050 --> 00:06:39,680
+element of the set of best responses
+最佳响应集的元素
+
+143
+00:06:39,879 --> 00:06:43,129
+to strategy profile s- i when the
+到策略配置文件s- i 
+
+144
+00:06:43,329 --> 00:06:46,579
+following condition is true for all
+以下条件对所有人都适用
+
+145
+00:06:46,779 --> 00:06:50,900
+other strategies si the player I could
+其他策略，我可以的球员
+
+146
+00:06:51,100 --> 00:06:53,420
+take for all of the strategies in the
+采取所有策略
+
+147
+00:06:53,620 --> 00:06:55,850
+set of possible strategies for that
+一套可行的策略
+
+148
+00:06:56,050 --> 00:06:57,500
+player notice that these this is an
+玩家注意到这些是
+
+149
+00:06:57,699 --> 00:06:59,030
+infinite set but that's okay the
+无限集，但是没关系
+
+150
+00:06:59,230 --> 00:07:03,050
+definition still works then the utility
+定义仍然有效，然后实用程序
+
+151
+00:07:03,250 --> 00:07:05,569
+that the player would get for playing a
+玩家会因为玩
+
+152
+00:07:05,769 --> 00:07:08,750
+star I when everybody else plays the
+当其他人都扮演
+
+153
+00:07:08,949 --> 00:07:12,710
+strategy profile as minus I is at least
+策略简介，我至少为负
+
+154
+00:07:12,910 --> 00:07:16,280
+as big as when he plays this other
+和他玩这个游戏一样大
+
+155
+00:07:16,480 --> 00:07:21,370
+strategy si so let me say that again as
+策略，所以我再说一遍
+
+156
+00:07:21,569 --> 00:07:25,819
+star I is a best response to strategy
+明星我是对策略的最佳回应
+
+157
+00:07:26,019 --> 00:07:29,360
+profile s - I if it's at least as good
+个人资料s-我至少是一样好
+
+158
+00:07:29,560 --> 00:07:31,180
+as anything else
+和其他一样
+
+159
+00:07:31,379 --> 00:07:34,310
+given that everybody else is playing as
+鉴于其他人都在玩
+
+160
+00:07:34,509 --> 00:07:42,500
+minus sign now we can say that a
+减号现在我们可以说
+
+161
+00:07:42,699 --> 00:07:46,040
+strategy profile S is a Nash equilibrium
+策略配置文件S是纳什均衡
+
+162
+00:07:46,240 --> 00:07:49,850
+if it's the case that for all agents
+如果是这样的话，对于所有代理商
+
+163
+00:07:50,050 --> 00:07:53,579
+everybody is playing a best response
+每个人都在做出最好的回应
+
+164
+00:07:53,970 --> 00:07:56,600
+incidentally you might notice that I'm
+顺带一提，您可能会注意到我
+
+165
+00:07:56,800 --> 00:07:59,300
+using a set membership operator here
+在这里使用设置的成员运算符
+
+166
+00:07:59,500 --> 00:08:01,639
+rather than an equal sign which is what
+而不是等号
+
+167
+00:08:01,839 --> 00:08:03,980
+you might have expected to see well the
+您可能期望看到的效果很好
+
+168
+00:08:04,180 --> 00:08:05,540
+reason I don't use an equal sign is
+我不使用等号的原因是
+
+169
+00:08:05,740 --> 00:08:08,389
+because the set of best responses might
+因为这组最佳响应可能
+
+170
+00:08:08,589 --> 00:08:10,670
+have more than one thing in it so the
+其中不止一件事，所以
+
+171
+00:08:10,870 --> 00:08:12,259
+best there might not be only one best
+最好可能不会只有一个最好的
+
+172
+00:08:12,459 --> 00:08:13,610
+response sometimes there'll be multiple
+回应有时会有多个
+
+173
+00:08:13,810 --> 00:08:16,129
+best responses and so here what I'm
+最好的回复，所以我在这里
+
+174
+00:08:16,329 --> 00:08:18,650
+saying is a strategy profile is one of
+俗话说，策略简介是其中之一
+
+175
+00:08:18,850 --> 00:08:20,509
+the best responses if this condition is
+如果这种情况是最好的响应
+
+176
+00:08:20,709 --> 00:08:23,600
+true and I'm saying a strategy profile
+是的，我说的是战略概况
+
+177
+00:08:23,800 --> 00:08:25,910
+is a Nash equilibrium if everybody is
+如果每个人都是纳什均衡
+
+178
+00:08:26,110 --> 00:08:32,479
+playing one of their best responses well
+发挥最佳反应之一
+
+179
+00:08:32,679 --> 00:08:34,338
+this might seem like much ado about
+这似乎很不值得
+
+180
+00:08:34,538 --> 00:08:37,389
+nothing I've introduced this idea of
+我没有介绍过这个想法
+
+181
+00:08:37,590 --> 00:08:39,859
+randomizing as a strategy I've redefined
+重新定义随机化策略
+
+182
+00:08:40,059 --> 00:08:42,588
+utility then I've leveraged this
+实用程序，然后我利用了这个
+
+183
+00:08:42,788 --> 00:08:44,479
+redefined definition of utility which is
+重新定义的实用程序定义是
+
+184
+00:08:44,679 --> 00:08:46,069
+incidentally what I'm using here when I
+顺带一提，我在这里使用的是什么
+
+185
+00:08:46,269 --> 00:08:47,990
+talk about the utility of a strategy
+谈论策略的效用
+
+186
+00:08:48,190 --> 00:08:50,539
+profile to define best response I've
+配置文件以定义我的最佳响应
+
+187
+00:08:50,740 --> 00:08:52,669
+then leveraged that definition of best
+然后利用最佳的定义
+
+188
+00:08:52,870 --> 00:08:56,299
+response here to talk about Nash
+在这里回复谈论纳什
+
+189
+00:08:56,500 --> 00:09:00,649
+equilibrium and in total I've just ended
+平衡，我刚结束
+
+190
+00:09:00,850 --> 00:09:02,120
+up kind of saying everything that you've
+说出你所拥有的一切
+
+191
+00:09:02,320 --> 00:09:04,399
+already heard us say but what does
+已经听到我们说了，但是怎么办
+
+192
+00:09:04,600 --> 00:09:06,828
+matter is that now that we have a new
+重要的是，现在我们有了一个新
+
+193
+00:09:07,028 --> 00:09:09,589
+definition of Nash equilibrium were able
+纳什均衡的定义能够
+
+194
+00:09:09,789 --> 00:09:11,089
+to state a theorem that we didn't have
+陈述一个我们没有的定理
+
+195
+00:09:11,289 --> 00:09:15,259
+before and this is Nash's famous theorem
+以前，这是纳什的著名定理
+
+196
+00:09:15,460 --> 00:09:17,419
+this is the reason why gets the Nash
+这就是为什么得到纳什的原因
+
+197
+00:09:17,620 --> 00:09:19,609
+equilibrium named after him and this is
+以他的名字命名的均衡，这是
+
+198
+00:09:19,809 --> 00:09:21,229
+one of the main reasons why Nash got the
+纳什得到的主要原因之一
+
+199
+00:09:21,429 --> 00:09:25,069
+Nobel Prize this theorem actually didn't
+这个定理实际上没有得到诺贝尔奖
+
+200
+00:09:25,269 --> 00:09:26,929
+take very long to prove but it's a
+需要很长时间才能证明，但这是一个
+
+201
+00:09:27,129 --> 00:09:28,399
+really important thing for game theory
+对博弈论来说真的很重要
+
+202
+00:09:28,600 --> 00:09:30,889
+and the theorem is that every finite
+定理是每个有限
+
+203
+00:09:31,089 --> 00:09:34,399
+game has a Nash equilibrium what's first
+游戏有纳什均衡先
+
+204
+00:09:34,600 --> 00:09:36,679
+of all what is a finite game this sounds
+听起来是什么有限游戏
+
+205
+00:09:36,879 --> 00:09:38,870
+like I'm hedging here but it's not much
+就像我在这里对冲，但数量不多
+
+206
+00:09:39,070 --> 00:09:41,750
+of a hedge a finite game just means that
+套期保值游戏的意思是
+
+207
+00:09:41,950 --> 00:09:43,490
+the game takes a finite amount of space
+游戏占用有限的空间
+
+208
+00:09:43,690 --> 00:09:45,379
+to write down so it has a finite number
+写下来，所以它有一个有限的数
+
+209
+00:09:45,580 --> 00:09:48,049
+of players it has a finite number of
+的玩家数量有限
+
+210
+00:09:48,250 --> 00:09:50,659
+actions for every player and that means
+每个玩家的动作，这意味着
+
+211
+00:09:50,860 --> 00:09:52,819
+it has a finite number of utility values
+它具有有限数量的效用值
+
+212
+00:09:53,019 --> 00:09:54,349
+in the game because the number of
+在游戏中，因为
+
+213
+00:09:54,549 --> 00:09:55,879
+utility values is determined by the
+效用值由
+
+214
+00:09:56,080 --> 00:09:57,049
+number of players and the number of
+玩家人数和人数
+
+215
+00:09:57,250 --> 00:10:00,649
+actions for each player so as long as
+每个玩家的动作，只要
+
+216
+00:10:00,850 --> 00:10:03,469
+the game has a finite number of players
+游戏中有有限数量的玩家
+
+217
+00:10:03,669 --> 00:10:05,508
+not just two players but any finite
+不只是两个玩家，而是任何有限玩家
+
+218
+00:10:05,708 --> 00:10:07,969
+number of players and a finite number of
+玩家数量和有限数量的
+
+219
+00:10:08,169 --> 00:10:09,649
+actions for each player not just two
+每个玩家的行动不只是两个
+
+220
+00:10:09,850 --> 00:10:12,008
+actions but but maybe a very big game
+动作，但也许是一个很大的游戏
+
+221
+00:10:12,208 --> 00:10:14,990
+then no matter what the payoff values
+那么无论收益多少
+
+222
+00:10:15,190 --> 00:10:18,258
+are no matter what strategic situation
+无论是什么战略形势
+
+223
+00:10:18,458 --> 00:10:19,819
+we're talking about here no matter what
+无论如何我们在这里谈论
+
+224
+00:10:20,019 --> 00:10:23,258
+real-world interaction this is modeling
+现实世界中的互动，这是建模
+
+225
+00:10:23,458 --> 00:10:26,539
+there's going to be at least one Nash
+至少会有一个纳什
+
+226
+00:10:26,740 --> 00:10:28,969
+equilibrium in this game that's a pretty
+这个游戏的平衡点很漂亮
+
+227
+00:10:29,169 --> 00:10:31,819
+deep thing that's saying there will
+那深深的意思是说
+
+228
+00:10:32,019 --> 00:10:34,789
+always be some stable thing that all of
+始终是一些稳定的东西
+
+229
+00:10:34,990 --> 00:10:37,159
+the players can do which has the
+玩家可以做到的
+
+230
+00:10:37,360 --> 00:10:38,929
+property that if they knew what everyone
+属性，如果他们知道每个人
+
+231
+00:10:39,129 --> 00:10:40,729
+was doing none of them would want to
+当时他们都不愿意
+
+232
+00:10:40,929 --> 00:10:44,149
+change their strategy that that's
+改变他们的策略
+
+233
+00:10:44,350 --> 00:10:46,129
+basically one of the main reasons why we
+基本上是我们为什么的主要原因之一
+
+234
+00:10:46,330 --> 00:10:48,139
+care about this idea of Nash equilibrium
+关心纳什均衡的想法
+
+235
+00:10:48,339 --> 00:10:50,539
+because we know that no matter what the
+因为我们知道无论
+
+236
+00:10:50,740 --> 00:10:52,129
+game is we can find such a Nash
+游戏是我们可以找到这样的纳什
+
+237
+00:10:52,330 --> 00:10:53,959
+equilibrium and reason about it that's
+平衡及其原因是
+
+238
+00:10:54,159 --> 00:10:55,519
+why Nash equilibrium is such a powerful
+为什么纳什均衡如此强大
+
+239
+00:10:55,720 --> 00:10:59,809
+thing and that's only true when we have
+事情，只有当我们有
+
+240
+00:11:00,009 --> 00:11:02,389
+this fuller definition of Nash
+纳什的完整定义
+
+241
+00:11:02,589 --> 00:11:04,639
+equilibrium here that we've just defined
+我们刚刚定义的均衡
+
+242
+00:11:04,839 --> 00:11:06,059
+in terms of strategies
+在策略上
+
+243
+00:11:06,259 --> 00:11:07,620
+we saw that when we talked about Nash
+当我们谈论纳什时，我们看到了
+
+244
+00:11:07,820 --> 00:11:09,240
+equilibrium in terms of just actions
+公正行动方面的均衡
+
+245
+00:11:09,440 --> 00:11:12,289
+before what will now from this point on
+从现在开始之前
+
+246
+00:11:12,490 --> 00:11:16,019
+refer to as pure strategy Nash
+称为纯策略纳什
+
+247
+00:11:16,220 --> 00:11:24,029
+equilibrium so pure strategy Nash is
+均衡，所以纯策略Nash是
+
+248
+00:11:24,230 --> 00:11:28,919
+when we do all of this with aids instead
+当我们用辅助工具完成所有这些工作时
+
+249
+00:11:29,120 --> 00:11:31,409
+of s is that's a pure strategy Nash
+的是纯策略Nash 
+
+250
+00:11:31,610 --> 00:11:34,019
+equilibrium and the sad thing about that
+平衡和可悲的是
+
+251
+00:11:34,220 --> 00:11:36,089
+is that we don't get a theorem that says
+是我们没有定理说
+
+252
+00:11:36,289 --> 00:11:38,419
+that every finite game has one of those
+每个有限的游戏都有其中一个
+
+253
+00:11:38,620 --> 00:11:42,000
+but this mixed strategy Nash equilibrium
+但是这种混合策略纳什均衡
+
+254
+00:11:42,200 --> 00:11:45,959
+always exists let's do some examples
+永远存在，让我们做一些例子
+
+255
+00:11:46,159 --> 00:11:49,529
+so remember matching pennies well we
+所以记得很好地匹配便士
+
+256
+00:11:49,730 --> 00:11:50,909
+just argued at the beginning of this
+刚在这开始争论
+
+257
+00:11:51,110 --> 00:11:53,549
+video effectively that matching pennies
+视频有效匹配便士
+
+258
+00:11:53,750 --> 00:11:55,409
+doesn't have a pure strategy Nash
+没有纯粹的策略纳什
+
+259
+00:11:55,610 --> 00:11:58,469
+equilibrium but it does have a mixed
+平衡，但确实有混合
+
+260
+00:11:58,669 --> 00:12:00,769
+strategy Nash equilibrium it has one and
+战略纳什均衡，它有一个
+
+261
+00:12:00,970 --> 00:12:07,319
+that is as I suggested before for both
+正如我之前对两个建议一样
+
+262
+00:12:07,519 --> 00:12:12,120
+players to randomize 5050 and that
+玩家随机分配5050 
+
+263
+00:12:12,320 --> 00:12:13,529
+doesn't mean that it always has to be
+并不意味着它总是必须
+
+264
+00:12:13,730 --> 00:12:16,500
+50/50 that just happens to be what the
+ 50/50恰好是
+
+265
+00:12:16,700 --> 00:12:18,000
+Nash equilibrium is here that comes from
+纳什均衡在这里来自
+
+266
+00:12:18,200 --> 00:12:19,889
+the symmetry of the payoffs but that
+收益的对称性，但是
+
+267
+00:12:20,090 --> 00:12:22,139
+turns out to be the Nash equilibrium
+原来是纳什均衡
+
+268
+00:12:22,340 --> 00:12:26,549
+here let's come back to the coordination
+在这里，让我们回到协调
+
+269
+00:12:26,750 --> 00:12:30,240
+game well we've previously seen that
+游戏不错，我们以前见过
+
+270
+00:12:30,440 --> 00:12:35,429
+these two strategy profiles I'm circling
+我正在盘旋的这两个策略简介
+
+271
+00:12:35,629 --> 00:12:37,229
+outcomes but remember an outcome isn't
+结果，但要记住不是
+
+272
+00:12:37,429 --> 00:12:39,149
+an equilibrium you know one one isn't
+你知道一个平衡不是一个平衡
+
+273
+00:12:39,350 --> 00:12:40,229
+the equilibrium that would be wrong to
+平衡是错误的
+
+274
+00:12:40,429 --> 00:12:42,599
+say the right thing to say is that left
+说正确的话就是离开
+
+275
+00:12:42,799 --> 00:12:45,539
+left is in equilibrium right right is an
+左侧处于平衡状态，右侧是
+
+276
+00:12:45,740 --> 00:12:47,729
+equilibrium but it turns out there's
+平衡，但事实证明
+
+277
+00:12:47,929 --> 00:12:50,569
+another equilibrium here so it turns out
+这里的另一个平衡
+
+278
+00:12:50,769 --> 00:12:55,439
+again 0.5 0.5 is a Nash equilibrium here
+同样0.5 0.5是纳什均衡
+
+279
+00:12:55,639 --> 00:12:57,569
+as well and that's kind of funny because
+同样，这很有趣，因为
+
+280
+00:12:57,769 --> 00:12:59,879
+it doesn't seem like point 5.5 is such a
+似乎5.5点不是这样的
+
+281
+00:13:00,080 --> 00:13:02,039
+good thing to play in this game but you
+在这个游戏中玩是一件好事，但是你
+
+282
+00:13:02,240 --> 00:13:04,409
+can confirm to yourself that if player 1
+可以向自己确认如果玩家1 
+
+283
+00:13:04,610 --> 00:13:07,379
+is randomizing by playing 50/50 then
+通过玩50/50随机
+
+284
+00:13:07,580 --> 00:13:09,719
+player 2 can do no better than to
+玩家2做不到
+
+285
+00:13:09,919 --> 00:13:11,849
+randomize 50/50 now you'll notice that
+现在将50/50随机化，您会注意到
+
+286
+00:13:12,049 --> 00:13:13,649
+player 2 could do just as well by
+玩家2可以做得很好
+
+287
+00:13:13,850 --> 00:13:15,839
+playing something else if player 1 is
+如果玩家1在玩其他游戏
+
+288
+00:13:16,039 --> 00:13:17,849
+playing 50/50 player 1 is just as happy
+玩50/50的玩家1同样开心
+
+289
+00:13:18,049 --> 00:13:19,349
+to go left all the time
+一直走
+
+290
+00:13:19,549 --> 00:13:22,559
+but in particular player 1 if player 1
+但特别是玩家1（如果玩家1） 
+
+291
+00:13:22,759 --> 00:13:24,419
+is going 50/50 player 2 can do no better
+即将进行50/50的玩家2做不到
+
+292
+00:13:24,620 --> 00:13:27,240
+than to go 50/50 himself the reverse is
+比自己去50/50相反
+
+293
+00:13:27,440 --> 00:13:27,870
+also true
+也是如此
+
+294
+00:13:28,070 --> 00:13:31,289
+and that makes 5050 5050 a Nash
+那使得5050 5050成为纳什
+
+295
+00:13:31,490 --> 00:13:32,879
+equilibrium of the coordination game as
+协调博弈的均衡为
+
+296
+00:13:33,080 --> 00:13:36,659
+well and let's look at prisoner's
+好吧，让我们看看囚犯的
+
+297
+00:13:36,860 --> 00:13:39,328
+dilemma in prisoner's dilemma we've
+我们在囚徒困境中的困境
+
+298
+00:13:39,528 --> 00:13:41,849
+previously seen that this is an
+以前看到这是一个
+
+299
+00:13:42,049 --> 00:13:44,279
+equilibrium and it's an equilibrium in
+平衡，这是一个平衡
+
+300
+00:13:44,480 --> 00:13:46,709
+strictly dominant strategies and we
+严格的主导策略，我们
+
+301
+00:13:46,909 --> 00:13:48,149
+argued before the equilibria and
+在平衡之前争论
+
+302
+00:13:48,350 --> 00:13:50,099
+strictly dominant strategies are unique
+严格的主导策略是独特的
+
+303
+00:13:50,299 --> 00:13:53,849
+and so what that means is indeed there
+所以那的确存在
+
+304
+00:13:54,049 --> 00:13:55,649
+aren't any mixed Nash equilibria of the
+没有任何混合的纳什均衡
+
+305
+00:13:55,850 --> 00:13:57,299
+prisoner's dilemma this is in fact the
+囚徒困境实际上是
+
+306
+00:13:57,500 --> 00:14:02,500
+only Nash equilibrium
+只有纳什均衡
+

@@ -1,0 +1,1415 @@
+﻿1
+00:00:00,030 --> 00:00:02,319
+welcome to game theory online I'm Kevin
+欢迎来到在线游戏理论，我是Kevin 
+
+2
+00:00:02,520 --> 00:00:04,179
+Leighton Brown I'm one of the three
+礼顿·布朗我是三者之一
+
+3
+00:00:04,379 --> 00:00:06,309
+instructors for this course the other
+本课程的讲师
+
+4
+00:00:06,509 --> 00:00:09,160
+two are Matt Jackson and yohave shoham
+两个是Matt Jackson和yohave shoham 
+
+5
+00:00:09,359 --> 00:00:12,490
+both from Stanford University you'll see
+都来自斯坦福大学
+
+6
+00:00:12,689 --> 00:00:15,309
+them both in subsequent videos this
+他们都在随后的视频中
+
+7
+00:00:15,509 --> 00:00:16,990
+video is going to give you a high-level
+视频将为您带来高层次的体验
+
+8
+00:00:17,190 --> 00:00:19,179
+sense of what game theory is all about
+对博弈论的全部了解
+
+9
+00:00:19,379 --> 00:00:21,070
+and the kinds of concepts that we're
+以及我们所涉及的概念
+
+10
+00:00:21,269 --> 00:00:22,390
+going to think about in the rest of the
+在其余的部分要考虑
+
+11
+00:00:22,589 --> 00:00:25,780
+course first of all before I go on let
+当然，首先我继续
+
+12
+00:00:25,980 --> 00:00:27,640
+me tell you a little bit more about what
+我告诉你更多有关
+
+13
+00:00:27,839 --> 00:00:31,030
+game theory isn't game theory doesn't
+博弈论不是博弈论不是
+
+14
+00:00:31,230 --> 00:00:32,979
+use the word game in the way that most
+以大多数方式使用文字游戏
+
+15
+00:00:33,179 --> 00:00:35,890
+of us are used to in common life and it
+我们中的人习惯于共同的生活
+
+16
+00:00:36,090 --> 00:00:37,419
+certainly doesn't think particularly
+当然不是特别想
+
+17
+00:00:37,619 --> 00:00:40,809
+about computer games instead game theory
+关于计算机游戏而非游戏理论
+
+18
+00:00:41,009 --> 00:00:42,820
+is a way of thinking about strategic
+是一种思考战略的方式
+
+19
+00:00:43,020 --> 00:00:44,739
+interactions between self-interested
+利己之间的互动
+
+20
+00:00:44,939 --> 00:00:47,018
+people for this reason it's very
+人们因为这个原因
+
+21
+00:00:47,219 --> 00:00:49,989
+important for economics and also for
+对于经济学以及对
+
+22
+00:00:50,189 --> 00:00:51,489
+computer science political science
+计算机科学政治学
+
+23
+00:00:51,689 --> 00:00:53,948
+psychology and a variety of other
+心理学和其他各种
+
+24
+00:00:54,149 --> 00:00:56,409
+disciplines what ties all of these
+约束所有这些东西
+
+25
+00:00:56,609 --> 00:00:58,719
+disciplines together is a concern for
+学科在一起是一个值得关注的问题
+
+26
+00:00:58,920 --> 00:01:00,759
+thinking about how self-interested
+考虑如何自私
+
+27
+00:01:00,960 --> 00:01:03,070
+participants would behave in strategic
+参与者会表现出战略性
+
+28
+00:01:03,270 --> 00:01:06,369
+interactions and also thinking about how
+互动，并思考如何
+
+29
+00:01:06,569 --> 00:01:07,869
+those interactions should be structured
+这些互动应该结构化
+
+30
+00:01:08,069 --> 00:01:10,509
+for example by a government or by the
+例如由政府或
+
+31
+00:01:10,709 --> 00:01:12,819
+designer of a computer system in order
+按顺序设计计算机系统
+
+32
+00:01:13,019 --> 00:01:16,090
+to lead to good outcomes I'm going to
+导致好的结果，我要
+
+33
+00:01:16,290 --> 00:01:18,099
+begin by thinking about one such example
+首先考虑一个这样的例子
+
+34
+00:01:18,299 --> 00:01:21,099
+from computer science this is an example
+从计算机科学这是一个例子
+
+35
+00:01:21,299 --> 00:01:23,140
+that involves networking but don't be
+涉及网络，但不要
+
+36
+00:01:23,340 --> 00:01:24,730
+scared off by the computer science
+被计算机科学吓到
+
+37
+00:01:24,930 --> 00:01:27,488
+content it isn't representative of what
+满足并不代表什么
+
+38
+00:01:27,688 --> 00:01:28,869
+will come in the rest of the course and
+将在本课程的其余部分中进行
+
+39
+00:01:29,069 --> 00:01:31,480
+in any case I'm not going to assume that
+无论如何，我不会假设
+
+40
+00:01:31,680 --> 00:01:33,039
+you have any particular knowledge about
+您对任何特定知识
+
+41
+00:01:33,239 --> 00:01:36,819
+how computers work in this example I'm
+在这个例子中计算机是如何工作的
+
+42
+00:01:37,019 --> 00:01:38,738
+going to begin by thinking about this
+首先要考虑这个
+
+43
+00:01:38,938 --> 00:01:40,719
+pop up which you might have seen in your
+弹出您可能已经在您的
+
+44
+00:01:40,920 --> 00:01:43,929
+browser before and if you're like most
+浏览器之前，如果您最喜欢
+
+45
+00:01:44,129 --> 00:01:46,959
+people you realize that a pop-up in your
+人们，您意识到您的弹出窗口
+
+46
+00:01:47,159 --> 00:01:49,329
+browser that promises slow connection
+浏览器保证连接缓慢
+
+47
+00:01:49,530 --> 00:01:52,209
+detected click Next to correct maybe
+检测到单击下一步以更正
+
+48
+00:01:52,409 --> 00:01:54,219
+shouldn't be trusted it might install a
+不应该被信任，它可能会安装一个
+
+49
+00:01:54,420 --> 00:01:56,590
+virus or otherwise harm your computer so
+病毒或以其他方式损害您的计算机，因此
+
+50
+00:01:56,790 --> 00:01:59,590
+you probably wouldn't click on this but
+您可能不会单击此按钮，但是
+
+51
+00:01:59,790 --> 00:02:02,079
+the interesting thing is if you did this
+有趣的是，如果您这样做
+
+52
+00:02:02,280 --> 00:02:04,179
+particular pop-up might actually help
+特定的弹出窗口实际上可能会有所帮助
+
+53
+00:02:04,379 --> 00:02:06,730
+you I'd like to think about how it works
+你我想考虑一下它是如何工作的
+
+54
+00:02:06,930 --> 00:02:09,699
+and we can use this example to
+我们可以用这个例子来
+
+55
+00:02:09,899 --> 00:02:11,118
+illustrate something interesting
+说明一些有趣的事情
+
+56
+00:02:11,318 --> 00:02:14,090
+game theory before I do that I need to
+博弈论之前，我需要
+
+57
+00:02:14,289 --> 00:02:16,340
+tell you a little bit about how the TCP
+告诉你一些关于TCP如何
+
+58
+00:02:16,539 --> 00:02:18,618
+protocol works which is one of the
+协议的工作原理之一
+
+59
+00:02:18,818 --> 00:02:22,069
+backbones of the internet so as you
+互联网的骨干，就像你一样
+
+60
+00:02:22,269 --> 00:02:26,090
+probably know if you're over here on the
+大概知道你是否在这里
+
+61
+00:02:26,289 --> 00:02:27,890
+internet and you want to communicate
+互联网，你想交流
+
+62
+00:02:28,090 --> 00:02:29,780
+with some other computer which is over
+与其他已经结束的计算机
+
+63
+00:02:29,979 --> 00:02:32,420
+here what happens is that your
+在这里发生的是你的
+
+64
+00:02:32,620 --> 00:02:34,368
+communication gets broken up into a
+沟通分解成一个
+
+65
+00:02:34,568 --> 00:02:36,469
+bunch of different packets which
+一堆不同的数据包
+
+66
+00:02:36,669 --> 00:02:38,929
+conceptually are kind of like envelopes
+从概念上讲就像信封
+
+67
+00:02:39,128 --> 00:02:40,909
+with a message inside them that get
+里面有一条消息
+
+68
+00:02:41,109 --> 00:02:42,409
+delivered across the network to your
+通过网络传送到您的
+
+69
+00:02:42,609 --> 00:02:44,959
+recipient and when I say delivered
+收件人，当我说交付时
+
+70
+00:02:45,158 --> 00:02:47,090
+across the internet I mean you don't
+在互联网上，我是说你不
+
+71
+00:02:47,289 --> 00:02:48,349
+actually have a direct connection
+实际上有直接联系
+
+72
+00:02:48,549 --> 00:02:50,840
+between your computer and your desired
+在您的计算机和您想要的之间
+
+73
+00:02:51,039 --> 00:02:53,420
+recipient instead there's a whole
+收件人反而有一个整体
+
+74
+00:02:53,620 --> 00:02:55,459
+sequence of different computers along
+不同计算机的顺序
+
+75
+00:02:55,658 --> 00:02:58,550
+the way who pass the message one to the
+将消息传递给一个的方式
+
+76
+00:02:58,750 --> 00:03:01,159
+next to get it from you to your
+接下来将它从您那里拿到您的
+
+77
+00:03:01,359 --> 00:03:03,439
+recipient so you pass the network the
+收件人，以便您通过网络
+
+78
+00:03:03,639 --> 00:03:05,450
+message along the network to some
+网络上的一些消息
+
+79
+00:03:05,650 --> 00:03:08,149
+computer you're connected to it passes
+您连接的计算机通过
+
+80
+00:03:08,348 --> 00:03:10,519
+it to another computer and so on down
+它到另一台计算机，依此类推
+
+81
+00:03:10,718 --> 00:03:12,590
+the chain until it reaches your
+链，直到到达你
+
+82
+00:03:12,789 --> 00:03:15,259
+recipient at that point your recipient
+那时的收件人
+
+83
+00:03:15,459 --> 00:03:16,939
+sees that the message is addressed to it
+看到邮件已发送给它
+
+84
+00:03:17,139 --> 00:03:20,689
+and it sends back an acknowledgment to
+然后将确认发送回
+
+85
+00:03:20,889 --> 00:03:22,340
+you telling you that it received the
+您告诉您它收到了
+
+86
+00:03:22,539 --> 00:03:24,890
+message and that acknowledgment likewise
+消息和确认同样
+
+87
+00:03:25,090 --> 00:03:26,569
+passes through a whole sequence of
+通过整个序列
+
+88
+00:03:26,769 --> 00:03:28,868
+computers until it gets back to you
+电脑，直到它回到你身边
+
+89
+00:03:29,068 --> 00:03:32,649
+so far so good here's the catch
+到目前为止，这很好
+
+90
+00:03:32,848 --> 00:03:35,629
+sometimes a computer in the Internet is
+有时互联网上的计算机是
+
+91
+00:03:35,829 --> 00:03:37,909
+overwhelmed with messages let's say this
+不知所措让我们这样说
+
+92
+00:03:38,109 --> 00:03:41,330
+one right here and when that happens it
+一个就在这里，什么时候发生
+
+93
+00:03:41,530 --> 00:03:43,670
+handles this congestion in a pretty
+漂亮地处理这种拥挤
+
+94
+00:03:43,870 --> 00:03:46,580
+surprising way it takes some of the
+令人惊讶的方式需要一些
+
+95
+00:03:46,780 --> 00:03:49,219
+messages that it receives and it just
+它收到的消息，它只是
+
+96
+00:03:49,419 --> 00:03:50,959
+throws them away and it doesn't tell
+把它们扔掉，这并不能说明
+
+97
+00:03:51,158 --> 00:03:54,189
+anyone it just deletes the messages
+任何人只要删除邮件
+
+98
+00:03:54,389 --> 00:03:56,420
+until it gets down to a level that it
+直到下降到它的水平
+
+99
+00:03:56,620 --> 00:03:58,909
+can handle again and then with the stuff
+可以再处理一次
+
+100
+00:03:59,109 --> 00:04:00,409
+that it can handle again it continues
+它可以再次处理它继续
+
+101
+00:04:00,609 --> 00:04:02,808
+behaving as it should passing messages
+行为应传递消息
+
+102
+00:04:03,008 --> 00:04:05,868
+on appropriately well you might wonder
+在适当的情况下，您可能会怀疑
+
+103
+00:04:06,068 --> 00:04:08,509
+then how it is that you end up with
+那你最终会怎么样
+
+104
+00:04:08,709 --> 00:04:10,550
+reliable communication over the Internet
+互联网上可靠的通讯
+
+105
+00:04:10,750 --> 00:04:12,769
+given that every now and then some
+鉴于每时每刻
+
+106
+00:04:12,968 --> 00:04:14,450
+computer on the internet throws away
+互联网上的计算机会丢弃
+
+107
+00:04:14,650 --> 00:04:15,580
+your messages
+您的留言
+
+108
+00:04:15,780 --> 00:04:18,649
+well the way that this works is that
+运作良好的方式是
+
+109
+00:04:18,848 --> 00:04:21,170
+your computer waits a certain amount of
+您的计算机等待一定数量的
+
+110
+00:04:21,370 --> 00:04:24,139
+time after sending a message to see if
+发送消息后的时间以查看是否
+
+111
+00:04:24,339 --> 00:04:24,980
+it gets an acknowledge
+得到承认
+
+112
+00:04:25,180 --> 00:04:27,949
+and if it doesn't it assumes that the
+如果不是，则假定
+
+113
+00:04:28,149 --> 00:04:30,110
+message was never received and sends it
+消息从未收到并发送
+
+114
+00:04:30,310 --> 00:04:32,749
+again here's the part that's important
+再次，这是重要的部分
+
+115
+00:04:32,949 --> 00:04:35,240
+for our discussion of game theory your
+对于我们对博弈论的讨论
+
+116
+00:04:35,439 --> 00:04:36,949
+computer also does something else in
+电脑还可以做其他事情
+
+117
+00:04:37,149 --> 00:04:39,439
+this situation it slows down the speed
+这种情况会减慢速度
+
+118
+00:04:39,639 --> 00:04:41,569
+at which it continues to send messages
+它继续发送消息
+
+119
+00:04:41,769 --> 00:04:43,550
+in the future on the assumption that
+在未来的假设
+
+120
+00:04:43,750 --> 00:04:45,350
+there's some congestion somewhere in the
+在某处有些拥挤
+
+121
+00:04:45,550 --> 00:04:48,230
+network and that this congestion can be
+网络，这种拥塞可能是
+
+122
+00:04:48,430 --> 00:04:51,020
+reduced by bombarding the network with
+通过轰炸网络减少
+
+123
+00:04:51,220 --> 00:04:53,949
+fewer messages per unit time and
+单位时间内的消息更少，并且
+
+124
+00:04:54,149 --> 00:04:56,420
+likewise other computers on the Internet
+互联网上的其他计算机
+
+125
+00:04:56,620 --> 00:04:59,028
+are doing the same thing that's why we
+在做同样的事情，这就是为什么我们
+
+126
+00:04:59,228 --> 00:05:00,528
+don't have the network completely
+没有完全的网络
+
+127
+00:05:00,728 --> 00:05:02,660
+saturated that's why most of the time we
+这就是为什么大多数时候我们饱和的原因
+
+128
+00:05:02,860 --> 00:05:04,910
+get pretty reasonable throughput on the
+获得相当合理的吞吐量
+
+129
+00:05:05,110 --> 00:05:07,160
+internet because everybody is balancing
+互联网，因为每个人都在平衡
+
+130
+00:05:07,360 --> 00:05:08,749
+the speed that they send messages out
+他们发送消息的速度
+
+131
+00:05:08,949 --> 00:05:11,329
+using what's called this back off
+使用所谓的这种退缩
+
+132
+00:05:11,529 --> 00:05:15,710
+mechanism in the TCP protocol okay
+ TCP协议中的机制还可以
+
+133
+00:05:15,910 --> 00:05:17,149
+that's all you need to know about the
+这就是您需要了解的所有信息
+
+134
+00:05:17,348 --> 00:05:21,439
+back off mechanism I'd like to think
+退缩机制我想
+
+135
+00:05:21,639 --> 00:05:23,210
+about the strategic problem that you
+关于你的战略问题
+
+136
+00:05:23,410 --> 00:05:26,660
+face in deciding whether to install this
+面对决定是否安装这个
+
+137
+00:05:26,860 --> 00:05:28,460
+somewhat suspicious-looking piece of
+看起来有些可疑
+
+138
+00:05:28,660 --> 00:05:32,329
+software that is I'd like to ask should
+我想问的软件应该
+
+139
+00:05:32,529 --> 00:05:35,149
+you send your packets on your network
+您在网络上发送数据包
+
+140
+00:05:35,348 --> 00:05:37,520
+connection using a correctly implemented
+使用正确实现的连接
+
+141
+00:05:37,720 --> 00:05:40,730
+version of the TCP protocol which does
+ TCP协议的版本
+
+142
+00:05:40,930 --> 00:05:43,540
+have the back off mechanism inside it or
+内部有退避机制，或者
+
+143
+00:05:43,740 --> 00:05:46,490
+should you run this program and instead
+你应该运行这个程序，而不是
+
+144
+00:05:46,689 --> 00:05:49,009
+use a defective implementation which
+使用有缺陷的实现
+
+145
+00:05:49,209 --> 00:05:51,800
+disables the back off mechanism and just
+禁用退避机制，只是
+
+146
+00:05:52,000 --> 00:05:54,230
+blasts the network all the time without
+无时无刻不在炸毁网络
+
+147
+00:05:54,430 --> 00:05:56,059
+any concern for the congestion that it
+担心它的拥挤
+
+148
+00:05:56,259 --> 00:06:01,309
+will cause other people or you well this
+会导致其他人或你很好
+
+149
+00:06:01,509 --> 00:06:02,930
+is a bit of a surprising use of language
+有点令人惊讶的语言用法
+
+150
+00:06:03,129 --> 00:06:05,629
+but problems like this one are what game
+但是像这样的问题是什么游戏
+
+151
+00:06:05,829 --> 00:06:08,838
+theorists called games a game in general
+理论家一般将游戏称为游戏
+
+152
+00:06:09,038 --> 00:06:11,120
+is any interaction between two or more
+是两个或多个之间的任何交互
+
+153
+00:06:11,319 --> 00:06:14,718
+people where the outcomes of the
+人们在哪里
+
+154
+00:06:14,918 --> 00:06:16,459
+interaction depend on what everybody
+互动取决于每个人
+
+155
+00:06:16,658 --> 00:06:19,278
+does and everybody has different levels
+确实，每个人都有不同的水平
+
+156
+00:06:19,478 --> 00:06:21,939
+of happiness for the different outcomes
+不同结果带来的幸福感
+
+157
+00:06:22,139 --> 00:06:25,218
+so let's think about a two-player
+让我们考虑一个两人游戏
+
+158
+00:06:25,418 --> 00:06:27,528
+version of this interaction which a game
+这个互动的版本是哪个游戏
+
+159
+00:06:27,728 --> 00:06:29,800
+theorist would call a two-player game
+理论家会称之为两人游戏
+
+160
+00:06:30,000 --> 00:06:32,629
+you might incidentally worry that the
+您可能会偶然地担心
+
+161
+00:06:32,829 --> 00:06:34,399
+Internet has a lot more than two people
+互联网不止两个人
+
+162
+00:06:34,598 --> 00:06:36,588
+using it and so that this two-player
+使用它，这样这两个玩家
+
+163
+00:06:36,788 --> 00:06:38,300
+restriction is going to be a problem
+限制将是一个问题
+
+164
+00:06:38,500 --> 00:06:40,610
+you'll have to trust me but this example
+你必须相信我，但是这个例子
+
+165
+00:06:40,810 --> 00:06:42,949
+scales very naturally to larger numbers
+很自然地扩展到更大的数字
+
+166
+00:06:43,149 --> 00:06:45,379
+of players and everything interesting
+玩家和所有有趣的事物
+
+167
+00:06:45,579 --> 00:06:48,410
+about it would remain true so in the
+关于它会保持真实，所以在
+
+168
+00:06:48,610 --> 00:06:51,579
+two-player case we have a question of
+两人游戏，我们有一个问题
+
+169
+00:06:51,779 --> 00:06:54,500
+whether each of the players should use a
+每个玩家是否应该使用
+
+170
+00:06:54,699 --> 00:06:56,449
+correct implementation whether one of
+正确的实施是否之一
+
+171
+00:06:56,649 --> 00:06:57,620
+them will use a correct implementation
+他们将使用正确的实现
+
+172
+00:06:57,819 --> 00:06:59,329
+and the other one a defective
+另一个是有缺陷的
+
+173
+00:06:59,529 --> 00:07:01,430
+implementation or whether both of them
+实施还是两者
+
+174
+00:07:01,629 --> 00:07:04,699
+will use defective implementations in
+将在中使用有缺陷的实现
+
+175
+00:07:04,899 --> 00:07:07,879
+the case so we so we need to say what
+这样的话，所以我们需要说什么
+
+176
+00:07:08,079 --> 00:07:11,180
+happens in order to analyze this let's
+为了分析这一点，让我们
+
+177
+00:07:11,379 --> 00:07:13,189
+say that when both players use correct
+说当两个玩家都使用正确的
+
+178
+00:07:13,389 --> 00:07:15,770
+implementations they both experience a
+他们都经历过的实现
+
+179
+00:07:15,970 --> 00:07:20,900
+delay of one millisecond let's say that
+延迟一毫秒让我们说
+
+180
+00:07:21,100 --> 00:07:23,090
+if one person uses a correct
+如果一个人使用正确的
+
+181
+00:07:23,290 --> 00:07:25,160
+implementation and the other person uses
+实施和其他人使用
+
+182
+00:07:25,360 --> 00:07:28,009
+a defective one then the person with the
+一个有缺陷的人，然后与
+
+183
+00:07:28,209 --> 00:07:30,050
+defective implementation manages to
+有缺陷的实施设法
+
+184
+00:07:30,250 --> 00:07:32,000
+flood the network with packets in a way
+数据包以某种方式泛洪网络
+
+185
+00:07:32,199 --> 00:07:33,949
+that causes the other person to back off
+导致其他人退缩
+
+186
+00:07:34,149 --> 00:07:37,790
+pretty heavily causing the person who
+造成很大的人
+
+187
+00:07:37,990 --> 00:07:39,770
+backed off to experience a much longer
+退缩以体验更长的时间
+
+188
+00:07:39,970 --> 00:07:42,350
+delay and the person with the defective
+延误和有缺陷的人
+
+189
+00:07:42,550 --> 00:07:43,699
+implementation to get their packets
+实现获取他们的数据包
+
+190
+00:07:43,899 --> 00:07:47,480
+through virtually immediately lastly
+最后几乎通过
+
+191
+00:07:47,680 --> 00:07:49,490
+let's say that if both people use
+假设如果两个人都使用
+
+192
+00:07:49,689 --> 00:07:52,160
+defective implementations of TCP then
+ TCP的有缺陷的实现
+
+193
+00:07:52,360 --> 00:07:53,689
+we're again in a symmetric situation
+我们又处于对称状态
+
+194
+00:07:53,889 --> 00:07:55,579
+where they both experience the same
+他们都经历相同的地方
+
+195
+00:07:55,779 --> 00:07:58,100
+delay and they both experience a bigger
+延迟，他们都经历更大
+
+196
+00:07:58,300 --> 00:07:59,600
+delay than they would have before
+比以前延迟
+
+197
+00:07:59,800 --> 00:08:01,579
+because there's now a greater chance
+因为现在有更大的机会
+
+198
+00:08:01,779 --> 00:08:03,528
+that their packets will be lost at every
+他们的数据包将在每次丢失
+
+199
+00:08:03,728 --> 00:08:05,480
+stage in the chain and so it will take
+链中的阶段，因此需要
+
+200
+00:08:05,680 --> 00:08:10,879
+them longer to send a message well I'd
+他们更长的时间才能很好地发送信息
+
+201
+00:08:11,079 --> 00:08:13,189
+like to encourage you to play this game
+喜欢鼓励你玩这个游戏
+
+202
+00:08:13,389 --> 00:08:16,250
+with a friend or to play it even just in
+与朋友一起玩，甚至只是在里面玩
+
+203
+00:08:16,449 --> 00:08:18,500
+your head or best of all to play it on
+发挥您的头或所有功能中最好的
+
+204
+00:08:18,699 --> 00:08:20,060
+the online system that we've provided
+我们提供的在线系统
+
+205
+00:08:20,259 --> 00:08:21,468
+where you can interact with other
+在这里您可以与其他人互动
+
+206
+00:08:21,668 --> 00:08:24,528
+students in the class what do I mean to
+班上的学生我是什么意思
+
+207
+00:08:24,728 --> 00:08:27,590
+play a game well this game might not
+玩一个好游戏，这个游戏可能不会
+
+208
+00:08:27,790 --> 00:08:29,480
+seem very exciting to play as compared
+相比起玩起来似乎非常令人兴奋
+
+209
+00:08:29,680 --> 00:08:31,278
+to other things that you would call
+其他你会打电话给的东西
+
+210
+00:08:31,478 --> 00:08:36,039
+games like soccer or chess but in
+像足球或国际象棋这样的游戏，但是
+
+211
+00:08:36,240 --> 00:08:38,240
+principle all of these games are the
+原则上所有这些游戏都是
+
+212
+00:08:38,440 --> 00:08:40,218
+same there are sets of actions that
+同样，有一些动作
+
+213
+00:08:40,418 --> 00:08:43,338
+players can take and after everybody has
+玩家可以接受，每个人都拥有
+
+214
+00:08:43,538 --> 00:08:44,870
+chosen what they're going to do in the
+选择了他们将在
+
+215
+00:08:45,070 --> 00:08:47,240
+game there's some result where everybody
+游戏有一些结果，每个人
+
+216
+00:08:47,440 --> 00:08:49,269
+feels at different levels of happiness
+感到不同程度的幸福
+
+217
+00:08:49,470 --> 00:08:51,549
+this very simple game
+这个非常简单的游戏
+
+218
+00:08:51,750 --> 00:08:53,979
+has each player choose either to use a
+让每个玩家选择使用
+
+219
+00:08:54,179 --> 00:08:55,629
+correct implementation or to use a
+正确执行或使用
+
+220
+00:08:55,830 --> 00:08:58,000
+defective implementation and once we
+有缺陷的实施，一旦我们
+
+221
+00:08:58,200 --> 00:09:00,370
+know what both players will do we can
+知道两位选手都会做什么
+
+222
+00:09:00,570 --> 00:09:02,439
+look at these rules that I've given here
+看看我在这里给出的这些规则
+
+223
+00:09:02,639 --> 00:09:05,649
+and decide how happy both players would
+并决定两位玩家的幸福程度
+
+224
+00:09:05,850 --> 00:09:08,859
+be of course nobody likes delay so the
+当然是没人喜欢延迟，所以
+
+225
+00:09:09,059 --> 00:09:10,839
+players are trying to minimize the
+玩家正在尝试最小化
+
+226
+00:09:11,039 --> 00:09:12,309
+amount of delay that they experience in
+他们经历的延迟量
+
+227
+00:09:12,509 --> 00:09:17,079
+the network so if you wanted to minimize
+网络，所以如果您想最小化
+
+228
+00:09:17,279 --> 00:09:19,089
+the amount of delay that you experienced
+您经历的延迟量
+
+229
+00:09:19,289 --> 00:09:22,539
+how would you play this game that's kind
+您将如何玩这种游戏
+
+230
+00:09:22,740 --> 00:09:24,279
+of the most natural question to think
+要思考的最自然的问题
+
+231
+00:09:24,480 --> 00:09:26,349
+about when you're thinking about a game
+关于何时考虑游戏
+
+232
+00:09:26,549 --> 00:09:29,259
+theoretic setting but I'd like to invite
+理论背景，但我想邀请
+
+233
+00:09:29,460 --> 00:09:31,809
+you to think about a bunch of other more
+你要考虑更多其他
+
+234
+00:09:32,009 --> 00:09:33,549
+abstract and philosophical questions
+抽象和哲学问题
+
+235
+00:09:33,750 --> 00:09:35,079
+which we'll also address throughout this
+我们还将在整个过程中解决
+
+236
+00:09:35,279 --> 00:09:39,159
+course first of all do you think it's
+当然首先您认为这是
+
+237
+00:09:39,360 --> 00:09:40,870
+the case that all users should be
+所有用户都应该
+
+238
+00:09:41,070 --> 00:09:42,549
+expected to behave the same in a
+预期在
+
+239
+00:09:42,750 --> 00:09:46,419
+situation like this relatedly if you're
+这样的情况，如果你是
+
+240
+00:09:46,620 --> 00:09:48,549
+not one of the players of the game but
+不是游戏的玩家之一，而是
+
+241
+00:09:48,750 --> 00:09:50,049
+rather you're someone who cares about
+而是你是一个关心的人
+
+242
+00:09:50,250 --> 00:09:51,759
+how the whole system works from the
+整个系统如何从
+
+243
+00:09:51,960 --> 00:09:52,149
+outside
+外
+
+244
+00:09:52,350 --> 00:09:54,689
+for example the designer of the network
+例如网络的设计师
+
+245
+00:09:54,889 --> 00:09:57,099
+what kinds of global patterns of
+什么样的全球格局
+
+246
+00:09:57,299 --> 00:10:00,779
+behavior would you expect to see emerge
+您期望看到的行为
+
+247
+00:10:00,980 --> 00:10:03,339
+you'll notice that these numbers that I
+您会注意到这些数字
+
+248
+00:10:03,539 --> 00:10:05,199
+came up with here are a little bit
+想到这里有一点
+
+249
+00:10:05,399 --> 00:10:07,319
+arbitrary and they're not very precise
+武断，不是很精确
+
+250
+00:10:07,519 --> 00:10:10,839
+it's reasonable to wonder how much these
+有理由想知道这些多少
+
+251
+00:10:11,039 --> 00:10:12,789
+predictions that we can make about how
+我们可以做出的预测
+
+252
+00:10:12,990 --> 00:10:14,259
+the game should be played and what
+游戏应该玩什么
+
+253
+00:10:14,460 --> 00:10:16,599
+behavior would occur depend on those
+行为将发生取决于那些
+
+254
+00:10:16,799 --> 00:10:18,849
+numbers is it the case that for slightly
+数字是轻微的情况
+
+255
+00:10:19,049 --> 00:10:20,409
+different numbers we would expect to see
+我们希望看到的不同数字
+
+256
+00:10:20,610 --> 00:10:23,559
+very different behavior what effect
+行为截然不同有什么作用
+
+257
+00:10:23,759 --> 00:10:25,120
+would there be if players could
+如果球员可以的话
+
+258
+00:10:25,320 --> 00:10:26,679
+communicate with each other before they
+在彼此交流之前
+
+259
+00:10:26,879 --> 00:10:30,059
+played the game in a non binding way
+以非约束性方式玩游戏
+
+260
+00:10:30,259 --> 00:10:32,409
+what effect would there be if players
+如果玩家有什么影响
+
+261
+00:10:32,610 --> 00:10:34,419
+could repeatedly play the game against
+可以反复对战
+
+262
+00:10:34,620 --> 00:10:36,669
+each other either for a finite number of
+彼此之间的数量有限
+
+263
+00:10:36,870 --> 00:10:41,049
+repetitions or infinitely finally how
+重复或无限地最终如何
+
+264
+00:10:41,250 --> 00:10:43,389
+important is it how I model my opponent
+重要的是我如何塑造我的对手
+
+265
+00:10:43,589 --> 00:10:46,029
+is it different if I think my opponent
+如果我认为我的对手有什么不同
+
+266
+00:10:46,230 --> 00:10:48,069
+is rational and does something that is
+是理性的，做的是
+
+267
+00:10:48,269 --> 00:10:51,429
+in his or her own best interest or would
+为了他或她自己的最大利益或
+
+268
+00:10:51,629 --> 00:10:52,719
+I play this game in the same way
+我以相同的方式玩这个游戏
+
+269
+00:10:52,919 --> 00:10:54,969
+regardless of how I believe my opponent
+不管我如何相信我的对手
+
+270
+00:10:55,169 --> 00:10:57,609
+is thinking about the game these are
+在考虑游戏，这些是
+
+271
+00:10:57,809 --> 00:10:59,439
+examples of the kinds of questions that
+这类问题的例子
+
+272
+00:10:59,639 --> 00:11:00,849
+this course will help you to think about
+本课程将帮助您思考
+
+273
+00:11:01,049 --> 00:11:03,089
+and we'll offer you some answers to and
+我们将为您提供一些答案，以及
+
+274
+00:11:03,289 --> 00:11:05,379
+the tcp back off game
+ tcp退场游戏
+
+275
+00:11:05,580 --> 00:11:06,879
+is just one example of a real-world
+只是现实世界的一个例子
+
+276
+00:11:07,080 --> 00:11:09,189
+situation that we can examine using game
+我们可以使用游戏检查的情况
+
+277
+00:11:09,389 --> 00:11:11,139
+theory throughout the course will
+整个课程中的理论
+
+278
+00:11:11,340 --> 00:11:13,509
+describe many more real-world examples
+描述更多真实的例子
+
+279
+00:11:13,710 --> 00:11:14,919
+that game theory can be used to think
+博弈论可以用来思考
+
+280
+00:11:15,120 --> 00:11:17,500
+about thank you for joining us in this
+谢谢您加入我们
+
+281
+00:11:17,700 --> 00:11:19,059
+course we hope you have a great
+当然，我们希望您一切顺利
+
+282
+00:11:19,259 --> 00:11:21,159
+experience and we look forward to seeing
+经验，我们期待看到
+
+283
+00:11:21,360 --> 00:11:26,360
+you in coming up videos bye-bye
+你在视频再见
+

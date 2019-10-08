@@ -1,0 +1,1510 @@
+﻿1
+00:00:00,030 --> 00:00:04,990
+the topic of learning is a very rich in
+学习的主题非常丰富
+
+2
+00:00:05,190 --> 00:00:08,169
+fascinating one in game theory we will
+我们将在博弈论中吸引人
+
+3
+00:00:08,369 --> 00:00:11,620
+be able to to sort of just get a taste
+能够有点品味
+
+4
+00:00:11,820 --> 00:00:15,069
+for it and we'll be focusing on two
+为此，我们将专注于两个
+
+5
+00:00:15,269 --> 00:00:18,400
+examples of learning in games one one
+游戏学习实例一一
+
+6
+00:00:18,600 --> 00:00:20,859
+one method called fictitious play and
+一种称为虚拟游戏的方法
+
+7
+00:00:21,059 --> 00:00:23,260
+the other called no regret learning and
+另一个人称无悔学习和
+
+8
+00:00:23,460 --> 00:00:25,989
+in Flickr an algorithm called regret
+在Flickr中，一种称为后悔的算法
+
+9
+00:00:26,189 --> 00:00:30,280
+matching but the topic really is vast
+匹配，但话题确实很大
+
+10
+00:00:30,480 --> 00:00:32,589
+and so let me say a few words before we
+所以让我先说几句话
+
+11
+00:00:32,789 --> 00:00:35,189
+actually look at the specific methods
+实际看一下具体方法
+
+12
+00:00:35,390 --> 00:00:40,119
+the first of all we should recognize
+首先我们应该认识到
+
+13
+00:00:40,320 --> 00:00:44,489
+that learning in in in game theory is
+在博弈论中学习是
+
+14
+00:00:44,689 --> 00:00:47,739
+fundamentally different from learning in
+根本不同于学习
+
+15
+00:00:47,939 --> 00:00:49,869
+certain other disciplines for example as
+其他某些学科，例如
+
+16
+00:00:50,070 --> 00:00:51,939
+it's done in machine learning in in in
+这是在机器学习中完成的
+
+17
+00:00:52,140 --> 00:00:54,729
+AI in computer science or in statistics
+计算机科学或统计学领域的AI 
+
+18
+00:00:54,929 --> 00:00:58,628
+only optimization in those in those in
+只有那些在那些
+
+19
+00:00:58,829 --> 00:01:01,329
+those disciplines one usually has in
+通常有那些学科
+
+20
+00:01:01,530 --> 00:01:04,929
+mind a single actor acting in an
+介意一个演员在
+
+21
+00:01:05,129 --> 00:01:07,619
+environment when the environment is
+当环境是
+
+22
+00:01:07,819 --> 00:01:09,668
+unknown to the agent it may be
+代理人可能不知道
+
+23
+00:01:09,868 --> 00:01:11,439
+stochastic it may be partially
+随机的可能是部分
+
+24
+00:01:11,640 --> 00:01:13,689
+observable and so it's very difficult to
+可观察到的，因此很难
+
+25
+00:01:13,890 --> 00:01:16,750
+figure out what an optimal strategy is
+弄清楚什么是最佳策略
+
+26
+00:01:16,950 --> 00:01:18,519
+but there is a well-defined notion of
+但是有一个明确的概念
+
+27
+00:01:18,719 --> 00:01:20,558
+optimal strategy and the goal of
+最佳策略和目标
+
+28
+00:01:20,759 --> 00:01:22,359
+learning is to learn something about the
+学习是要学习一些关于
+
+29
+00:01:22,560 --> 00:01:26,289
+environment and how to act best in it in
+环境以及如何在其中发挥最佳作用
+
+30
+00:01:26,489 --> 00:01:29,969
+the case of game theory the environment
+博弈论案例环境
+
+31
+00:01:30,170 --> 00:01:32,349
+includes or perhaps consists entirely of
+包括或可能完全由
+
+32
+00:01:32,549 --> 00:01:35,349
+other agents so even as you're trying to
+其他代理商，即使您正在尝试
+
+33
+00:01:35,549 --> 00:01:38,230
+learn and adapt so are they and so what
+学习和适应，他们也是，还有什么
+
+34
+00:01:38,430 --> 00:01:40,418
+ends up happening is you can't really
+最终发生的是你真的不能
+
+35
+00:01:40,618 --> 00:01:44,849
+divorce the notion of learning from the
+脱离学习的观念
+
+36
+00:01:45,049 --> 00:01:47,558
+notion of teaching because as you adapt
+教学的概念，因为随着您的适应
+
+37
+00:01:47,759 --> 00:01:49,988
+you're influencing the activities of
+你正在影响...的活动
+
+38
+00:01:50,188 --> 00:01:53,769
+other agents and just imagine informally
+其他特工，只是非正式地想象
+
+39
+00:01:53,969 --> 00:01:57,459
+the situation where there are two agents
+有两个代理商的情况
+
+40
+00:01:57,659 --> 00:02:00,698
+who repeatedly drive toward each other
+反复相向
+
+41
+00:02:00,899 --> 00:02:04,090
+playing the game of chicken and maybe a
+玩鸡游戏，也许
+
+42
+00:02:04,290 --> 00:02:05,810
+drag racing by
+飙车
+
+43
+00:02:06,010 --> 00:02:13,010
+lessons and perhaps the one of the one
+课程，也许是其中之一
+
+44
+00:02:13,210 --> 00:02:16,939
+of the so so what they want to do is of
+所以他们想做的是
+
+45
+00:02:17,139 --> 00:02:19,010
+course they want to just zoom straight
+当然他们只想放大
+
+46
+00:02:19,210 --> 00:02:21,290
+ahead and have the others go to the side
+向前，让其他人走到一边
+
+47
+00:02:21,490 --> 00:02:23,630
+of the road and and give them to the
+并把它们交给
+
+48
+00:02:23,830 --> 00:02:26,660
+right of way of course if they both do
+当然，如果他们俩都这样做的话
+
+49
+00:02:26,860 --> 00:02:28,670
+that they collide and that's a bad idea
+他们发生碰撞，这是一个坏主意
+
+50
+00:02:28,870 --> 00:02:31,130
+and so they sort of teach other and over
+因此，他们有点教别人
+
+51
+00:02:31,330 --> 00:02:31,790
+time
+时间
+
+52
+00:02:31,990 --> 00:02:34,550
+dare more or less so you mentioned that
+或多或少敢，所以你提到
+
+53
+00:02:34,750 --> 00:02:38,930
+there's one driver who's an extremely
+有一个司机非常
+
+54
+00:02:39,129 --> 00:02:41,300
+good modeler of the other driver driver
+另一个驱动程序驱动程序的好建模者
+
+55
+00:02:41,500 --> 00:02:44,510
+too and survivor one learns very well
+幸存者也学得很好
+
+56
+00:02:44,710 --> 00:02:48,770
+whatever driver one strategy driver one
+无论哪种驱动因素，一种策略驱动因素
+
+57
+00:02:48,969 --> 00:02:51,410
+will learn what driver two strategies
+将学习驱动程序的两种策略
+
+58
+00:02:51,610 --> 00:02:54,710
+and best respond to it over time we'll
+并随着时间的流逝做出最好的回应，我们将
+
+59
+00:02:54,909 --> 00:02:56,540
+figure it out and be a great great
+弄清楚，成为一个伟大的伟大
+
+60
+00:02:56,740 --> 00:02:58,340
+responder so it seems like you can't do
+响应者，所以看来你做不到
+
+61
+00:02:58,539 --> 00:03:01,400
+any any better than that well imagine
+任何比想象中更好的事
+
+62
+00:03:01,599 --> 00:03:04,640
+how that player two is a sort of a bully
+那两位玩家是如何被欺负的
+
+63
+00:03:04,840 --> 00:03:07,460
+driver who doesn't really model the
+不会真正建模的驾驶员
+
+64
+00:03:07,659 --> 00:03:09,590
+first driver very well but just barrels
+第一名车手很好，但是只有桶
+
+65
+00:03:09,789 --> 00:03:13,660
+ahead enough carrying about the the
+提前进行
+
+66
+00:03:13,860 --> 00:03:17,090
+about the the circumstances perhaps
+关于情况
+
+67
+00:03:17,289 --> 00:03:20,240
+Agria willing to take a few hits here
+ Agria愿意在这里打几下
+
+68
+00:03:20,439 --> 00:03:23,240
+and there to scare off the first driver
+然后吓跑第一个司机
+
+69
+00:03:23,439 --> 00:03:25,340
+or what's going to happen is the second
+或将要发生的是第二
+
+70
+00:03:25,539 --> 00:03:27,950
+driver who's a terrible learner and a
+一个学习能力很强的驾驶员
+
+71
+00:03:28,150 --> 00:03:30,350
+very bad modeler of the threat driver is
+威胁驱动程序的非常糟糕的建模者是
+
+72
+00:03:30,550 --> 00:03:32,360
+going to keep going straight ahead and
+将继续前进， 
+
+73
+00:03:32,560 --> 00:03:34,640
+the first drive is a wonderful learner
+第一个驱动器是一个很棒的学习者
+
+74
+00:03:34,840 --> 00:03:36,980
+and best responder is going to learn to
+最好的响应者将学习
+
+75
+00:03:37,180 --> 00:03:39,620
+accommodate and what happens is that the
+容纳，发生的是
+
+76
+00:03:39,819 --> 00:03:42,920
+second driver was perhaps a bad learner
+二等车手可能是一个不好的学习者
+
+77
+00:03:43,120 --> 00:03:46,250
+that a very good teacher so that's one
+那位非常好的老师
+
+78
+00:03:46,449 --> 00:03:47,630
+thing to keep in mind when you think
+思考时要记住的事情
+
+79
+00:03:47,830 --> 00:03:49,939
+about learning games and the other is
+关于学习游戏，另一个是
+
+80
+00:03:50,139 --> 00:03:52,939
+that learning is a an overloaded term
+学习是一个超负荷的术语
+
+81
+00:03:53,139 --> 00:03:54,289
+and there are many things you might
+你可能有很多事情
+
+82
+00:03:54,489 --> 00:03:57,080
+learn in the context of games and and
+在游戏方面学习和
+
+83
+00:03:57,280 --> 00:03:59,150
+we'll be looking at a very particular
+我们将看一个非常特殊的
+
+84
+00:03:59,349 --> 00:04:02,350
+slice the context we'll be looking at is
+切片我们要看的上下文是
+
+85
+00:04:02,550 --> 00:04:05,689
+specifically repeated games and when we
+特别是重复的游戏以及当我们
+
+86
+00:04:05,889 --> 00:04:07,310
+speak about learning in repeated games
+谈论重复游戏中的学习
+
+87
+00:04:07,509 --> 00:04:09,680
+will really be speaking about strategies
+真的会讲战略
+
+88
+00:04:09,879 --> 00:04:15,050
+that as they unfold draw interesting
+当它们展开时会吸引人
+
+89
+00:04:15,250 --> 00:04:17,180
+inferences or use the
+推断或使用
+
+90
+00:04:17,379 --> 00:04:19,759
+you might experience in an interesting
+您可能会遇到有趣的事情
+
+91
+00:04:19,959 --> 00:04:23,060
+way that is the nature of learning that
+这就是学习的本质
+
+92
+00:04:23,259 --> 00:04:24,680
+we and in fact most of the literature in
+我们以及实际上大多数文献
+
+93
+00:04:24,879 --> 00:04:27,860
+game theory considers so with that in
+博弈论认为
+
+94
+00:04:28,060 --> 00:04:31,730
+mind here are two examples the first and
+请注意，这是两个示例，第一个和
+
+95
+00:04:31,930 --> 00:04:35,389
+this is perhaps granddaddy of learning
+这也许是学习的祖父
+
+96
+00:04:35,589 --> 00:04:37,639
+regimes in game theory called fictitious
+博弈论中的制度被称为虚拟
+
+97
+00:04:37,839 --> 00:04:41,210
+play in fact it really was not conceived
+玩其实不是真的
+
+98
+00:04:41,410 --> 00:04:44,660
+initially Noor's today viewed as they're
+最初，Noor的今天被视为
+
+99
+00:04:44,860 --> 00:04:47,360
+a realistic or effective learning method
+现实或有效的学习方法
+
+100
+00:04:47,560 --> 00:04:50,660
+but it does contain many of the elements
+但它确实包含许多要素
+
+101
+00:04:50,860 --> 00:04:52,759
+that you see in more involved versions
+在更多相关版本中看到的
+
+102
+00:04:52,959 --> 00:04:56,210
+of learning it was presented first as a
+学习它首先被呈现为
+
+103
+00:04:56,410 --> 00:04:58,850
+heuristic for computing unit computing
+计算单元计算的启发式
+
+104
+00:04:59,050 --> 00:05:01,879
+in Nash equilibrium in games it turns
+在游戏中的纳什均衡中
+
+105
+00:05:02,079 --> 00:05:03,850
+out not to be a very effective procedure
+并不是一个非常有效的程序
+
+106
+00:05:04,050 --> 00:05:07,670
+but it it is an interesting kind of
+但这是一种有趣的
+
+107
+00:05:07,870 --> 00:05:11,509
+basic learning procedure the way it
+基本学习程序的方式
+
+108
+00:05:11,709 --> 00:05:15,259
+works is simply each agent starts with
+原理就是每个代理都以
+
+109
+00:05:15,459 --> 00:05:19,520
+some belief about what is a strategy
+关于什么是策略的一些信念
+
+110
+00:05:19,720 --> 00:05:24,860
+other agent each agent best responds the
+其他代理，每个代理最能回应
+
+111
+00:05:25,060 --> 00:05:27,259
+agent updates their beliefs based on
+代理基于以下内容更新其信念
+
+112
+00:05:27,459 --> 00:05:28,910
+what they observed in the in this
+他们在此观察到的
+
+113
+00:05:29,110 --> 00:05:30,710
+iteration of the game and the game
+游戏和游戏的迭代
+
+114
+00:05:30,910 --> 00:05:34,939
+repeats as I said this is a very general
+如我所说，这是很笼统的重复
+
+115
+00:05:35,139 --> 00:05:36,740
+regime and in fact this is a general
+政权，实际上这是一个一般
+
+116
+00:05:36,939 --> 00:05:38,689
+ream of model based learning we have a
+基于模型的学习，我们有一个
+
+117
+00:05:38,889 --> 00:05:41,569
+model of the agents which you bet
+您下注的代理商模型
+
+118
+00:05:41,769 --> 00:05:43,540
+respond to and update over time
+随着时间的推移做出响应并进行更新
+
+119
+00:05:43,740 --> 00:05:47,870
+fictitious plays is a special case where
+虚拟戏剧是一种特殊情况， 
+
+120
+00:05:48,069 --> 00:05:51,319
+the model is simply account of the other
+该模型只是对其他模型的解释
+
+121
+00:05:51,519 --> 00:05:54,050
+agents action so far and you take their
+代理商到目前为止的行动，您采取他们的
+
+122
+00:05:54,250 --> 00:05:59,230
+counts as their current mixed strategy
+算作他们目前的混合策略
+
+123
+00:05:59,430 --> 00:06:04,900
+and so a little more formally let's
+所以再正式一点
+
+124
+00:06:05,100 --> 00:06:11,960
+let's assume that W a is the number of
+假设W a是
+
+125
+00:06:12,160 --> 00:06:14,449
+times the opponent played action a in
+对手的动作次数
+
+126
+00:06:14,649 --> 00:06:19,250
+the past and there's some initial values
+过去，还有一些初始值
+
+127
+00:06:19,449 --> 00:06:25,218
+for those that are nonzero and and then
+对于那些非零的，然后
+
+128
+00:06:25,418 --> 00:06:29,689
+you simply play a with probability that
+你只是玩一个概率
+
+129
+00:06:29,889 --> 00:06:30,470
+is purport
+据说
+
+130
+00:06:30,670 --> 00:06:32,870
+no to the time that it was played to the
+没有播放到的时间
+
+131
+00:06:33,069 --> 00:06:35,750
+play in the past that's a very
+过去的比赛非常
+
+132
+00:06:35,949 --> 00:06:37,480
+straightforward simple procedure
+简单明了的程序
+
+133
+00:06:37,680 --> 00:06:40,939
+yeah so you you always there's something
+是的，所以你你总是有东西
+
+134
+00:06:41,139 --> 00:06:42,949
+a little paradoxical going on because
+有点自相矛盾，因为
+
+135
+00:06:43,149 --> 00:06:46,160
+every agent assuming analyst will talk
+每个假设分析师的经纪人都会讲话
+
+136
+00:06:46,360 --> 00:06:48,410
+about two agents here the two agents are
+大约有两个特工这两个特工是
+
+137
+00:06:48,610 --> 00:06:51,020
+always playing a pure strategy and yet
+一直在玩纯粹的策略
+
+138
+00:06:51,220 --> 00:06:52,639
+they're modeling each other always is
+他们互相建模总是
+
+139
+00:06:52,839 --> 00:06:55,670
+playing a mixed strategy so be that as
+采取混合策略，因此
+
+140
+00:06:55,870 --> 00:06:58,879
+it may and we should also note that you
+可能并且我们还应该注意您
+
+141
+00:06:59,079 --> 00:07:01,270
+need to worry about edge cases such as
+需要担心诸如
+
+142
+00:07:01,470 --> 00:07:03,710
+tiebreaking so what happens if you have
+抢七，如果有的话会发生什么
+
+143
+00:07:03,910 --> 00:07:06,410
+two actions whose will played an equal
+两个动作将发挥均等作用
+
+144
+00:07:06,610 --> 00:07:07,939
+number of times the past well you need
+您过去需要的次数
+
+145
+00:07:08,139 --> 00:07:11,870
+to worry about that here's an example of
+担心这是一个例子
+
+146
+00:07:12,069 --> 00:07:14,389
+how it might work and in the context of
+它如何工作以及在以下情况下
+
+147
+00:07:14,589 --> 00:07:16,550
+matching pennies magic pennies again two
+匹配便士魔术便士再两个
+
+148
+00:07:16,750 --> 00:07:19,639
+players each choosed heads or tails if
+玩家各选择正面还是反面
+
+149
+00:07:19,839 --> 00:07:21,740
+the book shows the same the first guy
+这本书显示了第一个家伙
+
+150
+00:07:21,939 --> 00:07:23,569
+wins if it shows differently the same as
+如果它显示与以下内容相同则获胜
+
+151
+00:07:23,769 --> 00:07:26,990
+AI wins let's assume that these are the
+人工智能的胜利让我们假设这些是
+
+152
+00:07:27,189 --> 00:07:31,370
+initial frequencies that they have in
+他们拥有的初始频率
+
+153
+00:07:31,569 --> 00:07:31,790
+mind
+心神
+
+154
+00:07:31,990 --> 00:07:36,230
+and so eyes beliefs about - is that -
+因此，人们对-的信念是- 
+
+155
+00:07:36,430 --> 00:07:39,110
+played heads with you know a frequency
+和你打过头
+
+156
+00:07:39,310 --> 00:07:44,900
+of 1.5 and a entails broadband of
+为1.5，需要宽带
+
+157
+00:07:45,100 --> 00:07:49,100
+frequency - and these are players to
+频率-这些是
+
+158
+00:07:49,300 --> 00:07:52,520
+belief about prayers one okay now it's
+关于祈祷的信仰现在可以了
+
+159
+00:07:52,720 --> 00:07:54,050
+round one what should they do
+第一回合他们应该怎么做
+
+160
+00:07:54,250 --> 00:07:57,410
+well player one wants to bet respond to
+好玩家想打赌
+
+161
+00:07:57,610 --> 00:07:59,900
+his beliefs he believes that this he
+他的信念，他相信，这他
+
+162
+00:08:00,100 --> 00:08:01,280
+believes that this is the distribution
+认为这是分布
+
+163
+00:08:01,480 --> 00:08:04,520
+of player two and he wants to match so
+第二个球员，他想比赛
+
+164
+00:08:04,720 --> 00:08:06,970
+he's gonna play tails they can match
+他要打他们可以匹配的尾巴
+
+165
+00:08:07,170 --> 00:08:09,860
+this is the best response to this mixed
+这是对这种混杂的最好反应
+
+166
+00:08:10,060 --> 00:08:12,439
+strategy that he ascribes put to player
+他归因于玩家的策略
+
+167
+00:08:12,639 --> 00:08:15,579
+two so he's gonna play tails what about
+两个，所以他要打尾巴
+
+168
+00:08:15,779 --> 00:08:19,639
+player 2 player 2 has these beliefs and
+玩家2玩家2有这些信念， 
+
+169
+00:08:19,839 --> 00:08:23,060
+he wants to mismatch so since he
+他想错配，所以自从他
+
+170
+00:08:23,259 --> 00:08:25,610
+believes that player 1 will play heads
+相信玩家1会发挥正面作用
+
+171
+00:08:25,810 --> 00:08:28,220
+with greater probability than tails he's
+他比尾巴更有可能
+
+172
+00:08:28,420 --> 00:08:30,650
+gonna play tails so he too is gonna play
+要打尾巴，所以他也要玩
+
+173
+00:08:30,850 --> 00:08:37,579
+tails and the stage is over let's move
+尾巴，舞台结束了，让我们继续前进
+
+174
+00:08:37,779 --> 00:08:39,579
+now to the next stage
+现在进入下一个阶段
+
+175
+00:08:39,779 --> 00:08:42,849
+at this point what happened well these
+在这一点上发生了什么这些
+
+176
+00:08:43,049 --> 00:08:45,370
+are the updated beliefs of the players
+是玩家的最新信念
+
+177
+00:08:45,570 --> 00:08:48,429
+play what observe player to playing
+播放观察玩家播放的内容
+
+178
+00:08:48,629 --> 00:08:51,939
+tales so he increases the two to a three
+故事，所以他把两个增加到三个
+
+179
+00:08:52,139 --> 00:08:57,009
+and so does player two increases his
+第二个人也增加了他的
+
+180
+00:08:57,210 --> 00:09:00,339
+beliefs in what way one will do so what
+相信人们将以何种方式行事
+
+181
+00:09:00,539 --> 00:09:02,829
+do they do well play one still wants to
+他们打得还不错吗？ 
+
+182
+00:09:03,029 --> 00:09:05,709
+match player two and he still believes
+比赛选手二，他仍然相信
+
+183
+00:09:05,909 --> 00:09:07,449
+in fact even more strongly that player
+实际上，那个球员甚至更强大
+
+184
+00:09:07,649 --> 00:09:11,859
+two will play tail with greater
+两个人会打更大的尾巴
+
+185
+00:09:12,059 --> 00:09:13,539
+probability so he's gonna play tail
+概率，所以他要打尾巴
+
+186
+00:09:13,740 --> 00:09:18,309
+again on the other hand player two now
+另一方面，现在有两个玩家
+
+187
+00:09:18,509 --> 00:09:19,569
+believes that these are the
+相信这些是
+
+188
+00:09:19,769 --> 00:09:21,459
+probabilities so they're to believe that
+概率，所以他们要相信
+
+189
+00:09:21,659 --> 00:09:24,129
+player one will play a tail with a
+玩家一会用
+
+190
+00:09:24,330 --> 00:09:26,949
+greater probability player two one two
+玩家二一二的可能性更大
+
+191
+00:09:27,149 --> 00:09:29,500
+mismatch and so player 2 will now play
+不匹配，因此玩家2现在可以玩
+
+192
+00:09:29,700 --> 00:09:34,599
+heads and you continue this calculation
+头，你继续这个计算
+
+193
+00:09:34,799 --> 00:09:37,839
+and you can persuade yourself that the
+你可以说服自己
+
+194
+00:09:38,039 --> 00:09:40,389
+play will proceed in this fashion and
+游戏将以这种方式进行， 
+
+195
+00:09:40,590 --> 00:09:46,049
+this is how fictitious play takes place
+这就是虚拟游戏的发生方式
+
+196
+00:09:46,250 --> 00:09:48,809
+so notice something interesting
+所以注意一些有趣的事情
+
+197
+00:09:49,009 --> 00:09:52,929
+the strategy is don't converge and if
+策略是不收敛，如果
+
+198
+00:09:53,129 --> 00:09:54,729
+you were to continue to play this out
+你要继续玩这个
+
+199
+00:09:54,929 --> 00:09:57,579
+you would see that the t's an agent both
+您会看到t既是代理商
+
+200
+00:09:57,779 --> 00:10:02,049
+sides sort of ebb and flow but you will
+双方潮起潮落，但你会
+
+201
+00:10:02,250 --> 00:10:03,729
+see that there's a certain balance
+看到有一定的平衡
+
+202
+00:10:03,929 --> 00:10:08,289
+taking place over times and this is and
+随着时间的推移发生，这是和
+
+203
+00:10:08,490 --> 00:10:11,759
+and and and and and in fact in this game
+ and and and and and实际上在这个游戏中
+
+204
+00:10:11,960 --> 00:10:17,019
+they would converge that on average if
+他们平均会收敛
+
+205
+00:10:17,220 --> 00:10:19,809
+you look the long-term average of the
+你看的长期平均水平
+
+206
+00:10:20,009 --> 00:10:21,819
+strategies each of the ages of play
+各个年龄段的策略
+
+207
+00:10:22,019 --> 00:10:24,339
+tails and heads with equal probability
+头和尾等概率
+
+208
+00:10:24,539 --> 00:10:28,209
+probability 0.5 and so we call this the
+概率为0.5，所以我们称其为
+
+209
+00:10:28,409 --> 00:10:31,509
+empirical frequency now notice that in
+经验频率现在注意到
+
+210
+00:10:31,710 --> 00:10:35,529
+matching pennies 0.5 is also the unique
+匹配便士0.5也很独特
+
+211
+00:10:35,730 --> 00:10:39,039
+Nash equilibrium and the question is is
+纳什均衡，问题是
+
+212
+00:10:39,240 --> 00:10:42,069
+this an accident and the answer is no
+这是一场意外，答案是否定的
+
+213
+00:10:42,269 --> 00:10:46,089
+and here's a theorem theorem says that
+这是一个定理定理说
+
+214
+00:10:46,289 --> 00:10:51,909
+if the empirical frequencies of the
+如果的经验频率
+
+215
+00:10:52,110 --> 00:10:56,409
+players place converge in fictitious
+玩家虚拟地融合
+
+216
+00:10:56,610 --> 00:10:58,809
+play then they have to converge to a
+玩，然后他们必须收敛到
+
+217
+00:10:59,009 --> 00:11:02,709
+Nash equilibrium of the game now the
+现在游戏的纳什均衡
+
+218
+00:11:02,909 --> 00:11:05,109
+maid of conversion general that's why
+转换女仆，这就是为什么
+
+219
+00:11:05,309 --> 00:11:06,969
+it's not an effective learning procedure
+这不是有效的学习程序
+
+220
+00:11:07,169 --> 00:11:09,279
+in general but there are a host of
+一般来说，但有很多
+
+221
+00:11:09,480 --> 00:11:11,649
+conditions under which the even if the
+条件，即使
+
+222
+00:11:11,850 --> 00:11:13,359
+play doesn't converge the empirical
+玩不收敛经验
+
+223
+00:11:13,559 --> 00:11:16,029
+frequency does and here are some of the
+频率确实，这是一些
+
+224
+00:11:16,230 --> 00:11:18,578
+conditions are sufficient if the game is
+如果游戏是
+
+225
+00:11:18,778 --> 00:11:21,490
+zero son if it's solved by something
+零儿子，如果有什么解决
+
+226
+00:11:21,690 --> 00:11:23,859
+called iterative iterated elimination of
+称为迭代迭代消除
+
+227
+00:11:24,059 --> 00:11:27,159
+strictly dominated strategies if it's
+严格控制的策略，如果
+
+228
+00:11:27,360 --> 00:11:28,839
+something called a potential gain which
+所谓的潜在收益
+
+229
+00:11:29,039 --> 00:11:33,758
+we won't define here or if it is a two
+我们不会在这里定义，还是两个
+
+230
+00:11:33,958 --> 00:11:35,769
+by endgame as with one player has only
+在残局时，只有一名玩家
+
+231
+00:11:35,970 --> 00:11:37,959
+two strategies the other may have more
+两种策略，另一种可能有更多
+
+232
+00:11:38,159 --> 00:11:40,269
+but it has what's called generic payoff
+但它有所谓的通用收益
+
+233
+00:11:40,470 --> 00:11:42,578
+Russia also also want to find here but
+俄罗斯也想在这里找到
+
+234
+00:11:42,778 --> 00:11:45,818
+the main thing to do to take away from
+要摆脱的主要事情
+
+235
+00:11:46,019 --> 00:11:48,159
+this is that there are some sufficient
+这是有一些足够的
+
+236
+00:11:48,360 --> 00:11:50,378
+conditions that do they guarantee that
+他们保证的条件
+
+237
+00:11:50,578 --> 00:11:53,889
+the approve empirical frequency of play
+批准游戏的经验频率
+
+238
+00:11:54,089 --> 00:11:55,689
+in fictitious play will converge even
+在虚拟的游戏中甚至会收敛
+
+239
+00:11:55,889 --> 00:11:59,709
+even if the play itself will not let us
+即使剧本本身不会让我们
+
+240
+00:11:59,909 --> 00:12:01,659
+now switch to a very different form of
+现在切换到一种非常不同的形式
+
+241
+00:12:01,860 --> 00:12:04,748
+learning as the whole class will
+全班学习
+
+242
+00:12:04,948 --> 00:12:05,469
+learning called
+学习称为
+
+243
+00:12:05,669 --> 00:12:09,490
+no regret learning and it's different in
+不后悔学习，这是不同的
+
+244
+00:12:09,690 --> 00:12:13,299
+a fundamental way first of all the
+最根本的方法
+
+245
+00:12:13,500 --> 00:12:15,248
+methods themselves will not be modeled
+方法本身不会被建模
+
+246
+00:12:15,448 --> 00:12:18,578
+based they will not explicitly model
+基于他们将不会显式建模
+
+247
+00:12:18,778 --> 00:12:21,969
+what the other agents is doing but
+其他特工正在做什么，但是
+
+248
+00:12:22,169 --> 00:12:27,568
+rather will adapt the the strategy
+而是会调整策略
+
+249
+00:12:27,769 --> 00:12:31,839
+directly that's one difference but
+直接是一个区别，但是
+
+250
+00:12:32,039 --> 00:12:34,779
+perhaps more fundamentally in this case
+在这种情况下也许更根本
+
+251
+00:12:34,980 --> 00:12:37,748
+we will start with a learning method but
+我们将从学习方法开始，但是
+
+252
+00:12:37,948 --> 00:12:41,349
+we start with a criterion for we that we
+我们从一个标准开始
+
+253
+00:12:41,549 --> 00:12:44,709
+want the method to satisfy namely no
+想要方法满足即否
+
+254
+00:12:44,909 --> 00:12:47,919
+regret criterion and so what does this
+后悔的标准，这是什么
+
+255
+00:12:48,120 --> 00:12:48,429
+say
+说
+
+256
+00:12:48,629 --> 00:12:51,370
+we'll say that a regret of an agent at
+我们会说一个代理商的遗憾
+
+257
+00:12:51,570 --> 00:12:54,818
+time T for not having played some
+没玩过时间T 
+
+258
+00:12:55,019 --> 00:12:58,628
+strategy is is this difference the
+策略是这种差异
+
+259
+00:12:58,828 --> 00:13:00,459
+difference between that payoff he
+他的收益之间的差异
+
+260
+00:13:00,659 --> 00:13:03,099
+actually got at that time and the payoff
+实际上在那个时候得到了回报
+
+261
+00:13:03,299 --> 00:13:04,490
+he would have gotten
+他会得到
+
+262
+00:13:04,690 --> 00:13:08,269
+had he played strategy yes that's a
+他玩过策略是吗
+
+263
+00:13:08,470 --> 00:13:12,859
+natural enough notion we will now define
+我们现在将定义足够自然的概念
+
+264
+00:13:13,059 --> 00:13:16,879
+when a learning rule exhibits no regret
+当学习规则没有后悔的时候
+
+265
+00:13:17,080 --> 00:13:22,109
+it'll be the key if the case that if in
+如果在这种情况下，它将是关键
+
+266
+00:13:22,309 --> 00:13:26,879
+the limit agents will not play will not
+极限特工不会玩不会
+
+267
+00:13:27,080 --> 00:13:29,039
+exhibit any regrets in other words if
+换句话说，表示遗憾
+
+268
+00:13:29,240 --> 00:13:36,500
+you as you go to the limit the
+当您达到极限时
+
+269
+00:13:36,700 --> 00:13:41,759
+probability with which the regret will
+后悔的可能性
+
+270
+00:13:41,960 --> 00:13:46,769
+tend to zero is one those rules will be
+趋于零是那些规则将是一
+
+271
+00:13:46,970 --> 00:13:50,309
+called no regret learning rules and here
+叫无悔学习规则，这里
+
+272
+00:13:50,509 --> 00:13:54,949
+is one such rule which is surprisingly
+是这样的规则之一，这令人惊讶
+
+273
+00:13:55,149 --> 00:13:58,099
+simple and it's called regret matching
+很简单，叫做后悔匹配
+
+274
+00:13:58,299 --> 00:14:01,109
+and the way it works is as follows it
+它的工作方式如下
+
+275
+00:14:01,309 --> 00:14:07,139
+says simply look at the regret that you
+说只要看看你的遗憾
+
+276
+00:14:07,340 --> 00:14:13,319
+have experienced so far and for each of
+迄今为止，每个人都经历过
+
+277
+00:14:13,519 --> 00:14:16,379
+your pure strategies and pick the pure
+您的纯策略并选择纯
+
+278
+00:14:16,580 --> 00:14:20,699
+strategy in proportionate rest regret so
+策略按比例休息感到遗憾
+
+279
+00:14:20,899 --> 00:14:23,250
+if we define there again again the
+如果我们再次定义
+
+280
+00:14:23,450 --> 00:14:25,079
+regret of the strategy of time t
+时间策略的遗憾
+
+281
+00:14:25,279 --> 00:14:28,829
+authority of s then the probability at
+ s的权威然后是
+
+282
+00:14:29,029 --> 00:14:31,859
+the next time that you play is this is
+下次您玩的是
+
+283
+00:14:32,059 --> 00:14:33,899
+the sum of all regrets across all pure
+所有纯真的所有遗憾的总和
+
+284
+00:14:34,100 --> 00:14:39,569
+strategies and take your relative regret
+策略，让您感到相对后悔
+
+285
+00:14:39,769 --> 00:14:41,779
+relative to all it to the sample regrets
+相对于所有样本的遗憾
+
+286
+00:14:41,980 --> 00:14:48,059
+and so a very simple rule and it has
+这是一个非常简单的规则
+
+287
+00:14:48,259 --> 00:14:51,959
+surprisingly strong properties first of
+首先具有令人惊讶的强大性能
+
+288
+00:14:52,159 --> 00:14:54,709
+all is provably exhibit no regret and
+一切都证明没有遗憾， 
+
+289
+00:14:54,909 --> 00:14:58,529
+furthermore it actually converges the
+而且它实际上收敛了
+
+290
+00:14:58,730 --> 00:15:01,409
+strategies when you use Norah Graham I
+使用诺拉·格雷厄姆一世的策略
+
+291
+00:15:01,610 --> 00:15:04,379
+regret matching converge to a correlated
+后悔匹配收敛到相关
+
+292
+00:15:04,580 --> 00:15:07,379
+Librium at least for finitely repeated
+至少至少有限重复的锂
+
+293
+00:15:07,580 --> 00:15:10,019
+for finite games games finer games that
+对于有限的游戏，更精细的游戏
+
+294
+00:15:10,220 --> 00:15:13,379
+are repeated so those are two examples
+重复，所以这是两个例子
+
+295
+00:15:13,580 --> 00:15:15,599
+of learning rules
+学习规则
+
+296
+00:15:15,799 --> 00:15:20,039
+one model base specifically fictitious
+一个专门虚构的模型库
+
+297
+00:15:20,240 --> 00:15:24,259
+plate another one that is model free
+镀另一个没有模型的
+
+298
+00:15:24,460 --> 00:15:29,429
+regret matching that exhibit of learning
+遗憾地匹配学习的表现
+
+299
+00:15:29,629 --> 00:15:33,329
+methods that are exhibited no regret as
+表现出不后悔的方法
+
+300
+00:15:33,529 --> 00:15:36,479
+we said in the beginning the topic of
+我们在一开始就说过
+
+301
+00:15:36,679 --> 00:15:40,769
+learning game is a very rich one but at
+学习游戏是一个非常丰富的游戏，但在
+
+302
+00:15:40,970 --> 00:15:45,970
+least we have a taste for it now
+至少我们现在有它的味道
+

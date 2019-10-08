@@ -1,0 +1,640 @@
+﻿1
+00:00:00,149 --> 00:00:03,188
+let us now look at some examples and of
+现在让我们来看一些例子
+
+2
+00:00:03,388 --> 00:00:07,609
+games and Nash equilibria in those games
+游戏和那些游戏中的纳什均衡
+
+3
+00:00:08,000 --> 00:00:10,390
+so here's the first game a familiar game
+所以这是第一个熟悉的游戏
+
+4
+00:00:10,589 --> 00:00:14,189
+this is of course the prisoner's dilemma
+这当然是囚犯的困境
+
+5
+00:00:14,388 --> 00:00:18,190
+the if both prisoners cooperate and
+如果两个囚犯合作， 
+
+6
+00:00:18,390 --> 00:00:20,859
+content and then they get a light
+内容，然后他们就亮了
+
+7
+00:00:21,059 --> 00:00:25,568
+punishment and if they do not cooperate
+惩罚，如果他们不配合
+
+8
+00:00:25,768 --> 00:00:28,839
+they get a more severe punishment if the
+他们会受到更严厉的惩罚
+
+9
+00:00:29,039 --> 00:00:30,550
+one cooperates and the others does not
+一个合作而其他不合作
+
+10
+00:00:30,750 --> 00:00:33,309
+then the co-op irrigated terrible
+然后合作社灌溉很糟糕
+
+11
+00:00:33,509 --> 00:00:36,608
+punishment and the one that does not
+惩罚与不惩罚
+
+12
+00:00:36,808 --> 00:00:38,500
+cooperate gets off scot it gets off
+合作下车苏格兰人下车
+
+13
+00:00:38,700 --> 00:00:41,378
+scot-free and of course this game has a
+无苏格兰人，当然这个游戏有
+
+14
+00:00:41,579 --> 00:00:45,038
+dominant strategy to defect no matter
+主导缺陷策略无论如何
+
+15
+00:00:45,238 --> 00:00:47,649
+what the other agent does you're better
+另一个代理商你做得更好
+
+16
+00:00:47,850 --> 00:00:52,570
+off not cooperating and so of course the
+不合作，所以当然
+
+17
+00:00:52,770 --> 00:00:56,018
+only dominant strategy outcome is this
+唯一的主要策略结果是
+
+18
+00:00:56,219 --> 00:00:58,689
+one of both defecting and indeed that is
+既有缺陷，又有缺陷的是
+
+19
+00:00:58,890 --> 00:01:00,788
+the only Nash equilibrium in this game
+这场比赛中唯一的纳什均衡
+
+20
+00:01:00,988 --> 00:01:03,729
+so it's the Nash equilibrium it's the
+所以这是纳什均衡
+
+21
+00:01:03,929 --> 00:01:05,560
+best response if the other person
+如果对方最佳反应
+
+22
+00:01:05,760 --> 00:01:07,659
+defects then it's the best respond to
+缺陷，那么它是最好的应对方法
+
+23
+00:01:07,859 --> 00:01:09,969
+defect but in fact it's much stronger
+缺陷，但实际上要强大得多
+
+24
+00:01:10,170 --> 00:01:11,709
+than that it's best to defect no matter
+最好不要有任何缺点
+
+25
+00:01:11,909 --> 00:01:14,890
+what the other the other agent does so
+另一个代理人这样做
+
+26
+00:01:15,090 --> 00:01:17,439
+this is an example of one unique Nash
+这是一个独特的纳什的例子
+
+27
+00:01:17,640 --> 00:01:19,090
+equilibrium that happened to be very
+恰好是非常均衡
+
+28
+00:01:19,290 --> 00:01:21,278
+strong one a dominant strategy Nash
+强势策略Nash 
+
+29
+00:01:21,478 --> 00:01:25,659
+equilibrium so so here's another game
+平衡，所以这是另一个游戏
+
+30
+00:01:25,859 --> 00:01:27,549
+this is the game of pure coordination I
+这是纯粹协调的游戏
+
+31
+00:01:27,750 --> 00:01:31,299
+think of it as walking towards each
+认为它是走向每个
+
+32
+00:01:31,500 --> 00:01:33,789
+other on the sidewalk and you both can
+其他人行道上，你们俩都可以
+
+33
+00:01:33,989 --> 00:01:35,950
+decide whether to go to your respective
+决定是否去你各自的
+
+34
+00:01:36,150 --> 00:01:40,769
+lifts or respective rights in both cases
+两种情况下的升降机或各自的权利
+
+35
+00:01:40,969 --> 00:01:43,659
+you will do fine and you will not
+你会做得很好，你不会
+
+36
+00:01:43,859 --> 00:01:45,549
+collide and of course if you miss
+碰撞，当然，如果您想念
+
+37
+00:01:45,750 --> 00:01:47,619
+coordinate if you one goes to the left
+协调，如果你去左边
+
+38
+00:01:47,819 --> 00:01:48,609
+and the other to the right you will
+另一个在右边
+
+39
+00:01:48,810 --> 00:01:52,628
+collide so this is a natural game and in
+碰撞，所以这是自然的游戏
+
+40
+00:01:52,828 --> 00:01:55,359
+fact you see that you have two Nash
+事实上你看到你有两个纳什
+
+41
+00:01:55,560 --> 00:01:58,028
+equilibria the one that I wrote down
+平衡我写下的那一个
+
+42
+00:01:58,228 --> 00:02:01,869
+here if one one of the players goes to
+如果一位玩家去
+
+43
+00:02:02,069 --> 00:02:03,730
+the left it's the best respond to go to
+左边是最好的回应
+
+44
+00:02:03,930 --> 00:02:06,609
+the left and conversely if the other
+左边，反之亦然
+
+45
+00:02:06,810 --> 00:02:08,469
+player goes to the right you're best off
+玩家向右走，你最好
+
+46
+00:02:08,669 --> 00:02:10,838
+going to the right as well and the
+也会向右走， 
+
+47
+00:02:11,038 --> 00:02:12,550
+others are not Nash equilibria so here's
+其他人不是纳什均衡，所以这里的
+
+48
+00:02:12,750 --> 00:02:13,090
+an exam
+考试
+
+49
+00:02:13,289 --> 00:02:17,649
+of a game where there are two Nash
+一个游戏中有两个纳什
+
+50
+00:02:17,848 --> 00:02:20,560
+equilibria or to specifically pure
+均衡或特纯
+
+51
+00:02:20,759 --> 00:02:23,200
+strategy Nash equilibria again we'll
+策略纳什均衡再一次
+
+52
+00:02:23,400 --> 00:02:25,929
+discuss why we call these pure strategy
+讨论为什么我们称这些为纯策略
+
+53
+00:02:26,128 --> 00:02:31,110
+later on here's a very different game
+稍后这是一个非常不同的游戏
+
+54
+00:02:31,310 --> 00:02:33,879
+this is often called the game of battle
+这通常被称为战斗游戏
+
+55
+00:02:34,079 --> 00:02:37,480
+of the sexes imagine a couple and they
+的性别想象一对夫妇，他们
+
+56
+00:02:37,680 --> 00:02:39,039
+want to go together to a movie and
+想一起去看电影， 
+
+57
+00:02:39,239 --> 00:02:41,379
+they're considering two movies one of
+他们正在考虑两部电影之一
+
+58
+00:02:41,579 --> 00:02:45,399
+them a very violent movie Battle of the
+他们是一部非常暴力的电影
+
+59
+00:02:45,598 --> 00:02:49,569
+Titans and the other very relaxed movie
+泰坦和另一部非常轻松的电影
+
+60
+00:02:49,769 --> 00:02:53,640
+about flower growing called Lee's B&F
+关于花的成长，叫做李的B＆F 
+
+61
+00:02:53,840 --> 00:02:56,409
+the wife of course would prefer to go to
+妻子当然更愿意去
+
+62
+00:02:56,609 --> 00:02:58,899
+battle of the Titans and the the husband
+泰坦与丈夫之战
+
+63
+00:02:59,098 --> 00:03:01,599
+would prefer to watch flower growing but
+宁愿看花开，但
+
+64
+00:03:01,799 --> 00:03:03,219
+more than anything else they would want
+比他们想要的更重要
+
+65
+00:03:03,419 --> 00:03:05,080
+to go together and so here are the
+一起去，所以这里是
+
+66
+00:03:05,280 --> 00:03:09,520
+payoffs if they both go to battle of the
+如果他们都参加战斗的话
+
+67
+00:03:09,719 --> 00:03:12,849
+Titans then they're both positively
+泰坦然后他们都是积极的
+
+68
+00:03:13,049 --> 00:03:15,580
+happy their wife more than the husband
+妻子比丈夫更快乐
+
+69
+00:03:15,780 --> 00:03:18,670
+if the go both go to the flower growing
+如果两者都去花开
+
+70
+00:03:18,870 --> 00:03:22,599
+movie then the husband is slightly happy
+电影，然后丈夫有点高兴
+
+71
+00:03:22,799 --> 00:03:24,340
+and the wife but if they go to different
+和妻子，但如果他们去不同的地方
+
+72
+00:03:24,539 --> 00:03:26,409
+movies neither of them is happy that's
+电影他们俩都不开心
+
+73
+00:03:26,609 --> 00:03:30,340
+that's that's the that's that's the the
+那就是那那就是那
+
+74
+00:03:30,539 --> 00:03:36,999
+game how many how many equilibria we
+游戏我们多少平衡
+
+75
+00:03:37,199 --> 00:03:40,629
+have here well again we have two pure
+再来一遍，我们有两个纯
+
+76
+00:03:40,829 --> 00:03:43,390
+strategy Nash equilibria why is that
+策略纳什均衡为什么
+
+77
+00:03:43,590 --> 00:03:49,030
+well if either them goes to the Battle
+好吧，如果他们去参加战斗
+
+78
+00:03:49,229 --> 00:03:50,439
+of the Titans then the other one would
+的泰坦，然后另一个
+
+79
+00:03:50,639 --> 00:03:52,659
+want to go there too because if they go
+也想去那里，因为如果他们去
+
+80
+00:03:52,859 --> 00:03:54,969
+to a different one they would get zero
+换成另一种，他们将得到零
+
+81
+00:03:55,169 --> 00:03:57,969
+rather than whatever they get here one
+而不是他们来到这里
+
+82
+00:03:58,169 --> 00:03:59,499
+or two depending on whether the husband
+一两个取决于丈夫
+
+83
+00:03:59,699 --> 00:04:02,140
+of the wife and conversely on the on the
+的妻子，相反在
+
+84
+00:04:02,340 --> 00:04:04,300
+flower watching movie flower grow movie
+花看电影花种电影
+
+85
+00:04:04,500 --> 00:04:07,090
+and so in both cases they were the best
+所以在两种情况下它们都是最好的
+
+86
+00:04:07,289 --> 00:04:09,999
+response is to go to the movie selected
+回应是去看电影
+
+87
+00:04:10,199 --> 00:04:13,360
+by the other party so on the face of it
+对方如此面对
+
+88
+00:04:13,560 --> 00:04:15,159
+it looks very similar to the game of
+它看起来非常类似于
+
+89
+00:04:15,359 --> 00:04:17,499
+pure coordination that we have here but
+我们在这里有纯粹的协调，但是
+
+90
+00:04:17,699 --> 00:04:19,180
+we do see a slight difference here and
+我们在这里确实看到了细微的差别， 
+
+91
+00:04:19,379 --> 00:04:21,310
+it will revisit that later on when we
+稍后，当我们
+
+92
+00:04:21,509 --> 00:04:23,860
+speak about not pure strategies but
+谈论的不是纯粹的策略，而是
+
+93
+00:04:24,060 --> 00:04:25,670
+mixed strategies
+混合策略
+
+94
+00:04:25,870 --> 00:04:28,259
+here's a here's another example the last
+这是一个这是另一个例子
+
+95
+00:04:28,459 --> 00:04:30,090
+one we'll look at and this is the game
+我们来看一看，这就是游戏
+
+96
+00:04:30,290 --> 00:04:32,939
+called matching pennies imagine each of
+所谓的匹配便士想象每个
+
+97
+00:04:33,139 --> 00:04:35,218
+us two players needing to just need to
+我们两个玩家只需要
+
+98
+00:04:35,418 --> 00:04:38,430
+decide on some side of a of a coin heads
+在硬币头的a的某一侧决定
+
+99
+00:04:38,629 --> 00:04:41,879
+or tail if we decide on the same size
+还是尾巴，如果我们决定相同的尺寸
+
+100
+00:04:42,079 --> 00:04:44,730
+heads or tail but we decide on the same
+头或尾，但我们决定相同
+
+101
+00:04:44,930 --> 00:04:48,960
+one then then I win if we decide on
+一个然后我赢了，如果我们决定
+
+102
+00:04:49,160 --> 00:04:51,090
+different sides you heads and me tails
+你的头和我的尾巴的不同侧面
+
+103
+00:04:51,290 --> 00:04:54,449
+or vice versa the new win and so we see
+反之亦然，新的胜利，所以我们看到
+
+104
+00:04:54,649 --> 00:04:59,999
+this here if we both decides on heads or
+如果我们俩都决定要这样做，还是在这里
+
+105
+00:05:00,199 --> 00:05:01,949
+we both decides on tails I win and
+我们都决定我赢的尾巴， 
+
+106
+00:05:02,149 --> 00:05:03,900
+otherwise you win by winning I mean I
+不然你赢了就是我
+
+107
+00:05:04,100 --> 00:05:05,759
+get 1 you get minus 1 so this is a
+得到1你得到负1所以这是一个
+
+108
+00:05:05,959 --> 00:05:10,338
+zero-sum game the sum of our payoff is 0
+零和游戏，我们的收益之和为0 
+
+109
+00:05:10,538 --> 00:05:13,439
+what is a pure strategy Nash equilibrium
+什么是纯策略纳什均衡
+
+110
+00:05:13,639 --> 00:05:16,710
+here let's think about it suppose I pick
+让我们考虑一下，假设我选择了
+
+111
+00:05:16,910 --> 00:05:20,400
+head what is your best response well
+领导什么是你最好的反应
+
+112
+00:05:20,600 --> 00:05:22,740
+your best response then is to pick tails
+你最好的选择就是挑尾巴
+
+113
+00:05:22,939 --> 00:05:26,100
+because you get one rather than minus
+因为你得到一个而不是减
+
+114
+00:05:26,300 --> 00:05:31,350
+one but if you pick I tails then my best
+一个，但是如果你选择我尾巴，那我最好
+
+115
+00:05:31,550 --> 00:05:33,540
+response is not to play tail because I
+回应不是打尾巴，因为我
+
+116
+00:05:33,740 --> 00:05:36,000
+want to coordinate with you because then
+想和你协调，因为
+
+117
+00:05:36,199 --> 00:05:39,660
+I will get one rather than minus one
+我会得到一个而不是减一
+
+118
+00:05:39,860 --> 00:05:42,360
+that I would be getting here but now if
+我会到这里，但现在如果
+
+119
+00:05:42,560 --> 00:05:47,009
+I play tails you'd rather play heads
+我打尾巴你宁可打头
+
+120
+00:05:47,209 --> 00:05:50,189
+because you'd get one rather than the
+因为你会得到一个而不是
+
+121
+00:05:50,389 --> 00:05:53,009
+minus one you're getting here but again
+减一，你要来这里，但是再来一次
+
+122
+00:05:53,209 --> 00:05:55,528
+if you're playing tails I want to if you
+如果你在打尾巴，我想
+
+123
+00:05:55,728 --> 00:05:57,300
+playing heads I want to play heads to
+我要打头
+
+124
+00:05:57,500 --> 00:06:01,528
+match so we have this cycle where the
+匹配，所以我们有这个周期
+
+125
+00:06:01,728 --> 00:06:07,230
+best responses are leading us in the
+最好的回应正在引领我们
+
+126
+00:06:07,430 --> 00:06:10,800
+cycle and so there is no pure strategy
+周期，所以没有纯粹的策略
+
+127
+00:06:11,000 --> 00:06:12,629
+Nash equilibrium in this game of mashing
+这场捣蛋游戏中的纳什均衡
+
+128
+00:06:12,829 --> 00:06:17,829
+pennies
+便士
+

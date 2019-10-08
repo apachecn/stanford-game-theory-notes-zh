@@ -1,0 +1,1580 @@
+﻿1
+00:00:00,199 --> 00:00:02,919
+this video is about the coalitional game
+这个视频是关于联盟游戏的
+
+2
+00:00:03,120 --> 00:00:06,689
+theory solution concept called the core
+理论解决方案概念称为核心
+
+3
+00:00:06,889 --> 00:00:09,970
+recall that the Shapley value told us
+记得夏普利价值告诉我们
+
+4
+00:00:10,169 --> 00:00:12,790
+about how to divide the coalition's
+关于如何划分联盟的
+
+5
+00:00:12,990 --> 00:00:15,810
+value fairly among all of its members in
+公平地在其所有成员中重视
+
+6
+00:00:16,010 --> 00:00:19,030
+this video we instead want to think
+这个视频我们反而想
+
+7
+00:00:19,230 --> 00:00:20,710
+about whether the agents would be
+关于代理商是否会
+
+8
+00:00:20,910 --> 00:00:23,100
+willing to form the grand coalition as
+愿意组成大联盟
+
+9
+00:00:23,300 --> 00:00:25,659
+compared to forming smaller coalition's
+与组建较小的联盟相比
+
+10
+00:00:25,859 --> 00:00:27,879
+that might give all of their members
+可能会给所有成员
+
+11
+00:00:28,079 --> 00:00:29,560
+greater value than they're able to
+比他们能够提供的更大的价值
+
+12
+00:00:29,760 --> 00:00:34,839
+achieve in the grand coalition let's
+在大联盟中实现，让我们
+
+13
+00:00:35,039 --> 00:00:37,779
+begin by looking at an example which
+首先看一个例子
+
+14
+00:00:37,979 --> 00:00:39,448
+we're going to call the voting game
+我们要叫投票游戏
+
+15
+00:00:39,649 --> 00:00:41,890
+we're going to think about a parliament
+我们要考虑一个议会
+
+16
+00:00:42,090 --> 00:00:44,378
+that consists of four political parties
+由四个政党组成
+
+17
+00:00:44,579 --> 00:00:48,459
+which we'll call a b c and d each of
+我们将其分别称为abc和d 
+
+18
+00:00:48,659 --> 00:00:50,529
+these parties have different numbers of
+这些政党有不同数量的
+
+19
+00:00:50,729 --> 00:00:55,149
+seats in the parliament 45 seats 25 15
+议会席位45席位25 15 
+
+20
+00:00:55,350 --> 00:00:58,628
+and 15 respectively the parties have to
+和15个当事方分别
+
+21
+00:00:58,829 --> 00:01:00,998
+vote to decide whether to pass a
+投票决定是否通过
+
+22
+00:01:01,198 --> 00:01:02,559
+spending bill of a hundred million
+一亿支出
+
+23
+00:01:02,759 --> 00:01:05,200
+dollars and also to decide amongst
+美元，并决定
+
+24
+00:01:05,400 --> 00:01:07,750
+themselves how to divide that spending
+自己如何分配支出
+
+25
+00:01:07,950 --> 00:01:10,929
+between the parties it's necessary to
+双方之间有必要
+
+26
+00:01:11,129 --> 00:01:13,509
+get a majority which is to say 51 votes
+获得多数票，即51票
+
+27
+00:01:13,709 --> 00:01:16,929
+in order to pass any legislation and of
+为了通过任何法律和
+
+28
+00:01:17,129 --> 00:01:18,909
+course if the bill doesn't pass then
+当然如果账单没有通过的话
+
+29
+00:01:19,109 --> 00:01:20,259
+there'll be no money for any of the
+没有任何钱
+
+30
+00:01:20,459 --> 00:01:25,058
+parties to spend let's begin by thinking
+花钱的聚会让我们从思考开始
+
+31
+00:01:25,259 --> 00:01:27,179
+about the Shapley values in this case
+关于这种情况下的Shapley值
+
+32
+00:01:27,379 --> 00:01:29,469
+I'll tell you what the answer is in a
+我会告诉你答案是什么
+
+33
+00:01:29,670 --> 00:01:30,909
+second but you may want to pause the
+第二，但您可能要暂停
+
+34
+00:01:31,109 --> 00:01:33,069
+video here and work out for yourself
+视频在这里，自己动手做
+
+35
+00:01:33,269 --> 00:01:34,899
+what the Shapley values are in this
+ Shapley值是什么
+
+36
+00:01:35,099 --> 00:01:40,028
+situation so these are the Shapley
+情况就是这些Shapley 
+
+37
+00:01:40,228 --> 00:01:41,829
+values here I won't show you how we did
+这里的值我不会告诉你我们如何做
+
+38
+00:01:42,030 --> 00:01:45,698
+the calculation notice in particular
+特别是计算通知
+
+39
+00:01:45,899 --> 00:01:49,689
+that even though B and C and D have
+即使B和C和D有
+
+40
+00:01:49,890 --> 00:01:53,469
+different numbers of votes they end up
+他们最终获得不同数量的选票
+
+41
+00:01:53,670 --> 00:01:55,000
+getting the same value in the Shapley
+在Shapley中获得相同的值
+
+42
+00:01:55,200 --> 00:01:58,988
+value the question that I want to focus
+重视我要关注的问题
+
+43
+00:01:59,188 --> 00:02:02,349
+on today is whether any sub coalition
+今天是否有任何子联盟
+
+44
+00:02:02,549 --> 00:02:04,209
+can gain by defecting from the grand
+可以从盛大的叛逃中获利
+
+45
+00:02:04,409 --> 00:02:07,838
+coalition again I'll invite you to pause
+再次联盟，我邀请你暂停
+
+46
+00:02:08,038 --> 00:02:09,308
+and think about that before I give you
+在我给你之前先想一想
+
+47
+00:02:09,508 --> 00:02:12,019
+the answer
+答案
+
+48
+00:02:13,199 --> 00:02:15,950
+so the answer is that a sub coalition
+所以答案是一个子联盟
+
+49
+00:02:16,150 --> 00:02:20,360
+can gain in particular a and B together
+可以一起获得a和B 
+
+50
+00:02:20,560 --> 00:02:22,910
+could form a sub coalition which would
+可以组成一个子联盟
+
+51
+00:02:23,110 --> 00:02:25,600
+do better than the grand coalition and
+比大联盟做得更好
+
+52
+00:02:25,800 --> 00:02:27,560
+being paid according to the Shapley
+根据夏普利支付
+
+53
+00:02:27,759 --> 00:02:33,290
+values so a and B by themselves have
+因此a和B本身具有的值
+
+54
+00:02:33,490 --> 00:02:35,960
+enough votes to pass the legislation
+足够的票数通过立法
+
+55
+00:02:36,159 --> 00:02:38,900
+without the help of C and D and if they
+没有C和D的帮助，如果他们
+
+56
+00:02:39,099 --> 00:02:40,310
+were to divide the hundred million
+要分亿
+
+57
+00:02:40,509 --> 00:02:43,670
+amongst themselves for example 75 25
+例如75 25 
+
+58
+00:02:43,870 --> 00:02:46,219
+then they would each get more than they
+那么他们每个人都会得到比他们更多的收益
+
+59
+00:02:46,419 --> 00:02:49,090
+got under the Shapley value division and
+隶属于Shapley价值部门
+
+60
+00:02:49,289 --> 00:02:52,009
+they would still pass the legislation so
+他们仍然会通过立法，所以
+
+61
+00:02:52,209 --> 00:02:54,050
+this goes to show that while the Shapley
+这表明，沙普利
+
+62
+00:02:54,250 --> 00:02:57,200
+values may be fair they don't
+价值观可能公平，但不公平
+
+63
+00:02:57,400 --> 00:02:59,180
+necessarily give the right incentives to
+必然会给
+
+64
+00:02:59,379 --> 00:03:00,950
+all of the different parties to want to
+所有各方想要
+
+65
+00:03:01,150 --> 00:03:04,040
+actually join the grand coalition and so
+实际上加入了大联盟等等
+
+66
+00:03:04,240 --> 00:03:05,570
+instead we should look for different
+相反，我们应该寻找不同的
+
+67
+00:03:05,770 --> 00:03:07,040
+ways that the parties could divide the
+各方可以分割的方式
+
+68
+00:03:07,240 --> 00:03:08,689
+payments so that they would be willing
+付款，以便他们愿意
+
+69
+00:03:08,889 --> 00:03:12,469
+to form the grand coalition so that's
+组成大联盟，所以
+
+70
+00:03:12,669 --> 00:03:13,730
+the question that we're going to think
+我们要思考的问题
+
+71
+00:03:13,930 --> 00:03:14,570
+about in this video
+关于这部影片
+
+72
+00:03:14,770 --> 00:03:17,450
+under what payment divisions would the
+在什么付款部门下
+
+73
+00:03:17,650 --> 00:03:18,890
+agents be willing to form the grand
+代理商愿意组建宏伟
+
+74
+00:03:19,090 --> 00:03:22,370
+coalition and the answer as we'll see is
+联盟，我们将看到的答案是
+
+75
+00:03:22,569 --> 00:03:24,890
+that they would be willing to do so if
+他们愿意这样做，如果
+
+76
+00:03:25,090 --> 00:03:27,469
+the payment profile belongs to a set
+付款资料属于一组
+
+77
+00:03:27,669 --> 00:03:30,620
+which we'll call the core here's how we
+我们将其称为核心的是我们的方式
+
+78
+00:03:30,819 --> 00:03:35,600
+define the core so we're going to think
+定义核心，以便我们思考
+
+79
+00:03:35,800 --> 00:03:38,360
+about a given payment vector that's
+关于给定的支付向量
+
+80
+00:03:38,560 --> 00:03:41,120
+going to be an assignment of a certain
+将是某人的任务
+
+81
+00:03:41,319 --> 00:03:43,819
+amount of value to each of the different
+每个不同的价值
+
+82
+00:03:44,019 --> 00:03:47,030
+members of the coalition and we're going
+联盟成员，我们要去
+
+83
+00:03:47,229 --> 00:03:50,060
+to say that the core that this payment
+要说的是核心，这笔付款
+
+84
+00:03:50,259 --> 00:03:52,009
+vector is in the core of a coalitional
+向量是联盟的核心
+
+85
+00:03:52,209 --> 00:03:54,590
+game if and only if the following
+当且仅当以下情况时
+
+86
+00:03:54,789 --> 00:03:58,670
+condition is true for every coalition
+每个联盟的条件都成立
+
+87
+00:03:58,870 --> 00:04:01,910
+that could form and which is a subset or
+可能形成，并且是子集或
+
+88
+00:04:02,110 --> 00:04:04,270
+equal to the grand coalition so every
+等于大联盟，所以每一个
+
+89
+00:04:04,469 --> 00:04:07,880
+subset of the grand coalition it's the
+大联盟的子集是
+
+90
+00:04:08,080 --> 00:04:10,700
+case that for all agents in that subset
+对于该子集中的所有代理
+
+91
+00:04:10,900 --> 00:04:13,939
+and if we sum across all of the agents
+如果我们汇总所有代理商
+
+92
+00:04:14,139 --> 00:04:17,870
+in that subset excuse me the amount of
+在那个子集中，请问
+
+93
+00:04:18,069 --> 00:04:20,538
+payoff that the payoff vector says that
+收益向量表示
+
+94
+00:04:20,738 --> 00:04:23,420
+we give to each of those agents I in the
+我们给我中的每个代理商
+
+95
+00:04:23,620 --> 00:04:25,759
+subset that sum
+总和的子集
+
+96
+00:04:25,959 --> 00:04:28,069
+is at least as much as the value that
+至少与
+
+97
+00:04:28,269 --> 00:04:30,259
+the agents would have gotten as a
+特工们会成为
+
+98
+00:04:30,459 --> 00:04:32,210
+coalition if they had deviated and
+如果他们偏离了联盟， 
+
+99
+00:04:32,410 --> 00:04:36,829
+instead formed that subset s so kind of
+而是形成了这样的子集
+
+100
+00:04:37,029 --> 00:04:39,710
+intuitively what we're guaranteeing here
+直觉上我们在这里保证
+
+101
+00:04:39,910 --> 00:04:42,110
+is that the sum of the payoffs to all of
+是所有的收益的总和
+
+102
+00:04:42,310 --> 00:04:44,809
+the agents in any sub coalition is at
+任何子联盟中的特工都在
+
+103
+00:04:45,009 --> 00:04:46,399
+least as much as they could earn if they
+如果他们至少赚了多少钱
+
+104
+00:04:46,598 --> 00:04:48,439
+actually did go off and formed that sub
+实际上确实消失并形成了那个子
+
+105
+00:04:48,639 --> 00:04:50,899
+coalition and you can see in the voting
+联盟，你可以在投票中看到
+
+106
+00:04:51,098 --> 00:04:52,910
+game that's what we saw wasn't achieved
+我们看到的游戏没有实现
+
+107
+00:04:53,110 --> 00:04:55,218
+that the amount that we were paying a
+我们支付的金额是
+
+108
+00:04:55,418 --> 00:04:57,528
+and B under the Shapley value payments
+ Shapley价值支付项下的B 
+
+109
+00:04:57,728 --> 00:04:59,809
+wasn't as much as they could have gone
+没有他们本应走的那么多
+
+110
+00:05:00,009 --> 00:05:02,629
+off and gone gotten on their own so if
+离开并自行离开，所以如果
+
+111
+00:05:02,829 --> 00:05:05,449
+there doesn't exist any sub coalition
+没有任何子联盟
+
+112
+00:05:05,649 --> 00:05:07,100
+where the agents could have gotten more
+代理商可以得到更多的地方
+
+113
+00:05:07,300 --> 00:05:09,920
+on their own then our pay effector is in
+靠我们自己的薪酬影响者
+
+114
+00:05:10,120 --> 00:05:12,949
+the core and intuitively this is like
+核心，直觉上这就像
+
+115
+00:05:13,149 --> 00:05:14,749
+Nash equilibrium because what we're
+纳什均衡，因为我们
+
+116
+00:05:14,949 --> 00:05:17,300
+saying is the agents don't have any
+说的是代理商没有
+
+117
+00:05:17,500 --> 00:05:19,730
+profitable deviations it isn't the case
+实际情况并非如此
+
+118
+00:05:19,930 --> 00:05:21,649
+that any sub coalition could deviate
+任何子联盟都可能会偏离
+
+119
+00:05:21,848 --> 00:05:24,170
+away from the grand coalition and end up
+离开大联盟并结束
+
+120
+00:05:24,370 --> 00:05:27,110
+with higher payments for themselves the
+自己支付更高的
+
+121
+00:05:27,310 --> 00:05:28,670
+way it's different from Nash equilibrium
+不同于纳什均衡的方式
+
+122
+00:05:28,870 --> 00:05:30,588
+is we're thinking about groups of agents
+我们在考虑代理商群体吗
+
+123
+00:05:30,788 --> 00:05:34,040
+jointly deviating so in a sense it's a
+共同偏离，从某种意义上说
+
+124
+00:05:34,240 --> 00:05:35,240
+stronger notion than a Nash equilibrium
+比纳什均衡更强的概念
+
+125
+00:05:35,439 --> 00:05:37,730
+we don't think only about unilateral
+我们不仅考虑单方面
+
+126
+00:05:37,930 --> 00:05:43,879
+deviations here so anytime a solution
+出现偏差，因此随时可以解决
+
+127
+00:05:44,079 --> 00:05:46,009
+concept is introduced to you there are
+概念介绍给你有
+
+128
+00:05:46,209 --> 00:05:47,778
+two questions that you should wonder
+您应该怀疑的两个问题
+
+129
+00:05:47,978 --> 00:05:51,290
+about the first is whether the solution
+关于第一个是解决方案
+
+130
+00:05:51,490 --> 00:05:53,290
+concept always returns something
+概念总是返回一些东西
+
+131
+00:05:53,490 --> 00:05:56,329
+analogously remember pure strategy Nash
+类似地记得纯策略纳什
+
+132
+00:05:56,529 --> 00:05:58,670
+equilibrium doesn't always exist mixed
+平衡并不总是存在
+
+133
+00:05:58,870 --> 00:06:00,559
+strategy equilibrium does always exist
+战略均衡始终存在
+
+134
+00:06:00,759 --> 00:06:03,259
+so we might wonder is the core always
+所以我们可能想知道核心始终是
+
+135
+00:06:03,459 --> 00:06:05,028
+non-empty does it always suggest at
+非空的总是建议
+
+136
+00:06:05,228 --> 00:06:08,480
+least one payment profile to us secondly
+第二个给我们至少一个付款资料
+
+137
+00:06:08,680 --> 00:06:10,639
+we might wonder is the core always
+我们可能想知道核心始终是
+
+138
+00:06:10,839 --> 00:06:12,740
+unique when it does return something to
+当它确实返回某些东西时是唯一的
+
+139
+00:06:12,939 --> 00:06:15,139
+us does it always return one thing does
+我们做它总是返回一件事
+
+140
+00:06:15,339 --> 00:06:17,629
+it make a sharp recommendation or might
+它提出了一个尖锐的建议，或者可能
+
+141
+00:06:17,829 --> 00:06:22,100
+it return multiple things well first of
+它首先会很好地返回多个事物
+
+142
+00:06:22,300 --> 00:06:24,860
+all is the core always non-empty the
+一切都是核心，永远是非空的
+
+143
+00:06:25,060 --> 00:06:27,319
+answer here unfortunately is no so there
+不幸的是，这里没有答案
+
+144
+00:06:27,519 --> 00:06:29,838
+are some games in which there aren't any
+有些游戏没有
+
+145
+00:06:30,038 --> 00:06:32,778
+stable payments that can be allocated to
+可以分配给的稳定付款
+
+146
+00:06:32,978 --> 00:06:34,879
+the agents and we can see this already
+代理商，我们已经可以看到
+
+147
+00:06:35,079 --> 00:06:37,670
+in the voting game so
+在投票游戏中
+
+148
+00:06:37,870 --> 00:06:40,490
+the set of minimal coalition's that are
+最小联盟的集合是
+
+149
+00:06:40,689 --> 00:06:44,060
+able to pass the legislation are a b a c
+能够通过立法的是算盘
+
+150
+00:06:44,259 --> 00:06:48,379
+a d and b c d all of these subsets of
+ ad和bcd的所有这些子集
+
+151
+00:06:48,579 --> 00:06:50,689
+the agents have enough votes to pass the
+代理商有足够的票数可以通过
+
+152
+00:06:50,889 --> 00:06:55,069
+legislation now we can just looking at
+立法现在我们可以看看
+
+153
+00:06:55,269 --> 00:06:56,960
+these sets reason that there isn't any
+这些设置的原因是没有任何
+
+154
+00:06:57,160 --> 00:06:58,670
+way of dividing the payments that would
+分割付款方式
+
+155
+00:06:58,870 --> 00:07:01,870
+be stable for all sub coalition's in
+对所有子联盟的稳定
+
+156
+00:07:02,069 --> 00:07:04,790
+particular we can see that if the sum of
+特别是我们可以看到，如果
+
+157
+00:07:04,990 --> 00:07:07,340
+the payoffs to the parties in b c and d
+ BC和d中各方的收益
+
+158
+00:07:07,540 --> 00:07:11,028
+ends up being less than 100 then this
+最终小于100则这个
+
+159
+00:07:11,228 --> 00:07:13,310
+set of agents has reason to deviate and
+一组代理人有偏离的理由
+
+160
+00:07:13,509 --> 00:07:15,439
+form this coalition where they can then
+组建这个联盟，然后他们可以
+
+161
+00:07:15,639 --> 00:07:18,620
+divide the full hundred million amongst
+将整亿分给
+
+162
+00:07:18,819 --> 00:07:20,500
+themselves
+他们自己
+
+163
+00:07:20,699 --> 00:07:24,829
+however if b c and d get the entire
+但是，如果bc和d得到整个
+
+164
+00:07:25,029 --> 00:07:28,100
+payoff of a hundred million then a can
+一亿的回报，然后一罐
+
+165
+00:07:28,300 --> 00:07:32,810
+form a coalition with anyone of b c or d
+与BC或D的任何人结盟
+
+166
+00:07:33,009 --> 00:07:35,778
+which would be sufficient and it could
+这将是足够的，并且可以
+
+167
+00:07:35,978 --> 00:07:39,740
+do this with whichever of the of b c and
+使用BC和
+
+168
+00:07:39,939 --> 00:07:42,170
+d is getting paid the least under
+ d的薪水最低
+
+169
+00:07:42,370 --> 00:07:44,718
+whatever payment profile were assuming
+假设的付款方式是什么
+
+170
+00:07:44,918 --> 00:07:49,910
+is adequate for for b c and d and thus
+对于bc和d是足够的，因此
+
+171
+00:07:50,110 --> 00:07:51,770
+we can see that there's always some sub
+我们可以看到总是有一些子
+
+172
+00:07:51,970 --> 00:07:53,540
+coalition that could profitably deviate
+可能有利可图的偏离联盟
+
+173
+00:07:53,740 --> 00:07:57,680
+from any payment profile that we
+从我们的任何付款资料中
+
+174
+00:07:57,879 --> 00:08:00,020
+proposed and that means that the core is
+建议，这意味着核心是
+
+175
+00:08:00,220 --> 00:08:03,439
+empty for this game the second thing we
+为这个游戏清空第二件事
+
+176
+00:08:03,639 --> 00:08:05,899
+might wonder is in cases where the core
+可能会怀疑是在核心
+
+177
+00:08:06,098 --> 00:08:09,980
+is not empty is it unique and again here
+不是空的，它是唯一的，还是在这里
+
+178
+00:08:10,180 --> 00:08:13,338
+the news is bad because no the core is
+这消息不好，因为没有核心
+
+179
+00:08:13,538 --> 00:08:15,920
+not always unique so now let's consider
+并不总是唯一的，所以现在让我们考虑
+
+180
+00:08:16,120 --> 00:08:18,290
+changing the voting game so that we
+更改投票游戏，以便我们
+
+181
+00:08:18,490 --> 00:08:20,389
+require an 80 percent majority instead
+需要80％的多数
+
+182
+00:08:20,589 --> 00:08:24,050
+of a 51% majority it's now the case that
+在51％的多数中，情况就是这样
+
+183
+00:08:24,250 --> 00:08:27,588
+the winning coalition's are these two
+获胜的联盟是这两个
+
+184
+00:08:27,788 --> 00:08:28,670
+coalition's these are the only
+这些是唯一的
+
+185
+00:08:28,870 --> 00:08:31,759
+coalition's that are able to obtain 80%
+能够获得80％的联盟
+
+186
+00:08:31,959 --> 00:08:33,019
+majorities are the only minimal
+多数是唯一的最低要求
+
+187
+00:08:33,219 --> 00:08:37,519
+coalition's and it's now the case that a
+联盟，现在情况是
+
+188
+00:08:37,719 --> 00:08:40,309
+and B are required in all winning
+所有获胜都需要B和B 
+
+189
+00:08:40,509 --> 00:08:43,309
+coalition's and this means that any
+联盟的，这意味着任何
+
+190
+00:08:43,509 --> 00:08:45,019
+complete distribution of the hundred
+百分百的完整分配
+
+191
+00:08:45,220 --> 00:08:48,109
+million between just a and B is going to
+仅在A和B之间的百万
+
+192
+00:08:48,309 --> 00:08:50,389
+belong to the Corps because there's no
+属于兵团，因为没有
+
+193
+00:08:50,589 --> 00:08:51,289
+way that C and
+ C和
+
+194
+00:08:51,490 --> 00:08:53,599
+even if they're not paid anything can go
+即使他们没有得到任何报酬也可以
+
+195
+00:08:53,799 --> 00:08:56,750
+off and form some different coalition
+并组成一些不同的联盟
+
+196
+00:08:56,950 --> 00:09:01,129
+that would pay them more and so the the
+那会给他们更多的报酬，所以
+
+197
+00:09:01,330 --> 00:09:03,319
+grand coalition is stable as long as a
+大联盟只要稳定
+
+198
+00:09:03,519 --> 00:09:09,169
+and B get paid everything now let me
+和B现在得到了所有的报酬让我
+
+199
+00:09:09,370 --> 00:09:10,879
+give you a few more definitions so I can
+给您更多定义，以便我可以
+
+200
+00:09:11,080 --> 00:09:12,409
+say some more positive things about the
+说一些更积极的事情
+
+201
+00:09:12,610 --> 00:09:16,059
+Corps first let me define a simple game
+军团首先让我定义一个简单的游戏
+
+202
+00:09:16,259 --> 00:09:20,059
+I'll say that a game is simple if it's
+我会说一个简单的游戏
+
+203
+00:09:20,259 --> 00:09:22,969
+the case that for all coalition's the
+对于所有联盟来说
+
+204
+00:09:23,169 --> 00:09:26,629
+value of the Coalition is either 0 or 1
+联盟的值为0或1 
+
+205
+00:09:26,830 --> 00:09:31,279
+and notice that our voting game is a
+并注意我们的投票游戏是
+
+206
+00:09:31,480 --> 00:09:34,490
+simple game and the reason is that we
+简单的游戏，原因是我们
+
+207
+00:09:34,690 --> 00:09:36,469
+either produce a hundred million dollars
+要么产生一亿美元
+
+208
+00:09:36,669 --> 00:09:39,859
+or 0 depending on whether we get a
+或0取决于我们是否得到
+
+209
+00:09:40,059 --> 00:09:43,490
+majority or not and so we can scale
+是否多数，所以我们可以扩展
+
+210
+00:09:43,690 --> 00:09:45,740
+those payoffs where one is 100 million
+一亿的回报
+
+211
+00:09:45,940 --> 00:09:48,919
+dollars and 0 is 0 and we can then
+美元，0是0，然后我们可以
+
+212
+00:09:49,120 --> 00:09:52,729
+encode this as a simple game my second
+第二，将其编码为一个简单的游戏
+
+213
+00:09:52,929 --> 00:09:55,789
+definition is of a veto player and I'll
+定义是否决权，我将
+
+214
+00:09:55,990 --> 00:10:00,258
+say that a player I has a veto if the
+说如果我拥有否决权， 
+
+215
+00:10:00,458 --> 00:10:02,299
+value of all coalition's that don't
+所有联盟的价值
+
+216
+00:10:02,500 --> 00:10:06,709
+involve AI is 0 so in other words the
+涉及AI为0，也就是说
+
+217
+00:10:06,909 --> 00:10:09,078
+participation of AI in a coalition is
+ AI参与联盟是
+
+218
+00:10:09,278 --> 00:10:11,299
+necessary if the Coalition is going to
+如果联盟要
+
+219
+00:10:11,500 --> 00:10:14,049
+produce any value at all
+根本没有任何价值
+
+220
+00:10:14,250 --> 00:10:16,729
+putting these two things together it's
+将这两件事放在一起
+
+221
+00:10:16,929 --> 00:10:19,490
+possible to show that in a simple game
+可以在一个简单的游戏中证明这一点
+
+222
+00:10:19,690 --> 00:10:22,669
+the core is empty exactly when there is
+核心在存在时恰好是空的
+
+223
+00:10:22,870 --> 00:10:26,328
+no veto player and that's precisely what
+没有否决权，这正是
+
+224
+00:10:26,528 --> 00:10:28,519
+we saw in our voting game example
+我们在投票游戏示例中看到了
+
+225
+00:10:28,720 --> 00:10:31,819
+already we had no veto player in the
+我们已经没有否决权
+
+226
+00:10:32,019 --> 00:10:33,378
+case where we needed a 51% majority
+我们需要51％多数的情况
+
+227
+00:10:33,578 --> 00:10:35,179
+because there was a coalition that
+因为有一个联盟
+
+228
+00:10:35,379 --> 00:10:38,899
+didn't involve a on the other hand and
+另一方面不涉及
+
+229
+00:10:39,100 --> 00:10:41,269
+the core was empty in that case on the
+在那种情况下，核心是空的
+
+230
+00:10:41,470 --> 00:10:43,669
+other hand if there are veto players the
+另一方面，如果有否决权
+
+231
+00:10:43,870 --> 00:10:45,679
+core consists of all of those payoff
+核心包括所有这些收益
+
+232
+00:10:45,879 --> 00:10:49,039
+vectors where the non veto players get 0
+非否决玩家得到0的向量
+
+233
+00:10:49,240 --> 00:10:51,919
+and the payoff is divided among the veto
+收益在否决权之间分配
+
+234
+00:10:52,120 --> 00:10:54,409
+players and again we saw that in our
+玩家，我们再次在我们身上看到了
+
+235
+00:10:54,610 --> 00:10:56,479
+voting game example here where we had
+我们在这里投票游戏的例子
+
+236
+00:10:56,679 --> 00:11:00,529
+the 80% majority required where a and B
+ a和B要求80％的多数
+
+237
+00:11:00,730 --> 00:11:03,720
+were both veto players
+都是否决权参与者
+
+238
+00:11:03,809 --> 00:11:06,938
+I want to say one more positive thing
+我想说一件事
+
+239
+00:11:07,139 --> 00:11:08,889
+about the core and to do that I'm going
+关于核心，要做到这一点
+
+240
+00:11:09,089 --> 00:11:11,919
+to illustrate another coalitional game
+来说明另一个联盟游戏
+
+241
+00:11:12,120 --> 00:11:14,289
+example so this is called the airport
+这样的例子叫做机场
+
+242
+00:11:14,490 --> 00:11:19,058
+game in this example there are several
+这个例子中的游戏有几个
+
+243
+00:11:19,259 --> 00:11:20,378
+different cities in the same
+同一城市中的不同城市
+
+244
+00:11:20,578 --> 00:11:23,409
+geographical area that need access to
+需要访问的地理区域
+
+245
+00:11:23,610 --> 00:11:26,349
+airports and the different cities are
+机场和不同的城市是
+
+246
+00:11:26,549 --> 00:11:28,568
+different sizes and so they need to be
+不同的尺寸，所以它们需要
+
+247
+00:11:28,769 --> 00:11:30,219
+able to accommodate different sized
+能够容纳不同尺寸
+
+248
+00:11:30,419 --> 00:11:33,698
+airplanes they have to decide between
+他们必须决定之间的飞机
+
+249
+00:11:33,899 --> 00:11:36,159
+each building their own Airport or
+每个人都建立自己的机场或
+
+250
+00:11:36,360 --> 00:11:39,308
+building a Regional Airport and sharing
+建立区域机场并共享
+
+251
+00:11:39,509 --> 00:11:40,568
+the cost of building the Regional
+建设区域的成本
+
+252
+00:11:40,769 --> 00:11:44,139
+Airport amongst all the cities if they
+所有城市中的机场
+
+253
+00:11:44,339 --> 00:11:46,029
+build the Regional Airport its cost is
+建立区域机场，其成本是
+
+254
+00:11:46,230 --> 00:11:48,459
+going to depend on the largest plane
+要依靠最大的飞机
+
+255
+00:11:48,659 --> 00:11:51,368
+that has to be accommodated so whichever
+无论如何都要容纳
+
+256
+00:11:51,568 --> 00:11:54,639
+city in the coalition that builds a
+建立联盟的城市
+
+257
+00:11:54,839 --> 00:11:56,798
+regional airport needs the biggest
+支线机场需求最大
+
+258
+00:11:56,999 --> 00:11:58,959
+aircraft is going to set the size of the
+飞机将要设置的大小
+
+259
+00:11:59,159 --> 00:12:02,378
+airport for everybody otherwise everyone
+每个人的机场，否则每个人
+
+260
+00:12:02,578 --> 00:12:05,289
+just builds their own Airport so we'll
+只是建立自己的机场，所以我们将
+
+261
+00:12:05,490 --> 00:12:07,029
+model this as a coalitional game as
+将此模型建模为联盟游戏
+
+262
+00:12:07,230 --> 00:12:09,969
+follows n is of course the set of cities
+跟随n当然是城市的集合
+
+263
+00:12:10,169 --> 00:12:13,229
+and the value of each coalition is
+每个联盟的价值是
+
+264
+00:12:13,429 --> 00:12:15,849
+basically the amount of work that was
+基本上是
+
+265
+00:12:16,049 --> 00:12:18,758
+avoided as compared to having all of the
+与拥有所有
+
+266
+00:12:18,958 --> 00:12:20,438
+airports built individually for each
+每个机场分别建造
+
+267
+00:12:20,639 --> 00:12:23,438
+city so more specifically the value of a
+城市，更具体地说，一个城市的价值
+
+268
+00:12:23,639 --> 00:12:26,108
+coalition is the sum of the cost of
+联盟是成本的总和
+
+269
+00:12:26,308 --> 00:12:28,049
+building runways for every city and s
+为每个城市和城市建造跑道
+
+270
+00:12:28,250 --> 00:12:30,519
+minus the cost of the biggest runway
+减去最大跑道的成本
+
+271
+00:12:30,720 --> 00:12:32,948
+which is the one that actually has to be
+这实际上是必须的
+
+272
+00:12:33,149 --> 00:12:36,078
+built for the Regional Airport
+为地区机场而建
+
+273
+00:12:37,278 --> 00:12:40,058
+well I'll define a convex game as
+好吧，我将凸游戏定义为
+
+274
+00:12:40,259 --> 00:12:47,998
+follows a game is convex if for all
+如果所有
+
+275
+00:12:48,198 --> 00:12:51,328
+coalition's that are strict subsets of n
+是n的严格子集的联盟
+
+276
+00:12:51,528 --> 00:12:55,058
+the value of the union of those subsets
+这些子集的并集值
+
+277
+00:12:55,259 --> 00:12:59,019
+of those two different coalition's is at
+这两个不同联盟中的一个
+
+278
+00:12:59,220 --> 00:13:02,349
+least as big as the value that the first
+至少与第一个价值一样大
+
+279
+00:13:02,549 --> 00:13:04,868
+can achieve by itself plus the amount
+可以自己实现加上数量
+
+280
+00:13:05,068 --> 00:13:07,599
+the second could achieve by itself minus
+第二个可以自己实现
+
+281
+00:13:07,799 --> 00:13:10,178
+the amount that the coalition in common
+联盟的共同点
+
+282
+00:13:10,379 --> 00:13:14,240
+between these two can achieve for itself
+这两个之间可以自己实现
+
+283
+00:13:15,500 --> 00:13:17,849
+so notice that we already talked about
+所以请注意，我们已经讨论过
+
+284
+00:13:18,049 --> 00:13:21,059
+super a nativity this is a stronger
+超级耶稣降生这是一个更强大
+
+285
+00:13:21,259 --> 00:13:22,740
+assumption because super additive 'ti
+假设是因为超级添加剂
+
+286
+00:13:22,940 --> 00:13:27,359
+assumed that SMT had an empty
+假设SMT空着
+
+287
+00:13:27,559 --> 00:13:29,849
+intersection whereas here we're allowing
+相交而我们在这里允许
+
+288
+00:13:30,049 --> 00:13:31,979
+them to have an intersection and were
+他们有一个十字路口， 
+
+289
+00:13:32,179 --> 00:13:33,809
+considered we're just subtracting the
+认为我们只是减去
+
+290
+00:13:34,009 --> 00:13:35,759
+value of its intersection so so this
+相交的值，所以这样
+
+291
+00:13:35,960 --> 00:13:38,779
+speaks about also cases in which SMT do
+还谈到了SMT的情况
+
+292
+00:13:38,980 --> 00:13:41,299
+have one or more agents in common
+有一个或多个共同的代理
+
+293
+00:13:41,500 --> 00:13:44,519
+nevertheless convex games are relatively
+但是凸游戏相对
+
+294
+00:13:44,720 --> 00:13:46,409
+common and the airport game is an
+常见的机场游戏是
+
+295
+00:13:46,610 --> 00:13:51,240
+example of a contacts game so the reason
+接触游戏的例子，原因
+
+296
+00:13:51,440 --> 00:13:53,279
+I mentioned convex games is to say some
+我提到凸游戏是说一些
+
+297
+00:13:53,480 --> 00:13:56,129
+nice things about the core and here are
+关于核心的好东西是
+
+298
+00:13:56,330 --> 00:13:58,379
+two kind of positive theorems about the
+关于的两种正定理
+
+299
+00:13:58,580 --> 00:14:02,009
+core first of all in the case of convex
+首先是凸的情况下的核心
+
+300
+00:14:02,210 --> 00:14:05,339
+games the core always is non-empty so
+游戏的核心总是非空的，所以
+
+301
+00:14:05,539 --> 00:14:07,229
+there's always at least some way of
+总是至少有某种方式
+
+302
+00:14:07,429 --> 00:14:09,449
+dividing payments between all of the
+在所有
+
+303
+00:14:09,649 --> 00:14:11,339
+agents to support the grand coalition
+代理商支持大联盟
+
+304
+00:14:11,539 --> 00:14:14,399
+and in a way where no subset of the
+并且以某种方式
+
+305
+00:14:14,600 --> 00:14:16,859
+agents would be willing to deviate in
+代理商会愿意偏离
+
+306
+00:14:17,059 --> 00:14:20,479
+order to benefit themselves secondly
+其次使自己受益
+
+307
+00:14:20,679 --> 00:14:23,789
+even better the Shapley value is in the
+更好的是Shapley的价值在于
+
+308
+00:14:23,990 --> 00:14:26,339
+core for convex games and so that means
+凸游戏的核心，这意味着
+
+309
+00:14:26,539 --> 00:14:29,129
+that for these particular games dividing
+对于这些特定的游戏划分
+
+310
+00:14:29,330 --> 00:14:31,529
+the the value of the grand coalition in
+大联盟的价值
+
+311
+00:14:31,730 --> 00:14:34,349
+a way that is stable and dividing the
+一种稳定并划分
+
+312
+00:14:34,549 --> 00:14:35,969
+value of the grand coalition in a way
+大联盟的价值在某种程度上
+
+313
+00:14:36,169 --> 00:14:38,819
+that is fair are not goals that are at
+公平不是目标
+
+314
+00:14:39,019 --> 00:14:39,659
+odds with each other
+彼此的赔率
+
+315
+00:14:39,860 --> 00:14:41,429
+so in these games it's possible to do
+因此在这些游戏中可以
+
+316
+00:14:41,629 --> 00:14:46,629
+both
+都
+

@@ -1,0 +1,915 @@
+﻿1
+00:00:00,170 --> 00:00:03,040
+okay we've seen some results on the
+好吧，我们已经看到了一些结果
+
+2
+00:00:03,240 --> 00:00:05,259
+difficulties associated with aggregating
+与汇总相关的困难
+
+3
+00:00:05,459 --> 00:00:07,419
+preferences coherently and what I want
+连贯的偏好和我想要的
+
+4
+00:00:07,620 --> 00:00:09,700
+to do is talk a little bit about the
+要做的是谈论一些
+
+5
+00:00:09,900 --> 00:00:12,040
+setting where things are nicely behaved
+设定事情表现良好的地方
+
+6
+00:00:12,240 --> 00:00:13,870
+and these are known as single peaked
+这些被称为单峰
+
+7
+00:00:14,070 --> 00:00:17,260
+preferences and sometimes voters
+偏好，有时还有选民
+
+8
+00:00:17,460 --> 00:00:20,050
+preferences have nice properties and a
+首选项具有不错的属性和
+
+9
+00:00:20,250 --> 00:00:21,789
+very prominent case of that is when
+当时最突出的情况是
+
+10
+00:00:21,989 --> 00:00:23,230
+candidates connect should be ordered
+候选人应联系
+
+11
+00:00:23,429 --> 00:00:25,480
+from left to right so we can think of
+从左到右，所以我们可以想到
+
+12
+00:00:25,679 --> 00:00:27,310
+leftmost candidates right most
+最左边的候选人最右边
+
+13
+00:00:27,510 --> 00:00:29,140
+candidates and candidates can be nicely
+候选人和候选人可以很好
+
+14
+00:00:29,339 --> 00:00:31,149
+ordered and in situations where people
+在有秩序的情况下
+
+15
+00:00:31,349 --> 00:00:32,709
+have a most preferred outcome or
+有最理想的结果或
+
+16
+00:00:32,909 --> 00:00:35,279
+candidate on this spectrum then
+那么这个范围的候选人
+
+17
+00:00:35,479 --> 00:00:38,349
+candidates are going to have nice
+候选人会很高兴
+
+18
+00:00:38,549 --> 00:00:40,719
+properties in terms of existing having
+就现有的财产而言
+
+19
+00:00:40,920 --> 00:00:42,669
+an existing condor sale in ER having
+ ER中现有的秃鹰销售
+
+20
+00:00:42,869 --> 00:00:45,279
+nicely defined voting schemes and so
+定义明确的投票方案等等
+
+21
+00:00:45,479 --> 00:00:48,128
+forth and so the idea here is is people
+来，所以这里的想法是人
+
+22
+00:00:48,329 --> 00:00:50,678
+have a most preferred point and they
+有一个最喜欢的观点，他们
+
+23
+00:00:50,878 --> 00:00:53,079
+prefer candidates closest to that and
+更喜欢与之最接近的候选人
+
+24
+00:00:53,280 --> 00:00:54,849
+don't prefer ones that are further away
+不喜欢离得更远的人
+
+25
+00:00:55,049 --> 00:00:58,628
+now you know we can think of this in a
+现在您知道我们可以在一个
+
+26
+00:00:58,829 --> 00:01:00,549
+political spectrum you could also think
+您还可以想到的政治范围
+
+27
+00:01:00,750 --> 00:01:02,649
+of you know how much tax would you like
+你们当中的人知道您想要多少税
+
+28
+00:01:02,850 --> 00:01:04,149
+to have well people might have an
+拥有良好的人可能会
+
+29
+00:01:04,349 --> 00:01:06,789
+optimal tax rate and and not like to
+最佳税率，并且不喜欢
+
+30
+00:01:06,989 --> 00:01:08,738
+have higher tax rates or lower tax rates
+具有较高的税率或较低的税率
+
+31
+00:01:08,938 --> 00:01:11,918
+or what's the extent of some regulation
+或什么程度的监管
+
+32
+00:01:12,118 --> 00:01:13,390
+we can think of a series of different
+我们可以想到一系列不同的
+
+33
+00:01:13,590 --> 00:01:15,369
+settings where we have a nice ordering
+设置好点的地方
+
+34
+00:01:15,569 --> 00:01:16,929
+over the alternatives and people's
+在替代品和人们的
+
+35
+00:01:17,129 --> 00:01:18,308
+preferences are going to have this
+喜好将有这个
+
+36
+00:01:18,509 --> 00:01:21,039
+property so in particular when we think
+财产，特别是当我们认为
+
+37
+00:01:21,239 --> 00:01:22,599
+about you know so our set of outcomes
+关于你知道，所以我们的结果
+
+38
+00:01:22,799 --> 00:01:25,679
+let's say our set of outcomes here is a
+假设我们这里的结果是
+
+39
+00:01:25,879 --> 00:01:31,599
+b c d e and we look at a person who has
+ bcde，我们看一个有
+
+40
+00:01:31,799 --> 00:01:34,719
+single preferences we look at say the
+我们看一个单一的偏好说
+
+41
+00:01:34,920 --> 00:01:38,619
+utility so here the utility the payoff
+效用，所以这是效用的回报
+
+42
+00:01:38,819 --> 00:01:41,039
+they get from a given alternative and
+他们从给定的选择中获得
+
+43
+00:01:41,239 --> 00:01:43,418
+their most preferred alternative in this
+他们最喜欢的替代品
+
+44
+00:01:43,618 --> 00:01:46,659
+case is b they get the highest and then
+情况是b他们得到最高，然后
+
+45
+00:01:46,859 --> 00:01:48,099
+when we look at the other alternatives
+当我们看其他选择时
+
+46
+00:01:48,299 --> 00:01:50,609
+in this case c would be second highest a
+在这种情况下，c将是第二高的a 
+
+47
+00:01:50,810 --> 00:01:55,269
+would be third highest then D and then e
+将是第三高，然后是D，然后是e 
+
+48
+00:01:55,469 --> 00:01:58,058
+is way down here so their preferences
+不在这里，所以他们的喜好
+
+49
+00:01:58,259 --> 00:02:03,579
+would look like b c d e in terms of a
+看起来像bcde 
+
+50
+00:02:03,780 --> 00:02:07,599
+ranking but what's important in terms of
+排名，但重要的是
+
+51
+00:02:07,799 --> 00:02:10,300
+single peakedness is that the further
+单峰化是
+
+52
+00:02:10,500 --> 00:02:12,310
+you move this way the lower the
+您向下方移动
+
+53
+00:02:12,509 --> 00:02:13,630
+Preferences the the
+首选项
+
+54
+00:02:13,830 --> 00:02:16,990
+lower the utility is so the voter always
+降低效用，所以选民总是
+
+55
+00:02:17,189 --> 00:02:19,000
+prefers something which is closer to be
+喜欢更接近的东西
+
+56
+00:02:19,199 --> 00:02:21,010
+than something further away on the same
+比同一事物更远的东西
+
+57
+00:02:21,210 --> 00:02:23,530
+side and similarly the more you move in
+侧面，同样，您越往内走
+
+58
+00:02:23,729 --> 00:02:26,430
+this direction the voter prefers the
+这个方向，选民更喜欢
+
+59
+00:02:26,629 --> 00:02:30,189
+alternative B to a or anything further
+ B替代a或其他
+
+60
+00:02:30,389 --> 00:02:34,960
+to the left of a so that's what's known
+在左侧，这就是已知的
+
+61
+00:02:35,159 --> 00:02:37,390
+as a single peak preference and the fact
+作为单峰偏好和事实
+
+62
+00:02:37,590 --> 00:02:39,040
+that you've got this nice ordering and
+您的订单很好， 
+
+63
+00:02:39,240 --> 00:02:41,350
+it can be ordered on the line with the
+可以与
+
+64
+00:02:41,550 --> 00:02:42,700
+most preferred alternative and things
+最喜欢的替代品和东西
+
+65
+00:02:42,900 --> 00:02:45,460
+getting worse when you move away that
+当你离开那会变得更糟
+
+66
+00:02:45,659 --> 00:02:47,620
+kind of preference means that you've got
+某种偏好意味着您已经
+
+67
+00:02:47,819 --> 00:02:50,140
+nice voting procedures and the existence
+良好的投票程序和存在
+
+68
+00:02:50,340 --> 00:02:52,150
+of cuando se winners so let's have a
+的cuando se获奖者，让我们来
+
+69
+00:02:52,349 --> 00:02:54,340
+peek at that just understand why things
+偷看那个，只是明白为什么事情
+
+70
+00:02:54,539 --> 00:02:56,170
+are going to be better behaved in this
+在这方面会表现得更好
+
+71
+00:02:56,370 --> 00:02:58,180
+kind of world so imagine we had three
+这样的世界，想象我们有三个
+
+72
+00:02:58,379 --> 00:02:59,380
+voters that have single peaked
+单身高峰的选民
+
+73
+00:02:59,580 --> 00:03:01,480
+preferences and we had our ABCDE
+偏好，我们有了ABCDE 
+
+74
+00:03:01,680 --> 00:03:03,400
+so we'll keep an odd number of voters to
+所以我们要让奇数选民参加
+
+75
+00:03:03,599 --> 00:03:04,300
+make sure we don't have to worry about
+确保我们不必担心
+
+76
+00:03:04,500 --> 00:03:08,920
+ties what's true then is if we look at
+联系我们，那么真正的意义是
+
+77
+00:03:09,120 --> 00:03:12,160
+the median most preferred outcome that's
+中位数最优选的结果是
+
+78
+00:03:12,360 --> 00:03:14,110
+going to be a Condorcet winner so in
+将会成为Condorcet的赢家，所以
+
+79
+00:03:14,310 --> 00:03:17,530
+this case that's B so B's most preferred
+这种情况是B，所以B是最优选的
+
+80
+00:03:17,729 --> 00:03:19,180
+by this middle person so let's call this
+这个中间人，所以我们称之为
+
+81
+00:03:19,379 --> 00:03:23,439
+person 1 person 2 person three person 3
+人1人2人三人3 
+
+82
+00:03:23,639 --> 00:03:24,850
+is most preferred alternative is D
+最优选的替代方法是D 
+
+83
+00:03:25,050 --> 00:03:27,160
+person ones most preferred alternative
+人的首选
+
+84
+00:03:27,360 --> 00:03:30,910
+is a and let's verify that this outcome
+是一个，让我们验证一下这个结果
+
+85
+00:03:31,110 --> 00:03:32,680
+B is actually going to beat everything
+ B实际上将击败一切
+
+86
+00:03:32,879 --> 00:03:35,410
+in a pairwise comparison so suppose we
+在成对比较中，假设我们
+
+87
+00:03:35,610 --> 00:03:41,200
+compare B to C well both persons 1 & 2
+将B和C分别比较1和2 
+
+88
+00:03:41,400 --> 00:03:44,500
+like be better than C they also like it
+喜欢比C更好，他们也喜欢
+
+89
+00:03:44,699 --> 00:03:47,860
+better than D and E right so given the
+比D和E好，所以给定
+
+90
+00:03:48,060 --> 00:03:49,930
+fact that we've got we look at the when
+事实上，我们看到了什么时候
+
+91
+00:03:50,129 --> 00:03:51,759
+we look at the median voters all the
+我们看看中位数选民
+
+92
+00:03:51,959 --> 00:03:54,490
+voters to the left of the median are
+中位数左侧的选民是
+
+93
+00:03:54,689 --> 00:03:57,100
+going to prefer the median speak to any
+将倾向于中位数对任何人说话
+
+94
+00:03:57,300 --> 00:03:59,469
+alternative which lies to the right
+右边的选择
+
+95
+00:03:59,669 --> 00:04:02,230
+because going to the right further to
+因为去右边
+
+96
+00:04:02,430 --> 00:04:05,439
+the right is bad and similarly we're
+权利是坏的，同样地我们
+
+97
+00:04:05,639 --> 00:04:07,060
+going to have a majority of people on
+将会有大多数人
+
+98
+00:04:07,259 --> 00:04:09,759
+the right preferring the medians
+偏爱中位数的权利
+
+99
+00:04:09,959 --> 00:04:11,349
+alternative to anything that's to the
+替代一切
+
+100
+00:04:11,549 --> 00:04:14,560
+left of the the medians alternate the
+中位数的左侧交替
+
+101
+00:04:14,759 --> 00:04:16,509
+medians most preferred alternative so
+中位数是最优选的替代方案，因此
+
+102
+00:04:16,709 --> 00:04:20,770
+the median outcome here median outcome
+这里的中位数结果
+
+103
+00:04:20,970 --> 00:04:27,400
+is a Condorcet winner median
+是Condorcet赢家的中位数
+
+104
+00:04:27,600 --> 00:04:31,509
+median peak here right so we look at the
+这里的中值峰值是正确的，所以我们看一下
+
+105
+00:04:31,709 --> 00:04:33,400
+peak we look at the meeting of the peaks
+高峰我们看峰会
+
+106
+00:04:33,600 --> 00:04:35,560
+that's a condor say winner and so we're
+这是秃鹰说的赢家，所以我们
+
+107
+00:04:35,759 --> 00:04:37,060
+going to have a well-defined alternative
+将有一个明确的替代方案
+
+108
+00:04:37,259 --> 00:04:38,860
+which is going to beat every other one
+这将击败其他人
+
+109
+00:04:39,060 --> 00:04:42,100
+and this gives us a nice way of choosing
+这为我们提供了一种不错的选择方式
+
+110
+00:04:42,300 --> 00:04:45,610
+an alternative it's known as median
+另一种方法叫做中位数
+
+111
+00:04:45,810 --> 00:04:47,590
+voting and it gives us an idea of why we
+投票，这让我们知道为什么
+
+112
+00:04:47,790 --> 00:04:49,300
+always talk about median voters and so
+总是谈论中位数选民，所以
+
+113
+00:04:49,500 --> 00:04:50,800
+forth because then we've got a majority
+来吧，因为那时我们得到了大多数
+
+114
+00:04:51,000 --> 00:04:53,139
+that prefers that position to anything
+比任何东西都更喜欢那个位置
+
+115
+00:04:53,339 --> 00:04:56,410
+on the other side and and vice versa we
+另一方面，反之亦然
+
+116
+00:04:56,610 --> 00:04:57,840
+have a condo say winner
+有公寓说赢家
+
+117
+00:04:58,040 --> 00:05:00,819
+moreover this is going to have nice
+而且这会很好
+
+118
+00:05:01,019 --> 00:05:02,050
+properties in terms of people
+以人为单位的财产
+
+119
+00:05:02,250 --> 00:05:04,090
+misrepresenting their preferences right
+歪曲他们的偏好权利
+
+120
+00:05:04,290 --> 00:05:07,990
+so could to improve by changing their
+因此可以通过改变他们的
+
+121
+00:05:08,189 --> 00:05:10,389
+ordering know their their alternative is
+订购知道他们的选择是
+
+122
+00:05:10,589 --> 00:05:12,329
+picked right be their favorite artery
+选对了他们最喜欢的动脉
+
+123
+00:05:12,529 --> 00:05:16,540
+let's think about person a how could you
+让我们考虑一个人，你怎么可能
+
+124
+00:05:16,740 --> 00:05:19,030
+affect this by by if your median voting
+通过您的中位数投票来影响
+
+125
+00:05:19,230 --> 00:05:20,139
+we're picking the meeting of the three
+我们正在挑选三个人的会议
+
+126
+00:05:20,339 --> 00:05:22,060
+alternatives so if we think about
+替代方案，所以如果我们考虑
+
+127
+00:05:22,259 --> 00:05:23,920
+picking the median alternative of these
+选择这些的中位数替代方案
+
+128
+00:05:24,120 --> 00:05:27,009
+three alternatives then the only way
+那么只有三种选择
+
+129
+00:05:27,209 --> 00:05:29,310
+that person one could affect the outcome
+这个人可能会影响结果
+
+130
+00:05:29,509 --> 00:05:33,460
+would be to change the median how could
+将会改变中位数
+
+131
+00:05:33,660 --> 00:05:34,660
+they change the median they would have
+他们改变了中位数
+
+132
+00:05:34,860 --> 00:05:37,060
+to announce a peak over here C D or E
+宣布此处CD或E达到峰值
+
+133
+00:05:37,259 --> 00:05:39,879
+and all of those alternatives are worse
+所有这些选择都更糟
+
+134
+00:05:40,079 --> 00:05:43,780
+than B so there's by misrepresenting the
+比B，因此存在误解
+
+135
+00:05:43,980 --> 00:05:46,449
+preferences this person person one would
+这个人一个人的喜好
+
+136
+00:05:46,649 --> 00:05:49,600
+actually do worse so this is in you can
+实际上更糟，所以这可以
+
+137
+00:05:49,800 --> 00:05:51,250
+verify that that's also true for three
+验证三个人也是如此
+
+138
+00:05:51,449 --> 00:05:53,710
+or any individual the only way you're
+或任何个人，唯一的方式
+
+139
+00:05:53,910 --> 00:05:54,850
+going to be able to make a difference is
+能够有所作为的是
+
+140
+00:05:55,050 --> 00:05:56,199
+to change the median which means you
+改变中位数，这意味着你
+
+141
+00:05:56,399 --> 00:05:58,000
+have to flip to the other side which is
+必须翻转到另一边
+
+142
+00:05:58,199 --> 00:05:59,050
+something you're generally not going to
+通常你不会去做的事情
+
+143
+00:05:59,250 --> 00:06:02,050
+want to do so nice thing about single
+想要对单身做一件好事
+
+144
+00:06:02,250 --> 00:06:05,949
+peak preference world's median most
+最高偏好世界中位数
+
+145
+00:06:06,149 --> 00:06:07,990
+preferred point is a Condorcet winner
+首选点是Condorcet赢家
+
+146
+00:06:08,189 --> 00:06:10,300
+and individuals are going to have
+和个人将有
+
+147
+00:06:10,500 --> 00:06:12,610
+incentives to be truthful and to
+诚实和激励的动机
+
+148
+00:06:12,810 --> 00:06:16,629
+announce their preferences in a truthful
+诚实地宣布自己的喜好
+
+149
+00:06:16,829 --> 00:06:17,680
+manner in fact it's going to be a
+实际上，这将是一个
+
+150
+00:06:17,879 --> 00:06:19,870
+dominant strategy if we ask people for
+主导策略，如果我们要求人们
+
+151
+00:06:20,069 --> 00:06:21,520
+their preferences to announce their
+他们的喜好宣布
+
+152
+00:06:21,720 --> 00:06:23,920
+truthful preference if we're using
+如果我们使用真实的偏好
+
+153
+00:06:24,120 --> 00:06:25,300
+majority voting
+多数投票
+
+154
+00:06:25,500 --> 00:06:27,730
+I'm sorry median voting in this case so
+我很抱歉在这种情况下的中位数投票
+
+155
+00:06:27,930 --> 00:06:30,430
+there are settings where a lot of the
+在某些设置中， 
+
+156
+00:06:30,629 --> 00:06:32,560
+negative results of impossibilities of
+不可能的负面结果
+
+157
+00:06:32,759 --> 00:06:34,270
+aggregating preferences are overturned
+总体偏好被推翻
+
+158
+00:06:34,470 --> 00:06:35,860
+and those are going to be ones where
+那些将会成为
+
+159
+00:06:36,060 --> 00:06:37,150
+we've got a lot of structure on the
+我们在结构上有很多
+
+160
+00:06:37,350 --> 00:06:39,310
+problem and that structure the problem
+问题和那个结构问题
+
+161
+00:06:39,509 --> 00:06:40,480
+means we have nice order
+意味着我们的订单很好
+
+162
+00:06:40,680 --> 00:06:43,028
+and there's no voting cycles so this
+而且没有投票周期，所以这
+
+163
+00:06:43,228 --> 00:06:44,800
+kind of setting there's no voting cycles
+这种设置没有投票周期
+
+164
+00:06:45,000 --> 00:06:47,050
+we don't have the difficulties that
+我们没有困难
+
+165
+00:06:47,250 --> 00:06:50,110
+underlie some of the issues like arrows
+是某些问题的基础，例如箭头
+
+166
+00:06:50,310 --> 00:06:51,790
+theorem and so forth once we go into
+定理等等，一旦我们进入
+
+167
+00:06:51,990 --> 00:06:54,329
+this setting we have an icer set of
+这个设置我们有一个冰柜
+
+168
+00:06:54,529 --> 00:06:56,889
+preferences in terms of the restrictions
+限制方面的偏好
+
+169
+00:06:57,089 --> 00:06:58,930
+that they satisfy and that allows us to
+他们满意，这使我们能够
+
+170
+00:06:59,129 --> 00:07:01,150
+aggregate preferences in ways that are
+以下列方式汇总偏好
+
+171
+00:07:01,350 --> 00:07:03,100
+going to be nicely efficient strategy
+将是非常有效的策略
+
+172
+00:07:03,300 --> 00:07:06,189
+proof having dominant strategies and so
+有主导策略的证明等等
+
+173
+00:07:06,389 --> 00:07:08,740
+forth so there are settings which are
+第四，因此有一些设置
+
+174
+00:07:08,939 --> 00:07:10,449
+quite natural where things are going to
+很自然的地方
+
+175
+00:07:10,649 --> 00:07:13,329
+work out more more effectively than they
+比他们更有效地锻炼
+
+176
+00:07:13,529 --> 00:07:15,400
+do when we allow for all preference
+当我们允许所有偏好时执行
+
+177
+00:07:15,600 --> 00:07:17,528
+orderings over alternatives now when
+现在在替代品上订购
+
+178
+00:07:17,728 --> 00:07:19,329
+that happens depends on the setting and
+发生的情况取决于设置
+
+179
+00:07:19,529 --> 00:07:20,860
+there can be situations where you don't
+在某些情况下您可能不会
+
+180
+00:07:21,060 --> 00:07:22,749
+have this nice left/right ordering so it
+有这样好的左/右顺序，所以它
+
+181
+00:07:22,949 --> 00:07:24,850
+is a fairly restrictive setting but one
+是一个相当严格的设置，但是
+
+182
+00:07:25,050 --> 00:07:27,338
+that at least captures a good number of
+至少捕获了很多
+
+183
+00:07:27,538 --> 00:07:32,538
+applications
+应用领域
+

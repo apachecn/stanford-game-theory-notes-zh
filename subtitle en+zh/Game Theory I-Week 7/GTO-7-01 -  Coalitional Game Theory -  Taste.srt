@@ -1,0 +1,415 @@
+﻿1
+00:00:01,310 --> 00:00:04,569
+coalitional game theory is an approach
+联盟博弈论是一种方法
+
+2
+00:00:04,769 --> 00:00:06,729
+to modeling strategic situations that
+对战略形势进行建模
+
+3
+00:00:06,929 --> 00:00:09,220
+stands in contrast was usually called
+相反，通常称为
+
+4
+00:00:09,419 --> 00:00:13,809
+non cooperative game theory and in fact
+非合作博弈论，实际上
+
+5
+00:00:14,009 --> 00:00:15,580
+coalitional game theory is often called
+联盟博弈理论通常被称为
+
+6
+00:00:15,779 --> 00:00:18,460
+cooperative game theory the names are
+合作博弈论的名字是
+
+7
+00:00:18,660 --> 00:00:20,230
+luminous reading and I'll get back to
+夜光阅读，我会回到
+
+8
+00:00:20,429 --> 00:00:22,989
+that in a moment but let's first speak
+片刻之后，让我们先说
+
+9
+00:00:23,189 --> 00:00:26,919
+about what situations does coalitional
+关于什么情况联盟
+
+10
+00:00:27,118 --> 00:00:31,149
+game theory try to model you may
+博弈论尝试为您建模
+
+11
+00:00:31,349 --> 00:00:33,209
+recognize these two fine-looking
+认出这两个好看的
+
+12
+00:00:33,409 --> 00:00:37,320
+gentlemen the person on the left is
+先生们，左边的人是
+
+13
+00:00:37,520 --> 00:00:40,839
+David Cameron Prime Minister of Britain
+英国首相戴维·卡梅伦
+
+14
+00:00:41,039 --> 00:00:46,329
+and to his to his right as we look at it
+看着他在他右边
+
+15
+00:00:46,530 --> 00:00:50,169
+he's left as they sit is Nicholas Clegg
+当他们坐下时，他离开的是尼古拉斯·克莱格
+
+16
+00:00:50,369 --> 00:00:54,899
+his cultural partner now here are two
+他的文化伙伴现在有两个
+
+17
+00:00:55,100 --> 00:00:58,689
+political rivals who nonetheless come
+仍然来的政治对手
+
+18
+00:00:58,890 --> 00:01:00,640
+together and presumably there's a reason
+在一起，大概是有原因的
+
+19
+00:01:00,840 --> 00:01:01,628
+there's something where they can
+他们可以在某些地方
+
+20
+00:01:01,829 --> 00:01:03,819
+accomplish together that they cannot
+一起完成，他们不能
+
+21
+00:01:04,019 --> 00:01:06,459
+accomplish alone in particular in this
+尤其是独自完成
+
+22
+00:01:06,659 --> 00:01:09,009
+case command a majority in the in the
+ case命令中的大多数
+
+23
+00:01:09,209 --> 00:01:11,560
+parliament and so that's a classical
+议会，所以这是经典
+
+24
+00:01:11,760 --> 00:01:15,730
+example where a coalition formed in fact
+实际上组成联盟的例子
+
+25
+00:01:15,930 --> 00:01:16,659
+we usually when you think about
+我们通常在您想到的时候
+
+26
+00:01:16,859 --> 00:01:19,269
+coalition we think about political
+我们考虑政治的联盟
+
+27
+00:01:19,469 --> 00:01:24,640
+parties but coalition's form not only in
+政党，但联盟的形式不仅在
+
+28
+00:01:24,840 --> 00:01:27,640
+politics they certainly form in business
+他们在业务中形成的政治
+
+29
+00:01:27,840 --> 00:01:31,959
+so the wind coalition is a the coming
+因此，风电联盟即将到来
+
+30
+00:01:32,159 --> 00:01:35,799
+together of a number of firms in the
+多家公司
+
+31
+00:01:36,000 --> 00:01:37,988
+United States to promote the joint
+美国联合推广
+
+32
+00:01:38,188 --> 00:01:44,009
+agenda of wind energy turbines and such
+风力发电机等的议程
+
+33
+00:01:44,209 --> 00:01:47,429
+again these are companies who are
+这些都是公司
+
+34
+00:01:47,629 --> 00:01:50,409
+competitors and nonetheless they feel
+竞争对手，尽管如此
+
+35
+00:01:50,609 --> 00:01:52,329
+that together there's things that can
+在一起的东西可以
+
+36
+00:01:52,530 --> 00:01:54,969
+exist do that they can't do alone
+存在，他们不能一个人做
+
+37
+00:01:55,170 --> 00:01:58,448
+for example Lobby government established
+例如建立游说政府
+
+38
+00:01:58,649 --> 00:02:01,018
+standards and things of that nature
+这种性质的标准和事物
+
+39
+00:02:01,218 --> 00:02:04,509
+now coalition's aren't always among
+现在联盟并不总是
+
+40
+00:02:04,709 --> 00:02:07,058
+organizations or parties of ferns or
+蕨类植物的组织或团体或
+
+41
+00:02:07,259 --> 00:02:09,580
+heavyweight things we as individuals
+作为个人的重量级事物
+
+42
+00:02:09,780 --> 00:02:11,410
+routinely come together to accomplish
+经常聚在一起完成
+
+43
+00:02:11,610 --> 00:02:12,010
+things
+东西
+
+44
+00:02:12,210 --> 00:02:13,780
+together whether it's to enter in
+一起进入
+
+45
+00:02:13,979 --> 00:02:18,030
+marriage or for example build a house
+结婚或盖房子
+
+46
+00:02:18,229 --> 00:02:21,310
+when you have a carpenter Ln efficient
+当你有一个木匠Ln高效
+
+47
+00:02:21,509 --> 00:02:24,580
+and a painter that come together they
+和一个画家在一起
+
+48
+00:02:24,780 --> 00:02:26,800
+together can accomplish something that
+一起可以完成一些
+
+49
+00:02:27,000 --> 00:02:30,280
+they can't on their own now the mere
+他们现在不能只靠自己
+
+50
+00:02:30,479 --> 00:02:32,410
+fact that people come together doesn't
+人们聚在一起的事实
+
+51
+00:02:32,610 --> 00:02:34,270
+mean that their interests are aligned or
+表示他们的利益一致或
+
+52
+00:02:34,469 --> 00:02:37,510
+that they bring the same amount of value
+他们带来相同的价值
+
+53
+00:02:37,710 --> 00:02:40,000
+to the coalition they've formed it could
+他们组成的联盟可以
+
+54
+00:02:40,199 --> 00:02:44,200
+be for example that the framer of a
+例如， 
+
+55
+00:02:44,400 --> 00:02:47,800
+construction crew is irreplaceable
+施工人员是不可替代的
+
+56
+00:02:48,000 --> 00:02:49,990
+but electricians are easy to find and
+但是电工很容易找到
+
+57
+00:02:50,189 --> 00:02:51,790
+one could easily replace and presumably
+一个可以轻松替换，大概
+
+58
+00:02:51,990 --> 00:02:53,890
+when they get paid for the house they
+当他们得到房子的报酬时
+
+59
+00:02:54,090 --> 00:02:55,570
+build that should be reflected in how
+建立应该反映在如何
+
+60
+00:02:55,770 --> 00:02:58,600
+they divide the the payment and so
+他们分摊付款，所以
+
+61
+00:02:58,800 --> 00:03:00,750
+there's a competition of both
+两者都有竞争
+
+62
+00:03:00,949 --> 00:03:05,380
+cooperation and competition here and and
+合作与竞争在这里和
+
+63
+00:03:05,580 --> 00:03:08,010
+so for that reason calling these
+所以出于这个原因
+
+64
+00:03:08,210 --> 00:03:12,600
+cooperative games as the common term is
+合作游戏是通用术语
+
+65
+00:03:12,800 --> 00:03:17,140
+it is a little misleading just as much
+同样有点误导
+
+66
+00:03:17,340 --> 00:03:18,939
+as non cooperative game theories
+作为非合作博弈论
+
+67
+00:03:19,139 --> 00:03:23,860
+misleading as well because for example
+也会引起误解，例如
+
+68
+00:03:24,060 --> 00:03:25,900
+if you look at the normal form game the
+如果你看普通的形式游戏
+
+69
+00:03:26,099 --> 00:03:29,830
+canonical representation of a non
+非的规范表示
+
+70
+00:03:30,030 --> 00:03:33,280
+cooperative game one can easily describe
+合作游戏可以轻松描述
+
+71
+00:03:33,479 --> 00:03:35,770
+a completely harmonious situation of
+完全和谐的情况
+
+72
+00:03:35,969 --> 00:03:37,660
+so-called team gains or common payoff
+所谓的团队收益或共同收益
+
+73
+00:03:37,860 --> 00:03:39,790
+games where the interests of the ages
+历代利益的游戏
+
+74
+00:03:39,990 --> 00:03:43,150
+are completely aligned so both non
+完全对齐
+
+75
+00:03:43,349 --> 00:03:45,430
+cooperative game theory and coalitional
+合作博弈论与联盟
+
+76
+00:03:45,629 --> 00:03:48,630
+or cooperative game theory model both
+或合作博弈模型
+
+77
+00:03:48,830 --> 00:03:51,670
+competition and coordination the
+竞争与协调
+
+78
+00:03:51,870 --> 00:03:53,439
+essential difference is the basic
+基本区别是基本
+
+79
+00:03:53,639 --> 00:03:55,780
+modeling unit in coalitional game theory
+联盟博弈模型的建模单元
+
+80
+00:03:55,979 --> 00:03:58,300
+the basic modeling unit is the group the
+基本建模单位是
+
+81
+00:03:58,500 --> 00:04:01,030
+team and what they kind of can
+团队，他们能做什么
+
+82
+00:04:01,229 --> 00:04:03,040
+accomplish and the analysis is based on
+完成，分析基于
+
+83
+00:04:03,240 --> 00:04:08,240
+this basic modeling
+这个基本的模型
+

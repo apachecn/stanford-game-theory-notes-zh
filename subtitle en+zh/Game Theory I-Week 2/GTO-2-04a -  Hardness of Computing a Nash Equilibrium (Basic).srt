@@ -1,0 +1,500 @@
+﻿1
+00:00:00,060 --> 00:00:02,468
+so let's speak a little bit about how
+所以让我们谈谈如何
+
+2
+00:00:02,669 --> 00:00:05,259
+hard is it to compute a Nash equilibrium
+很难计算纳什均衡
+
+3
+00:00:05,459 --> 00:00:09,220
+in a normal phone game this is an
+在正常的电话游戏中，这是
+
+4
+00:00:09,419 --> 00:00:11,769
+involved topic and I'll just give you a
+涉及的话题，我给你一个
+
+5
+00:00:11,968 --> 00:00:14,500
+taste for it let me draw your attention
+尝起来让我引起你的注意
+
+6
+00:00:14,699 --> 00:00:17,050
+to two specific algorithms for computing
+两种特定的计算算法
+
+7
+00:00:17,250 --> 00:00:20,249
+a sample natural equilibrium and again
+样本自然平衡
+
+8
+00:00:20,449 --> 00:00:23,230
+these are two out of a long line of
+这是一长串的两个
+
+9
+00:00:23,429 --> 00:00:25,120
+algorithms that have been investigated
+已经研究过的算法
+
+10
+00:00:25,320 --> 00:00:28,449
+and these are a sort of two extreme the
+这是两个极端
+
+11
+00:00:28,649 --> 00:00:30,579
+one of them starts with a mathematical
+其中之一以数学开始
+
+12
+00:00:30,778 --> 00:00:32,198
+formulation of the problem called a
+问题的表达称为
+
+13
+00:00:32,399 --> 00:00:36,489
+linear complementarity problem and you
+线性互补问题和你
+
+14
+00:00:36,689 --> 00:00:40,000
+want to set it up as a mathematical
+想要将其设置为数学
+
+15
+00:00:40,200 --> 00:00:42,459
+optimization problem you can apply
+您可以应用的优化问题
+
+16
+00:00:42,659 --> 00:00:45,250
+various algorithms to that and the most
+最重要的各种算法
+
+17
+00:00:45,450 --> 00:00:50,739
+famous one for two players games is due
+著名的两人游戏之一
+
+18
+00:00:50,939 --> 00:00:54,549
+to Lemke and houses and this is an
+到伦克和房屋，这是一个
+
+19
+00:00:54,750 --> 00:01:01,239
+algorithm that really displays a deep
+真正展现出深刻的算法
+
+20
+00:01:01,439 --> 00:01:02,829
+understanding of the mathematical
+对数学的理解
+
+21
+00:01:03,030 --> 00:01:07,209
+structure of what a game is and the
+游戏的结构以及
+
+22
+00:01:07,409 --> 00:01:10,390
+nature of Nash equilibria on perhaps the
+纳什均衡的性质也许
+
+23
+00:01:10,590 --> 00:01:14,349
+other extreme is what is called the
+另一个极端是所谓的
+
+24
+00:01:14,549 --> 00:01:18,759
+support enumeration method a recent
+支持枚举方法最近
+
+25
+00:01:18,959 --> 00:01:21,969
+procedure that doesn't have as deep and
+没有那么深和
+
+26
+00:01:22,170 --> 00:01:23,439
+insight into the structure of the
+洞察结构
+
+27
+00:01:23,640 --> 00:01:25,929
+problem it says simply the following it
+问题，它说只需跟随它
+
+28
+00:01:26,129 --> 00:01:30,959
+says if you fix the support of the
+说如果你修复的支持
+
+29
+00:01:31,159 --> 00:01:34,119
+strategies of the player and the support
+玩家的策略和支持
+
+30
+00:01:34,319 --> 00:01:35,579
+of the strategy players are those
+战略参与者中的那些是
+
+31
+00:01:35,780 --> 00:01:37,659
+actions are played with nonzero
+动作以非零播放
+
+32
+00:01:37,859 --> 00:01:41,049
+probability if you fix that support then
+如果您修复该支持的可能性
+
+33
+00:01:41,250 --> 00:01:42,819
+the problem becomes very easy you can
+问题变得非常容易，您可以
+
+34
+00:01:43,019 --> 00:01:44,980
+set it up as a linear program and solve
+将其设置为线性程序并求解
+
+35
+00:01:45,180 --> 00:01:48,939
+it efficiently and that will be the end
+它有效，这将是结局
+
+36
+00:01:49,140 --> 00:01:51,579
+of it if it weren't for the case that
+如果不是这样的话
+
+37
+00:01:51,780 --> 00:01:54,399
+there that indeed there are an
+那里确实有一个
+
+38
+00:01:54,599 --> 00:01:56,679
+exponential number of supports to
+支持的指数数量
+
+39
+00:01:56,879 --> 00:02:00,759
+explore and so the trick in this
+探索，所以这个技巧
+
+40
+00:02:00,959 --> 00:02:04,329
+procedure is to explore them cleverly
+程序是巧妙地探索它们
+
+41
+00:02:04,530 --> 00:02:07,209
+using Clarrie eristic s-- and that's
+使用Clarrie eristic s-- 
+
+42
+00:02:07,409 --> 00:02:09,130
+called the support enumeration there's a
+称为支持枚举
+
+43
+00:02:09,330 --> 00:02:11,360
+clever heuristic work for
+巧妙的启发式工作
+
+44
+00:02:11,560 --> 00:02:13,969
+how to enumerate those supports and
+如何列举这些支持，以及
+
+45
+00:02:14,169 --> 00:02:16,670
+check them one by one although the
+尽管他们一一检查
+
+46
+00:02:16,870 --> 00:02:21,410
+latter procedure is not as smart or as
+后面的过程不那么聪明
+
+47
+00:02:21,610 --> 00:02:25,730
+insightful as the Lemke housen I turns
+当我转身成为Lemke屋子时很有见地
+
+48
+00:02:25,930 --> 00:02:28,730
+out that in practice it tends to run
+在实践中它倾向于运行
+
+49
+00:02:28,930 --> 00:02:33,680
+very fast so we've seen the algorithm
+非常快，所以我们已经看过算法
+
+50
+00:02:33,879 --> 00:02:35,300
+people have tried very hard to find
+人们努力寻找
+
+51
+00:02:35,500 --> 00:02:38,060
+algorithms computing a sample Nash
+计算样本Nash的算法
+
+52
+00:02:38,259 --> 00:02:39,950
+equilibrium
+平衡
+
+53
+00:02:40,150 --> 00:02:42,289
+and it does seem hard the question is
+问题似乎确实很难
+
+54
+00:02:42,489 --> 00:02:45,590
+can we somehow capture that formally
+我们可以以某种方式正式捕获它吗
+
+55
+00:02:45,789 --> 00:02:53,050
+within the complexity hierarchy and and
+在复杂性层次结构中，以及
+
+56
+00:02:53,250 --> 00:02:55,130
+and for that we need to introduce some
+为此，我们需要介绍一些
+
+57
+00:02:55,330 --> 00:02:59,330
+you know new new concepts the essential
+你知道新概念必不可少
+
+58
+00:02:59,530 --> 00:03:02,539
+concept is that of the new class of
+概念是新类别的
+
+59
+00:03:02,739 --> 00:03:06,649
+problems called P P ad for polynomial
+多项式的PP ad问题
+
+60
+00:03:06,848 --> 00:03:09,050
+parity arguments directed graph
+奇偶参数有向图
+
+61
+00:03:09,250 --> 00:03:12,050
+introduced by christos papadimitriou in
+由克里斯托斯·帕帕迪米特里乌（Christos papadimitriou）在
+
+62
+00:03:12,250 --> 00:03:15,770
+1994 we won't go into detail but just so
+ 1994年，我们不再赘述，只是如此
+
+63
+00:03:15,969 --> 00:03:18,700
+you know the chronology P P ad is a
+您知道时间顺序PP广告是
+
+64
+00:03:18,900 --> 00:03:21,620
+specialization of a class called TF NP
+ TF NP类的专业化
+
+65
+00:03:21,819 --> 00:03:23,750
+which is in turn with a specialization
+反过来又有专长
+
+66
+00:03:23,949 --> 00:03:27,349
+of a problem called f NP a going detail
+ f NP问题的细节
+
+67
+00:03:27,549 --> 00:03:31,460
+here is is beyond the scope of what we
+这超出了我们的范围
+
+68
+00:03:31,659 --> 00:03:34,810
+want to speak about but it does help us
+想谈一谈，但这确实对我们有帮助
+
+69
+00:03:35,009 --> 00:03:40,430
+now position the complexity of finding a
+现在定位找到一个
+
+70
+00:03:40,629 --> 00:03:41,629
+sample Nash equilibrium in the
+样本中的纳什均衡
+
+71
+00:03:41,829 --> 00:03:44,170
+complexity hierarchy and again we have
+复杂性层次结构
+
+72
+00:03:44,370 --> 00:03:50,200
+the class of polynomial time problems of
+多项式时间问题的类别
+
+73
+00:03:50,400 --> 00:03:52,368
+problem that can be verified in
+可以验证的问题
+
+74
+00:03:52,568 --> 00:03:54,830
+polynomial time with these being the
+多项式时间，这些是
+
+75
+00:03:55,030 --> 00:03:58,939
+hardest among them and given that P PAE
+其中最难的是P PAE 
+
+76
+00:03:59,139 --> 00:04:03,409
+turns out to reside somewhere within
+原来是住在里面的某个地方
+
+77
+00:04:03,609 --> 00:04:05,409
+this class now again we don't know
+再次上这堂课，我们不知道
+
+78
+00:04:05,609 --> 00:04:08,840
+whether this entire class did not
+整个班级都没有
+
+79
+00:04:09,039 --> 00:04:11,110
+collapse and all become one of the same
+崩溃，都成为同一个
+
+80
+00:04:11,310 --> 00:04:13,460
+it's why do you believe that it does not
+这就是为什么您认为它不会
+
+81
+00:04:13,659 --> 00:04:17,930
+but proof doesn't exist however we do
+但是我们不存在证明
+
+82
+00:04:18,129 --> 00:04:20,658
+know that P P 80 lies someplace in
+知道PP 80位于
+
+83
+00:04:20,858 --> 00:04:23,730
+between P and
+在P和
+
+84
+00:04:23,930 --> 00:04:27,189
+now what does that have to do with the
+现在这与
+
+85
+00:04:27,389 --> 00:04:29,639
+problem computing a Nash equilibrium
+计算纳什均衡的问题
+
+86
+00:04:29,839 --> 00:04:32,439
+well that's where the the following
+嗯，这是以下内容
+
+87
+00:04:32,639 --> 00:04:36,429
+theorems come in originally it was shown
+定理最初来自它表明
+
+88
+00:04:36,629 --> 00:04:39,218
+that the problem of computing a Nash
+计算纳什的问题
+
+89
+00:04:39,418 --> 00:04:41,350
+equilibrium is complete for this class
+该课程的均衡是完全的
+
+90
+00:04:41,550 --> 00:04:42,129
+pped
+ pped 
+
+91
+00:04:42,329 --> 00:04:45,040
+that is it's the hardest among all
+那是最困难的
+
+92
+00:04:45,240 --> 00:04:47,679
+problem that class initially proved for
+班级最初证明的问题
+
+93
+00:04:47,879 --> 00:04:51,459
+four players then for all four games
+然后四场比赛的四名球员
+
+94
+00:04:51,658 --> 00:04:53,980
+with three or more players and then
+三个或更多玩家，然后
+
+95
+00:04:54,180 --> 00:04:58,329
+finally in oh six for all class of games
+最终在所有游戏中都达到了六分
+
+96
+00:04:58,528 --> 00:05:01,989
+and so we widely believed that the
+因此，我们广泛认为
+
+97
+00:05:02,189 --> 00:05:05,468
+problem is not polynomial cannot prove
+问题不是多项式无法证明
+
+98
+00:05:05,668 --> 00:05:07,899
+it but we do know where it resides and
+它，但我们确实知道它的位置， 
+
+99
+00:05:08,098 --> 00:05:09,910
+within the complexity hierarchy that we
+在我们的复杂性层次结构中
+
+100
+00:05:10,110 --> 00:05:15,110
+are familiar with
+熟悉
+

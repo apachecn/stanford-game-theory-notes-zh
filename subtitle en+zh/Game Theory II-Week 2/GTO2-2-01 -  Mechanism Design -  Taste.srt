@@ -1,0 +1,435 @@
+﻿1
+00:00:00,000 --> 00:00:02,948
+hi folks so welcome back and now we'll
+大家好，欢迎回来，现在我们将
+
+2
+00:00:03,149 --> 00:00:04,919
+be talking a bit about mechanism design
+谈论机制设计
+
+3
+00:00:05,120 --> 00:00:09,790
+in general so the idea here is that in a
+一般来说，这里的想法是
+
+4
+00:00:09,990 --> 00:00:11,410
+lot of what we've looked at so far in
+到目前为止，我们已经看过很多
+
+5
+00:00:11,609 --> 00:00:13,300
+the course we've been looking at
+我们一直在看的课程
+
+6
+00:00:13,500 --> 00:00:15,550
+specific institution specific games and
+特定机构特定的游戏和
+
+7
+00:00:15,750 --> 00:00:18,839
+trying to understand how they affect
+试图了解它们如何影响
+
+8
+00:00:19,039 --> 00:00:21,460
+behavior and in particular how the
+行为，尤其是
+
+9
+00:00:21,660 --> 00:00:23,470
+structure of the game can be used to
+游戏的结构可以用来
+
+10
+00:00:23,670 --> 00:00:26,079
+analyze and predict how people going to
+分析和预测人们如何去
+
+11
+00:00:26,278 --> 00:00:28,089
+behave and now what we want to do is
+表现，现在我们要做的是
+
+12
+00:00:28,289 --> 00:00:30,129
+flip things upside down so this will be
+颠倒东西，这将是
+
+13
+00:00:30,329 --> 00:00:32,049
+game theory on its head and the idea is
+博弈论从头到尾都是
+
+14
+00:00:32,250 --> 00:00:33,729
+instead of taking the game is given and
+而不是采取游戏， 
+
+15
+00:00:33,929 --> 00:00:36,128
+trying to analyze it we'll look at
+试图分析它，我们将看
+
+16
+00:00:36,329 --> 00:00:37,779
+situations where we have some idea of
+我们有一些想法的情况
+
+17
+00:00:37,979 --> 00:00:40,029
+what we'd like to see be the outcome and
+我们希望看到的是结果， 
+
+18
+00:00:40,229 --> 00:00:41,619
+then the question is can we design a
+那么问题是我们可以设计一个
+
+19
+00:00:41,820 --> 00:00:44,320
+game that will yield that outcome so can
+会产生这种结果的游戏
+
+20
+00:00:44,520 --> 00:00:47,229
+we design institutions and you know one
+我们设计机构，您知道一个
+
+21
+00:00:47,429 --> 00:00:51,338
+big puzzle that we have in terms of the
+就我们而言，这是一个大难题
+
+22
+00:00:51,539 --> 00:00:53,259
+way people behave is when you think
+人们的行为方式就是当您认为
+
+23
+00:00:53,460 --> 00:00:55,838
+about the inefficiency that goes on in
+关于持续的低效率
+
+24
+00:00:56,039 --> 00:00:57,849
+terms of bargaining there's often
+讨价还价的条件经常是
+
+25
+00:00:58,049 --> 00:00:59,858
+bargaining breakdowns and people spend a
+讨价还价的故障，人们花了
+
+26
+00:01:00,058 --> 00:01:01,178
+lot of time trying to figure out how do
+很多时间试图弄清楚怎么做
+
+27
+00:01:01,378 --> 00:01:02,649
+we mediate bargaining what's an
+我们调解讨价还价
+
+28
+00:01:02,850 --> 00:01:05,019
+appropriate technique to bring two sides
+带两个方面的适当技巧
+
+29
+00:01:05,219 --> 00:01:06,369
+together so that they can reach a
+在一起，以便他们可以达到
+
+30
+00:01:06,569 --> 00:01:08,379
+bargain and in terms of complete
+讨价还价和完整
+
+31
+00:01:08,579 --> 00:01:10,450
+information game theory if people can
+信息博弈论
+
+32
+00:01:10,650 --> 00:01:13,359
+really see what the payoffs are and you
+真的看到了回报，你
+
+33
+00:01:13,560 --> 00:01:15,539
+looked at a particular bargaining game
+看过一个讨价还价的游戏
+
+34
+00:01:15,739 --> 00:01:18,009
+generally you would have situations
+通常情况下
+
+35
+00:01:18,209 --> 00:01:19,179
+where people would tend to reach
+人们倾向于到达的地方
+
+36
+00:01:19,379 --> 00:01:20,619
+agreements they can look down the tree
+他们可以看不起树的协议
+
+37
+00:01:20,819 --> 00:01:21,939
+they can figure out what's going to
+他们可以弄清楚会发生什么
+
+38
+00:01:22,140 --> 00:01:24,609
+happen and and unravel things and reach
+发生并解散事物并达到
+
+39
+00:01:24,810 --> 00:01:28,269
+an agreement and so here we can ask a
+协议，所以在这里我们可以问一个
+
+40
+00:01:28,469 --> 00:01:30,128
+question of well let's suppose now that
+好问题，让我们现在假设
+
+41
+00:01:30,328 --> 00:01:32,528
+we're in a Bayesian setting so we have a
+我们处于贝叶斯环境，所以我们有一个
+
+42
+00:01:32,728 --> 00:01:34,719
+situation where we have workers thinking
+我们有工人思考的情况
+
+43
+00:01:34,920 --> 00:01:36,579
+about trying to get higher wages and we
+关于试图获得更高的工资，我们
+
+44
+00:01:36,780 --> 00:01:38,890
+have management and shareholders on the
+拥有管理层和股东
+
+45
+00:01:39,090 --> 00:01:41,259
+other side trying to keep wages low and
+另一方试图保持低工资， 
+
+46
+00:01:41,459 --> 00:01:43,869
+each wants different things coming out
+每个人都想要不同的东西出来
+
+47
+00:01:44,069 --> 00:01:47,769
+of a new agreement a labor agreement can
+新协议中的劳动协议可以
+
+48
+00:01:47,969 --> 00:01:49,209
+we design a way in which they're going
+我们设计他们前进的方式
+
+49
+00:01:49,409 --> 00:01:51,819
+to come to a table and make offers and
+来一张桌子并提出要约
+
+50
+00:01:52,019 --> 00:01:53,469
+counteroffers in such a way that they'd
+还价的方式是
+
+51
+00:01:53,670 --> 00:01:55,509
+actually reach an agreement and avoid a
+实际上达成协议，避免
+
+52
+00:01:55,709 --> 00:01:57,969
+strike and avoid wasting resources and
+罢工，避免浪费资源， 
+
+53
+00:01:58,170 --> 00:02:01,000
+and time we see strikes all the time so
+和时间，我们一直看到罢工，所以
+
+54
+00:02:01,200 --> 00:02:03,549
+the answer evidently seems to be no we
+答案显然是不，我们
+
+55
+00:02:03,750 --> 00:02:06,250
+can't necessarily design such a
+不一定设计这样的
+
+56
+00:02:06,450 --> 00:02:09,360
+procedure so the question becomes what
+程序，所以问题变成什么
+
+57
+00:02:09,560 --> 00:02:11,740
+procedures can we design what are the
+我们可以设计什么程序
+
+58
+00:02:11,939 --> 00:02:13,510
+best that we can do
+尽我们所能
+
+59
+00:02:13,710 --> 00:02:16,120
+how do we begin to think about that how
+我们如何开始思考
+
+60
+00:02:16,319 --> 00:02:18,160
+do we begin to model designing an
+我们开始进行模型设计吗
+
+61
+00:02:18,360 --> 00:02:19,840
+institution and then seeing what the
+机构，然后看看
+
+62
+00:02:20,039 --> 00:02:21,310
+outcomes are going to be and trying to
+结果将是并试图
+
+63
+00:02:21,509 --> 00:02:23,050
+design the best institution in terms of
+设计最佳机构
+
+64
+00:02:23,250 --> 00:02:25,390
+those outcomes so we'll be looking at
+这些结果，所以我们将研究
+
+65
+00:02:25,590 --> 00:02:26,890
+things like auction design we'll talk
+拍卖设计之类的东西
+
+66
+00:02:27,090 --> 00:02:28,860
+about why we might have breakdown and
+关于为什么我们可能会崩溃， 
+
+67
+00:02:29,060 --> 00:02:31,719
+inefficiency in bargaining settings when
+谈判时效率低下
+
+68
+00:02:31,919 --> 00:02:33,520
+people have private information about
+人们有关于的私人信息
+
+69
+00:02:33,719 --> 00:02:35,490
+what they'd like to see be the outcome
+他们希望看到的结果
+
+70
+00:02:35,689 --> 00:02:38,620
+we're going to look at we've already had
+我们要看看我们已经有
+
+71
+00:02:38,819 --> 00:02:41,170
+a look at voting rules but we'll look at
+看看投票规则，我们来看看
+
+72
+00:02:41,370 --> 00:02:43,840
+a general set of decision mechanisms
+一套通用的决策机制
+
+73
+00:02:44,039 --> 00:02:47,439
+that public enterprises can use to
+公营企业可以用来
+
+74
+00:02:47,639 --> 00:02:49,480
+improve efficiency so we're going to
+提高效率，所以我们要
+
+75
+00:02:49,680 --> 00:02:53,439
+look at in some specific detail at how
+详细了解如何
+
+76
+00:02:53,639 --> 00:02:55,900
+to design things when we want to achieve
+在我们想要实现时设计事物
+
+77
+00:02:56,099 --> 00:02:57,580
+efficiency we want to get the best
+我们想要获得最好的效率
+
+78
+00:02:57,780 --> 00:02:59,590
+possible outcomes and we realize that
+可能的结果，我们意识到
+
+79
+00:02:59,789 --> 00:03:01,180
+people have private information and
+人们拥有私人信息， 
+
+80
+00:03:01,379 --> 00:03:02,140
+they're going to try and take advantage
+他们将尝试并利用
+
+81
+00:03:02,340 --> 00:03:05,020
+of that and have incentives to try and
+并有动机去尝试
+
+82
+00:03:05,219 --> 00:03:06,939
+get the best that they can get out which
+得到最好的，他们可以摆脱
+
+83
+00:03:07,139 --> 00:03:09,880
+doesn't necessarily always coincide with
+不一定总是与
+
+84
+00:03:10,080 --> 00:03:12,070
+social efficiency so when is it that we
+社会效率，那么我们什么时候
+
+85
+00:03:12,270 --> 00:03:13,480
+can get socially efficient outcomes
+可以获得社会有效的结果
+
+86
+00:03:13,680 --> 00:03:15,520
+that's going to be the central question
+这将是核心问题
+
+87
+00:03:15,719 --> 00:03:20,719
+in mechanism design so let's get started
+在机制设计上，让我们开始吧
+

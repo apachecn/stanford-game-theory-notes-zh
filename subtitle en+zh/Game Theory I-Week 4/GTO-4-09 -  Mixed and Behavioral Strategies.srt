@@ -1,0 +1,760 @@
+﻿1
+00:00:00,000 --> 00:00:04,719
+it turns out that transform games with
+原来， 
+
+2
+00:00:04,919 --> 00:00:08,160
+imperfect information give rise to
+信息不完善导致
+
+3
+00:00:08,359 --> 00:00:11,108
+subtly different classes of strategies
+不同类别的策略
+
+4
+00:00:11,308 --> 00:00:15,399
+and in particular one can make a
+特别是可以使
+
+5
+00:00:15,599 --> 00:00:18,669
+distinction between behavioral and mixed
+行为与混合行为之间的区别
+
+6
+00:00:18,868 --> 00:00:24,460
+strategies and they're fundamentally
+策略，从根本上讲
+
+7
+00:00:24,660 --> 00:00:27,429
+very simple to explain a mixed strategy
+很简单地解释混合策略
+
+8
+00:00:27,629 --> 00:00:31,478
+is what is defined it completely
+是什么完全定义了
+
+9
+00:00:31,678 --> 00:00:34,659
+stranded way we have a notion of a pure
+搁浅的方式，我们有一个纯粹的概念
+
+10
+00:00:34,859 --> 00:00:37,299
+strategy that is what each agent needs
+每个代理商都需要的策略
+
+11
+00:00:37,500 --> 00:00:39,309
+to do in all of their information sets
+在他们所有的信息集中做
+
+12
+00:00:39,509 --> 00:00:43,750
+and a that is a unique action in each of
+这是每个动作中唯一的动作
+
+13
+00:00:43,950 --> 00:00:46,088
+those information sets and a mixed
+这些信息集和混合的
+
+14
+00:00:46,289 --> 00:00:48,698
+strategy simply a distribution over such
+策略只是这样的分布
+
+15
+00:00:48,899 --> 00:00:52,358
+pure strategies a behavioral strategy is
+行为策略是纯策略
+
+16
+00:00:52,558 --> 00:00:53,349
+subtly different
+稍有不同
+
+17
+00:00:53,549 --> 00:00:56,349
+it says rather than start with pure
+它说而不是从纯粹开始
+
+18
+00:00:56,549 --> 00:00:59,378
+strategies it simply says in each
+它只是在每个策略中都说了一些策略
+
+19
+00:00:59,579 --> 00:01:01,628
+information set how should you should
+信息集应该如何
+
+20
+00:01:01,829 --> 00:01:05,619
+you randomize it may seem like the same
+你随机化它看起来像一样
+
+21
+00:01:05,819 --> 00:01:08,079
+thing but it really isn't and let's look
+东西，但实际上不是，让我们来看看
+
+22
+00:01:08,280 --> 00:01:12,369
+at an example so take this take take
+以一个例子为例
+
+23
+00:01:12,569 --> 00:01:16,409
+this tree and here's an example of a
+这棵树，这是一个例子
+
+24
+00:01:16,609 --> 00:01:23,289
+behavioral strategy player one can do
+行为策略玩家可以做到的
+
+25
+00:01:23,489 --> 00:01:26,738
+take action a with probability point
+以概率点采取行动
+
+26
+00:01:26,938 --> 00:01:31,929
+five and G with probability point three
+ 5和G以及概率点3 
+
+27
+00:01:32,129 --> 00:01:34,269
+what does that mean that over here
+那是什么意思
+
+28
+00:01:34,469 --> 00:01:36,759
+they'll randomize point five point five
+他们会随机分配第五点，第五点
+
+29
+00:01:36,959 --> 00:01:39,519
+and over here the randomize point three
+在这里，随机点三
+
+30
+00:01:39,719 --> 00:01:45,469
+point seven that's a behavioral strategy
+第七点是一种行为策略
+
+31
+00:01:47,140 --> 00:01:52,890
+similarly a mixed strategy here would be
+同样地，这里的混合策略是
+
+32
+00:01:53,090 --> 00:01:54,359
+something on the phone it says let's
+电话上的东西说我们
+
+33
+00:01:54,560 --> 00:01:57,268
+look at two pure strategies for example
+看两个纯策略
+
+34
+00:01:57,468 --> 00:02:06,478
+a G will be one pure strategy and B H B
+ G将是一种纯粹的策略，而BHB 
+
+35
+00:02:06,679 --> 00:02:09,990
+H would be another fuel strategy and
+ H将是另一种燃料策略， 
+
+36
+00:02:10,189 --> 00:02:12,599
+let's look at some convex combination
+让我们看一些凸组合
+
+37
+00:02:12,799 --> 00:02:15,420
+some mixture of the two point six of the
+两点六的某种混合
+
+38
+00:02:15,620 --> 00:02:18,450
+1 and point for the other that would be
+ 1，然后指向另一个
+
+39
+00:02:18,650 --> 00:02:24,590
+a a mixed strategy now although they are
+现在是一个混合策略，尽管它们是
+
+40
+00:02:24,789 --> 00:02:28,560
+defined quite differently one looking at
+定义完全不同
+
+41
+00:02:28,759 --> 00:02:30,990
+the example might think that well one
+这个例子可能认为很好
+
+42
+00:02:31,189 --> 00:02:34,700
+could really do the job of the other and
+真的可以做另一个的工作， 
+
+43
+00:02:34,900 --> 00:02:39,780
+in fact you'd be correct in this case in
+实际上，在这种情况下，您是正确的
+
+44
+00:02:39,979 --> 00:02:45,390
+a very famous result paper by ku from
+ ku的非常著名的结果论文来自
+
+45
+00:02:45,590 --> 00:02:50,460
+1953 it was shown that in certainly all
+ 1953年表明，在所有
+
+46
+00:02:50,659 --> 00:02:54,960
+these games of perfect information mixed
+这些完美信息的游戏混合在一起
+
+47
+00:02:55,159 --> 00:02:56,969
+strategies and behavioral strategies can
+策略和行为策略可以
+
+48
+00:02:57,169 --> 00:03:00,480
+emulate each other there is no this pair
+互相模仿，没有这对
+
+49
+00:03:00,680 --> 00:03:03,659
+the equilibria in Mik strategies are
+ Mik策略中的均衡是
+
+50
+00:03:03,859 --> 00:03:06,710
+outcome equivalent to the equilibria in
+结果等于
+
+51
+00:03:06,909 --> 00:03:10,920
+in behavioral strategies in fact it's
+在行为策略中，实际上
+
+52
+00:03:11,120 --> 00:03:12,420
+not true only for games with perfect
+仅适用于完美游戏
+
+53
+00:03:12,620 --> 00:03:14,909
+information it's true for games of
+信息对
+
+54
+00:03:15,109 --> 00:03:17,099
+imperfect information that is games with
+与游戏不完美的信息
+
+55
+00:03:17,299 --> 00:03:19,469
+information sets where agents don't have
+代理商没有的信息集
+
+56
+00:03:19,669 --> 00:03:22,469
+full knowledge of where they are so long
+知道他们这么久的地方
+
+57
+00:03:22,669 --> 00:03:24,210
+as those games have what's called
+因为那些游戏有所谓的
+
+58
+00:03:24,409 --> 00:03:27,990
+perfect recall game of imperfect
+不完美的完美召回游戏
+
+59
+00:03:28,189 --> 00:03:30,319
+information has perfect recall if
+信息具有完美的回忆性
+
+60
+00:03:30,519 --> 00:03:34,710
+intuitively speaking the agents have
+从直觉上讲，代理商有
+
+61
+00:03:34,909 --> 00:03:37,259
+full recollection of their experience in
+充分回忆他们的经验
+
+62
+00:03:37,459 --> 00:03:39,868
+the game that means that wherever they
+这意味着无论他们在哪里
+
+63
+00:03:40,068 --> 00:03:43,200
+are and each information set they know
+是，他们知道的每个信息集
+
+64
+00:03:43,400 --> 00:03:44,819
+all the information sets they visited
+他们访问的所有信息集
+
+65
+00:03:45,019 --> 00:03:47,099
+previously and all the actions they've
+之前以及他们执行的所有操作
+
+66
+00:03:47,299 --> 00:03:52,050
+taken to see an example of a game
+观看游戏示例
+
+67
+00:03:52,250 --> 00:03:54,569
+without perfect recall consider the
+没有完美的回忆，请考虑
+
+68
+00:03:54,769 --> 00:03:58,580
+following game so player 1
+以下游戏，因此玩家1 
+
+69
+00:03:58,780 --> 00:04:03,618
+has here two nodes this node and this
+这里有两个节点这个节点和这个
+
+70
+00:04:03,818 --> 00:04:07,150
+node and he cannot tell them apart
+节点，他无法分辨
+
+71
+00:04:07,349 --> 00:04:10,430
+and you could think of it as basically
+你可以认为它基本上是
+
+72
+00:04:10,629 --> 00:04:13,790
+sending two agents on your behalf to
+代表您派遣两名特工到
+
+73
+00:04:13,990 --> 00:04:17,718
+play and neither the agents know which
+玩，并且代理商都不知道哪个
+
+74
+00:04:17,918 --> 00:04:22,670
+of the two places it it landed in and
+它降落的两个地方中的一个
+
+75
+00:04:22,870 --> 00:04:25,100
+particularly what the other agents agent
+特别是其他代理商
+
+76
+00:04:25,300 --> 00:04:30,129
+did regardless of the interpretation
+不管解释如何
+
+77
+00:04:30,329 --> 00:04:34,550
+it's the case that in a behavioral so so
+在行为上是如此
+
+78
+00:04:34,750 --> 00:04:35,569
+first of all what are the pure
+首先是什么纯
+
+79
+00:04:35,769 --> 00:04:38,900
+strategies in this case well the pure
+在这种情况下的策略很好
+
+80
+00:04:39,100 --> 00:04:43,449
+strategies for agent one is simply L and
+代理人的策略就是L和
+
+81
+00:04:43,649 --> 00:04:47,270
+one can in this information set either
+一个可以在此信息中设置
+
+82
+00:04:47,470 --> 00:04:53,480
+do L or R so you either do L which means
+做L或R，所以你要么做L这意味着
+
+83
+00:04:53,680 --> 00:04:55,370
+you'd go here depending where you were
+你会根据你去的地方去这里
+
+84
+00:04:55,569 --> 00:04:59,240
+or do R and go here depending on where
+或做R并根据位置去这里
+
+85
+00:04:59,439 --> 00:05:02,689
+you were this is for agent one and for
+你是为了代理人而为
+
+86
+00:05:02,889 --> 00:05:04,550
+agent - there are again two pure
+代理-再有两个纯
+
+87
+00:05:04,750 --> 00:05:12,949
+strategies so what would be a mixed
+策略，这将是一个混合
+
+88
+00:05:13,149 --> 00:05:15,259
+strategy equilibrium in this in this
+在这方面的战略均衡
+
+89
+00:05:15,459 --> 00:05:17,960
+game well that turns out to be fairly
+很好的游戏结果
+
+90
+00:05:18,160 --> 00:05:21,468
+easy to analyze and we start with the
+易于分析，我们从
+
+91
+00:05:21,668 --> 00:05:24,410
+observation that player two has a
+观察第二个玩家有一个
+
+92
+00:05:24,610 --> 00:05:29,889
+dominant strategy play played play down
+主导策略播放播放播放
+
+93
+00:05:30,089 --> 00:05:33,468
+and so no matter what the other player
+所以不管其他玩家
+
+94
+00:05:33,668 --> 00:05:37,250
+does player two is is no worse off and
+第二名球员的情况不会更糟吗？ 
+
+95
+00:05:37,449 --> 00:05:39,620
+in general better off by playing deep
+一般来说，通过打深洞来更好
+
+96
+00:05:39,819 --> 00:05:44,300
+rather than you and so a best response
+而不是你，所以是最好的回应
+
+97
+00:05:44,500 --> 00:05:49,750
+for player one to play to playing D is
+玩家一到玩D是
+
+98
+00:05:49,949 --> 00:05:52,759
+playing R because they would get a
+玩R，因为他们会得到一个
+
+99
+00:05:52,959 --> 00:05:56,270
+payoff of two rather than half of one if
+如果不是，则得到两个而不是一半的收益
+
+100
+00:05:56,470 --> 00:06:01,278
+they played L and so LD is in fact a
+他们打L，所以LD实际上是
+
+101
+00:06:01,478 --> 00:06:04,000
+equilibrium in this game
+游戏平衡
+
+102
+00:06:04,199 --> 00:06:08,300
+notice the set of the ironic or
+注意讽刺或
+
+103
+00:06:08,500 --> 00:06:10,129
+disconcerting fact that you have a very
+令人不安的事实是你有一个非常
+
+104
+00:06:10,329 --> 00:06:11,620
+high payoff
+高回报
+
+105
+00:06:11,819 --> 00:06:14,750
+that is actually not accessible under
+在以下情况下实际上无法访问
+
+106
+00:06:14,949 --> 00:06:18,710
+mixed strategies and that will be a hint
+混合策略，这将是一个提示
+
+107
+00:06:18,910 --> 00:06:22,009
+but what's going to happen with pure
+但是纯粹会发生什么
+
+108
+00:06:22,209 --> 00:06:25,370
+strategy with behavioral strategies so
+策略与行为策略
+
+109
+00:06:25,569 --> 00:06:27,710
+what would an equilibrium in behavioral
+行为均衡会怎样
+
+110
+00:06:27,910 --> 00:06:31,670
+strategies look like here well to start
+策略看起来像是从这里开始
+
+111
+00:06:31,870 --> 00:06:33,710
+with note that nothing has changed for
+并注意到没有任何改变
+
+112
+00:06:33,910 --> 00:06:36,410
+player two they still have a dominant
+玩家二他们仍然有统治力
+
+113
+00:06:36,610 --> 00:06:40,699
+strategy of D and let's assume that play
+ D的策略，让我们假设
+
+114
+00:06:40,899 --> 00:06:45,740
+that what about player 1 player 1 has
+那玩家1玩家1有什么
+
+115
+00:06:45,939 --> 00:06:48,259
+the opportunity to randomize afresh
+重新随机化的机会
+
+116
+00:06:48,459 --> 00:06:50,180
+every time they found themselves in this
+每当他们发现自己在这个
+
+117
+00:06:50,379 --> 00:06:54,730
+information set so let's assume they
+信息集，所以让我们假设他们
+
+118
+00:06:54,930 --> 00:06:58,040
+randomize somehow going left with
+随机以某种方式向左走
+
+119
+00:06:58,240 --> 00:07:00,290
+probability P and writers' probability 1
+概率P和作者的概率1 
+
+120
+00:07:00,490 --> 00:07:04,160
+minus B what assuming prayer to play is
+减B假设要玩的祷告是
+
+121
+00:07:04,360 --> 00:07:08,480
+d what is their expected payoff given
+ d他们的预期收益是多少
+
+122
+00:07:08,680 --> 00:07:12,699
+the parameter P well with probability
+参数P井概率
+
+123
+00:07:12,899 --> 00:07:17,569
+with probability P times P they'll end
+他们以P乘P的概率结束
+
+124
+00:07:17,769 --> 00:07:20,270
+up here and get a payoff of 1 so that's
+在这里得到1的收益，所以
+
+125
+00:07:20,470 --> 00:07:26,180
+P squared times 1 with probability P
+ P乘以概率P的平方乘以1 
+
+126
+00:07:26,379 --> 00:07:29,840
+times 1 minus B they'll end up here and
+乘以1减去B，它们会在这里结束
+
+127
+00:07:30,040 --> 00:07:32,300
+get a path up 100 so that's a hundred
+上到100 
+
+128
+00:07:32,500 --> 00:07:38,028
+times P times 1 minus B with probability
+乘以P乘以1减去B 
+
+129
+00:07:38,228 --> 00:07:43,730
+1 minus P times 1 they will end up
+ 1减去P乘以1，它们将最终结束
+
+130
+00:07:43,930 --> 00:07:45,770
+because this is a play one is not right
+因为这是一场戏，这是不对的
+
+131
+00:07:45,970 --> 00:07:48,170
+a of 2 is not randomizing here with
+ 2的a在这里没有随机化
+
+132
+00:07:48,370 --> 00:07:50,120
+probability 1 my speed they will end up
+最终我的速度是1 
+
+133
+00:07:50,319 --> 00:07:52,430
+here and get a payoff of 2 that's 2
+在这里得到2的收益即2 
+
+134
+00:07:52,629 --> 00:07:55,939
+times 1 minus P so this is their overall
+乘以1减去P，这是它们的整体
+
+135
+00:07:56,139 --> 00:07:59,389
+payoff assuming the randomize P and we
+假设随机化P的收益，我们
+
+136
+00:07:59,589 --> 00:08:03,020
+simplify it to this expression now we
+现在将其简化为该表达式
+
+137
+00:08:03,220 --> 00:08:06,218
+simply look at the maximum here of this
+只需看这里的最大值
+
+138
+00:08:06,418 --> 00:08:13,150
+quote this equation and the and the
+引用这个方程式
+
+139
+00:08:13,350 --> 00:08:14,809
+maximum
+最大值
+
+140
+00:08:15,009 --> 00:08:18,889
+is arrived at this value so with
+达到这个值，所以
+
+141
+00:08:19,088 --> 00:08:22,069
+probability slightly less than half that
+概率略小于
+
+142
+00:08:22,269 --> 00:08:25,309
+you left and slightly more than half
+你走了，一半多一点
+
+143
+00:08:25,509 --> 00:08:29,028
+they go right that is player 1 and so we
+他们走对了，就是玩家1，所以我们
+
+144
+00:08:29,228 --> 00:08:32,929
+end up with this equilibrium where that
+最终达到平衡， 
+
+145
+00:08:33,129 --> 00:08:35,328
+players that play one randomizer this
+玩一个随机游戏的玩家
+
+146
+00:08:35,528 --> 00:08:37,968
+way and pair two plays down with
+方式和一对二淡化
+
+147
+00:08:38,168 --> 00:08:41,059
+probability one so we see that the
+概率一，所以我们看到
+
+148
+00:08:41,259 --> 00:08:43,099
+equilibrium with behavioral strategies
+行为策略均衡
+
+149
+00:08:43,299 --> 00:08:46,878
+is when we have imperfect recall as we
+当我们回忆不完美时
+
+150
+00:08:47,078 --> 00:08:48,889
+have here can be dramatically different
+在这里可以有很大的不同
+
+151
+00:08:49,089 --> 00:08:51,169
+than the equilibria with mixed
+比混合的均衡
+
+152
+00:08:51,370 --> 00:08:56,370
+strategies
+策略
+

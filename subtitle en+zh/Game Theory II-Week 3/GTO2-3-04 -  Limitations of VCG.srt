@@ -1,0 +1,1310 @@
+﻿1
+00:00:00,199 --> 00:00:02,228
+so far we've heard a lot of good things
+到目前为止，我们已经听到了很多好消息
+
+2
+00:00:02,428 --> 00:00:05,828
+about VCG and for good reason but VCG
+关于VCG，并且有很好的理由，但是VCG 
+
+3
+00:00:06,028 --> 00:00:08,229
+also has some important limitations that
+也有一些重要的限制
+
+4
+00:00:08,429 --> 00:00:11,950
+this video will introduce you to the
+该视频将向您介绍
+
+5
+00:00:12,150 --> 00:00:14,200
+first is that VCG requires that the
+首先是VCG要求
+
+6
+00:00:14,400 --> 00:00:15,970
+agents tell the mechanism everything
+代理告诉机制一切
+
+7
+00:00:16,170 --> 00:00:18,490
+about their private information this is
+关于他们的私人信息，这是
+
+8
+00:00:18,690 --> 00:00:20,530
+fine if we really believe our model that
+如果我们真的相信我们的模型，那很好
+
+9
+00:00:20,730 --> 00:00:22,480
+the agents have utility only for the
+代理商仅对
+
+10
+00:00:22,679 --> 00:00:24,159
+choice that the mechanism makes and the
+机制做出的选择和
+
+11
+00:00:24,359 --> 00:00:26,739
+payments that are imposed but in some
+强制性付款，但在某些情况下
+
+12
+00:00:26,939 --> 00:00:28,839
+settings agents might interact together
+设置代理可能会相互作用
+
+13
+00:00:29,039 --> 00:00:32,919
+repeatedly and telling the mechanism and
+反复地告诉机制
+
+14
+00:00:33,119 --> 00:00:35,079
+publicizing something about their
+宣传他们的东西
+
+15
+00:00:35,280 --> 00:00:37,239
+private information might affect their
+私人信息可能会影响他们的
+
+16
+00:00:37,439 --> 00:00:38,678
+ability to compete in future
+未来竞争能力
+
+17
+00:00:38,878 --> 00:00:41,979
+interactions so if that's true the
+互动，如果是真的， 
+
+18
+00:00:42,179 --> 00:00:44,649
+agents might prefer a mechanism in which
+代理人可能更喜欢一种机制
+
+19
+00:00:44,850 --> 00:00:46,959
+only as much information is disclosed as
+仅披露与
+
+20
+00:00:47,159 --> 00:00:49,509
+is required to actually compute the
+需要实际计算
+
+21
+00:00:49,710 --> 00:00:52,268
+social welfare maximizing choice and the
+社会福利最大化的选择和
+
+22
+00:00:52,469 --> 00:00:55,869
+VCG payments this is often possible and
+ VCG付款通常是可能的，并且
+
+23
+00:00:56,070 --> 00:00:59,169
+VCG requires revealing more than that so
+ VCG要求揭示更多
+
+24
+00:00:59,369 --> 00:01:01,959
+in such cases a VCG wouldn't be a good
+在这种情况下，VCG并不是一个好选择
+
+25
+00:01:02,159 --> 00:01:05,769
+choice of mechanism here's something a
+机制的选择这是一个
+
+26
+00:01:05,969 --> 00:01:08,019
+little bit more subtle about VCG it
+关于VCG有点微妙
+
+27
+00:01:08,219 --> 00:01:10,409
+turns out to be susceptible to collusion
+事实证明容易串通
+
+28
+00:01:10,609 --> 00:01:13,079
+so let's look at the road building game
+让我们来看一下筑路游戏
+
+29
+00:01:13,280 --> 00:01:17,409
+here we have three agents we're gonna
+在这里，我们有三个特工
+
+30
+00:01:17,609 --> 00:01:19,569
+choose to build the road rather than not
+选择修路而不是不修路
+
+31
+00:01:19,769 --> 00:01:21,549
+building the road because we get utility
+建立道路，因为我们获得了效用
+
+32
+00:01:21,750 --> 00:01:24,519
+of 300 for building the road and 250 for
+ 300修路，250 
+
+33
+00:01:24,719 --> 00:01:27,549
+not building it Hey look if we look at
+没有建立它，嘿，看看我们
+
+34
+00:01:27,750 --> 00:01:30,609
+the agents VCG payments let's look for
+代理商的VCG付款让我们寻找
+
+35
+00:01:30,810 --> 00:01:33,399
+example at agent 1 he would be paid a
+例如，在代理商1处，他将获得报酬
+
+36
+00:01:33,599 --> 00:01:36,700
+hundred because in the situation where
+一百，因为在这种情况下
+
+37
+00:01:36,900 --> 00:01:39,488
+he exists agent 2 as happiness of a
+他将代理2作为a的幸福存在
+
+38
+00:01:39,688 --> 00:01:42,009
+hundred and he's gonna have to pay 250
+一百，他要付250 
+
+39
+00:01:42,209 --> 00:01:43,599
+because in the world where he doesn't
+因为在世界上他不
+
+40
+00:01:43,799 --> 00:01:45,878
+exist the road won't be built and
+存在的道路不会被修建， 
+
+41
+00:01:46,078 --> 00:01:49,329
+they'll be agent 3 we'll have 250 units
+他们将成为代理3我们将拥有250个单位
+
+42
+00:01:49,530 --> 00:01:52,750
+of utility so in other words he's going
+实用，换句话说，他要去
+
+43
+00:01:52,950 --> 00:01:55,149
+to be paid a hundred and have to pay 250
+付一百，必须付250 
+
+44
+00:01:55,349 --> 00:01:56,918
+which means that his payment is going to
+这意味着他的付款将
+
+45
+00:01:57,118 --> 00:02:00,488
+be a hundred and fifty well we know that
+要一百五十点，我们知道
+
+46
+00:02:00,688 --> 00:02:02,289
+that he has a dominant strategy to tell
+他有一个占主导地位的策略来告诉
+
+47
+00:02:02,489 --> 00:02:05,079
+the truth but what if both agent one and
+事实是事实，但是如果两个代理都
+
+48
+00:02:05,280 --> 00:02:07,028
+two could coordinate to change their
+两个可以协调改变他们的
+
+49
+00:02:07,228 --> 00:02:08,679
+declared valuations what if for example
+申报的估价，例如
+
+50
+00:02:08,878 --> 00:02:10,539
+they were each to increase their
+他们每个人都增加他们的
+
+51
+00:02:10,739 --> 00:02:13,420
+valuation by fifty dollars
+估价五十美元
+
+52
+00:02:13,620 --> 00:02:16,360
+well in this situation it actually turns
+在这种情况下，它实际上变成
+
+53
+00:02:16,560 --> 00:02:18,520
+out that both agents one two are better
+可以看出，两个代理商一人比较好
+
+54
+00:02:18,719 --> 00:02:22,200
+off their payments both go down by $50
+他们的付款都下降了50美元
+
+55
+00:02:22,400 --> 00:02:25,060
+how does that happen well it turns out
+结果如何发生
+
+56
+00:02:25,259 --> 00:02:29,170
+that agent to change of declaration
+该代理更改声明
+
+57
+00:02:29,370 --> 00:02:31,149
+reduces the payment for agent one and
+减少代理一的付款，并
+
+58
+00:02:31,348 --> 00:02:33,670
+agent ones change of declaration reduces
+代理人的申报变更减少
+
+59
+00:02:33,870 --> 00:02:36,340
+the payment for agent two so if they can
+代理二的付款，以便他们可以
+
+60
+00:02:36,539 --> 00:02:39,459
+collude together they can both reduce
+在一起可以减少
+
+61
+00:02:39,658 --> 00:02:42,580
+their payments this doesn't violate our
+他们的付款不违反我们的
+
+62
+00:02:42,780 --> 00:02:44,980
+claim that they have individual dominant
+声称他们有个人主导
+
+63
+00:02:45,180 --> 00:02:47,349
+strategies but it is a problem for VCG
+策略，但这是VCG的问题
+
+64
+00:02:47,549 --> 00:02:49,179
+so we have to be sure that we don't use
+所以我们必须确保不使用
+
+65
+00:02:49,378 --> 00:02:51,670
+VCG in situations where it's easy for
+ VCG在容易发生的情况下
+
+66
+00:02:51,870 --> 00:02:54,879
+agents to collude so the next problem
+代理商勾结，所以下一个问题
+
+67
+00:02:55,079 --> 00:02:56,618
+with VCG that I'd like to tell you about
+我想告诉您有关VCG的信息
+
+68
+00:02:56,818 --> 00:03:00,009
+is that the again has to do with the
+是又与
+
+69
+00:03:00,209 --> 00:03:02,740
+payments and we say that VCG is not
+付款，我们说VCG不是
+
+70
+00:03:02,939 --> 00:03:04,868
+frugal because the payments can can
+节俭，因为付款可以
+
+71
+00:03:05,068 --> 00:03:07,450
+really see him out of line so let's
+真的看不见他，所以让我们
+
+72
+00:03:07,650 --> 00:03:09,520
+think again about this graph routing
+再考虑一下这个图形路由
+
+73
+00:03:09,719 --> 00:03:11,649
+example that we've seen before where we
+我们在之前看到的例子
+
+74
+00:03:11,848 --> 00:03:13,569
+want to find the shortest path and pay
+想要找到最短的路径并付款
+
+75
+00:03:13,769 --> 00:03:15,520
+agents for routing traffic along their
+沿其路由流量的代理
+
+76
+00:03:15,719 --> 00:03:18,159
+edges so recall in this example that the
+边缘，所以在此示例中回想起
+
+77
+00:03:18,359 --> 00:03:21,280
+shortest path is this one with a cost of
+最短的路径是成本为
+
+78
+00:03:21,479 --> 00:03:26,170
+5 and recall also that the second
+ 5，还记得第二
+
+79
+00:03:26,370 --> 00:03:28,750
+shortest path is this one with a cost of
+最短的路径是成本为
+
+80
+00:03:28,949 --> 00:03:36,580
+6 right 2 + 3 + 1 now let's think in
+ 6对2 + 3 + 1现在让我们思考
+
+81
+00:03:36,780 --> 00:03:39,969
+particular about the effect on agent a B
+特别注意对试剂A B的影响
+
+82
+00:03:40,169 --> 00:03:44,499
+of changes to a C's cost and what I'm
+ C的成本变化和我的变化
+
+83
+00:03:44,699 --> 00:03:47,200
+going to end up showing you is that VCG
+最终向您展示的是VCG 
+
+84
+00:03:47,400 --> 00:03:50,140
+can end up paying arbitrarily more than
+最终可能会任意支付比
+
+85
+00:03:50,340 --> 00:03:54,640
+a B is willing to accept because a B's
+乙愿意接受，因为乙的
+
+86
+00:03:54,840 --> 00:03:56,530
+payment doesn't end up depending on his
+最终付款取决于他的
+
+87
+00:03:56,729 --> 00:03:58,300
+own declaration but instead ends up
+自己的声明，但最终以
+
+88
+00:03:58,500 --> 00:04:00,399
+depending on on the cost of the next
+取决于下一个的成本
+
+89
+00:04:00,598 --> 00:04:06,659
+shortest path so and this is also a
+最短的路径，这也是
+
+90
+00:04:06,859 --> 00:04:08,740
+possible problem in cases where we're
+在我们遇到的情况下可能出现的问题
+
+91
+00:04:08,939 --> 00:04:10,300
+not paying the agents were rather where
+不向代理商付款，而是在哪里
+
+92
+00:04:10,500 --> 00:04:12,340
+the agents are paying us so let's see
+代理商付钱给我们，让我们看看
+
+93
+00:04:12,539 --> 00:04:15,819
+how it works so if for example the cost
+它是如何工作的，例如成本
+
+94
+00:04:16,019 --> 00:04:20,278
+of this edge was to increase to 8 then
+这个优势是增加到8 
+
+95
+00:04:20,478 --> 00:04:24,629
+here our cost would be 12
+这里我们的成本是12 
+
+96
+00:04:24,829 --> 00:04:27,209
+our second shortest paths cost would be
+我们的第二个最短路径成本是
+
+97
+00:04:27,408 --> 00:04:30,528
+12 and so that that would change the
+ 12，这样就可以改变
+
+98
+00:04:30,728 --> 00:04:34,050
+payment to a B and it would go up by six
+支付给乙，它将增加六
+
+99
+00:04:34,250 --> 00:04:35,759
+so we increased this value here of
+所以我们在这里增加了这个值
+
+100
+00:04:35,959 --> 00:04:37,879
+somebody else's value by six and
+别人的价值是六
+
+101
+00:04:38,079 --> 00:04:40,439
+although we didn't change anything about
+虽然我们没有改变任何事情
+
+102
+00:04:40,639 --> 00:04:42,749
+what a B was willing to accept we ended
+乙愿意接受什么，我们结束了
+
+103
+00:04:42,949 --> 00:04:45,300
+up changing our payment to a B also by
+也将我们的付款更改为B 
+
+104
+00:04:45,500 --> 00:04:49,230
+sex and indeed if the cost was any X
+性别，如果费用是X 
+
+105
+00:04:49,430 --> 00:04:52,819
+greater than to four for this edge AC
+对于此边缘AC，大于四
+
+106
+00:04:53,019 --> 00:04:56,699
+then we would end up making a payment to
+那么我们最终将付款给
+
+107
+00:04:56,899 --> 00:05:00,149
+a B which depends on X and doesn't
+一个B取决于X并且不依赖于
+
+108
+00:05:00,348 --> 00:05:02,490
+depend on a B's own value so this means
+取决于B自身的值，所以这意味着
+
+109
+00:05:02,689 --> 00:05:04,499
+that the gap between agents true costs
+代理商之间的差距，真实成本
+
+110
+00:05:04,699 --> 00:05:05,730
+and the payments they could receive
+以及他们可以收到的款项
+
+111
+00:05:05,930 --> 00:05:10,259
+under VCG is unbounded now we might
+在VCG下是无界的，现在我们可能
+
+112
+00:05:10,459 --> 00:05:11,519
+think that we're just comparing to the
+认为我们只是在与
+
+113
+00:05:11,718 --> 00:05:14,160
+wrong thing we might think that that we
+错误的事情，我们可能会以为我们
+
+114
+00:05:14,360 --> 00:05:15,959
+really can't do anything about the fact
+事实真的无能为力
+
+115
+00:05:16,158 --> 00:05:18,838
+that VCG is going to not be able to
+ VCG将无法
+
+116
+00:05:19,038 --> 00:05:20,550
+charge people based on their own values
+根据自己的价值观向人们收费
+
+117
+00:05:20,750 --> 00:05:22,800
+but we might hope that VC G's payments
+但我们可能希望VC G的付款
+
+118
+00:05:23,000 --> 00:05:24,449
+are close to the cost of the second
+接近第二次的成本
+
+119
+00:05:24,649 --> 00:05:27,449
+shortest disjoint path and it turns out
+最短的不相交路径，结果
+
+120
+00:05:27,649 --> 00:05:30,028
+that that's not even true so here's a
+那甚至都不是真的，所以这是一个
+
+121
+00:05:30,228 --> 00:05:31,499
+different a little bit more complicated
+不同一点更复杂
+
+122
+00:05:31,699 --> 00:05:34,350
+graph that will illustrate that point so
+可以说明这一点的图表
+
+123
+00:05:34,550 --> 00:05:37,350
+here I have two disjoint paths this one
+这里我有两条不相交的路径
+
+124
+00:05:37,550 --> 00:05:40,769
+here goes through K agents and each
+这里经过K个代理商，每个
+
+125
+00:05:40,968 --> 00:05:44,819
+agent has a cost of C over K so K times
+代理商的成本超过K，所以K倍
+
+126
+00:05:45,019 --> 00:05:48,499
+C over K means the total cost is C here
+ C超过K表示总成本为C 
+
+127
+00:05:48,699 --> 00:05:52,379
+I have another edge with only one agent
+我只有一个代理人有另一个优势
+
+128
+00:05:52,579 --> 00:05:55,800
+and his cost is C times 1 plus Epsilon
+他的成本是C乘以1加Epsilon 
+
+129
+00:05:56,000 --> 00:05:58,259
+so as long as Absalon is a positive
+只要阿布萨隆是积极的
+
+130
+00:05:58,459 --> 00:06:00,300
+number the top path is going to be
+编号的最高路径将是
+
+131
+00:06:00,500 --> 00:06:04,110
+shorter than the bottom path so VCG
+比底部路径短，所以VCG 
+
+132
+00:06:04,310 --> 00:06:06,629
+picks the top path and it pays each of
+选择顶部路径，并支付每个
+
+133
+00:06:06,829 --> 00:06:12,179
+the K agents this amount here so it
+ K代理商在这里的数量，所以它
+
+134
+00:06:12,379 --> 00:06:15,449
+charges each of the K agents the costs
+向K个代理商收取费用
+
+135
+00:06:15,649 --> 00:06:17,459
+of the other agents on the shortest path
+最短路径上其他代理的数量
+
+136
+00:06:17,658 --> 00:06:21,689
+and then it pays them the utility there
+然后向他们支付公用事业费
+
+137
+00:06:21,889 --> 00:06:23,129
+the cost of the guy who doesn't get
+没有得到的人的代价
+
+138
+00:06:23,329 --> 00:06:28,649
+picked and if we just rearrange this to
+选择，如果我们只是重新安排这个
+
+139
+00:06:28,848 --> 00:06:31,619
+a little bit of algebra and compute VG's
+一点代数并计算VG 
+
+140
+00:06:31,819 --> 00:06:33,509
+total payment by multiplying this amount
+总付款额乘以该金额
+
+141
+00:06:33,709 --> 00:06:34,689
+by K
+由K 
+
+142
+00:06:34,889 --> 00:06:37,149
+you can confirm that this amount here is
+您可以确认这里的金额是
+
+143
+00:06:37,348 --> 00:06:40,899
+VC G's total payment care well that's
+ VC G的总付款服务很好
+
+144
+00:06:41,098 --> 00:06:43,660
+kind of bad news because compare this
+有点坏消息，因为比较一下
+
+145
+00:06:43,860 --> 00:06:46,689
+value here to this value and you'll see
+将此值设置为该值，您将看到
+
+146
+00:06:46,889 --> 00:06:49,929
+that VC G's payment is theta of K times
+ VC G的付款是K倍的theta 
+
+147
+00:06:50,129 --> 00:06:52,179
+the cost of the second shortest path so
+第二条最短路径的成本
+
+148
+00:06:52,379 --> 00:06:54,519
+what that means is it differs only by a
+这意味着它的区别仅在于
+
+149
+00:06:54,718 --> 00:06:56,949
+constant away from being K times bigger
+不断远离K倍
+
+150
+00:06:57,149 --> 00:06:59,889
+and now we're comparing actually to the
+现在我们实际上是在与
+
+151
+00:07:00,089 --> 00:07:02,799
+second shortest path so it really seems
+第二条最短的路径，所以看来
+
+152
+00:07:02,999 --> 00:07:05,468
+like VCG can end up paying much more
+像VCG最终可能要付出更多
+
+153
+00:07:05,668 --> 00:07:08,598
+than is sensible
+比明智的
+
+154
+00:07:09,050 --> 00:07:13,059
+here's a fourth problem with vc g let's
+这是vc g的第四个问题
+
+155
+00:07:13,259 --> 00:07:15,160
+think about the notion of revenue
+考虑收入的概念
+
+156
+00:07:15,360 --> 00:07:17,290
+monotonicity this is a concept that
+单调性这是一个概念
+
+157
+00:07:17,490 --> 00:07:19,269
+seems very intuitive and natural to us
+对我们来说似乎很直观自然
+
+158
+00:07:19,468 --> 00:07:21,999
+for a mechanism that the revenue that a
+对于一种机制， 
+
+159
+00:07:22,199 --> 00:07:23,920
+mechanism would obtain would always
+机制将永远获得
+
+160
+00:07:24,120 --> 00:07:26,679
+weakly increase as I add agents to the
+当我将代理商添加到
+
+161
+00:07:26,879 --> 00:07:29,079
+mechanism so you might kind of
+机制，所以您可能会
+
+162
+00:07:29,278 --> 00:07:32,499
+intuitively think that if I'm running a
+凭直觉认为，如果我正在运行
+
+163
+00:07:32,699 --> 00:07:34,629
+mechanism it's always good to attract
+机制总是吸引人
+
+164
+00:07:34,829 --> 00:07:36,249
+more participants to the mechanism
+该机制的更多参与者
+
+165
+00:07:36,449 --> 00:07:37,509
+because that can only increase my
+因为那只会增加我的
+
+166
+00:07:37,709 --> 00:07:40,480
+revenue but it turns out this isn't true
+收入，但事实并非如此
+
+167
+00:07:40,680 --> 00:07:42,790
+under BCG so let's go back to the road
+在BCG下，让我们回到路上
+
+168
+00:07:42,990 --> 00:07:44,459
+building example with different numbers
+不同编号的建筑示例
+
+169
+00:07:44,658 --> 00:07:47,860
+here we see a case where the utility for
+在这里，我们看到一种情况
+
+170
+00:07:48,060 --> 00:07:49,899
+building the road is a hundred the
+修路是一百
+
+171
+00:07:50,098 --> 00:07:52,329
+aggregate utility the igrew utility for
+汇总实用程序igrew实用程序用于
+
+172
+00:07:52,528 --> 00:07:54,338
+not building the road is ninety and so
+不修路是九十等等
+
+173
+00:07:54,538 --> 00:07:56,559
+we would choose to build the road and we
+我们会选择修路，而我们
+
+174
+00:07:56,759 --> 00:07:59,199
+would charge agent to 90 because that's
+会向代理商收取90的费用，因为那是
+
+175
+00:07:59,399 --> 00:08:00,670
+the amount of utility that agent one
+代理人的效用金额
+
+176
+00:08:00,870 --> 00:08:02,679
+would have if agent two wasn't around so
+如果第二个特工不在身边的话
+
+177
+00:08:02,879 --> 00:08:05,649
+far so good but now let's consider
+到目前为止还不错，但现在让我们考虑
+
+178
+00:08:05,848 --> 00:08:07,869
+adding another agent and in particular
+添加另一个代理，尤其是
+
+179
+00:08:08,069 --> 00:08:09,759
+let's add an agent who has the same
+让我们添加一个具有相同的代理
+
+180
+00:08:09,959 --> 00:08:13,480
+utility as agent two well this changes
+实用程序作为代理两个很好的这种变化
+
+181
+00:08:13,680 --> 00:08:16,329
+everything because now if I drop either
+一切，因为现在如果我放弃
+
+182
+00:08:16,528 --> 00:08:21,189
+agent 2 or agent 3 then I'm still going
+特工2或特工3然后我仍然要走
+
+183
+00:08:21,389 --> 00:08:22,778
+to end up in a situation where I make
+最终导致我
+
+184
+00:08:22,978 --> 00:08:25,059
+the same choice that means neither of
+相同的选择意味着
+
+185
+00:08:25,259 --> 00:08:27,249
+these agents is pivotal and because
+这些代理人至关重要，因为
+
+186
+00:08:27,449 --> 00:08:28,838
+they're not pivotal they don't pay
+他们不是关键，他们不付钱
+
+187
+00:08:29,038 --> 00:08:30,369
+anything so now nobody has to pay
+所以现在没有人要付钱
+
+188
+00:08:30,569 --> 00:08:35,109
+anything so what this means is that
+所以这意味着什么
+
+189
+00:08:35,309 --> 00:08:37,088
+adding another agent to my mechanism
+在我的机制中添加其他代理
+
+190
+00:08:37,288 --> 00:08:39,189
+didn't change the choice that was made
+并没有改变所做的选择
+
+191
+00:08:39,389 --> 00:08:41,889
+by VC G but caused it to go from a
+由VC G造成，但它来自
+
+192
+00:08:42,089 --> 00:08:43,718
+positive amount of revenue to zero
+正收入为零
+
+193
+00:08:43,918 --> 00:08:46,389
+revenue another way of seeing why this
+收入了解这种情况的另一种方式
+
+194
+00:08:46,589 --> 00:08:48,029
+could be a problem is
+可能是一个问题
+
+195
+00:08:48,230 --> 00:08:50,549
+that agent too could pretend to be to
+该特工也可能假装是
+
+196
+00:08:50,750 --> 00:08:52,859
+agents if he was able to submit a bid to
+代理，如果他能够向
+
+197
+00:08:53,059 --> 00:08:55,379
+the mechanism under a false name and if
+假名下的机制，如果
+
+198
+00:08:55,580 --> 00:08:57,449
+he could do that he could eliminate his
+他可以做到，可以消除他的
+
+199
+00:08:57,649 --> 00:09:01,379
+own payment so with the the problem with
+自己付款，所以有问题
+
+200
+00:09:01,580 --> 00:09:03,240
+collusion we've seen that if two agents
+串通我们已经看到，如果有两个特工
+
+201
+00:09:03,440 --> 00:09:05,069
+can kind of behave like an one agent in
+可以像一个代理商一样
+
+202
+00:09:05,269 --> 00:09:07,709
+VCG we've got a problem here we see that
+ VCG，这里有一个问题，我们看到
+
+203
+00:09:07,909 --> 00:09:09,659
+if one agent can behave like two agents
+如果一个特工可以像两个特工一样
+
+204
+00:09:09,860 --> 00:09:14,359
+we've also got a problem here's one last
+我们也有一个问题，这是最后一个
+
+205
+00:09:14,559 --> 00:09:18,059
+concern about VCG sometimes we might
+对于VCG有时我们可能会担心
+
+206
+00:09:18,259 --> 00:09:19,979
+want to use the mechanism as in the road
+想要在旅途中使用该机制
+
+207
+00:09:20,179 --> 00:09:22,409
+building example just as a way of making
+建立例子，作为一种制作方式
+
+208
+00:09:22,610 --> 00:09:25,289
+a social choice not a in order to
+社会选择不是为了
+
+209
+00:09:25,490 --> 00:09:27,419
+actually collect money from the agents
+实际从代理商那里收钱
+
+210
+00:09:27,620 --> 00:09:31,079
+and if this is the case I might actually
+如果是这种情况，我可能实际上
+
+211
+00:09:31,279 --> 00:09:33,389
+not really want to keep the money within
+真的不想把钱存进去
+
+212
+00:09:33,590 --> 00:09:35,159
+the mechanism maybe even the mechanism
+机制甚至机制
+
+213
+00:09:35,360 --> 00:09:36,929
+is just a computer program it's not even
+只是计算机程序而已
+
+214
+00:09:37,129 --> 00:09:38,579
+something that's able to hold on to the
+能够坚持下去的东西
+
+215
+00:09:38,779 --> 00:09:41,219
+money so I might like to rebate the
+钱，所以我想回扣
+
+216
+00:09:41,419 --> 00:09:44,939
+money back to the agents somehow and the
+钱以某种方式退还给代理商， 
+
+217
+00:09:45,139 --> 00:09:47,519
+problem is that if I just give all of
+问题是，如果我只给所有
+
+218
+00:09:47,720 --> 00:09:49,169
+the agents of rebate kind of no matter
+返利的代理商无论如何
+
+219
+00:09:49,370 --> 00:09:51,029
+how I do it
+我该怎么做
+
+220
+00:09:51,230 --> 00:09:52,589
+it ends up changing the agents
+最终改变了代理商
+
+221
+00:09:52,789 --> 00:09:55,079
+incentives so the agents start behaving
+激励，使代理开始行为
+
+222
+00:09:55,279 --> 00:09:56,879
+differently in order to change the
+为了改变
+
+223
+00:09:57,080 --> 00:09:58,769
+amount of a rebate they get and it ends
+他们得到的回扣数量到此为止
+
+224
+00:09:58,970 --> 00:10:01,979
+up breaking VCG so for example even if I
+打破VCG，所以即使我
+
+225
+00:10:02,179 --> 00:10:04,319
+say I'm gonna take all of the profits
+说我要拿走所有的利润
+
+226
+00:10:04,519 --> 00:10:06,209
+that VCG makes and give them to charity
+由VCG制造并捐赠给慈善机构
+
+227
+00:10:06,409 --> 00:10:08,459
+well if the agents care about the
+好，如果代理商关心
+
+228
+00:10:08,659 --> 00:10:11,459
+charity then they're gonna care about
+慈善，然后他们会关心
+
+229
+00:10:11,659 --> 00:10:12,779
+what happened and that's gonna change
+发生了什么，那将会改变
+
+230
+00:10:12,980 --> 00:10:15,539
+their utility or if I'm gonna just take
+他们的效用，或者如果我要接受
+
+231
+00:10:15,740 --> 00:10:18,059
+the money and go down the street and buy
+钱去街上买
+
+232
+00:10:18,259 --> 00:10:19,979
+myself something if that benefits the
+我自己有什么好处
+
+233
+00:10:20,179 --> 00:10:21,629
+local economy and that benefits the
+地方经济，这对
+
+234
+00:10:21,830 --> 00:10:23,459
+agents then that's going to give them
+代理商然后这将给他们
+
+235
+00:10:23,659 --> 00:10:26,879
+new incentives so so kind of formally
+新的激励措施如此正式
+
+236
+00:10:27,080 --> 00:10:28,439
+what I have to do is burn the money I
+我要做的就是烧掉我的钱
+
+237
+00:10:28,639 --> 00:10:29,789
+have to take the money and just kind of
+必须要拿钱，只是
+
+238
+00:10:29,990 --> 00:10:31,709
+destroy it in a way that has no
+以一种没有的方式销毁它
+
+239
+00:10:31,909 --> 00:10:33,839
+consequences for the agents so that I
+对代理商的后果，使我
+
+240
+00:10:34,039 --> 00:10:36,209
+don't give them the wrong incentives now
+现在不要给他们错误的激励
+
+241
+00:10:36,409 --> 00:10:39,149
+I should give you a caveat it actually
+我应该给你一个警告
+
+242
+00:10:39,350 --> 00:10:40,889
+is possible to return some of the
+可以退还一些
+
+243
+00:10:41,090 --> 00:10:42,870
+revenues to the agents but it's very
+收入给代理商，但这是非常
+
+244
+00:10:43,070 --> 00:10:44,939
+tricky to do this and and in general
+一般而言，很难做到这一点
+
+245
+00:10:45,139 --> 00:10:47,009
+what's not possible is to return all of
+不可能将所有
+
+246
+00:10:47,210 --> 00:10:48,689
+the money so there are there are ways of
+钱，所以有办法
+
+247
+00:10:48,889 --> 00:10:50,129
+returning some fraction of the money
+退还一部分钱
+
+248
+00:10:50,330 --> 00:10:52,919
+which is discussed in the literature but
+在文献中有讨论，但是
+
+249
+00:10:53,120 --> 00:10:54,839
+in general it's not possible to just
+一般来说，不可能只是
+
+250
+00:10:55,039 --> 00:10:57,159
+hand back all the money to the agents
+把所有的钱还给代理商
+
+251
+00:10:57,360 --> 00:11:00,488
+so overall we've seen that despite the
+因此总体而言，尽管
+
+252
+00:11:00,688 --> 00:11:03,219
+the great properties that VCG has there
+ VCG具有的出色性能
+
+253
+00:11:03,419 --> 00:11:05,529
+are also some caveats with it now I
+我现在也有一些注意事项
+
+254
+00:11:05,730 --> 00:11:06,878
+should mention that some of these
+应该提到其中一些
+
+255
+00:11:07,078 --> 00:11:08,589
+caveats are problems with mechanisms
+注意事项是机制的问题
+
+256
+00:11:08,789 --> 00:11:12,068
+other than VCG as well so although I've
+除了VCG以外，尽管我已经
+
+257
+00:11:12,269 --> 00:11:13,478
+pointed out some problems here I don't
+指出一些我没有的问题
+
+258
+00:11:13,678 --> 00:11:14,258
+want to leave you with the impression
+希望给您留下深刻的印象
+
+259
+00:11:14,458 --> 00:11:16,228
+that these are problems only with BCG
+这些只是卡介苗的问题
+
+260
+00:11:16,428 --> 00:11:18,969
+but in general these are things that one
+但总的来说，这些是
+
+261
+00:11:19,169 --> 00:11:20,529
+should think about before making a
+在制作之前应该考虑一下
+
+262
+00:11:20,730 --> 00:11:25,730
+choice of mechanism
+机制的选择
+

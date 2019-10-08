@@ -1,0 +1,1645 @@
+﻿1
+00:00:00,000 --> 00:00:02,708
+this video is about strategies best
+这部影片是关于最佳策略的
+
+2
+00:00:02,908 --> 00:00:04,990
+response and Nash equilibrium in the
+反应和纳什均衡
+
+3
+00:00:05,190 --> 00:00:08,620
+perfect information extensive form let's
+完善的信息广泛形式让我们
+
+4
+00:00:08,820 --> 00:00:10,660
+look again at the sharing game and what
+再看一下分享游戏以及什么
+
+5
+00:00:10,859 --> 00:00:13,240
+you see here and now instead of just
+您现在就在这里看到而不仅仅是
+
+6
+00:00:13,439 --> 00:00:14,800
+thinking about what this game models I
+考虑这个游戏的模型我
+
+7
+00:00:15,000 --> 00:00:16,089
+want to think about it in terms of
+想从以下方面考虑
+
+8
+00:00:16,289 --> 00:00:19,570
+strategies so in a normal form game it
+策略，所以在正常形式的游戏中
+
+9
+00:00:19,769 --> 00:00:21,579
+was easy to talk about pure strategies
+谈论纯策略很容易
+
+10
+00:00:21,778 --> 00:00:24,100
+pure strategies were just actions but
+纯粹的策略只是行动，但
+
+11
+00:00:24,300 --> 00:00:25,980
+you can see in an extensive form game
+您可以在广泛的形式游戏中看到
+
+12
+00:00:26,179 --> 00:00:28,659
+there are sort of multiple places where
+有很多地方
+
+13
+00:00:28,859 --> 00:00:30,489
+players get to choose different actions
+玩家可以选择不同的动作
+
+14
+00:00:30,689 --> 00:00:32,018
+and so strategies are going to need to
+所以策略就需要
+
+15
+00:00:32,219 --> 00:00:32,979
+be something a little bit more
+多一点
+
+16
+00:00:33,179 --> 00:00:35,768
+complicated so I want to ask you to
+很复杂，所以我想请你
+
+17
+00:00:35,969 --> 00:00:37,628
+think about how many pure strategies
+想想有多少个纯策略
+
+18
+00:00:37,829 --> 00:00:40,000
+each player has in this game you may
+每个玩家在这个游戏中都有
+
+19
+00:00:40,200 --> 00:00:41,378
+like to pause the video at this point
+想在此时暂停视频
+
+20
+00:00:41,579 --> 00:00:43,599
+and work this out for yourself before I
+在我之前自己解决这个问题
+
+21
+00:00:43,799 --> 00:00:46,509
+tell you the answer we'll start by
+告诉你答案，我们将从
+
+22
+00:00:46,710 --> 00:00:48,969
+thinking about player 1 player 1 is kind
+考虑玩家1玩家1是友善的
+
+23
+00:00:49,170 --> 00:00:51,189
+of easy because there's only one choice
+之所以容易，是因为只有一种选择
+
+24
+00:00:51,390 --> 00:00:54,489
+node 4 player 1 here and so player 1 has
+节点4的玩家1在这里，因此玩家1拥有
+
+25
+00:00:54,689 --> 00:00:56,829
+the three pure strategies that you would
+您将要采用的三种纯策略
+
+26
+00:00:57,030 --> 00:01:00,489
+expect taking this action this action
+期望采取这个行动这个行动
+
+27
+00:01:00,689 --> 00:01:03,338
+and this section things are a little bit
+这个部分的事情有点
+
+28
+00:01:03,539 --> 00:01:05,560
+more complicated for player 2 because
+对玩家2而言更为复杂，因为
+
+29
+00:01:05,760 --> 00:01:10,569
+player 2 has three choice nodes so the
+玩家2具有三个选择节点，因此
+
+30
+00:01:10,769 --> 00:01:13,778
+number of pure strategies for player 1
+玩家1的纯策略数量
+
+31
+00:01:13,978 --> 00:01:18,308
+is actually 8 rather than 6 player 1 has
+实际上是8位玩家，而不是6位玩家1 
+
+32
+00:01:18,509 --> 00:01:23,439
+six different actions but the reason
+六种不同的动作，但原因
+
+33
+00:01:23,640 --> 00:01:25,090
+that there are eight pure strategies is
+有八种纯策略是
+
+34
+00:01:25,290 --> 00:01:27,939
+that a pure strategy really is every
+一个纯粹的策略真的是每一个
+
+35
+00:01:28,140 --> 00:01:30,939
+combination of choices that player two
+玩家二的选择组合
+
+36
+00:01:31,140 --> 00:01:33,390
+could make kind of in the aggregate so
+可以总的来说是这样
+
+37
+00:01:33,590 --> 00:01:42,399
+if player 2 oops if player two were to
+如果玩家2失败，如果玩家2失败
+
+38
+00:01:42,599 --> 00:01:47,019
+choose like this it's a player 2 is to
+选择像这样的玩家2 
+
+39
+00:01:47,219 --> 00:01:49,168
+make the decision that in this situation
+做出在这种情况下的决定
+
+40
+00:01:49,368 --> 00:01:52,028
+he would decline the offer in this
+他会拒绝这个提议
+
+41
+00:01:52,228 --> 00:01:53,528
+situation he would accept it and then
+他会接受的情况，然后
+
+42
+00:01:53,728 --> 00:01:55,058
+again in this situation he would decline
+再次在这种情况下，他会拒绝
+
+43
+00:01:55,259 --> 00:01:58,058
+it that's one pure strategy and that's
+那是一个纯粹的策略，那就是
+
+44
+00:01:58,259 --> 00:02:01,799
+different from this pure strategy here
+与这里的纯策略不同
+
+45
+00:02:02,000 --> 00:02:05,679
+and so the number of such pure
+如此纯净的数量
+
+46
+00:02:05,879 --> 00:02:09,130
+strategies is 8 so now let's try to make
+策略是8，所以现在让我们尝试
+
+47
+00:02:09,330 --> 00:02:12,160
+that a bit more general generally
+一般而言
+
+48
+00:02:12,360 --> 00:02:13,640
+speaking a pure strategy for
+说一个纯粹的策略
+
+49
+00:02:13,840 --> 00:02:15,789
+player in a perfect information game
+完美信息游戏中的玩家
+
+50
+00:02:15,989 --> 00:02:18,800
+completely specifies how that player
+完全指定该玩家的方式
+
+51
+00:02:19,000 --> 00:02:20,750
+would play the game for anything that
+会为任何东西玩游戏
+
+52
+00:02:20,949 --> 00:02:23,270
+could happen in the game specifically it
+可能会在游戏中发生
+
+53
+00:02:23,469 --> 00:02:25,520
+says what actions to take at every
+说出要采取什么行动
+
+54
+00:02:25,719 --> 00:02:27,020
+choice note that that player gets to
+该玩家进入的选择说明
+
+55
+00:02:27,219 --> 00:02:30,140
+make a decision not so intuitively the
+做出不那么直观的决定
+
+56
+00:02:30,340 --> 00:02:31,250
+way I like to think about pure
+我喜欢思考纯净的方式
+
+57
+00:02:31,449 --> 00:02:33,289
+strategies in an extensive form game is
+广泛形式游戏中的策略是
+
+58
+00:02:33,489 --> 00:02:35,300
+in terms of giving instructions to
+在指示
+
+59
+00:02:35,500 --> 00:02:37,240
+another person to play the game for you
+另一个人为您玩游戏
+
+60
+00:02:37,439 --> 00:02:41,210
+imagine that player 2 wants to send her
+想象玩家2想送她
+
+61
+00:02:41,409 --> 00:02:45,020
+friend off to play the game then she
+朋友出去玩游戏，然后她
+
+62
+00:02:45,219 --> 00:02:46,580
+would need to tell everything to her
+需要告诉她一切
+
+63
+00:02:46,780 --> 00:02:48,469
+friend that her friend might ever need
+她的朋友可能需要的朋友
+
+64
+00:02:48,669 --> 00:02:49,789
+to know in order to play the game
+知道为了玩游戏
+
+65
+00:02:49,989 --> 00:02:52,250
+properly and specifically she'd have to
+正确地，特别是她必须
+
+66
+00:02:52,449 --> 00:02:53,810
+say for every choice node that her
+对她的每个选择节点说
+
+67
+00:02:54,009 --> 00:02:55,789
+friend might encounter what her friend
+朋友可能会遇到她的朋友
+
+68
+00:02:55,989 --> 00:02:57,740
+would need to do so kind of think of a
+需要做这样的思考
+
+69
+00:02:57,939 --> 00:02:59,780
+pure strategy as proxy instructions that
+纯策略作为代理指令， 
+
+70
+00:02:59,979 --> 00:03:01,399
+you give to someone else to play the
+你给别人玩
+
+71
+00:03:01,598 --> 00:03:04,189
+game for you then when we're counting
+当你数数的时候给你的游戏
+
+72
+00:03:04,389 --> 00:03:05,719
+the number of pure strategies we really
+我们真正的纯粹策略的数量
+
+73
+00:03:05,919 --> 00:03:07,340
+are asking how many different sets of
+在问有多少套不同的
+
+74
+00:03:07,539 --> 00:03:08,929
+proxy instructions is it possible to
+代理说明是否有可能
+
+75
+00:03:09,128 --> 00:03:12,759
+have if we say this formally in math on
+如果我们在数学上正式说这个
+
+76
+00:03:12,959 --> 00:03:16,009
+the pure strategies of a player in a
+一个球员的纯粹策略
+
+77
+00:03:16,209 --> 00:03:17,900
+given perfect information extensive form
+给出完美的信息广泛形式
+
+78
+00:03:18,099 --> 00:03:21,890
+game are the cross-product of the action
+游戏是行动的交叉产物
+
+79
+00:03:22,090 --> 00:03:24,800
+sets for that play so if we look at the
+为这出戏设定，所以如果我们看一下
+
+80
+00:03:25,000 --> 00:03:26,270
+sets of actions that are available at
+在以下位置可用的一组操作
+
+81
+00:03:26,469 --> 00:03:28,550
+every choice node for the player the set
+玩家集合的每个选择节点
+
+82
+00:03:28,750 --> 00:03:31,039
+of pure strategies is then the
+那么纯策略是
+
+83
+00:03:31,239 --> 00:03:34,069
+cross-product of those sets across all
+这些集合在所有方面的叉积
+
+84
+00:03:34,269 --> 00:03:35,599
+of the choice nodes at which that player
+该玩家所在的选择节点
+
+85
+00:03:35,799 --> 00:03:39,469
+gets to make a decision let's do an
+做出决定，让我们做一个
+
+86
+00:03:39,669 --> 00:03:40,789
+example that is a little bit more
+这个例子多一点
+
+87
+00:03:40,989 --> 00:03:43,899
+complicated than we saw in the sharingan
+比我们在共享中看到的复杂
+
+88
+00:03:44,098 --> 00:03:46,189
+so first of all I want to ask you here
+所以首先我想在这里问你
+
+89
+00:03:46,389 --> 00:03:48,439
+to think what are the pure strategies
+思考什么是纯粹的策略
+
+90
+00:03:48,639 --> 00:03:50,868
+for player 2 here I'm not asking you to
+对于这里的玩家2，我不是要你
+
+91
+00:03:51,068 --> 00:03:52,310
+count them but I'm asking you actually
+算他们，但我实际上是在问你
+
+92
+00:03:52,509 --> 00:03:55,490
+to say what they are and again you may
+再说一遍他们是什么
+
+93
+00:03:55,689 --> 00:03:56,960
+like to pause the video and think about
+喜欢暂停视频并考虑
+
+94
+00:03:57,159 --> 00:03:58,368
+this for both players before I give you
+在我给你之前，这两个球员
+
+95
+00:03:58,568 --> 00:04:00,789
+the answer so we'll start with player -
+答案，所以我们将从播放器开始- 
+
+96
+00:04:00,989 --> 00:04:04,099
+well player 2 has two choice nodes this
+玩家2有两个选择节点
+
+97
+00:04:04,299 --> 00:04:08,149
+one here and this one here and so the
+这里一个，这里一个，如此
+
+98
+00:04:08,348 --> 00:04:09,680
+pure strategies for player two are going
+第二个人的纯策略正在发展
+
+99
+00:04:09,879 --> 00:04:11,599
+to be the cross products of the action
+成为动作的交叉产物
+
+100
+00:04:11,799 --> 00:04:13,819
+sets at each of those different choice
+着眼于每个不同的选择
+
+101
+00:04:14,019 --> 00:04:18,259
+nodes so here they are written out so
+节点，所以在这里它们被写成
+
+102
+00:04:18,459 --> 00:04:21,050
+for example the pure strategy CF is
+例如，纯策略CF是
+
+103
+00:04:21,250 --> 00:04:23,120
+saying that if this choice node player
+说如果这个选择节点播放器
+
+104
+00:04:23,319 --> 00:04:25,850
+two will play C and if this choice node
+两个将播放C，如果选择节点
+
+105
+00:04:26,050 --> 00:04:27,460
+player two will play out
+玩家二将出局
+
+106
+00:04:27,660 --> 00:04:30,590
+and because there two sets of size two
+而且因为有两套尺寸两个
+
+107
+00:04:30,790 --> 00:04:33,430
+there's a total of four peer strategies
+一共有四种对等策略
+
+108
+00:04:33,629 --> 00:04:35,780
+now for player one things are a little
+现在对于玩家来说，一件事情有点
+
+109
+00:04:35,980 --> 00:04:38,509
+bit more interesting what are the pure
+更有趣的是什么是纯净的
+
+110
+00:04:38,709 --> 00:04:40,420
+strategies for player one
+玩家一的策略
+
+111
+00:04:40,620 --> 00:04:43,370
+well again player one has two choice
+再说一次，玩家一有两个选择
+
+112
+00:04:43,569 --> 00:04:47,360
+nodes this one and this one and so again
+节点这个一个和这个一个等等
+
+113
+00:04:47,560 --> 00:04:49,430
+the pure strategies for player one are
+玩家一的纯粹策略是
+
+114
+00:04:49,629 --> 00:04:51,259
+the cross product of those two sets so
+这两个集合的叉积
+
+115
+00:04:51,459 --> 00:04:52,910
+again there are four pure strategies for
+再次有四个纯策略
+
+116
+00:04:53,110 --> 00:04:55,310
+player one why is this interesting
+玩家一为什么这个很有趣
+
+117
+00:04:55,509 --> 00:04:58,550
+well if player one takes this action
+如果玩家一采取这个行动就好了
+
+118
+00:04:58,750 --> 00:05:01,850
+then player 1 knows that he will never
+然后玩家1知道他永远不会
+
+119
+00:05:02,050 --> 00:05:05,540
+reach this choice node because his own
+到达这个选择节点，因为他自己
+
+120
+00:05:05,740 --> 00:05:07,189
+action has made it impossible to reach
+行动使无法达成
+
+121
+00:05:07,389 --> 00:05:09,410
+that choice node nevertheless our
+那个选择节点仍然是我们
+
+122
+00:05:09,610 --> 00:05:11,689
+definition of pure strategies says that
+纯粹策略的定义说
+
+123
+00:05:11,889 --> 00:05:14,990
+the pure strategy a G is different from
+ G的纯策略不同于
+
+124
+00:05:15,189 --> 00:05:17,800
+the pure strategy aah so there are still
+纯粹的策略啊，所以还有
+
+125
+00:05:18,000 --> 00:05:20,210
+four pure strategies for player one
+玩家一的四个纯策略
+
+126
+00:05:20,410 --> 00:05:25,400
+rather than three pair strategies so
+而不是三对策略
+
+127
+00:05:25,600 --> 00:05:27,620
+pure strategies are a bit different in
+纯粹的策略在以下方面有所不同
+
+128
+00:05:27,819 --> 00:05:29,569
+extensive form games than they were in
+比以前广泛的形式游戏
+
+129
+00:05:29,769 --> 00:05:32,000
+normal form games however there's
+普通形式的游戏，但是有
+
+130
+00:05:32,199 --> 00:05:34,310
+something great once we've got this new
+一旦有了新的东西就很棒
+
+131
+00:05:34,509 --> 00:05:36,290
+definition of pure strategies we can
+我们可以定义纯策略
+
+132
+00:05:36,490 --> 00:05:39,290
+actually leverage it in order to use all
+实际利用它来使用所有
+
+133
+00:05:39,490 --> 00:05:41,300
+of our old definitions of all kinds of
+我们对各种
+
+134
+00:05:41,500 --> 00:05:44,090
+other concepts so in normal forme games
+其他的概念，在普通游戏中
+
+135
+00:05:44,290 --> 00:05:46,210
+we defined mixed strategies as
+我们将混合策略定义为
+
+136
+00:05:46,410 --> 00:05:48,410
+probability distributions over pure
+纯概率分布
+
+137
+00:05:48,610 --> 00:05:51,139
+strategies and in an extensive form game
+策略和广泛形式的游戏
+
+138
+00:05:51,339 --> 00:05:53,540
+we can use exactly the same definition
+我们可以使用完全相同的定义
+
+139
+00:05:53,740 --> 00:05:55,250
+word for word a mixed strategy in an
+逐字逐句地混合策略
+
+140
+00:05:55,449 --> 00:05:57,550
+extensive form game is a probability
+广泛的形式游戏是一种可能性
+
+141
+00:05:57,750 --> 00:05:59,840
+distribution over mixed strategies all
+所有混合策略的分布
+
+142
+00:06:00,040 --> 00:06:02,028
+the changes is that the underlying pure
+变化之处在于潜在的纯粹
+
+143
+00:06:02,228 --> 00:06:03,379
+strategies themselves are different
+策略本身是不同的
+
+144
+00:06:03,579 --> 00:06:06,259
+there now policies of what to do at
+现在有在做什么的政策
+
+145
+00:06:06,459 --> 00:06:09,528
+every choice node in the game likewise a
+游戏中的每个选择节点都同样
+
+146
+00:06:09,728 --> 00:06:11,960
+best response in an extensive form game
+在广泛形式的游戏中获得最佳响应
+
+147
+00:06:12,160 --> 00:06:16,778
+is a mixed strategy that maximizes
+是一种最大化的混合策略
+
+148
+00:06:16,978 --> 00:06:19,968
+expected utility given a mixed strategy
+混合策略的预期效用
+
+149
+00:06:20,168 --> 00:06:22,069
+profile of the other agents so again
+其他代理商的个人资料
+
+150
+00:06:22,269 --> 00:06:23,660
+that's exactly the same definition we
+这是我们完全相同的定义
+
+151
+00:06:23,860 --> 00:06:25,060
+had in the normal form
+以正常形式
+
+152
+00:06:25,259 --> 00:06:27,770
+finally Nash equilibrium is again a
+最后纳什均衡又是一个
+
+153
+00:06:27,970 --> 00:06:30,379
+strategy profile in which every agent is
+每个代理都在其中的策略配置文件
+
+154
+00:06:30,579 --> 00:06:32,750
+best responding to every other agent so
+最好对其他每个代理做出回应
+
+155
+00:06:32,949 --> 00:06:34,819
+all three of these concepts are really
+所有这三个概念都是
+
+156
+00:06:35,019 --> 00:06:38,270
+just the same as they were before now
+和以前一样
+
+157
+00:06:38,470 --> 00:06:40,379
+something we might wonder is
+我们可能想知道的是
+
+158
+00:06:40,579 --> 00:06:42,900
+whether Nash equilibria exist how we can
+纳什均衡是否存在，我们如何
+
+159
+00:06:43,100 --> 00:06:45,120
+reason about them just having the
+他们只是拥有的原因
+
+160
+00:06:45,319 --> 00:06:46,500
+definition doesn't of course give us
+定义当然不会给我们
+
+161
+00:06:46,699 --> 00:06:48,750
+that but there's an even tighter
+那，但是有一个更紧密的
+
+162
+00:06:48,949 --> 00:06:50,670
+connection to the normal form that gives
+与正常形式的联系
+
+163
+00:06:50,870 --> 00:06:53,819
+us more and that is that we can convert
+我们更多，那就是我们可以转换
+
+164
+00:06:54,019 --> 00:06:55,710
+an extensive form game into the normal
+普通游戏
+
+165
+00:06:55,910 --> 00:06:57,870
+form and there are a couple of reasons
+形式，有两个原因
+
+166
+00:06:58,069 --> 00:07:00,210
+why this is interesting the first is
+为什么这很有趣首先
+
+167
+00:07:00,410 --> 00:07:02,220
+because there exists a normal form game
+因为存在正常的形式游戏
+
+168
+00:07:02,420 --> 00:07:05,160
+we can leverage results we have about
+我们可以利用我们拥有的结果
+
+169
+00:07:05,360 --> 00:07:07,079
+the normal form like the existence of
+正常形式，如...的存在
+
+170
+00:07:07,279 --> 00:07:10,020
+equilibrium just by virtue of the fact
+仅凭事实就达到均衡
+
+171
+00:07:10,220 --> 00:07:12,720
+that there's a corresponding game also
+还有一个对应的游戏
+
+172
+00:07:12,920 --> 00:07:14,610
+if we find it easier to reason about the
+如果我们发现更容易推理
+
+173
+00:07:14,810 --> 00:07:15,780
+normal form game we can actually
+正常形式的游戏，我们实际上可以
+
+174
+00:07:15,980 --> 00:07:17,670
+construct it and look at it rather than
+构造它，而不是看它
+
+175
+00:07:17,870 --> 00:07:20,069
+looking at the extensive form so I'm
+看着广泛的形式，所以我
+
+176
+00:07:20,269 --> 00:07:21,120
+going to show you how to do that
+将向您展示如何做到这一点
+
+177
+00:07:21,319 --> 00:07:23,819
+conversion here's the extensive form
+转换这里是广泛的形式
+
+178
+00:07:24,019 --> 00:07:25,740
+game we just thought about the
+我们刚刚想到的游戏
+
+179
+00:07:25,939 --> 00:07:26,970
+conversion is actually really
+转换实际上是
+
+180
+00:07:27,170 --> 00:07:29,930
+straightforward here's the corresponding
+简单明了，这是对应的
+
+181
+00:07:30,129 --> 00:07:33,530
+normal form game and what you'll see is
+普通形式的游戏，您会看到的是
+
+182
+00:07:33,730 --> 00:07:36,720
+we've just listed all of the pure
+我们刚刚列出了所有纯
+
+183
+00:07:36,920 --> 00:07:39,569
+strategies of each agent as the actions
+每个行动者的策略作为行动
+
+184
+00:07:39,769 --> 00:07:42,780
+in the normal form game so you'll
+在正常形式的游戏中，这样您就可以
+
+185
+00:07:42,980 --> 00:07:44,100
+remember these because we went through
+记住这些，因为我们经历了
+
+186
+00:07:44,300 --> 00:07:45,840
+them before in this game already here
+他们之前在这个游戏中已经在这里
+
+187
+00:07:46,040 --> 00:07:47,550
+are the four pure strategies for player
+是玩家的四个纯策略
+
+188
+00:07:47,750 --> 00:07:50,280
+1 and here are the 4 pure strategies for
+ 1和以下是4种纯策略
+
+189
+00:07:50,480 --> 00:07:53,430
+player 2 now to fill in the payoff
+玩家2现在填写收益
+
+190
+00:07:53,629 --> 00:07:55,980
+values what we do is we just kind of
+重视我们所做的就是我们只是
+
+191
+00:07:56,180 --> 00:07:57,840
+simulate play of the game so if for
+模拟游戏的玩法，因此
+
+192
+00:07:58,040 --> 00:08:02,069
+example I wanted to figure out how to
+我想弄清楚如何
+
+193
+00:08:02,269 --> 00:08:03,810
+put the numbers in this cell of the game
+将数字放在游戏的此单元格中
+
+194
+00:08:04,009 --> 00:08:07,590
+I would look at the pure strategy b:g by
+我会看纯策略b：g 
+
+195
+00:08:07,790 --> 00:08:09,870
+player 1 and the pure strategy CF by
+玩家1和纯策略CF 
+
+196
+00:08:10,069 --> 00:08:10,520
+player 2
+玩家2 
+
+197
+00:08:10,720 --> 00:08:14,850
+so BG means playing like this and CF
+所以BG意味着像这样和CF 
+
+198
+00:08:15,050 --> 00:08:18,060
+means playing like that and then I look
+就是这样玩，然后我看
+
+199
+00:08:18,259 --> 00:08:20,340
+at what note I would actually reach in
+我实际上会以什么音符到达
+
+200
+00:08:20,540 --> 00:08:23,129
+the game and I would get down here I'd
+游戏，我会在这里下车
+
+201
+00:08:23,329 --> 00:08:25,350
+follow the tree like that and so I write
+跟随那棵树，所以我写
+
+202
+00:08:25,550 --> 00:08:28,530
+in the number 210 and so this whole
+在数字210等整个
+
+203
+00:08:28,730 --> 00:08:31,550
+table has been filled in that way and
+桌子已经被填满了， 
+
+204
+00:08:31,750 --> 00:08:34,049
+this is what we call the induced normal
+这就是我们所说的诱发法线
+
+205
+00:08:34,250 --> 00:08:38,309
+form of this extensive form game now one
+这种广泛的形式游戏的形式现在
+
+206
+00:08:38,509 --> 00:08:39,629
+thing to notice about this induced
+关于这一点要注意的事情
+
+207
+00:08:39,830 --> 00:08:41,669
+normal form is that it has more numbers
+正常的形式是它有更多的数字
+
+208
+00:08:41,870 --> 00:08:44,429
+in it then there are leaf nodes in the
+在其中，然后有叶节点
+
+209
+00:08:44,629 --> 00:08:46,289
+extensive form you'll notice there are
+广泛的形式，您会注意到
+
+210
+00:08:46,490 --> 00:08:49,620
+repetition so for example 3 8 gets
+重复，例如3 8得到
+
+211
+00:08:49,820 --> 00:08:51,959
+repeated four times here even though it
+即使在这里重复四次
+
+212
+00:08:52,159 --> 00:08:53,549
+only corresponds to one payoff
+仅对应一次收益
+
+213
+00:08:53,750 --> 00:08:56,519
+value similarly 8-3 gets repeated four
+值类似8-3重复四
+
+214
+00:08:56,720 --> 00:08:58,229
+times even though it only corresponds to
+时间，即使它仅对应于
+
+215
+00:08:58,429 --> 00:09:00,870
+one payoff value and that's not an
+一个回报值，而不是
+
+216
+00:09:01,070 --> 00:09:02,639
+accident that's because there are four
+意外是因为有四个
+
+217
+00:09:02,840 --> 00:09:05,549
+pure strategy profiles that lead to that
+纯粹的战略概况导致
+
+218
+00:09:05,750 --> 00:09:09,269
+same leaf node in the tree so this can
+树中的相同叶节点，因此可以
+
+219
+00:09:09,470 --> 00:09:12,629
+be a problem because this blow-up is
+成为一个问题，因为这种爆炸是
+
+220
+00:09:12,830 --> 00:09:14,250
+actually exponential it doesn't look so
+实际上是指数的，看起来并不像
+
+221
+00:09:14,450 --> 00:09:15,719
+bad here because the game we're looking
+这里不好，因为我们正在寻找的游戏
+
+222
+00:09:15,919 --> 00:09:18,479
+at is very small but as the size of the
+在很小，但随着
+
+223
+00:09:18,679 --> 00:09:20,639
+game tree grows this blow-up can be
+游戏树长大可以炸毁
+
+224
+00:09:20,840 --> 00:09:22,379
+really profound it can mean that in
+真的很深刻，这意味着
+
+225
+00:09:22,580 --> 00:09:24,569
+practice it might be very difficult for
+练习可能很难
+
+226
+00:09:24,769 --> 00:09:28,480
+us to write down this induce normal form
+我们写下这个归纳法则形式
+
+227
+00:09:28,509 --> 00:09:30,539
+another thing that's important to notice
+需要注意的另一件事
+
+228
+00:09:30,740 --> 00:09:32,129
+is that we can't always do a
+是我们不能总是做一个
+
+229
+00:09:32,330 --> 00:09:33,419
+transformation in Reverse
+反向转换
+
+230
+00:09:33,620 --> 00:09:35,370
+so you might be curious and wonder if
+所以你可能很好奇，想知道是否
+
+231
+00:09:35,570 --> 00:09:38,849
+you give me a normal form game can I
+你给我一个普通形式的游戏，我可以吗
+
+232
+00:09:39,049 --> 00:09:40,679
+make a perfect information extensive
+完善信息
+
+233
+00:09:40,879 --> 00:09:42,929
+form game out of it and the answer is in
+形成游戏，答案就在其中
+
+234
+00:09:43,129 --> 00:09:45,209
+general no this kind of special
+一般没有这种特殊
+
+235
+00:09:45,409 --> 00:09:46,559
+structure that you see to the game where
+您在游戏中看到的结构
+
+236
+00:09:46,759 --> 00:09:48,059
+payoffs are repeated is kind of
+回报是重复的
+
+237
+00:09:48,259 --> 00:09:50,549
+important and general extensive form
+重要和一般的广泛形式
+
+238
+00:09:50,750 --> 00:09:53,099
+games sort of general normal form games
+游戏一般的普通形式游戏
+
+239
+00:09:53,299 --> 00:09:54,599
+can't be turned into extensive form
+不能变成广泛的形式
+
+240
+00:09:54,799 --> 00:09:58,229
+games and an example of that is matching
+游戏和一个例子是匹配
+
+241
+00:09:58,429 --> 00:10:00,569
+pennies intuitively and matching pennies
+便士和匹配的便士
+
+242
+00:10:00,769 --> 00:10:01,979
+it's really important that the two
+这两个非常重要
+
+243
+00:10:02,179 --> 00:10:04,559
+players play simultaneously and we don't
+玩家同时玩，我们不
+
+244
+00:10:04,759 --> 00:10:06,120
+really have a way of talking about two
+真的有一种谈论两个的方式
+
+245
+00:10:06,320 --> 00:10:08,250
+players playing simultaneously in a
+玩家在同一时间玩
+
+246
+00:10:08,450 --> 00:10:10,620
+perfect information game because one of
+完美的信息游戏，因为其中之一
+
+247
+00:10:10,820 --> 00:10:12,659
+the players would have to move first the
+玩家必须先移动
+
+248
+00:10:12,860 --> 00:10:14,250
+second player would then get to see that
+然后第二个玩家会看到
+
+249
+00:10:14,450 --> 00:10:15,929
+move and there's just no way of
+移动，没有办法
+
+250
+00:10:16,129 --> 00:10:17,459
+representing a simultaneous move game
+代表同时移动游戏
+
+251
+00:10:17,659 --> 00:10:19,289
+like matching pennies that way so
+像这样匹配便士
+
+252
+00:10:19,490 --> 00:10:20,819
+intuitively we shouldn't expect a
+从直觉上讲，我们不应该期望
+
+253
+00:10:21,019 --> 00:10:22,709
+transformation from matching pennies
+从匹配的便士转变
+
+254
+00:10:22,909 --> 00:10:24,809
+into a perfect information game seems
+成为一个完美的信息游戏
+
+255
+00:10:25,009 --> 00:10:25,949
+like something would have to be lost
+就像必须丢掉一些东西
+
+256
+00:10:26,149 --> 00:10:29,459
+there indeed there's a theorem that says
+确实有一个定理说
+
+257
+00:10:29,659 --> 00:10:32,250
+that every perfect information extensive
+每一个完美的信息都广泛
+
+258
+00:10:32,450 --> 00:10:35,639
+form game always has at least one pure
+形式游戏总是至少有一个纯
+
+259
+00:10:35,839 --> 00:10:37,919
+strategy Nash equilibrium that's not
+策略纳什均衡不是
+
+260
+00:10:38,120 --> 00:10:39,359
+something that's true in general of
+总的来说，这是对的
+
+261
+00:10:39,559 --> 00:10:41,549
+normal form games matching pennies which
+与便士匹配的普通形式的游戏
+
+262
+00:10:41,750 --> 00:10:43,109
+we just talked about doesn't have a pure
+我们刚才说的没有纯粹的
+
+263
+00:10:43,309 --> 00:10:46,019
+strategy equilibrium it's easy to see
+策略均衡很容易看出
+
+264
+00:10:46,220 --> 00:10:49,039
+why this theorem is true intuitively
+为什么这个定理在直觉上是正确的
+
+265
+00:10:49,240 --> 00:10:51,779
+randomization often serves the role of
+随机化通常起着
+
+266
+00:10:51,980 --> 00:10:54,359
+confusing the other player and there's
+混淆了其他玩家， 
+
+267
+00:10:54,559 --> 00:10:56,969
+really no reason that could ever work in
+真的没有理由可以在
+
+268
+00:10:57,169 --> 00:10:59,219
+a perfect information game if player one
+一个完美的信息游戏，如果一个人
+
+269
+00:10:59,419 --> 00:11:02,129
+randomized about this choice and player
+随机选择此选项和播放器
+
+270
+00:11:02,330 --> 00:11:04,109
+two would nevertheless get to see what
+两个人仍然会看到
+
+271
+00:11:04,309 --> 00:11:06,740
+player one had done and so
+玩家一已经完成，所以
+
+272
+00:11:06,940 --> 00:11:09,409
+it can't gain us anything to have
+它不能给我们任何东西
+
+273
+00:11:09,610 --> 00:11:11,029
+randomization in the game that can
+游戏中的随机化可以
+
+274
+00:11:11,230 --> 00:11:12,349
+create the opportunity for an
+创造机会
+
+275
+00:11:12,549 --> 00:11:17,899
+equilibrium that wasn't there before so
+以前没有的平衡
+
+276
+00:11:18,100 --> 00:11:19,879
+lastly I want to look at this game and
+最后，我想看看这个游戏， 
+
+277
+00:11:20,080 --> 00:11:21,679
+reason about what it's three pure
+三个纯粹的原因
+
+278
+00:11:21,879 --> 00:11:24,589
+strategy equilibria are now we can do
+现在我们可以做到策略均衡
+
+279
+00:11:24,789 --> 00:11:26,539
+this by actually looking at the game
+通过实际看比赛
+
+280
+00:11:26,740 --> 00:11:28,639
+tree and trying to think about what
+树，试图思考什么
+
+281
+00:11:28,840 --> 00:11:30,049
+would make sense as an equilibrium in
+作为在
+
+282
+00:11:30,250 --> 00:11:31,699
+that game but that can be a little bit
+那个游戏，但是可能有点
+
+283
+00:11:31,899 --> 00:11:33,529
+hard to do in part because we can't
+很难做的部分原因是我们不能
+
+284
+00:11:33,730 --> 00:11:36,139
+quite so easily read the pure strategies
+非常容易地阅读纯策略
+
+285
+00:11:36,340 --> 00:11:38,929
+off the game tree instead what can be
+从游戏树上掉下来
+
+286
+00:11:39,129 --> 00:11:40,490
+more convenient for a small game like
+像这样的小游戏更方便
+
+287
+00:11:40,690 --> 00:11:44,629
+this is to construct it's pure strategy
+这是构建它的纯策略
+
+288
+00:11:44,830 --> 00:11:46,579
+its induced normal form here which lists
+它的诱导范式在这里列出
+
+289
+00:11:46,779 --> 00:11:49,459
+the pure strategies directly and then to
+直接的纯策略然后
+
+290
+00:11:49,659 --> 00:11:51,649
+just reason about the pure strategies
+纯粹策略的正当理由
+
+291
+00:11:51,850 --> 00:11:54,609
+directly on this game so let's do that
+直接在这个游戏上，所以让我们做到这一点
+
+292
+00:11:54,809 --> 00:11:58,819
+so I'll let you again pause the video
+所以我会让你再次暂停视频
+
+293
+00:11:59,019 --> 00:12:00,500
+here if you like and try to find those
+在这里，如果您喜欢并尝试找到那些
+
+294
+00:12:00,700 --> 00:12:03,289
+equilibria for yourself and then I'll
+为自己平衡，然后我会
+
+295
+00:12:03,490 --> 00:12:06,379
+tell you what they are so the three
+告诉你他们是什么，那三个
+
+296
+00:12:06,580 --> 00:12:10,629
+Peter strategy equilibria are a GCF a
+彼得策略均衡是GCF 
+
+297
+00:12:10,830 --> 00:12:18,109
+HCF and bhc so let's talk about how
+ HCF和bhc，让我们谈谈如何
+
+298
+00:12:18,309 --> 00:12:19,159
+we're able to see that those are
+我们能够看到那些是
+
+299
+00:12:19,360 --> 00:12:22,189
+equilibria recall always the way that we
+均衡总是回想着我们
+
+300
+00:12:22,389 --> 00:12:24,079
+test for a pure strategy equilibrium in
+测试一个纯粹的战略均衡
+
+301
+00:12:24,279 --> 00:12:26,829
+a normal form game is to for each player
+一个普通的形式游戏是给每个玩家
+
+302
+00:12:27,029 --> 00:12:28,759
+check and see whether there's any
+检查一下是否有
+
+303
+00:12:28,960 --> 00:12:30,529
+deviation that would give that player
+会给那个球员的偏差
+
+304
+00:12:30,730 --> 00:12:32,509
+greater utility so let's for example
+更大的实用性，让我们举个例子
+
+305
+00:12:32,710 --> 00:12:36,349
+look at bhce if player one was to
+看bhce，如果玩家一
+
+306
+00:12:36,549 --> 00:12:38,809
+deviate here you can see there's no
+偏离这里，你可以看到那里没有
+
+307
+00:12:39,009 --> 00:12:40,309
+other action he could take that would
+他可以采取的其他措施
+
+308
+00:12:40,509 --> 00:12:43,219
+give him more than five and similarly if
+给他五个以上，如果
+
+309
+00:12:43,419 --> 00:12:45,829
+player 2 was to deviate here you can see
+玩家2偏离这里可以看到
+
+310
+00:12:46,029 --> 00:12:47,990
+there's no other action she could take
+她别无选择
+
+311
+00:12:48,190 --> 00:12:50,059
+that would give her more than 5 in both
+两者都给她超过5 
+
+312
+00:12:50,259 --> 00:12:51,649
+cases there's something that would tie
+情况下，有些东西会绑在一起
+
+313
+00:12:51,850 --> 00:12:54,490
+but that's ok because a best response
+但这没关系，因为最好的回应
+
+314
+00:12:54,690 --> 00:12:57,289
+just says that there isn't anything
+只是说没有什么
+
+315
+00:12:57,490 --> 00:13:00,649
+better so that confirms that this is an
+更好地确认这是一个
+
+316
+00:13:00,850 --> 00:13:03,799
+equilibrium in contrast if I looked at
+相反，如果我看着
+
+317
+00:13:04,000 --> 00:13:07,279
+something like this which I've claimed
+我声称这样的事情
+
+318
+00:13:07,480 --> 00:13:09,500
+isn't an equilibrium you can see that it
+不是均衡，你可以看到它
+
+319
+00:13:09,700 --> 00:13:11,359
+isn't an equilibrium by checking for
+通过检查不是平衡
+
+320
+00:13:11,559 --> 00:13:15,079
+each player's so player 2 indeed can't
+每个玩家的，所以玩家2确实不能
+
+321
+00:13:15,279 --> 00:13:17,929
+do anything better than ten so this is a
+做任何事情都超过十，所以这是一个
+
+322
+00:13:18,129 --> 00:13:19,889
+best response as CF is a
+最佳响应，因为CF是
+
+323
+00:13:20,089 --> 00:13:22,678
+response to BG for player two but on the
+对玩家2的BG的回应，但在
+
+324
+00:13:22,879 --> 00:13:24,928
+other hand player one could deviate from
+另一只手玩家可能会偏离
+
+325
+00:13:25,129 --> 00:13:28,589
+BG to AG and get a payoff of three
+ BG到AG并获得三分收益
+
+326
+00:13:28,789 --> 00:13:32,039
+instead of a payoff of two so a BG is
+而不是两个的回报，所以BG是
+
+327
+00:13:32,240 --> 00:13:34,229
+not a best response to CF for player one
+不是玩家一对CF的最佳回应
+
+328
+00:13:34,429 --> 00:13:36,378
+and so this is not a Nash equilibrium
+所以这不是纳什均衡
+
+329
+00:13:36,578 --> 00:13:41,578
+and that's it for this video thanks
+这就是这个视频，谢谢
+

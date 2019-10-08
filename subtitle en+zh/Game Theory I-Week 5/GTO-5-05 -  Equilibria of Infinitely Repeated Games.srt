@@ -1,0 +1,3335 @@
+﻿1
+00:00:00,030 --> 00:00:01,570
+in this video we're going to look at the
+在这个视频中，我们将看
+
+2
+00:00:01,770 --> 00:00:05,189
+equilibria of infinitely repeated games
+无限重复博弈的均衡
+
+3
+00:00:05,389 --> 00:00:08,140
+so in order to talk about equilibrium we
+所以为了谈论平衡，我们
+
+4
+00:00:08,339 --> 00:00:10,479
+need to begin by asking what are we
+首先要问我们是什么
+
+5
+00:00:10,679 --> 00:00:12,609
+going to mean by a pure strategy in an
+将意味着一个纯粹的战略
+
+6
+00:00:12,808 --> 00:00:16,179
+infinitely repeated game and you may
+无限重复的游戏，您可能
+
+7
+00:00:16,379 --> 00:00:17,560
+like at this point to pause the video
+喜欢在此时暂停视频
+
+8
+00:00:17,760 --> 00:00:19,150
+and see if you can answer that question
+看看你能否回答这个问题
+
+9
+00:00:19,350 --> 00:00:21,850
+before I go on and tell you the answer
+在我继续告诉你答案之前
+
+10
+00:00:22,050 --> 00:00:25,060
+if you need a hint you should remember
+如果您需要提示，请记住
+
+11
+00:00:25,260 --> 00:00:26,679
+that the rule of thumb that we've used
+我们使用的经验法则
+
+12
+00:00:26,879 --> 00:00:29,228
+to define strategies as we've changed
+定义我们已经改变的策略
+
+13
+00:00:29,428 --> 00:00:31,989
+game representations has been to say
+游戏表示一直在说
+
+14
+00:00:32,189 --> 00:00:34,209
+that a pure strategy should be whatever
+一个纯粹的策略应该是什么
+
+15
+00:00:34,409 --> 00:00:36,459
+you would need to tell another person to
+您需要告诉其他人
+
+16
+00:00:36,659 --> 00:00:38,349
+play in the game on your behalf and to
+代表您参加游戏，并
+
+17
+00:00:38,549 --> 00:00:40,119
+end up doing exactly what you would have
+最终完全按照自己的意愿去做
+
+18
+00:00:40,320 --> 00:00:43,000
+done so a pure strategy has always kind
+做到这一点，纯策略总是善良的
+
+19
+00:00:43,200 --> 00:00:45,219
+of been the policy that you would you
+一直是你要的政策
+
+20
+00:00:45,420 --> 00:00:46,989
+would follow making all of the decisions
+将遵循所有的决定
+
+21
+00:00:47,189 --> 00:00:50,288
+in the same way as you would have
+以与您原本相同的方式
+
+22
+00:00:50,488 --> 00:00:51,640
+actually done it so whatever you would
+实际上做到了，所以随便你怎么
+
+23
+00:00:51,840 --> 00:00:53,759
+need to communicate about that policy
+需要就该政策进行沟通
+
+24
+00:00:53,960 --> 00:00:58,838
+well in an infinitely repeated game your
+在无限重复的游戏中
+
+25
+00:00:59,039 --> 00:01:00,549
+strategy is going to be a choice of
+策略将是
+
+26
+00:01:00,750 --> 00:01:02,408
+action at every decision point that you
+在您做出的每个决策点采取行动
+
+27
+00:01:02,609 --> 00:01:05,349
+would have which means an action that
+会有一个动作
+
+28
+00:01:05,549 --> 00:01:07,179
+you would take at every stage game and
+您会在每个阶段的游戏中
+
+29
+00:01:07,379 --> 00:01:09,369
+bear in mind that when you take those
+请记住，当您服用那些
+
+30
+00:01:09,569 --> 00:01:11,259
+actions you actually get to reason about
+您实际上要推理的动作
+
+31
+00:01:11,459 --> 00:01:12,849
+everything that you've seen before in
+您之前所见过的一切
+
+32
+00:01:13,049 --> 00:01:15,488
+the game which is to say you can
+这个游戏可以说你可以
+
+33
+00:01:15,688 --> 00:01:17,319
+remember all of your own previous
+记住你以前所有的
+
+34
+00:01:17,519 --> 00:01:19,509
+actions and you can also remember all of
+动作，您还可以记住所有
+
+35
+00:01:19,709 --> 00:01:21,668
+the actions in previous stage games by
+前阶段游戏中的动作
+
+36
+00:01:21,868 --> 00:01:25,359
+the other players so so really your pure
+其他玩家真的很纯真
+
+37
+00:01:25,560 --> 00:01:29,109
+strategy space is a mapping from every
+战略空间是每个方面的映射
+
+38
+00:01:29,310 --> 00:01:32,200
+history to an action choice that you
+您选择动作的历史
+
+39
+00:01:32,400 --> 00:01:34,808
+would make clearly this is an infinite
+会清楚地表明这是无限的
+
+40
+00:01:35,009 --> 00:01:38,469
+number of actions so unlike the previous
+动作数量，因此与之前不同
+
+41
+00:01:38,670 --> 00:01:40,028
+games we've looked at extensive form
+我们看过的游戏形式广泛
+
+42
+00:01:40,228 --> 00:01:41,950
+games and normal form games you're not
+游戏和非正规游戏
+
+43
+00:01:42,150 --> 00:01:44,049
+even going to have a finite set of pure
+甚至会有一组有限的纯
+
+44
+00:01:44,250 --> 00:01:45,819
+strategies in an infinitely repeated
+无限重复的策略
+
+45
+00:01:46,019 --> 00:01:49,058
+game let me give you some examples of
+游戏让我给你一些例子
+
+46
+00:01:49,259 --> 00:01:51,250
+some famous pure strategies in
+一些著名的纯策略
+
+47
+00:01:51,450 --> 00:01:53,289
+infinitely repeated games nevertheless
+无限重复的游戏
+
+48
+00:01:53,489 --> 00:01:55,448
+to give you the sense that we can say
+给您一种我们可以说的感觉
+
+49
+00:01:55,649 --> 00:01:57,069
+interesting things about pure strategies
+关于纯策略的有趣的事情
+
+50
+00:01:57,269 --> 00:01:59,140
+even though the set of possible pure
+即使这组可能的纯
+
+51
+00:01:59,340 --> 00:02:02,018
+strategies is infinite so think about
+策略是无限的，请考虑
+
+52
+00:02:02,218 --> 00:02:04,840
+playing repeated prisoner's dilemma so
+反复犯人的困境
+
+53
+00:02:05,040 --> 00:02:06,668
+I'm gonna play the prisoner's dilemma
+我要扮演囚徒的困境
+
+54
+00:02:06,868 --> 00:02:10,750
+game infinitely one famous strategy is
+游戏无限一项著名的策略是
+
+55
+00:02:10,949 --> 00:02:13,118
+called tit-for-tat turns out that there
+所谓的针锋相对
+
+56
+00:02:13,318 --> 00:02:13,810
+were
+是
+
+57
+00:02:14,009 --> 00:02:17,230
+famous competitions where people
+人们著名的比赛
+
+58
+00:02:17,430 --> 00:02:18,960
+submitted programs that played a
+提交播放过
+
+59
+00:02:19,159 --> 00:02:21,850
+prisoner's dilemma very repeatedly and
+囚犯的困境非常反复， 
+
+60
+00:02:22,050 --> 00:02:23,530
+then they looked at how these programs
+然后他们看了这些程序
+
+61
+00:02:23,729 --> 00:02:26,800
+did against each other and tit for tat
+互相对抗，针锋相对
+
+62
+00:02:27,000 --> 00:02:29,230
+was a strategy that famously did really
+这是著名的策略
+
+63
+00:02:29,430 --> 00:02:31,330
+well in those competitions the way it
+在那些比赛中
+
+64
+00:02:31,530 --> 00:02:33,490
+works is it starts out cooperating and
+可以开始合作了
+
+65
+00:02:33,689 --> 00:02:35,920
+then if it observes that its opponent
+那么如果它观察到它的对手
+
+66
+00:02:36,120 --> 00:02:38,080
+defect everett effects or in the
+埃弗里特缺陷效应或
+
+67
+00:02:38,280 --> 00:02:39,520
+previous round the opponent defected
+上一轮对手叛逃
+
+68
+00:02:39,719 --> 00:02:42,070
+then tit for tat defects in the next
+然后在接下来的针刺中剔除针刺缺陷
+
+69
+00:02:42,270 --> 00:02:45,820
+round then it goes back to cooperation
+一轮，然后回到合作
+
+70
+00:02:46,020 --> 00:02:48,460
+so then if it defected but its opponent
+所以如果它叛逃但它的对手
+
+71
+00:02:48,659 --> 00:02:50,740
+cooperated then it'll respond to that by
+合作，然后它将通过
+
+72
+00:02:50,939 --> 00:02:51,490
+cooperating
+合作
+
+73
+00:02:51,689 --> 00:02:53,860
+so if tit for tat plays itself it'll
+因此，如果针锋相对发挥自己的作用， 
+
+74
+00:02:54,060 --> 00:02:55,750
+cooperate forever but if it plays
+永远合作，但是如果合作
+
+75
+00:02:55,949 --> 00:02:57,340
+against somebody who defects it's going
+反对那些有缺陷的人
+
+76
+00:02:57,539 --> 00:02:59,110
+to intuitively kind of punish that
+直观地惩罚
+
+77
+00:02:59,310 --> 00:03:01,030
+defection by defecting itself in the
+通过背叛自己而叛逃
+
+78
+00:03:01,229 --> 00:03:03,550
+next round but it's very forgiving it's
+下回合，但这是非常原谅的
+
+79
+00:03:03,750 --> 00:03:04,930
+going to go back to cooperation after
+以后要回去合作
+
+80
+00:03:05,129 --> 00:03:05,980
+one punishment
+一种惩罚
+
+81
+00:03:06,180 --> 00:03:10,570
+in contrast the trigger strategy is kind
+相反，触发策略是一种
+
+82
+00:03:10,770 --> 00:03:13,300
+of a really mean-spirited version of tit
+一个非常卑鄙的山雀版本
+
+83
+00:03:13,500 --> 00:03:16,060
+for tat so it starts out by cooperating
+为达，所以它开始于合作
+
+84
+00:03:16,259 --> 00:03:18,910
+but if its opponent ever defects that's
+但是，如果对手有缺陷，那就是
+
+85
+00:03:19,110 --> 00:03:21,010
+it it's just gonna defect forever so
+它只会永远存在缺陷，所以
+
+86
+00:03:21,210 --> 00:03:23,980
+it's gonna pull a trigger and say I'm
+它会扣动扳机，说我
+
+87
+00:03:24,180 --> 00:03:25,780
+never gonna forgive you you've wronged
+永远不会原谅你你冤屈了
+
+88
+00:03:25,979 --> 00:03:27,910
+me once I'm gonna wronged you back until
+我一旦我会委屈你，直到
+
+89
+00:03:28,110 --> 00:03:29,740
+the end of time that's why we call it
+时间的终结，这就是为什么我们称其为
+
+90
+00:03:29,939 --> 00:03:32,770
+trigger so you can see that in both of
+触发，因此您可以在两个
+
+91
+00:03:32,969 --> 00:03:34,660
+these cases I've been able to describe
+这些情况我已经能够描述
+
+92
+00:03:34,860 --> 00:03:36,550
+to you how these strategies would
+给你这些策略会如何
+
+93
+00:03:36,750 --> 00:03:39,070
+respond to anything from the infinite
+回应无限的一切
+
+94
+00:03:39,270 --> 00:03:41,950
+history that they would see kind of in
+他们会看到的历史
+
+95
+00:03:42,150 --> 00:03:45,070
+algorithmic terms without actually kind
+没有实际种类的算法术语
+
+96
+00:03:45,270 --> 00:03:46,930
+of writing out a strategy kind of in a
+在某种程度上写出一种策略
+
+97
+00:03:47,129 --> 00:03:49,090
+formal language so you can see that it
+正式语言，以便您可以看到
+
+98
+00:03:49,289 --> 00:03:50,920
+is possible to think kind of coherently
+有可能连贯地思考
+
+99
+00:03:51,120 --> 00:03:53,080
+about interesting strategies and
+关于有趣的策略和
+
+100
+00:03:53,280 --> 00:03:57,010
+infinitely repeated games now of course
+现在无限重复的游戏
+
+101
+00:03:57,210 --> 00:03:58,510
+what we would really like to do as game
+我们真正想做的游戏
+
+102
+00:03:58,710 --> 00:04:00,040
+theorists is describe the Nash
+理论家描述纳什
+
+103
+00:04:00,240 --> 00:04:02,610
+equilibria of infinitely repeated games
+无限重复博弈的均衡
+
+104
+00:04:02,810 --> 00:04:06,130
+the kind of approach that we've taken in
+我们采取的那种方法
+
+105
+00:04:06,330 --> 00:04:08,500
+the past has been to first of all show
+过去一直到所有节目
+
+106
+00:04:08,699 --> 00:04:10,330
+how we can make an induced normal form
+我们如何制作归纳范式
+
+107
+00:04:10,530 --> 00:04:11,950
+out of a game we figure out what a
+从游戏中我们找出什么
+
+108
+00:04:12,150 --> 00:04:14,290
+strategy is in the game we show how to
+策略是我们在游戏中展示的
+
+109
+00:04:14,490 --> 00:04:16,569
+make the induced normal form and then we
+做归纳法线形式，然后我们
+
+110
+00:04:16,769 --> 00:04:18,460
+just appeal to Nash's theorem and say
+只是呼吁纳什定理并说
+
+111
+00:04:18,660 --> 00:04:20,680
+because we've got a normal form game we
+因为我们有一个普通的形式游戏
+
+112
+00:04:20,879 --> 00:04:21,610
+know that there is a Nash equilibrium
+知道存在纳什均衡
+
+113
+00:04:21,810 --> 00:04:23,620
+and so everything kind of goes through
+所以一切都会经历
+
+114
+00:04:23,819 --> 00:04:26,530
+the way it did before well that worked
+之前效果很好的方式
+
+115
+00:04:26,730 --> 00:04:27,490
+well for us in the
+对我们来说
+
+116
+00:04:27,689 --> 00:04:30,069
+because we always ended up with finite
+因为我们总是以有限的结果
+
+117
+00:04:30,269 --> 00:04:32,490
+size to induce normal forms
+大小以诱导正常形式
+
+118
+00:04:32,689 --> 00:04:34,449
+unfortunately because we have an
+不幸的是，因为我们有一个
+
+119
+00:04:34,649 --> 00:04:36,370
+infinite number of pure strategies we're
+无限数量的纯策略
+
+120
+00:04:36,569 --> 00:04:38,770
+gonna get an infinity by infinity matrix
+通过无穷大矩阵得到无穷大
+
+121
+00:04:38,970 --> 00:04:42,040
+even in the two-player case and so we're
+即使在两人游戏的情况下，所以我们
+
+122
+00:04:42,240 --> 00:04:43,870
+not gonna have something to which Nash's
+不会有纳什的东西
+
+123
+00:04:44,069 --> 00:04:45,340
+theorem applies anymore
+定理不再适用
+
+124
+00:04:45,540 --> 00:04:48,040
+because now we have an infinite sized
+因为现在我们有一个无限的大小
+
+125
+00:04:48,240 --> 00:04:50,740
+game and Nash's theorem only works for
+游戏和纳什定理仅适用于
+
+126
+00:04:50,939 --> 00:04:53,770
+finite games which means games whose
+有限游戏
+
+127
+00:04:53,970 --> 00:04:55,840
+matrices are finite I contain to find
+包含的矩阵是有限的
+
+128
+00:04:56,040 --> 00:04:59,590
+that number of numbers and that means we
+该数量的数字，这意味着我们
+
+129
+00:04:59,790 --> 00:05:02,319
+we don't have any reason based on what
+我们没有任何理由
+
+130
+00:05:02,519 --> 00:05:04,120
+we know so far even to be sure that
+到目前为止，我们甚至可以确定
+
+131
+00:05:04,319 --> 00:05:07,300
+equilibria do exist in these games
+这些游戏中确实存在均衡
+
+132
+00:05:07,500 --> 00:05:09,699
+on the other hand because there are an
+另一方面，因为有一个
+
+133
+00:05:09,899 --> 00:05:11,680
+infinite number of strategies there
+那里有无限数量的策略
+
+134
+00:05:11,879 --> 00:05:13,720
+might even be an infinite number of pure
+甚至可能是无数个纯净的
+
+135
+00:05:13,920 --> 00:05:16,990
+strategy equilibria so we've seen the
+策略平衡，所以我们已经看到了
+
+136
+00:05:17,189 --> 00:05:18,670
+fact that in the past it's possible to
+过去有可能
+
+137
+00:05:18,870 --> 00:05:19,840
+have an infinite number of mixed
+有无限数量的混合
+
+138
+00:05:20,040 --> 00:05:22,480
+strategy equilibria for example if I in
+策略均衡，例如，如果我在
+
+139
+00:05:22,680 --> 00:05:24,090
+a normal form game have two strategies
+普通形式的游戏有两种策略
+
+140
+00:05:24,290 --> 00:05:26,139
+two pure strategies that I've been
+我去过的两个纯策略
+
+141
+00:05:26,339 --> 00:05:27,610
+different between than any mixture
+不同于任何混合物
+
+142
+00:05:27,810 --> 00:05:29,050
+between them can also be a best response
+他们之间也可能是最好的回应
+
+143
+00:05:29,250 --> 00:05:31,420
+for me so that there's a sense in which
+对我来说，在某种意义上
+
+144
+00:05:31,620 --> 00:05:33,009
+I can have an infinite number of mixed
+我可以有无数的混合
+
+145
+00:05:33,209 --> 00:05:35,050
+strategy equilibria but here I can have
+策略平衡，但在这里我可以
+
+146
+00:05:35,250 --> 00:05:36,670
+an infinite number of qualitatively
+定性地无数
+
+147
+00:05:36,870 --> 00:05:38,430
+different pure strategy equilibria
+不同的纯策略均衡
+
+148
+00:05:38,629 --> 00:05:41,910
+potentially that seems like a problem so
+可能这似乎是一个问题，所以
+
+149
+00:05:42,110 --> 00:05:44,020
+we're not going to be able to somehow
+我们将无法以某种方式
+
+150
+00:05:44,220 --> 00:05:46,329
+list off the equilibria necessarily of a
+列出必然的平衡
+
+151
+00:05:46,529 --> 00:05:49,210
+repeated game interestingly there is
+有趣的是重复游戏
+
+152
+00:05:49,410 --> 00:05:51,340
+still something that we can coherently
+仍然是我们可以连贯的东西
+
+153
+00:05:51,540 --> 00:05:53,290
+do to give a satisfying answer about the
+给出一个令人满意的答案
+
+154
+00:05:53,490 --> 00:05:55,090
+Nash equilibria of infinitely repeated
+无限重复的纳什均衡
+
+155
+00:05:55,290 --> 00:05:57,218
+games and in this video I'm going to
+游戏，在这个视频中，我将
+
+156
+00:05:57,418 --> 00:05:59,500
+tell you what it is and actually because
+告诉你这是什么，实际上是因为
+
+157
+00:05:59,699 --> 00:06:01,060
+it's so satisfying I'm even going to
+真的很满足，我什至会去
+
+158
+00:06:01,259 --> 00:06:02,290
+prove this theorem to you so you'll
+向您证明该定理，以便您
+
+159
+00:06:02,490 --> 00:06:03,610
+really will understand how this one
+真的会了解这一个
+
+160
+00:06:03,810 --> 00:06:07,090
+works and here's the idea of the theorem
+起作用，这是定理的想法
+
+161
+00:06:07,290 --> 00:06:09,340
+that we will eventually prove we can
+我们将最终证明我们可以
+
+162
+00:06:09,540 --> 00:06:11,530
+characterize what payoffs can be
+表征可能的收益
+
+163
+00:06:11,730 --> 00:06:14,110
+achieved under equilibrium and we can
+在平衡下实现，我们可以
+
+164
+00:06:14,310 --> 00:06:16,569
+give an example of equilibrium
+给出一个平衡的例子
+
+165
+00:06:16,769 --> 00:06:18,430
+strategies that result in those payoffs
+那些带来回报的策略
+
+166
+00:06:18,629 --> 00:06:21,100
+without giving every equilibrium that
+没有给出所有的平衡
+
+167
+00:06:21,300 --> 00:06:23,290
+results in those paths so we're going to
+导致这些路径，所以我们要
+
+168
+00:06:23,490 --> 00:06:25,840
+kind of characterize which strategies
+表征哪些策略
+
+169
+00:06:26,040 --> 00:06:29,230
+are in equilibrium in infinitely
+无限地处于平衡状态
+
+170
+00:06:29,430 --> 00:06:31,240
+repeated games sort of via their payoffs
+重复的游戏，例如通过回报
+
+171
+00:06:31,439 --> 00:06:32,290
+I'm going to be able to tell you
+我会告诉你的
+
+172
+00:06:32,490 --> 00:06:34,840
+precisely which payoff vectors are
+确切地讲，哪些收益向量是
+
+173
+00:06:35,040 --> 00:06:39,160
+achievable in equilibrium so to do that
+达到平衡是可以做到的
+
+174
+00:06:39,360 --> 00:06:40,540
+I need to give you a little bit of
+我需要给你一点
+
+175
+00:06:40,740 --> 00:06:41,319
+notation so we
+符号，所以我们
+
+176
+00:06:41,519 --> 00:06:43,929
+talk about these payoff vectors so this
+谈论这些收益向量
+
+177
+00:06:44,129 --> 00:06:45,819
+is kind of our slide of notation once we
+一旦我们完成，这就是我们的符号幻灯片
+
+178
+00:06:46,019 --> 00:06:47,020
+get through this we're gonna have all
+通过这个我们将拥有所有
+
+179
+00:06:47,220 --> 00:06:48,369
+the building blocks we need to prove out
+我们需要证明的基础
+
+180
+00:06:48,569 --> 00:06:51,459
+there so we're going to start with some
+在那里，我们将从一些开始
+
+181
+00:06:51,658 --> 00:06:55,718
+and player game so this is just our
+和玩家游戏，所以这只是我们的
+
+182
+00:06:55,918 --> 00:06:57,660
+stage game some normal form game and
+舞台游戏一些普通形式的游戏
+
+183
+00:06:57,860 --> 00:07:00,069
+we're also going to start with some
+我们也将从一些
+
+184
+00:07:00,269 --> 00:07:02,230
+payoff vector here and by this what I
+回报向量在这里，由此我
+
+185
+00:07:02,430 --> 00:07:04,209
+mean is the utilities that the players
+意思是玩家的效用
+
+186
+00:07:04,408 --> 00:07:07,059
+get in the game now in this video I'm
+我现在在这个视频中加入游戏
+
+187
+00:07:07,259 --> 00:07:09,009
+gonna talk about the average reward case
+要谈论平均奖励情况
+
+188
+00:07:09,209 --> 00:07:11,559
+where each of these numbers actually
+这些数字实际上在哪里
+
+189
+00:07:11,759 --> 00:07:14,319
+encodes the utility that I get on
+编码我得到的实用程序
+
+190
+00:07:14,519 --> 00:07:17,619
+average by following my strategy in the
+通过遵循我在
+
+191
+00:07:17,819 --> 00:07:19,809
+infinitely repeated game and so that's
+无限重复的游戏，所以
+
+192
+00:07:20,009 --> 00:07:22,240
+gonna say I care just in the same way
+会说我以同样的方式在乎
+
+193
+00:07:22,439 --> 00:07:24,520
+about payoffs that I get now and payoffs
+关于我现在得到的收益和收益
+
+194
+00:07:24,720 --> 00:07:26,139
+that I get a million iterations into the
+我得到了一百万次迭代
+
+195
+00:07:26,339 --> 00:07:26,639
+future
+未来
+
+196
+00:07:26,839 --> 00:07:29,170
+we can do something similar in the
+我们可以在
+
+197
+00:07:29,370 --> 00:07:31,209
+discounted reward case and that's gonna
+打折的奖励案例，那将会
+
+198
+00:07:31,408 --> 00:07:32,709
+be the topic of a different video but
+是另一部影片的主题，但
+
+199
+00:07:32,908 --> 00:07:33,968
+for this video we're gonna talk only
+对于这个视频，我们只会说
+
+200
+00:07:34,168 --> 00:07:36,278
+about the average reward case and the
+关于平均奖励情况和
+
+201
+00:07:36,478 --> 00:07:37,600
+reason is the proof is a little bit
+原因是证明有点
+
+202
+00:07:37,800 --> 00:07:38,800
+easier to think about in the average
+平均而言更容易考虑
+
+203
+00:07:39,000 --> 00:07:41,170
+reward case even though the discounted
+奖励案例，即使打折
+
+204
+00:07:41,370 --> 00:07:44,410
+reward reward case is maybe a bit more
+奖励奖励案例可能更多
+
+205
+00:07:44,610 --> 00:07:46,480
+of a practical setting we can get across
+我们可以了解的实际环境
+
+206
+00:07:46,680 --> 00:07:48,850
+the the key ideas of both proofs by this
+这两个证明的关键思想
+
+207
+00:07:49,050 --> 00:07:52,959
+proof and this one's a bit easier so so
+证明，这有点容易，所以
+
+208
+00:07:53,158 --> 00:07:55,930
+let's do it to do that I need to remind
+让我们做到这一点，我需要提醒
+
+209
+00:07:56,129 --> 00:07:58,389
+you of the concept of the min Max value
+最小最大值的概念
+
+210
+00:07:58,589 --> 00:08:01,959
+here which is something that we kind of
+这是我们有点
+
+211
+00:08:02,158 --> 00:08:03,850
+introduced in the concept of zero-sum
+零和概念引入
+
+212
+00:08:04,050 --> 00:08:05,079
+games but it turns out to be very
+游戏，但事实证明它非常
+
+213
+00:08:05,278 --> 00:08:06,759
+important for repeated games so I'm
+对于重复游戏很重要，所以我
+
+214
+00:08:06,959 --> 00:08:08,050
+going to remind you of what it is here
+会让你想起这里的一切
+
+215
+00:08:08,250 --> 00:08:10,569
+so this is the mathematical definition
+所以这是数学上的定义
+
+216
+00:08:10,769 --> 00:08:14,829
+of the mid max value but let me start by
+最大值的中间值，但让我开始
+
+217
+00:08:15,028 --> 00:08:16,119
+saying in words what it means because
+用语言说这是什么意思，因为
+
+218
+00:08:16,319 --> 00:08:18,639
+the the nested min and Max operators are
+嵌套的min和Max运算符是
+
+219
+00:08:18,839 --> 00:08:20,100
+a little bit hard to think about
+有点难以思考
+
+220
+00:08:20,300 --> 00:08:23,079
+essentially with what eyes min Max value
+本质上用最小的眼睛看最大值
+
+221
+00:08:23,278 --> 00:08:27,430
+is is it's the amount of utility that
+是它的实用性
+
+222
+00:08:27,629 --> 00:08:30,218
+player I is able to obtain for himself
+我可以自己获得的玩家
+
+223
+00:08:30,418 --> 00:08:33,370
+if all of the other players who we call
+如果我们打电话给其他所有玩家
+
+224
+00:08:33,570 --> 00:08:36,069
+- I are completely unconcerned about
+ -我完全不关心
+
+225
+00:08:36,269 --> 00:08:38,439
+their own utility and instead they're
+他们自己的实用程序，而是
+
+226
+00:08:38,639 --> 00:08:40,479
+just trying to hurt I as much as
+只是想尽可能地伤害我
+
+227
+00:08:40,679 --> 00:08:44,500
+possible so they all play that strategy
+有可能，所以他们都扮演这个策略
+
+228
+00:08:44,700 --> 00:08:46,889
+from their joint mixed strategy space
+从他们联合的混合策略空间
+
+229
+00:08:47,089 --> 00:08:51,669
+that if I respond to that by doing the
+如果我通过做出回应
+
+230
+00:08:51,870 --> 00:08:54,229
+best thing that I can for himself
+我能为自己做的最好的事情
+
+231
+00:08:54,429 --> 00:08:58,429
+then eyes utility is as low as possible
+那么眼睛的实用性越低
+
+232
+00:08:58,629 --> 00:09:00,919
+so they're trying to minimize eyes
+所以他们正在努力减少眼睛
+
+233
+00:09:01,120 --> 00:09:04,189
+utility given that I is trying to
+鉴于我正在尝试实用
+
+234
+00:09:04,389 --> 00:09:05,569
+maximize in response to their
+最大限度地回应他们
+
+235
+00:09:05,769 --> 00:09:08,870
+minimization and the number that comes
+最小化和随之而来的数量
+
+236
+00:09:09,070 --> 00:09:11,179
+out at the end is the amount of utility
+最后是效用的数量
+
+237
+00:09:11,379 --> 00:09:15,078
+that I can get by doing as best he can
+我可以尽他所能
+
+238
+00:09:15,278 --> 00:09:16,939
+against everybody trying to hurt him as
+反对每个试图伤害他的人
+
+239
+00:09:17,139 --> 00:09:17,809
+much as possible
+尽可能多
+
+240
+00:09:18,009 --> 00:09:20,839
+so that's eyes min max value so
+所以眼睛最小最大值
+
+241
+00:09:21,039 --> 00:09:24,198
+intuitively if I want to punish you as
+如果我想惩罚你
+
+242
+00:09:24,399 --> 00:09:25,909
+much as possible in a game and you know
+在游戏中尽可能多地知道
+
+243
+00:09:26,110 --> 00:09:29,059
+that I'm trying to punish you that's the
+我想惩罚你的就是
+
+244
+00:09:29,259 --> 00:09:30,620
+amount of utility that you get is your
+您获得的实用程序数量是您的
+
+245
+00:09:30,820 --> 00:09:34,639
+min Max value so I will say that a
+最小值最大值，所以我会说
+
+246
+00:09:34,839 --> 00:09:37,519
+payoff profile remember a payoff profile
+支付配置文件记住支付配置文件
+
+247
+00:09:37,720 --> 00:09:41,109
+is a payoff amount for everybody is
+是每个人的回报金额是
+
+248
+00:09:41,309 --> 00:09:43,008
+enforceable or give it the name
+可执行的或为其命名
+
+249
+00:09:43,208 --> 00:09:45,969
+enforceable if it's the case that
+在这种情况下可以执行
+
+250
+00:09:46,169 --> 00:09:47,839
+everybody's payoff and that payoff
+每个人的回报，那回报
+
+251
+00:09:48,039 --> 00:09:51,559
+profile is at least their min Max value
+个人资料至少是其最小值，最大值
+
+252
+00:09:51,759 --> 00:09:53,779
+so if anybody is getting less than their
+所以如果有人比他们少
+
+253
+00:09:53,980 --> 00:09:55,609
+min Max value in a given payoff profile
+最小给定收益曲线中的最大值
+
+254
+00:09:55,809 --> 00:09:57,919
+I will say that that's an unenforceable
+我会说那是无法执行的
+
+255
+00:09:58,120 --> 00:10:02,629
+payoff profile and I will say that a
+还清个人资料，我会说
+
+256
+00:10:02,830 --> 00:10:05,689
+payoff profile is feasible you I'll use
+我将使用支付配置文件是可行的
+
+257
+00:10:05,889 --> 00:10:08,449
+this technical term feasible if the
+如果该技术术语可行
+
+258
+00:10:08,649 --> 00:10:10,029
+following condition is true
+以下条件为真
+
+259
+00:10:10,230 --> 00:10:11,899
+intuitively what I want to say about
+直觉上我想说些什么
+
+260
+00:10:12,100 --> 00:10:15,109
+feasibility is that it's possible to
+可行性是有可能
+
+261
+00:10:15,309 --> 00:10:17,508
+actually get that payoff profile by
+实际通过
+
+262
+00:10:17,708 --> 00:10:19,909
+combining together payoffs in the actual
+结合实际收益
+
+263
+00:10:20,110 --> 00:10:20,779
+game that's being played
+正在玩的游戏
+
+264
+00:10:20,980 --> 00:10:22,549
+notice that enforceability doesn't
+请注意，可执行性并不
+
+265
+00:10:22,750 --> 00:10:24,799
+actually require that it's possible you
+实际要求有可能
+
+266
+00:10:25,000 --> 00:10:27,529
+know I could say the payoff 1 million
+知道我可以说回报一百万
+
+267
+00:10:27,730 --> 00:10:29,240
+dollars for me a million for you in
+一百万美元给我
+
+268
+00:10:29,440 --> 00:10:31,279
+prisoner's dilemma is an enforceable
+囚徒困境是可以执行的
+
+269
+00:10:31,480 --> 00:10:32,929
+payoff profile because it's above both
+支付配置文件，因为它高于两者
+
+270
+00:10:33,129 --> 00:10:35,120
+of our min Max values but there's no way
+我们的最小最大数值，但是没有办法
+
+271
+00:10:35,320 --> 00:10:36,828
+we can actually each get a million in
+我们每个人实际上可以得到一百万
+
+272
+00:10:37,028 --> 00:10:37,969
+prisoner's dilemma because the numbers
+囚徒困境，因为数字
+
+273
+00:10:38,169 --> 00:10:40,549
+don't go that high so feasibility is
+不要走得那么高，所以可行性是
+
+274
+00:10:40,750 --> 00:10:41,539
+going to talk about what it's actually
+要说说它到底是什么
+
+275
+00:10:41,740 --> 00:10:44,000
+possible to do and the way we're going
+可能做的事情以及我们要走的路
+
+276
+00:10:44,200 --> 00:10:46,699
+to say this is I'm going to restrict
+说这是我要限制
+
+277
+00:10:46,899 --> 00:10:49,939
+myself to rational numbers I'm going to
+我要去有理数
+
+278
+00:10:50,139 --> 00:10:52,448
+say if there exists rational and
+说是否存在理性和
+
+279
+00:10:52,649 --> 00:10:56,779
+non-negative values alpha a such that
+非负值alpha a这样
+
+280
+00:10:56,980 --> 00:11:00,789
+for all players I can express player i's
+对于所有玩家，我可以表示玩家我是
+
+281
+00:11:00,990 --> 00:11:05,359
+element from this payoff vector as a sum
+此收益向量中的元素作为总和
+
+282
+00:11:05,559 --> 00:11:08,118
+over all of the payoff profile
+在所有的支付配置文件中
+
+283
+00:11:08,318 --> 00:11:10,339
+action profiles in the normal form game
+正常形式游戏中的动作配置文件
+
+284
+00:11:10,539 --> 00:11:15,108
+of this alpha a x eyes utility for that
+该alpha斧眼实用程序的
+
+285
+00:11:15,308 --> 00:11:19,428
+a so intuitively oh and then of course I
+这么直观哦，然后我当然
+
+286
+00:11:19,629 --> 00:11:22,488
+need this let me just say this last part
+需要这个让我只说最后一部分
+
+287
+00:11:22,688 --> 00:11:24,438
+of the condition that these alphas all
+这些alpha都满足的条件
+
+288
+00:11:24,639 --> 00:11:26,178
+sum to one across all of the action
+在所有动作中求和
+
+289
+00:11:26,379 --> 00:11:28,548
+profiles so let me kind of explain to
+个人资料，让我来解释一下
+
+290
+00:11:28,749 --> 00:11:33,978
+you what this means so so I have kind of
+你这意味着什么，所以我有点
+
+291
+00:11:34,178 --> 00:11:38,538
+a normal form game and what I want to
+普通形式的游戏以及我想要的
+
+292
+00:11:38,739 --> 00:11:43,519
+say is I have some weight on each cell
+说我每个单元格都有重量
+
+293
+00:11:43,720 --> 00:11:47,838
+in the game these are the Alpha A's and
+在游戏中，这些是Alpha A和
+
+294
+00:11:48,038 --> 00:11:50,389
+they all sum to one and what I want to
+它们全部合为一，而我想要
+
+295
+00:11:50,589 --> 00:11:53,238
+do is take my payoff from this cell
+要做的就是从这个单元中获得收益
+
+296
+00:11:53,438 --> 00:11:55,968
+weighted by the alpha for that cell my
+由该单元格的alpha加权
+
+297
+00:11:56,168 --> 00:11:58,008
+payoff for this next cell weighted by my
+下一个单元的收益由我加权
+
+298
+00:11:58,208 --> 00:12:00,889
+alpha for that cell and sum all of those
+该单元格的Alpha值并将所有这些值相加
+
+299
+00:12:01,089 --> 00:12:03,438
+those weighted utilities for me up and
+那些加权的公用事业对我来说
+
+300
+00:12:03,639 --> 00:12:06,709
+then I get alright so I what I want to
+然后我就好了，所以我想要
+
+301
+00:12:06,909 --> 00:12:08,568
+say is there exists alpha s that I could
+说有存在我可以的alpha s 
+
+302
+00:12:08,769 --> 00:12:10,428
+use that would blend together the
+使用将融合在一起
+
+303
+00:12:10,629 --> 00:12:12,828
+payoffs in the actual game in such a way
+以这种方式在实际游戏中获得收益
+
+304
+00:12:13,028 --> 00:12:17,118
+that I get RI and furthermore that has
+我得到了RI，而且还有
+
+305
+00:12:17,318 --> 00:12:18,889
+to simultaneously be true for everybody
+同时对每个人都真实
+
+306
+00:12:19,089 --> 00:12:21,918
+else and in particular it has to be true
+否则，尤其是它必须是真实的
+
+307
+00:12:22,119 --> 00:12:24,288
+with the same alpha as for everybody
+与每个人的alpha相同
+
+308
+00:12:24,489 --> 00:12:26,209
+else so I can come up with some alphas
+否则我可以提出一些Alpha 
+
+309
+00:12:26,409 --> 00:12:28,788
+that make that get me my RI but then I
+这使我得到了我的注册商标，但后来我
+
+310
+00:12:28,989 --> 00:12:31,459
+have to use those same alphas to get RJ
+必须使用相同的Alpha来获得RJ 
+
+311
+00:12:31,659 --> 00:12:33,828
+for player J I have to have the same
+ JI玩家必须有相同的
+
+312
+00:12:34,028 --> 00:12:37,788
+weights on all of the DES cells here so
+这里所有DES电池的权重
+
+313
+00:12:37,989 --> 00:12:39,139
+that I get the same numbers for
+我得到相同的数字
+
+314
+00:12:39,339 --> 00:12:41,358
+everybody so so let's think about the
+大家都这样，让我们​​考虑一下
+
+315
+00:12:41,558 --> 00:12:42,798
+following game which will give you an
+以下游戏将为您提供
+
+316
+00:12:42,999 --> 00:12:45,738
+example of how feasibility works so
+可行性如何运作的示例
+
+317
+00:12:45,938 --> 00:12:50,688
+let's say I have a game that looks like
+假设我有一个看起来像
+
+318
+00:12:50,889 --> 00:12:53,188
+this
+这个
+
+319
+00:12:56,620 --> 00:12:59,639
+so in this game I claim the payoff
+所以在这个游戏中我要求回报
+
+320
+00:12:59,840 --> 00:13:04,139
+profile 1/1 is enforceable and the
+配置文件1/1是可执行的， 
+
+321
+00:13:04,340 --> 00:13:09,599
+reason is I can put a weight of 50% on
+原因是我可以将50％的重量放在
+
+322
+00:13:09,799 --> 00:13:12,539
+this cell a weight of 50 percent on this
+这个电池的重量为50％ 
+
+323
+00:13:12,740 --> 00:13:15,779
+cell and weights of zero on these cells
+像元，这些像元的权重为零
+
+324
+00:13:15,980 --> 00:13:19,109
+and you can see my payoff in this game
+你可以在这个游戏中看到我的收益
+
+325
+00:13:19,309 --> 00:13:23,609
+is 50% times 2 plus 0 times 0 plus 0
+是50％乘以2加0乘以0加0 
+
+326
+00:13:23,809 --> 00:13:28,649
+times 0 plus 50% times 0 which is 1 the
+ 0乘以50％乘以0，即1 
+
+327
+00:13:28,850 --> 00:13:31,529
+other players payoff in this game is 50%
+此游戏中其他玩家的收益是50％ 
+
+328
+00:13:31,730 --> 00:13:35,669
+times 0 plus 0 times 0 plus 0 times 0
+ 0加0乘0加0乘0 
+
+329
+00:13:35,870 --> 00:13:40,109
+plus 50% times 2 which is also 1 so that
+加50％乘以2也等于1，这样
+
+330
+00:13:40,309 --> 00:13:43,740
+is a feasible payoff in this game on the
+是这个游戏中可行的回报
+
+331
+00:13:43,940 --> 00:13:49,169
+other hand the payoff to 2 is not
+另一方面，对2的回报不是
+
+332
+00:13:49,370 --> 00:13:51,719
+feasible in this game and the reason is
+在这个游戏中可行，原因是
+
+333
+00:13:51,919 --> 00:13:54,479
+there's no way that I can have weights
+我不可能有重量
+
+334
+00:13:54,679 --> 00:13:57,240
+on these cells that sum up to 1
+在这些单元格上总计为1 
+
+335
+00:13:57,440 --> 00:13:59,699
+and that give both of us to because for
+这给了我们俩，因为
+
+336
+00:13:59,899 --> 00:14:01,319
+me to get a payoff of 2 this would have
+我得到2的回报
+
+337
+00:14:01,519 --> 00:14:04,139
+to be 1 that's the only cell where I get
+成为1，这是我得到的唯一单元格
+
+338
+00:14:04,340 --> 00:14:06,839
+a payoff at all and for my opponent to
+完全是对我的对手的回报
+
+339
+00:14:07,039 --> 00:14:09,089
+get to this one would have to be 1 and
+达到这一点必须是1并且
+
+340
+00:14:09,289 --> 00:14:12,169
+then they would both sum up to more than
+那么它们两者的总和将超过
+
+341
+00:14:12,370 --> 00:14:14,819
+than 1 this condition over here would be
+比1这个条件在这里是
+
+342
+00:14:15,019 --> 00:14:17,219
+violated and so we just can't do it so
+违反了，所以我们做不到
+
+343
+00:14:17,419 --> 00:14:26,729
+that's not a feasible path ok now we're
+那不是可行的路线，现在我们
+
+344
+00:14:26,929 --> 00:14:30,990
+ready to prove the folk theorem so and
+准备证明民间定理
+
+345
+00:14:31,190 --> 00:14:32,609
+it's kind of funny it's called the folk
+这很有趣，被称为民间
+
+346
+00:14:32,809 --> 00:14:34,259
+theorem it's kind of like a folk song
+定理有点像民歌
+
+347
+00:14:34,460 --> 00:14:36,599
+for mathematicians so a folk song is a
+对于数学家来说，一首民歌是一首
+
+348
+00:14:36,799 --> 00:14:38,279
+song that everybody knows but nobody
+大家都知道但是没人的歌
+
+349
+00:14:38,480 --> 00:14:40,829
+really knows who wrote it first and a
+真的知道是谁先写的
+
+350
+00:14:41,029 --> 00:14:43,019
+folk theorem is a theorem that people
+民间定理是人们的一个定理
+
+351
+00:14:43,220 --> 00:14:44,699
+all kind of knew and talked about before
+以前都知道和谈论过
+
+352
+00:14:44,899 --> 00:14:46,139
+they got around to writing it down and
+他们到处写下来， 
+
+353
+00:14:46,340 --> 00:14:47,849
+they're not really sure quite where it
+他们不太确定到底在哪里
+
+354
+00:14:48,049 --> 00:14:50,339
+came from so this is the folk theorem of
+来自，所以这是
+
+355
+00:14:50,539 --> 00:14:54,809
+game theory and despite having uncertain
+博弈论，尽管不确定
+
+356
+00:14:55,009 --> 00:14:59,899
+origins it's it's very important so in
+起源很重要，所以在
+
+357
+00:15:00,100 --> 00:15:02,729
+the folk theorem basically tells us what
+民间定理基本上告诉我们什么
+
+358
+00:15:02,929 --> 00:15:04,589
+the Nash equilibria are of an infinitely
+纳什均衡是无限的
+
+359
+00:15:04,789 --> 00:15:07,229
+repeated game in terms of these payoffs
+在这些收益方面反复进行游戏
+
+360
+00:15:07,429 --> 00:15:07,949
+and in terms of
+而就
+
+361
+00:15:08,149 --> 00:15:09,750
+definitions that I just told you so
+我刚才告诉你的定义
+
+362
+00:15:09,950 --> 00:15:10,919
+there are different folk theorems for
+有不同的民间定理
+
+363
+00:15:11,120 --> 00:15:12,659
+different settings this is the folk
+不同的设置，这是民间的
+
+364
+00:15:12,860 --> 00:15:14,669
+theorem for infinitely repeated games
+无限重复博弈定理
+
+365
+00:15:14,870 --> 00:15:20,519
+with average rewards so the folk theorem
+具有平均回报，所以民间定理
+
+366
+00:15:20,720 --> 00:15:24,689
+has two parts which basically stems from
+基本上有两个部分
+
+367
+00:15:24,889 --> 00:15:26,339
+the fact that I've made a restriction
+我已经限制的事实
+
+368
+00:15:26,539 --> 00:15:29,339
+here to rational alphas turns out we
+在这里有理性的阿尔法证明了我们
+
+369
+00:15:29,539 --> 00:15:30,899
+don't actually need that but the math
+实际上并不需要，但数学
+
+370
+00:15:31,100 --> 00:15:33,029
+gets more annoying if we have to deal
+如果我们必须处理，会变得更烦人
+
+371
+00:15:33,230 --> 00:15:35,009
+with real values so to keep things
+具有真正的价值，以便保留事物
+
+372
+00:15:35,210 --> 00:15:37,049
+simple I'm doing this just for rational
+简单，我这样做只是为了理性
+
+373
+00:15:37,250 --> 00:15:40,949
+numbers so the folk theorem says that in
+数字，所以民间定理说
+
+374
+00:15:41,149 --> 00:15:43,589
+any end player game which we're going to
+我们要进行的任何最终玩家游戏
+
+375
+00:15:43,789 --> 00:15:47,399
+repeat infinitely and for any payoff
+无限重复并获得任何回报
+
+376
+00:15:47,600 --> 00:15:50,759
+vector r1 to RN just like we've been
+就像我们以前一样，将向量r1传递给RN 
+
+377
+00:15:50,960 --> 00:15:55,559
+talking about well first of all we're
+首先谈论好我们
+
+378
+00:15:55,759 --> 00:15:59,099
+gonna talk about the case where if R is
+要说说如果R是
+
+379
+00:15:59,299 --> 00:16:00,959
+the payoff in a Nash equilibrium of the
+纳什均衡的收益
+
+380
+00:16:01,159 --> 00:16:02,759
+infinitely repeated game with average
+无限次重复平均游戏
+
+381
+00:16:02,960 --> 00:16:05,039
+rewards what we can conclude about the
+奖励我们可以得出的结论
+
+382
+00:16:05,240 --> 00:16:07,229
+payoff vector and what we conclude is
+收益向量，我们得出的结论是
+
+383
+00:16:07,429 --> 00:16:10,379
+that for every player R has to be
+对于每个玩家R必须
+
+384
+00:16:10,580 --> 00:16:12,809
+enforceable remember enforceable means
+可执行记住可执行的手段
+
+385
+00:16:13,009 --> 00:16:14,279
+greater than or equal to that players
+大于或等于该玩家
+
+386
+00:16:14,480 --> 00:16:17,279
+mid max value so I can conclude that if
+中间最大值，所以我可以得出结论，如果
+
+387
+00:16:17,480 --> 00:16:20,370
+R is the payoff in an equilibrium of the
+ R是在
+
+388
+00:16:20,570 --> 00:16:21,839
+infinitely repeated game with average
+无限次重复平均游戏
+
+389
+00:16:22,039 --> 00:16:26,339
+rewards then for everybody that R must
+然后为R必须给的每个人奖励
+
+390
+00:16:26,539 --> 00:16:28,799
+be enforceable that seems like kind of a
+具有可执行性，似乎有点像
+
+391
+00:16:29,000 --> 00:16:31,529
+weak thing to say the second part of the
+薄弱的事情要说第二部分
+
+392
+00:16:31,730 --> 00:16:33,089
+folk theorem is kind of more surprising
+民间定理有点让人惊讶
+
+393
+00:16:33,289 --> 00:16:36,659
+it says basically that's the only
+它说基本上这是唯一的
+
+394
+00:16:36,860 --> 00:16:40,829
+restriction we need if R is enforceable
+如果R是可执行的，我们需要的限制
+
+395
+00:16:41,029 --> 00:16:43,589
+and furthermore if it's feasible if it's
+而且如果可行的话
+
+396
+00:16:43,789 --> 00:16:45,059
+kind of possible to make it out of the
+一种可能使它脱离
+
+397
+00:16:45,259 --> 00:16:49,169
+payoffs of the game then R is the payoff
+游戏的收益，那么R是收益
+
+398
+00:16:49,370 --> 00:16:53,099
+in some Nash equilibrium so together
+在纳什均衡中
+
+399
+00:16:53,299 --> 00:16:54,779
+what this says is that basically
+这基本上是说
+
+400
+00:16:54,980 --> 00:16:57,240
+feasibility and enforceability is the
+可行性和可执行性是
+
+401
+00:16:57,440 --> 00:16:58,769
+whole story of Nash equilibrium and
+纳什均衡和
+
+402
+00:16:58,970 --> 00:17:00,719
+force ability seems like this very small
+力量似乎很小
+
+403
+00:17:00,919 --> 00:17:03,809
+thing it says you're getting no less
+它说你越来越少的事情
+
+404
+00:17:04,009 --> 00:17:05,638
+than the payoff that you get if everyone
+比每个人都能得到的回报
+
+405
+00:17:05,838 --> 00:17:07,289
+punishes you as much as it's possible
+尽可能地惩罚你
+
+406
+00:17:07,490 --> 00:17:10,500
+for them to punish you and feasibility
+让他们惩罚你和可行性
+
+407
+00:17:10,700 --> 00:17:12,450
+says it's kind of possible to get these
+说有可能得到这些
+
+408
+00:17:12,650 --> 00:17:15,720
+payoffs in the game at all and the folk
+游戏中的回报以及所有
+
+409
+00:17:15,920 --> 00:17:18,480
+theorem says that's basically it as long
+定理说基本上就是这样
+
+410
+00:17:18,680 --> 00:17:20,190
+as you meet those two conditions you've
+当您满足这两个条件时
+
+411
+00:17:20,390 --> 00:17:21,569
+got a Nash equilibrium that's
+纳什均衡是
+
+412
+00:17:21,769 --> 00:17:22,589
+basically what there is to say about
+基本上有什么要说的
+
+413
+00:17:22,789 --> 00:17:24,720
+Nash equilibrium you'll notice this
+纳什均衡，你会注意到这一点
+
+414
+00:17:24,920 --> 00:17:26,009
+there's a little bit of wiggle room
+有一些摆动的房间
+
+415
+00:17:26,209 --> 00:17:28,950
+between these two statements two parts
+这两个语句之间分为两个部分
+
+416
+00:17:29,150 --> 00:17:31,740
+of the theorem statement which has to do
+定理陈述的说明
+
+417
+00:17:31,940 --> 00:17:32,700
+with the fact that we're talking about
+我们正在谈论的事实
+
+418
+00:17:32,900 --> 00:17:34,649
+feasibility here and we're not talking
+这里的可行性，我们不是在谈论
+
+419
+00:17:34,849 --> 00:17:37,500
+about it here so we can't conclude that
+关于它，所以我们不能得出结论
+
+420
+00:17:37,700 --> 00:17:39,210
+every Nash equilibrium is feasible you
+每个纳什均衡都是可行的
+
+421
+00:17:39,410 --> 00:17:40,950
+might wonder why that is that's just
+可能想知道为什么那只是
+
+422
+00:17:41,150 --> 00:17:42,299
+because some of them aren't expressible
+因为其中一些无法表达
+
+423
+00:17:42,500 --> 00:17:44,039
+as rationals some of them they alphas
+作为理性，他们中的一些人
+
+424
+00:17:44,240 --> 00:17:46,139
+wouldn't be rational so so that's the
+不会是理性的，所以这是
+
+425
+00:17:46,339 --> 00:17:47,309
+part that I'm kind of leaving out of
+我有点忽略的部分
+
+426
+00:17:47,509 --> 00:17:49,200
+this proof but that that's a technical
+这个证明，但这是技术上的
+
+427
+00:17:49,400 --> 00:17:51,240
+point so the broad thing that you should
+指出如此广泛的事情
+
+428
+00:17:51,440 --> 00:17:53,059
+remember about the folk theorem is that
+记得关于民间定理是
+
+429
+00:17:53,259 --> 00:17:55,349
+basically feasibility and enforceability
+基本的可行性和可执行性
+
+430
+00:17:55,549 --> 00:17:57,029
+together are equivalent to Nash
+一起相当于纳什
+
+431
+00:17:57,230 --> 00:18:01,680
+equilibrium in repeated games so if if
+在重复游戏中保持平衡，如果
+
+432
+00:18:01,880 --> 00:18:03,059
+you wanted to stop here you now know
+你想在这里停下来，你现在知道
+
+433
+00:18:03,259 --> 00:18:04,379
+what the folk theorem is but I encourage
+民间定理是什么，但我鼓励
+
+434
+00:18:04,579 --> 00:18:05,789
+you to keep watching the rest of the
+你继续看剩下的
+
+435
+00:18:05,990 --> 00:18:07,169
+video and you'll see how we actually
+视频，您会看到我们实际上如何
+
+436
+00:18:07,369 --> 00:18:11,970
+prove this there so let's begin by
+在那里证明这一点，让我们开始
+
+437
+00:18:12,170 --> 00:18:14,190
+saying proving the first part so saying
+说证明第一部分
+
+438
+00:18:14,390 --> 00:18:16,799
+why is it that if the payoff is
+为什么会得到回报
+
+439
+00:18:17,000 --> 00:18:19,079
+achievable in a Nash equilibrium that I
+在纳什均衡中可以实现的
+
+440
+00:18:19,279 --> 00:18:21,139
+can conclude that it must be enforceable
+可以得出结论，它必须是可执行的
+
+441
+00:18:21,339 --> 00:18:23,789
+well to prove this I'm going to prove by
+很好地证明这一点，我将通过
+
+442
+00:18:23,990 --> 00:18:25,549
+contradiction so I'm going to begin by
+矛盾，所以我将开始
+
+443
+00:18:25,750 --> 00:18:27,720
+supposing that the payoff vector is not
+假设收益向量不是
+
+444
+00:18:27,920 --> 00:18:30,930
+enforceable and if not that means that
+可执行的，如果不是，则意味着
+
+445
+00:18:31,130 --> 00:18:33,930
+there must be some player I for whom his
+我一定有某位球员
+
+446
+00:18:34,130 --> 00:18:36,629
+payoff RI is strictly less than his mid
+回报RI严格小于他的中位数
+
+447
+00:18:36,829 --> 00:18:42,589
+max value now let me consider a
+现在让我考虑一个最大值
+
+448
+00:18:42,789 --> 00:18:45,149
+situation in which this player I changes
+我改变这个球员的情况
+
+449
+00:18:45,349 --> 00:18:46,889
+his strategy let's imagine that he
+他的策略让我们想象他
+
+450
+00:18:47,089 --> 00:18:51,869
+instead deviates to playing bi of s
+而是偏向于玩s的bi 
+
+451
+00:18:52,069 --> 00:18:53,700
+minus IH I'll tell you in a second what
+减去IH，我稍后再告诉您
+
+452
+00:18:53,900 --> 00:18:57,899
+that means any time he's in a history H
+这意味着他有任何历史H 
+
+453
+00:18:58,099 --> 00:19:00,210
+of the repeated game so what is this
+重复游戏的结果，这是什么
+
+454
+00:19:00,410 --> 00:19:04,859
+thing it says this is the strategy of
+它说这是策略
+
+455
+00:19:05,059 --> 00:19:06,149
+the other players let's assume that he
+其他球员让我们假设他
+
+456
+00:19:06,349 --> 00:19:07,559
+gets to know what that is because we're
+知道那是什么，因为我们
+
+457
+00:19:07,759 --> 00:19:10,399
+talking about a Nash equilibrium and and
+谈论纳什均衡，以及
+
+458
+00:19:10,599 --> 00:19:14,639
+we'll say bi is just his best response
+我们会说bi只是他最好的回应
+
+459
+00:19:14,839 --> 00:19:17,279
+every time the other players are playing
+每次其他玩家在玩
+
+460
+00:19:17,480 --> 00:19:20,399
+their strategy profile s - I give an H
+他们的策略简介-我给H 
+
+461
+00:19:20,599 --> 00:19:23,099
+for every history H so let's just
+对于每一个历史H 
+
+462
+00:19:23,299 --> 00:19:24,450
+consider a case where he just best
+考虑一个他最好的情况
+
+463
+00:19:24,650 --> 00:19:25,980
+responds to what the other players are
+对其他玩家的反应
+
+464
+00:19:26,180 --> 00:19:31,200
+doing well by the definition of a mini
+迷你的定义做得很好
+
+465
+00:19:31,400 --> 00:19:34,349
+Mac strategy you have to get a payoff of
+ Mac策略，您必须获得回报
+
+466
+00:19:34,549 --> 00:19:34,839
+Atlee
+阿特利
+
+467
+00:19:35,039 --> 00:19:36,909
+german max value in every stage game if
+每个阶段游戏中的德国最大价值
+
+468
+00:19:37,109 --> 00:19:40,450
+you follow this strategy that we just
+您遵循这一策略，我们只是
+
+469
+00:19:40,650 --> 00:19:44,230
+defined because remember the definition
+定义是因为记住定义
+
+470
+00:19:44,430 --> 00:19:48,430
+of a min max value is that you get is
+最大值的最小值是
+
+471
+00:19:48,630 --> 00:19:50,200
+that everyone is trying to hurt you as
+每个人都试图伤害你
+
+472
+00:19:50,400 --> 00:19:51,669
+much as possible and that your best
+尽可能地做到最好
+
+473
+00:19:51,869 --> 00:19:54,819
+responding to that so intuitively if I'm
+如果我很直觉地回应
+
+474
+00:19:55,019 --> 00:19:56,980
+already getting less than my min Max
+已经低于我的最小最大
+
+475
+00:19:57,180 --> 00:19:58,960
+value that means I can't be best
+意味着我不能做到最好
+
+476
+00:19:59,160 --> 00:20:00,789
+responding to everybody else because if
+回应其他人，因为
+
+477
+00:20:00,990 --> 00:20:01,990
+they're trying to hurt me as much as
+他们正尽力伤害我
+
+478
+00:20:02,190 --> 00:20:03,549
+possible which is the worst case for me
+可能这对我来说是最坏的情况
+
+479
+00:20:03,750 --> 00:20:05,799
+and I'm best responding to them I will
+我最好回应他们，我会
+
+480
+00:20:06,000 --> 00:20:08,079
+get my min Max value so intuitively I
+如此直观地获得我的最小最大值
+
+481
+00:20:08,279 --> 00:20:09,579
+could change my strategy to best
+可以将我的策略改变为最佳
+
+482
+00:20:09,779 --> 00:20:11,470
+responding and that has to improve
+回应，这有待改善
+
+483
+00:20:11,670 --> 00:20:12,819
+things for me that would have to bring
+给我带来的东西
+
+484
+00:20:13,019 --> 00:20:16,960
+me up to my mid max value and because
+我达到我的中间最大值，因为
+
+485
+00:20:17,160 --> 00:20:19,419
+that would improve my utility that's a
+那会改善我的效用
+
+486
+00:20:19,619 --> 00:20:20,740
+better response for me than what I was
+对我而言，反应比以前更好
+
+487
+00:20:20,940 --> 00:20:23,589
+doing before and because so basically
+之前做过，因为基本上
+
+488
+00:20:23,789 --> 00:20:25,389
+here we've just kind of constructed a
+在这里，我们只是构建了一个
+
+489
+00:20:25,589 --> 00:20:28,629
+profitable deviation for player I and
+玩家I和
+
+490
+00:20:28,829 --> 00:20:31,089
+because a profitable deviation exists
+因为存在有利可图的偏差
+
+491
+00:20:31,289 --> 00:20:33,819
+for him that means the strategy he was
+对他来说，这意味着他的策略
+
+492
+00:20:34,019 --> 00:20:36,069
+playing before couldn't possibly have
+玩之前不可能
+
+493
+00:20:36,269 --> 00:20:39,099
+been in Nash equilibrium and so that
+处于纳什均衡状态，因此
+
+494
+00:20:39,299 --> 00:20:42,789
+leads us to to derive a contradiction
+导致我们产生矛盾
+
+495
+00:20:42,990 --> 00:20:45,129
+from our assumption that we made at the
+根据我们在
+
+496
+00:20:45,329 --> 00:20:46,450
+beginning that our was not enforceable
+开始我们无法执行
+
+497
+00:20:46,650 --> 00:20:49,240
+so you can see we can conclude that if R
+所以您可以看到我们可以得出结论，如果R 
+
+498
+00:20:49,440 --> 00:20:51,549
+is not enforceable we we can't have a
+无法执行，我们无法
+
+499
+00:20:51,750 --> 00:20:55,149
+Nash equilibrium and and that that been
+纳什均衡，那是
+
+500
+00:20:55,349 --> 00:20:57,599
+proved what we wanted to prove that
+证明了我们想要证明的
+
+501
+00:20:57,799 --> 00:20:59,589
+being in a Nash equilibrium implies
+处于纳什均衡意味着
+
+502
+00:20:59,789 --> 00:21:02,799
+enforceability so that's part one that's
+可执行性，这是
+
+503
+00:21:03,000 --> 00:21:04,269
+kind of the easy direction and the less
+容易的方向和更少的方向
+
+504
+00:21:04,470 --> 00:21:06,519
+interesting direction let's now do the
+有趣的方向，让我们现在做
+
+505
+00:21:06,720 --> 00:21:08,200
+the second and more interesting part
+第二个更有趣的部分
+
+506
+00:21:08,400 --> 00:21:13,529
+which says all I need to assume is that
+这说明我需要假设的是
+
+507
+00:21:13,730 --> 00:21:16,329
+the payoff profile is both feasible and
+收益概况既可行又可行
+
+508
+00:21:16,529 --> 00:21:19,119
+enforceable and that means that I have
+可执行的，这意味着我有
+
+509
+00:21:19,319 --> 00:21:21,369
+found a Nash equilibrium and what's
+发现了纳什均衡，什么是
+
+510
+00:21:21,569 --> 00:21:22,569
+interesting about this part is that
+这部分有趣的是
+
+511
+00:21:22,769 --> 00:21:24,639
+we're going to do it by construction so
+我们将通过施工来做到这一点
+
+512
+00:21:24,839 --> 00:21:27,250
+I'm going to show you how if you're
+我要告诉你如何
+
+513
+00:21:27,450 --> 00:21:29,740
+given any feasible and enforceable
+给出任何可行且可执行的
+
+514
+00:21:29,940 --> 00:21:33,190
+payoff profile you can build a set of
+您可以建立一套
+
+515
+00:21:33,390 --> 00:21:35,200
+strategies for both players which are in
+双方球员的策略
+
+516
+00:21:35,400 --> 00:21:36,460
+equilibrium with respect to each other
+彼此平衡
+
+517
+00:21:36,660 --> 00:21:39,190
+and which obtain exactly that average
+并获得准确的平均值
+
+518
+00:21:39,390 --> 00:21:44,289
+payoff for both players so first of all
+双方球员的回报，所以首先
+
+519
+00:21:44,490 --> 00:21:45,460
+let's just kind of introduce some
+让我们来介绍一些
+
+520
+00:21:45,660 --> 00:21:47,139
+bookkeeping notation that we'll use here
+我们将在此处使用的簿记符号
+
+521
+00:21:47,339 --> 00:21:48,230
+so
+所以
+
+522
+00:21:48,430 --> 00:21:51,769
+since our is feasible and since we've
+因为我们可行，而且
+
+523
+00:21:51,970 --> 00:21:53,710
+assumed that these alphas are rational
+假设这些alpha是合理的
+
+524
+00:21:53,910 --> 00:21:59,859
+then we can write each RI as follows so
+那么我们可以如下写每个RI 
+
+525
+00:22:00,059 --> 00:22:02,589
+basically we can make up new variables
+基本上我们可以组成新的变量
+
+526
+00:22:02,789 --> 00:22:08,180
+beta a and gamma where we replace each
+ beta a和gamma，我们分别替换
+
+527
+00:22:08,380 --> 00:22:13,119
+alpha a by beta a divided by gamma and
+ alpha a除以beta a除以gamma和
+
+528
+00:22:13,319 --> 00:22:15,799
+basically that's not hard to do because
+基本上这并不难，因为
+
+529
+00:22:16,000 --> 00:22:17,599
+we know that the Alpha is irrational so
+我们知道Alpha是不合理的
+
+530
+00:22:17,799 --> 00:22:19,819
+we know that we it's possible to write
+我们知道我们可以写
+
+531
+00:22:20,019 --> 00:22:21,879
+each of these alphas as a fraction and
+这些alpha分别作为分数和
+
+532
+00:22:22,079 --> 00:22:24,529
+then we can make gamma into their common
+然后我们可以将伽玛变成它们的共同点
+
+533
+00:22:24,730 --> 00:22:26,359
+denominator and we can set the betas
+分母，我们可以设置beta 
+
+534
+00:22:26,559 --> 00:22:28,730
+appropriately and then it's possible to
+适当地，然后有可能
+
+535
+00:22:28,930 --> 00:22:31,009
+come up with betas and gammas that make
+提出了使
+
+536
+00:22:31,210 --> 00:22:34,159
+this expression true so so so that
+这个表达如此真实，以至于
+
+537
+00:22:34,359 --> 00:22:35,509
+shouldn't be too surprising that just
+应该不会太惊讶
+
+538
+00:22:35,710 --> 00:22:37,069
+follows from from the fact that these
+从这些事实
+
+539
+00:22:37,269 --> 00:22:41,490
+alphas are rational and from feasibility
+ alpha是合理且可行的
+
+540
+00:22:41,549 --> 00:22:44,419
+now I'm going to construct a strategy
+现在我要制定一个策略
+
+541
+00:22:44,619 --> 00:22:46,460
+profile and then on the next slide I'm
+个人资料，然后在下一张幻灯片上
+
+542
+00:22:46,660 --> 00:22:48,169
+going to argue to you that that strategy
+会跟你说那个策略
+
+543
+00:22:48,369 --> 00:22:51,259
+profile is in equilibrium or that we can
+轮廓处于平衡状态，或者我们可以
+
+544
+00:22:51,460 --> 00:22:54,649
+turn it into an equilibrium so let's
+把它变成平衡，让我们
+
+545
+00:22:54,849 --> 00:22:56,450
+make a strategy profile that cycles
+制定一个循环的战略概况
+
+546
+00:22:56,650 --> 00:22:59,690
+through all of the outcomes using cycles
+使用周期遍历所有结果
+
+547
+00:22:59,890 --> 00:23:02,149
+of length gamma and the way it's going
+伽玛的长度及其发展方式
+
+548
+00:23:02,349 --> 00:23:04,339
+to work is that it's each cycle is going
+工作是每个周期都在进行
+
+549
+00:23:04,539 --> 00:23:07,700
+to repeat action a exactly beta a times
+重复执行一次完全beta的操作
+
+550
+00:23:07,900 --> 00:23:11,869
+so we're gonna have our kind of game
+所以我们要有自己的游戏
+
+551
+00:23:12,069 --> 00:23:16,730
+matrix here and remember beta and gamma
+在这里矩阵并记住beta和gamma 
+
+552
+00:23:16,930 --> 00:23:20,930
+are both integers so so for example
+都是整数，所以例如
+
+553
+00:23:21,130 --> 00:23:23,089
+let's say here we have let's say we have
+让我们在这里说我们有让我们说我们有
+
+554
+00:23:23,289 --> 00:23:26,119
+gamma is 7 and let's say here we have
+伽玛是7，我们在这里说
+
+555
+00:23:26,319 --> 00:23:29,269
+banished to so here alpha a is 2 over 7
+被放逐到此处，因此alpha a是7分之2 
+
+556
+00:23:29,470 --> 00:23:35,419
+let's say here 0 / 7 0 / 7 I'll just
+让我们在这里说0/7 0/7 
+
+557
+00:23:35,619 --> 00:23:38,289
+write the betas from this point on 0 1
+从现在开始在0 1上写beta 
+
+558
+00:23:38,490 --> 00:23:44,899
+to 0 to 0 so let's say that's that's
+从0到0，所以说那是
+
+559
+00:23:45,099 --> 00:23:46,819
+what we had in this particular game then
+然后我们在这个特定游戏中拥有的
+
+560
+00:23:47,019 --> 00:23:48,799
+what the strategy would do is that's
+该策略将要做的是
+
+561
+00:23:49,000 --> 00:23:51,289
+just gonna cycle through so player 1
+只会循环播放，所以玩家1 
+
+562
+00:23:51,490 --> 00:23:53,629
+strategy would be to play let's give
+策略就是玩，让我们给
+
+563
+00:23:53,829 --> 00:23:58,039
+these names a b c d e f so player 1
+这些名称abcdef所以玩家1 
+
+564
+00:23:58,240 --> 00:24:01,909
+strategy would be to play a a b
+策略是打aab 
+
+565
+00:24:02,109 --> 00:24:05,659
+be CeCe and then go back and keep doing
+成为CeCe，然后回去继续做
+
+566
+00:24:05,859 --> 00:24:09,049
+that forever and player2 strategy would
+永远和玩家2的策略会
+
+567
+00:24:09,250 --> 00:24:17,899
+be to play D d e f F EE and then go back
+打D def F EE然后回去
+
+568
+00:24:18,099 --> 00:24:19,909
+and so if the two players played those
+所以如果两个玩家玩过
+
+569
+00:24:20,109 --> 00:24:22,669
+two sets of strategies together in a
+两组策略合在一起
+
+570
+00:24:22,869 --> 00:24:25,159
+coordinated way forever they would cycle
+他们永远循环的协调方式
+
+571
+00:24:25,359 --> 00:24:29,690
+through exactly hitting every action
+通过精确地击中每一个动作
+
+572
+00:24:29,890 --> 00:24:31,789
+profile in this game according to the
+根据该游戏中的配置文件
+
+573
+00:24:31,990 --> 00:24:34,509
+betas in just the way that the betas say
+ Beta就像Beta所说的那样
+
+574
+00:24:34,710 --> 00:24:38,839
+and and let's denote such a sequence a
+并且让我们表示这样一个序列
+
+575
+00:24:39,039 --> 00:24:44,389
+to the T now let me make strategy the
+现在让我制定策略
+
+576
+00:24:44,589 --> 00:24:45,919
+the real strategies for the players that
+玩家的真正策略是
+
+577
+00:24:46,119 --> 00:24:48,190
+I'm gonna claim or an equilibrium here
+我要在这里求平衡
+
+578
+00:24:48,390 --> 00:24:51,740
+let's define a strategy si of player I
+让我们定义玩家I的策略si 
+
+579
+00:24:51,940 --> 00:24:54,858
+to be a trigger version of this strategy
+成为该策略的触发版本
+
+580
+00:24:55,058 --> 00:24:59,930
+so if nobody deviates then si tells the
+因此，如果没有人偏离，那么si会告诉
+
+581
+00:25:00,130 --> 00:25:03,379
+player to play just what 80 would tell
+玩家玩80会告诉你的
+
+582
+00:25:03,579 --> 00:25:05,659
+them to play so the players are going to
+他们玩，所以球员们要
+
+583
+00:25:05,859 --> 00:25:07,339
+begin by kind of cycling through these
+通过这些骑自行车开始
+
+584
+00:25:07,539 --> 00:25:09,549
+outcomes in just the way that I told you
+就像我告诉你的那样
+
+585
+00:25:09,750 --> 00:25:12,799
+but if one player notices that the other
+但是如果一个玩家注意到另一个
+
+586
+00:25:13,000 --> 00:25:14,389
+player didn't do what they were supposed
+玩家没有按预期做
+
+587
+00:25:14,589 --> 00:25:18,079
+to do according to 80 then they're gonna
+根据80做，然后他们会
+
+588
+00:25:18,279 --> 00:25:21,019
+hit the trigger and instead from that
+击中触发器，而不是从那
+
+589
+00:25:21,220 --> 00:25:22,399
+point on they're gonna play the min/max
+点，他们将播放最小/最大
+
+590
+00:25:22,599 --> 00:25:27,950
+value against the other player so if it
+对其他玩家有价值，如果
+
+591
+00:25:28,150 --> 00:25:29,210
+started that that's just what this says
+开始就是这样
+
+592
+00:25:29,410 --> 00:25:32,750
+here so if there's ever a period in
+因此，如果有一段时间
+
+593
+00:25:32,950 --> 00:25:35,389
+which somebody does the wrong thing then
+那有人做错了什么
+
+594
+00:25:35,589 --> 00:25:37,279
+everybody's gonna gang up on that person
+每个人都会帮那个人
+
+595
+00:25:37,480 --> 00:25:40,879
+forever and play the min/max play the
+永远播放最小/最大播放
+
+596
+00:25:41,079 --> 00:25:43,369
+strategy against that person that causes
+针对导致该人的策略
+
+597
+00:25:43,569 --> 00:25:45,759
+that person to get their min max value
+该人获得他们的最小值最大值
+
+598
+00:25:45,960 --> 00:25:48,710
+so so let me just say that one more time
+所以让我再说一遍
+
+599
+00:25:48,910 --> 00:25:51,799
+to make sure we've all got it so so 80
+确保我们都做到了80 
+
+600
+00:25:52,000 --> 00:25:54,469
+is a sequence where which is constructed
+是构造的序列
+
+601
+00:25:54,669 --> 00:25:57,919
+so as to hit every action profile here
+以便点击这里的每个动作档案
+
+602
+00:25:58,119 --> 00:26:01,098
+it's exactly the number of times given
+就是给定的次数
+
+603
+00:26:01,298 --> 00:26:03,919
+by these beta integers and we disciple
+通过这些beta整数，我们成为门徒
+
+604
+00:26:04,119 --> 00:26:06,259
+through that forever and the strategy
+通过永远和策略
+
+605
+00:26:06,460 --> 00:26:08,029
+were interested in is a trigger version
+感兴趣的是触发器版本
+
+606
+00:26:08,230 --> 00:26:10,279
+of that that says everyone tries to do
+其中说每个人都想做
+
+607
+00:26:10,480 --> 00:26:11,539
+that but if somebody does the wrong
+那但是如果有人做错了
+
+608
+00:26:11,740 --> 00:26:12,079
+thing
+事情
+
+609
+00:26:12,279 --> 00:26:14,059
+everybody punishes them forever and
+每个人都永远惩罚他们， 
+
+610
+00:26:14,259 --> 00:26:14,389
+gives
+给
+
+611
+00:26:14,589 --> 00:26:20,180
+max value okay so I want to claim that
+最大值可以，所以我想声明
+
+612
+00:26:20,380 --> 00:26:21,769
+this is a Nash equilibrium of the
+这是纳什均衡的
+
+613
+00:26:21,970 --> 00:26:23,479
+infinitely repeated game with average
+无限次重复平均游戏
+
+614
+00:26:23,679 --> 00:26:26,990
+rewards so first notice that if everyone
+奖励，所以首先要注意的是，如果每个人
+
+615
+00:26:27,190 --> 00:26:29,299
+does play according to this strategy
+确实按照这个策略进行比赛
+
+616
+00:26:29,500 --> 00:26:32,569
+then everyone will get an average payoff
+那么每个人都会得到平均回报
+
+617
+00:26:32,769 --> 00:26:36,108
+of RI just as we want it now you might
+ RI就像我们现在想要的那样
+
+618
+00:26:36,308 --> 00:26:39,250
+be thrown off by the fact that that
+被以下事实抛弃
+
+619
+00:26:39,450 --> 00:26:41,389
+sometimes they're not quite getting RI
+有时他们不太了解RI 
+
+620
+00:26:41,589 --> 00:26:43,669
+because they're only midway through the
+因为它们只是在
+
+621
+00:26:43,869 --> 00:26:44,959
+sequence but we're only interested in
+顺序，但我们只对
+
+622
+00:26:45,159 --> 00:26:47,088
+the limit and so if you look at average
+极限，所以如果你看平均值
+
+623
+00:26:47,288 --> 00:26:49,098
+is over a period of time of length gamma
+超过了一段时间伽玛
+
+624
+00:26:49,298 --> 00:26:50,690
+so you look at what happens after gamma
+所以你看看伽玛之后会发生什么
+
+625
+00:26:50,890 --> 00:26:52,759
+what happens after to gamma what happens
+伽玛之后会发生什么
+
+626
+00:26:52,960 --> 00:26:53,539
+after three gamma
+三伽玛之后
+
+627
+00:26:53,740 --> 00:26:55,039
+you'll you'll be able to convince
+你会说服的
+
+628
+00:26:55,240 --> 00:26:57,069
+yourself that they really do get the
+你自己，他们确实得到了
+
+629
+00:26:57,269 --> 00:27:00,139
+right payoffs because indeed after every
+正确的回报，因为确实在每次
+
+630
+00:27:00,339 --> 00:27:01,669
+period of length gamma they get exactly
+伽玛的长度，他们得到确切
+
+631
+00:27:01,869 --> 00:27:05,899
+the payoff all right by construction so
+建造的收益还可以，所以
+
+632
+00:27:06,099 --> 00:27:08,269
+so indeed this does lead to the payoff
+所以确实确实带来了回报
+
+633
+00:27:08,470 --> 00:27:11,209
+that we're trying to get what remains to
+我们正在努力使剩下的东西
+
+634
+00:27:11,409 --> 00:27:14,029
+show is that this is a Nash equilibrium
+证明这是纳什均衡
+
+635
+00:27:14,230 --> 00:27:18,089
+that nobody can gain by deviating and
+没有人可以通过偏离获得
+
+636
+00:27:18,390 --> 00:27:21,740
+indeed I claim that it is so to show
+确实，我声称它是如此显示
+
+637
+00:27:21,940 --> 00:27:23,779
+that let's let's imagine that everyone
+让我们想象每个人
+
+638
+00:27:23,980 --> 00:27:25,279
+else is playing according to the
+否则根据
+
+639
+00:27:25,480 --> 00:27:27,828
+strategy and some player J deviates at
+策略，某些玩家J偏离了
+
+640
+00:27:28,028 --> 00:27:31,698
+some point well if that happens that for
+如果发生这种情况很好
+
+641
+00:27:31,898 --> 00:27:34,250
+all time after that point player J is
+在该点之后，玩家J一直
+
+642
+00:27:34,450 --> 00:27:37,459
+gonna get his mid max payoff and that's
+会得到他最大的收益
+
+643
+00:27:37,659 --> 00:27:39,379
+gonna render the deviation unprofitable
+会使偏差无利可图
+
+644
+00:27:39,579 --> 00:27:42,289
+because we've assumed that this payoff
+因为我们认为这是回报
+
+645
+00:27:42,490 --> 00:27:46,328
+profile is feasible and enforceable and
+简介是可行且可执行的
+
+646
+00:27:46,528 --> 00:27:49,399
+that means that he was already getting
+那意味着他已经在
+
+647
+00:27:49,599 --> 00:27:52,578
+at least his mid max value and because
+至少是他的中间最大值，因为
+
+648
+00:27:52,778 --> 00:27:55,039
+this is gonna happen for all time right
+这将永远存在
+
+649
+00:27:55,240 --> 00:27:56,569
+this is gonna happen forever afterwards
+这将永远发生
+
+650
+00:27:56,769 --> 00:27:58,969
+that's just gonna end up dominating the
+那将最终主导
+
+651
+00:27:59,169 --> 00:28:00,529
+average everything that's happened for
+平均发生的一切
+
+652
+00:28:00,730 --> 00:28:02,448
+that finite amount of time beforehand is
+预先确定的时间是
+
+653
+00:28:02,648 --> 00:28:04,459
+gonna be washed out of the average and
+会被洗掉
+
+654
+00:28:04,659 --> 00:28:07,009
+instead his average payoff is going to
+相反，他的平均收益是
+
+655
+00:28:07,210 --> 00:28:10,309
+turn out to be his his minimax payoff
+原来是他的极小收益
+
+656
+00:28:10,509 --> 00:28:15,198
+and by our but by the the thing we're
+靠我们，但靠我们
+
+657
+00:28:15,398 --> 00:28:16,879
+trying to prove here we know that that's
+试图证明这里，我们知道那是
+
+658
+00:28:17,079 --> 00:28:20,990
+less than or equal to RJ and so there's
+小于或等于RJ，所以有
+
+659
+00:28:21,190 --> 00:28:22,309
+no reason that he can gain by such a
+没有理由他可以通过这样的收获
+
+660
+00:28:22,509 --> 00:28:25,848
+deviation and that suffice is to prove
+偏差，足以证明
+
+661
+00:28:26,048 --> 00:28:27,829
+the folk theorem so
+民间定理
+
+662
+00:28:28,029 --> 00:28:30,759
+so what we've seen now is that
+所以我们现在看到的是
+
+663
+00:28:30,960 --> 00:28:32,629
+essentially feasibility and
+本质上是可行的
+
+664
+00:28:32,829 --> 00:28:37,339
+enforceability correspond to the payoff
+可执行性对应于回报
+
+665
+00:28:37,539 --> 00:28:39,559
+profiles that are achievable in Nash
+ Nash中可实现的配置文件
+
+666
+00:28:39,759 --> 00:28:41,389
+equilibrium of an infinitely repeated
+无限重复的平衡
+
+667
+00:28:41,589 --> 00:28:46,589
+game with average rewards
+平均奖励的游戏
+

@@ -1,0 +1,1200 @@
+﻿1
+00:00:00,000 --> 00:00:02,948
+hi folks this is Matt here to tell you a
+大家好，我是马特，在这里告诉您
+
+2
+00:00:03,149 --> 00:00:04,629
+little bit more about Bayesian games so
+关于贝叶斯游戏的更多信息
+
+3
+00:00:04,830 --> 00:00:05,618
+we're going to take a look at a quick
+我们将快速浏览
+
+4
+00:00:05,819 --> 00:00:07,240
+example just to illustrate some of the
+这个例子只是为了说明一些
+
+5
+00:00:07,440 --> 00:00:10,359
+concepts and to see at least in a simple
+概念，至少要看一个简单
+
+6
+00:00:10,558 --> 00:00:11,620
+example how you might think about
+示例您可能会如何思考
+
+7
+00:00:11,820 --> 00:00:14,410
+solving one of these games and what
+解决其中一种游戏以及什么
+
+8
+00:00:14,609 --> 00:00:16,030
+later in the course we'll be talking a
+在课程的后面，我们将讨论
+
+9
+00:00:16,230 --> 00:00:18,070
+little bit more about auctions so you'll
+有关拍卖的更多信息，您将
+
+10
+00:00:18,269 --> 00:00:21,640
+have a chance to look at look at some
+有机会看一下
+
+11
+00:00:21,839 --> 00:00:25,150
+auctions as well okay
+拍卖也可以
+
+12
+00:00:25,350 --> 00:00:28,179
+Bayesian Nash equilibrium what did it do
+贝叶斯纳什均衡它做了什么
+
+13
+00:00:28,379 --> 00:00:29,978
+again it has a plan of action for every
+再次有一个针对每个人的行动计划
+
+14
+00:00:30,178 --> 00:00:33,009
+player so we have what they're going to
+玩家，所以我们有他们要做什么
+
+15
+00:00:33,210 --> 00:00:34,299
+do as a function of their information
+根据他们的信息来做
+
+16
+00:00:34,500 --> 00:00:37,538
+their types and it's maximizing your
+他们的类型，这是最大化您的
+
+17
+00:00:37,738 --> 00:00:39,640
+expected utility expecting over what
+期望效用
+
+18
+00:00:39,840 --> 00:00:40,899
+they think other players are going to be
+他们认为其他玩家将会
+
+19
+00:00:41,100 --> 00:00:43,358
+doing and expecting over the types of
+做和期待的类型
+
+20
+00:00:43,558 --> 00:00:44,799
+other players which might affect their
+其他可能影响他们的球员
+
+21
+00:00:45,000 --> 00:00:47,108
+payoff so let's took it a very simple
+回报，所以让我们非常简单
+
+22
+00:00:47,308 --> 00:00:49,209
+example so this is a sort of a
+例如，这是一种
+
+23
+00:00:49,409 --> 00:00:52,178
+hollywood-style example so let's call it
+好莱坞风格的例子，让我们称之为
+
+24
+00:00:52,378 --> 00:00:54,369
+the sheriff's dilemma so this is a very
+警长的困境，所以这是一个非常
+
+25
+00:00:54,570 --> 00:00:56,079
+simple setting where you've got a
+简单的设置，您可以在其中
+
+26
+00:00:56,280 --> 00:00:57,788
+sheriff and they're faced with an armed
+警长，他们面对武装
+
+27
+00:00:57,988 --> 00:01:01,059
+suspect imagine they've both pulled guns
+怀疑他们俩都拉了枪
+
+28
+00:01:01,259 --> 00:01:02,979
+and they're standing there staring at
+他们站在那儿凝视着
+
+29
+00:01:03,179 --> 00:01:05,259
+each other with their guns in hand and
+彼此拿着枪
+
+30
+00:01:05,459 --> 00:01:06,759
+they have to decide whether to shoot at
+他们必须决定是否在
+
+31
+00:01:06,959 --> 00:01:10,929
+the other or not and we know we could do
+对方与否，我们知道我们可以做
+
+32
+00:01:11,129 --> 00:01:12,579
+this in a Wild West we could do it in a
+在狂野西部，我们可以在
+
+33
+00:01:12,780 --> 00:01:15,369
+cop thriller etc but the idea is you're
+警察惊悚片等，但想法是你是
+
+34
+00:01:15,569 --> 00:01:17,409
+faced with this dilemma do you shoot or
+面对这个难题，您会射击还是
+
+35
+00:01:17,609 --> 00:01:19,509
+not when when you're faced with the
+不是当你面对
+
+36
+00:01:19,709 --> 00:01:21,789
+armed suspect and in this case let's
+武装嫌疑犯，在这种情况下，让我们
+
+37
+00:01:21,989 --> 00:01:23,409
+suppose that the suspect is either a
+假设嫌疑人是
+
+38
+00:01:23,609 --> 00:01:26,289
+criminal with probability P or not with
+有或没有
+
+39
+00:01:26,489 --> 00:01:27,668
+probability one minus P so either
+概率一减去P，所以
+
+40
+00:01:27,868 --> 00:01:29,230
+they're guilty of some crime or they're
+他们犯了一些罪或者他们
+
+41
+00:01:29,430 --> 00:01:33,340
+innocent and in particular when we think
+天真，尤其是当我们认为
+
+42
+00:01:33,540 --> 00:01:35,469
+about this the sheriff would rather not
+对此，警长宁愿不要
+
+43
+00:01:35,670 --> 00:01:38,649
+shoot well you rather shoot if the
+拍摄好你宁愿射击如果
+
+44
+00:01:38,849 --> 00:01:40,418
+suspects going to shoot so if you're
+怀疑会射击，所以如果你是
+
+45
+00:01:40,618 --> 00:01:42,009
+going to get shot at you want to defend
+要为你的防守而开枪
+
+46
+00:01:42,209 --> 00:01:44,709
+yourself but you would rather not shoot
+你自己，但你宁愿不射击
+
+47
+00:01:44,909 --> 00:01:46,418
+if the suspect is not even if it's a
+如果嫌疑人不是，即使是
+
+48
+00:01:46,618 --> 00:01:48,429
+criminal or not you don't want to shoot
+罪犯与否，你不想开枪
+
+49
+00:01:48,629 --> 00:01:49,689
+the person if they're not going to shoot
+如果他们不射击的人
+
+50
+00:01:49,890 --> 00:01:51,939
+you if it's a criminal you'd rather take
+如果你是罪犯，你宁愿带走
+
+51
+00:01:52,140 --> 00:01:54,219
+them to jail if it's if it's a innocent
+如果是无辜的话，他们就入狱
+
+52
+00:01:54,420 --> 00:01:55,448
+person you'd rather not shoot them at
+你不想开枪的人
+
+53
+00:01:55,649 --> 00:01:58,448
+all so the sheriff would rather not
+所以警长宁愿不要
+
+54
+00:01:58,649 --> 00:02:01,329
+shoot if the if it's suspect doesn't but
+如果怀疑，则进行拍摄
+
+55
+00:02:01,530 --> 00:02:04,000
+will defend themselves a shot at and the
+会为自己辩护， 
+
+56
+00:02:04,200 --> 00:02:06,369
+criminal would rather shoot even if the
+罪犯宁愿开枪，即使
+
+57
+00:02:06,569 --> 00:02:08,740
+sheriff does not so this is a situation
+警长不这样，这是一种情况
+
+58
+00:02:08,939 --> 00:02:10,479
+where if they they'll realize they're
+如果他们会意识到他们在哪里
+
+59
+00:02:10,679 --> 00:02:12,780
+going to be caught if they don't shoot
+如果他们不射击就会被抓住
+
+60
+00:02:12,979 --> 00:02:14,910
+and and so they're going to want to
+因此，他们将要
+
+61
+00:02:15,110 --> 00:02:17,550
+shoot and the UNICEF suspect would
+射击，联合国儿童基金会的嫌疑人会
+
+62
+00:02:17,750 --> 00:02:19,830
+rather not shoot even if the sheriff
+即使警长也不射击
+
+63
+00:02:20,030 --> 00:02:21,600
+shoots at them because they realize if
+向他们开枪，因为他们意识到
+
+64
+00:02:21,800 --> 00:02:23,399
+the sheriff ends up shooting they're
+警长最终开枪他们是
+
+65
+00:02:23,598 --> 00:02:24,300
+going to die
+快死了
+
+66
+00:02:24,500 --> 00:02:26,910
+maybe they'd rather not shoot and be
+也许他们宁愿不射击而成为
+
+67
+00:02:27,110 --> 00:02:30,030
+remembered for shooting the sheriff so
+记得因射击警长而死
+
+68
+00:02:30,229 --> 00:02:31,860
+so that's the setting of the game very
+所以这就是游戏的设置
+
+69
+00:02:32,060 --> 00:02:34,319
+simply let's take a look at possible
+简单地让我们看一下可能
+
+70
+00:02:34,519 --> 00:02:37,410
+payoffs and the structure of this so
+收益及其结构
+
+71
+00:02:37,610 --> 00:02:39,030
+let's have the sheriff be the column
+让警长成为专栏
+
+72
+00:02:39,229 --> 00:02:42,300
+player so they can shoot or not and here
+球员，所以他们可以射击与否，在这里
+
+73
+00:02:42,500 --> 00:02:44,368
+in terms of the representation we can
+在代表性方面，我们可以
+
+74
+00:02:44,568 --> 00:02:46,680
+think of there's two different types of
+想想有两种不同类型的
+
+75
+00:02:46,879 --> 00:02:50,990
+the player there's this theta for the
+玩家有这个theta 
+
+76
+00:02:51,189 --> 00:02:55,230
+innocent suspect and theta for the
+无辜的嫌疑人和theta 
+
+77
+00:02:55,430 --> 00:02:58,110
+guilty suspect so it could either be the
+有罪嫌疑人，所以它可能是
+
+78
+00:02:58,310 --> 00:03:03,149
+bad or a good suspect and this is
+好或坏的嫌疑犯，这是
+
+79
+00:03:03,348 --> 00:03:07,590
+happening with so the innocence is
+发生这样的天真是
+
+80
+00:03:07,789 --> 00:03:10,080
+happening with a probability 1 minus P
+发生概率为1减去P 
+
+81
+00:03:10,280 --> 00:03:12,390
+and the guilty is happening with a
+而罪恶正在发生
+
+82
+00:03:12,590 --> 00:03:14,368
+probability P so this probability P
+概率P所以这个概率P 
+
+83
+00:03:14,568 --> 00:03:16,439
+you've got this guilty 1 1 minus P on
+你有罪恶感1 1减去P 
+
+84
+00:03:16,639 --> 00:03:19,140
+the innocent and the sheriff doesn't
+无辜的警长不
+
+85
+00:03:19,340 --> 00:03:21,500
+know what the type of the individual is
+知道个人的类型是什么
+
+86
+00:03:21,699 --> 00:03:24,450
+the suspect is ok so then we've got
+嫌疑犯还可以，所以我们得到了
+
+87
+00:03:24,650 --> 00:03:27,569
+payoffs in here and the payoffs reflect
+这里的收益和收益反映
+
+88
+00:03:27,769 --> 00:03:29,430
+the basic structure that we talked about
+我们讨论的基本结构
+
+89
+00:03:29,629 --> 00:03:34,080
+before so in particular you know if if
+尤其是在此之前，您是否知道
+
+90
+00:03:34,280 --> 00:03:36,868
+you're if you're going to be shot at if
+你是如果你会被枪杀
+
+91
+00:03:37,068 --> 00:03:38,219
+the the sheriff is going to be shot at
+警长将被开枪
+
+92
+00:03:38,419 --> 00:03:39,210
+they're going to get a better payoff
+他们将获得更好的回报
+
+93
+00:03:39,409 --> 00:03:42,090
+from shooting the knot in either case
+在任何情况下都不会打结
+
+94
+00:03:42,289 --> 00:03:44,159
+they'd rather you know it's a negative
+他们希望您知道这是负面的
+
+95
+00:03:44,359 --> 00:03:48,599
+payoff here so so actually if you don't
+在这里得到回报，所以实际上如果您不这样做
+
+96
+00:03:48,799 --> 00:03:50,099
+shoot in there shooting you that's a bad
+射在那射击你真不好
+
+97
+00:03:50,299 --> 00:03:51,330
+payoff you're going to get killed
+回报，你会被杀死
+
+98
+00:03:51,530 --> 00:03:56,810
+if you shoot back you might end up
+如果你回头，你可能会失败
+
+99
+00:03:57,009 --> 00:03:59,550
+hurting a person in this in this case
+在这种情况下伤害一个人
+
+100
+00:03:59,750 --> 00:04:00,930
+you know they're getting a negative
+你知道他们越来越消极
+
+101
+00:04:01,129 --> 00:04:02,430
+payoff because they're actually shooting
+回报，因为他们实际上是在射击
+
+102
+00:04:02,629 --> 00:04:06,420
+innocent individual and so forth so it's
+无辜的个人等等
+
+103
+00:04:06,620 --> 00:04:08,360
+you know you know then not not here is
+你知道你知道然后不是这里不是
+
+104
+00:04:08,560 --> 00:04:11,480
+the best payoff for these individuals
+这些人的最佳回报
+
+105
+00:04:11,680 --> 00:04:15,240
+for the when they're looking at a
+当他们看着一个
+
+106
+00:04:15,439 --> 00:04:19,740
+criminal the guilty / individual again
+再犯有罪/个人
+
+107
+00:04:19,939 --> 00:04:21,389
+they'd rather shoot if the criminal is
+他们宁愿开枪，如果罪犯是
+
+108
+00:04:21,589 --> 00:04:25,000
+going to shoot they
+要拍摄他们
+
+109
+00:04:25,910 --> 00:04:27,930
+in the case where the criminal does not
+如果罪犯没有
+
+110
+00:04:28,129 --> 00:04:30,300
+they would get a payoff of one from
+他们将从中得到一个回报
+
+111
+00:04:30,500 --> 00:04:32,160
+actually capturing a criminal and taking
+实际上抓捕罪犯并采取
+
+112
+00:04:32,360 --> 00:04:33,569
+them away and so forth so we've got
+他们离开等等，所以我们有
+
+113
+00:04:33,769 --> 00:04:35,790
+payoffs that we can look at and you can
+我们可以看到的收益，您可以
+
+114
+00:04:35,990 --> 00:04:37,650
+study this in a little more detail and
+对此进行更详细的研究， 
+
+115
+00:04:37,850 --> 00:04:40,290
+then the question is what what's
+那么问题是什么
+
+116
+00:04:40,490 --> 00:04:41,850
+actually going to happen in terms of the
+实际上将发生在
+
+117
+00:04:42,050 --> 00:04:44,579
+play of this game okay so what we can do
+玩这个游戏好吧，我们该怎么办
+
+118
+00:04:44,779 --> 00:04:46,860
+is begin to analyze okay if we're faced
+开始分析，如果我们面对的话
+
+119
+00:04:47,060 --> 00:04:49,610
+with the good suspect the innocent one
+与好嫌疑人无辜
+
+120
+00:04:49,810 --> 00:04:51,840
+then what are they going to do
+那他们该怎么办
+
+121
+00:04:52,040 --> 00:04:53,639
+so let's first try and calculate what
+所以我们先尝试计算一下
+
+122
+00:04:53,839 --> 00:04:56,189
+the suspect is going to do and what we
+嫌疑人将要做什么，我们该怎么办
+
+123
+00:04:56,389 --> 00:04:58,620
+see here is that the suspect in this
+看到这里是嫌疑犯
+
+124
+00:04:58,819 --> 00:05:00,990
+particular situation conditional once
+有条件的一次特殊情况
+
+125
+00:05:01,189 --> 00:05:04,110
+they see their type of being good then
+他们看到自己的类型很好
+
+126
+00:05:04,310 --> 00:05:07,170
+they should end up here they get a
+他们应该在这里结束他们得到一个
+
+127
+00:05:07,370 --> 00:05:10,290
+payoff of minus one if they shoot zero
+如果他们拍摄零，则收益为负一
+
+128
+00:05:10,490 --> 00:05:12,389
+if they don't so they'd rather not shoot
+如果他们不这样做，他们宁愿不射击
+
+129
+00:05:12,589 --> 00:05:14,129
+here they get a minus three if they
+如果他们在这里得到负三
+
+130
+00:05:14,329 --> 00:05:16,860
+shoot a minus two if they don't so we
+如果他们不拍负两
+
+131
+00:05:17,060 --> 00:05:19,560
+end up with a strictly dominant strategy
+最终采取严格的主导策略
+
+132
+00:05:19,759 --> 00:05:21,900
+of not shooting if you're good so
+如果你很好就不要开枪
+
+133
+00:05:22,100 --> 00:05:23,970
+essentially what that tells us is that
+本质上告诉我们的是
+
+134
+00:05:24,170 --> 00:05:25,710
+if we're looking at for Beijing
+如果我们在寻找北京
+
+135
+00:05:25,910 --> 00:05:28,139
+equilibrium the good player regardless
+平衡好球员，无论
+
+136
+00:05:28,339 --> 00:05:29,970
+of what they think the sheriff should do
+他们认为警长应该做什么
+
+137
+00:05:30,170 --> 00:05:32,670
+should not shoot right so we can cross
+不应该射击正确，所以我们可以穿越
+
+138
+00:05:32,870 --> 00:05:36,240
+this out and say that the only possible
+说出来，这是唯一可能的
+
+139
+00:05:36,439 --> 00:05:39,090
+strategy for a good player is that
+优秀球员的策略是
+
+140
+00:05:39,290 --> 00:05:41,670
+they're not going to shoot okay now we
+他们现在不会开枪了，我们
+
+141
+00:05:41,870 --> 00:05:43,949
+go to the bad player and we do a similar
+去找坏人，我们做类似的事情
+
+142
+00:05:44,149 --> 00:05:46,230
+kind of calculation and basically the
+一种计算，基本上
+
+143
+00:05:46,430 --> 00:05:49,020
+criminal is going to shoot in this case
+在这种情况下，罪犯将开枪
+
+144
+00:05:49,220 --> 00:05:51,960
+right so we look the zero vs minus two
+正确，所以我们看零与负二
+
+145
+00:05:52,160 --> 00:05:55,319
+two versus one the this shoot strictly
+严格来说，这是两对一
+
+146
+00:05:55,519 --> 00:05:59,009
+dominates not for the bad player once
+一次不为坏玩家统治
+
+147
+00:05:59,209 --> 00:06:01,920
+they know their type so that tells us
+他们知道他们的类型，这告诉我们
+
+148
+00:06:02,120 --> 00:06:03,780
+that in in terms of either an interim
+就临时而言
+
+149
+00:06:03,980 --> 00:06:06,120
+plan or even if we go back ex ante and
+计划，甚至我们事前回去
+
+150
+00:06:06,319 --> 00:06:07,139
+try and figure out what these players
+尝试找出这些球员
+
+151
+00:06:07,339 --> 00:06:09,569
+should do basically the good one should
+应该基本上做的好
+
+152
+00:06:09,769 --> 00:06:11,639
+not shoot and the bad one should shoot
+不射击，坏人应该射击
+
+153
+00:06:11,839 --> 00:06:13,829
+and so now we've got a probability P
+所以现在我们有概率P 
+
+154
+00:06:14,029 --> 00:06:17,970
+down here 1 minus P here and we want to
+在这里1减去P在这里，我们想
+
+155
+00:06:18,170 --> 00:06:20,970
+ask what's the sheriff's best reply okay
+问警长最好的答复是什么好
+
+156
+00:06:21,170 --> 00:06:24,840
+well basically what happens if they
+好吧，如果他们会发生什么
+
+157
+00:06:25,040 --> 00:06:28,079
+shoot what are they going to get they
+拍摄他们将要得到什么
+
+158
+00:06:28,279 --> 00:06:31,139
+get 0 down here the sheriff gets a minus
+警长减为零
+
+159
+00:06:31,339 --> 00:06:33,560
+1 up here so you're getting minus 1
+在这里1，所以你得到负1 
+
+160
+00:06:33,759 --> 00:06:37,770
+times 1 minus P if they shoot if they
+如果他们射击，则乘以1减去P 
+
+161
+00:06:37,970 --> 00:06:39,629
+don't shoot what do they get
+不要射击他们会得到什么
+
+162
+00:06:39,829 --> 00:06:41,939
+if they don't shoot well they get zero
+如果射击不好，他们将得到零
+
+163
+00:06:42,139 --> 00:06:47,699
+up here and minus two down here so they
+在这里，减去两个在这里，所以他们
+
+164
+00:06:47,899 --> 00:06:52,110
+get a minus two times P and so we can
+减去P的两倍，所以我们可以
+
+165
+00:06:52,310 --> 00:06:53,879
+think of the situations when is it
+想想什么时候
+
+166
+00:06:54,079 --> 00:06:55,610
+better to shoot when is it better not to
+最好在什么时候拍摄更好
+
+167
+00:06:55,810 --> 00:07:00,179
+and you can check here that if P is
+你可以在这里检查P是否为
+
+168
+00:07:00,379 --> 00:07:03,929
+greater than one-third right so if you
+大于三分之一的权利，所以如果你
+
+169
+00:07:04,129 --> 00:07:05,249
+find that point where these two are
+找到这两个在哪里
+
+170
+00:07:05,449 --> 00:07:06,809
+exactly equal to each other that's going
+彼此完全相等
+
+171
+00:07:07,009 --> 00:07:09,059
+to be the point where P is equal to 1/3
+是P等于1/3的点
+
+172
+00:07:09,259 --> 00:07:12,240
+if P is bigger than 1/3 then you're more
+如果P大于1/3，则您更大
+
+173
+00:07:12,439 --> 00:07:14,249
+likely to be down here you're more
+可能会在这里你更多
+
+174
+00:07:14,449 --> 00:07:16,679
+likely to want to shoot and if P is less
+可能想拍摄，如果P小于
+
+175
+00:07:16,879 --> 00:07:20,730
+than 1/3 then you would want to not so
+超过1/3，那么您可能会不想那样
+
+176
+00:07:20,930 --> 00:07:22,619
+depending on what P is you're going to
+取决于您要使用的P 
+
+177
+00:07:22,819 --> 00:07:25,170
+have bayesian equilibria so the Bayesian
+有贝叶斯均衡，所以贝叶斯
+
+178
+00:07:25,370 --> 00:07:28,309
+equilibria of this game are going to be
+这个游戏的平衡点将会是
+
+179
+00:07:28,509 --> 00:07:35,278
+for the the good type or sorry the
+对于好的类型或对不起
+
+180
+00:07:35,478 --> 00:07:40,069
+innocent type I guess innocent type here
+我想这里是无辜的类型
+
+181
+00:07:40,269 --> 00:07:45,088
+should always not shoot the guilty type
+永远不要开枪认罪
+
+182
+00:07:45,288 --> 00:07:49,769
+should always end up shooting and then
+应该总是结束射击然后
+
+183
+00:07:49,968 --> 00:07:52,430
+the sheriff if P is greater than
+如果P大于
+
+184
+00:07:52,629 --> 00:08:02,100
+one-third the sheriff shoots P is less
+警长射击的三分之一P小于
+
+185
+00:08:02,300 --> 00:08:05,699
+than 1/3 they do not and for P equals
+大于1/3则不等于P 
+
+186
+00:08:05,899 --> 00:08:11,249
+1/3 any mixture for the sheriff the
+ 1/3警长的任何混合物
+
+187
+00:08:11,449 --> 00:08:13,050
+sheriff can just flip a coin they're
+警长可以掷硬币
+
+188
+00:08:13,250 --> 00:08:14,309
+completely indifferent between shooting
+拍摄之间完全无所谓
+
+189
+00:08:14,509 --> 00:08:16,649
+and not when P is exactly 1/3 so we have
+而不是当P恰好是1/3时
+
+190
+00:08:16,848 --> 00:08:18,959
+a Bayesian equilibrium in this case the
+在这种情况下的贝叶斯均衡
+
+191
+00:08:19,158 --> 00:08:20,338
+Bayesian equilibrium is going to be
+贝叶斯均衡将是
+
+192
+00:08:20,538 --> 00:08:21,629
+generically unique it's going to be
+一般而言，它将是唯一的
+
+193
+00:08:21,829 --> 00:08:23,869
+unique as long as P is not 1/3 and
+只要P不为1/3并且不唯一
+
+194
+00:08:24,069 --> 00:08:26,600
+whether or not they decide to shoot
+他们是否决定射击
+
+195
+00:08:26,800 --> 00:08:29,218
+depends on what their payoffs are and so
+取决于他们的收益是什么
+
+196
+00:08:29,418 --> 00:08:31,199
+what one thing that this this example
+这个例子有什么一件事
+
+197
+00:08:31,399 --> 00:08:32,789
+illustrates for it's a fairly simple
+举例说明，这很简单
+
+198
+00:08:32,990 --> 00:08:35,159
+example but it still captures the basic
+例子，但它仍然捕获了基本的
+
+199
+00:08:35,360 --> 00:08:37,620
+elements of Bayesian equilibrium how so
+贝叶斯均衡的要素如何
+
+200
+00:08:37,820 --> 00:08:39,299
+well there's several things going on
+好吧，发生了几件事
+
+201
+00:08:39,500 --> 00:08:41,849
+first is that the payoffs of both
+首先是两者的收益
+
+202
+00:08:42,049 --> 00:08:45,508
+players depend on what the type is ok so
+玩家取决于哪种类型还可以，所以
+
+203
+00:08:45,708 --> 00:08:47,819
+whether the sheriff is getting a higher
+警长是否越来越高
+
+204
+00:08:48,019 --> 00:08:50,128
+low payoff from shooting or not exactly
+拍摄收益不高或不完全
+
+205
+00:08:50,328 --> 00:08:51,389
+how it works
+这个怎么运作
+
+206
+00:08:51,589 --> 00:08:52,919
+depends on whether
+取决于是否
+
+207
+00:08:53,120 --> 00:08:55,649
+the the they're facing a good or bad
+他们面临的是好是坏
+
+208
+00:08:55,850 --> 00:08:59,899
+suspect and also that determines the
+怀疑，这也决定了
+
+209
+00:09:00,100 --> 00:09:02,490
+strategy of the other player and so
+其他玩家的策略等等
+
+210
+00:09:02,690 --> 00:09:04,019
+there's no strategic uncertainty about
+没有战略不确定性
+
+211
+00:09:04,220 --> 00:09:05,099
+what the other player is going to do
+另一位玩家将要做什么
+
+212
+00:09:05,299 --> 00:09:07,559
+which depends on the state and there's
+这取决于国家， 
+
+213
+00:09:07,759 --> 00:09:09,269
+payoff uncertainty about what the best
+最佳收益的不确定性
+
+214
+00:09:09,470 --> 00:09:11,459
+thing to do is for the sheriff based on
+要做的是为治安官基于
+
+215
+00:09:11,659 --> 00:09:12,839
+the state and putting those two things
+国家，把这两件事
+
+216
+00:09:13,039 --> 00:09:14,578
+together we solve we get a basing
+我们一起解决，我们得到了基础
+
+217
+00:09:14,778 --> 00:09:16,439
+equilibrium and we end up making a
+平衡，我们最终做出一个
+
+218
+00:09:16,639 --> 00:09:19,109
+prediction okay so this is a simple game
+预测好，所以这是一个简单的游戏
+
+219
+00:09:19,309 --> 00:09:21,629
+but you know it's going to capture a lot
+但是你知道它会吸引很多人
+
+220
+00:09:21,830 --> 00:09:23,459
+of things in terms of how how players
+玩家如何进行游戏
+
+221
+00:09:23,659 --> 00:09:24,599
+are going to make decisions and
+将要做出决定， 
+
+222
+00:09:24,799 --> 00:09:26,789
+uncertain environments and Bayesian
+不确定的环境和贝叶斯
+
+223
+00:09:26,990 --> 00:09:29,250
+equilibrium moves us one step closer to
+平衡使我们更接近一步
+
+224
+00:09:29,450 --> 00:09:32,519
+applications where in many many games in
+在许多游戏中的应用
+
+225
+00:09:32,720 --> 00:09:35,189
+the actual world you have uncertainty in
+您在不确定的现实世界中
+
+226
+00:09:35,389 --> 00:09:39,029
+terms of of what the payoffs are going
+收益的条件
+
+227
+00:09:39,230 --> 00:09:40,649
+to be and what other players are going
+以及其他玩家将要做什么
+
+228
+00:09:40,850 --> 00:09:43,500
+to do so summary of Bayesian Nash
+这样做的贝叶斯纳什总结
+
+229
+00:09:43,700 --> 00:09:45,569
+equilibria what have we got it's it's a
+均衡我们得到了什么
+
+230
+00:09:45,769 --> 00:09:48,149
+model that it explicitly captures on
+明确捕获的模型
+
+231
+00:09:48,350 --> 00:09:50,609
+certain environments and players choose
+某些环境和玩家选择
+
+232
+00:09:50,809 --> 00:09:52,979
+strategies again equilibrium notion so
+策略再次达到均衡概念
+
+233
+00:09:53,179 --> 00:09:54,719
+you're maximizing your payoffs in
+您在最大化您的回报
+
+234
+00:09:54,919 --> 00:09:58,859
+response to uncertainty about both how
+对不确定性的回应
+
+235
+00:09:59,059 --> 00:10:01,609
+other individuals are going to play and
+其他人要去玩， 
+
+236
+00:10:01,809 --> 00:10:04,199
+what the payoffs are from from different
+来自不同方面的收益
+
+237
+00:10:04,399 --> 00:10:06,419
+actions so it's a very powerful tool and
+动作，所以它是一个非常强大的工具， 
+
+238
+00:10:06,620 --> 00:10:09,629
+one that has many applications some of
+具有许多应用程序的一些
+
+239
+00:10:09,830 --> 00:10:11,909
+which we'll see in some of the added
+我们会在一些添加的内容中看到
+
+240
+00:10:12,110 --> 00:10:17,110
+lectures take care
+讲座要照顾
+

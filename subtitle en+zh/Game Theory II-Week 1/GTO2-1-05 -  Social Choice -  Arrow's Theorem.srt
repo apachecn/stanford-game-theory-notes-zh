@@ -1,0 +1,3470 @@
+﻿1
+00:00:00,030 --> 00:00:02,139
+so in this video we're going to look at
+所以在这个视频中，我们将要看
+
+2
+00:00:02,339 --> 00:00:06,819
+arrows theorem and prove it formally so
+箭头定理并正式证明它
+
+3
+00:00:07,019 --> 00:00:09,069
+to begin let's establish the notation
+首先让我们建立符号
+
+4
+00:00:09,269 --> 00:00:11,040
+that we'll use throughout this video
+我们将在整个视频中使用
+
+5
+00:00:11,240 --> 00:00:16,329
+I'll let n be the set of agents I'll let
+我将让n为代理
+
+6
+00:00:16,528 --> 00:00:18,970
+L be a finite set of outcomes so these
+我是有限的一组结果
+
+7
+00:00:19,170 --> 00:00:20,679
+are the candidates that the agents are
+是代理商的候选人
+
+8
+00:00:20,879 --> 00:00:23,079
+going to have preferences over and the
+将有偏好，并且
+
+9
+00:00:23,278 --> 00:00:25,720
+really important thing about o is going
+关于o真正重要的事情是
+
+10
+00:00:25,920 --> 00:00:27,550
+to be that there are at least three
+至少有三个
+
+11
+00:00:27,750 --> 00:00:29,530
+candidates so arrows theorem is going to
+候选人，所以箭头定理将
+
+12
+00:00:29,730 --> 00:00:31,510
+require that we have at least three
+要求我们至少有三个
+
+13
+00:00:31,710 --> 00:00:34,929
+candidates that we're voting over I'm
+我们正在投票的候选人
+
+14
+00:00:35,130 --> 00:00:38,919
+going to use I all to denote the set of
+我将用所有这些来表示
+
+15
+00:00:39,119 --> 00:00:41,409
+all possible strict preference orderings
+所有可能的严格优先顺序
+
+16
+00:00:41,609 --> 00:00:45,128
+over o so I'm going to be speaking here
+结束了，所以我要在这里讲话
+
+17
+00:00:45,329 --> 00:00:47,559
+only about strict orderings that means
+仅关于严格的订购意味着
+
+18
+00:00:47,759 --> 00:00:49,779
+that agents don't have any ties in their
+代理商没有任何联系
+
+19
+00:00:49,979 --> 00:00:53,259
+preferences in the end arrows theorem is
+最终箭头定理中的首选项为
+
+20
+00:00:53,460 --> 00:00:55,509
+going to end up telling us that any
+最终会告诉我们
+
+21
+00:00:55,710 --> 00:00:59,649
+desirable social welfare function can't
+理想的社会福利功能不能
+
+22
+00:00:59,850 --> 00:01:03,009
+exist even if preferences are restricted
+即使偏好受到限制也存在
+
+23
+00:01:03,210 --> 00:01:05,079
+to be strict so this restriction to
+严格来说，这样限制
+
+24
+00:01:05,280 --> 00:01:08,528
+strictness is not going to be a limiting
+严格性不会成为限制
+
+25
+00:01:08,728 --> 00:01:09,549
+thing it's actually going to be a
+事情实际上将是
+
+26
+00:01:09,750 --> 00:01:11,049
+strengthening thing we're gonna end up
+我们要加强的事情
+
+27
+00:01:11,250 --> 00:01:13,509
+seeing that we can't have good social
+看到我们不能拥有良好的社交
+
+28
+00:01:13,709 --> 00:01:15,429
+welfare functions even if preferences
+福利功能，即使偏好
+
+29
+00:01:15,629 --> 00:01:20,079
+are strict I'm going to use this
+严格，我要用这个
+
+30
+00:01:20,280 --> 00:01:23,349
+notation here to denote an element of
+此处的符号表示
+
+31
+00:01:23,549 --> 00:01:25,719
+the set L to the N so in other words
+将L设置为N，换句话说
+
+32
+00:01:25,920 --> 00:01:27,939
+this is going to be a preference profile
+这将是一个偏好设置
+
+33
+00:01:28,140 --> 00:01:30,549
+a preference ordering one for every
+优先订购一个
+
+34
+00:01:30,750 --> 00:01:33,700
+agent and this is of course the input
+代理，这当然是输入
+
+35
+00:01:33,900 --> 00:01:35,259
+that our social welfare function takes
+我们的社会福利职能
+
+36
+00:01:35,459 --> 00:01:37,209
+so recall that a social welfare function
+所以回想一下，社会福利功能
+
+37
+00:01:37,409 --> 00:01:40,689
+is a mapping from a preference profile a
+是偏好配置文件a的映射
+
+38
+00:01:40,890 --> 00:01:42,759
+set of preferences one for every agent
+一组偏好为每个代理
+
+39
+00:01:42,959 --> 00:01:45,878
+to a single preference ordering which is
+到单个首选项排序是
+
+40
+00:01:46,078 --> 00:01:52,349
+the social welfare ordering going on
+进行社会福利命令
+
+41
+00:01:52,549 --> 00:01:56,069
+I'll denote with this symbol a
+我用这个符号表示
+
+42
+00:01:56,269 --> 00:01:58,988
+preference an ordering relation here
+偏好这里的订购关系
+
+43
+00:01:59,188 --> 00:02:01,750
+subscripted by a W the preference
+ W优先选择
+
+44
+00:02:01,950 --> 00:02:03,730
+ordering that is actually output by the
+实际输出的命令
+
+45
+00:02:03,930 --> 00:02:06,189
+social welfare function so as I just
+社会福利功能
+
+46
+00:02:06,390 --> 00:02:08,410
+said the social welfare function itself
+说社会福利功能本身
+
+47
+00:02:08,610 --> 00:02:10,750
+outputs an ordering and this is going to
+输出命令，这将
+
+48
+00:02:10,949 --> 00:02:11,780
+be the ordering baguettes
+是订购法式长棍面包
+
+49
+00:02:11,979 --> 00:02:16,880
+put and now when the input to W is
+放，现在当W的输入是
+
+50
+00:02:17,080 --> 00:02:19,759
+ambiguous I might actually have even
+我可能实际上甚至有歧义
+
+51
+00:02:19,959 --> 00:02:22,130
+more complicated notation here saying
+更复杂的符号在这里说
+
+52
+00:02:22,330 --> 00:02:25,789
+precisely which ordering it is so so in
+确切地说是这样的顺序
+
+53
+00:02:25,989 --> 00:02:28,039
+particular this notation here is going
+特别是这种符号在这里
+
+54
+00:02:28,239 --> 00:02:30,679
+to mean the preference order in output
+表示输出中的优先顺序
+
+55
+00:02:30,878 --> 00:02:34,340
+by W when given the preference profile
+给定偏好配置文件时，按W 
+
+56
+00:02:34,539 --> 00:02:36,890
+here as input and I'm going to care
+这里作为输入，我要照顾
+
+57
+00:02:37,090 --> 00:02:38,270
+about this in particular when I sort of
+尤其是当我
+
+58
+00:02:38,469 --> 00:02:39,740
+change around which preference ordering
+更改首选项顺序
+
+59
+00:02:39,939 --> 00:02:46,759
+it is that I talk about okay so now let
+是我谈论好的，所以现在让
+
+60
+00:02:46,959 --> 00:02:48,980
+me formally state the conditions that
+我正式陈述条件
+
+61
+00:02:49,180 --> 00:02:51,800
+arrows theorem speaks about the first is
+箭头定理讲的第一个是
+
+62
+00:02:52,000 --> 00:02:55,069
+purrito efficiency so recall the idea of
+ Purrito效率，所以回想一下
+
+63
+00:02:55,269 --> 00:02:57,950
+pre to efficiency is that when everybody
+效率的前提是当每个人
+
+64
+00:02:58,150 --> 00:03:00,319
+agrees on how to outcomes should be
+同意如何取得成果
+
+65
+00:03:00,519 --> 00:03:02,539
+ranked if it's the case that every agent
+如果是每个代理商，则进行排名
+
+66
+00:03:02,739 --> 00:03:05,990
+thinks that a is better than B then the
+认为a比B好，然后
+
+67
+00:03:06,189 --> 00:03:08,929
+social welfare function is required also
+还需要社会福利功能
+
+68
+00:03:09,128 --> 00:03:11,780
+to output that a is better than B and
+输出a优于B并且
+
+69
+00:03:11,979 --> 00:03:13,759
+this is only the case when everybody is
+只有当每个人都
+
+70
+00:03:13,959 --> 00:03:15,530
+unanimous if even one person feels
+即使一个人都感到一致
+
+71
+00:03:15,729 --> 00:03:17,750
+differently this doesn't restrict us at
+不同的是，这并不限制我们
+
+72
+00:03:17,949 --> 00:03:22,069
+all so formally I'll say that a social
+这么正式地说，我会说
+
+73
+00:03:22,269 --> 00:03:25,730
+welfare function W is purrito efficient
+福利函数W是purrito有效的
+
+74
+00:03:25,930 --> 00:03:28,640
+if for any pair of outcomes
+如果有任何一对结果
+
+75
+00:03:28,840 --> 00:03:31,460
+o 1 and O 2 from the set of outcomes if
+如果结果集中为o 1和O 2 
+
+76
+00:03:31,659 --> 00:03:33,909
+it's the case that for all agents I
+对于所有代理商来说， 
+
+77
+00:03:34,109 --> 00:03:38,300
+outcome 1 is preferred to outcome 2 then
+结果1比结果2优先
+
+78
+00:03:38,500 --> 00:03:40,909
+it must be that the social welfare
+一定是社会福利
+
+79
+00:03:41,109 --> 00:03:44,300
+function also chooses a 1 preferred to O
+函数还选择了1而不是O 
+
+80
+00:03:44,500 --> 00:03:47,450
+2 so the next definition we need to set
+ 2所以我们需要设置下一个定义
+
+81
+00:03:47,650 --> 00:03:49,490
+up arrows impossibility theorem is the
+向上箭头不可能定理是
+
+82
+00:03:49,689 --> 00:03:51,649
+idea of independence of irrelevant
+不相关的独立思想
+
+83
+00:03:51,848 --> 00:03:55,849
+alternatives so intuitively the idea
+替代品如此直观
+
+84
+00:03:56,049 --> 00:03:58,099
+here is that we want to say that the
+这是我们要说的
+
+85
+00:03:58,299 --> 00:04:00,110
+social welfare function should decide
+社会福利职能应决定
+
+86
+00:04:00,310 --> 00:04:02,689
+the ordering between two outcomes a and
+两个结果a和之间的排序
+
+87
+00:04:02,889 --> 00:04:05,629
+B based only on the relative rankings
+ B仅基于相对排名
+
+88
+00:04:05,829 --> 00:04:07,429
+that all of the agents give to these two
+所有的特工都给这两个
+
+89
+00:04:07,628 --> 00:04:10,700
+outcomes so it should only be allowed to
+结果，因此只应允许
+
+90
+00:04:10,900 --> 00:04:13,399
+look at whether or not each individual
+看每个人是否
+
+91
+00:04:13,598 --> 00:04:16,278
+agent puts a above or below B in order
+代理商将B放在上方或下方
+
+92
+00:04:16,478 --> 00:04:18,139
+to decide whether a should go above or
+决定a是否应高于或
+
+93
+00:04:18,339 --> 00:04:19,639
+below be in the final ranking and this
+以下是最终排名， 
+
+94
+00:04:19,839 --> 00:04:20,959
+should be true for every pair of
+对于每对
+
+95
+00:04:21,158 --> 00:04:23,810
+outcomes so let's look at how we say
+结果，让我们看看我们怎么说
+
+96
+00:04:24,009 --> 00:04:24,930
+this formally
+正式地
+
+97
+00:04:25,129 --> 00:04:26,980
+we'll say that a social welfare function
+我们说一个社会福利功能
+
+98
+00:04:27,180 --> 00:04:29,680
+W is independent of irrelevant
+ W独立于无关
+
+99
+00:04:29,879 --> 00:04:33,400
+alternatives if for any pair of outcomes
+如果有任何一对结果的替代方案
+
+100
+00:04:33,600 --> 00:04:36,129
+o 1 and O 2 and any pair of perfect
+ o 1和O 2以及任何一对完美
+
+101
+00:04:36,329 --> 00:04:38,620
+profiles are called them pref Prime and
+配置文件称为pref Prime和
+
+102
+00:04:38,819 --> 00:04:41,560
+pref double Prime the following
+ pref double Prime以下
+
+103
+00:04:41,759 --> 00:04:47,710
+condition is true so let's look at what
+条件是真实的，所以让我们看一下
+
+104
+00:04:47,910 --> 00:04:52,629
+this condition here says this says o 1
+这种情况在这里说这说o 1 
+
+105
+00:04:52,829 --> 00:04:56,829
+is preferred by agent I improv prime 202
+被代理商I即兴推荐202 
+
+106
+00:04:57,029 --> 00:05:00,218
+if and only if o one is preferred by age
+当且仅当o年龄优先
+
+107
+00:05:00,418 --> 00:05:03,790
+and I in pref double prime toe - so in
+我穿着双头趾趾-所以在
+
+108
+00:05:03,990 --> 00:05:06,069
+other words this is saying when I
+换句话说这就是当我
+
+109
+00:05:06,269 --> 00:05:08,139
+extended out the for all I here
+扩展了我在这里的一切
+
+110
+00:05:08,339 --> 00:05:10,180
+this is saying that all of the agents
+就是说所有代理商
+
+111
+00:05:10,379 --> 00:05:13,990
+relatively rank oh I wanna know - in the
+相对排名哦，我想知道-在
+
+112
+00:05:14,189 --> 00:05:17,290
+same way in both pref Prime and pref
+ pref Prime和pref中的方法相同
+
+113
+00:05:17,490 --> 00:05:20,740
+double Prime in other words if agent I
+换句话说，如果代理人I是双重素数
+
+114
+00:05:20,939 --> 00:05:24,249
+like so - better than o1 in pref Prime
+像这样-在pref Prime中胜过o1 
+
+115
+00:05:24,449 --> 00:05:27,460
+it must also be that agent I like so -
+也一定是我喜欢的那个经纪人- 
+
+116
+00:05:27,660 --> 00:05:30,600
+better than a1 in pref double Prime so
+在首选双素中优于a1，因此
+
+117
+00:05:30,800 --> 00:05:33,838
+the condition says that if this is true
+条件说如果这是真的
+
+118
+00:05:34,038 --> 00:05:37,629
+then it must be that the social welfare
+那一定是社会福利
+
+119
+00:05:37,829 --> 00:05:41,160
+function when given prime as an input
+给定素数作为输入时的功能
+
+120
+00:05:41,360 --> 00:05:44,259
+makes the same relative ranking between
+使之间的相对排名相同
+
+121
+00:05:44,459 --> 00:05:47,860
+o 1 and O 2 as it does when given
+给定时的o 1和O 2 
+
+122
+00:05:48,060 --> 00:05:53,170
+preference and input so again in words
+偏好并再次用文字输入
+
+123
+00:05:53,370 --> 00:05:55,180
+what we're saying here is that the
+我们在这里所说的是
+
+124
+00:05:55,379 --> 00:05:56,770
+social welfare functions decision
+社会福利职能决策
+
+125
+00:05:56,970 --> 00:05:59,230
+between oh one and O 2 in these two
+在这两个中的一个和O 2之间
+
+126
+00:05:59,430 --> 00:06:01,270
+different preference profiles has to be
+必须设置不同的首选项配置文件
+
+127
+00:06:01,470 --> 00:06:03,460
+the same if the relative ranking that
+如果相对排名相同
+
+128
+00:06:03,660 --> 00:06:05,139
+all the agents make between these two
+所有的代理商在这两个之间
+
+129
+00:06:05,339 --> 00:06:06,759
+things is also the same in both of these
+这两件事也都一样
+
+130
+00:06:06,959 --> 00:06:12,730
+two orderings finally I'll define non
+最后我要定义两个顺序
+
+131
+00:06:12,930 --> 00:06:15,670
+dictatorship as follows I'll say that a
+独裁政权如下： 
+
+132
+00:06:15,870 --> 00:06:17,439
+social welfare function does not have a
+社会福利职能没有
+
+133
+00:06:17,639 --> 00:06:21,879
+dictator if there does not exist some
+独裁者是否不存在
+
+134
+00:06:22,079 --> 00:06:25,120
+age at I for whom the following property
+我的年龄，以下财产
+
+135
+00:06:25,319 --> 00:06:27,730
+is true for all outcomes
+所有结果都是正确的
+
+136
+00:06:27,930 --> 00:06:32,350
+o 1 and O 2 it's the case that if agent
+ o 1和O 2是代理
+
+137
+00:06:32,550 --> 00:06:36,338
+I likes a one better than o - then it
+我喜欢一个比o好-然后
+
+138
+00:06:36,538 --> 00:06:37,790
+must be that the
+一定是
+
+139
+00:06:37,990 --> 00:06:39,770
+the welfare function also like so one
+福利功能也像这样
+
+140
+00:06:39,970 --> 00:06:43,069
+better than o2 so in other words a
+比o2好，换句话说a 
+
+141
+00:06:43,269 --> 00:06:45,620
+dictator is somebody who simply
+独裁者是一个简单地
+
+142
+00:06:45,819 --> 00:06:48,310
+determines the social welfare function
+决定社会福利功能
+
+143
+00:06:48,509 --> 00:06:51,110
+it's the social welfare function if if
+这是社会福利功能
+
+144
+00:06:51,310 --> 00:06:53,360
+it has a dictator is a function that
+它有一个独裁者是一个功能
+
+145
+00:06:53,560 --> 00:06:55,430
+just listens only to one of its inputs
+只听其输入之一
+
+146
+00:06:55,629 --> 00:06:57,470
+ignores the Preferences of everybody
+忽略每个人的偏好
+
+147
+00:06:57,670 --> 00:07:00,259
+else and simply spits out the one
+否则，简单地吐出一个
+
+148
+00:07:00,459 --> 00:07:03,860
+preference ordering that that comes from
+来自的优先顺序
+
+149
+00:07:04,060 --> 00:07:09,170
+the one dictatorial agent okay having
+一个独裁者可以
+
+150
+00:07:09,370 --> 00:07:11,300
+said all of these definitions were now
+说所有这些定义现在
+
+151
+00:07:11,500 --> 00:07:13,930
+ready to formally define arrows theorem
+准备正式定义箭头定理
+
+152
+00:07:14,129 --> 00:07:18,379
+so what we can say is any social welfare
+所以我们可以说是任何社会福利
+
+153
+00:07:18,579 --> 00:07:21,050
+function W that is purrito efficient and
+函数w是有效的
+
+154
+00:07:21,250 --> 00:07:22,610
+independent of irrelevant alternatives
+独立于无关的选择
+
+155
+00:07:22,810 --> 00:07:27,819
+is dictatorial the way the proof works
+证明工作的方式是独裁的
+
+156
+00:07:28,019 --> 00:07:30,410
+is as follows so so for the rest of this
+如下所示，因此对于其余部分
+
+157
+00:07:30,610 --> 00:07:32,090
+video I'm going to give you the proof of
+视频我要给你证明
+
+158
+00:07:32,290 --> 00:07:34,189
+this theorem which i think is a really
+我认为这个定理真的
+
+159
+00:07:34,389 --> 00:07:37,670
+beautiful proof because we're able here
+美丽的证明，因为我们能够在这里
+
+160
+00:07:37,870 --> 00:07:39,439
+to say something about a space of
+说一些关于
+
+161
+00:07:39,639 --> 00:07:41,300
+functions space of very complicated
+功能空间非常复杂
+
+162
+00:07:41,500 --> 00:07:43,340
+functions from sets of orderings into
+从命令集到
+
+163
+00:07:43,540 --> 00:07:45,740
+orderings without knowing really what
+不知道到底是什么
+
+164
+00:07:45,939 --> 00:07:47,420
+function we're talking about we want to
+我们正在谈论的功能
+
+165
+00:07:47,620 --> 00:07:50,270
+assume simply that our function is PE
+简单地假设我们的功能是PE 
+
+166
+00:07:50,470 --> 00:07:52,430
+and III is pretty efficient and
+ III非常有效
+
+167
+00:07:52,629 --> 00:07:53,329
+independent of irrelevant alternatives
+独立于无关的选择
+
+168
+00:07:53,529 --> 00:07:56,840
+and and we'll see that that assumption
+而且我们将看到那个假设
+
+169
+00:07:57,040 --> 00:07:59,240
+is enough to show that it must be there
+足以表明它必须在那里
+
+170
+00:07:59,439 --> 00:08:03,139
+tutorial now to avoid sweeping this
+现在开始学习本教程，以避免扫除
+
+171
+00:08:03,339 --> 00:08:04,910
+under the rug let me again remind you
+在地毯下让我再次提醒你
+
+172
+00:08:05,110 --> 00:08:07,579
+that we've made the assumption that the
+我们已经假设
+
+173
+00:08:07,779 --> 00:08:10,220
+the number of outcomes is at least 3
+结果数至少为3 
+
+174
+00:08:10,420 --> 00:08:13,189
+that's important for this proof in a
+这对于证明这一点很重要
+
+175
+00:08:13,389 --> 00:08:14,540
+sense really it's important because
+感觉真的很重要，因为
+
+176
+00:08:14,740 --> 00:08:15,949
+independence of irrelevant alternatives
+不相关选择的独立性
+
+177
+00:08:16,149 --> 00:08:17,780
+doesn't really mean anything in the case
+在这种情况下并不意味着什么
+
+178
+00:08:17,980 --> 00:08:19,730
+of only two agents there could be in a
+只有两个特工
+
+179
+00:08:19,930 --> 00:08:20,840
+relevant alternative if there are only
+如果只有
+
+180
+00:08:21,040 --> 00:08:23,720
+two things to be compared so we're going
+有两件事需要比较，所以我们要
+
+181
+00:08:23,920 --> 00:08:25,730
+to need to make use of the fact that
+需要利用以下事实
+
+182
+00:08:25,930 --> 00:08:27,230
+there are at least three outcomes as
+至少有三个结果
+
+183
+00:08:27,430 --> 00:08:29,900
+you'll see in the proof so let's get
+您会在证明中看到，所以让我们
+
+184
+00:08:30,100 --> 00:08:32,719
+started so we're gonna proceed in four
+开始，所以我们要在四个
+
+185
+00:08:32,919 --> 00:08:34,729
+steps we're gonna end up proving for
+我们将要证明的步骤
+
+186
+00:08:34,929 --> 00:08:36,169
+intermediate claims which will
+中间要求
+
+187
+00:08:36,370 --> 00:08:38,329
+eventually get us to the proof that this
+最终使我们得到证明
+
+188
+00:08:38,529 --> 00:08:40,370
+social welfare function which we assume
+我们假设的社会福利功能
+
+189
+00:08:40,570 --> 00:08:42,469
+is both free to efficient and
+既免费又高效
+
+190
+00:08:42,669 --> 00:08:43,399
+independent of irrelevant alternatives
+独立于无关的选择
+
+191
+00:08:43,600 --> 00:08:48,829
+must also be dictatorial so first of all
+还必须是独裁的，所以首先
+
+192
+00:08:49,029 --> 00:08:50,839
+here's what I want to claim sounds like
+这就是我想要声明的声音
+
+193
+00:08:51,039 --> 00:08:51,549
+a strange thing
+一件奇怪的事
+
+194
+00:08:51,750 --> 00:08:52,899
+claim but it'll get us where we want to
+声称，但是它将带我们到达我们想要的地方
+
+195
+00:08:53,100 --> 00:08:57,729
+go if every voter ranks some outcome be
+如果每个选民的投票结果都不错，那就去吧
+
+196
+00:08:57,929 --> 00:09:00,009
+either at the very top of his
+要么在他的最顶端
+
+197
+00:09:00,210 --> 00:09:02,139
+preferences or at the very bottom of his
+偏好或他的最底层
+
+198
+00:09:02,340 --> 00:09:04,839
+preferences then it must be that the
+则必须是
+
+199
+00:09:05,039 --> 00:09:07,359
+social welfare function also puts be
+社会福利功能也将
+
+200
+00:09:07,559 --> 00:09:09,789
+either at the very top or the very
+无论是在最顶端还是最顶端
+
+201
+00:09:09,990 --> 00:09:12,370
+bottom so let me draw kind of a picture
+底部，让我画一幅画
+
+202
+00:09:12,570 --> 00:09:16,569
+of this so think of these as being a
+因此，请认为这些是
+
+203
+00:09:16,769 --> 00:09:18,250
+bunch of preferences from all the
+来自所有的一堆偏好
+
+204
+00:09:18,450 --> 00:09:21,009
+different agents and what I'm saying
+不同的代理人和我在说什么
+
+205
+00:09:21,210 --> 00:09:23,639
+here is that each agent has to put me
+这是每个特工都必须放我
+
+206
+00:09:23,840 --> 00:09:26,289
+either at the top or the bottom it
+在顶部还是底部
+
+207
+00:09:26,490 --> 00:09:29,439
+doesn't matter which but they have to
+没关系，但是他们必须
+
+208
+00:09:29,639 --> 00:09:30,579
+put it either at the top or at the
+将其放在顶部或顶部
+
+209
+00:09:30,779 --> 00:09:35,109
+bottom and what I want to claim is that
+底部，我想声称的是
+
+210
+00:09:35,309 --> 00:09:38,859
+the social welfare function then has to
+然后，社会福利职能必须
+
+211
+00:09:39,059 --> 00:09:40,870
+do the same thing it either has to go
+做同样的事情，要么必须去
+
+212
+00:09:41,070 --> 00:09:43,240
+here at the top or it have to go here at
+在顶部，否则必须在这里
+
+213
+00:09:43,440 --> 00:09:47,409
+the bottom so let's see why that would
+底部，让我们看看为什么会这样
+
+214
+00:09:47,610 --> 00:09:51,279
+be true so the way we're gonna do this
+是真的，所以我们要做的方式
+
+215
+00:09:51,480 --> 00:09:53,079
+is will consider some arbitrary
+是会考虑一些任意的
+
+216
+00:09:53,279 --> 00:09:55,479
+preference profile that satisfies this
+满足此条件的偏好配置文件
+
+217
+00:09:55,679 --> 00:09:57,339
+condition every voter rank puts be
+每个选民等级的条件是
+
+218
+00:09:57,539 --> 00:09:58,689
+either at the very top or the very
+无论是在最顶端还是最顶端
+
+219
+00:09:58,889 --> 00:10:00,909
+bottom of their preferences and let's
+他们的偏好的底部，让我们
+
+220
+00:10:01,110 --> 00:10:02,439
+assume for contradiction that the claim
+认为索赔是矛盾的
+
+221
+00:10:02,639 --> 00:10:04,689
+that we've just made is not true instead
+我们刚才所做的不是真的
+
+222
+00:10:04,889 --> 00:10:12,039
+that that we don't have be here but
+我们没有在这里，但是
+
+223
+00:10:12,240 --> 00:10:14,250
+we've got it somewhere in the middle
+我们把它放在中间
+
+224
+00:10:14,450 --> 00:10:18,429
+well in that case there must be some a
+那么在那种情况下一定有一些
+
+225
+00:10:18,629 --> 00:10:23,409
+and some C where a is higher up in the
+还有一些C在其中a更高
+
+226
+00:10:23,610 --> 00:10:24,699
+ordering for the social welfare function
+订购社会福利功能
+
+227
+00:10:24,899 --> 00:10:26,849
+and C is lower down in the ordering
+ C在排序中较低
+
+228
+00:10:27,049 --> 00:10:28,899
+that's what it means to be in the middle
+那就是中间的意思
+
+229
+00:10:29,100 --> 00:10:30,339
+there has to be something above it and
+上面必须有东西
+
+230
+00:10:30,539 --> 00:10:32,109
+it has to be something below it so let's
+它必须是低于它的东西，所以让我们
+
+231
+00:10:32,309 --> 00:10:37,209
+call those things a and C well now let's
+现在将这些称为a和C，让我们
+
+232
+00:10:37,409 --> 00:10:40,029
+modify our ordering so that every voter
+修改我们的顺序，以便每个选民
+
+233
+00:10:40,230 --> 00:10:43,179
+moves C just above a and his preference
+将C移到a之上，并且他的偏好
+
+234
+00:10:43,379 --> 00:10:45,039
+ranking so so all of these rankings we
+排名，所以所有这些排名
+
+235
+00:10:45,240 --> 00:10:47,229
+haven't drawn it but we have season A's
+还没画，但是我们有第A季
+
+236
+00:10:47,429 --> 00:10:48,669
+in here somewhere because everybody is
+因为每个人都在这里
+
+237
+00:10:48,870 --> 00:10:50,559
+ranking all of the different order all
+排列所有不同的顺序
+
+238
+00:10:50,759 --> 00:10:52,779
+of the different outcomes in there
+那里的不同结果
+
+239
+00:10:52,980 --> 00:10:56,049
+orderings so let's modify whatever this
+订单，所以让我们修改一下
+
+240
+00:10:56,250 --> 00:10:59,349
+ranking is by by constraining where C
+排名是通过约束C 
+
+241
+00:10:59,549 --> 00:11:01,688
+and a go so let's imagine that
+然后去吧，让我们想象一下
+
+242
+00:11:01,889 --> 00:11:03,938
+was in all of these different places and
+在所有这些不同的地方
+
+243
+00:11:04,139 --> 00:11:06,938
+so on let's just move it so wherever si
+所以就让它移动到任何地方
+
+244
+00:11:07,139 --> 00:11:08,618
+was before let's just stick it right
+之前我们只是坚持正确
+
+245
+00:11:08,818 --> 00:11:10,418
+above a in the order in and leave
+在顺序上方离开
+
+246
+00:11:10,619 --> 00:11:12,908
+everything else unchanged and let's call
+其他一切保持不变，让我们打电话
+
+247
+00:11:13,109 --> 00:11:15,248
+that new preference whoops it's called a
+这个新的喜好声叫它
+
+248
+00:11:15,448 --> 00:11:21,339
+new ranking pref Prime so so now we're
+新排名优先Prime，所以现在我们
+
+249
+00:11:21,539 --> 00:11:22,508
+going to start using these definitions
+将开始使用这些定义
+
+250
+00:11:22,708 --> 00:11:24,188
+that we've assumed about the preference
+我们假设的偏好
+
+251
+00:11:24,389 --> 00:11:26,618
+ordering so we know from independence of
+订购，因此我们从
+
+252
+00:11:26,818 --> 00:11:32,078
+irrelevant alternatives that in order
+不相关的替代品
+
+253
+00:11:32,278 --> 00:11:34,688
+for this to change or for this to change
+为了这个改变或改变
+
+254
+00:11:34,889 --> 00:11:36,639
+these two facts which we've assumed are
+我们假设的两个事实是
+
+255
+00:11:36,839 --> 00:11:39,938
+true here the pairwise relationship
+在这里是成对的关系
+
+256
+00:11:40,139 --> 00:11:42,668
+between a and B and or the pairwise
+在a和B和或成对之间
+
+257
+00:11:42,869 --> 00:11:44,769
+relationship between B and C would have
+ B和C之间的关系
+
+258
+00:11:44,970 --> 00:11:47,459
+to change for some of the agents here
+换一些代理商
+
+259
+00:11:47,659 --> 00:11:50,828
+however notice that B occupies an
+但是请注意，B占据了一个
+
+260
+00:11:51,028 --> 00:11:52,808
+extremal position for all of the voters
+所有选民的极端立场
+
+261
+00:11:53,009 --> 00:12:00,488
+and that means that C can be moved above
+这意味着C可以移到上方
+
+262
+00:12:00,688 --> 00:12:03,788
+a moving from pref to Prime without
+从偏好转换为素数而没有
+
+263
+00:12:03,989 --> 00:12:05,168
+changing any of the pairwise
+改变成对的
+
+264
+00:12:05,369 --> 00:12:07,538
+relationships between C and B between a
+ C和B之间的关系
+
+265
+00:12:07,739 --> 00:12:15,578
+and b and thus we can conclude that in
+和b，因此我们可以得出结论， 
+
+266
+00:12:15,778 --> 00:12:17,318
+the preference profile
+偏好设定档
+
+267
+00:12:17,519 --> 00:12:20,889
+Prof prime it's also the case that these
+教授总理，这些情况也是如此
+
+268
+00:12:21,089 --> 00:12:22,358
+two things are true right we assume that
+有两件事是对的，我们假设
+
+269
+00:12:22,558 --> 00:12:25,178
+those two things are true in pref for
+这两件事在预言中是正确的
+
+270
+00:12:25,379 --> 00:12:27,368
+contradiction and and because nothing
+矛盾，并且因为没有
+
+271
+00:12:27,568 --> 00:12:29,318
+has changed we can use iia to say that
+已经改变了，我们可以用iia来表示
+
+272
+00:12:29,519 --> 00:12:32,308
+they must also be true and press run and
+他们还必须是真实的，然后按运行
+
+273
+00:12:32,509 --> 00:12:35,828
+from transitivity we can just that the
+从传递性中我们可以
+
+274
+00:12:36,028 --> 00:12:37,568
+fact that we were getting a strict
+我们越来越严格的事实
+
+275
+00:12:37,769 --> 00:12:39,578
+ordering here we can also conclude
+在这里订购我们还可以得出结论
+
+276
+00:12:39,778 --> 00:12:42,428
+therefore that that a must be ranked
+因此，必须对a进行排名
+
+277
+00:12:42,629 --> 00:12:44,968
+above C in the social welfare function
+社会福利功能中C以上
+
+278
+00:12:45,168 --> 00:12:47,709
+however look at the ordering that we've
+但是看看我们的顺序
+
+279
+00:12:47,909 --> 00:12:50,558
+actually made here no recall that we put
+实际上在这里没有使我们想起
+
+280
+00:12:50,759 --> 00:12:54,128
+C above a in every agents preference or
+每个代理商偏好中C高于a或
+
+281
+00:12:54,328 --> 00:12:56,758
+wherever a was we stuck C just above
+无论我们在哪里C都在上面
+
+282
+00:12:56,958 --> 00:13:03,098
+right well recall that preeto efficiency
+很好，回想起效率
+
+283
+00:13:03,298 --> 00:13:05,978
+says that anytime all of the agents feel
+说，任何时候所有代理商都觉得
+
+284
+00:13:06,178 --> 00:13:08,318
+exactly the same way about something the
+完全相同的方式
+
+285
+00:13:08,519 --> 00:13:10,418
+social welfare function has to also feel
+社会福利功能也必须
+
+286
+00:13:10,619 --> 00:13:12,668
+that way here all of the agents think
+这样所有代理商都认为
+
+287
+00:13:12,869 --> 00:13:14,919
+that C is better than a
+ C比a好
+
+288
+00:13:15,120 --> 00:13:18,279
+so purrito efficiency requires that we
+因此，purrito效率要求我们
+
+289
+00:13:18,480 --> 00:13:21,159
+would have see above a here but in fact
+本来会在上面看到，但实际上
+
+290
+00:13:21,360 --> 00:13:22,899
+we have the opposite than a is above c
+我们与c上方的a相反
+
+291
+00:13:23,100 --> 00:13:26,229
+so that gives us a contradiction so so
+这样就给我们带来了矛盾
+
+292
+00:13:26,429 --> 00:13:29,169
+what does this all tell us it what we've
+这一切告诉我们什么
+
+293
+00:13:29,370 --> 00:13:31,358
+established is what we have up here that
+确定的是我们在这里拥有的
+
+294
+00:13:31,558 --> 00:13:35,048
+if every voter has some outcome B and an
+如果每个选民都有一些结果B和一个
+
+295
+00:13:35,249 --> 00:13:36,998
+extremal point in his preference list it
+在他的偏爱点上列出了它
+
+296
+00:13:37,198 --> 00:13:39,368
+must be that it goes into an extremal
+一定是它进入了极端
+
+297
+00:13:39,568 --> 00:13:41,529
+point of the social welfare function as
+社会福利功能的观点
+
+298
+00:13:41,730 --> 00:13:45,099
+well well so far that sounds fine it
+到目前为止听起来还不错
+
+299
+00:13:45,299 --> 00:13:46,448
+doesn't seem like that gets us into big
+似乎并没有使我们变得强大
+
+300
+00:13:46,649 --> 00:13:48,639
+trouble let's let's keep going and see
+麻烦让我们继续前进，看看
+
+301
+00:13:48,839 --> 00:13:49,419
+what happens
+怎么了
+
+302
+00:13:49,620 --> 00:13:53,169
+this is the the crucial step now so now
+这是至关重要的一步，所以现在
+
+303
+00:13:53,370 --> 00:13:55,508
+I want to claim that there exists some
+我想声称存在一些
+
+304
+00:13:55,708 --> 00:13:57,279
+special voter and I'm gonna give that
+特别选民，我要给那个
+
+305
+00:13:57,480 --> 00:13:59,519
+voter a name I'm gonna call him n star
+选民的名字，我叫他n星
+
+306
+00:13:59,720 --> 00:14:02,498
+who is extremely pivotal in the
+谁在
+
+307
+00:14:02,698 --> 00:14:05,498
+following sense I want to say that he's
+有一种感觉，我想说他是
+
+308
+00:14:05,698 --> 00:14:08,108
+able to change his vote at some
+能够在某些地方改变他的投票
+
+309
+00:14:08,308 --> 00:14:09,878
+preference profile so there exists the
+偏好设定档，因此存在
+
+310
+00:14:10,078 --> 00:14:12,248
+preference profile where if he changes
+偏好配置文件，如果他改变了
+
+311
+00:14:12,448 --> 00:14:15,219
+his vote he can move a given outcome B
+他的投票他可以移动给定的结果B 
+
+312
+00:14:15,419 --> 00:14:17,589
+from being at the very bottom of the
+从位于最底部
+
+313
+00:14:17,789 --> 00:14:21,099
+social ranking to the very top so there
+社会排名最高
+
+314
+00:14:21,299 --> 00:14:23,289
+exists at least some circumstance in
+存在至少某种情况
+
+315
+00:14:23,490 --> 00:14:25,719
+which some person is able to make a
+某人能够做出的
+
+316
+00:14:25,919 --> 00:14:27,279
+really big difference to the social
+对社会来说确实有很大的不同
+
+317
+00:14:27,480 --> 00:14:29,678
+choice he can move B from being the very
+选择他可以将B从
+
+318
+00:14:29,879 --> 00:14:31,568
+least preferred thing to the very most
+最不喜欢的东西
+
+319
+00:14:31,769 --> 00:14:33,728
+preferred thing let's see why that would
+首选的东西，让我们看看为什么会这样
+
+320
+00:14:33,928 --> 00:14:35,068
+be true
+是真实的
+
+321
+00:14:35,269 --> 00:14:37,988
+well let's consider a preference profile
+好，让我们考虑一下偏好设置
+
+322
+00:14:38,188 --> 00:14:41,289
+pref in which every voter ranks B last
+首选，每个选民都将B排在最后
+
+323
+00:14:41,490 --> 00:14:43,959
+and in which the voters preferences are
+而选民的偏好是
+
+324
+00:14:44,159 --> 00:14:47,228
+otherwise completely unconstrained by
+否则完全不受
+
+325
+00:14:47,428 --> 00:14:50,378
+preeto efficiency it must be the W also
+效率必须是W 
+
+326
+00:14:50,578 --> 00:14:53,469
+rates B length last because every
+率B的长度持续，因为
+
+327
+00:14:53,669 --> 00:14:54,938
+pairwise relationship between B and
+ B和之间的成对关系
+
+328
+00:14:55,139 --> 00:14:56,498
+something else has that something else
+其他还有其他
+
+329
+00:14:56,698 --> 00:14:58,839
+being preferred to B and so B has to be
+比B更好，所以B必须是
+
+330
+00:14:59,039 --> 00:15:02,039
+at the very bottom of the social ranking
+在社会排名的最底层
+
+331
+00:15:02,240 --> 00:15:07,298
+so now I want to basically let voters so
+所以现在我想基本上让选民
+
+332
+00:15:07,499 --> 00:15:08,589
+I have some ordering over the voters
+我对选民有一些命令
+
+333
+00:15:08,789 --> 00:15:11,529
+from 1 to N and I'm going to let them
+从1到N，我要让他们
+
+334
+00:15:11,730 --> 00:15:14,678
+successively modify so let me gonna draw
+连续修改，让我来画画
+
+335
+00:15:14,879 --> 00:15:16,709
+this so I've got all of these different
+所以我有所有这些不同
+
+336
+00:15:16,909 --> 00:15:19,628
+rankings here from different voters and
+来自不同选民的排名，以及
+
+337
+00:15:19,828 --> 00:15:21,548
+I've got some social welfare ranking
+我有一些社会福利排名
+
+338
+00:15:21,749 --> 00:15:25,089
+here so we start out with everything at
+在这里，所以我们从一切开始
+
+339
+00:15:25,289 --> 00:15:28,990
+the bottom and we
+底部，我们
+
+340
+00:15:29,190 --> 00:15:31,329
+conclude from PE that B must be at the
+从PE得出结论，B必须在
+
+341
+00:15:31,529 --> 00:15:37,059
+bottom here - so then I say let me one
+在这里-那么我说让我一个
+
+342
+00:15:37,259 --> 00:15:37,839
+at a time
+一次
+
+343
+00:15:38,039 --> 00:15:41,740
+take a voter and take B off being at the
+带一名选民，让B离开
+
+344
+00:15:41,940 --> 00:15:44,049
+bottom and put it up at the top and let
+底部并放在顶部，让
+
+345
+00:15:44,250 --> 00:15:46,870
+me see what happens when I do this
+我看看当我这样做时会发生什么
+
+346
+00:15:47,070 --> 00:15:48,969
+there has to eventually be a change it
+最终必须有所改变
+
+347
+00:15:49,169 --> 00:15:50,559
+can't be that I do this for everybody
+不可能是我为所有人做到这一点
+
+348
+00:15:50,759 --> 00:15:53,859
+and B never changes because once I've
+ B永远不会改变，因为一旦我
+
+349
+00:15:54,059 --> 00:15:55,509
+done it absolutely for everybody and
+绝对为每个人做到了
+
+350
+00:15:55,710 --> 00:15:59,049
+I've got B at the top all the way then
+然后我一直把B放在最前面
+
+351
+00:15:59,250 --> 00:16:00,519
+pre to efficiency again is gonna
+再次提高效率
+
+352
+00:16:00,720 --> 00:16:02,289
+constrain me and it's gonna say B has to
+约束我，这会说B必须
+
+353
+00:16:02,490 --> 00:16:04,750
+be at the top so I know there has to be
+在顶部，所以我知道必须有
+
+354
+00:16:04,950 --> 00:16:07,870
+somebody who in making these movements
+做出这些动作的人
+
+355
+00:16:08,070 --> 00:16:10,059
+causes something to change at some point
+在某些时候导致某些变化
+
+356
+00:16:10,259 --> 00:16:14,289
+so I'm gonna give the name and star to
+所以我要给它起个名字和星号
+
+357
+00:16:14,490 --> 00:16:16,599
+the first voter in this apparently
+这个第一选民显然
+
+358
+00:16:16,799 --> 00:16:18,399
+arbitrary ordering on the voters that
+对选民的任意命令
+
+359
+00:16:18,600 --> 00:16:20,409
+I've got here whose change causes
+我来这里是谁的变化原因
+
+360
+00:16:20,610 --> 00:16:22,959
+something to become different so I'm
+有些事情变得与众不同，所以我
+
+361
+00:16:23,159 --> 00:16:24,639
+gonna get the first guy to move B from
+会得到第一个将B从
+
+362
+00:16:24,840 --> 00:16:26,349
+the bottom to the top and I'm gonna look
+从下到上，我要看
+
+363
+00:16:26,549 --> 00:16:27,909
+at what happens here if nothing changes
+如果什么都没有改变这里会发生什么
+
+364
+00:16:28,110 --> 00:16:29,620
+I'm gonna add the second guy do it I'm
+我要加第二个人做
+
+365
+00:16:29,820 --> 00:16:31,719
+gonna keep working my way through until
+要继续努力直到
+
+366
+00:16:31,919 --> 00:16:34,959
+at some point B moves move somewhere
+在某个时候B移动到某处
+
+367
+00:16:35,159 --> 00:16:37,089
+something different happens and then I'm
+发生了一些不同的事情，然后我
+
+368
+00:16:37,289 --> 00:16:38,829
+gonna say alright I found my end star
+会说好吧，我找到了我的终极明星
+
+369
+00:16:39,029 --> 00:16:41,169
+that guy who made a difference is then
+那位有所作为的人是
+
+370
+00:16:41,370 --> 00:16:47,109
+star so so now let me give some names to
+星，所以现在让我给
+
+371
+00:16:47,309 --> 00:16:48,459
+preference orderings because I need them
+偏好顺序，因为我需要它们
+
+372
+00:16:48,659 --> 00:16:51,009
+for the rest of the proof so I'm gonna
+对于其余的证明，我要
+
+373
+00:16:51,210 --> 00:16:56,859
+denote by pref one the profile just
+用pref一表示档案
+
+374
+00:16:57,059 --> 00:17:01,120
+before n star moves B and I'm going to
+在n星移动B之前，我要
+
+375
+00:17:01,320 --> 00:17:04,450
+denote by pres to the profile just after
+由个人资料之前的个人资料表示
+
+376
+00:17:04,650 --> 00:17:10,149
+n star has moved B to the top and let's
+ n星将B移到顶部，让我们
+
+377
+00:17:10,349 --> 00:17:14,980
+note that in pref one we have B at the
+请注意，在首选中，我们在
+
+378
+00:17:15,180 --> 00:17:18,669
+bottom in the social welfare order in so
+在社会福利秩序的底部
+
+379
+00:17:18,869 --> 00:17:20,378
+our social Authority here is B at the
+我们的社会权威在这里是B 
+
+380
+00:17:20,578 --> 00:17:25,149
+bottom and in pref to B is is in some
+在B的最下面并且在某些位置
+
+381
+00:17:25,349 --> 00:17:27,720
+different place than it was before and
+与以前不同的地方
+
+382
+00:17:27,920 --> 00:17:30,669
+every voter ranks be at either the top
+每个选民名列前茅
+
+383
+00:17:30,869 --> 00:17:33,669
+or at the bottom right so so notice here
+或在右下角，所以请注意这里
+
+384
+00:17:33,869 --> 00:17:35,440
+we have B's at the top for everybody
+每个人的顶部都有B 
+
+385
+00:17:35,640 --> 00:17:37,180
+here we have B's at the bottom for
+在这里，我们在底部有B 
+
+386
+00:17:37,380 --> 00:17:39,609
+everybody and here again we have these
+大家，这里又有这些
+
+387
+00:17:39,809 --> 00:17:42,379
+at the top and B's at the bottom but
+在顶部，B在底部，但是
+
+388
+00:17:42,579 --> 00:17:45,440
+what's changed is NSTAR so here's the
+更改的是NSTAR，所以这是
+
+389
+00:17:45,640 --> 00:17:47,240
+one guy who's actually moved something
+一个真正动了东西的家伙
+
+390
+00:17:47,440 --> 00:17:51,049
+and by our argument in step one
+根据第一步的论证
+
+391
+00:17:51,250 --> 00:17:53,448
+both of these profiles have be in
+这两个配置文件都在
+
+392
+00:17:53,648 --> 00:17:57,259
+extremal positions and so it must be
+极端的位置，所以它必须是
+
+393
+00:17:57,460 --> 00:17:58,940
+that the social welfare function also
+社会福利功能也
+
+394
+00:17:59,140 --> 00:18:00,969
+puts be in an extremal position and
+放在极端位置
+
+395
+00:18:01,169 --> 00:18:03,559
+because we've defined on star as the
+因为我们已经将star定义为
+
+396
+00:18:03,759 --> 00:18:06,078
+person who causes B to change it must
+导致B更改它的人必须
+
+397
+00:18:06,278 --> 00:18:09,289
+therefore be in this profile press two
+因此在此配置文件中按两次
+
+398
+00:18:09,490 --> 00:18:13,940
+that B is at the top and I noticed that
+ B在顶部，我注意到
+
+399
+00:18:14,140 --> 00:18:15,649
+that means now that we've proven the
+这意味着现在我们已经证明了
+
+400
+00:18:15,849 --> 00:18:17,869
+thing we set out to prove there exists
+我们开始证明存在的事物
+
+401
+00:18:18,069 --> 00:18:20,568
+some voter who is able to change his
+一些能够改变他的选民
+
+402
+00:18:20,769 --> 00:18:24,169
+vote at some profile at this profile in
+在此个人资料中对某个人资料进行投票
+
+403
+00:18:24,369 --> 00:18:26,209
+order to move some outcome B from the
+为了从
+
+404
+00:18:26,409 --> 00:18:30,889
+bottom to the top okay let's get to step
+从底部到顶部好吧，让我们开始
+
+405
+00:18:31,089 --> 00:18:34,338
+three so now I want a reason about this
+三个，所以我现在想要一个原因
+
+406
+00:18:34,538 --> 00:18:36,559
+same guy n star
+同一个男星
+
+407
+00:18:36,759 --> 00:18:40,818
+so recall n star has special power over
+所以记得n星具有特殊的力量
+
+408
+00:18:41,019 --> 00:18:44,209
+outcome B in this very narrow way that
+结果B以这种非常狭窄的方式
+
+409
+00:18:44,409 --> 00:18:46,789
+there's there exists this one special
+那里有这个特别
+
+410
+00:18:46,990 --> 00:18:48,588
+profile that we constructed pref one
+我们构建的配置文件之一
+
+411
+00:18:48,788 --> 00:18:51,229
+where he can move B from the bottom to
+他可以将B从底部移动到
+
+412
+00:18:51,429 --> 00:18:53,598
+the top well now I want to reason about
+现在我想推理一下
+
+413
+00:18:53,798 --> 00:18:55,578
+this same guy and I want to claim
+这个家伙，我想主张
+
+414
+00:18:55,778 --> 00:18:56,809
+something that all of a sudden seems
+突然之间似乎有些东西
+
+415
+00:18:57,009 --> 00:18:59,299
+very strong but he's a dictator over any
+非常坚强，但他是独裁者
+
+416
+00:18:59,500 --> 00:19:02,269
+pair AC that doesn't involve B what does
+对不涉及B的AC做些什么
+
+417
+00:19:02,470 --> 00:19:04,969
+that mean it means that the social
+这意味着它意味着社会
+
+418
+00:19:05,169 --> 00:19:07,159
+welfare function must make every
+福利功能必须使每个
+
+419
+00:19:07,359 --> 00:19:10,938
+decision between any pair AC where I'm
+我在任何一对AC之间的决定
+
+420
+00:19:11,138 --> 00:19:12,348
+using those variable names just to
+使用这些变量名只是为了
+
+421
+00:19:12,548 --> 00:19:15,619
+denote anything that isn't B simply by
+仅仅表示不是B的任何东西
+
+422
+00:19:15,819 --> 00:19:17,750
+listening to what n star thinks so if n
+听n星的想法，如果n 
+
+423
+00:19:17,950 --> 00:19:20,059
+star like C better than a the social
+像C的明星胜过社交
+
+424
+00:19:20,259 --> 00:19:22,009
+welfare function will as well and it
+福利功能也会
+
+425
+00:19:22,210 --> 00:19:23,119
+just doesn't matter what anybody else
+别人没关系
+
+426
+00:19:23,319 --> 00:19:24,799
+thinks so that's what we want to claim
+认为这就是我们要主张的
+
+427
+00:19:25,000 --> 00:19:28,969
+here so how does this argument work well
+在这里，这个论点如何运作良好
+
+428
+00:19:29,169 --> 00:19:31,759
+so we're gonna begin by by choosing one
+所以我们首先要选择一个
+
+429
+00:19:31,960 --> 00:19:33,769
+of the two elements from the pair and
+该对中两个元素中的一个
+
+430
+00:19:33,970 --> 00:19:37,068
+let's call the one that we choose a so
+我们称其为“选择一个” 
+
+431
+00:19:37,269 --> 00:19:38,869
+now I'm gonna construct a new preference
+现在我要建立一个新的偏好
+
+432
+00:19:39,069 --> 00:19:43,068
+profile pref 3 which differs from pref 2
+配置文件pref 3与pref 2不同
+
+433
+00:19:43,269 --> 00:19:46,759
+in two ways first of all I'm going to
+首先要以两种方式
+
+434
+00:19:46,960 --> 00:19:50,990
+move a to the very top of n stars
+将a移至n个星的最高点
+
+435
+00:19:51,190 --> 00:19:53,149
+preference ordering leaving everything
+优先订购留下一切
+
+436
+00:19:53,349 --> 00:19:55,069
+else unchanged so I'm going to take a
+否则保持不变，所以我将采取
+
+437
+00:19:55,269 --> 00:19:57,589
+wherever it was here and I'm gonna move
+无论在哪里，我都会搬家
+
+438
+00:19:57,789 --> 00:19:59,869
+it up to the top you'll notice by the
+它到达顶部，您会注意到
+
+439
+00:20:00,069 --> 00:20:02,000
+way in these pictures if you can read it
+如果您可以阅读这些图片中的方式
+
+440
+00:20:02,200 --> 00:20:03,980
+some of the variable names are bald and
+一些变量名是秃头的， 
+
+441
+00:20:04,180 --> 00:20:05,990
+some of the variable names are not bald
+一些变量名不是秃头的
+
+442
+00:20:06,190 --> 00:20:07,759
+the ones that are bold are things we've
+那些大胆的是我们所拥有的
+
+443
+00:20:07,960 --> 00:20:09,980
+made explicit assumptions about and the
+对和做明确的假设。 
+
+444
+00:20:10,180 --> 00:20:11,569
+things that are not bald are given for
+不秃顶的东西是给的
+
+445
+00:20:11,769 --> 00:20:13,369
+illustrations but we haven't actually
+插图，但实际上我们还没有
+
+446
+00:20:13,569 --> 00:20:16,099
+assumed so if you can make it out you'll
+假设如此，如果您能做到，您将
+
+447
+00:20:16,299 --> 00:20:18,289
+see here a is not bold because we
+看到这里a不大胆，因为我们
+
+448
+00:20:18,490 --> 00:20:19,609
+haven't assumed anything about where it
+并没有假设任何有关它的地方
+
+449
+00:20:19,809 --> 00:20:21,889
+goes and over here a becomes bold
+过去，在这里变得大胆
+
+450
+00:20:22,089 --> 00:20:23,180
+because now we've assumed that it goes
+因为现在我们假设它会
+
+451
+00:20:23,380 --> 00:20:26,119
+to the top of n stars or during all
+到n颗星的顶部或全部
+
+452
+00:20:26,319 --> 00:20:28,909
+right so so anyway we're making two
+对，所以无论如何我们要做两个
+
+453
+00:20:29,109 --> 00:20:31,220
+changes so our first change is to move a
+变化，所以我们的第一个变化是移动
+
+454
+00:20:31,420 --> 00:20:33,970
+to the top and then star is ordering and
+到顶部，然后星级正在排序， 
+
+455
+00:20:34,170 --> 00:20:37,369
+that means that for n star a is most
+这意味着对于n星来说，a是最大的
+
+456
+00:20:37,569 --> 00:20:40,490
+preferred and a is preferred to B which
+首选，而a优于B，其中
+
+457
+00:20:40,690 --> 00:20:42,319
+is preferred to C because a and B are
+比C更可取，因为a和B是
+
+458
+00:20:42,519 --> 00:20:44,180
+both of the top so wherever C is it must
+两者都这样，所以无论在哪里C 
+
+459
+00:20:44,380 --> 00:20:47,779
+be further death and second we're just
+再进一步死亡，第二，我们只是
+
+460
+00:20:47,980 --> 00:20:50,059
+gonna arbitrarily scramble the relative
+会任意争夺亲戚
+
+461
+00:20:50,259 --> 00:20:52,190
+rankings of a and C for all voters other
+所有其他选民的a和C排名
+
+462
+00:20:52,390 --> 00:20:54,740
+than n star without changing the
+比n星不变
+
+463
+00:20:54,940 --> 00:20:56,599
+position of B which is always extremal
+ B的位置始终是极值
+
+464
+00:20:56,799 --> 00:20:58,819
+so we're just gonna kind of move around
+所以我们只是要四处走动
+
+465
+00:20:59,019 --> 00:21:00,799
+a and C and some kind of arbitrary way
+ a和C以及某种任意方式
+
+466
+00:21:01,000 --> 00:21:02,960
+but we're gonna make sure that we still
+但我们要确保我们仍然
+
+467
+00:21:03,160 --> 00:21:05,089
+leave be in the same place for everybody
+每个人都留在同一个地方
+
+468
+00:21:05,289 --> 00:21:06,579
+else that it always was
+否则，它总是
+
+469
+00:21:06,779 --> 00:21:08,539
+alright so that that's our preference
+好，那是我们的偏爱
+
+470
+00:21:08,740 --> 00:21:14,569
+profile prep 3 now notice that in
+个人资料准备3现在注意到
+
+471
+00:21:14,769 --> 00:21:18,680
+preference profile pref 1 we had that a
+偏好设定档偏好1， 
+
+472
+00:21:18,880 --> 00:21:24,829
+was preferred socially to B and the
+在社交方面优于B， 
+
+473
+00:21:25,029 --> 00:21:26,480
+reason we can conclude that is that we
+我们可以得出结论的原因是，我们
+
+474
+00:21:26,680 --> 00:21:28,309
+know that B was actually at the very
+知道B实际上在
+
+475
+00:21:28,509 --> 00:21:29,599
+bottom of the social order
+社会秩序的底部
+
+476
+00:21:29,799 --> 00:21:32,149
+so everything was preferred to B and so
+所以一切都比B好，所以
+
+477
+00:21:32,349 --> 00:21:33,710
+a in particular must have been preferred
+特别是一定是首选
+
+478
+00:21:33,910 --> 00:21:37,940
+to B now when we compare pref 1 to prep
+现在，当我们比较首选项1和准备
+
+479
+00:21:38,140 --> 00:21:41,450
+3 the relative rankings between a and B
+ 3 a和B之间的相对排名
+
+480
+00:21:41,650 --> 00:21:44,960
+are the same for everybody because B is
+每个人都一样，因为B是
+
+481
+00:21:45,160 --> 00:21:46,579
+in the same extrema position for
+在相同的极值位置
+
+482
+00:21:46,779 --> 00:21:51,529
+everybody except for n star who moves B
+除了n星移动B 
+
+483
+00:21:51,730 --> 00:21:54,049
+but we've we've then changed it to put a
+但是我们已经将其更改为
+
+484
+00:21:54,250 --> 00:21:57,919
+above B and so it's the case that these
+在B上方，因此情况是
+
+485
+00:21:58,119 --> 00:22:00,349
+guys over here have be above a in both
+在这两个家伙都高于
+
+486
+00:22:00,549 --> 00:22:04,730
+cases these guys have a above B in both
+如果这些家伙在两个人中都高于B 
+
+487
+00:22:04,930 --> 00:22:08,289
+cases and M star also has a above
+案例和M星也有一个上面
+
+488
+00:22:08,490 --> 00:22:10,690
+be in both cases because here we
+在这两种情况下都可以，因为在这里
+
+489
+00:22:10,890 --> 00:22:17,108
+actually moved a to be above B so from
+实际上将a移到了B之上，所以从
+
+490
+00:22:17,308 --> 00:22:20,829
+this fact we can conclude that in prep 3
+这个事实我们可以得出结论，在准备3中
+
+491
+00:22:21,029 --> 00:22:23,919
+it must be that a gets socially
+一定是社交
+
+492
+00:22:24,119 --> 00:22:26,649
+preferred to B because by independence
+优先于B，因为具有独立性
+
+493
+00:22:26,849 --> 00:22:28,659
+of irrelevant alternatives the social
+不相关的替代方案
+
+494
+00:22:28,859 --> 00:22:30,700
+choice between a and B can only depend
+ a和B之间的选择只能取决于
+
+495
+00:22:30,900 --> 00:22:32,649
+on their relative rankings by the
+他们的相对排名
+
+496
+00:22:32,849 --> 00:22:34,358
+different agents and we've just seen
+不同的代理商，我们刚刚看到
+
+497
+00:22:34,558 --> 00:22:36,099
+those relative rankings are the same in
+这些相对排名在
+
+498
+00:22:36,299 --> 00:22:39,700
+pref 1 and in prep 3 now we're going to
+ Pref 1和Prep 3现在我们要
+
+499
+00:22:39,900 --> 00:22:41,649
+say something similar comparing pref 2
+说类似的东西比较首选项2 
+
+500
+00:22:41,849 --> 00:22:46,839
+and prep 3 so in pref 2 we had the B was
+和prep 3，所以在pref 2中，我们的B是
+
+501
+00:22:47,039 --> 00:22:50,589
+socially preferred to C because we know
+在社会上优于C，因为我们知道
+
+502
+00:22:50,789 --> 00:22:53,049
+that improv to be was at the very top of
+即兴发挥是最重要的
+
+503
+00:22:53,250 --> 00:22:55,659
+the social ordering and so wherever C
+社会秩序等等C 
+
+504
+00:22:55,859 --> 00:22:59,740
+was it was somewhere further down and in
+在更远的地方吗？ 
+
+505
+00:22:59,940 --> 00:23:01,599
+a similar way to as what we argued
+与我们争论的方式类似
+
+506
+00:23:01,799 --> 00:23:04,599
+before the relative rankings between B
+在B之间的相对排名之前
+
+507
+00:23:04,799 --> 00:23:07,599
+and C are the same in pref 2 and prep 3
+和C在pref 2和prep 3中相同
+
+508
+00:23:07,799 --> 00:23:11,529
+let's see why that is so we have for all
+让我们看看为什么会这样，我们所有人
+
+509
+00:23:11,730 --> 00:23:14,289
+the agents other than End star B is in
+末星B以外的特工在
+
+510
+00:23:14,490 --> 00:23:16,599
+the same extremal position in both cases
+在两种情况下相同的末梢位置
+
+511
+00:23:16,799 --> 00:23:19,269
+so wherever C is its ordering must be
+所以无论C的顺序是什么
+
+512
+00:23:19,470 --> 00:23:22,059
+the same and for n star things are a
+和n星一样
+
+513
+00:23:22,259 --> 00:23:23,559
+little bit different and star used to
+有点不同，星过去
+
+514
+00:23:23,759 --> 00:23:26,470
+have B in the very top position here and
+在这里B处于最高位置
+
+515
+00:23:26,670 --> 00:23:29,379
+here he has ends to a B in the second
+在第二个他已经结束
+
+516
+00:23:29,579 --> 00:23:29,979
+position
+位置
+
+517
+00:23:30,179 --> 00:23:31,990
+but the thing above it is a so in both
+但上面的东西在两个方面都是这样
+
+518
+00:23:32,190 --> 00:23:34,210
+cases where ever see is it's somewhere
+曾经见过的地方
+
+519
+00:23:34,410 --> 00:23:39,970
+downstream and so again we see that B
+下游，所以我们再次看到B 
+
+520
+00:23:40,170 --> 00:23:41,470
+because the relative rankings are the
+因为相对排名是
+
+521
+00:23:41,670 --> 00:23:44,019
+same in both places it must be that the
+在两个地方都一样，一定是
+
+522
+00:23:44,220 --> 00:23:46,569
+social ordering again is the same so
+社会秩序再次是一样的
+
+523
+00:23:46,769 --> 00:23:48,069
+here we had that the social ordering
+在这里，我们有社会秩序
+
+524
+00:23:48,269 --> 00:23:51,639
+says B is higher up than C and so here
+说B比C高，所以这里
+
+525
+00:23:51,839 --> 00:23:53,799
+it must also be could be as high Repton
+它一定也可以和雷普顿一样高
+
+526
+00:23:54,000 --> 00:23:58,629
+see in the social welfare ranking so
+在社会福利排名中看到
+
+527
+00:23:58,829 --> 00:24:00,819
+using these two facts that we've just
+利用我们刚才提到的两个事实
+
+528
+00:24:01,019 --> 00:24:04,509
+established and transitivity we can draw
+建立和传递性
+
+529
+00:24:04,710 --> 00:24:06,970
+the conclusion that the social welfare
+社会福利的结论
+
+530
+00:24:07,170 --> 00:24:10,119
+ordering must give us that a is bigger
+订购必须给我们一个更大的
+
+531
+00:24:10,319 --> 00:24:16,690
+is preferred to see in prep 3 ok why do
+最好在准备3中看到，确定为什么
+
+532
+00:24:16,890 --> 00:24:20,440
+we care about that well let's construct
+我们关心的很好，让我们构建
+
+533
+00:24:20,640 --> 00:24:22,089
+more preference profile I promise this
+更多的个人资料，我保证
+
+534
+00:24:22,289 --> 00:24:25,690
+is the last one prep for by changing
+是改变的最后一个准备
+
+535
+00:24:25,890 --> 00:24:28,839
+prep three in two ways first of all
+首先以两种方式准备三个
+
+536
+00:24:29,039 --> 00:24:31,480
+let's arbitrarily change the position of
+让我们随意改变位置
+
+537
+00:24:31,680 --> 00:24:34,240
+B in every voters ordering while keeping
+每位选民中的B在保持的同时
+
+538
+00:24:34,440 --> 00:24:35,859
+all of the other relative preferences
+所有其他相对偏好
+
+539
+00:24:36,059 --> 00:24:38,200
+the same so we're going from prep 3 to
+一样，所以我们从准备3到
+
+540
+00:24:38,400 --> 00:24:41,409
+prep for by taking B and just kind of
+拿B做些准备
+
+541
+00:24:41,609 --> 00:24:44,470
+sticking it somewhere else and but we're
+贴在其他地方，但是我们
+
+542
+00:24:44,670 --> 00:24:45,519
+not going to move around any of the
+不会四处走动
+
+543
+00:24:45,720 --> 00:24:48,509
+other relative or preference orderings
+其他相对或优先顺序
+
+544
+00:24:48,710 --> 00:24:51,819
+secondly we're going to move a to an
+其次，我们将移动到
+
+545
+00:24:52,019 --> 00:24:55,589
+arbitrary position in n stars ordering
+ n星排序中的任意位置
+
+546
+00:24:55,789 --> 00:24:58,539
+with a constraint that a is kept higher
+约束a保持较高
+
+547
+00:24:58,740 --> 00:25:01,599
+than C so let's look at that so here we
+比C好，让我们来看一下
+
+548
+00:25:01,799 --> 00:25:04,629
+have a in a really special place here
+在一个非常特别的地方
+
+549
+00:25:04,829 --> 00:25:07,329
+we're just gonna stick it further down
+我们只是将其进一步压低
+
+550
+00:25:07,529 --> 00:25:12,940
+to here but we're gonna make sure that
+到这里，但我们要确保
+
+551
+00:25:13,140 --> 00:25:16,919
+it's still higher than where C is and
+它仍然比C高
+
+552
+00:25:17,119 --> 00:25:20,319
+what I want you to observe now is that
+我要你现在观察的是
+
+553
+00:25:20,519 --> 00:25:23,169
+all voters other than n star at this
+除了n星以外的所有选民
+
+554
+00:25:23,369 --> 00:25:24,460
+point have completely arbitrary
+点完全是任意的
+
+555
+00:25:24,660 --> 00:25:26,470
+preferences because the only things that
+偏好，因为只有
+
+556
+00:25:26,670 --> 00:25:28,389
+we had assumed about those voters ever
+我们曾经假设过那些选民
+
+557
+00:25:28,589 --> 00:25:31,659
+before was the position of the B's right
+乙的权利的位置之前
+
+558
+00:25:31,859 --> 00:25:32,919
+those are the only things that we had
+那是我们唯一拥有的东西
+
+559
+00:25:33,119 --> 00:25:35,619
+bold in those figures because that's all
+这些数字中的粗体是因为仅此而已
+
+560
+00:25:35,819 --> 00:25:37,240
+we assumed all this other stuff here
+我们在这里假设了所有其他东西
+
+561
+00:25:37,440 --> 00:25:40,379
+it's just completely arbitrary
+这是完全任意的
+
+562
+00:25:40,579 --> 00:25:45,250
+furthermore n star also has arbitrary
+此外，n星也具有任意性
+
+563
+00:25:45,450 --> 00:25:50,470
+preferences except for the fact that a
+偏好，但以下事实除外
+
+564
+00:25:50,670 --> 00:26:00,069
+is is preferred by n star to C now what
+现在n星比C更喜欢
+
+565
+00:26:00,269 --> 00:26:04,029
+do we do with prep for well in prep
+我们会做好准备吗？ 
+
+566
+00:26:04,230 --> 00:26:06,519
+three and prep for all of the agents
+三，为所有代理做准备
+
+567
+00:26:06,720 --> 00:26:08,169
+have the same relative preferences
+具有相同的相对偏好
+
+568
+00:26:08,369 --> 00:26:11,139
+between a and C right so we've moved
+在A和C之间，所以我们已经移动了
+
+569
+00:26:11,339 --> 00:26:13,599
+things all around but we've done it in a
+周围的一切，但我们已经做到了
+
+570
+00:26:13,799 --> 00:26:16,409
+way that still has all of the agents in
+仍然有所有代理商的方式
+
+571
+00:26:16,609 --> 00:26:19,509
+3 & 4 having the same preferences
+ 3和4具有相同的首选项
+
+572
+00:26:19,710 --> 00:26:26,079
+between a and C and that and we know
+在a和C之间，并且我们知道
+
+573
+00:26:26,279 --> 00:26:28,480
+that in prep 3 the social welfare
+在准备3中，社会福利
+
+574
+00:26:28,680 --> 00:26:31,169
+function has to rank a higher than C so
+函数必须比C高
+
+575
+00:26:31,369 --> 00:26:32,950
+by independence of irrelevant
+通过无关的独立性
+
+576
+00:26:33,150 --> 00:26:34,190
+alternatives in
+替代品
+
+577
+00:26:34,390 --> 00:26:36,230
+must be that the welfare function also
+必须是福利功能
+
+578
+00:26:36,430 --> 00:26:40,700
+ranks say above C and prep for but
+排名高于C并为此做好准备
+
+579
+00:26:40,900 --> 00:26:42,529
+that's pretty interesting because the
+这很有趣，因为
+
+580
+00:26:42,730 --> 00:26:44,329
+only thing we've assumed about prep for
+我们假设只有准备
+
+581
+00:26:44,529 --> 00:26:49,930
+is that a goes above c4 and start and
+是a超过c4然后开始
+
+582
+00:26:50,130 --> 00:26:52,460
+that means that we've established that
+这意味着我们已经确定
+
+583
+00:26:52,660 --> 00:26:54,529
+then we wanted to establish which is
+然后我们想确定哪个是
+
+584
+00:26:54,730 --> 00:26:58,819
+that n star is all by himself able to
+ n星本身就可以
+
+585
+00:26:59,019 --> 00:27:00,950
+determine the relative ranking between a
+确定一个之间的相对排名
+
+586
+00:27:01,150 --> 00:27:03,859
+and C regardless of what everybody else
+和C不管其他人
+
+587
+00:27:04,059 --> 00:27:05,240
+says so that makes them a dictator over
+这样说，使他们成为独裁者
+
+588
+00:27:05,440 --> 00:27:10,430
+the pair AC well clearly I'm gonna want
+这对交流很好，我想要
+
+589
+00:27:10,630 --> 00:27:12,919
+eventually to say n star is a dictator
+最终说n星是独裁者
+
+590
+00:27:13,119 --> 00:27:15,529
+over everything not just over AC but
+不仅可以通过交流，还可以通过一切
+
+591
+00:27:15,730 --> 00:27:17,480
+also over pairs a B pairs that do
+也超过一对B对
+
+592
+00:27:17,680 --> 00:27:20,930
+involve B so this turns out actually to
+涉及到B，所以事实证明
+
+593
+00:27:21,130 --> 00:27:23,839
+be very easy to show so let's consider
+很容易显示，所以让我们考虑
+
+594
+00:27:24,039 --> 00:27:26,899
+some third outcome C so I'm claiming now
+一些第三结果C，所以我现在声明
+
+595
+00:27:27,099 --> 00:27:29,359
+that n star as the dictator over pairs a
+那个n星作为双子的独裁者a 
+
+596
+00:27:29,559 --> 00:27:31,250
+B so let me think about some third
+ B，让我想想第三点
+
+597
+00:27:31,450 --> 00:27:33,919
+outcome C well by the argument that I
+我认为我的结果很好
+
+598
+00:27:34,119 --> 00:27:36,889
+already made in step two there's some
+已经在第二步中做了一些
+
+599
+00:27:37,089 --> 00:27:38,899
+voter let's call him and double star
+选民叫他和双星
+
+600
+00:27:39,099 --> 00:27:41,809
+who's extremely pivotal for C right so I
+对C至关重要的人，所以我
+
+601
+00:27:42,009 --> 00:27:43,279
+can make that same argument that I made
+可以提出与我相同的论点
+
+602
+00:27:43,480 --> 00:27:45,559
+before where C starts out at the bottom
+在C从底部开始之前
+
+603
+00:27:45,759 --> 00:27:48,169
+for everyone and the social ordering has
+为每个人和社会秩序
+
+604
+00:27:48,369 --> 00:27:49,879
+it at the bottom and then I started
+它在底部，然后我开始
+
+605
+00:27:50,079 --> 00:27:51,710
+moving things to the top until something
+把东西移到顶部
+
+606
+00:27:51,910 --> 00:27:54,079
+changes I'm eventually I can see that it
+变化，最终我可以看到
+
+607
+00:27:54,279 --> 00:27:55,730
+changes there and whoever the guy is who
+在那里改变，不管那个人是谁
+
+608
+00:27:55,930 --> 00:27:57,889
+made a change let's call that a double
+进行了更改，我们称其为双倍
+
+609
+00:27:58,089 --> 00:28:00,619
+star and in principle maybe this is a
+明星，原则上也许这是一个
+
+610
+00:28:00,819 --> 00:28:02,089
+different guy there's nothing in step
+不同的家伙没有什么可分的
+
+611
+00:28:02,289 --> 00:28:03,349
+two that says it has to be the same
+两个说必须相同
+
+612
+00:28:03,549 --> 00:28:05,629
+person it just says there's nothing
+人，它只是说什么都没有
+
+613
+00:28:05,829 --> 00:28:07,250
+special about beat it made it the thing
+关于击败的特殊之处使其成为现实
+
+614
+00:28:07,450 --> 00:28:08,809
+that had to move around it would have
+那必须四处走动
+
+615
+00:28:09,009 --> 00:28:10,250
+worked for anything so it worked for
+为任何东西工作，所以它为
+
+616
+00:28:10,450 --> 00:28:13,789
+example for C well now I can use the
+ C的例子，现在我可以使用
+
+617
+00:28:13,990 --> 00:28:16,129
+argument in step three to say that this
+第三步的论点是说
+
+618
+00:28:16,329 --> 00:28:17,659
+guy that we've just identified and
+我们刚刚确定的那个人， 
+
+619
+00:28:17,859 --> 00:28:20,539
+double star is a dictator over any pair
+双星是任何一对的独裁者
+
+620
+00:28:20,740 --> 00:28:23,690
+alpha beta which doesn't involve C right
+不涉及C权利的alpha beta 
+
+621
+00:28:23,890 --> 00:28:25,430
+I'm just basically running through the
+我基本上只是在经历
+
+622
+00:28:25,630 --> 00:28:27,169
+arguments I had before but renaming the
+我之前有过争论，但重命名了
+
+623
+00:28:27,369 --> 00:28:32,690
+variables so of course a B is an example
+变量，所以当然B是一个例子
+
+624
+00:28:32,890 --> 00:28:35,359
+of such a pair alpha beta right so so by
+对这样的alpha beta，所以
+
+625
+00:28:35,559 --> 00:28:37,039
+this argument there's somebody who's a
+这个论点有人
+
+626
+00:28:37,240 --> 00:28:40,579
+dictator over over the pair a B so what
+一对B的独裁者怎么办
+
+627
+00:28:40,779 --> 00:28:42,379
+I want to show is that that person is n
+我想证明的是那个人是n 
+
+628
+00:28:42,579 --> 00:28:45,740
+star you know you I might worry that
+明星你知道你我可能会担心
+
+629
+00:28:45,940 --> 00:28:47,089
+there are different dictators for
+有不同的独裁者
+
+630
+00:28:47,289 --> 00:28:50,869
+and things but notice that I've already
+和其他事情，但是请注意，我已经
+
+631
+00:28:51,069 --> 00:28:53,569
+observed that n star is able to affect
+观察到n星能够影响
+
+632
+00:28:53,769 --> 00:28:57,319
+the way that W relatively ranks a and B
+ W相对排名a和B的方式
+
+633
+00:28:57,519 --> 00:29:00,980
+for example we saw this in the movement
+例如我们在运动中看到了
+
+634
+00:29:01,180 --> 00:29:03,319
+from the profile pref one two pref two
+从个人资料偏好一二偏好二
+
+635
+00:29:03,519 --> 00:29:06,500
+right when we had this profile where B
+对，当我们拥有此配置文件时，B 
+
+636
+00:29:06,700 --> 00:29:10,039
+was at the bottom whoops I'm doing that
+在底部，我正在这么做
+
+637
+00:29:10,240 --> 00:29:12,279
+wrong let me do it again we had this
+不对，让我再做一次
+
+638
+00:29:12,480 --> 00:29:15,740
+ranking where B was at the top for a
+排名B在a的顶部
+
+639
+00:29:15,940 --> 00:29:17,269
+couple people is at the bottom for end
+夫妻是最后的结局
+
+640
+00:29:17,470 --> 00:29:19,069
+star it was at the bottom for other
+明星，这是在其他人的底部
+
+641
+00:29:19,269 --> 00:29:21,409
+people and then we move it up to the top
+人，然后我们将其移至顶部
+
+642
+00:29:21,609 --> 00:29:23,839
+we saw that that caused the social
+我们看到这导致了社会
+
+643
+00:29:24,039 --> 00:29:26,419
+welfare ordering to take B and move it
+福利命令取B并将其移动
+
+644
+00:29:26,619 --> 00:29:27,970
+from the bottom to the top and that
+从底部到顶部
+
+645
+00:29:28,170 --> 00:29:31,609
+means that n star is able to affect the
+表示n星能够影响
+
+646
+00:29:31,809 --> 00:29:33,349
+relative ranking between a and B because
+ A和B之间的相对排名，因为
+
+647
+00:29:33,549 --> 00:29:34,819
+wherever a is it's somewhere in the
+无论它在哪里
+
+648
+00:29:35,019 --> 00:29:36,649
+middle here in the social ordering and
+在社会秩序中间
+
+649
+00:29:36,849 --> 00:29:38,569
+so the relative ranking between a and B
+所以a和B之间的相对排名
+
+650
+00:29:38,769 --> 00:29:41,569
+got affected by what and starred
+受什么影响并出演了
+
+651
+00:29:41,769 --> 00:29:43,940
+declared goodbye this change that only n
+宣布再见，只有n 
+
+652
+00:29:44,140 --> 00:29:48,950
+star made and what I've now just argued
+明星造的，我现在刚刚争论过的
+
+653
+00:29:49,150 --> 00:29:51,339
+is that there has to be some dictator
+是必须有一些独裁者
+
+654
+00:29:51,539 --> 00:29:56,299
+over a B pairs and so if n star was able
+超过B对，所以如果n星能够
+
+655
+00:29:56,500 --> 00:29:59,029
+to make any difference to a B pairs he
+对B对有什么影响
+
+656
+00:29:59,230 --> 00:30:02,450
+has to be that dictator because it's not
+必须是那个独裁者，因为它不是
+
+657
+00:30:02,650 --> 00:30:04,430
+possible to have both a dictator for a B
+可能同时拥有B的独裁者
+
+658
+00:30:04,630 --> 00:30:05,750
+pairs and a different person whoever
+对和另一个人
+
+659
+00:30:05,950 --> 00:30:07,940
+makes a difference to the a B ranking
+使A B排名有所不同
+
+660
+00:30:08,140 --> 00:30:11,599
+and so that means that this n double
+所以这意味着这n倍
+
+661
+00:30:11,799 --> 00:30:13,669
+star and M star must be the same agent
+星和M星必须是同一代理
+
+662
+00:30:13,869 --> 00:30:17,629
+and that means n star is a dictator over
+这意味着n星是独裁者
+
+663
+00:30:17,829 --> 00:30:20,000
+everything and start is just a full
+一切都开始了
+
+664
+00:30:20,200 --> 00:30:24,500
+dictator and that means no matter what
+独裁者，那就意味着无论如何
+
+665
+00:30:24,700 --> 00:30:26,509
+social welfare function I have if it's
+我有的社会福利功能
+
+666
+00:30:26,710 --> 00:30:29,089
+Pareto efficient and if it's independent
+帕累托高效且独立
+
+667
+00:30:29,289 --> 00:30:31,430
+of irrelevant alternatives it has to be
+不相关的选择
+
+668
+00:30:31,630 --> 00:30:33,049
+some dictatorial Social Welfare function
+一些独裁的社会福利职能
+
+669
+00:30:33,250 --> 00:30:35,329
+which means the only freedom you have in
+这意味着您拥有的唯一自由
+
+670
+00:30:35,529 --> 00:30:37,220
+such a social welfare function is the
+这样的社会福利功能是
+
+671
+00:30:37,420 --> 00:30:39,079
+freedom to decide which person is the
+自由决定哪个人是
+
+672
+00:30:39,279 --> 00:30:41,359
+dictator and if you have any other
+独裁者，如果还有其他
+
+673
+00:30:41,559 --> 00:30:44,169
+social welfare function which isn't
+社会福利功能不是
+
+674
+00:30:44,369 --> 00:30:47,389
+dictatorial then it must be that it's
+独裁的话那一定是
+
+675
+00:30:47,589 --> 00:30:50,210
+either not preeto efficient or it's not
+要么效率不高，要么效率不高
+
+676
+00:30:50,410 --> 00:30:51,319
+independent of irrelevant alternatives
+独立于无关的选择
+
+677
+00:30:51,519 --> 00:30:55,399
+and that explains why we have voting
+这就解释了为什么我们要投票
+
+678
+00:30:55,599 --> 00:30:58,430
+systems that cause things like the
+导致诸如
+
+679
+00:30:58,630 --> 00:31:00,349
+number of votes that Ralph Nader gets
+拉尔夫·纳德（Ralph Nader）获得的票数
+
+680
+00:31:00,549 --> 00:31:02,930
+effect who wins the election in Florida
+谁赢得佛罗里达大选的影响
+
+681
+00:31:03,130 --> 00:31:05,480
+that's a case of not being independent
+那是不独立的情况
+
+682
+00:31:05,680 --> 00:31:07,250
+of irrelevant alternatives and that's
+不相关的替代方案，那就是
+
+683
+00:31:07,450 --> 00:31:09,980
+usually the the axiom that we relaxed
+通常我们放松的公理
+
+684
+00:31:10,180 --> 00:31:12,289
+because not being pre to efficient would
+因为不追求效率会
+
+685
+00:31:12,490 --> 00:31:13,129
+be really terrible
+真的很糟糕
+
+686
+00:31:13,329 --> 00:31:15,470
+that means if everybody all agrees about
+这意味着如果所有人都同意
+
+687
+00:31:15,670 --> 00:31:17,119
+something sometimes the social welfare
+有时是社会福利
+
+688
+00:31:17,319 --> 00:31:18,529
+function would do something different
+函数会做一些不同的事情
+
+689
+00:31:18,730 --> 00:31:20,149
+anyway that's something that we're
+无论如何，这就是我们
+
+690
+00:31:20,349 --> 00:31:22,369
+usually not willing to tolerate and so
+通常不愿意容忍等等
+
+691
+00:31:22,569 --> 00:31:24,079
+the practical consequence of Eros
+爱神的实际后果
+
+692
+00:31:24,279 --> 00:31:27,500
+theorem is that we end up having social
+定理是，我们最终有社会
+
+693
+00:31:27,700 --> 00:31:28,549
+welfare functions that are not
+不是的福利功能
+
+694
+00:31:28,750 --> 00:31:33,750
+independent of irrelevant alternatives
+独立于无关的选择
+

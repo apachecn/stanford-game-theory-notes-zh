@@ -1,0 +1,1635 @@
+﻿1
+00:00:00,060 --> 00:00:03,428
+in this segment we introduced a very
+在这一部分，我们介绍了一个非常
+
+2
+00:00:03,629 --> 00:00:05,950
+central area of game theory called
+博弈论的中心领域称为
+
+3
+00:00:06,150 --> 00:00:08,830
+mechanism design it's often called
+机制设计，通常称为
+
+4
+00:00:09,029 --> 00:00:12,390
+so-called implementation theory and
+所谓的实施理论和
+
+5
+00:00:12,589 --> 00:00:17,589
+sometimes also called inverse game
+有时也称为逆向游戏
+
+6
+00:00:17,789 --> 00:00:21,429
+theory and the intuition is that when we
+理论和直觉是，当我们
+
+7
+00:00:21,629 --> 00:00:23,289
+often think about game theory we think
+经常想到我们认为的博弈论
+
+8
+00:00:23,489 --> 00:00:27,789
+about a given game that were somehow we
+关于给定游戏的某种程度上，我们
+
+9
+00:00:27,989 --> 00:00:31,269
+inherit it it's a situation that we need
+继承这是我们需要的情况
+
+10
+00:00:31,469 --> 00:00:35,500
+to reason about and so we do but in
+进行推理，所以我们这样做，但是
+
+11
+00:00:35,700 --> 00:00:38,858
+mechanism design we get to design the
+机制设计，我们来设计
+
+12
+00:00:39,058 --> 00:00:42,518
+game as so as to optimize for certain
+游戏，以优化某些
+
+13
+00:00:42,719 --> 00:00:50,070
+qualities think for example about voting
+素质例如考虑投票
+
+14
+00:00:50,270 --> 00:00:53,799
+we get to design the voting rules it can
+我们可以设计投票规则
+
+15
+00:00:54,000 --> 00:00:57,070
+be plurality or plurality of elimination
+被多个或多个消除
+
+16
+00:00:57,270 --> 00:00:59,559
+or border or pairwise elimination or any
+或边界消除或成对消除或任何
+
+17
+00:00:59,759 --> 00:01:04,060
+number of other mechanisms or think
+其他机制或思考的数量
+
+18
+00:01:04,260 --> 00:01:06,969
+about selling a product we can sell it
+关于出售产品我们可以出售
+
+19
+00:01:07,170 --> 00:01:09,579
+directly by posting a price or we can
+直接发布价格，或者我们可以
+
+20
+00:01:09,780 --> 00:01:12,219
+run an auction and there are many
+进行拍卖，有很多
+
+21
+00:01:12,420 --> 00:01:13,810
+different kinds of auctions we could run
+我们可以进行各种拍卖
+
+22
+00:01:14,010 --> 00:01:17,319
+these are all examples of mechanisms and
+这些都是机制的例子， 
+
+23
+00:01:17,519 --> 00:01:19,750
+we'll be speaking about how to model
+我们将谈论如何建模
+
+24
+00:01:19,950 --> 00:01:22,269
+this formally and what mechanisms aim to
+这是正式的，什么机制旨在
+
+25
+00:01:22,469 --> 00:01:27,640
+achieve so when we design a mechanism
+当我们设计一种机制时实现
+
+26
+00:01:27,840 --> 00:01:30,668
+for example a voting rule we don't
+例如我们没有投票规则
+
+27
+00:01:30,868 --> 00:01:34,238
+design it in a vacuum there are some set
+在真空中设计有一些设置
+
+28
+00:01:34,438 --> 00:01:37,480
+of candidates for example that we don't
+例如，我们不
+
+29
+00:01:37,680 --> 00:01:39,909
+get to control cannons will be what they
+控制大炮将是他们
+
+30
+00:01:40,109 --> 00:01:40,418
+are
+是
+
+31
+00:01:40,618 --> 00:01:43,000
+we certainly don't get to control who
+我们当然不能控制谁
+
+32
+00:01:43,200 --> 00:01:45,429
+the voters are they are who they are and
+选民是他们是谁， 
+
+33
+00:01:45,629 --> 00:01:47,439
+we don't get to look inside their head
+我们不要看他们的内心
+
+34
+00:01:47,640 --> 00:01:50,759
+and decide what they should care about
+并决定他们应该关心什么
+
+35
+00:01:50,959 --> 00:01:53,500
+who they prefer to whom that's a given
+他们更喜欢谁
+
+36
+00:01:53,700 --> 00:01:56,049
+that they're type also part of their
+他们输入的内容也是他们的一部分
+
+37
+00:01:56,250 --> 00:01:59,259
+type are what their information or do
+类型是他们的信息或行为
+
+38
+00:01:59,459 --> 00:02:01,509
+they know about various thing the
+他们知道各种事情
+
+39
+00:02:01,709 --> 00:02:03,750
+setting we don't yet control any of that
+设置我们还没有控制任何
+
+40
+00:02:03,950 --> 00:02:06,698
+so all that part all that background
+所以所有的那部分背景
+
+41
+00:02:06,899 --> 00:02:09,789
+that we don't get to control is called
+我们无法控制的被称为
+
+42
+00:02:09,989 --> 00:02:12,880
+the setting or the Bayesian game setting
+设置或贝叶斯游戏设置
+
+43
+00:02:13,080 --> 00:02:15,100
+and what will happen and we'll go over
+会发生什么，我们将结束
+
+44
+00:02:15,300 --> 00:02:17,439
+it now but what will happen is we'll be
+现在，但是将会发生的事情是我们将
+
+45
+00:02:17,639 --> 00:02:20,140
+given a Bayesian game setting which
+给定贝叶斯游戏设置
+
+46
+00:02:20,340 --> 00:02:22,150
+won't quite be a game be a setting and
+不太会是游戏，而是场景
+
+47
+00:02:22,349 --> 00:02:24,969
+then we'll add to it the ingredient that
+然后我们将添加到其中的成分
+
+48
+00:02:25,169 --> 00:02:27,610
+will turn it into a game and we'll try
+将其变成游戏，我们将尝试
+
+49
+00:02:27,810 --> 00:02:30,280
+to design the game so as to optimize
+设计游戏以进行优化
+
+50
+00:02:30,479 --> 00:02:36,400
+certain qualities and so so let's go
+某些特质，所以让我们开始吧
+
+51
+00:02:36,599 --> 00:02:43,270
+over it we have this tuple and let's go
+上面有这个元组，然后开始
+
+52
+00:02:43,469 --> 00:02:47,650
+over it in order so n is simply the set
+按顺序排列，所以n只是集合
+
+53
+00:02:47,849 --> 00:02:51,900
+of agents and O is the set of outcomes
+的代理人，O是结果集
+
+54
+00:02:52,099 --> 00:02:55,360
+so we have the social choice function
+所以我们有社会选择功能
+
+55
+00:02:55,560 --> 00:02:58,360
+that has certain outcomes for example we
+有一定的结果，例如我们
+
+56
+00:02:58,560 --> 00:03:00,820
+have a voting situation with certain
+有一定的投票权
+
+57
+00:03:01,020 --> 00:03:04,509
+possible candidates and that is that
+可能的候选人，那就是
+
+58
+00:03:04,709 --> 00:03:10,270
+said O then we have those types those
+说哦，那么我们有那些类型
+
+59
+00:03:10,469 --> 00:03:12,640
+are the exactly the objects we saw in
+正是我们看到的物体
+
+60
+00:03:12,840 --> 00:03:14,860
+Bayesian games again we don't yet have a
+贝叶斯游戏再次，我们还没有
+
+61
+00:03:15,060 --> 00:03:16,780
+game here but the notion of type is well
+游戏在这里，但类型的概念很好
+
+62
+00:03:16,979 --> 00:03:19,480
+defined and so we have and type really
+定义，所以我们有并键入真正
+
+63
+00:03:19,680 --> 00:03:22,150
+all that private information to agents
+给代理商的所有私人信息
+
+64
+00:03:22,349 --> 00:03:26,410
+so intuitively think about it as in the
+所以像
+
+65
+00:03:26,610 --> 00:03:28,810
+voting situation what is my preference
+投票情况我最喜欢什么
+
+66
+00:03:29,009 --> 00:03:32,069
+ordering about the candidates what do I
+订购候选人我该怎么办
+
+67
+00:03:32,269 --> 00:03:34,840
+know about the preference ordering of
+了解有关的偏好排序
+
+68
+00:03:35,039 --> 00:03:38,020
+other agents what do I know about what
+其他代理我对什么了解
+
+69
+00:03:38,219 --> 00:03:40,030
+they know about my preference ordering
+他们知道我的偏好排序
+
+70
+00:03:40,229 --> 00:03:42,430
+and all of that all that private
+以及所有这些私有的
+
+71
+00:03:42,629 --> 00:03:47,050
+information is my type we have as we
+信息是我们拥有的类型
+
+72
+00:03:47,250 --> 00:03:49,569
+usually do a common prior probability
+通常做一个共同的先验概率
+
+73
+00:03:49,769 --> 00:03:52,600
+distribution over those types that's
+分布在那些类型的
+
+74
+00:03:52,800 --> 00:03:57,160
+commonly known by the agent and we have
+代理商通常知道的，我们有
+
+75
+00:03:57,360 --> 00:04:02,400
+a utility function that says given an
+表示给定
+
+76
+00:04:02,599 --> 00:04:05,560
+outcome and given the types of the
+结果和给定的类型
+
+77
+00:04:05,759 --> 00:04:09,580
+agents what is the utility to each of
+代理商对每个人都有什么用处
+
+78
+00:04:09,780 --> 00:04:14,259
+the players and so given that my
+球员，所以鉴于我
+
+79
+00:04:14,459 --> 00:04:18,778
+preference ordering is what it is and
+偏好排序是什么， 
+
+80
+00:04:18,978 --> 00:04:22,620
+given that a particular candidate was
+鉴于特定的候选人是
+
+81
+00:04:22,819 --> 00:04:24,759
+elected for example
+例如当选
+
+82
+00:04:24,959 --> 00:04:28,028
+would give me some utility this is all
+会给我一些实用工具，这就是全部
+
+83
+00:04:28,228 --> 00:04:30,430
+the setting that we as mekin designers
+我们作为设计师的环境
+
+84
+00:04:30,629 --> 00:04:33,160
+donate don't do not get to control and
+捐赠不要不受控制， 
+
+85
+00:04:33,360 --> 00:04:37,240
+don't have access to we know perhaps who
+无法访问我们知道也许是谁
+
+86
+00:04:37,439 --> 00:04:38,999
+the agents are we don't know their types
+代理商是我们不知道他们的类型
+
+87
+00:04:39,199 --> 00:04:45,309
+we we may know their the common prior on
+我们可能知道他们的共同先验
+
+88
+00:04:45,509 --> 00:04:50,230
+those types so now what is the mechanism
+这些类型，现在是什么机制
+
+89
+00:04:50,430 --> 00:04:52,718
+a mechanism consists of those things
+一种机制包括那些东西
+
+90
+00:04:52,918 --> 00:04:54,460
+that when added to the Bayesian game
+当添加到贝叶斯游戏中时
+
+91
+00:04:54,660 --> 00:04:57,160
+setting will make for a Bayesian game so
+设置将使贝叶斯游戏如此
+
+92
+00:04:57,360 --> 00:04:58,899
+there's two things that missing are the
+有两件事是
+
+93
+00:04:59,098 --> 00:05:01,600
+actions so so far we had no action for
+到目前为止，我们还没有采取任何行动
+
+94
+00:05:01,800 --> 00:05:03,819
+the Able's so a mechanism simply
+ Able的机制如此简单
+
+95
+00:05:04,019 --> 00:05:05,680
+specifies the action for example the
+指定操作，例如
+
+96
+00:05:05,879 --> 00:05:09,550
+voting rules or the auction rules and it
+投票规则或拍卖规则及其
+
+97
+00:05:09,750 --> 00:05:11,770
+also specifies because the actions if
+还指定了因为操作
+
+98
+00:05:11,970 --> 00:05:14,230
+they just live in a vacuum don't have
+他们只是生活在真空中
+
+99
+00:05:14,430 --> 00:05:16,629
+any force so they need to interact with
+任何力量，所以他们需要与
+
+100
+00:05:16,829 --> 00:05:18,160
+the Setting Sun while the action simply
+夕阳，而行动只是
+
+101
+00:05:18,360 --> 00:05:25,329
+specify the the the outcome or more
+指定结果或更多
+
+102
+00:05:25,529 --> 00:05:26,800
+generally a distribution of the outcome
+通常结果的分布
+
+103
+00:05:27,000 --> 00:05:30,550
+so actions simply a set of actions for
+所以动作只是一组动作
+
+104
+00:05:30,750 --> 00:05:33,838
+each of the agents for example in a
+每个代理商，例如
+
+105
+00:05:34,038 --> 00:05:36,968
+voting situation it might be to specify
+可能要指定投票情况
+
+106
+00:05:37,168 --> 00:05:38,889
+your entire ordering among the
+您在整个订单中
+
+107
+00:05:39,089 --> 00:05:41,620
+candidates or to specify your top
+候选人或指定您的最高职位
+
+108
+00:05:41,819 --> 00:05:43,990
+candidate whatever the voting rules are
+候选人，无论投票规则如何
+
+109
+00:05:44,189 --> 00:05:50,110
+and a mapping says based on those
+并根据这些内容进行映射
+
+110
+00:05:50,310 --> 00:05:53,199
+actions for example as votes who is the
+例如作为选民的行动
+
+111
+00:05:53,399 --> 00:05:55,899
+winner and as you see a for technical
+冠军，正如您所见， 
+
+112
+00:05:56,098 --> 00:05:59,110
+reason we don't necessarily find one
+我们不一定找到一个的原因
+
+113
+00:05:59,310 --> 00:06:02,319
+winner or one so for choice outcome but
+获胜者或一个这样的选择结果，但
+
+114
+00:06:02,519 --> 00:06:06,819
+a distribution over those outcomes often
+这些结果的分布通常
+
+115
+00:06:07,019 --> 00:06:08,050
+for your intuition think of it as
+为了您的直觉，将其视为
+
+116
+00:06:08,250 --> 00:06:11,319
+specifying a specific outcome you worked
+指定您工作的特定结果
+
+117
+00:06:11,519 --> 00:06:13,660
+you usually won't lose any intuition you
+你通常不会失去任何直觉
+
+118
+00:06:13,860 --> 00:06:17,740
+think about it that way and so this is a
+这样想，所以这是一个
+
+119
+00:06:17,939 --> 00:06:20,829
+mechanism given a Bayesian game setting
+给定贝叶斯游戏设置的机制
+
+120
+00:06:21,029 --> 00:06:23,649
+you add these two ingredients the
+您添加这两种成分
+
+121
+00:06:23,848 --> 00:06:26,170
+actions and how they map to outcomes and
+行动及其与结果的对应关系，以及
+
+122
+00:06:26,370 --> 00:06:28,088
+when you put those together you get a
+当你把它们放在一起时，你会得到一个
+
+123
+00:06:28,288 --> 00:06:32,410
+patient game so how do you specify the
+耐心的游戏，那么您如何指定
+
+124
+00:06:32,610 --> 00:06:37,028
+mechanism well the intuition is that we
+很好的直觉是我们
+
+125
+00:06:37,228 --> 00:06:38,170
+want to
+想要
+
+126
+00:06:38,370 --> 00:06:39,850
+we want the agent to behave a certain
+我们希望代理人表现出一定的行为
+
+127
+00:06:40,050 --> 00:06:41,860
+way we would like to reach a certain
+我们想达成的目标
+
+128
+00:06:42,060 --> 00:06:44,230
+software choice outcome that's best for
+最适合的软件选择结果
+
+129
+00:06:44,430 --> 00:06:47,770
+example we might want to find a socially
+例如我们可能想找到一个社交
+
+130
+00:06:47,970 --> 00:06:51,370
+optimal Pareto efficient outcome we
+最优帕累托有效结果
+
+131
+00:06:51,569 --> 00:06:54,310
+might want in an auction set in two
+可能希望将拍卖分为两部分
+
+132
+00:06:54,509 --> 00:06:57,069
+layers to auction setting to maximize
+拍卖设置最大化
+
+133
+00:06:57,269 --> 00:07:01,870
+our revenue and do that while not having
+我们的收入，而没有
+
+134
+00:07:02,069 --> 00:07:04,180
+control over the bathing game setting
+控制沐浴游戏的设置
+
+135
+00:07:04,379 --> 00:07:08,860
+and so the trick is to set up the rules
+所以诀窍是建立规则
+
+136
+00:07:09,060 --> 00:07:12,460
+of the game the mechanism to cause agent
+游戏的致使机制
+
+137
+00:07:12,660 --> 00:07:15,009
+to behave the way we want them even
+表现出我们想要他们的方式
+
+138
+00:07:15,209 --> 00:07:17,740
+though we don't have access to the
+尽管我们无权访问
+
+139
+00:07:17,939 --> 00:07:20,050
+internal information and can directly
+内部信息并可以直接
+
+140
+00:07:20,250 --> 00:07:22,300
+control the actions but we will set the
+控制动作，但我们将设置
+
+141
+00:07:22,500 --> 00:07:24,100
+rules of the game such that by their
+这样的游戏规则
+
+142
+00:07:24,300 --> 00:07:26,590
+acting in their own perceived
+以自己的感觉行事
+
+143
+00:07:26,790 --> 00:07:28,960
+self-interest they will lead to the
+出于自身利益，他们将导致
+
+144
+00:07:29,160 --> 00:07:32,439
+outcome we desire and so it's really an
+我们想要的结果，所以这真的是
+
+145
+00:07:32,639 --> 00:07:36,280
+operative do it in a number of ways as
+操作性地通过多种方式做到这一点
+
+146
+00:07:36,480 --> 00:07:40,270
+you can think of it as a an optimization
+您可以将其视为优化
+
+147
+00:07:40,470 --> 00:07:43,150
+problem with only partial information
+仅部分信息的问题
+
+148
+00:07:43,350 --> 00:07:46,930
+about and control over the variables
+关于和控制变量
+
+149
+00:07:47,129 --> 00:07:50,110
+you're optimizing you can think of it as
+您正在优化，可以将其视为
+
+150
+00:07:50,310 --> 00:07:55,660
+a you could think of the the setting as
+一个你可以想到的设置
+
+151
+00:07:55,860 --> 00:07:57,490
+a set of Bayesian game and you're
+一组贝叶斯游戏， 
+
+152
+00:07:57,689 --> 00:07:59,800
+picking a selecting a particular
+选择一个特定的
+
+153
+00:08:00,000 --> 00:08:05,170
+Bayesian game out of the set and really
+贝叶斯游戏超出了预期
+
+154
+00:08:05,370 --> 00:08:08,939
+perhaps the most basic view of it is
+也许最基本的看法是
+
+155
+00:08:09,139 --> 00:08:11,170
+goes back to one of the terms
+回到其中一项
+
+156
+00:08:11,370 --> 00:08:14,560
+implementation theory and we really want
+实施理论，我们真的想要
+
+157
+00:08:14,759 --> 00:08:17,310
+to implement a social choice function
+实施社会选择功能
+
+158
+00:08:17,509 --> 00:08:20,860
+which we if we had access to the agents
+如果我们可以与代理商联系
+
+159
+00:08:21,060 --> 00:08:24,370
+type we could have done directly but we
+类型我们可以直接完成，但是我们
+
+160
+00:08:24,569 --> 00:08:27,189
+don't if we simply ask the agents it may
+不要只问代理商
+
+161
+00:08:27,389 --> 00:08:29,439
+not invade may be in their interest to
+不入侵可能符合他们的利益
+
+162
+00:08:29,639 --> 00:08:32,079
+deceive us and so our goal is to
+欺骗我们，所以我们的目标是
+
+163
+00:08:32,279 --> 00:08:35,109
+implement it nonetheless and so
+尽管如此，还是执行它
+
+164
+00:08:35,309 --> 00:08:38,729
+something magical about the setting and
+关于设置的神奇之处
+
+165
+00:08:38,929 --> 00:08:42,189
+it's a quite a robust area within game
+这是游戏中相当强大的区域
+
+166
+00:08:42,389 --> 00:08:46,839
+theory so what does it mean to implement
+理论，那么实施意味着什么
+
+167
+00:08:47,039 --> 00:08:50,259
+a social choice function it in fact has
+它实际上具有的社会选择功能
+
+168
+00:08:50,460 --> 00:08:51,969
+several possible
+几种可能
+
+169
+00:08:52,169 --> 00:08:55,479
+one of them among the strongest is
+其中最强的之一是
+
+170
+00:08:55,679 --> 00:08:57,519
+implementation in dominant strategies
+主导策略的实施
+
+171
+00:08:57,720 --> 00:09:01,179
+what does that mean well let's assume we
+这意味着什么，让我们假设我们
+
+172
+00:09:01,379 --> 00:09:04,559
+start with the Bayesian game setting and
+从贝叶斯游戏设置开始
+
+173
+00:09:04,759 --> 00:09:09,669
+we add to it a mechanism and we'll say
+我们添加了一种机制，我们会说
+
+174
+00:09:09,870 --> 00:09:12,699
+that that mechanism implements a social
+该机制实现了社会
+
+175
+00:09:12,899 --> 00:09:16,929
+choice function C in dominant strategy
+主导策略中的选择函数C 
+
+176
+00:09:17,129 --> 00:09:21,129
+if it's the case that take any utility
+如果是这种情况需要任何实用程序
+
+177
+00:09:21,330 --> 00:09:24,759
+function for the agent any vector U of
+代理的任何向量U 
+
+178
+00:09:24,960 --> 00:09:27,939
+utility functions one for each of the
+实用程序功能每个
+
+179
+00:09:28,139 --> 00:09:32,469
+agents if the game has an equilibrium in
+代理商，如果博弈在
+
+180
+00:09:32,669 --> 00:09:39,849
+dominant strategies such that in any
+这样的主导策略
+
+181
+00:09:40,049 --> 00:09:42,429
+such equilibrium because there could be
+这样的平衡，因为可能
+
+182
+00:09:42,629 --> 00:09:44,769
+multiple in dominant strategy but any
+主导策略的倍数，但任何
+
+183
+00:09:44,970 --> 00:09:47,889
+such equilibrium we have that the
+这样的平衡，我们有
+
+184
+00:09:48,090 --> 00:09:51,370
+outcome specified by the mechanism is
+该机制指定的结果是
+
+185
+00:09:51,570 --> 00:09:55,569
+indeed a social choice function with in
+确实具有
+
+186
+00:09:55,769 --> 00:09:56,949
+that case we will say that the mick
+那样的话，我们会说米克
+
+187
+00:09:57,149 --> 00:09:58,959
+isn't implemented the solar choice
+没有实现太阳能的选择
+
+188
+00:09:59,159 --> 00:10:03,039
+function in dominant strategies you
+在主导策略中发挥作用
+
+189
+00:10:03,240 --> 00:10:05,500
+could ask several questions about it why
+可以问几个问题，为什么
+
+190
+00:10:05,700 --> 00:10:09,669
+should it be in all equilibrium maybe
+是否应该处于完全平衡状态
+
+191
+00:10:09,870 --> 00:10:11,439
+it's enough that in one indeed you could
+这足以使您确实可以
+
+192
+00:10:11,639 --> 00:10:12,449
+define it that way
+这样定义
+
+193
+00:10:12,649 --> 00:10:15,579
+why only dominant strategies and in fact
+为什么只有主导策略，实际上
+
+194
+00:10:15,779 --> 00:10:17,799
+the answer is it doesn't have to be in
+答案是不必一定要
+
+195
+00:10:18,000 --> 00:10:20,199
+dominant strategy so the more a more
+主导策略，所以越多
+
+196
+00:10:20,399 --> 00:10:22,479
+general more relaxed definition of
+一般更宽松的定义
+
+197
+00:10:22,679 --> 00:10:26,199
+implementation is implication in a Bayes
+在贝叶斯中实现
+
+198
+00:10:26,399 --> 00:10:31,870
+Nash equilibrium and it is almost the
+纳什均衡，它几乎是
+
+199
+00:10:32,070 --> 00:10:36,549
+same we say that given this patient game
+同样，我们说，鉴于这场耐心的比赛
+
+200
+00:10:36,750 --> 00:10:39,490
+setting will say that the mechanism
+设置会说机制
+
+201
+00:10:39,690 --> 00:10:43,389
+implements the social choice function in
+实施社会选择功能
+
+202
+00:10:43,590 --> 00:10:46,029
+a Bayes Nash equilibrium as opposed to
+贝叶斯纳什均衡而不是
+
+203
+00:10:46,230 --> 00:10:50,079
+dominant strategy equilibrium if there
+如果存在主导策略均衡
+
+204
+00:10:50,279 --> 00:10:56,399
+exists a Bayes Nash equilibrium of the
+存在一个贝叶斯纳什均衡
+
+205
+00:10:56,600 --> 00:10:59,319
+game that results from the mechanism in
+机制产生的游戏
+
+206
+00:10:59,519 --> 00:11:06,509
+the setting such that in for every
+这样的设置
+
+207
+00:11:06,710 --> 00:11:10,149
+type of agents and every action profile
+代理类型和每个操作配置文件
+
+208
+00:11:10,350 --> 00:11:15,159
+that can arise in this equilibrium it's
+在这种平衡中可能会出现
+
+209
+00:11:15,360 --> 00:11:20,469
+the case that the outcome defined by
+如果结果定义为
+
+210
+00:11:20,669 --> 00:11:23,620
+that action profile is a social choice
+行动概况是一种社会选择
+
+211
+00:11:23,820 --> 00:11:28,289
+function of the agents given their types
+给定其类型的代理的功能
+
+212
+00:11:28,490 --> 00:11:32,379
+so it's a at a little bit of a mouthful
+所以只需要一点点
+
+213
+00:11:32,580 --> 00:11:34,599
+here but the intuition is very much the
+在这里，但直觉非常
+
+214
+00:11:34,799 --> 00:11:36,689
+same as in the dominant strategy
+与主导策略相同
+
+215
+00:11:36,889 --> 00:11:39,539
+implementation in dominant strategies
+主导策略的实施
+
+216
+00:11:39,740 --> 00:11:43,179
+the situation is simple we simply have
+情况很简单，我们只需
+
+217
+00:11:43,379 --> 00:11:47,019
+dominant strategies and we require that
+主导策略，我们要求
+
+218
+00:11:47,220 --> 00:11:51,459
+in all of those the action profile lead
+在所有这些动作简介中
+
+219
+00:11:51,659 --> 00:11:56,519
+to a softer choice function here we have
+一个更柔和的选择功能
+
+220
+00:11:56,720 --> 00:12:00,579
+probability distributions and so there
+概率分布等
+
+221
+00:12:00,779 --> 00:12:03,189
+can be multiple actions that instantiate
+可以是多个实例化的动作
+
+222
+00:12:03,389 --> 00:12:05,469
+despite these these these the action
+尽管这些这些这些行动
+
+223
+00:12:05,669 --> 00:12:09,490
+profile of these strategies and what we
+这些策略的概况以及我们
+
+224
+00:12:09,690 --> 00:12:11,319
+want it be the case that every action
+希望每个动作都这样
+
+225
+00:12:11,519 --> 00:12:14,500
+profile would lead up by definition to
+配置文件将导致定义为
+
+226
+00:12:14,700 --> 00:12:18,039
+some outcome according to the this
+根据这个结果
+
+227
+00:12:18,240 --> 00:12:20,949
+mapping and we would like to be the case
+映射，我们希望如此
+
+228
+00:12:21,149 --> 00:12:24,309
+that indeed is a social choice of the
+那确实是社会的选择
+
+229
+00:12:24,509 --> 00:12:28,569
+agents and they are meaning they have
+代理商，他们的意思是他们有
+
+230
+00:12:28,769 --> 00:12:31,419
+their own preferences and with respect
+自己的喜好和尊重
+
+231
+00:12:31,620 --> 00:12:33,370
+to those preferences we want that action
+根据这些偏好，我们希望该操作
+
+232
+00:12:33,570 --> 00:12:35,829
+profile to lead to the optimal outcome
+剖面以达到最佳效果
+
+233
+00:12:36,029 --> 00:12:41,120
+as defined by the social choice function
+由社会选择功能定义
+
+234
+00:12:45,139 --> 00:12:50,008
+so as I said earlier mechanism design is
+正如我之前所说，机制设计是
+
+235
+00:12:50,208 --> 00:12:54,599
+a very rich and deep topic in game
+游戏中一个非常丰富而深刻的话题
+
+236
+00:12:54,799 --> 00:12:57,508
+theory there's a lot to say about it
+理论上有很多话要说
+
+237
+00:12:57,708 --> 00:12:59,549
+both from the follower point of view and
+从追随者的角度来看
+
+238
+00:12:59,750 --> 00:13:01,799
+it's also among that parts of game
+这也是游戏的一部分
+
+239
+00:13:02,000 --> 00:13:05,269
+theory that have lent themselves most to
+最适合自己的理论
+
+240
+00:13:05,470 --> 00:13:08,519
+applications most nodes will be two
+应用程序大多数节点将是两个
+
+241
+00:13:08,720 --> 00:13:12,089
+options and there are separate lectures
+选项，并有单独的讲座
+
+242
+00:13:12,289 --> 00:13:15,828
+about that but let me for now stay at
+关于这个，但让我暂时留在
+
+243
+00:13:16,028 --> 00:13:18,870
+kind of more abstract level and make a
+比较抽象的层次， 
+
+244
+00:13:19,070 --> 00:13:21,539
+few comments about business
+关于业务的一些评论
+
+245
+00:13:21,740 --> 00:13:26,128
+implementation first of all there could
+首先可以实现
+
+246
+00:13:26,328 --> 00:13:30,599
+be multiple equilibria and we back to
+是多重均衡，我们回到
+
+247
+00:13:30,799 --> 00:13:32,758
+the same issue that we haven't game
+我们没有玩过的相同问题
+
+248
+00:13:32,958 --> 00:13:34,799
+theory in general even before we speak
+一般的理论，甚至在我们说话之前
+
+249
+00:13:35,000 --> 00:13:37,169
+about making the design when we have
+关于我们进行设计时
+
+250
+00:13:37,370 --> 00:13:40,679
+multiple equilibria of a game what do we
+游戏的多重均衡我们该怎么办
+
+251
+00:13:40,879 --> 00:13:43,378
+actually predict that will happen now in
+实际预测那会发生在
+
+252
+00:13:43,578 --> 00:13:47,878
+a maximum design setting we could say if
+我们可以说最大设计设置
+
+253
+00:13:48,078 --> 00:13:52,439
+I have multiple equilibria is it enough
+我有多个平衡点就够了
+
+254
+00:13:52,639 --> 00:13:57,508
+that I select one of them and require
+我选择其中之一并要求
+
+255
+00:13:57,708 --> 00:14:00,539
+that the at equilibrium always lead to
+处于平衡状态总是导致
+
+256
+00:14:00,740 --> 00:14:05,878
+social choice optimum or or not we have
+社会选择的最佳与否
+
+257
+00:14:06,078 --> 00:14:08,878
+the usual concerns about a career in
+人们对职业的普遍关注
+
+258
+00:14:09,078 --> 00:14:11,370
+general equilibrium is very strong
+总体平衡很强
+
+259
+00:14:11,570 --> 00:14:15,628
+notion what happens if agents first of
+如果代理商首先
+
+260
+00:14:15,828 --> 00:14:18,299
+all somehow miss coordinate on the
+都以某种方式错过了协调
+
+261
+00:14:18,500 --> 00:14:20,669
+equilibria and play different says that
+平衡和发挥不同说
+
+262
+00:14:20,870 --> 00:14:22,109
+the strategy profiles corresponding to
+对应的策略配置文件
+
+263
+00:14:22,309 --> 00:14:25,039
+different equilibria or even more
+不同的平衡甚至更多
+
+264
+00:14:25,240 --> 00:14:27,628
+extremely don't play an equilibrium at
+极端不平衡
+
+265
+00:14:27,828 --> 00:14:31,169
+all a legitimate question in game theory
+博弈论中所有合理的问题
+
+266
+00:14:31,370 --> 00:14:35,399
+general and in particular here also
+一般，特别是这里
+
+267
+00:14:35,600 --> 00:14:38,508
+equilibria a very general category and
+均衡是一个非常笼统的类别
+
+268
+00:14:38,708 --> 00:14:42,919
+one one one one objection could be that
+一对一反对可能是
+
+269
+00:14:43,120 --> 00:14:46,378
+asymmetric equilibria are implausibly
+非对称的平衡是令人难以置信的
+
+270
+00:14:46,578 --> 00:14:47,609
+here there's no reason to think that
+这里没有理由认为
+
+271
+00:14:47,809 --> 00:14:51,359
+representing game one one agent would
+代表一场比赛的一位特工
+
+272
+00:14:51,559 --> 00:14:55,169
+gravitate to one strategy and another
+倾向于一种策略而另一种
+
+273
+00:14:55,370 --> 00:14:57,179
+agent to another even though the setting
+即使设置也可以代理
+
+274
+00:14:57,379 --> 00:14:58,479
+is confusing
+令人困惑
+
+275
+00:14:58,679 --> 00:15:01,449
+and so there are various things you
+所以你有很多事情
+
+276
+00:15:01,649 --> 00:15:03,939
+could do about these questions and
+可以解决这些问题， 
+
+277
+00:15:04,139 --> 00:15:07,599
+concerns one of them is simply required
+只是其中之一
+
+278
+00:15:07,799 --> 00:15:09,909
+that the implementation be asymmetric
+实现不对称
+
+279
+00:15:10,110 --> 00:15:12,549
+based national program that takes care
+基于国家的照顾计划
+
+280
+00:15:12,750 --> 00:15:17,859
+of the asymmetry concerns you might want
+您可能想要的不对称问题
+
+281
+00:15:18,059 --> 00:15:22,659
+also to require exposed implementation
+还要求公开实施
+
+282
+00:15:22,860 --> 00:15:27,639
+meaning that the strategies selected are
+表示选择的策略是
+
+283
+00:15:27,840 --> 00:15:31,120
+an exposed equilibrium a very strong
+暴露的平衡非常强
+
+284
+00:15:31,320 --> 00:15:34,899
+notion so agent don't experience regret
+代理人不会后悔的想法
+
+285
+00:15:35,100 --> 00:15:38,289
+for having selected those Olivia even
+甚至选择了那些奥利维亚
+
+286
+00:15:38,490 --> 00:15:42,939
+after the game is played go beyond
+游戏结束后，超越
+
+287
+00:15:43,139 --> 00:15:44,769
+issues specific to bathe Nash
+沐浴纳什的特定问题
+
+288
+00:15:44,970 --> 00:15:47,289
+implementation on implementation of
+实施
+
+289
+00:15:47,490 --> 00:15:51,099
+solar choice functions in general we can
+一般我们可以选择太阳能
+
+290
+00:15:51,299 --> 00:15:55,359
+require indeed that it arrives in some
+确实要求它到达一些
+
+291
+00:15:55,559 --> 00:16:01,059
+equilibrium or in every equilibrium we
+平衡或我们在每个平衡中
+
+292
+00:16:01,259 --> 00:16:03,250
+can even require that there be only one
+甚至可以要求只有一个
+
+293
+00:16:03,450 --> 00:16:06,809
+equilibrium in which it requires and
+它需要的平衡和
+
+294
+00:16:07,009 --> 00:16:09,909
+finally there's various ways to have to
+终于有各种各样的方法
+
+295
+00:16:10,110 --> 00:16:12,609
+implement the function and one important
+实现功能和一个重要
+
+296
+00:16:12,809 --> 00:16:16,089
+distinction that to keep in mind is
+要记住的区别是
+
+297
+00:16:16,289 --> 00:16:17,919
+between direct implementation and
+在直接实施和
+
+298
+00:16:18,120 --> 00:16:21,549
+indirect implementation in a direct
+直接执行中的间接执行
+
+299
+00:16:21,750 --> 00:16:24,399
+implementation agents send essentially a
+实施代理实质上发送了
+
+300
+00:16:24,600 --> 00:16:30,039
+single message to the mechanism designer
+给机制设计者的一条消息
+
+301
+00:16:30,240 --> 00:16:33,099
+the center disclosing whatever they need
+中心披露他们需要的一切
+
+302
+00:16:33,299 --> 00:16:34,929
+to disclose about their type and then
+透露他们的类型，然后
+
+303
+00:16:35,129 --> 00:16:37,990
+the rest happens in within the mechanism
+其余的发生在机制内
+
+304
+00:16:38,190 --> 00:16:44,319
+whereas indirect mechanisms there's a an
+而间接机制有一个
+
+305
+00:16:44,519 --> 00:16:46,629
+iterative process of messaging back and
+回传消息的迭代过程
+
+306
+00:16:46,830 --> 00:16:50,799
+forth think even about voting as an
+甚至考虑将投票作为
+
+307
+00:16:51,000 --> 00:16:55,479
+example you could simply disclose once
+例如，您只需披露一次
+
+308
+00:16:55,679 --> 00:16:58,479
+and for all something for example your
+对于所有事物，例如您的
+
+309
+00:16:58,679 --> 00:17:01,479
+entire preference profile for A to C to
+ A到C的整个偏好设置
+
+310
+00:17:01,679 --> 00:17:04,149
+B or if the mechanism calls for only
+ B或该机制仅要求
+
+311
+00:17:04,349 --> 00:17:06,039
+disclosing your top choice a I simply
+公开您的首选a我只是
+
+312
+00:17:06,240 --> 00:17:09,309
+prefer a to the others and that's it
+比其他人更喜欢一个
+
+313
+00:17:09,509 --> 00:17:11,809
+that'll be a direct
+那将是直接的
+
+314
+00:17:12,009 --> 00:17:14,740
+mechanism whereas an iterative mechanism
+机制，而迭代机制
+
+315
+00:17:14,940 --> 00:17:18,639
+would say for example in a you know
+例如会说
+
+316
+00:17:18,839 --> 00:17:25,339
+voting situation might say so you know
+投票情况可能会说，所以你知道
+
+317
+00:17:25,539 --> 00:17:27,980
+as I speak about parameters elimination
+当我谈到参数消除时
+
+318
+00:17:28,180 --> 00:17:30,680
+you declare a tough choice and then
+你宣布一个艰难的选择，然后
+
+319
+00:17:30,880 --> 00:17:32,480
+again you declare the top choice among
+再次声明您是其中的首选
+
+320
+00:17:32,680 --> 00:17:39,559
+the remaining candidates and and and you
+其余的候选人和以及您
+
+321
+00:17:39,759 --> 00:17:43,750
+might there be an unfolding process
+可能会有一个展开的过程
+
+322
+00:17:43,950 --> 00:17:46,700
+direct implementations will turn out to
+直接实现将变成
+
+323
+00:17:46,900 --> 00:17:49,190
+be quite Universal in what they can
+尽其所能
+
+324
+00:17:49,390 --> 00:17:52,579
+accomplish and much easier to analyze
+完成并且更容易分析
+
+325
+00:17:52,779 --> 00:17:57,049
+the indirect implementation and so for
+间接实现等
+
+326
+00:17:57,250 --> 00:17:58,940
+theoretical investigation purposes at
+的理论研究目的
+
+327
+00:17:59,140 --> 00:18:04,140
+least they are quite central
+至少他们很重要
+

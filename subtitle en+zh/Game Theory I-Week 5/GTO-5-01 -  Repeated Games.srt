@@ -1,0 +1,800 @@
+﻿1
+00:00:00,000 --> 00:00:02,889
+hi folks so it's time to start into a
+大家好，现在是时候开始
+
+2
+00:00:03,089 --> 00:00:06,129
+new topic and a very interesting one at
+新话题，一个非常有趣的话题
+
+3
+00:00:06,330 --> 00:00:07,750
+that what we can talk about now is
+我们现在可以谈论的是
+
+4
+00:00:07,950 --> 00:00:11,470
+repeated games and so this will use some
+重复的游戏，所以这将使用一些
+
+5
+00:00:11,669 --> 00:00:12,910
+of the reasoning we've had in terms of
+关于我们的推理
+
+6
+00:00:13,109 --> 00:00:15,550
+sub game perfect and extensive forms but
+子游戏完美且广泛的形式，但
+
+7
+00:00:15,750 --> 00:00:17,530
+now think of situations where players
+现在想到玩家
+
+8
+00:00:17,730 --> 00:00:19,329
+are playing a game but they're playing
+在玩游戏，但他们在玩
+
+9
+00:00:19,528 --> 00:00:22,179
+it repeatedly over time so you know when
+随着时间的推移反复出现，所以你知道什么时候
+
+10
+00:00:22,379 --> 00:00:24,519
+we think of most interactions in the
+我们想到了大多数互动
+
+11
+00:00:24,719 --> 00:00:27,068
+world there's a lot of them which occur
+世界上有很多发生
+
+12
+00:00:27,268 --> 00:00:29,560
+more than once so you know when we think
+不止一次，所以您知道我们何时思考
+
+13
+00:00:29,760 --> 00:00:31,239
+about different kinds of things you know
+关于你知道的各种事情
+
+14
+00:00:31,439 --> 00:00:34,089
+firms in a market place they're
+他们在市场中的公司
+
+15
+00:00:34,289 --> 00:00:35,169
+interacting with their competitors
+与竞争对手互动
+
+16
+00:00:35,369 --> 00:00:37,409
+they're doing it day after day after day
+他们日复一日地在做
+
+17
+00:00:37,609 --> 00:00:39,869
+we think about political alliances
+我们考虑政治联盟
+
+18
+00:00:40,070 --> 00:00:43,000
+countries deciding how they should
+决定如何做的国家
+
+19
+00:00:43,200 --> 00:00:44,619
+negotiate with other ones whether they
+与其他人协商是否
+
+20
+00:00:44,820 --> 00:00:47,439
+should should have conflicts and so
+应该有冲突等等
+
+21
+00:00:47,640 --> 00:00:49,659
+forth those are things where you know
+那些都是你所知道的
+
+22
+00:00:49,859 --> 00:00:51,549
+this happens repeatedly over time so
+随着时间的推移反复发生
+
+23
+00:00:51,750 --> 00:00:53,858
+there's a long history and a long future
+历史悠久，前途无限
+
+24
+00:00:54,058 --> 00:00:54,659
+ahead of them
+在他们前面
+
+25
+00:00:54,859 --> 00:00:56,799
+friends you know do you exchange you
+你认识的朋友你交换你
+
+26
+00:00:57,000 --> 00:00:58,059
+help your friends out when they need
+在需要时帮助您的朋友
+
+27
+00:00:58,259 --> 00:01:00,428
+help do they help you back when you when
+他们在你何时帮助你
+
+28
+00:01:00,628 --> 00:01:03,698
+you need it so you know you're going
+你需要它，所以你知道你要去
+
+29
+00:01:03,899 --> 00:01:06,039
+through repeated interactions and how
+通过反复的互动以及如何
+
+30
+00:01:06,239 --> 00:01:07,509
+you've performed in the past of your
+你过去的表现
+
+31
+00:01:07,709 --> 00:01:09,009
+friends that have done very well for you
+为您做得很好的朋友
+
+32
+00:01:09,209 --> 00:01:11,709
+you're more likely to reciprocate some
+你更有可能回报一些
+
+33
+00:01:11,909 --> 00:01:13,060
+of these kinds of things can involve
+这些事情可能涉及
+
+34
+00:01:13,260 --> 00:01:16,058
+repeated interactions workers team
+反复互动的工人团队
+
+35
+00:01:16,259 --> 00:01:18,609
+production you've got a you know day
+生产，你有一个你知道的一天
+
+36
+00:01:18,810 --> 00:01:20,109
+after day you need to help some of your
+一天之后，您需要帮助一些
+
+37
+00:01:20,310 --> 00:01:21,969
+co-workers sometimes you have to do
+同事有时您必须做
+
+38
+00:01:22,170 --> 00:01:24,159
+tasks that don't go noticed and
+不会被注意到的任务
+
+39
+00:01:24,359 --> 00:01:25,988
+sometimes they do help you out and so
+有时他们确实可以帮助您，所以
+
+40
+00:01:26,188 --> 00:01:27,759
+forth so these are situations where
+第四，这些情况是
+
+41
+00:01:27,959 --> 00:01:30,179
+repetition can make a difference and
+重复可以有所作为， 
+
+42
+00:01:30,379 --> 00:01:32,289
+understanding it will be an important
+了解这将是重要的
+
+43
+00:01:32,489 --> 00:01:34,689
+aspect of understanding how the
+理解方面
+
+44
+00:01:34,890 --> 00:01:38,738
+repetition affects the play involves a
+重复影响戏剧涉及
+
+45
+00:01:38,938 --> 00:01:40,119
+whole series of different kinds of
+全系列的不同种类的
+
+46
+00:01:40,319 --> 00:01:42,668
+things I'm just to fix ideas let's talk
+我只是为了解决问题而已
+
+47
+00:01:42,868 --> 00:01:45,579
+a little bit about OPEC which was a
+关于欧佩克的一点点
+
+48
+00:01:45,780 --> 00:01:48,278
+cartel which was formed in the early
+卡特尔成立于早期
+
+49
+00:01:48,478 --> 00:01:50,619
+1970s and and just in terms of
+ 1970年代
+
+50
+00:01:50,819 --> 00:01:54,340
+background if you go back to you know
+回到你知道的背景
+
+51
+00:01:54,540 --> 00:01:58,509
+the period between 1930 and up to 1973
+从1930年到1973年
+
+52
+00:01:58,709 --> 00:02:02,140
+when OPEC started being put together the
+当欧佩克开始放在一起时， 
+
+53
+00:02:02,340 --> 00:02:04,090
+price of oil so these are all adjusted
+石油价格，因此都进行了调整
+
+54
+00:02:04,290 --> 00:02:06,369
+numbers to reflect say two thousand and
+要反映的数字说2000 
+
+55
+00:02:06,569 --> 00:02:08,140
+eight dollars so we adjust for inflation
+八美元，所以我们根据通货膨胀进行调整
+
+56
+00:02:08,340 --> 00:02:10,118
+and other kinds of things but if you
+和其他种类的东西，但是如果你
+
+57
+00:02:10,318 --> 00:02:13,260
+just everything to the to the same
+一切都一样
+
+58
+00:02:13,460 --> 00:02:16,320
+to adjust for inflation you get a price
+调整通货膨胀，你会得到一个价格
+
+59
+00:02:16,520 --> 00:02:19,050
+of roughly $20 per barrel or less from
+大约每桶20美元或更少
+
+60
+00:02:19,250 --> 00:02:21,780
+the period of 1930 through about 1973
+从1930年到大约1973年
+
+61
+00:02:21,979 --> 00:02:25,110
+OPEC starts to form what happens they
+欧佩克开始形成他们所发生的事情
+
+62
+00:02:25,310 --> 00:02:27,060
+decide that you know they've just been
+决定你知道他们刚刚去过
+
+63
+00:02:27,259 --> 00:02:29,280
+acting it's a bunch of players a bunch
+表演是一群玩家
+
+64
+00:02:29,479 --> 00:02:30,390
+of different producers they've been
+他们曾经去过的不同制片人
+
+65
+00:02:30,590 --> 00:02:32,870
+acting on their own for many years and
+独自行动多年
+
+66
+00:02:33,069 --> 00:02:36,240
+just pumping lots of oil and they pump
+只是抽很多油，他们抽
+
+67
+00:02:36,439 --> 00:02:38,760
+so much oil that the prices is fairly
+这么多的石油，价格合理
+
+68
+00:02:38,960 --> 00:02:41,160
+low it's very easy to buy oil so they're
+低，买油很容易，所以他们
+
+69
+00:02:41,360 --> 00:02:43,110
+going to start by restricting production
+首先要限制生产
+
+70
+00:02:43,310 --> 00:02:45,570
+cut production back down and that'll
+减少生产，这将
+
+71
+00:02:45,770 --> 00:02:47,760
+drive the price up ok what's the
+推动价格上涨，这是什么
+
+72
+00:02:47,960 --> 00:02:49,260
+difficulty is if all the other ones are
+困难是所有其他的
+
+73
+00:02:49,460 --> 00:02:52,020
+producing very little and driving the
+产生很少并驱动
+
+74
+00:02:52,219 --> 00:02:52,620
+price up
+价格上涨
+
+75
+00:02:52,819 --> 00:02:54,689
+I'd like to cheat on the agreement and
+我想在协议上作弊， 
+
+76
+00:02:54,889 --> 00:02:56,939
+pump more oil so you can think of this
+泵更多的油，所以你可以想到这个
+
+77
+00:02:57,139 --> 00:02:58,710
+as looking somewhat like a giant
+看起来有点像巨人
+
+78
+00:02:58,909 --> 00:03:00,719
+prisoner's dilemma game where we'd all
+我们都将在囚徒困境游戏中
+
+79
+00:03:00,919 --> 00:03:03,480
+like to pump less oil if we're OPEC or
+如果我们是石油输出国组织（OPEC），则希望少抽油
+
+80
+00:03:03,680 --> 00:03:05,310
+oil producing countries drive the price
+产油国拉动价格
+
+81
+00:03:05,509 --> 00:03:07,590
+up but we all have an incentive to cheat
+起来，但我们都有诱骗的动机
+
+82
+00:03:07,789 --> 00:03:11,640
+a little bit and pump more oil and the
+并抽更多的油
+
+83
+00:03:11,840 --> 00:03:14,280
+repetition can help us police that if
+重复可以帮助我们报警，如果
+
+84
+00:03:14,479 --> 00:03:17,730
+for OPEC so what happens by 1976 the
+对欧佩克而言，1976年发生了什么
+
+85
+00:03:17,930 --> 00:03:20,250
+price goes up to about $50 a barrel by
+油价到了每桶约50美元
+
+86
+00:03:20,449 --> 00:03:23,160
+the time you get to 1982 these are also
+你到1982年的时候
+
+87
+00:03:23,360 --> 00:03:25,680
+in real terms so that these are adjusted
+实质性地调整这些
+
+88
+00:03:25,879 --> 00:03:27,390
+for inflation they've pumped up the
+为了通货膨胀，他们加大了
+
+89
+00:03:27,590 --> 00:03:31,590
+price up to $90 a barrel and you know so
+价格高达每桶90美元，你知道吗
+
+90
+00:03:31,789 --> 00:03:33,660
+it's in the early 1980s it does quite
+在1980年代初期
+
+91
+00:03:33,860 --> 00:03:35,939
+well in terms of Oh packin lots of money
+哦，哦，包装很多钱
+
+92
+00:03:36,139 --> 00:03:39,450
+coming in and then it collapses for a
+进来然后崩溃了一个
+
+93
+00:03:39,650 --> 00:03:41,280
+while so when you look but the period
+虽然如此，当你看，但时期
+
+94
+00:03:41,479 --> 00:03:44,490
+say between about 1986 to 2002 so 19
+比如说在1986年到2002年之间，所以19 
+
+95
+00:03:44,689 --> 00:03:47,219
+between 82 and 86 it starts to a road it
+在82到86之间开始
+
+96
+00:03:47,419 --> 00:03:51,300
+kind of falls apart between 86 and 2002
+在86和2002之间分崩离析
+
+97
+00:03:51,500 --> 00:03:53,520
+the price is basically $40 a barrel or
+价格基本上是每桶40美元或
+
+98
+00:03:53,719 --> 00:03:55,620
+less and then they get back together
+少然后他们重新聚在一起
+
+99
+00:03:55,819 --> 00:03:58,020
+again so actually during this period
+再次如此实际上在此期间
+
+100
+00:03:58,219 --> 00:04:01,680
+there is a Iran Iraq war a whole series
+有一场伊战全系列
+
+101
+00:04:01,879 --> 00:04:03,330
+of things go on in the Middle East that
+在中东发生的事情
+
+102
+00:04:03,530 --> 00:04:05,370
+make it much more difficult to sustain
+使维持变得更加困难
+
+103
+00:04:05,569 --> 00:04:08,670
+cooperation things deteriorate and then
+合作的事情恶化然后
+
+104
+00:04:08,870 --> 00:04:10,710
+after a while you know things are
+过了一会儿，你知道事情是
+
+105
+00:04:10,909 --> 00:04:13,350
+getting back in terms of higher prices
+重新获得更高的价格
+
+106
+00:04:13,550 --> 00:04:15,660
+by late 2008 the price is pushed back up
+到2008年底价格回升
+
+107
+00:04:15,860 --> 00:04:18,629
+to over $100 a barrel okay so what we
+超过每桶100美元，那么我们
+
+108
+00:04:18,829 --> 00:04:20,180
+need to begin to understand this
+需要开始了解这一点
+
+109
+00:04:20,379 --> 00:04:22,199
+understanding the repeated interaction
+了解重复的互动
+
+110
+00:04:22,399 --> 00:04:23,699
+and understanding the motivations of the
+并了解
+
+111
+00:04:23,899 --> 00:04:25,379
+players and so forth can help us quite
+玩家等可以帮助我们
+
+112
+00:04:25,579 --> 00:04:27,718
+but so when we think about this a cartel
+但是当我们考虑这个卡特尔时
+
+113
+00:04:27,918 --> 00:04:28,800
+is much like a repeated prisoner's
+就像是一个反复犯人的
+
+114
+00:04:29,000 --> 00:04:32,429
+dilemma and in order to make sure that
+困境，并确保
+
+115
+00:04:32,629 --> 00:04:34,079
+other people behave if you want to get
+如果你想得到别人的行为
+
+116
+00:04:34,279 --> 00:04:36,179
+people abiding by this you need to be
+遵守这一点的人，你需要
+
+117
+00:04:36,379 --> 00:04:38,069
+able to observe other people's play and
+能够观察其他人的游戏
+
+118
+00:04:38,269 --> 00:04:39,660
+react quickly to that and punish them
+对此迅速做出反应并惩罚他们
+
+119
+00:04:39,860 --> 00:04:41,879
+desired behavior so if you form a cartel
+期望的行为，所以如果您形成卡特尔
+
+120
+00:04:42,079 --> 00:04:43,649
+and so everybody here's our quotas don't
+所以每个人都是我们的配额
+
+121
+00:04:43,848 --> 00:04:45,718
+pump more than this you be able to need
+泵出更多您需要的
+
+122
+00:04:45,918 --> 00:04:47,730
+to be able to respond to somebody who
+能够回应某人
+
+123
+00:04:47,930 --> 00:04:49,559
+ends up breaking their agreement and
+最终违反了他们的协议， 
+
+124
+00:04:49,759 --> 00:04:51,809
+pumping too much so you need to be able
+抽太多，所以你需要能够
+
+125
+00:04:52,009 --> 00:04:54,749
+to observe what's going on you also need
+观察正在发生的事情，您还需要
+
+126
+00:04:54,949 --> 00:04:58,829
+to care about the future right so if you
+关心未来的权利，如果你
+
+127
+00:04:59,029 --> 00:05:00,300
+stop caring about the future and only
+不要只关心未来
+
+128
+00:05:00,500 --> 00:05:02,550
+care about today then it's very tempting
+在乎今天，这很诱人
+
+129
+00:05:02,750 --> 00:05:03,929
+from one of these countries just to say
+来自这些国家之一
+
+130
+00:05:04,129 --> 00:05:05,218
+okay forget the agreement I'm just
+好吧，忘了我只是达成的协议
+
+131
+00:05:05,418 --> 00:05:06,778
+pumping as much as I can today the price
+我今天能抽得最多
+
+132
+00:05:06,978 --> 00:05:08,550
+is very high I'm going to grab what I
+很高我要抓住我的东西
+
+133
+00:05:08,750 --> 00:05:11,490
+can and war certainly didn't help this
+可以，战争当然没有帮助
+
+134
+00:05:11,689 --> 00:05:13,259
+right so if you have a war you need cash
+对，所以如果你有战争需要现金
+
+135
+00:05:13,459 --> 00:05:15,929
+upfront you're going to want to pump
+前期，你要抽水
+
+136
+00:05:16,129 --> 00:05:17,968
+much more oil and that makes it much
+更多的石油，这使它变得更多
+
+137
+00:05:18,168 --> 00:05:20,670
+more difficult to abide by the cartel
+更难以遵守卡特尔
+
+138
+00:05:20,870 --> 00:05:23,819
+agreement you also need a stable set of
+同意你还需要一套稳定的
+
+139
+00:05:24,019 --> 00:05:27,420
+players and and stationarity so the more
+玩家和平稳性
+
+140
+00:05:27,620 --> 00:05:29,189
+complicated the setting becomes and the
+设置变得复杂，并且
+
+141
+00:05:29,389 --> 00:05:30,718
+more sources of oil there are in the
+有更多的石油来源
+
+142
+00:05:30,918 --> 00:05:32,999
+world and so forth so constantly
+世界等等不断
+
+143
+00:05:33,199 --> 00:05:35,639
+changing sources of production can hurt
+改变生产来源可能会伤害
+
+144
+00:05:35,839 --> 00:05:38,040
+growing demand can help actually right
+需求的增长可以帮助实际上正确
+
+145
+00:05:38,240 --> 00:05:40,649
+so if the world is getting more and more
+所以如果世界越来越多
+
+146
+00:05:40,848 --> 00:05:44,129
+oil dependent and countries come online
+石油依赖国家上线
+
+147
+00:05:44,329 --> 00:05:46,139
+that have more and more demand for oil
+对石油的需求越来越大
+
+148
+00:05:46,338 --> 00:05:49,079
+that can help drive the price up so in
+可以帮助推动价格上涨
+
+149
+00:05:49,278 --> 00:05:50,610
+understanding repeated games we'll have
+了解我们将要玩的重复游戏
+
+150
+00:05:50,810 --> 00:05:54,319
+to account for a lot of things over time
+随着时间的流逝要占很多东西
+
+151
+00:05:54,519 --> 00:05:56,939
+but we can begin to analyze this using
+但是我们可以开始使用
+
+152
+00:05:57,139 --> 00:05:59,759
+the tools of game theory and looking at
+博弈论和观察工具
+
+153
+00:05:59,959 --> 00:06:01,559
+situations where people are playing
+人们在玩的情况
+
+154
+00:06:01,759 --> 00:06:03,269
+games but they're playing them over and
+游戏，但他们正在玩这些游戏， 
+
+155
+00:06:03,468 --> 00:06:04,860
+over and over again and trying to
+一遍又一遍，试图
+
+156
+00:06:05,060 --> 00:06:06,389
+understand the consequences of that
+了解其后果
+
+157
+00:06:06,588 --> 00:06:10,160
+how does threats of future play impact
+未来的威胁如何产生影响
+
+158
+00:06:10,360 --> 00:06:13,588
+play today so that's the basic idea and
+今天玩，这是基本思路， 
+
+159
+00:06:13,788 --> 00:06:15,389
+let's get into that in a little bit more
+让我们多谈一点
+
+160
+00:06:15,588 --> 00:06:20,588
+detail
+详情
+

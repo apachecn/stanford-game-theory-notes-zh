@@ -1,0 +1,1315 @@
+﻿1
+00:00:00,060 --> 00:00:02,049
+let us now speak about backward
+现在让我们谈论倒退
+
+2
+00:00:02,250 --> 00:00:04,299
+induction and backward induction can be
+感应和向后感应都可以
+
+3
+00:00:04,500 --> 00:00:06,219
+viewed as a way of computing the
+被视为一种计算
+
+4
+00:00:06,419 --> 00:00:08,710
+sub-game perfect equilibrium of a game
+子游戏的游戏完美平衡
+
+5
+00:00:08,910 --> 00:00:12,339
+it's a procedure that used widely or
+这个程序被广泛使用
+
+6
+00:00:12,539 --> 00:00:14,589
+variants of it are used widely in game
+它的变体在游戏中被广泛使用
+
+7
+00:00:14,789 --> 00:00:17,650
+playing programs be it chess or other
+下棋或其他棋子的程序
+
+8
+00:00:17,850 --> 00:00:21,640
+ones and and how does this work so this
+一个，以及它是如何工作的，所以这个
+
+9
+00:00:21,839 --> 00:00:24,789
+is a busy busy slide and don't be
+是忙碌的幻灯片，不要
+
+10
+00:00:24,989 --> 00:00:26,260
+daunted we'll explain it
+令人畏惧的我们会解释
+
+11
+00:00:26,460 --> 00:00:29,769
+leisurely also the some of you may have
+你们中的一些人也悠闲地
+
+12
+00:00:29,969 --> 00:00:31,989
+not seen algorithms before but we'll
+以前没有看过算法，但我们会
+
+13
+00:00:32,189 --> 00:00:34,869
+explain the algorithm in very plain
+很简单地解释算法
+
+14
+00:00:35,070 --> 00:00:39,849
+terms before we do let's just first give
+我们开始之前先给我们一些条件
+
+15
+00:00:40,049 --> 00:00:41,829
+the intuition and the intuition is very
+直觉和直觉非常
+
+16
+00:00:42,030 --> 00:00:44,229
+straightforward what we're trying to do
+直截了当我们要做什么
+
+17
+00:00:44,429 --> 00:00:47,858
+is associate a value of the game not
+关联游戏的价值而不是
+
+18
+00:00:48,058 --> 00:00:50,349
+only with leaf nodes with leaf nodes we
+只有叶节点和叶节点
+
+19
+00:00:50,549 --> 00:00:51,878
+know what the value is it's simply
+知道它的价值是什么
+
+20
+00:00:52,079 --> 00:00:55,899
+defined by the payoff vector associated
+由相关的收益向量定义
+
+21
+00:00:56,100 --> 00:00:57,248
+with the leaf node it's part of the game
+叶子节点是游戏的一部分
+
+22
+00:00:57,448 --> 00:00:59,768
+definition but suppose we want to go to
+定义，但假设我们要转到
+
+23
+00:00:59,969 --> 00:01:01,628
+the root of the node or any other
+节点的根或任何其他根
+
+24
+00:01:01,829 --> 00:01:04,179
+internal node and say so what really is
+内部节点，然后说真的
+
+25
+00:01:04,379 --> 00:01:06,579
+the payoff associated here assuming that
+假设这里的收益相关
+
+26
+00:01:06,780 --> 00:01:08,289
+agent will play a sub game perfect
+代理会完美玩一个子游戏
+
+27
+00:01:08,489 --> 00:01:10,750
+equilibrium and that's the goal of this
+平衡，这就是这个目标
+
+28
+00:01:10,950 --> 00:01:12,519
+procedure called backward induction and
+称为反向归纳和
+
+29
+00:01:12,719 --> 00:01:14,488
+the tuition is very straightforward
+学费很简单
+
+30
+00:01:14,688 --> 00:01:17,319
+we'll go to the leaves and back up
+我们会去树叶后退
+
+31
+00:01:17,519 --> 00:01:20,259
+slowly if at every step of the of the
+如果在
+
+32
+00:01:20,459 --> 00:01:23,649
+way assuming the agent will maximize
+假设代理将最大化的方式
+
+33
+00:01:23,849 --> 00:01:25,659
+take an action then maximize their
+采取行动，然后尽最大努力
+
+34
+00:01:25,859 --> 00:01:29,950
+payoff at that node and so that's the
+在那个节点上的回报，这就是
+
+35
+00:01:30,150 --> 00:01:32,399
+intuition now let's see how it's done
+直觉现在让我们看看它是如何完成的
+
+36
+00:01:32,599 --> 00:01:35,859
+formally the procedure is called
+正式的程序称为
+
+37
+00:01:36,060 --> 00:01:37,899
+backward induction and it takes one
+向后感应，需要一个
+
+38
+00:01:38,099 --> 00:01:40,090
+argument a node a node in a tree
+将一个节点作为树中的一个节点
+
+39
+00:01:40,290 --> 00:01:41,918
+any node it could be the root could be a
+它可能是根的任何节点都可以是
+
+40
+00:01:42,118 --> 00:01:44,590
+leaf or anything in between and of
+叶子或之间的任何东西
+
+41
+00:01:44,790 --> 00:01:46,179
+course every node has some player
+当然每个节点都有一些玩家
+
+42
+00:01:46,379 --> 00:01:49,000
+associated with it and just anticipate
+与它相关联并只是预期
+
+43
+00:01:49,200 --> 00:01:52,259
+what will encounter shortly row of H
+不久将遇到H行
+
+44
+00:01:52,459 --> 00:01:54,698
+will be the player so that with that
+将成为玩家，因此
+
+45
+00:01:54,899 --> 00:01:59,409
+node H and when the procedure returns
+节点H以及过程返回时
+
+46
+00:01:59,609 --> 00:02:03,929
+will give us those payoffs as payoffs of
+会将这些收益作为我们的收益
+
+47
+00:02:04,129 --> 00:02:08,618
+us to all of the agents associated with
+我们与所有相关的代理商
+
+48
+00:02:08,818 --> 00:02:11,649
+that node so how did that work and again
+该节点，那么它又如何工作
+
+49
+00:02:11,848 --> 00:02:12,830
+remembering to remain
+记得留下来
+
+50
+00:02:13,030 --> 00:02:16,640
+our intuition we say the following if H
+我们的直觉，如果H 
+
+51
+00:02:16,840 --> 00:02:19,250
+is the leaf node Z is a set of leaf
+是叶节点Z是一组叶
+
+52
+00:02:19,449 --> 00:02:22,730
+nodes if H is a leaf node then we simply
+如果H是叶节点，那么我们简单地
+
+53
+00:02:22,930 --> 00:02:26,060
+return the payoff vector as defined by
+返回由定义的收益向量
+
+54
+00:02:26,259 --> 00:02:28,040
+the game that's where the recursion
+递归的游戏
+
+55
+00:02:28,240 --> 00:02:31,550
+bottoms out most of the work of course
+当然会使大多数工作触底
+
+56
+00:02:31,750 --> 00:02:33,560
+happens in the recursive step when we're
+发生在递归步骤中
+
+57
+00:02:33,759 --> 00:02:36,260
+not at the leaf node so for that we do
+不是在叶节点上，为此
+
+58
+00:02:36,460 --> 00:02:40,969
+the following we will keep a variable
+接下来我们将保留一个变量
+
+59
+00:02:41,169 --> 00:02:45,850
+called bess util and best util will be a
+称为bess util，最好的util将是
+
+60
+00:02:46,050 --> 00:02:49,009
+vector a vector of path associated with
+向量与路径相关的向量
+
+61
+00:02:49,209 --> 00:02:51,560
+the agents each one one one with each
+代理商各一一
+
+62
+00:02:51,759 --> 00:02:57,259
+agents and we will be updating that that
+代理商，我们将对此进行更新
+
+63
+00:02:57,459 --> 00:03:01,910
+that vector as we as we go along so to
+沿着我们前进的那个向量
+
+64
+00:03:02,110 --> 00:03:03,800
+start out with will assume that payoffs
+开始时将假设收益
+
+65
+00:03:04,000 --> 00:03:06,050
+are all terrible let's call that minus
+都是可怕的，我们称之为负号
+
+66
+00:03:06,250 --> 00:03:09,350
+infinity a payoff smaller than all
+无限远小于所有
+
+67
+00:03:09,550 --> 00:03:12,200
+possible payoffs in the game and then we
+游戏中可能的收益，然后我们
+
+68
+00:03:12,400 --> 00:03:16,780
+do the following we will look at all the
+执行以下操作，我们将查看所有
+
+69
+00:03:16,979 --> 00:03:21,620
+actions available at that node so Chi of
+该节点上的可用动作，因此
+
+70
+00:03:21,819 --> 00:03:23,480
+H is a set of all actions available at
+ H是在以下位置可用的所有动作的集合
+
+71
+00:03:23,680 --> 00:03:26,630
+that node a would be an example of such
+该节点a将是这样的一个例子
+
+72
+00:03:26,830 --> 00:03:27,170
+an action
+一种行为
+
+73
+00:03:27,370 --> 00:03:30,920
+so we'll take each action in turn one at
+因此，我们将依次执行每个操作
+
+74
+00:03:31,120 --> 00:03:34,460
+a time and do the following we will look
+一段时间，做下面的事情，我们将看
+
+75
+00:03:34,659 --> 00:03:38,420
+at the child you reach by taking action
+对您采取行动所达到的孩子
+
+76
+00:03:38,620 --> 00:03:40,400
+a at that node H
+在那个节点H 
+
+77
+00:03:40,599 --> 00:03:43,069
+that's called Sigma H away so Sigma
+那叫西格玛H所以西格玛
+
+78
+00:03:43,269 --> 00:03:44,870
+ratio is simply another node one of the
+比率只是另一个节点之一
+
+79
+00:03:45,069 --> 00:03:47,930
+children of node H that you arrive at by
+您到达的节点H的子节点
+
+80
+00:03:48,129 --> 00:03:49,810
+taking that particular action a and
+采取特定的行动
+
+81
+00:03:50,009 --> 00:03:53,289
+we'll recursively look at that vector
+我们将递归查看该向量
+
+82
+00:03:53,489 --> 00:04:00,670
+associated with that child and we will
+与那个孩子相关联，我们将
+
+83
+00:04:00,870 --> 00:04:03,230
+keep it at that very at this variable
+保持在这个变量上
+
+84
+00:04:03,430 --> 00:04:07,670
+called util at child so we have two two
+在孩子身上叫util，所以我们有两个两个
+
+85
+00:04:07,870 --> 00:04:11,990
+vectors notice best util and utilit best
+矢量注意最佳效用和最佳效用
+
+86
+00:04:12,189 --> 00:04:14,719
+utility is the best we found so far this
+实用程序是迄今为止我们发现的最好的
+
+87
+00:04:14,919 --> 00:04:19,218
+for a particular agent and utility is
+对于特定的代理和实用程序是
+
+88
+00:04:19,418 --> 00:04:21,139
+what we found at a try it at a
+我们尝试一下发现的
+
+89
+00:04:21,339 --> 00:04:24,020
+particular child will be go over bingo
+特定的孩子将经过宾果游戏
+
+90
+00:04:24,220 --> 00:04:26,689
+will be going over all the children one
+将遍及所有孩子
+
+91
+00:04:26,889 --> 00:04:31,910
+and if ever the util at trial is better
+如果试用的util更好
+
+92
+00:04:32,110 --> 00:04:34,910
+for the agent then the best util so far
+对于代理，那么迄今为止最好的工具
+
+93
+00:04:35,110 --> 00:04:37,040
+we'll update the best Utah that's what's
+我们将更新最好的犹他州
+
+94
+00:04:37,240 --> 00:04:37,879
+going on here
+继续在这里
+
+95
+00:04:38,079 --> 00:04:41,420
+so this is what this is it says utila
+这就是它所说的utila 
+
+96
+00:04:41,620 --> 00:04:45,379
+trial is a vector so look at the element
+试用是一个向量，所以看一下元素
+
+97
+00:04:45,579 --> 00:04:47,569
+of that vector corresponding to the
+该向量对应于
+
+98
+00:04:47,769 --> 00:04:51,069
+agent we care about the agent and note H
+代理我们关心代理并注意H 
+
+99
+00:04:51,269 --> 00:04:55,009
+if the utility aisle is better for that
+如果公用设施过道对此更好
+
+100
+00:04:55,209 --> 00:04:59,689
+agent given the best util what we found
+代理给了我们最好的效用
+
+101
+00:04:59,889 --> 00:05:00,468
+so far
+至今
+
+102
+00:05:00,668 --> 00:05:04,189
+then simply updated update based util to
+然后只需将基于更新的util更新为
+
+103
+00:05:04,389 --> 00:05:07,790
+be this utility otherwise leave it
+是这个实用程序，否则将其保留
+
+104
+00:05:07,990 --> 00:05:11,360
+unchanged and so in this way we're
+保持不变，因此通过这种方式
+
+105
+00:05:11,560 --> 00:05:13,060
+cycling through all the children and
+骑自行车穿越所有孩子， 
+
+106
+00:05:13,259 --> 00:05:18,278
+finding from that agent car that to whom
+从那辆特工车中发现谁
+
+107
+00:05:18,478 --> 00:05:20,860
+node H belong from his point of view
+从他的角度来看，节点H属于
+
+108
+00:05:21,060 --> 00:05:24,639
+which of all the vectors are best and
+所有向量中哪一个最好
+
+109
+00:05:24,839 --> 00:05:27,020
+again the intuition is he will take the
+再次直觉是他会采取
+
+110
+00:05:27,220 --> 00:05:29,259
+action leading to that child and
+导致那个孩子的行动
+
+111
+00:05:29,459 --> 00:05:32,210
+updating that for that that vector
+更新那个矢量
+
+112
+00:05:32,410 --> 00:05:34,040
+accordingly and that's why when we're
+因此，这就是为什么当我们
+
+113
+00:05:34,240 --> 00:05:35,810
+done with returning the best we found so
+完成了我们发现的最好结果的归还
+
+114
+00:05:36,009 --> 00:05:40,430
+far called best util that is the back a
+远被称为最佳效用的是背面
+
+115
+00:05:40,629 --> 00:05:44,509
+backward induction procedure and notice
+向后归纳程序和注意事项
+
+116
+00:05:44,709 --> 00:05:46,790
+that we don't return a strategy just
+我们不只是返回战略
+
+117
+00:05:46,990 --> 00:05:52,520
+return the list of payoffs and in some
+返回收益清单，并在一些
+
+118
+00:05:52,720 --> 00:05:55,028
+sense it's you can think of it as simply
+感觉就是你可以简单地想到它
+
+119
+00:05:55,228 --> 00:05:58,100
+extending the payoff from the nodes to
+将收益从节点扩展到
+
+120
+00:05:58,300 --> 00:06:01,610
+all internal nodes but even though we
+所有内部节点，但即使我们
+
+121
+00:06:01,810 --> 00:06:03,829
+don't explicitly return the equilibrium
+不要明确返回平衡
+
+122
+00:06:04,029 --> 00:06:05,960
+strategy the one that will be something
+战略将是某种东西
+
+123
+00:06:06,160 --> 00:06:09,079
+perfect it's easy to read it off those
+完美，很容易将其阅读
+
+124
+00:06:09,279 --> 00:06:12,468
+numbers because at every node the agent
+数字，因为代理在每个节点上
+
+125
+00:06:12,668 --> 00:06:15,319
+will take the action that leads it to
+将采取导致其行动
+
+126
+00:06:15,519 --> 00:06:17,270
+the nodes a child node with the best
+节点是具有最佳子节点的子节点
+
+127
+00:06:17,470 --> 00:06:21,199
+utility from his point of view so that
+从他的角度来看实用
+
+128
+00:06:21,399 --> 00:06:25,310
+is the sub game perfect that is the
+是完美的子游戏， 
+
+129
+00:06:25,509 --> 00:06:26,838
+procedure for reading sub game perfect
+子游戏完美阅读程序
+
+130
+00:06:27,038 --> 00:06:32,838
+equilibria the backward induction and if
+均衡后向归纳和
+
+131
+00:06:33,038 --> 00:06:36,050
+we look at the special case of zero-sum
+我们来看零和的特殊情况
+
+132
+00:06:36,250 --> 00:06:38,840
+game it's simplified a little bit
+游戏，它简化了一点
+
+133
+00:06:39,040 --> 00:06:40,639
+because then there are only two players
+因为那时只有两个玩家
+
+134
+00:06:40,839 --> 00:06:44,420
+and the payoff for one is - a pair of
+而一个的回报是-一对
+
+135
+00:06:44,620 --> 00:06:47,210
+two to the other so really we only need
+两个彼此，所以我们只需要
+
+136
+00:06:47,410 --> 00:06:51,710
+to keep track of one number associated
+跟踪一个关联的数字
+
+137
+00:06:51,910 --> 00:06:56,030
+with each with each node and so there's
+与每个节点，所以有
+
+138
+00:06:56,230 --> 00:06:58,780
+less bookkeeping to be done and
+减少簿记工作
+
+139
+00:06:58,980 --> 00:07:04,100
+furthermore in such zero-sum games and
+而且在这种零和游戏中
+
+140
+00:07:04,300 --> 00:07:07,759
+all win-lose games are are zero-sum game
+所有输输赢的游戏都是零和游戏
+
+141
+00:07:07,959 --> 00:07:11,180
+for example chess there is a way to
+例如国际象棋有一种方法
+
+142
+00:07:11,379 --> 00:07:13,970
+speed up the backward induction
+加快向后归纳
+
+143
+00:07:14,170 --> 00:07:16,550
+procedure by the way in the zero-sum
+零和的方式
+
+144
+00:07:16,750 --> 00:07:18,410
+game we simply call it the minimax
+游戏，我们简称为minimax 
+
+145
+00:07:18,610 --> 00:07:20,439
+procedure because we alternate
+程序，因为我们交替
+
+146
+00:07:20,639 --> 00:07:23,509
+minimizing and maximizing the value what
+最小化和最大化价值
+
+147
+00:07:23,709 --> 00:07:25,310
+they want to minimize it the other to
+他们想将其最小化
+
+148
+00:07:25,509 --> 00:07:29,949
+maximize it and in fact there's a way to
+最大化它，实际上有一种方法可以
+
+149
+00:07:30,149 --> 00:07:33,530
+speed up the procedure and we won't go
+加快程序，我们不会去
+
+150
+00:07:33,730 --> 00:07:36,710
+into it here but the intuition is that
+在这里，但直觉是
+
+151
+00:07:36,910 --> 00:07:40,340
+as you're visiting a certain try
+在您尝试尝试时
+
+152
+00:07:40,540 --> 00:07:44,060
+children of a given node you may find
+您可能会发现给定节点的子节点
+
+153
+00:07:44,259 --> 00:07:47,930
+out that at that point there's no no
+在那一点上，没有没有
+
+154
+00:07:48,129 --> 00:07:50,960
+need to explore the remaining children
+需要探索剩下的孩子
+
+155
+00:07:51,160 --> 00:07:53,180
+of that node as we did in the backward
+就像我们向后一样
+
+156
+00:07:53,379 --> 00:07:55,569
+induction procedure because intuitively
+归纳程序，因为直观
+
+157
+00:07:55,769 --> 00:07:58,220
+it won't matter you've already found a
+您已经找到一个
+
+158
+00:07:58,420 --> 00:08:00,079
+value that means that this node that
+值，表示该节点
+
+159
+00:08:00,279 --> 00:08:03,050
+you're examining the parent node will
+您正在检查父节点
+
+160
+00:08:03,250 --> 00:08:06,379
+never be visited and it's called the
+永远不会被访问，它被称为
+
+161
+00:08:06,579 --> 00:08:08,750
+alphabetic alpha beta pruning procedure
+字母alpha beta修剪程序
+
+162
+00:08:08,949 --> 00:08:12,170
+an optimization of the backward
+向后优化
+
+163
+00:08:12,370 --> 00:08:13,970
+induction or the mini math procedure for
+归纳法或迷你数学程序
+
+164
+00:08:14,170 --> 00:08:17,930
+zero-sum games and you are invited to
+零和游戏，邀请您参加
+
+165
+00:08:18,129 --> 00:08:23,720
+explore it elsewhere there's one more
+在其他地方探索它
+
+166
+00:08:23,920 --> 00:08:25,790
+thing I want to say in connection with
+我想说的关于
+
+167
+00:08:25,990 --> 00:08:28,939
+backward induction and in fact the sub
+向后归纳，实际上是子
+
+168
+00:08:29,139 --> 00:08:33,829
+game perfection and there's sort of two
+游戏完美，有两种
+
+169
+00:08:34,029 --> 00:08:36,079
+different things here and they're all
+这里有不同的东西，它们都是
+
+170
+00:08:36,279 --> 00:08:38,870
+keyed off the same example the famous
+揭开了同一个例子的名声
+
+171
+00:08:39,070 --> 00:08:42,229
+example of the centipede game so this
+ ipe游戏的例子
+
+172
+00:08:42,429 --> 00:08:45,949
+well-known example you have two players
+一个有两个玩家的著名例子
+
+173
+00:08:46,149 --> 00:08:48,429
+they alternate turns
+他们交替轮流
+
+174
+00:08:48,629 --> 00:08:52,089
+we have player1 moving and then player 2
+我们先移动玩家1，再移动玩家2 
+
+175
+00:08:52,289 --> 00:08:54,039
+moving and then play one again and pair
+移动然后再次播放并配对
+
+176
+00:08:54,240 --> 00:08:56,139
+two and so on and so forth but the
+两个，依此类推，但
+
+177
+00:08:56,339 --> 00:09:00,639
+payoffs are constructed in a contrived
+收益是人为的
+
+178
+00:09:00,839 --> 00:09:04,240
+way so that they're gradually increasing
+这样他们逐渐增加
+
+179
+00:09:04,440 --> 00:09:05,679
+and you can imagine it's called the
+你可以想象它被称为
+
+180
+00:09:05,879 --> 00:09:07,299
+centipede because you can imagine rather
+ because，因为你可以想象
+
+181
+00:09:07,500 --> 00:09:09,399
+than have only five legs here you'd have
+比这里只有五条腿
+
+182
+00:09:09,600 --> 00:09:12,669
+a hundred they slowly arise so that the
+一百他们慢慢地出现，以便
+
+183
+00:09:12,870 --> 00:09:14,769
+payoffs here are much smaller than the
+这里的收益比
+
+184
+00:09:14,970 --> 00:09:17,740
+payoffs here and indeed very much so if
+回报在这里，实际上，如果
+
+185
+00:09:17,940 --> 00:09:21,159
+you keep going but even though they rise
+你继续前进，即使他们上升
+
+186
+00:09:21,360 --> 00:09:26,529
+they are contrived in a way that lead to
+他们被设计成导致
+
+187
+00:09:26,730 --> 00:09:28,929
+only one sub game perfect equilibrium
+只有一个子博弈完美平衡
+
+188
+00:09:29,129 --> 00:09:31,719
+faith will defect in every place they
+信仰会在他们的每个地方都有缺陷
+
+189
+00:09:31,919 --> 00:09:34,539
+pair people go down in every place here
+一对人在这里的每个地方
+
+190
+00:09:34,740 --> 00:09:37,808
+so the only outcome sub being perfect
+所以唯一的结果子是完美的
+
+191
+00:09:38,009 --> 00:09:39,878
+outcome is this one where the first
+结果是这是第一个
+
+192
+00:09:40,078 --> 00:09:42,429
+player defects immediately goes down
+玩家缺陷立即消失
+
+193
+00:09:42,629 --> 00:09:45,339
+immediately which is of course similar
+立即当然是相似的
+
+194
+00:09:45,539 --> 00:09:48,279
+to the prisoner's dilemma is a little
+囚犯的困境有点
+
+195
+00:09:48,480 --> 00:09:51,039
+counterintuitive because had they only
+违反直觉的，因为他们只有
+
+196
+00:09:51,240 --> 00:09:52,839
+had the good sense to keep going they
+有继续前进的良知
+
+197
+00:09:53,039 --> 00:09:54,578
+would have gettin gotten something in
+本来会得到一些东西
+
+198
+00:09:54,778 --> 00:09:57,068
+the ballpark of this or this both of
+这或这两者的球场
+
+199
+00:09:57,269 --> 00:09:58,779
+which are much better for both in here
+在这里对两者都更好
+
+200
+00:09:58,980 --> 00:10:02,409
+but nonetheless when you examine you see
+但是尽管如此，当您检查时看到
+
+201
+00:10:02,610 --> 00:10:06,669
+that there's only one one once
+一次只有一个
+
+202
+00:10:06,870 --> 00:10:08,198
+what's up being perfect for your beam
+最适合您的光束
+
+203
+00:10:08,399 --> 00:10:09,669
+here and in fact one only one
+在这里，实际上只有一个
+
+204
+00:10:09,870 --> 00:10:12,459
+equilibrium outcome namely this one and
+均衡结果即这一和
+
+205
+00:10:12,659 --> 00:10:14,828
+you can see it by doing again the
+您可以通过再次执行
+
+206
+00:10:15,028 --> 00:10:19,828
+backward induction procedure if the game
+向后归纳程序，如果游戏
+
+207
+00:10:20,028 --> 00:10:22,688
+progressed and in fact reach this node
+进步了，实际上到达了这个节点
+
+208
+00:10:22,889 --> 00:10:25,779
+what would Parowan do well they would go
+ Parowan会做什么，他们会去
+
+209
+00:10:25,980 --> 00:10:27,988
+down getting a four rather than a three
+下降到四个而不是三个
+
+210
+00:10:28,188 --> 00:10:31,479
+but player 2 knows this so knowing the
+但是玩家2知道这一点，所以知道
+
+211
+00:10:31,679 --> 00:10:33,609
+player 1 will go down he'd rather go
+玩家1会失败，他宁愿去
+
+212
+00:10:33,809 --> 00:10:35,469
+down because he'd get a 4 rather than a
+下降，因为他得到的是4而不是
+
+213
+00:10:35,669 --> 00:10:38,289
+3 similarly here player 1 knowing that
+同样地，这里有3位玩家1 
+
+214
+00:10:38,490 --> 00:10:42,099
+prayer 2 will go down elects to go down
+祈祷2将落下，选民落下
+
+215
+00:10:42,299 --> 00:10:43,479
+here because they would get 3 rather
+在这里，因为他们会得到3个
+
+216
+00:10:43,679 --> 00:10:45,519
+than 2 and so on and this is really the
+比2等等，这确实是
+
+217
+00:10:45,720 --> 00:10:51,008
+backward induction argument so on the
+向后归纳论证等等
+
+218
+00:10:51,208 --> 00:10:57,068
+one hand clearly a clear account of what
+一方面清楚地说明了什么
+
+219
+00:10:57,269 --> 00:10:59,229
+will happen in this game but there are
+将会在这个游戏中发生，但是有
+
+220
+00:10:59,429 --> 00:11:00,938
+two problems one of them
+两个问题之一
+
+221
+00:11:01,139 --> 00:11:05,139
+is sort of simply experimental and
+只是简单的实验和
+
+222
+00:11:05,339 --> 00:11:08,709
+common-sense and the other is more
+常识，另一个是更多
+
+223
+00:11:08,909 --> 00:11:13,328
+theoretical on the pragmatic level this
+在实用层面上是理论上的
+
+224
+00:11:13,528 --> 00:11:15,459
+common sense simply tells you this is
+常识只是告诉你这是
+
+225
+00:11:15,659 --> 00:11:18,668
+not what's going to happen the place
+不是那个地方会发生什么
+
+226
+00:11:18,869 --> 00:11:20,889
+will cooperate for a while until at some
+会合作一段时间，直到某个时候
+
+227
+00:11:21,089 --> 00:11:22,598
+point in fact somebody would go down and
+实际上，有人会落下
+
+228
+00:11:22,798 --> 00:11:24,908
+in the game they know there's so much to
+在游戏中，他们知道还有很多
+
+229
+00:11:25,109 --> 00:11:27,368
+gain by going forward they would if you
+通过前进获得收益，如果您
+
+230
+00:11:27,568 --> 00:11:30,399
+wish take the chance and the city
+希望借此机会和这座城市
+
+231
+00:11:30,600 --> 00:11:33,038
+intuition is borne out repeatedly in
+直觉被反复证明
+
+232
+00:11:33,239 --> 00:11:35,709
+experiments people do cooperate for a
+实验人们确实合作
+
+233
+00:11:35,909 --> 00:11:38,438
+while until in fact eventually they they
+而直到实际上最终他们
+
+234
+00:11:38,639 --> 00:11:40,928
+may defect so that's a problem for
+可能会缺陷，所以这是一个问题
+
+235
+00:11:41,129 --> 00:11:44,318
+theory but there's also a another
+理论，但还有另一种
+
+236
+00:11:44,519 --> 00:11:47,889
+problem that's theoretical in nature so
+本质上是理论上的问题
+
+237
+00:11:48,089 --> 00:11:49,658
+we know that the only sub-game perfect
+我们知道唯一的完美子游戏
+
+238
+00:11:49,859 --> 00:11:52,238
+equilibrium is one where agents defect
+平衡是代理缺陷的一种
+
+239
+00:11:52,438 --> 00:11:56,318
+go down at any point in time now imagine
+随时随地下降现在想像
+
+240
+00:11:56,519 --> 00:11:59,678
+that the game starts and play one goes
+游戏开始并进行一次
+
+241
+00:11:59,879 --> 00:12:01,798
+across does not go down
+跨不下去
+
+242
+00:12:01,999 --> 00:12:05,108
+what does player to do well on the one
+玩家在哪方面做得好
+
+243
+00:12:05,308 --> 00:12:07,238
+hand you could say well yeah the only
+你可以说得好耶是唯一的
+
+244
+00:12:07,438 --> 00:12:09,639
+sub game perfect equilibrium to go down
+子游戏完美平衡下降
+
+245
+00:12:09,839 --> 00:12:11,948
+that should go down because of those
+那应该因为那些
+
+246
+00:12:12,149 --> 00:12:13,718
+losses backward induction argument and
+损失向后归纳论证和
+
+247
+00:12:13,918 --> 00:12:15,608
+we'll tell them that the best thing for
+我们会告诉他们，最好的
+
+248
+00:12:15,808 --> 00:12:18,399
+them is to go down but that same
+他们要下去，但同样
+
+249
+00:12:18,600 --> 00:12:20,589
+argument told them player two that
+论点告诉他们第二个球员
+
+250
+00:12:20,789 --> 00:12:22,718
+player one would have gone down right
+玩家一会掉下去
+
+251
+00:12:22,918 --> 00:12:27,698
+off the bat but they didn't so maybe
+脱颖而出，但他们可能并非如此
+
+252
+00:12:27,899 --> 00:12:30,399
+they won't go down again but what will
+他们不会再下降，但会怎样
+
+253
+00:12:30,600 --> 00:12:32,978
+they do and fundamentally what happens
+他们做到了，从根本上发生了什么
+
+254
+00:12:33,178 --> 00:12:35,589
+here is you have an event of going
+这是你要去的事
+
+255
+00:12:35,789 --> 00:12:38,948
+across that the standard theory tells
+标准理论告诉我们的
+
+256
+00:12:39,149 --> 00:12:42,209
+you will happen with zero probability
+你将以零概率发生
+
+257
+00:12:42,409 --> 00:12:45,668
+how do you condition on an event that
+您如何应对某个事件
+
+258
+00:12:45,869 --> 00:12:49,738
+had a zero probability prior prior
+事前事前概率为零
+
+259
+00:12:49,938 --> 00:12:53,078
+there's a there's a big literature on
+有很多关于
+
+260
+00:12:53,278 --> 00:12:55,178
+this it's a very interesting deep issue
+这是一个非常有趣的深层问题
+
+261
+00:12:55,379 --> 00:12:57,188
+in game theory we will not help to
+在博弈论中，我们无济于事
+
+262
+00:12:57,389 --> 00:12:59,498
+intuit any deeper but it's interesting
+深入了解，但这很有趣
+
+263
+00:12:59,698 --> 00:13:04,698
+to note it
+注意
+

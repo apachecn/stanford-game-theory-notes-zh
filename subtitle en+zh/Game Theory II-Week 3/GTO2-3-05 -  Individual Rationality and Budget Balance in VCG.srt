@@ -1,0 +1,1905 @@
+﻿1
+00:00:00,030 --> 00:00:01,929
+we've seen in the past that the VCG
+我们过去曾看到VCG 
+
+2
+00:00:02,129 --> 00:00:04,509
+mechanism gives rise to dominant
+机制引起主导
+
+3
+00:00:04,710 --> 00:00:08,050
+strategies and efficient allocations we
+策略和有效分配
+
+4
+00:00:08,250 --> 00:00:10,120
+know that in general it doesn't give
+知道一般来说，它不会给
+
+5
+00:00:10,320 --> 00:00:13,419
+rise to individual rationality or budget
+提高个人理性或预算
+
+6
+00:00:13,619 --> 00:00:16,390
+balance in this video we'll see that
+在这部影片中保持平衡，我们将看到
+
+7
+00:00:16,589 --> 00:00:18,400
+under some pretty mild additional
+在一些相当温和的附加条件下
+
+8
+00:00:18,600 --> 00:00:20,379
+assumptions it is possible for us to get
+假设我们有可能得到
+
+9
+00:00:20,579 --> 00:00:23,079
+both of these things now remember that
+这两个东西现在都记得
+
+10
+00:00:23,278 --> 00:00:25,480
+individual rationality means that it
+个人理性意味着
+
+11
+00:00:25,679 --> 00:00:27,489
+makes sense for agents to participate in
+代理商参与是有意义的
+
+12
+00:00:27,689 --> 00:00:29,199
+a mechanism if they had a choice between
+一种机制，如果他们可以选择
+
+13
+00:00:29,399 --> 00:00:31,659
+participating and not participating they
+参与而不参与
+
+14
+00:00:31,859 --> 00:00:34,628
+would be happy to participate and recall
+乐于参与和回忆
+
+15
+00:00:34,829 --> 00:00:36,788
+that budget balance means that it
+预算余额意味着
+
+16
+00:00:36,988 --> 00:00:38,709
+doesn't cost money to run the mechanism
+运行该机制无需花费金钱
+
+17
+00:00:38,909 --> 00:00:41,428
+that the mechanism either keeps
+该机制要么保持
+
+18
+00:00:41,628 --> 00:00:43,419
+completely breaks even all the time
+一直保持完全收支平衡
+
+19
+00:00:43,619 --> 00:00:45,038
+which we've already seen in the previous
+我们已经在之前的内容中看到了
+
+20
+00:00:45,238 --> 00:00:49,140
+video is impossible for VCG or at least
+ VCG或至少无法播放视频
+
+21
+00:00:49,340 --> 00:00:51,909
+his weekly budget balance at least turns
+他的每周预算余额至少达到
+
+22
+00:00:52,109 --> 00:00:54,820
+a profit or or breaks even and what
+利润或盈亏平衡以及什么
+
+23
+00:00:55,020 --> 00:00:56,288
+we'll see in this video is that we can
+我们将在此视频中看到，我们可以
+
+24
+00:00:56,488 --> 00:00:58,509
+have both of these two properties so let
+具有这两个属性，所以让
+
+25
+00:00:58,710 --> 00:01:01,479
+me start with individual rationality to
+我从个人理性开始
+
+26
+00:01:01,679 --> 00:01:03,489
+get individual rationality I'm going to
+得到我要去的个人理性
+
+27
+00:01:03,689 --> 00:01:05,619
+need two different assumptions to be
+需要两个不同的假设
+
+28
+00:01:05,819 --> 00:01:07,929
+true of the environment the first is
+对环境的真实性首先是
+
+29
+00:01:08,129 --> 00:01:11,019
+called choice set monotonicity and this
+称为选择集单调性
+
+30
+00:01:11,219 --> 00:01:14,469
+assumption says that for all agents the
+假设表明，对于所有代理商
+
+31
+00:01:14,670 --> 00:01:16,269
+set of outcomes that are achievable
+可实现的一组结果
+
+32
+00:01:16,469 --> 00:01:20,409
+without that agent present is a weak
+没有那个代理人是一个弱者
+
+33
+00:01:20,609 --> 00:01:23,019
+subset of the set of eight of the set of
+一组的八个的子集
+
+34
+00:01:23,219 --> 00:01:24,340
+outcomes that are possible when that
+当那可能的结果
+
+35
+00:01:24,540 --> 00:01:27,429
+agent is present so in other words when
+代理存在，换句话说，当
+
+36
+00:01:27,629 --> 00:01:29,469
+I remove an agent from the mechanism as
+我从机制中删除代理
+
+37
+00:01:29,670 --> 00:01:31,329
+of course I have to do inside the
+当然我必须在里面做
+
+38
+00:01:31,530 --> 00:01:34,750
+payment evaluation for VCG the mechanism
+ VCG支付评估机制
+
+39
+00:01:34,950 --> 00:01:37,079
+set of choices that are available to it
+可用的一组选择
+
+40
+00:01:37,280 --> 00:01:40,929
+weekly goes down so no in particular no
+每周下降，所以没有特别没有
+
+41
+00:01:41,129 --> 00:01:42,819
+new choices become possible when
+当出现新的选择时
+
+42
+00:01:43,019 --> 00:01:46,238
+somebody gets removed the second
+有人被删除第二
+
+43
+00:01:46,438 --> 00:01:48,069
+assumption that I'll make is called no
+我会做的假设称为否
+
+44
+00:01:48,269 --> 00:01:50,799
+negative externalities and I'll say that
+负面的外部性，我会说
+
+45
+00:01:51,000 --> 00:01:53,679
+we have no negative externalities if for
+如果没有，我们没有负面的外部性
+
+46
+00:01:53,879 --> 00:01:56,259
+all agents and all choices that can be
+所有代理商和所有可能的选择
+
+47
+00:01:56,459 --> 00:01:59,079
+made without that agent the agents own
+在没有代理人的情况下制作的
+
+48
+00:01:59,280 --> 00:02:01,509
+valuation for each of these choices is
+这些选择的估值为
+
+49
+00:02:01,709 --> 00:02:05,230
+non negative so in other words when you
+非负面的，换句话说，当你
+
+50
+00:02:05,430 --> 00:02:07,299
+get dropped from the mechanism it isn't
+从不是的机制中脱颖而出
+
+51
+00:02:07,500 --> 00:02:09,009
+possible for the mechanism to choose
+机制可能选择
+
+52
+00:02:09,209 --> 00:02:12,000
+something that actually causes you pain
+真正让你痛苦的东西
+
+53
+00:02:12,199 --> 00:02:13,780
+you might it might
+你可能会
+
+54
+00:02:13,979 --> 00:02:15,189
+choose something that you like less well
+选择不太喜欢的东西
+
+55
+00:02:15,389 --> 00:02:17,200
+than what it chooses when you are
+比当你选择的时候
+
+56
+00:02:17,400 --> 00:02:18,939
+present but it can't choose something
+目前，但无法选择
+
+57
+00:02:19,139 --> 00:02:22,669
+for which you have negative utility
+对于您有负面效用
+
+58
+00:02:23,840 --> 00:02:27,310
+let's look at two examples of realistic
+让我们看两个现实的例子
+
+59
+00:02:27,509 --> 00:02:29,709
+scenarios that that satisfy both of
+同时满足以下两个条件的方案
+
+60
+00:02:29,908 --> 00:02:31,810
+these properties to give you a sense of
+这些属性给您一种感觉
+
+61
+00:02:32,009 --> 00:02:33,250
+why these properties are reasonable to
+为什么这些属性对
+
+62
+00:02:33,449 --> 00:02:35,980
+assume so the first is the road-building
+假设所以首先是修路
+
+63
+00:02:36,180 --> 00:02:38,890
+referendum problem so consider this
+公投问题，请考虑一下
+
+64
+00:02:39,090 --> 00:02:40,689
+problem where we want to have a vote
+我们想投票的问题
+
+65
+00:02:40,889 --> 00:02:43,000
+between agents to decide whether or not
+代理商之间决定是否
+
+66
+00:02:43,199 --> 00:02:45,789
+to build a public good like a road so
+像道路一样建设公共物品
+
+67
+00:02:45,989 --> 00:02:48,129
+the set of choices has nothing to do
+选择集无关
+
+68
+00:02:48,329 --> 00:02:50,649
+with the number of agents because the
+与代理商的数量，因为
+
+69
+00:02:50,848 --> 00:02:52,118
+two choices are that either the road
+两种选择是，要么
+
+70
+00:02:52,318 --> 00:02:54,360
+gets built or the road doesn't get built
+被修筑或道路未被修筑
+
+71
+00:02:54,560 --> 00:02:56,770
+remember that the payments come from the
+请记住，付款来自
+
+72
+00:02:56,969 --> 00:02:58,118
+payment function those aren't the
+支付功能不是
+
+73
+00:02:58,318 --> 00:03:00,250
+choices and so the choice set is
+选择，所以选择集是
+
+74
+00:03:00,449 --> 00:03:03,849
+monotonic it's monotonic in the weak
+单调的，在弱者中是单调的
+
+75
+00:03:04,049 --> 00:03:05,349
+sense that it just doesn't change with
+感觉它不会随着
+
+76
+00:03:05,549 --> 00:03:06,580
+the number of agents but remember that
+代理商人数，但请记住
+
+77
+00:03:06,780 --> 00:03:11,020
+we allowed for a weak subset secondly
+其次，我们考虑了一个弱子集
+
+78
+00:03:11,219 --> 00:03:13,360
+let's assume that no agent negatively
+假设没有代理商负面影响
+
+79
+00:03:13,560 --> 00:03:16,118
+values the project so some agents might
+重视项目，以便某些代理商可能
+
+80
+00:03:16,318 --> 00:03:18,700
+like it better for the the road not to
+喜欢它更好的道路不
+
+81
+00:03:18,900 --> 00:03:20,590
+be built than for the road to be built
+建造比建造道路
+
+82
+00:03:20,789 --> 00:03:23,039
+but let's say that none of the agents
+但是，假设没有代理商
+
+83
+00:03:23,239 --> 00:03:25,360
+experiences negative utility in any
+在任何情况下都具有负面效用
+
+84
+00:03:25,560 --> 00:03:27,789
+situation that still seems like a
+情况似乎仍然像
+
+85
+00:03:27,989 --> 00:03:29,409
+reasonable model of this problem and
+这个问题的合理模型
+
+86
+00:03:29,609 --> 00:03:30,879
+that would give us no negative
+那不会给我们带来负面影响
+
+87
+00:03:31,079 --> 00:03:34,868
+externalities okay well we saw an
+外部性好吧，我们看到了
+
+88
+00:03:35,068 --> 00:03:36,939
+example previously where Troy said
+特洛伊说过的例子
+
+89
+00:03:37,139 --> 00:03:37,629
+monotonicity
+单调性
+
+90
+00:03:37,829 --> 00:03:39,610
+arose in a pretty trivial way because
+以非常琐碎的方式出现，因为
+
+91
+00:03:39,810 --> 00:03:41,170
+the set of choices just didn't change
+选择的集合只是没有改变
+
+92
+00:03:41,370 --> 00:03:43,420
+let's look at a richer example where the
+让我们看一个更丰富的例子
+
+93
+00:03:43,620 --> 00:03:46,480
+set of choices does change so here let's
+选择的集合确实会发生变化，所以让我们
+
+94
+00:03:46,680 --> 00:03:48,280
+think about kind of a simplified stock
+考虑一种简化的库存
+
+95
+00:03:48,479 --> 00:03:49,868
+market in which we have two different
+我们有两个不同的市场
+
+96
+00:03:50,068 --> 00:03:52,480
+kinds of agents some of them have a
+某些代理商，其中一些有
+
+97
+00:03:52,680 --> 00:03:55,030
+single unit of a stock that they want to
+他们想要的股票的单个单位
+
+98
+00:03:55,229 --> 00:03:57,009
+sell so they have one share of Apple
+出售，因此他们拥有一股苹果
+
+99
+00:03:57,209 --> 00:03:59,140
+stock and they want to sell it we have
+股票，他们想卖掉我们有
+
+100
+00:03:59,340 --> 00:04:01,629
+another group of agents who want to buy
+另一组想要购买的代理商
+
+101
+00:04:01,829 --> 00:04:03,730
+one share of Apple stock and we have
+一股苹果股票，我们有
+
+102
+00:04:03,930 --> 00:04:05,679
+some number of agents on both sides of
+双方都有一定数量的代理商
+
+103
+00:04:05,878 --> 00:04:09,219
+the market now the choices that the
+现在市场的选择
+
+104
+00:04:09,419 --> 00:04:11,890
+mechanism can make here are different
+机制可以使这里有所不同
+
+105
+00:04:12,090 --> 00:04:13,689
+ways of pairing together buyers and
+将买家配对在一起的方式，以及
+
+106
+00:04:13,889 --> 00:04:17,170
+sellers so every buyer can interact with
+卖家，以便每个买家都可以与
+
+107
+00:04:17,370 --> 00:04:19,088
+only one seller every seller can
+每个卖家只能有一个卖家
+
+108
+00:04:19,288 --> 00:04:21,069
+interact with only one buyer and nobody
+只与一位买家互动，没人
+
+109
+00:04:21,269 --> 00:04:22,569
+has to interact so the pairing where
+必须互动，所以配对在哪里
+
+110
+00:04:22,769 --> 00:04:24,759
+nobody gets paired is valid the pairing
+没有人配对是有效的配对
+
+111
+00:04:24,959 --> 00:04:26,500
+were just two people get paired is Val
+只有两个人配对是Val 
+
+112
+00:04:26,699 --> 00:04:28,660
+and Paran wear as many people as
+波兰人穿的人多达
+
+113
+00:04:28,860 --> 00:04:30,670
+possible get paired is valid so we have
+可能配对是有效的，所以我们有
+
+114
+00:04:30,870 --> 00:04:32,069
+these various different ways of
+这些各种不同的方式
+
+115
+00:04:32,269 --> 00:04:34,329
+establishing trades that might happen in
+建立可能发生的交易
+
+116
+00:04:34,529 --> 00:04:37,840
+this market now think about what happens
+现在这个市场思考发生了什么
+
+117
+00:04:38,040 --> 00:04:40,170
+if I add a new agent to the market
+如果我向市场添加新代理商
+
+118
+00:04:40,370 --> 00:04:43,090
+none of the pairings that worked when
+没有配对有效
+
+119
+00:04:43,290 --> 00:04:45,939
+that agent wasn't present go away when I
+当我不存在那个特工
+
+120
+00:04:46,139 --> 00:04:47,920
+add a new person they're all still
+添加一个新的人，他们仍然
+
+121
+00:04:48,120 --> 00:04:49,240
+possible to do because I could always
+可以做，因为我总是
+
+122
+00:04:49,439 --> 00:04:52,780
+just set that new person aside but I can
+只是把那个新人放在一边，但我可以
+
+123
+00:04:52,980 --> 00:04:54,639
+also have that new person participate in
+也有新人参加
+
+124
+00:04:54,839 --> 00:04:56,680
+trades that weren't possible without
+没有这些就不可能进行的交易
+
+125
+00:04:56,879 --> 00:04:59,500
+that person there and thus you can see
+那个人在那里，你可以看到
+
+126
+00:04:59,699 --> 00:05:01,210
+here that choice set monotonicity is
+这里选择集的单调性是
+
+127
+00:05:01,410 --> 00:05:02,699
+satisfied in a more interesting way
+以更有趣的方式满意
+
+128
+00:05:02,899 --> 00:05:05,620
+because new options become available
+因为有了新的选择
+
+129
+00:05:05,819 --> 00:05:08,319
+when I add an agent but no old options
+当我添加代理但没有旧选​​项时
+
+130
+00:05:08,519 --> 00:05:13,120
+get ruled out and it's natural in this
+被排除在外，这很自然
+
+131
+00:05:13,319 --> 00:05:14,800
+kind of a setting to assume that agents
+一种假设代理人的设置
+
+132
+00:05:15,000 --> 00:05:18,430
+have zero utility both for other people
+他人的效用均为零
+
+133
+00:05:18,629 --> 00:05:21,699
+trading with each other and for other
+彼此进行交易
+
+134
+00:05:21,899 --> 00:05:25,120
+people not trading at all and that being
+人们根本不交易，那是
+
+135
+00:05:25,319 --> 00:05:28,360
+the case the agent has zero utility for
+代理的效用为零的情况
+
+136
+00:05:28,560 --> 00:05:29,560
+everything that can happen when they're
+当他们
+
+137
+00:05:29,759 --> 00:05:31,720
+not present and so there are no negative
+不存在，所以没有负面影响
+
+138
+00:05:31,920 --> 00:05:35,620
+externalities so now we're ready to
+外部性，所以我们现在准备
+
+139
+00:05:35,819 --> 00:05:38,460
+consider the main result that we want to
+考虑我们想要的主要结果
+
+140
+00:05:38,660 --> 00:05:40,600
+establish for this part of the video
+为视频的这一部分建立
+
+141
+00:05:40,800 --> 00:05:43,810
+which is that these two assumptions that
+这是这两个假设
+
+142
+00:05:44,009 --> 00:05:45,220
+we've just made of choice set
+我们刚刚选择了一套
+
+143
+00:05:45,420 --> 00:05:48,340
+monotonicity and no- no- externalities
+单调性和非外部性
+
+144
+00:05:48,540 --> 00:05:51,160
+are sufficient to make the VCG mechanism
+足以使VCG机制
+
+145
+00:05:51,360 --> 00:05:55,210
+ex-post individual rational now let's
+现在事后个人理性
+
+146
+00:05:55,410 --> 00:05:57,550
+remember what ex-post individual
+记得事后的个人
+
+147
+00:05:57,750 --> 00:06:00,790
+rational means as I said at the
+正如我在
+
+148
+00:06:00,990 --> 00:06:02,230
+beginning of the video individual
+视频个人的开头
+
+149
+00:06:02,430 --> 00:06:04,329
+rationality means that agents always
+理性意味着代理商总是
+
+150
+00:06:04,529 --> 00:06:07,600
+have weakly positive utility for
+对...的积极作用微弱
+
+151
+00:06:07,800 --> 00:06:09,449
+participating in the mechanism and
+参与机制
+
+152
+00:06:09,649 --> 00:06:12,420
+ex-post means that this is true
+事后意味着这是真的
+
+153
+00:06:12,620 --> 00:06:16,600
+regardless of what valuations any of the
+不论任何估值
+
+154
+00:06:16,800 --> 00:06:18,780
+agents have so this is true for every
+代理商有，所以每个人都这样
+
+155
+00:06:18,980 --> 00:06:21,250
+realization evaluations that the agent
+代理商的实现评估
+
+156
+00:06:21,449 --> 00:06:23,650
+himself and also all of the other agents
+他自己以及所有其他特工
+
+157
+00:06:23,850 --> 00:06:26,470
+might have so this is the strongest kind
+可能有，所以这是最强的一种
+
+158
+00:06:26,670 --> 00:06:28,569
+of individual rationality so this is the
+个人理性，所以这是
+
+159
+00:06:28,769 --> 00:06:30,939
+most desirable property about individual
+关于个人的最理想的属性
+
+160
+00:06:31,139 --> 00:06:32,410
+rationality that we would hope to prove
+我们希望证明的合理性
+
+161
+00:06:32,610 --> 00:06:34,600
+about VCG and that makes this an
+关于VCG，这使得它成为
+
+162
+00:06:34,800 --> 00:06:37,569
+encouraging result so here's how we
+令人鼓舞的结果，所以这就是我们
+
+163
+00:06:37,769 --> 00:06:39,910
+prove it we begin by saying
+为了证明这一点，我们先说
+
+164
+00:06:40,110 --> 00:06:41,350
+that all of the agents truthfully
+所有代理商都如实
+
+165
+00:06:41,550 --> 00:06:43,240
+declare their valuations in equilibrium
+均衡宣布其估值
+
+166
+00:06:43,439 --> 00:06:44,439
+because we want to think about what
+因为我们想考虑一下
+
+167
+00:06:44,639 --> 00:06:47,920
+happens in equilibrium and then we can
+发生在平衡状态，然后我们可以
+
+168
+00:06:48,120 --> 00:06:49,720
+write this expression for agent i's
+为代理商我写这个表达式
+
+169
+00:06:49,920 --> 00:06:51,610
+expected utility for participating in
+参与的预期效用
+
+170
+00:06:51,810 --> 00:06:55,840
+the mechanism well he gets his value for
+他很好地获得了价值的机制
+
+171
+00:06:56,040 --> 00:06:57,970
+the allocation that actually happens so
+实际发生的分配
+
+172
+00:06:58,170 --> 00:07:00,100
+this is the choice that VCG actually
+这是VCG实际上的选择
+
+173
+00:07:00,300 --> 00:07:02,379
+makes given that everybody reports their
+考虑到每个人都报告他们的
+
+174
+00:07:02,579 --> 00:07:06,129
+values truthfully and he gets his value
+真实地估价，他得到了价值
+
+175
+00:07:06,329 --> 00:07:09,699
+for that choice and then he pays the VCG
+为此选择，然后他支付了VCG 
+
+176
+00:07:09,899 --> 00:07:11,439
+payment function that we all know and
+我们都知道的支付功能
+
+177
+00:07:11,639 --> 00:07:14,860
+love so because I've assumed that
+爱，是因为我假设
+
+178
+00:07:15,060 --> 00:07:16,420
+everybody reports truthfully I don't
+大家如实报道我不
+
+179
+00:07:16,620 --> 00:07:18,100
+have any V hats anywhere so I can
+到处都有V帽，所以我可以
+
+180
+00:07:18,300 --> 00:07:21,069
+collect terms and particularly I can I
+收集条款，特别是我可以
+
+181
+00:07:21,269 --> 00:07:23,410
+can roll this into one of the sums so I
+可以将其汇总为一个总和，所以我
+
+182
+00:07:23,610 --> 00:07:25,290
+here get a sum over all of the agents
+这里得到所有代理商的总和
+
+183
+00:07:25,490 --> 00:07:27,610
+minus a sum over all of the agents
+减去所有代理商的总和
+
+184
+00:07:27,810 --> 00:07:31,060
+except for I now it comes the part where
+除了我现在它来的部分
+
+185
+00:07:31,259 --> 00:07:34,329
+I use tri-set monotonicity so remember
+我使用三集单调性，所以请记住
+
+186
+00:07:34,529 --> 00:07:37,810
+that this expression X of V is the
+ V的这个表达式X是
+
+187
+00:07:38,009 --> 00:07:40,990
+outcome that VCG chose which means that
+ VCG选择的结果，这意味着
+
+188
+00:07:41,189 --> 00:07:44,379
+it maximizes social welfare and by
+它最大程度地提高了社会福利， 
+
+189
+00:07:44,579 --> 00:07:46,780
+choice admonish Nyssa t this other
+选择告诫尼莎其他
+
+190
+00:07:46,980 --> 00:07:51,550
+outcome X of V minus I was also one of
+ V的结果X减去我也是
+
+191
+00:07:51,750 --> 00:07:54,189
+the available choices when we when we
+当我们何时我们可用的选择
+
+192
+00:07:54,389 --> 00:07:56,829
+picked this instead and so what that
+取而代之的是什么
+
+193
+00:07:57,029 --> 00:07:59,470
+means is there must have been at least
+意味着必须至少有
+
+194
+00:07:59,670 --> 00:08:02,410
+as much social welfare arising under
+在此之下产生的社会福利
+
+195
+00:08:02,610 --> 00:08:05,379
+this choice as under this choice if not
+如果没有，则将此选择视为该选择
+
+196
+00:08:05,579 --> 00:08:06,939
+the optimization would have just picked
+优化本来就是
+
+197
+00:08:07,139 --> 00:08:11,500
+this one and so writing that as an
+这样写，作为一个
+
+198
+00:08:11,699 --> 00:08:16,600
+equation the sum of agents values for
+方程式的代理商价值总和
+
+199
+00:08:16,800 --> 00:08:18,939
+this choice is at least as big as the
+这个选择至少与
+
+200
+00:08:19,139 --> 00:08:24,759
+sum of agents values for this choice I'm
+我选择的代理商价值总和
+
+201
+00:08:24,959 --> 00:08:28,110
+just moving that equation up here and
+只是将方程式移至此处
+
+202
+00:08:28,310 --> 00:08:30,520
+now I can also use no negative
+现在我也可以不用负数
+
+203
+00:08:30,720 --> 00:08:31,900
+externalities let me just write the
+外部性让我写
+
+204
+00:08:32,100 --> 00:08:33,759
+definition of no negative externalities
+没有负面外部影响的定义
+
+205
+00:08:33,960 --> 00:08:37,719
+so the value that I has for the choice
+所以我有选择的价值
+
+206
+00:08:37,919 --> 00:08:39,819
+that gets made when he's not present is
+当他不在时被制造出来的是
+
+207
+00:08:40,019 --> 00:08:41,409
+greater than or equal to zero
+大于或等于零
+
+208
+00:08:41,610 --> 00:08:44,559
+and what that means is that if I change
+那意味着如果我改变
+
+209
+00:08:44,759 --> 00:08:48,689
+this expression here to J not equal to I
+这里的这个表达式对J不等于I 
+
+210
+00:08:48,889 --> 00:08:52,539
+then I've just taken out a non negative
+那我就拿出一个非负数
+
+211
+00:08:52,740 --> 00:08:53,649
+number here which means
+这里的数字意味着
+
+212
+00:08:53,850 --> 00:08:56,529
+this whole thing got smaller and that
+这整个东西变小了
+
+213
+00:08:56,730 --> 00:08:59,649
+means the inequality still holds and so
+意味着不平等仍然存在，所以
+
+214
+00:08:59,850 --> 00:09:02,229
+I have this expression here and that's
+我在这里有这个表情
+
+215
+00:09:02,429 --> 00:09:04,109
+exactly what I wanted to prove because
+正是我想证明的，因为
+
+216
+00:09:04,309 --> 00:09:07,508
+remember the ad agency utility is this
+记住广告代理商实用工具是这个
+
+217
+00:09:07,708 --> 00:09:09,490
+expression and so I want to ensure that
+表达，所以我想确保
+
+218
+00:09:09,690 --> 00:09:11,229
+this number is bigger than this number
+这个数字大于这个数字
+
+219
+00:09:11,429 --> 00:09:13,029
+if it is then this whole thing is
+如果是这样，那么整个事情就是
+
+220
+00:09:13,230 --> 00:09:14,498
+positive and I have individual
+积极，我有个人
+
+221
+00:09:14,698 --> 00:09:16,539
+rationality and that's exactly what we
+理性，这正是我们
+
+222
+00:09:16,740 --> 00:09:18,490
+just find here that this in fact is
+只是在这里发现这实际上是
+
+223
+00:09:18,690 --> 00:09:22,508
+positive our non negative and so we do
+正面我们的非负面，所以我们这样做
+
+224
+00:09:22,708 --> 00:09:26,498
+obtain an individual rationality okay so
+获得个人理性好吧
+
+225
+00:09:26,698 --> 00:09:28,389
+much for individual rationality now I
+现在对于个人理性我有很多
+
+226
+00:09:28,589 --> 00:09:30,698
+want to talk about budget balance so
+想谈谈预算平衡
+
+227
+00:09:30,899 --> 00:09:32,979
+here's the property that we need at
+这是我们需要的物业
+
+228
+00:09:33,179 --> 00:09:35,729
+trends at one property is enough for
+一处物业的趋势足以满足
+
+229
+00:09:35,929 --> 00:09:38,378
+showing that VCG is weekly budget
+显示VCG是每周预算
+
+230
+00:09:38,578 --> 00:09:40,779
+balanced and we call this no single
+平衡的，我们称此为单身
+
+231
+00:09:40,980 --> 00:09:43,990
+agent effect so an environment exhibits
+代理效应，因此环境表现出来
+
+232
+00:09:44,190 --> 00:09:45,849
+no single agent effect if it's the case
+如果是这种情况，则没有单一代理的影响
+
+233
+00:09:46,049 --> 00:09:50,078
+that for all agents I all valuations of
+对于所有代理商，我的所有估值
+
+234
+00:09:50,278 --> 00:09:51,490
+the agents other than I that are
+除我以外的代理商
+
+235
+00:09:51,690 --> 00:09:56,679
+possible and all choices acts that
+一切可能的选择
+
+236
+00:09:56,879 --> 00:10:00,578
+maximize the social welfare there exists
+使存在的社会福利最大化
+
+237
+00:10:00,778 --> 00:10:04,929
+another choice X prime which is feasible
+另一种可行的选择X素数
+
+238
+00:10:05,129 --> 00:10:07,508
+without I which means it's possible for
+没有我，这意味着有可能
+
+239
+00:10:07,708 --> 00:10:09,849
+us to pick it even if I has been dropped
+即使我掉线，我们也可以选择
+
+240
+00:10:10,049 --> 00:10:13,118
+and for which all of the agents other
+以及所有其他代理商
+
+241
+00:10:13,318 --> 00:10:16,659
+than I get more social welfare than
+比我得到的社会福利多
+
+242
+00:10:16,860 --> 00:10:19,839
+under the original allocation so in
+根据原来的分配
+
+243
+00:10:20,039 --> 00:10:22,899
+other words if I drop an agent I and
+换句话说，如果我放弃一个代理商，我和
+
+244
+00:10:23,100 --> 00:10:26,429
+then I pick some other choice instead
+然后我选择其他选择
+
+245
+00:10:26,629 --> 00:10:30,488
+without I everybody other than I is at
+没有我，没有其他人
+
+246
+00:10:30,688 --> 00:10:32,469
+least as happy with the new choice as
+至少对新选择感到满意
+
+247
+00:10:32,669 --> 00:10:35,919
+with the old choice so the welfare of
+与旧的选择，这样的福利
+
+248
+00:10:36,120 --> 00:10:38,049
+agents other than I is weakly increased
+除我以外的其他代理人的增长微弱
+
+249
+00:10:38,250 --> 00:10:41,019
+when we drop I that might sound a little
+当我们放下我时，听起来可能有点
+
+250
+00:10:41,220 --> 00:10:42,789
+confusing it's actually a really natural
+混淆这实际上是很自然的
+
+251
+00:10:42,990 --> 00:10:45,488
+property here's an example think about a
+属性，这是一个示例，请考虑
+
+252
+00:10:45,688 --> 00:10:47,589
+single-sided auction where for example I
+单面拍卖，例如我
+
+253
+00:10:47,789 --> 00:10:50,679
+have one good for sale the choices in
+有一个出售的选择
+
+254
+00:10:50,879 --> 00:10:52,719
+this case are all of the different
+这种情况都是不同的
+
+255
+00:10:52,919 --> 00:10:54,688
+agents that could give the good two and
+可以给好的两个和
+
+256
+00:10:54,889 --> 00:10:58,659
+if I drop an agent one of two things is
+如果我放下代理商，两件事之一是
+
+257
+00:10:58,860 --> 00:11:00,669
+possible either that agent wasn't
+可能那个代理人不是
+
+258
+00:11:00,870 --> 00:11:03,099
+winning the auction before in which case
+在这种情况下赢得拍卖
+
+259
+00:11:03,299 --> 00:11:04,899
+the social welfare maximizing outcome
+社会福利最大化成果
+
+260
+00:11:05,100 --> 00:11:06,688
+remains the same
+保持原样
+
+261
+00:11:06,889 --> 00:11:08,459
+agent has been dropped and nothing
+代理已删除，什么也没有
+
+262
+00:11:08,659 --> 00:11:11,308
+changes and so then I get equality in
+变化，然后我得到平等
+
+263
+00:11:11,509 --> 00:11:14,459
+this expression or that is the agent who
+这个表达或那个代理是谁
+
+264
+00:11:14,659 --> 00:11:17,788
+was winning before and then I pick a
+之前赢了，然后我选择了
+
+265
+00:11:17,989 --> 00:11:19,258
+different winner once that agent has
+该代理拥有不同的获胜者
+
+266
+00:11:19,458 --> 00:11:20,008
+been dropped
+被丢弃
+
+267
+00:11:20,208 --> 00:11:21,928
+I'll get less social welfare overall
+我的整体社会福利会减少
+
+268
+00:11:22,129 --> 00:11:24,358
+which is why I was picking a different
+这就是为什么我选择不同的原因
+
+269
+00:11:24,558 --> 00:11:26,878
+agent in the first place but when I
+首先是代理商，但当我
+
+270
+00:11:27,078 --> 00:11:28,828
+consider only agents other than I
+只考虑我以外的代理商
+
+271
+00:11:29,028 --> 00:11:31,048
+they're all going to be happier when I
+当我的时候他们都会更快乐
+
+272
+00:11:31,249 --> 00:11:33,598
+has been dropped than when I was present
+比我在场的时候掉了
+
+273
+00:11:33,798 --> 00:11:36,418
+because one of them gets to win after I
+因为其中之一在我之后获胜
+
+274
+00:11:36,619 --> 00:11:38,008
+was dropped and in the case where I was
+被丢弃，如果我是
+
+275
+00:11:38,208 --> 00:11:40,378
+president one of them wasn't winning so
+总统其中一位没有赢
+
+276
+00:11:40,578 --> 00:11:42,178
+you can see it's kind of actually a
+你可以看到它实际上是一个
+
+277
+00:11:42,379 --> 00:11:43,529
+pretty natural property this ain't no
+很自然的属性这不是
+
+278
+00:11:43,730 --> 00:11:48,178
+single agent effect so turns out that
+单剂效应，结果证明
+
+279
+00:11:48,379 --> 00:11:50,248
+this is all we need to prove that VCG is
+这就是我们需要证明VCG是
+
+280
+00:11:50,448 --> 00:11:52,589
+weekly budget balanced and indeed it's a
+每周预算平衡，实际上是
+
+281
+00:11:52,789 --> 00:11:56,279
+pretty direct proof so as before let's
+像以前一样非常直接的证明
+
+282
+00:11:56,480 --> 00:11:58,228
+assume truth-telling an equilibrium and
+假设说实话的均衡， 
+
+283
+00:11:58,428 --> 00:12:00,418
+now what we want to think about is the
+现在我们要考虑的是
+
+284
+00:12:00,619 --> 00:12:02,578
+sum of transfers that agents make to the
+代理商向客户转移的总和
+
+285
+00:12:02,778 --> 00:12:05,038
+center so the sum of all of the payments
+中心，所以所有付款的总和
+
+286
+00:12:05,239 --> 00:12:07,348
+and I want to show that the sum of all
+我想证明所有的总和
+
+287
+00:12:07,548 --> 00:12:08,698
+of these payments is greater than or
+这些付款中的大于或
+
+288
+00:12:08,899 --> 00:12:11,668
+equal to zero that's going to mean week
+等于零意味着一周
+
+289
+00:12:11,869 --> 00:12:14,818
+budget balance so once again this is the
+预算余额，所以这又是
+
+290
+00:12:15,019 --> 00:12:17,068
+VCG payment function and now I'm just
+ VCG支付功能，现在我只是
+
+291
+00:12:17,269 --> 00:12:18,659
+summing the payment function across all
+汇总所有支付功能
+
+292
+00:12:18,860 --> 00:12:20,488
+of the agents because I'm interested in
+的代理商，因为我对
+
+293
+00:12:20,688 --> 00:12:23,878
+the aggregate payment from the no single
+单笔付款的总和
+
+294
+00:12:24,078 --> 00:12:27,628
+agent effect condition I know that for
+我知道代理作用条件
+
+295
+00:12:27,828 --> 00:12:30,149
+all of the agents other than I the value
+除我以外的所有代理商的价值
+
+296
+00:12:30,350 --> 00:12:32,038
+they have for a world for the choice
+他们有选择的世界
+
+297
+00:12:32,239 --> 00:12:34,348
+that gets made when I is dropped the
+当我掉下来的时候
+
+298
+00:12:34,548 --> 00:12:35,788
+social welfare maximizing choice for
+社会福利最大化的选择
+
+299
+00:12:35,989 --> 00:12:37,438
+them that gets made when I is dropped is
+当我掉下来的时候，它们是
+
+300
+00:12:37,639 --> 00:12:41,848
+at least as big as the sum over all of
+至少等于全部
+
+301
+00:12:42,048 --> 00:12:44,788
+their utilities for the choice that gets
+他们的实用程序，以获得选择
+
+302
+00:12:44,989 --> 00:12:46,409
+made when I is not dropped
+当我不落水时
+
+303
+00:12:46,610 --> 00:12:48,748
+that's just directly what no single
+那就是直接没有任何一个
+
+304
+00:12:48,948 --> 00:12:52,348
+agent effect means and you can see that
+代理效应意味着，您可以看到
+
+305
+00:12:52,548 --> 00:12:53,968
+these are exactly the terms that I have
+这些正是我所拥有的术语
+
+306
+00:12:54,168 --> 00:12:57,519
+in the VCG payment function
+在VCG付款功能中
+
+307
+00:13:02,429 --> 00:13:06,359
+and so the result follows directly this
+所以结果直接跟随这个
+
+308
+00:13:06,559 --> 00:13:08,769
+blue term is bigger than the green term
+蓝色项大于绿色项
+
+309
+00:13:08,970 --> 00:13:11,349
+which means that this expression up here
+这意味着这里的表达
+
+310
+00:13:11,549 --> 00:13:14,799
+is just positive for every eye and not
+对每一只眼睛都是正面的，而不是
+
+311
+00:13:15,000 --> 00:13:17,919
+negative for every eye and so that gives
+对每只眼睛都是负面的
+
+312
+00:13:18,120 --> 00:13:19,539
+us what we want which is that this whole
+我们我们想要的是那整个
+
+313
+00:13:19,740 --> 00:13:23,069
+sum is greater than or equal to zero
+总和大于或等于零
+
+314
+00:13:23,269 --> 00:13:25,779
+well I have one last bit of good news to
+好吧，我还有最后一个好消息要
+
+315
+00:13:25,980 --> 00:13:28,629
+give you here's a theorem from Krishna
+给你一个来自克里希纳的定理
+
+316
+00:13:28,830 --> 00:13:30,729
+and peri which says something else about
+和peri，这还说了一些关于
+
+317
+00:13:30,929 --> 00:13:32,529
+the revenue and VCG which is even more
+收入和VCG甚至更多
+
+318
+00:13:32,730 --> 00:13:35,289
+encouraging than we just saw it says
+比我们刚刚看到的鼓舞人心的
+
+319
+00:13:35,490 --> 00:13:37,599
+consider any Bayesian game setting in
+考虑任何贝叶斯游戏设置
+
+320
+00:13:37,799 --> 00:13:40,029
+which VCG is ex-post individually
+哪个VCG是单独邮寄的
+
+321
+00:13:40,230 --> 00:13:44,349
+rational and the claim is that in such
+理性的主张是
+
+322
+00:13:44,549 --> 00:13:47,019
+as case VCG collects at least as much
+如果VCG至少收集了
+
+323
+00:13:47,220 --> 00:13:51,099
+revenue as any other efficient and X
+收益与其他任何有效收益和X 
+
+324
+00:13:51,299 --> 00:13:53,289
+interim individually rational mechanism
+临时个体理性机制
+
+325
+00:13:53,490 --> 00:13:56,469
+now here are a couple of things to kind
+现在这里有几件好事
+
+326
+00:13:56,669 --> 00:13:58,990
+of walk through about what what is being
+逐步了解正在发生什么
+
+327
+00:13:59,190 --> 00:14:02,049
+claimed here first of all you might
+首先要在这里声明
+
+328
+00:14:02,250 --> 00:14:04,929
+wonder about this little preamble didn't
+奇怪这个序言没有
+
+329
+00:14:05,129 --> 00:14:06,549
+we already talk about what happens when
+我们已经在谈论什么时候会发生什么
+
+330
+00:14:06,750 --> 00:14:08,949
+VCG is ex-post individual rational well
+ VCG是事后个人理性的好
+
+331
+00:14:09,149 --> 00:14:10,269
+not really because what we looked at
+并不是真的因为我们看了什么
+
+332
+00:14:10,470 --> 00:14:12,789
+before was two conditions that are
+之前有两个条件
+
+333
+00:14:12,990 --> 00:14:14,889
+sufficient for VCG to be individual
+足以使VCG变得个性化
+
+334
+00:14:15,090 --> 00:14:17,649
+rational we didn't claim that there
+理性的，我们没有声称那里
+
+335
+00:14:17,850 --> 00:14:19,059
+aren't other things that might be true
+不是其他事情可能是真的
+
+336
+00:14:19,259 --> 00:14:20,409
+about the setting that would also result
+关于也会导致的设置
+
+337
+00:14:20,610 --> 00:14:23,529
+in VCG being individual rational so what
+在VCG中是个人理性，那么
+
+338
+00:14:23,730 --> 00:14:25,719
+this theorem says is don't worry about
+这个定理说不用担心
+
+339
+00:14:25,919 --> 00:14:27,429
+how you got there think about any
+你怎么到那里想什么
+
+340
+00:14:27,629 --> 00:14:29,500
+setting in which VCG is ex-post
+后期VCG的设置
+
+341
+00:14:29,700 --> 00:14:31,389
+individual rational it'll include what
+个人理性将包括什么
+
+342
+00:14:31,590 --> 00:14:32,889
+we talked about before but it'll include
+我们之前讨论过，但其中包括
+
+343
+00:14:33,090 --> 00:14:36,309
+other settings too and what it says is
+其他设置也是如此
+
+344
+00:14:36,509 --> 00:14:39,250
+VCG collects at least as much revenue as
+ VCG收集的收入至少与
+
+345
+00:14:39,450 --> 00:14:44,620
+any other efficient mechanism a thing to
+任何其他有效的机制
+
+346
+00:14:44,820 --> 00:14:49,229
+notice here is even if that mechanism
+注意，即使该机制
+
+347
+00:14:49,429 --> 00:14:52,299
+only uses Bayes Nash equilibrium we're
+只使用贝叶斯纳什均衡
+
+348
+00:14:52,500 --> 00:14:54,069
+not assuming that this other mechanism
+不假设其他机制
+
+349
+00:14:54,269 --> 00:14:56,349
+is dominant-strategy efficient so this
+是有效的主导策略，所以这
+
+350
+00:14:56,549 --> 00:14:58,509
+other mechanism gets to be drawn from a
+其他机制必须从
+
+351
+00:14:58,710 --> 00:15:00,429
+much bigger pool the dominant strategy
+更大的池占主导地位的策略
+
+352
+00:15:00,629 --> 00:15:01,809
+mechanisms and the Bayes Nash
+机制和贝叶斯纳什
+
+353
+00:15:02,009 --> 00:15:04,809
+equilibrium mechanisms and another sense
+平衡机制和另一种意义
+
+354
+00:15:05,009 --> 00:15:06,189
+in which it's drawn from a bigger pool
+从更大的水池中抽出来的
+
+355
+00:15:06,389 --> 00:15:09,159
+is that we're only going to require of
+是我们只需要
+
+356
+00:15:09,360 --> 00:15:11,079
+this competitor mechanism that it's X
+这就是X的竞争机制
+
+357
+00:15:11,279 --> 00:15:13,089
+interim individual rational whereas
+临时个人理性而
+
+358
+00:15:13,289 --> 00:15:15,399
+we're requiring a VCG that it's ex-post
+我们需要事后的VCG 
+
+359
+00:15:15,600 --> 00:15:16,508
+individual
+个人
+
+360
+00:15:16,708 --> 00:15:18,578
+so this is a X syndrome individual
+这是一个X综合征个体
+
+361
+00:15:18,778 --> 00:15:20,258
+rationality is a weaker thing to require
+理性是一个较弱的要求
+
+362
+00:15:20,458 --> 00:15:22,029
+which means there's a broader set of
+这意味着有更广泛的
+
+363
+00:15:22,230 --> 00:15:24,490
+mechanisms that would satisfy it which
+满足它的机制
+
+364
+00:15:24,690 --> 00:15:26,229
+means that we're making a stronger
+意味着我们正在变得更强大
+
+365
+00:15:26,429 --> 00:15:28,179
+statement when we compare VCG to this
+我们将VCG与之比较的声明
+
+366
+00:15:28,379 --> 00:15:33,159
+broad set so a way of understanding this
+广泛设置，这样一种理解这一点的方式
+
+367
+00:15:33,360 --> 00:15:36,008
+result is that VC G is as budget
+结果是VC G作为预算
+
+368
+00:15:36,208 --> 00:15:37,959
+balanced as any efficient mechanism can
+任何有效机制都可以平衡
+
+369
+00:15:38,159 --> 00:15:41,318
+be so I'm not saying here necessarily
+是的，所以我不必在这里说
+
+370
+00:15:41,519 --> 00:15:43,419
+that the revenue is greater than or
+收入大于或
+
+371
+00:15:43,620 --> 00:15:45,789
+equal to zero sometimes it will be and
+等于零，有时会是
+
+372
+00:15:45,990 --> 00:15:48,429
+sometimes not but in cases where the
+有时不是，但在
+
+373
+00:15:48,629 --> 00:15:51,089
+revenue is still none a still negative
+收入仍然没有负数
+
+374
+00:15:51,289 --> 00:15:54,368
+what this result says is if VCG was
+这个结果说明的是如果VCG是
+
+375
+00:15:54,568 --> 00:15:56,558
+ex-post individual rational there's no
+事后个人理性没有
+
+376
+00:15:56,759 --> 00:15:58,389
+other mechanism which is efficient and
+其他有效的机制
+
+377
+00:15:58,589 --> 00:16:00,429
+which gets more revenue so VC G is
+它获得了更多收入，所以VC G是
+
+378
+00:16:00,629 --> 00:16:01,779
+always getting as close to budget
+总是接近预算
+
+379
+00:16:01,980 --> 00:16:05,709
+balance as efficient mechanisms can as
+平衡，因为有效的机制可以
+
+380
+00:16:05,909 --> 00:16:08,139
+long as vc g remains individually
+只要vc g保持单独
+
+381
+00:16:08,339 --> 00:16:13,339
+rational
+合理的
+
